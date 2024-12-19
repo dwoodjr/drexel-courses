@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Welcome"
             }
           }
         ]
@@ -203,12 +203,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81e14ee526097519",
+  "active": "8f33be5a374f1ceb",
   "lastOpenFiles": [
-    "docs",
-    "README.md",
-    "Tags",
+    "docs/lib/search-index.json",
+    "docs/lib/metadata.json",
+    "docs/lib/styles/supported-plugins.css",
+    "docs/lib/styles/theme.css",
+    "docs/lib/styles/obsidian.css",
+    "docs/lib/styles/main-styles.css",
+    "docs/lib/styles/global-variable-styles.css",
+    "docs/lib/styles",
+    "docs/lib/scripts/graph-data.js",
+    "docs/lib/scripts/minisearch.js",
+    "docs/lib/scripts/pixi.js",
+    "docs/lib/media/favicon.png",
+    "docs/lib/media/874d8b8e340f75575caa.svg",
     "Welcome.md",
+    "README.md",
     "Legacy/SU - 24/Tutorial - Updated Lightsaber System.md",
     "Legacy/SU - 24/Tutorial - Material Instancing.md",
     "Legacy/SU - 24/Tutorial - Lightsaber Builder.md",
@@ -231,15 +242,6 @@
     "Legacy/SU - 24/GMAP 395 - SU24 - Presentation Outline - Week 6.md",
     "Legacy/SU - 24/GMAP 395 - SU24 - Presentation Outline - Week 5.md",
     "Legacy/SU - 24/GMAP 395 - SU24 - Presentation Outline - Week 4.md",
-    "Legacy/SU - 24/GMAP 395 - SU24 - Presentation Outline - Week 3.md",
-    "Legacy/SU - 24",
-    "Legacy/LHL",
-    "Legacy/FA - 24/DIGM 131/RCPs",
-    "Legacy/FA - 24/DIGM 131/PLNs/starters.zip",
-    "Legacy/FA - 24/DIGM 131/PLNs",
-    "Legacy/FA - 24/DIGM 131/LABs",
-    "Legacy/FA - 24/DIGM 131/DOCs",
-    "Legacy/FA - 24/DIGM 131/ASNs",
-    "Legacy/FA - 24/DIGM 131"
+    "Legacy/SU - 24/GMAP 395 - SU24 - Presentation Outline - Week 3.md"
   ]
 }
