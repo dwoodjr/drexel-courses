@@ -1,4 +1,134 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 19 Dec 2024 18:30:29 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 19 Dec 2024 18:30:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 19 Dec 2024 23:13:30 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 19 Dec 2024 23:13:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+ <br><br><br><br>Instructor Details
+
+<br>Name: Darren Woodland, Jr.
+<br>Email: <a data-tooltip-position="top" aria-label="mailto:dkw34@drexel.edu" rel="noopener nofollow" class="external-link" href="mailto:dkw34@drexel.edu" target="_blank">dkw34@drexel.edu</a>
+<br>Office Hours: By appointment through email or <a data-tooltip-position="top" aria-label="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" rel="noopener nofollow" class="external-link" href="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" target="_blank">booking</a>.
+
+<br><br>Classroom Info
+
+<br>Location: URBN 248
+<br>Students will use Drexel Learn and their @drexel.edu emails for all class communication.
+
+<br><br>This course introduces students to procedural real-time game systems and technical art production. Students will explore Unity-based workflows, gaining proficiency in shaders, particle systems, modeling, and visual effects. The course emphasizes real-time systems and modular design techniques.<br><br>Key Capabilities
+
+<br>Procedural and modular modeling
+<br>Shader and material development
+<br>Particle and image effects
+<br>Lighting, camera techniques, and post-processing
+
+<br><br>By the end of the course, students will demonstrate skills in:<br>
+<br>🤖 Procedural modeling
+<br>💡 Scene lighting and camera effects
+<br>✨ VFX creation
+<br>🖌️ Shader and material development
+<br>🔄 Technical workflows for real-time game art
+<br><br><br><br>Weeks 1-2 Highlights
+
+<br>Fundamentals of procedural modeling
+<br>Modular workflows
+<br>Lighting systems focusing on geometry and light interplay
+
+<br>Assignment 1: Create a modular game asset and integrate lighting systems.<br>
+Due: Week 2<br><br>Weeks 3-4 Highlights
+
+<br>Custom shader creation using code and visual scripting
+<br>Application of shaders to procedural assets for real-time interactivity
+
+<br>Assignment 2: Develop shaders for the asset created in Assignment 1.<br>
+Due: Week 4<br><br>Weeks 5-6 Highlights
+
+<br>Particle systems using visual scripting and component-based systems
+<br>Creating interactive effects tied to game mechanics
+
+<br>Assignment 3: Add particle and dynamic visual effects to the modular asset.<br>
+Due: Week 6<br><br>Week 7 Highlights
+
+<br>Camera manipulation techniques
+<br>Post-processing pipelines for polish and visual enhancement
+
+<br>Assignment 4: Implement camera effects and post-processing for the asset.<br>
+Due: Week 7<br><br>Weeks 8-10 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.<br>Final Deliverables:<br>
+<br>🎯 Cohesive scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
+<br><br><br><br><br><br>Grading Breakdown
+
+<br>35% Assignments: Bi-weekly assignments focusing on module topics.
+<br>25% Final Project: Integration of course concepts into a cohesive artifact.
+<br>25% Participation and Professionalism: Engagement, attendance, and critique contributions.
+<br>15% Weekly Quizzes: Short assessments via Drexel Learn to reinforce key concepts.
+
+<br><br><br><br>Submission Rules
+
+<br>Submit all work via Drexel Learn (unless other wise specified).
+<br>Follow assignment submission guidelines outlined in briefs
+<br>Use proper file naming conventions (e.g., Assignment1_Lighting_Final.docx).
+<br>Late work incurs a 10% penalty per day.
+
+<br><br>Attendance Requirements
+
+<br>Attendance is mandatory. 
+<br>Missing more than one class reduces your grade.
+
+<br>Three or more absences result in course failure.<br><br>Plagiarism and Cheating Policy
+
+<br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
+
+<br><br><br>Useful Links
+
+<br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.drexel.edu/" rel="noopener nofollow" class="external-link" href="https://learn.drexel.edu/" target="_blank">Drexel Learn</a>
+<br><a data-tooltip-position="top" aria-label="https://dl.acm.org/" rel="noopener nofollow" class="external-link" href="https://dl.acm.org/" target="_blank">ACM Digital Library</a>
+<br><a data-tooltip-position="top" aria-label="https://www.gdcvault.com/" rel="noopener nofollow" class="external-link" href="https://www.gdcvault.com/" target="_blank">GDC Vault</a>
+<br><a data-tooltip-position="top" aria-label="https://freelibrary.org/" rel="noopener nofollow" class="external-link" href="https://freelibrary.org/" target="_blank">LinkedIn Learning via Free Library of Philadelphia</a>
+
+<br><br>Instructor Notes: For updates or changes to the syllabus, students will be notified via Drexel Learn or email.]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Thu, 19 Dec 2024 22:57:20 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+ <br><br>About the Course
+GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on concepts and techniques related to technical art for games. 
+Dive into real-time systems and game engine workflows with topics like:
+
+<br>Shaders: Mastering visual effects and materials.
+<br>Procedural Modeling: Automating asset creation.
+<br>Lighting Systems: Enhancing mood and realism.
+<br>Camera Effects: Dynamic cameras and post-processing.
+
+Whether you're aiming to focus on creating visually stunning worlds or procedural game systems, this course equips you with the tools to succeed.
+<br><br><br><br><br><br><br>
+<br>Instructor: Darren Woodland, Jr.  
+<br>Office Hours (by appointment): <a data-tooltip-position="top" aria-label="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" rel="noopener nofollow" class="external-link" href="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" target="_blank">Microsoft Bookings</a> or email.
+<br><br><br>For questions or concerns, feel free to reach out:  <br>
+<br>Email: <a data-tooltip-position="top" aria-label="mailto:dkw34@drexel.edu" rel="noopener nofollow" class="external-link" href="mailto:dkw34@drexel.edu" target="_blank">dkw34@drexel.edu</a>
+<br>Discord: tromboctopus
+<br><br><br><br>
+<br>Overview of real-time systems
+<br>Introduction to game engines: Unity and Unreal Engine
+<br><br>
+<br>Creating custom shaders
+<br>Understanding lighting interactions
+<br>Case study: Stylized vs. photorealistic materials
+<br><br>
+<br>Introduction to procedural modeling
+<br>Using Houdini and other tools for asset generation
+<br>Optimizing workflows for game engines
+<br><br>
+<br>Real-time lighting techniques
+<br>Procedural sound design and implementation
+<br>Case study: Integrating sound and light for immersive environments
+<br><br>
+<br>A cohesive real-time scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
+<br><br><br>Recommended Software
+
+<br>Unity: <a data-tooltip-position="top" aria-label="https://unity.com/download" rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">Download Link</a>
+<br>Blender: <a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Download Link</a>
+<br>Visual Studio Code: <a data-tooltip-position="top" aria-label="https://code.visualstudio.com/" rel="noopener nofollow" class="external-link" href="https://code.visualstudio.com/" target="_blank">Download Link</a>
+
+<br><br><br>"Learn to merge art with technology in innovative ways."
+By the end of this course, you'll:
+
+<br>Build visually compelling and efficient game environments.
+<br>Understand the interplay of art and programming.
+<br>Gain a portfolio-ready project demonstrating your technical art skills.
+
+<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Thu, 19 Dec 2024 23:11:53 GMT</pubDate></item><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
  <br><br>About This Page
 Welcome to the landing page for the courses I teach! This includes courses from both:
 
