@@ -1,3 +1,76 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 19 Dec 2024 17:44:44 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 19 Dec 2024 17:44:43 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Courses List]]></title><description><![CDATA[ 
- <br><a data-href="Welcome" href="welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Welcome</a><br><br>This section of courses include both DIGM (Digital Media) and GMAP (Game Art and Production) courses.<br>]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Thu, 19 Dec 2024 17:44:29 GMT</pubDate></item><item><title><![CDATA[Tester Page]]></title><description><![CDATA[ 
- <br>This is your new vault.<br>Make a note of something, <a data-href="create a link" href="create a link" class="internal-link" target="_self" rel="noopener nofollow">create a link</a>, or try <a data-tooltip-position="top" aria-label="https://help.obsidian.md/Plugins/Importer" rel="noopener nofollow" class="external-link" href="https://help.obsidian.md/Plugins/Importer" target="_blank">the Importer</a>!<br>When you're ready, delete this note and make the vault your own.]]></description><link>welcome.html</link><guid isPermaLink="false">Welcome.md</guid><pubDate>Thu, 19 Dec 2024 17:44:34 GMT</pubDate></item></channel></rss>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 19 Dec 2024 18:24:10 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 19 Dec 2024 18:24:09 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+ <br><br>About the Course
+GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on technical art for games. Dive into real-time systems and game engine workflows with topics like:
+
+<br>Shaders: Mastering visual effects and materials.
+<br>Procedural Modeling: Automating asset creation.
+<br>Lighting Systems: Enhancing mood and realism.
+<br>Procedural Sound: Dynamic audio implementation.
+
+Whether you're creating visually stunning worlds or immersive soundscapes, this course equips you with the tools to succeed.
+<br><br><br>
+<br>Instructor: Darren Woodland, Jr.  
+<br>Office Hours: [Times and Contact Info]
+<br><br><br><br>
+<br>Overview of real-time systems
+<br>Introduction to game engines: Unity and Unreal Engine
+<br><br>
+<br>Creating custom shaders
+<br>Understanding lighting interactions
+<br>Case study: Stylized vs. photorealistic materials
+<br><br>
+<br>Introduction to procedural modeling
+<br>Using Houdini and other tools for asset generation
+<br>Optimizing workflows for game engines
+<br><br>
+<br>Real-time lighting techniques
+<br>Procedural sound design and implementation
+<br>Case study: Integrating sound and light for immersive environments
+<br><br><br>
+<br><a class="internal-link" data-href="./syllabus.md" href="syllabus" target="_self" rel="noopener nofollow">Syllabus</a>
+<br><a class="internal-link" data-href="./assignments.md" href="assignments" target="_self" rel="noopener nofollow">Assignments</a>
+<br><a class="internal-link" data-href="./resources.md" href="resources" target="_self" rel="noopener nofollow">Resources</a>
+<br><a class="internal-link" data-href="./faq.md" href="faq" target="_self" rel="noopener nofollow">FAQ</a>
+<br><br><br>Recommended Software
+
+<br>Unity: <a data-tooltip-position="top" aria-label="https://unity.com/" rel="noopener nofollow" class="external-link" href="https://unity.com/" target="_blank">Download Link</a>
+<br>Unreal Engine: <a data-tooltip-position="top" aria-label="https://www.unrealengine.com/" rel="noopener nofollow" class="external-link" href="https://www.unrealengine.com/" target="_blank">Download Link</a>
+<br>Houdini: <a data-tooltip-position="top" aria-label="https://www.sidefx.com/" rel="noopener nofollow" class="external-link" href="https://www.sidefx.com/" target="_blank">Download Link</a>
+<br>Visual Studio Code: <a data-tooltip-position="top" aria-label="https://code.visualstudio.com/" rel="noopener nofollow" class="external-link" href="https://code.visualstudio.com/" target="_blank">Download Link</a>
+
+<br><br><br>"Learn to merge art with technology in innovative ways."
+By the end of this course, you'll:
+
+<br>Build visually compelling and efficient game environments.
+<br>Understand the interplay of art and programming.
+<br>Gain a portfolio-ready project demonstrating your technical art skills.
+
+<br><br><br>For questions or concerns, feel free to reach out:  <br>
+<br>Email: <a data-tooltip-position="top" aria-label="mailto:dkw34@drexel.edu" rel="noopener nofollow" class="external-link" href="mailto:dkw34@drexel.edu" target="_blank">dkw34@drexel.edu</a>
+<br>Discord: tromboctopus
+<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Thu, 19 Dec 2024 18:03:31 GMT</pubDate></item><item><title><![CDATA[Courses List]]></title><description><![CDATA[ 
+ <br><br>About This Page
+Welcome to the landing page for the courses I teach! This includes courses from both:
+
+<br>🎥 DIGM (Digital Media)  
+<br>🎮 GMAP (Game Art and Production)  
+
+Explore the courses below to find detailed content, assignments, and resources.
+<br><br><br><br>
+<br>
+🎨 <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395</a>: Advanced Game Art and Production<br>
+(Technical art for games: shaders, procedural modeling, lighting systems, and real-time sound.)
+
+<br>
+🛠️ GMAP 345: Game Production Studio  
+
+<br>
+📜 GMAP 231: Introduction to Scripting for Game Design  
+
+<br><br><br><br>Navigation Made Easy
+Use the links above to jump directly to the course materials, assignments, and other resources for each course.
+<br><br><br>
+🧠 Expand Your Skills: Learn cutting-edge techniques in digital media and game production.<br>
+🎯 Build Your Portfolio: Create projects that stand out in your career journey.<br>
+🌐 Collaborate and Innovate: Work with peers to tackle creative challenges.
+<br><br>]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Thu, 19 Dec 2024 18:20:12 GMT</pubDate></item></channel></rss>
