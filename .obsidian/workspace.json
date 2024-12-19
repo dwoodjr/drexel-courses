@@ -205,6 +205,7 @@
   },
   "active": "8f33be5a374f1ceb",
   "lastOpenFiles": [
+    "docs/index.html",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
     "docs/lib/styles/supported-plugins.css",
@@ -215,7 +216,6 @@
     "docs/lib/styles",
     "docs/lib/scripts/graph-data.js",
     "docs/lib/scripts/minisearch.js",
-    "docs/lib/scripts/pixi.js",
     "docs/lib/media/favicon.png",
     "docs/lib/media/874d8b8e340f75575caa.svg",
     "Welcome.md",
