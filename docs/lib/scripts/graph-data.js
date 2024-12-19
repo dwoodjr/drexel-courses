@@ -1,1 +1,1 @@
-let graphData={graphOptions:{attractionForce:1,linkLength:10,repulsionForce:150,centralForce:3,edgePruning:100,minNodeRadius:3,maxNodeRadius:7},isInitialized:!0,paths:["welcome.html"],nodeCount:1,linkSources:[],linkTargets:[],labels:["Welcome"],radii:[null],linkCount:0}
+let graphData={graphOptions:{attractionForce:1,linkLength:10,repulsionForce:150,centralForce:3,edgePruning:100,minNodeRadius:3,maxNodeRadius:7},isInitialized:!0,paths:["index.html","welcome.html"],nodeCount:2,linkSources:[0],linkTargets:[1],labels:["Courses List","Tester Page"],radii:[7,7],linkCount:1}
