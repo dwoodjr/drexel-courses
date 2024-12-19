@@ -1,5 +1,5 @@
 ---
-title: Courses List
+title: 🐲 Drexel Courses List
 ---
 # 🐲 Drexel Courses List
 
