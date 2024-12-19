@@ -1,0 +1,52 @@
+# Workflow name: Deploy to GitHub Pages
+# This workflow automates the deployment of your site to GitHub Pages.
+
+name: Deploy to GitHub Pages
+
+# Trigger the workflow on specific events
+on:
+  # Run the workflow when there's a push to the 'main' branch
+  push:
+    branches: [ "main" ]
+  # Run the workflow for pull requests targeting the 'main' branch
+  pull_request:
+    branches: [ "main" ]
+  # Allow manual triggering of the workflow from the Actions tab
+  workflow_dispatch:
+
+# Define the jobs to be executed
+jobs:
+  # Job name: deploy
+  deploy:
+    # Specify the runner environment
+    runs-on: ubuntu-latest
+
+    # Set permissions for the job
+    permissions:
+      contents: read       # Allows reading repository contents
+      pages: write         # Grants permission to publish to GitHub Pages
+      id-token: write      # Necessary for OpenID Connect authentication
+
+    # Define the sequence of steps for the job
+    steps:
+      # Step 1: Check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        # This action clones your repository, providing access to its contents.
+
+      # Step 2: Set up GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+        # Prepares the environment for deploying to GitHub Pages.
+
+      # Step 3: Upload the 'docs' directory as an artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'docs'  # Specifies the directory containing your site files
+        # Packages the contents of the 'docs' directory for deployment.
+
+      # Step 4: Deploy the uploaded artifact to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
+        # Publishes the artifact to GitHub Pages, making your site live.
