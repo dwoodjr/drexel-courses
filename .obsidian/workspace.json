@@ -217,7 +217,46 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "floating": {
+    "id": "718e161272344605",
+    "type": "floating",
+    "children": [
+      {
+        "id": "4dafb118d61d744f",
+        "type": "window",
+        "children": [
+          {
+            "id": "bb0da150f29c0a09",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9e3b8491a814cfce",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GMAP 395/GMAP 395 - Syllabus.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "GMAP 395 - Syllabus"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 573,
+        "y": 604,
+        "width": 902,
+        "height": 500,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "9e3b8491a814cfce",
   "lastOpenFiles": [
     "Index.md",
     "Drexel Courses List.md",
