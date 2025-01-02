@@ -16,7 +16,7 @@ title: Welcome to GMAP 395!
 
 ---
 ## 🏛️***Course Links***
-### [BB Learn]()
+### [BB Learn](https://learn.dcollege.net/ultra/courses/_384869_1/cl/outline)
 ### [[GMAP 395 - Syllabus|Syllabus]]
 
 ---

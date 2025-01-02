@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 20 Dec 2024 16:27:27 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 20 Dec 2024 16:27:25 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 02 Jan 2025 20:18:03 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 02 Jan 2025 20:18:01 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
  <br><br><br><br>Instructor Details
 
 <br>Name: Darren Woodland, Jr.
@@ -23,32 +23,46 @@
 <br>✨ VFX creation
 <br>🖌️ Shader and material development
 <br>🔄 Technical workflows for real-time game art
-<br><br><br><br>Weeks 1-2 Highlights
+<br><br><br><br>Useful Links
+
+<br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>
+<br><a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender 4.3 Download</a>
+<br><a data-tooltip-position="top" aria-label="https://code.visualstudio.com/" rel="noopener nofollow" class="external-link" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> or your favorite IDE (must support C# + Python)
+
+<br><br>Useful Links
+
+<br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.drexel.edu/" rel="noopener nofollow" class="external-link" href="https://learn.drexel.edu/" target="_blank">Drexel Learn</a>
+<br><a data-tooltip-position="top" aria-label="https://dl.acm.org/" rel="noopener nofollow" class="external-link" href="https://dl.acm.org/" target="_blank">ACM Digital Library</a>
+<br><a data-tooltip-position="top" aria-label="https://www.gdcvault.com/" rel="noopener nofollow" class="external-link" href="https://www.gdcvault.com/" target="_blank">GDC Vault</a>
+<br><a data-tooltip-position="top" aria-label="https://freelibrary.org/" rel="noopener nofollow" class="external-link" href="https://freelibrary.org/" target="_blank">LinkedIn Learning via Free Library of Philadelphia</a>
+
+<br><br><br><br>Weeks 1-3 Highlights
 
 <br>Fundamentals of procedural modeling
 <br>Modular workflows
 <br>Lighting systems focusing on geometry and light interplay
 
 <br>Assignment 1: Create a modular game asset and integrate lighting systems.<br>
-Due: Week 2<br><br>Weeks 3-4 Highlights
+Due: Week 3<br><br>Weeks 4-5 Highlights
 
 <br>Custom shader creation using code and visual scripting
 <br>Application of shaders to procedural assets for real-time interactivity
 
 <br>Assignment 2: Develop shaders for the asset created in Assignment 1.<br>
-Due: Week 4<br><br>Weeks 5-6 Highlights
+Due: Week 5<br><br>Weeks 6-7 Highlights
 
 <br>Particle systems using visual scripting and component-based systems
 <br>Creating interactive effects tied to game mechanics
 
 <br>Assignment 3: Add particle and dynamic visual effects to the modular asset.<br>
-Due: Week 6<br><br>Week 7 Highlights
+Due: Week 7<br><br>Week 8 Highlights
 
 <br>Camera manipulation techniques
 <br>Post-processing pipelines for polish and visual enhancement
 
 <br>Assignment 4: Implement camera effects and post-processing for the asset.<br>
-Due: Week 7<br><br>Weeks 8-10 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.<br>Final Deliverables:<br>
+Due: Week 8<br><br>Weeks 8-10 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.<br>Final Deliverables:<br>
 <br>🎯 Cohesive scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
 <br><br><br><br><br><br>Grading Breakdown
 
@@ -57,31 +71,58 @@ Due: Week 7<br><br>Weeks 8-10 Focus Combine and refine work from Modules 1-4 int
 <br>25% Participation and Professionalism: Engagement, attendance, and critique contributions.
 <br>15% Weekly Quizzes: Short assessments via Drexel Learn to reinforce key concepts.
 
-<br><br><br><br>Submission Rules
+<br><br><br><br>Classroom Activities
+In order to foster a more optimal learning environment and ensure respect for all participants, the following policy is in effect during lectures, live-coding, and both guest and student presentations:<br>
+- No personal electronic devices: Cell phones, tablets, laptops, and other devices must be turned off and put away unless explicitly permitted for note-taking or learning activity use.<br>
+- No non-course-related activities: Gaming, video watching, social media use, or any other non-course-related activities are strictly prohibited.<br>
+- Acceptable learning activities: Note-taking (electronic or handwritten) and productive doodling/drawing related to course content are permitted and encouraged.<br>
+- Lab sessions: During hands-on lab portions, device use is allowed for course-related work, peer discussions, and instructor engagement.
+<br>Affects Participation + Professionalism
+Violations of this policy will impact the Participation and Professionalism grade. Multiple offenses may result in a zero (0) for this component of the course grade, without exception.
+<br><br>Cheating and Plagiarism Definitions
+Cheating or plagiarism, as defined for this course, are governed by the Drexel University Academic Integrity Policy.<br>
+Both are strictly forbidden. DO NOT DO IT!<br>
+All instances will be investigated and reported as outlined by Drexel University policy.<br>
+They will also result in: at minimum failing the assignment and an automatic decrease&nbsp;of one letter grade for your final grade and may result in your failing the course.
+<br><br>Submission Rules
 
 <br>Submit all work via Drexel Learn (unless other wise specified).
 <br>Follow assignment submission guidelines outlined in briefs
-<br>Use proper file naming conventions (e.g., Assignment1_Lighting_Final.docx).
-<br>Late work incurs a 10% penalty per day.
+<br>Use proper file naming conventions (e.g., abc123_a1_lighting_final.mp4).
 
+<br><br>Late Assignmnets
+Assignments must be turned in on time!<br>
+Lateness will automatically result in at&nbsp;minimum the loss of one letter grade.<br>
+Late work incurs a 10% penalty per day.
 <br><br>Attendance Requirements
 
 <br>Attendance is mandatory. 
-<br>Missing more than one class reduces your grade.
+<br>Students are allowed one unexcused absence.
+<br>Missing more than one class (unexcused) reduces your grade.
+<br>Each late arrival to class will result in 50% attendance for the day.
 
-<br>Three or more absences result in course failure.<br><br>Plagiarism and Cheating Policy
+<br>Excused Abcense
+Note that an excused absence is defined as one that is the result of a condition or&nbsp;circumstance beyond the student's control, such as illness, a family crisis or&nbsp;emergency, or some other serious and important personal circumstance.
+<br>Three or more absences results in course failure.<br><br>AI Use Policy
+Artificial intelligence (AI) tools, such as large language models (e.g., ChatGPT or Claude), may be used in this course under specific guidelines, outlined below.
+<br>Approved AI Uses
+
+<br>AI tools are permitted for developing assets for assignments and projects, such as generating images or code snippets.
+<br>Students may use AI to help better contextualize and understand code, programming concepts, and course structures. This includes using AI for code review, breakdowns, and topic summaries.
+<br>All written materials, explanations, and analyses submitted for assignments should be the original work of the student. AI should not be used to generate these portions of your submissions.
+
+<br>Use and Citation
+The use of AI tools is not mandatory. Students may opt out of using AI assistants entirely if they prefer to complete all work without AI assistance.<br>
+When AI tools are used, students must clearly indicate which portions of their work were created with AI assistance and which tools were used.
+<br>Use and Understanding
+Regardless of AI usage, students are responsible for understanding and being able to explain all aspects of their submitted work.
+<br><br>Course Changes to the Course
+It is very important that each student has read and understood all the materials,&nbsp;assignments, and due dates on the syllabus. It is the prerogative of the instructor to change the course during the term at their discretion in the interest of&nbsp;responding to individual class needs. Changes will be communicated to students via Drexel Learn and/or email
+<br><br><br>This course, including all meetings, assignments, and activities, operates under Drexel University’s policies. All students are expected to read and fully understand these policies as they apply to the coursework and conduct within this class.<br><br>Plagiarism and Cheating Policy
 
 <br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
 
-<br><br><br>Useful Links
-
-<br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>
-<br><a data-tooltip-position="top" aria-label="https://learn.drexel.edu/" rel="noopener nofollow" class="external-link" href="https://learn.drexel.edu/" target="_blank">Drexel Learn</a>
-<br><a data-tooltip-position="top" aria-label="https://dl.acm.org/" rel="noopener nofollow" class="external-link" href="https://dl.acm.org/" target="_blank">ACM Digital Library</a>
-<br><a data-tooltip-position="top" aria-label="https://www.gdcvault.com/" rel="noopener nofollow" class="external-link" href="https://www.gdcvault.com/" target="_blank">GDC Vault</a>
-<br><a data-tooltip-position="top" aria-label="https://freelibrary.org/" rel="noopener nofollow" class="external-link" href="https://freelibrary.org/" target="_blank">LinkedIn Learning via Free Library of Philadelphia</a>
-
-<br><br>Instructor Notes: For updates or changes to the syllabus, students will be notified via Drexel Learn or email.]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Thu, 19 Dec 2024 22:57:20 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+<br><br><br><br><br><br><br><br><br><br>Instructor Notes: Some smaller incremental updates or changes to the syllabus may not result in a notification via Drexel Learn or email.]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Thu, 02 Jan 2025 20:16:42 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
  <br><br>About the Course
 GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on concepts and techniques related to technical art for games. 
 Dive into real-time systems and game engine workflows with topics like:
@@ -128,29 +169,4 @@ By the end of this course, you'll:
 <br>Understand the interplay of art and programming.
 <br>Gain a portfolio-ready project demonstrating your technical art skills.
 
-<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Thu, 19 Dec 2024 23:11:53 GMT</pubDate></item><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
- <br><br>About This Page
-Welcome to the landing page for the courses I teach! This includes courses from both:
-
-<br>🎥 DIGM (Digital Media)  
-<br>🎮 GMAP (Game Art and Production)  
-
-Explore the courses below to find detailed content, assignments, and resources.
-<br><br><br><br>
-<br>
-🎨 <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395</a>: Advanced Game Art and Production<br>
-(Technical art for games: shaders, procedural modeling, lighting systems, and real-time sound.)
-
-<br>
-🛠️ GMAP 345: Game Production Studio  
-
-<br>
-📜 GMAP 231: Introduction to Scripting for Game Design  
-
-<br><br><br><br>Navigation Made Easy
-Use the links above to jump directly to the course materials, assignments, and other resources for each course.
-<br><br><br>
-🧠 Expand Your Skills: Learn cutting-edge techniques in digital media and game production.<br>
-🎯 Build Your Portfolio: Create projects that stand out in your career journey.<br>
-🌐 Collaborate and Innovate: Work with peers to tackle creative challenges.
-<br><br>]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Thu, 19 Dec 2024 18:30:13 GMT</pubDate></item></channel></rss>
+<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Thu, 02 Jan 2025 20:14:04 GMT</pubDate></item></channel></rss>

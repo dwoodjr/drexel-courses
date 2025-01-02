@@ -1,0 +1,15 @@
+Week 1 - Intro, syllabus, and major overall "concepts" and themes for the course
+	- Game Design (what is it?)
+	- Game `Design Process`
+		- Conceptualize, prototype, playtest, evaluate 
+		- Iterative loop and the importance of iteration
+	- Understanding `Play`
+		- play vs gameplay
+		- Intrinsic motivations
+		- designing for play
+	- MDA (mechanics, design, aesthetics) + DDE (design, dynamics, experience)
+	- Technical Art and bridging art and technology procedurally, modularly, and iteratively
+	- PCG and Modularity in games and game design
+	- Procedural and modular workflows
+	- Node based workflows (DAGs)
+	- "Tying it all together..."
