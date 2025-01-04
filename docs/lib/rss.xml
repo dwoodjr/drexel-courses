@@ -1,4 +1,18 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 02 Jan 2025 20:18:03 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 02 Jan 2025 20:18:01 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 04 Jan 2025 20:11:53 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 04 Jan 2025 20:11:50 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+ <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\module-1\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 1 - Slides</a><br><br><br>
+<br>The relationship between games, design, and play.
+<br>Introduction to technical art for games.
+<br>Fundamentals of procedural and modular workflows.
+<br><br><br>By the end of this module, you will:<br>
+<br>Define key concepts of games, design, and play.
+<br>Understand the role of technical art in game development.
+<br>Explore the benefits and principles of procedural workflows.
+<br><br><br>n/a<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.riotgames.com/en/artedu/technical-art" rel="noopener nofollow" class="external-link" href="https://www.riotgames.com/en/artedu/technical-art" target="_blank">What is Technical Art?</a>
+<br><a data-tooltip-position="top" aria-label="https://www.screenskills.com/job-profiles/browse/games/technical-art/technical-artist/" rel="noopener nofollow" class="external-link" href="https://www.screenskills.com/job-profiles/browse/games/technical-art/technical-artist/" target="_blank">What is Technical Artist?</a>
+<br><a data-tooltip-position="top" aria-label="https://www.autodesk.com/solutions/proceduralism" rel="noopener nofollow" class="external-link" href="https://www.autodesk.com/solutions/proceduralism" target="_blank">Procedural Workflows Explained</a>
+<br><a data-tooltip-position="top" aria-label="https://www.void1gaming.com/post/3-pillars-in-game-engineering-intro-to-modular-game-design" rel="noopener nofollow" class="external-link" href="https://www.void1gaming.com/post/3-pillars-in-game-engineering-intro-to-modular-game-design" target="_blank">Introduction to Modular Design</a>
+<br>]]></description><link>gmap-395\module-1\gmap-395-introduction-and-overview.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Introduction and Overview.md</guid><pubDate>Sat, 04 Jan 2025 19:54:44 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
  <br><br><br><br>Instructor Details
 
 <br>Name: Darren Woodland, Jr.
@@ -10,7 +24,7 @@
 <br>Location: URBN 248
 <br>Students will use Drexel Learn and their @drexel.edu emails for all class communication.
 
-<br><br>This course introduces students to procedural real-time game systems and technical art production. Students will explore Unity-based workflows, gaining proficiency in shaders, particle systems, modeling, and visual effects. The course emphasizes real-time systems and modular design techniques.<br><br>Key Capabilities
+<br><br>This course introduces students to procedural real-time game systems and technical art production. Students will explore game engine based workflows, gaining proficiency in shaders, particle systems, modeling, and visual effects. The course emphasizes real-time systems and modular design techniques.<br><br>Key Capabilities
 
 <br>Procedural and modular modeling
 <br>Shader and material development
@@ -31,7 +45,6 @@
 
 <br><br>Useful Links
 
-<br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.drexel.edu/" rel="noopener nofollow" class="external-link" href="https://learn.drexel.edu/" target="_blank">Drexel Learn</a>
 <br><a data-tooltip-position="top" aria-label="https://dl.acm.org/" rel="noopener nofollow" class="external-link" href="https://dl.acm.org/" target="_blank">ACM Digital Library</a>
 <br><a data-tooltip-position="top" aria-label="https://www.gdcvault.com/" rel="noopener nofollow" class="external-link" href="https://www.gdcvault.com/" target="_blank">GDC Vault</a>
@@ -122,7 +135,7 @@ It is very important that each student has read and understood all the materials
 
 <br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
 
-<br><br><br><br><br><br><br><br><br><br>Instructor Notes: Some smaller incremental updates or changes to the syllabus may not result in a notification via Drexel Learn or email.]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Thu, 02 Jan 2025 20:16:42 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+<br><br><br><br><br><br><br><br><br><br>Instructor Notes: Some smaller incremental updates or changes to the syllabus may not result in a notification via Drexel Learn or email.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Sat, 04 Jan 2025 19:34:45 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
  <br><br>About the Course
 GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on concepts and techniques related to technical art for games. 
 Dive into real-time systems and game engine workflows with topics like:
@@ -140,20 +153,25 @@ Whether you're aiming to focus on creating visually stunning worlds or procedura
 <br>Email: <a data-tooltip-position="top" aria-label="mailto:dkw34@drexel.edu" rel="noopener nofollow" class="external-link" href="mailto:dkw34@drexel.edu" target="_blank">dkw34@drexel.edu</a>
 <br>Discord: tromboctopus
 <br><br><br><br>
-<br>Overview of real-time systems
-<br>Introduction to game engines: Unity and Unreal Engine
+<br>Overview of games, design, and play
+<br>Introduction to technical art for games
+<br>Introduction to procedural and modular workflows
+<br><br>
+<br>Overview of procedural modeling
+<br>Introduction to node-based workflows for modeling
+<br>Introduction to real-time lighting systems
 <br><br>
 <br>Creating custom shaders
 <br>Understanding lighting interactions
-<br>Case study: Stylized vs. photorealistic materials
+<br>Stylized vs. photorealistic materials
 <br><br>
-<br>Introduction to procedural modeling
-<br>Using Houdini and other tools for asset generation
-<br>Optimizing workflows for game engines
+<br>Introduction to particle systems
+<br>Procedural and modular design with particles
+<br>Applications and feedback
 <br><br>
-<br>Real-time lighting techniques
-<br>Procedural sound design and implementation
-<br>Case study: Integrating sound and light for immersive environments
+<br>Full-screen effects and post processing
+<br>Modular camera systems and applications
+<br>Camera effects and real-time feedback
 <br><br>
 <br>A cohesive real-time scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
 <br><br><br>Recommended Software
@@ -169,4 +187,4 @@ By the end of this course, you'll:
 <br>Understand the interplay of art and programming.
 <br>Gain a portfolio-ready project demonstrating your technical art skills.
 
-<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Thu, 02 Jan 2025 20:14:04 GMT</pubDate></item></channel></rss>
+<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Sat, 04 Jan 2025 19:54:58 GMT</pubDate></item></channel></rss>

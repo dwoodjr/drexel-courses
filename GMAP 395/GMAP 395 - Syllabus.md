@@ -22,7 +22,7 @@ title: Syllabus
 
 ### **Course Description**
 
-This course introduces students to procedural real-time game systems and technical art production. Students will explore Unity-based workflows, gaining proficiency in shaders, particle systems, modeling, and visual effects. The course emphasizes real-time systems and modular design techniques.
+This course introduces students to procedural real-time game systems and technical art production. Students will explore game engine based workflows, gaining proficiency in shaders, particle systems, modeling, and visual effects. The course emphasizes real-time systems and modular design techniques.
 
 ### **Course Purpose**
 
@@ -56,7 +56,6 @@ By the end of the course, students will demonstrate skills in:
 ### Recommended
 > [!book] Useful Links
 > 
-> - [Unity 2022.3.9LTS Download](https://unity3d.com/get-unity/download/archive)
 > - [Drexel Learn](https://learn.drexel.edu/)
 > - [ACM Digital Library](https://dl.acm.org/)
 > - [GDC Vault](https://www.gdcvault.com/)
@@ -252,3 +251,5 @@ This course, including all meetings, assignments, and activities, operates under
 
 ---
 **Instructor Notes:** Some smaller incremental updates or changes to the syllabus may not result in a notification via Drexel Learn or email.
+
+> [!info]  [[GMAP 395 - Welcome| Return to the Course Main Page]]

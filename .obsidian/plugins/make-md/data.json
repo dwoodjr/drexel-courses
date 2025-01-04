@@ -39,11 +39,9 @@
     "//Legacy/Legacy/LHL",
     "//GMAP 395",
     "//GMAP 395/GMAP 395/Module 1",
-    "//GMAP 395/GMAP 395/Notes",
     "//Legacy/Legacy/FA - 24",
     "//Legacy/Legacy/FA - 24/Legacy/FA - 24/DIGM 131",
-    "//Legacy/Legacy/FA - 24/Legacy/FA - 24/DIGM 131/Legacy/FA - 24/DIGM 131/DOCs",
-    "GMAP 395"
+    "//Legacy/Legacy/FA - 24/Legacy/FA - 24/DIGM 131/Legacy/FA - 24/DIGM 131/DOCs"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

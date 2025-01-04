@@ -1,4 +1,12 @@
 {
   "alwaysUpdateLinks": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 85
+  },
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./"
 }

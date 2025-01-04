@@ -36,26 +36,32 @@ For questions or concerns, feel free to reach out:
 
 ## 🗂️ **Course Topics**
 
+### [[GMAP 395 - Introduction and Overview|Introduction + Overview]]
+- Overview of games, design, and play
+- Introduction to technical art for games
+- Introduction to procedural and modular workflows
+
 ### Module 1: Procedural Modeling + Lighting Systems
-- Overview of real-time systems
-- Introduction to game engines: Unity and Unreal Engine
+- Overview of procedural modeling
+- Introduction to node-based workflows for modeling
+- Introduction to real-time lighting systems
 
 ### Module 2: Shaders and Materials Development
 - Creating custom shaders
 - Understanding lighting interactions
-- Case study: Stylized vs. photorealistic materials
+- Stylized vs. photorealistic materials
 
 ### Module 3: Effects + Particle Systems
-- Introduction to procedural modeling
-- Using Houdini and other tools for asset generation
-- Optimizing workflows for game engines
+- Introduction to particle systems
+- Procedural and modular design with particles
+- Applications and feedback
 
 ### Module 4: Camera Effects + Prost-Processing
-- Real-time lighting techniques
-- Procedural sound design and implementation
-- Case study: Integrating sound and light for immersive environments
+- Full-screen effects and post processing
+- Modular camera systems and applications
+- Camera effects and real-time feedback
 
-### Final Project (Weeks 8-Finals Week)
+### Final Project
 - A cohesive real-time scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
 
 ---
