@@ -4,7 +4,7 @@
 This introductory module sets the stage for the quarter by exploring the core ideas of **games, design, and play** while introducing **technical art** and **procedural workflows** as key methodologies in modern game development.
 
 ### Key Links
-[[docs/slides/GMAP 395 - WK 1 - Slides/index.html|Week 1 Slides]]
+[Week 1 Slides](file:///C:/Users/darre/OneDrive%20-%20Drexel%20University/Teaching/Obsidian%20Vault/drexel-teaching/docs/slides/GMAP%20395%20-%20WK%201%20-%20Slides/index.html#/)
 
 
 ---
