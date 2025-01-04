@@ -41,7 +41,10 @@
     "//GMAP 395/GMAP 395/Module 1",
     "//Legacy/Legacy/FA - 24",
     "//Legacy/Legacy/FA - 24/Legacy/FA - 24/DIGM 131",
-    "//Legacy/Legacy/FA - 24/Legacy/FA - 24/DIGM 131/Legacy/FA - 24/DIGM 131/DOCs"
+    "//Legacy/Legacy/FA - 24/Legacy/FA - 24/DIGM 131/Legacy/FA - 24/DIGM 131/DOCs",
+    "//docs",
+    "//docs/docs/slides/docs/slides/GMAP 395 - WK 1 - Slides",
+    "//docs/docs/slides"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

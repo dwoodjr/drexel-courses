@@ -4,7 +4,7 @@
 This introductory module sets the stage for the quarter by exploring the core ideas of **games, design, and play** while introducing **technical art** and **procedural workflows** as key methodologies in modern game development.
 
 ### Key Links
-[[GMAP 395 - WK 1 - Slides]]
+[[docs/slides/GMAP 395 - WK 1 - Slides/index.html|Week 1 Slides]]
 
 
 ---
