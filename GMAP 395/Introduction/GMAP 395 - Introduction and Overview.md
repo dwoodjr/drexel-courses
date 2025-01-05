@@ -36,4 +36,5 @@ n/a
 - [Introduction to Modular Design](https://www.void1gaming.com/post/3-pillars-in-game-engineering-intro-to-modular-game-design)
 
 ---
-
+---
+> [!info]  [[GMAP 395 - Welcome| Return to the Course Main Page]]

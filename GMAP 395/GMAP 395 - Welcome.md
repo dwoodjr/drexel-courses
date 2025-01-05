@@ -41,7 +41,7 @@ For questions or concerns, feel free to reach out:
 - Introduction to technical art for games
 - Introduction to procedural and modular workflows
 
-### Module 1: Procedural Modeling + Lighting Systems
+### [[GMAP 395 - Module 1|Module 1: Procedural Modeling + Lighting Systems]]
 - Overview of procedural modeling
 - Introduction to node-based workflows for modeling
 - Introduction to real-time lighting systems

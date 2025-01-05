@@ -3,7 +3,7 @@ theme: black
 width: 1920
 height: 1080
 ---
-## GMAP 395: Advanced Game Art and Production
+### GMAP 395: Advanced Game Art and Production
 #### ***Foundations of Modern Game Art and Design: Concepts and Workflows***
 ---
 
@@ -97,7 +97,7 @@ height: 1080
   - Video games are modern artifacts of daily interaction, much like physical tools or interfaces.
   - Designing games requires the same care and consideration as designing everyday objects.
 
-![[design-everyday-things.jpg]]
+![[GMAP 395/Introduction/design-everyday-things.jpg]]
 
 --
 
@@ -209,7 +209,8 @@ height: 1080
 - **Definition:**
   - A formalized approach to understanding and designing games.
   - Introduced by Robin Hunicke, Marc LeBlanc, and Robert Zubek.
-- **Components:**
+--
+**Components:** MDA
   1. **Mechanics:** The rules and systems governing gameplay.
      - Example: Jump mechanics in platformers.
   2. **Dynamics:** The emergent behavior arising from player interaction.
@@ -217,7 +218,7 @@ height: 1080
   3. **Aesthetics:** The emotional response evoked in players.
      - Example: Tension in horror games.
 
-> [!info] Learn More:
+> [!info] Learn More: MDA Framework
 > [Original MDA Paper (PDF)](http://www.cs.northwestern.edu/~hunicke/MDA.pdf)
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/iIOIT3dCy5w?si=Tj6TKXYM6RtB3e3v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -258,7 +259,7 @@ height: 1080
   - Ensure the seamless integration of assets into game engines.
   - Solve cross-disciplinary challenges between artists and programmers.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kr7XYXMM7-U?si=qUPLjJjfesCJhV36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/kr7XYXMM7-U?si=qUPLjJjfesCJhV36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 --
 
 ### Core Skills of Technical Artists
@@ -268,7 +269,7 @@ height: 1080
 - **Technical Proficiency**
 - **Creative Problem-Solving**
 
-> [!info] Learn More:
+> [!info] Learn More: Tech Art
 > [Tech-Artists Site](https://www.tech-artists.org/t/about-the-professional-category/9845)
 > [Tech Artists in Games](https://www.screenskills.com/job-profiles/browse/games/technical-art/technical-artist/)
 > [Technical Artist Job](https://www.cgspectrum.com/career-pathways/technical-artist)
@@ -312,7 +313,24 @@ height: 1080
   - Enhances both creativity and efficiency in asset creation.
 
 ---
+### Introduction to DAGs (Directed Acyclic Graphs)
+- **What is a DAG?**
+  - A structure where nodes are connected in a one-way direction, forming a tree-like graph with no loops.
+- **Why DAGs?**
+  - Support non-linear workflows, enabling iterative and modular development.
+- **Applications in Game Art and Development:**
+  - Organizing and optimizing procedural pipelines.
+  - Managing dependencies between assets and systems.
+  - Building, modeling, or texturing assets
+  - Real-time gameplay systems
 
+
+> [!NOTE] DAGs
+> https://en.wikipedia.org/wiki/Directed_acyclic_graph
+> https://www.getdbt.com/blog/guide-to-dags
+
+
+--
 ### What are Node-Based Workflows?
 - **Definition:**
   - Visual scripting and data-driven approaches used to create procedural systems and assets.
@@ -324,22 +342,7 @@ height: 1080
   - Shader and material creation.
   - Logic and gameplay systems in visual scripting tools.
 
-> [!info] Explore Further:
-> [Introduction to Node-Based Workflows in Houdini](https://www.sidefx.com/tutorials/)
-
 --
-
-### Introduction to DAGs (Directed Acyclic Graphs)
-- **What is a DAG?**
-  - A structure where nodes are connected in a one-way direction, forming a tree-like graph with no loops.
-- **Why DAGs?**
-  - Support non-linear workflows, enabling iterative and modular development.
-- **Applications in Game Development:**
-  - Organizing and optimizing procedural pipelines.
-  - Managing dependencies between assets and systems.
-
---
-
 ### Applications of Node-Based Tools
 - **Houdini:**
   - Procedural modeling, VFX, and simulations using node-based workflows.
@@ -351,10 +354,13 @@ height: 1080
   - Node-based tool for crafting complex shaders visually.
   - Example: Building a dynamic water shader with transparency and reflections.
 
-> [!tip] Explore Tutorials:
-> - [Houdini Quick Start](https://www.sidefx.com/tutorials/)
-> - [Unreal Engine Blueprints](https://www.unrealengine.com/)
-> - [Unity Shader Graph Docs](https://docs.unity3d.com/Manual/shader-graph.html)
+--
+
+> [!info] Explore Further: Node-Based Workflows
+> [Introduction to Node-Based Workflows in Houdini](https://www.sidefx.com/tutorials/intro-to-houdinis-node-based-workflow/)
+> [Houdini's Nodes](https://www.sidefx.com/docs/houdini/nodes/index.html)
+> [Blenders Node-Based Workflows](https://spin.atomicobject.com/blender-node-based-workflows/)
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/0-DnOPovrq8?si=YfyYxVrsZuosbAcS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 --
 
@@ -370,11 +376,6 @@ height: 1080
 
 --
 
-> [!info] Suggested Demo:
-> Showcase a live or pre-recorded node graph workflow in Houdini or an obsidian canvas
-
----
-
 ### Recap of Concepts
 - **Key Topics Covered:**
   1. Game Design:
@@ -386,7 +387,7 @@ height: 1080
   4. Node-Based Workflows:
      - Visual scripting for flexible and scalable game systems.
 
----
+--
 
 ### Importance of Iterative Design
 - **Why Iteration Matters:**
@@ -398,7 +399,7 @@ height: 1080
     - Iteration ensures systems, mechanics, and art are cohesive and engaging.
 - **Key Takeaway:** Iteration isn’t just a step—it’s a philosophy.
 
----
+--
 
 ### Future Trends in Game Art
 - **Emerging Technologies:**
@@ -419,14 +420,14 @@ height: 1080
 ---
 
 ### Class Reflection
-### **Discussion Questions**
+#### Discussion Questions
 1. What excites (or scares) you most about modern game design and development tools?
 2. How do you think procedural or modular workflows influence the games we play today?
 
 --
 
 ### Activity: Think-Pair-Share
-### Step 1: Think (Individual Work – 10 minutes)
+#### Step 1: Think (Individual Work – 10 minutes)
 - Choose a game you’ve played and enjoyed.
 - Reflect on:
   - What elements of the game stand out to you? (e.g., visuals, mechanics, world design)
@@ -440,7 +441,7 @@ height: 1080
 
 --
 
-### Step 2: Pair (Small Group Discussion – 15 minutes)
+#### Step 2: Pair (Small Group Discussion – 15 minutes)
 - Share your observations with a partner or small group.
 - Discuss:
   - Similarities and differences in the chosen games.
@@ -449,12 +450,12 @@ height: 1080
 
 --
 
-### Step 3: Share (Class-Wide Discussion – 20 minutes)
+#### Step 3: Share (Class-Wide Discussion – 20 minutes)
 - Volunteers and/or groups present highlights of their discussions:
   - A game they analyzed and how procedural/modular workflows contributed to its design.
   - An insight or idea they found particularly interesting.
 
---
+---
 
 ### Final Takeaway 
 
