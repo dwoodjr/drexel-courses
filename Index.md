@@ -18,7 +18,7 @@ title: 🐲 Drexel Courses List
 🤖 [[GMAP 395 - Welcome|GMAP 395]]: ***Advanced Game Art and Production*** 
 	*Technical art for games: shaders, procedural modeling, lighting systems, and real-time workflows.*
 
-🛠️ GMAP 345: ***Game Development Foundations** 
+🛠️ GMAP 345: ***Game Development Foundations*** 
 
 📜 GMAP 231: ***Scripting for Game Design***  
 
