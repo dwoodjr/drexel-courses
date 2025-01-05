@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 04 Jan 2025 20:42:04 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 04 Jan 2025 20:41:59 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 05 Jan 2025 19:36:36 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 05 Jan 2025 19:36:31 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\module-1\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br><br><br>
 <br>The relationship between games, design, and play.
 <br>Introduction to technical art for games.
@@ -808,4 +808,18 @@ By the end of this course, you'll:
 <br>Understand the interplay of art and programming.
 <br>Gain a portfolio-ready project demonstrating your technical art skills.
 
-<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Sat, 04 Jan 2025 19:54:58 GMT</pubDate></item></channel></rss>
+<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Sat, 04 Jan 2025 19:54:58 GMT</pubDate></item><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
+ <br><br>About This Page
+Welcome to the landing page for the courses I teach! This includes courses from both:
+
+<br>🎥 DIGM (Digital Media)  
+<br>🎮 GMAP (Game Art and Production)  
+
+Explore the courses below to find detailed content, assignments, and resources.
+<br><br><br><br>🤖 <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395</a>: Advanced Game Art and Production<br>
+Technical art for games: shaders, procedural modeling, lighting systems, and real-time workflows.<br>🛠️ GMAP 345: *Game Development Foundations <br>📜 GMAP 231: Scripting for Game Design  <br><br><br>📜 GMAP 131: Introduction to Scripting for the Digital Content Creation Pipeline<br>
+Scripting fundamentals for automating workflows, optimizing pipelines, and enhancing digital content creation processes.<br><br><br>
+🧠 Expand Your Skills: Learn techniques in digital media and game production.<br>
+🎯 Build Your Portfolio: Create projects that can stand out in a portfolio.<br>
+🌐 Collaborate and Innovate: Work with peers to tackle creative challenges.
+<br><br>Use the links above to jump directly to the course materials, assignments, and other resources for each course.<br><br>]]></description><link>index.html</link><guid isPermaLink="false">Index.md</guid><pubDate>Thu, 02 Jan 2025 18:59:04 GMT</pubDate></item></channel></rss>
