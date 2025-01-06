@@ -2,7 +2,7 @@
   "settingsVersion": "1.8.01",
   "makeOfflineCompatible": true,
   "inlineAssets": false,
-  "includePluginCSS": "obsidian-advanced-slides\ndataview\niconic\nmedia-extended",
+  "includePluginCSS": "obsidian-advanced-slides\ndataview\niconic\nmedia-extended\nmake-md\nobsidian-git\nobsidian-importer\nobsidian-pandoc",
   "includeSvelteCSS": true,
   "titleProperty": "title",
   "customHeadContentPath": "",
@@ -14,7 +14,7 @@
   "allowFoldingHeadings": true,
   "allowFoldingLists": true,
   "allowResizingSidebars": true,
-  "logLevel": "warning",
+  "logLevel": "error",
   "minifyHTML": true,
   "makeNamesWebStyle": true,
   "onlyExportModified": false,
@@ -30,7 +30,7 @@
   "authorName": "",
   "vaultTitle": "drexel-teaching",
   "exportPreset": "website",
-  "openAfterExport": true,
+  "openAfterExport": false,
   "graphAttractionForce": 1,
   "graphLinkLength": 10,
   "graphRepulsionForce": 150,
@@ -47,9 +47,7 @@
   "filesToExport": [
     [
       "GMAP 395/Introduction",
-      "GMAP 395/Module 1/GMAP 395 - Module 1.md",
-      "GMAP 395/Module 1/Module 1.md",
-      "GMAP 395/Notes",
+      "GMAP 395/Module 1",
       "GMAP 395/GMAP 395 - Syllabus.md",
       "GMAP 395/GMAP 395 - Welcome.md",
       "Index.md"

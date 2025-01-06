@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 06 Jan 2025 20:37:54 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 06 Jan 2025 20:37:49 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 06 Jan 2025 20:50:12 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 06 Jan 2025 20:50:06 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br><br><br>
 <br>The relationship between games, design, and play.
 <br>Introduction to technical art for games.
@@ -642,8 +642,7 @@ Solve cross-disciplinary challenges between artists and programmers.
 How does understanding the development process help you approach game design or technical art critically?<br>
 What trends or common tools did you notice across different games?<br>
 How might these approaches inspire your work as a game designer or artist?
-]]></description><link>gmap-395\introduction\gmap-395-wk-1-slides.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md</guid><pubDate>Mon, 06 Jan 2025 15:44:47 GMT</pubDate><enclosure url="gmap-395\introduction\design-everyday-things.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\introduction\design-everyday-things.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Introduction]]></title><description><![CDATA[ 
- ]]></description><link>gmap-395\introduction\introduction.html</link><guid isPermaLink="false">GMAP 395/Introduction/Introduction.md</guid><pubDate>Sun, 05 Jan 2025 21:00:13 GMT</pubDate></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
+]]></description><link>gmap-395\introduction\gmap-395-wk-1-slides.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md</guid><pubDate>Mon, 06 Jan 2025 15:44:47 GMT</pubDate><enclosure url="gmap-395\introduction\design-everyday-things.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\introduction\design-everyday-things.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
  <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br><br><br><br>
 <br>Introduction to procedural modeling with Blender.
 <br>Basics of lighting systems with Unity.
@@ -672,133 +671,7 @@ How might these approaches inspire your work as a game designer or artist?
 <br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Sun, 05 Jan 2025 21:31:29 GMT</pubDate></item><item><title><![CDATA[Module 1]]></title><description><![CDATA[ 
- ]]></description><link>gmap-395\module-1\module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/Module 1.md</guid><pubDate>Sun, 05 Jan 2025 21:00:20 GMT</pubDate></item><item><title><![CDATA[<strong>Interactive Environment with Procedural Artifact</strong>]]></title><description><![CDATA[ 
- <br><br><br><br>
-<br>A mystical artifact (e.g., a glowing, magical crystal or ancient device) set within an atmospheric environment.
-<br><br>
-<br>Artifact: Reacts dynamically to player interaction with visual and behavioral changes.
-<br>Environment: Features atmospheric lighting, particle effects, and camera polish for a compelling experience.
-<br><br><br><br>Weeks 1-2: Laying the Foundation
-
-<br>Focus: Students model the artifact procedurally and establish basic lighting.
-<br>Key Deliverables:
-
-<br>A modular artifact base (e.g., crystal or mechanical structure).
-<br>A simple environment with lighting systems to enhance its appearance.
-
-
-<br>Example Features:
-
-<br>A pulsating glow effect using basic lighting techniques.
-
-
-
-<br><br>Weeks 3-4: Adding Dynamics
-
-<br>Focus: Develop shaders and materials to give the artifact dynamic visual behavior.
-<br>Key Deliverables:
-
-<br>Custom shaders (e.g., glowing patterns, transparency effects).
-<br>Integration of materials to simulate reactions like temperature changes or energy flows.
-
-
-<br>Example Features:
-
-<br>A procedural shader to create shifting glow patterns or a "pulse" effect.
-
-
-
-<br><br>Weeks 5-6: Enhancing Interaction
-
-<br>Focus: Implement particle systems and interactive effects.
-<br>Key Deliverables:
-
-<br>Particle effects triggered by player actions (e.g., sparks, mist).
-<br>Interactive features that enhance immersion.
-
-
-<br>Example Features:
-
-<br>Particles emitting mist when the artifact is "activated" or approached.
-
-
-
-<br><br>Week 7: Polishing the Scene
-
-<br>Focus: Add camera and post-processing effects for a polished look.
-<br>Key Deliverables:
-
-<br>Dynamic camera interactions (e.g., zoom, rotation).
-<br>Post-processing effects like bloom, depth of field, and color grading.
-
-
-<br>Example Features:
-
-<br>A cinematic camera movement when approaching the artifact.
-
-
-
-<br><br><br><br>
-<br>Artifact Base Creation:
-
-<br>Students design a modular artifact in Unity.
-<br>Use primitive shapes and procedural modeling techniques.
-
-
-<br>Environment Setup:
-
-<br>Create a basic environment with placeholder assets.
-
-
-<br>Lighting Integration:
-
-<br>Add a directional light and experiment with spotlights or area lights.
-
-
-<br><br>
-<br>Custom Shader Design:
-
-<br>Introduce Unity Shader Graph.
-<br>Create shaders with glow, transparency, or animated patterns.
-
-
-<br>Material Application:
-
-<br>Apply shaders to the artifact and refine their behavior.
-
-
-<br><br>
-<br>Particle Effects Creation:
-
-<br>Use Unity VFX Graph to create interactive particles (e.g., sparks, fog).
-
-
-<br>Interaction Integration:
-
-<br>Program triggers using Unity's event systems (e.g., OnTriggerEnter).
-
-
-<br><br>
-<br>Camera Behavior:
-
-<br>Add Cinemachine for dynamic camera movements.
-
-
-<br>Post-Processing Pipelines:
-
-<br>Introduce Unity's Post-Processing Stack for bloom, depth of field, and color grading.
-
-
-<br><br><br><br>
-<br>The project evolves naturally across modules, ensuring continuity.
-<br><br>
-<br>Each module builds upon the previous, reinforcing learned concepts.
-<br><br>
-<br>Students see tangible progress in creating a polished, interactive environment.
-<br><br>
-<br>The project can adapt to different skill levels with advanced features for experienced students.
-<br><br>Instructor Notes: Add or refine project components as needed to match the class's progress and engagement levels.]]></description><link>gmap-395\notes\project-idea-for-learning.html</link><guid isPermaLink="false">GMAP 395/Notes/Project Idea for Learning.md</guid><pubDate>Thu, 19 Dec 2024 23:08:09 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Mon, 06 Jan 2025 20:43:39 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
  <br><br><br><br>Instructor Details
 
 <br>Name: Darren Woodland, Jr.
@@ -921,7 +794,7 @@ It is very important that each student has read and understood all the materials
 
 <br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
 
-<br><br><br><br><br><br><br><br><br><br>Instructor Notes: Some smaller incremental updates or changes to the syllabus may not result in a notification via Drexel Learn or email.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Mon, 06 Jan 2025 19:50:33 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+<br><br><br><br><br><br><br><br><br><br>Instructor Notes: Some smaller incremental updates or changes to the syllabus may not result in a notification via Drexel Learn or email.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Mon, 06 Jan 2025 20:44:57 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
  <br><br>About the Course
 GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on concepts and techniques related to technical art for games. 
 Dive into real-time systems and game engine workflows with topics like:
