@@ -102,6 +102,7 @@ height: 1080
 --
 
 ### Key Design Principles (from Don Norman)
+Key principles from ***The Design of Everyday Things***
 1. **Affordances:**
    - Elements that suggest how they should be used.
  *  In games: *A glowing door suggests it can be opened, or a bouncy surface implies jumping.*

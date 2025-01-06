@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 05 Jan 2025 22:42:43 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 05 Jan 2025 22:42:39 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 06 Jan 2025 19:41:27 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 06 Jan 2025 19:41:23 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br><br><br>
 <br>The relationship between games, design, and play.
 <br>Introduction to technical art for games.
@@ -137,7 +137,7 @@
 <br>Designing games requires the same care and consideration as designing everyday objects.
 
 
-<br><img alt="GMAP 395/Introduction/design-everyday-things.jpg" src="gmap-395\introduction\design-everyday-things.jpg"><br>--<br><br>
+<br><img alt="GMAP 395/Introduction/design-everyday-things.jpg" src="gmap-395\introduction\design-everyday-things.jpg"><br>--<br><br>Key principles from The Design of Everyday Things<br>
 <br>Affordances:
 
 <br>Elements that suggest how they should be used.
@@ -642,7 +642,8 @@ Solve cross-disciplinary challenges between artists and programmers.
 How does understanding the development process help you approach game design or technical art critically?<br>
 What trends or common tools did you notice across different games?<br>
 How might these approaches inspire your work as a game designer or artist?
-]]></description><link>gmap-395\introduction\gmap-395-wk-1-slides.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md</guid><pubDate>Sun, 05 Jan 2025 21:00:26 GMT</pubDate><enclosure url="gmap-395\introduction\design-everyday-things.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\introduction\design-everyday-things.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
+]]></description><link>gmap-395\introduction\gmap-395-wk-1-slides.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md</guid><pubDate>Mon, 06 Jan 2025 15:44:47 GMT</pubDate><enclosure url="gmap-395\introduction\design-everyday-things.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\introduction\design-everyday-things.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Introduction]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\introduction\introduction.html</link><guid isPermaLink="false">GMAP 395/Introduction/Introduction.md</guid><pubDate>Sun, 05 Jan 2025 21:00:13 GMT</pubDate></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
  <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br><br><br><br>
 <br>Introduction to procedural modeling with Blender.
 <br>Basics of lighting systems with Unity.
@@ -671,7 +672,8 @@ How might these approaches inspire your work as a game designer or artist?
 <br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Sun, 05 Jan 2025 21:31:29 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Sun, 05 Jan 2025 21:31:29 GMT</pubDate></item><item><title><![CDATA[Module 1]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\module-1\module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/Module 1.md</guid><pubDate>Sun, 05 Jan 2025 21:00:20 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
  <br><br><br><br>Instructor Details
 
 <br>Name: Darren Woodland, Jr.

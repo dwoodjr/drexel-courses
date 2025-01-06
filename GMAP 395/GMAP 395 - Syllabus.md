@@ -17,7 +17,7 @@ title: Syllabus
 
 > [!info] Classroom Info
 > 
-> - **Location:** URBN 248
+> - **Location:** URBN 252
 > - Students will use Drexel Learn and their `@drexel.edu` emails for all class communication.
 
 ### **Course Description**
@@ -153,7 +153,7 @@ By the end of the course, students will demonstrate skills in:
 > 	- **Acceptable learning activities**: Note-taking (electronic or handwritten) and productive doodling/drawing related to course content are permitted and encouraged.
 > 	- **Lab sessions**: During hands-on lab portions, device use is allowed for course-related work, peer discussions, and instructor engagement.
 
-> [!NOTE] Affects Participation + Professionalism
+> [!error] Affects Participation + Professionalism
 > Violations of this policy will impact the `Participation and Professionalism` grade. Multiple offenses may result in a zero (0) for this component of the course grade, without exception.
 
 ### ***Cheating + Plagiarism***
