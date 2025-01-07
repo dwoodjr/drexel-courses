@@ -261,6 +261,7 @@ Key principles from ***The Design of Everyday Things***
   - Solve cross-disciplinary challenges between artists and programmers.
 
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/kr7XYXMM7-U?si=qUPLjJjfesCJhV36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 --
 
 ### Core Skills of Technical Artists
