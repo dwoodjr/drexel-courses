@@ -343,6 +343,8 @@ Key principles from ***The Design of Everyday Things***
   - Shader and material creation.
   - Logic and gameplay systems in visual scripting tools.
 
+[[GMAP395-DAGsNodes.excalidraw]]
+
 --
 ### Applications of Node-Based Tools
 - **Houdini:**
@@ -436,7 +438,7 @@ Key principles from ***The Design of Everyday Things***
 - Light Research:
   - Look up the game’s development process or tools used by its studio.
   - Example tools for research:
-    - *The Legend of Zelda: Breath of the Wild* (Havok Physics, procedural systems)
+    - *The Legend of Zelda: Breath of the Wild* (physics puzzles, procedural systems)
     - *No Man’s Sky* (Procedural world-building)
     - *Celeste* (Iteration for accessibility and challenge balance)
 

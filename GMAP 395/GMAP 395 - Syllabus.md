@@ -108,7 +108,7 @@ By the end of the course, students will demonstrate skills in:
 
 ### ***Final Project***
 
-> [!warning] Weeks 8-10 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.
+> [!warning] Weeks 9-11 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.
 
 **Final Deliverables:**
 - 🎯 Cohesive scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
