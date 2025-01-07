@@ -210,7 +210,11 @@ Key principles from ***The Design of Everyday Things***
 - **Definition:**
   - A formalized approach to understanding and designing games.
   - Introduced by Robin Hunicke, Marc LeBlanc, and Robert Zubek.
+- 
+
+
 --
+
 **Components:** MDA
   1. **Mechanics:** The rules and systems governing gameplay.
      - Example: Jump mechanics in platformers.
