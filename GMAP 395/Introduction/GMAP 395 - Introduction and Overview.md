@@ -5,7 +5,7 @@ This introductory module sets the stage for the quarter by exploring the core id
 
 ### Key Links
 [[GMAP 395 - WK 1 - Slides|Week 1 Slides]]
-
+[[GMAP 395 - WK 1 - Video Lecture| Week 1 Video]]
 
 ---
 
