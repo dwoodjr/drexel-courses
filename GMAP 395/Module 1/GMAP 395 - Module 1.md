@@ -5,6 +5,7 @@ This module introduces foundational skills in **procedural modeling** and **ligh
 
 ### Key Links
 [[GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial|GMAP 395 - WK 2 - Tutorial]]
+[[GMAP 395 - ASN 1 - Brief]]
 
 ---
 
@@ -50,7 +51,7 @@ By the end of this module, you will:
 
 ---
 ## Assignments and Deliverables
-### ***Assignment 1: Procedural Asset with lighting***
+### ***[[GMAP 395 - ASN 1 - Brief|Assignment 1: Procedural Asset with lighting]]***
 
 
 ---
