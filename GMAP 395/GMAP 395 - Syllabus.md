@@ -117,18 +117,18 @@ By the end of the course, students will demonstrate skills in:
 
 ## **Course Schedule**
 
-| **Week** | **Topics**                                     | **Assignment**                         | **Due**               | Notes                                                                |
-| -------- | ---------------------------------------------- | -------------------------------------- | --------------------- | -------------------------------------------------------------------- |
-| 1        | Introduction, Procedural Workflows, Modularity |                                        |                       |                                                                      |
-| 2        | Procedural Modeling                            | Assignment 1: Modeling + Lighting      | Week 3                |                                                                      |
-| 3        | Game Lighting, Lighting Systems                |                                        |                       | NO CLASS - UNIVERSITY HOLIDAY. <br>Lecture Video + Online Materials. |
-| 4        | Shader Graph, Material Basics                  | Assignment 2: Shaders + Materials      | Week 5                |                                                                      |
-| 5        | Advanced Shader Workflows                      |                                        |                       |                                                                      |
-| 6        | Particle systems, VFX Fundamentals             | Assignment 3: Effects + Particles      | Week 7                |                                                                      |
-| 7        | Interactive VFX techniques                     |                                        |                       |                                                                      |
-| 8        | Camera Effects, Post-Processing                | Assignment 4: Camera + Post-Processing | Week 8                |                                                                      |
-| 9-10     | Final Project: Integration                     | Final Project Draft                    | Week 10               |                                                                      |
-| 11       | Final Project: Polish                          | Final Project                          | Week 11 (Finals Week) |                                                                      |
+| **Week** | **Topics**                                     | **Assignment**                         | **Due**               | Notes                                                                          |
+| -------- | ---------------------------------------------- | -------------------------------------- | --------------------- | ------------------------------------------------------------------------------ |
+| 1        | Introduction, Procedural Workflows, Modularity |                                        |                       |                                                                                |
+| 2        | Procedural Modeling                            | Assignment 1: Modeling + Lighting      | Week 3                |                                                                                |
+| 3        | Game Lighting, Lighting Systems                |                                        |                       | NO CLASS - UNIVERSITY HOLIDAY. <br>Lecture Video + Online Materials.           |
+| 4        | Shader Graph, Material Basics                  | Assignment 2: Shaders + Materials      | Week 5                |                                                                                |
+| 5        | Advanced Shader Workflows                      |                                        |                       |                                                                                |
+| 6        | Particle systems, VFX Fundamentals             | Assignment 3: Effects + Particles      | Week 7                |                                                                                |
+| 7        | Interactive VFX techniques                     |                                        |                       |                                                                                |
+| 8        | Camera Effects, Post-Processing                | Assignment 4: Camera + Post-Processing | Week 8                |                                                                                |
+| 9-10     | Final Project: Integration                     | Final Project Draft                    | Week 10               |                                                                                |
+| 11       | Final Project: Polish                          | Final Project                          | Week 11 (Finals Week) | NO CLASS MEETING FOR FINAL EXAM. Turn in final project on Drexel Learn by EOW. |
 
 ---
 
