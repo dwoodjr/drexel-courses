@@ -4,6 +4,8 @@
 This module introduces foundational skills in **procedural modeling** and **lighting systems**. Students will explore creating modular assets and environments using DCC tools and plugins.
 
 ### Key Links
+[[GMAP 395 - WK 2 - Slides]]
+[[GMAP 395 - WK 2 - Video Lecture]]
 [[GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial|GMAP 395 - WK 2 - Tutorial]]
 [[GMAP 395 - ASN 1 - Brief]]
 

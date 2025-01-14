@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 14 Jan 2025 00:31:02 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 14 Jan 2025 00:30:56 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 14 Jan 2025 22:11:09 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 14 Jan 2025 22:11:02 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Video</a><br><br><br>
 <br>The relationship between games, design, and play.
@@ -666,10 +666,10 @@ The theme Something from the Void is intentionally open-ended. Interpret it crea
 
 <br>Choose a DCC software like Blender, Houdini, or Maya.
 
-<br>The tutorial for part 1 on this module uses Blender Geometry Nodes
+<br>The tutorial for part 1 of this module uses Blender Geometry Nodes
 
 
-<br>Use procedural techniques and operations to create a modular game asset.
+<br>Use procedural techniques/operations and a node-based workflow to create or modify a game art asset.
 <br>Ensure the asset embodies the class theme.
 <br>Export the asset to a format suitable for Unity (e.g., .fbx, .obj).
 
@@ -756,8 +756,10 @@ The theme Something from the Void is intentionally open-ended. Interpret it crea
 <br>Explore Unity’s lighting systems to design atmospheric and visually appealing scenes.
 <br>Develop an iterative workflow for asset creation, scene design, and troubleshooting.
 
-<br><br>]]></description><link>gmap-395\module-1\gmap-395-asn-1-brief.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md</guid><pubDate>Mon, 13 Jan 2025 22:43:04 GMT</pubDate></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
- <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br><br><a data-tooltip-position="top" aria-label="GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial" data-href="GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial" href="gmap-395\module-1\gmap-395-wk-2-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Tutorial</a><br>
+<br><br>]]></description><link>gmap-395\module-1\gmap-395-asn-1-brief.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md</guid><pubDate>Tue, 14 Jan 2025 20:38:18 GMT</pubDate></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
+ <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br><br><a data-href="GMAP 395 - WK 2 - Slides" href="gmap-395\module-1\gmap-395-wk-2-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Slides</a><br>
+<a data-href="GMAP 395 - WK 2 - Video Lecture" href="gmap-395\module-1\gmap-395-wk-2-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Video Lecture</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial" data-href="GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial" href="gmap-395\module-1\gmap-395-wk-2-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Tutorial</a><br>
 <a data-href="GMAP 395 - ASN 1 - Brief" href="gmap-395\module-1\gmap-395-asn-1-brief.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - ASN 1 - Brief</a><br><br><br>
 <br>Introduction to procedural modeling with Blender.
 <br>Basics of lighting systems with Unity.
@@ -786,7 +788,251 @@ The theme Something from the Void is intentionally open-ended. Interpret it crea
 <br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Mon, 13 Jan 2025 22:36:26 GMT</pubDate></item><item><title><![CDATA[<strong><em>Procedural Eldritch Portal: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Tue, 14 Jan 2025 22:08:41 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 2 - Slides]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><img alt="gamefeelcover.webp" src="gmap-395\module-1\gamefeelcover.webp" style="width: 320px; max-width: 100%;"><br>Game Feel
+Real-time control of virtual objects in a simulated space, with interaction emphasized by polish.<br>
+-- Steve Swink
+<br><br><br><br>
+<br>Definition: The visceral, tactile experience of interacting with a game, making it feel responsive and tangible.
+<br>Components:
+
+<br>Real-Time Control: Immediate response to player input.
+<br>Simulated Space: Believable virtual environments with realistic or stylized physics.
+<br>Polish: Visual, audio, and interactive feedback that enhances immersion.
+
+
+<br>Examples:<br>
+<br>Super Mario Bros: Precise platforming.
+<br>Celeste: Forgiving yet challenging controls.
+<br>DOOM (2016): Weighty, impactful combat.
+<br><br><br>
+<br>Momentum and Inertia (Physics):
+
+<br>Creating a sense of weight and speed in character and object movement.
+<br>Example: Rolling boulders in The Legend of Zelda: Breath of the Wild.
+
+
+<br>Input Responsiveness:
+
+<br>Reducing input lag to ensure tight controls.
+<br>Example: Fighting games like Street Fighter prioritize frame-perfect inputs.
+
+
+<br><br><br>
+<br>What Are Procedural Workflows?
+
+<br>Automating content creation using algorithms and rules.
+<br>Efficiently producing scalable, dynamic assets and systems.
+
+
+<br>Why It Matters:
+
+<br>Reduces repetitive tasks.
+<br>Enables scalability for vast game worlds.
+<br>Facilitates rapid prototyping and iteration.
+
+
+<br><br><br>
+<br>Applications:
+
+<br>Terrain and Landscapes: Dynamic natural environments (e.g., Minecraft).
+<br>Characters and Creatures: Diverse entities (e.g., Spore).
+<br>Loot Systems: Unique equipment and items (e.g., Borderlands).
+<br>Buildings and Cities: Algorithmic urban designs. (e.g., Spiderman)
+
+
+<br>Efficiency: Combines hand-crafted content with procedural systems for optimal results.<br><br><br>
+<br>Over-Generation:
+
+<br>Excessively random content can feel disjointed.
+<br>Solution: Blend procedural elements with curated designs and a cehesive artistic vision.
+
+
+<br>Player Fatigue:
+
+<br>Repetitive patterns may reduce engagement.
+<br>Solution: Introduce meaningful variability and uniqueness within procedural systems/design.
+
+
+<br><br><br>
+<br>What is Modularity?
+
+<br>Reusable components for streamlined development.
+
+
+<br>Benefits:
+
+<br>Reusability: Assets can be used across levels/projects.
+<br>Flexibility: Easier updates and maintenance.
+<br>Performance: Reduces memory load by optimizing reusable assets.
+
+
+<br>Synergy with Proceduralism:<br>
+<br>Modular assets populated procedurally for diverse environments (e.g., No Man’s Sky).
+<br><a data-tooltip-position="top" aria-label="https://www.beyondextent.com/articles/balancing-modularity-and-uniqueness-in-environment-art" rel="noopener nofollow" class="external-link" href="https://www.beyondextent.com/articles/balancing-modularity-and-uniqueness-in-environment-art" target="_blank">Balancing modularity and uniqueness in Environment Art</a><br><img alt="modualassetpack.png" src="gmap-395\module-1\modualassetpack.png" style="width: 640px; max-width: 100%;"><br><br><br>
+<br>Asset Organization:
+
+<br>Maintain a clean structure for quick access and scalability.
+
+
+<br>Consistent Metrics:
+
+<br>Standardize dimensions and pivot points.
+
+
+<br>Interoperability:
+
+<br>Ensure modular assets work seamlessly in various configurations.
+
+
+<br><br><br>Book: <br> <a data-tooltip-position="top" aria-label="https://www.pcgbook.com/" rel="noopener nofollow" class="external-link" href="https://www.pcgbook.com/" target="_blank">Procedural Content Generation in Games</a><br><br><br><br><img alt="pcgTaxonomy.png" src="gmap-395\module-1\pcgtaxonomy.png"><br>
+<br>Game Bits: Assets (textures, sounds, models).
+<br>Game Space: Levels, terrains, maps.
+<br>Game Systems: Rules and mechanics (e.g., weather systems).
+<br>Game Scenarios: Events, narratives, quests.
+<br>Examples:<br>
+<br>Roguelikes: Procedurally generated levels (e.g., Hades).
+<br>Survival Games: Dynamic environments (e.g., Subnautica).
+<br><a data-tooltip-position="top" aria-label="https://dl.acm.org/doi/10.1145/2422956.2422957" rel="noopener nofollow" class="external-link" href="https://dl.acm.org/doi/10.1145/2422956.2422957" target="_blank">Procedural content generation for games:&nbsp;A survey</a><br><br><br>
+<br>Hybrid Approaches:
+
+<br>Combining procedural and hand-crafted elements.
+<br>Example: Shadow of Mordor’s Nemesis system mixes procedural generation with predefined rules.<br>
+
+
+
+<br>Adaptive PCG:
+
+<br>Systems that adjust content based on player behavior.
+<br>Example: Dynamic difficulty adjustment in Left 4 Dead.
+
+
+<br><br><br>
+<br>Definition: Visual scripting using nodes to represent operations and data flow.
+<br>Advantages:
+
+<br>Artist-friendly and intuitive.
+<br>Clear visual representation of processes.
+<br>Supports modularity and reusability.
+
+
+<br>Tools:<br>
+<br>Blender Geometry Nodes: Procedural modeling nodes.
+<br>Houdini: Procedural modeling and VFX.
+<br>Unreal Engine Blueprint: Gameplay logic.
+<br>Unity Shader Graph: Material creation.
+<br><br><br>
+<br>Dynamic Dependencies:
+
+<br>Create relationships between nodes for real-time updates.
+<br>Example: Automatically updating materials when assets change.
+
+
+<br>Optimizations:
+
+<br>Collapse redundant nodes for streamlined performance.
+<br>Example: Combining noise and displacement nodes in terrain shaders.
+
+
+<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=Wmwe1fmR1SM" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=Wmwe1fmR1SM" target="_blank">Geometry Fundamentals</a>:
+
+<br>Vertices: Points in 3D space.
+<br>Edges: Lines connecting vertices.
+<br>Faces: Surfaces defined by edges.
+<br>Normals: Perpendicular vectors to surfaces.
+
+
+<br>Math Concepts:
+
+<br><a data-tooltip-position="top" aria-label="https://www.khanacademy.org/math/algebra-home/alg-vectors/alg-vector-basics/v/introduction-to-vectors-and-scalars" rel="noopener nofollow" class="external-link" href="https://www.khanacademy.org/math/algebra-home/alg-vectors/alg-vector-basics/v/introduction-to-vectors-and-scalars" target="_blank">Vectors</a>: Direction and magnitude.
+<br><a data-tooltip-position="top" aria-label="https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:mat-intro/v/introduction-to-the-matrix" rel="noopener nofollow" class="external-link" href="https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:mat-intro/v/introduction-to-the-matrix" target="_blank">Matrices</a>: Transformations in space.
+<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=zjMuIxRvygQ" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=zjMuIxRvygQ" target="_blank">Quaternions</a>: Representing rotations.
+
+
+<br>Applications:<br>
+<br>Procedural transformations (e.g., proportional scaling).
+<br><img alt="3D-Shapes-01-01.png" src="gmap-395\module-1\3d-shapes-01-01.png" style="width: 320px; max-width: 100%;"><br><br><br>
+<br>Nodes and Data Flow: Organizing procedural steps.
+<br>Scattering/Copying: Distributing objects procedurally (e.g., foliage).
+<br>Splines: Creating paths and smooth curves.
+<br>Parameter Manipulation: Dynamically adjusting properties.
+<br>Attributes: Defining object-specific data.
+<br>Randomization/Noise: Adding variation and realism.
+<br>Boolean Operations: Combining or subtracting shapes.
+<br>Instancing: Efficiently reusing objects.
+<br>Deformations: Transforming shapes procedurally (e.g., terrain sculpting).
+<br>Constraints: Guiding procedural behaviors.
+<br>Looping: Repeating processes for consistency.
+<br><br><br>
+<br>Noise Patterns: <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=erI7k3lt4UY" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=erI7k3lt4UY" target="_blank">The Art of Procedural Noise</a>
+
+<br>Procedural textures for organic designs.
+<br>Example: Voronoi patterns used for terrain generation or cellular structures.
+
+
+<br>Fractals: <a data-tooltip-position="top" aria-label="https://www.wired.com/video/watch/5-levels-computer-scientist-explains-fractals-in-5-levels-of-difficulty" rel="noopener nofollow" class="external-link" href="https://www.wired.com/video/watch/5-levels-computer-scientist-explains-fractals-in-5-levels-of-difficulty" target="_blank">Explaining Fractals in 5 Levels</a>
+
+<br>Recursive geometries for complex visuals.
+<br>Example: Mandelbrot sets for landscapes or branching systems like lightning.
+
+
+<br>Flow Fields: <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=na7LuZsW2UM" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=na7LuZsW2UM" target="_blank">The Beauty of Code: Flow Fields</a>
+
+<br>Directing particle systems dynamically.
+<br>Example: Simulating wind patterns or flocking behaviors in particle systems.
+
+
+<br>L-Systems: <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=egxBK_EGauM" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=egxBK_EGauM" target="_blank">L-Systems Fundamentals</a>
+
+<br>Rule-based systems for generating fractal-like structures.
+<br>Example: Procedurally creating realistic trees, plants, or coral.
+
+
+<br>Shape Grammars: <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=zCeqBV0Amm0" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=zCeqBV0Amm0" target="_blank">Procedural Building: Shape Grammars</a>
+
+<br>Rule-based approach for generating architectural or structured designs.
+<br>Example: Creating procedurally generated buildings or city layouts.
+
+
+<br><br><img alt="fractals.png" src="gmap-395\module-1\fractals.png" style="width: 320px; max-width: 100%;"><br>
+<img alt="noise.jpg" src="gmap-395\module-1\noise.jpg"><br><br><br>
+<br>Nodes: Visual representation of workflows.
+<br>Attributes: Define unique object behaviors.
+<br>Randomization: Add variation for realism.
+<br>Scalability: Efficiently create vast, dynamic environments.
+<br>Practical Example:<br>
+<br>Generate a forest:
+
+<br>Use splines for paths.
+<br>Scatter trees procedurally.
+<br>Add random noise for variation.
+
+
+<br><br><br>
+<br>Overview:
+
+<br>Infinite universe generated procedurally.
+
+
+<br>Key Techniques:
+
+<br>Procedural Terrain: Dynamic landscapes with varied biomes.
+<br>Modular Assets: Ships, flora, and fauna built from reusable parts.
+<br>Node-Based Workflows: Data-driven algorithms for content generation.
+
+
+<br>Impact: Demonstrates the synergy of proceduralism and modularity for immersive exploration.<br><a data-tooltip-position="top" aria-label="https://www.rambus.com/blogs/the-algorithms-of-no-mans-sky-2/" rel="noopener nofollow" class="external-link" href="https://www.rambus.com/blogs/the-algorithms-of-no-mans-sky-2/" target="_blank">The algorithms of No Man’s Sky</a><br><br><br><br>
+<br>Procedural Workflows: Automate and enhance creativity.
+<br>Modularity: Reuse and optimize assets.
+<br>Game Feel: Ensure tactile and immersive experiences.
+<br>Tools and Techniques: Build scalable, dynamic, and engaging game worlds.
+<br>Reflection Questions: <br>
+<br>How will you apply procedural and modular techniques in your projects?
+<br>How do node-based workflows enhance creativity and efficiency in game design?
+<br>What are the advantages and challenges of combining proceduralism and modularity in a game project?
+<br>Can you identify a game you’ve played that effectively uses procedural techniques? How did it enhance (or detract from) the gameplay experience?
+<br>]]></description><link>gmap-395\module-1\gmap-395-wk-2-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md</guid><pubDate>Tue, 14 Jan 2025 21:12:21 GMT</pubDate><enclosure url="gmap-395\module-1\gamefeelcover.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\gamefeelcover.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[<strong><em>Procedural Eldritch Portal: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
  <br><br><br><br>In this tutorial, we will create a Procedural "Eldritch Portal", an ominous and glowing gateway surrounded by rocky terrain and organic tendrils. This project aims to integrates procedural modeling techniques and node-based workflows to craft a dynamic and mystical game-based environment artifact.<br><br>
 <br>Understand the Geometry Nodes system in Blender.
 <br>Apply procedural workflows to create modular and reusable assets.
@@ -915,7 +1161,8 @@ Section Recap: Boolean operations allow us to create complex shapes by combining
 
 <br><br><br>Optimization and Export
 We will do the optimization and mesh export in week 3 before importing to Unity. Just be sure to have some procedural game art ready to go.
-<br><br>]]></description><link>gmap-395\module-1\gmap-395-wk-2-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md</guid><pubDate>Mon, 13 Jan 2025 21:28:40 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+<br><br>]]></description><link>gmap-395\module-1\gmap-395-wk-2-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md</guid><pubDate>Mon, 13 Jan 2025 21:28:40 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 2 - Video Lecture]]></title><description><![CDATA[ 
+ <br><br><a data-tooltip-position="top" aria-label="[gmap395_wk2.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" rel="noopener nofollow" class="external-link" href="[gmap395_wk2.mp4](https:\\1drv.ms\v\s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" target="_blank">Video Link</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md</guid><pubDate>Tue, 14 Jan 2025 22:10:30 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
  <br><br><br><br>Instructor Details
 
 <br>Name: Darren Woodland, Jr.

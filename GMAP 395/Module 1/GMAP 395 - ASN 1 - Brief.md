@@ -44,8 +44,8 @@
 > [!note] Key Steps for Part 1
 > 
 > 1. Choose a DCC software like Blender, Houdini, or Maya.
-> 	1. The tutorial for part 1 on this module uses Blender Geometry Nodes
-> 2. Use procedural techniques and operations to create a modular game asset.
+> 	1. The tutorial for part 1 of this module uses Blender Geometry Nodes
+> 2. Use procedural techniques/operations and a node-based workflow to create or modify a game art asset.
 > 3. Ensure the asset embodies the class theme.
 > 4. Export the asset to a format suitable for Unity (e.g., `.fbx`, `.obj`).
 

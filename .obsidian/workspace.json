@@ -8,35 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Index"
-            }
-          },
-          {
-            "id": "c21ec32633118220",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - WK 2 - Tutorial"
-            }
-          },
-          {
-            "id": "bef4e7140008fc0b",
+            "id": "d89d16d454963c97",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,6 +19,34 @@
               },
               "icon": "lucide-file",
               "title": "GMAP 395 - Module 1"
+            }
+          },
+          {
+            "id": "fa65655ee870a083",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - ASN 1 - Brief"
+            }
+          },
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - WK 2 - Video Lecture"
             }
           }
         ],
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "5d10a0586b7ca1ea",
+            "id": "0487017884f1e4c7",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -254,52 +254,63 @@
     "type": "floating",
     "children": [
       {
-        "id": "8e13fe2b29d2522c",
+        "id": "52a477615c5785e6",
         "type": "window",
         "children": [
           {
-            "id": "651d6c65eea6690b",
+            "id": "c37305efcf57373d",
             "type": "tabs",
             "children": [
               {
-                "id": "a599194994a80cd4",
+                "id": "42cf44afebd44c05",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GMAP 395/GMAP 395 - Welcome.md",
+                    "file": "Index.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "GMAP 395 - Welcome"
+                  "title": "Index"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 509,
-        "y": 554,
-        "width": 1002,
-        "height": 502,
+        "x": 573,
+        "y": 626,
+        "width": 802,
+        "height": 402,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "a599194994a80cd4",
+  "active": "42cf44afebd44c05",
   "lastOpenFiles": [
-    "GMAP 395/GMAP 395 - Syllabus.md",
-    "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
+    "docs/gmap-395/module-1/fractals.png",
+    "docs/gmap-395/module-1/3d-shapes-01-01.png",
+    "GMAP 395/GMAP 395 - Welcome.md",
+    "GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md",
+    "GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md",
     "GMAP 395/Module 1/GMAP 395 - Module 1.md",
+    "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
     "GMAP 395/Introduction/GMAP395-DAGsNodes.excalidraw.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md",
     "GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md",
-    "Index.md",
+    "GMAP 395/Module 1/noise.jpg",
+    "GMAP 395/Module 1/fractals.png",
+    "GMAP 395/Module 1/3D-Shapes-01-01.png",
+    "GMAP 395/Module 1/pcgTaxonomy.png",
+    "GMAP 395/Module 1/gamefeelcover.webp",
+    "GMAP 395/Module 1/modualassetpack.png",
     "GMAP 395/Notes/GMAP 395 - WK 2 - Planning.md",
+    "Index.md",
+    "GMAP 395/GMAP 395 - Syllabus.md",
+    "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
     "GMAP 395/Notes/GMAP 395 - WK 1 - Planning.md",
-    "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/Introduction/Introduction.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Video Lecture.md",
     "docs/gmap-395/introduction/introduction.html",
@@ -315,13 +326,6 @@
     "docs/slides/GMAP 395 - WK 1 - Slides/GMAP 395",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img/whiteboard.png",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img/sponge.png",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img/chalk-yellow.png",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img/chalk-white.png",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img/chalk-red.png",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img/chalk-purple.png",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img/chalk-orange.png",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img/chalk-green.png",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img/chalk-blue.png",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/plugin.js",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/_style.css",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/README.md",
@@ -331,9 +335,6 @@
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/customcontrols/README.md",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/menu/README.md",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/menu/CONTRIBUTING.md",
-    "GMAP 395/Module 1/GMAP 395 - Module 1 - Planning.md",
-    "GMAP 395/Module 1/GMAP 395 - WK 1 - Slides Export.md",
-    "Vault.md",
-    "Legacy/FA - 24/DIGM 131/DOCs/Course - Syllabus.md"
+    "GMAP 395/Module 1/GMAP 395 - Module 1 - Planning.md"
   ]
 }
