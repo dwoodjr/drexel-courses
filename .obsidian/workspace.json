@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "GMAP 395 - WK 2 - Video Lecture"
             }
+          },
+          {
+            "id": "6721433d659d74cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - WK 2 - Tutorial"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -103,7 +117,7 @@
             }
           },
           {
-            "id": "0487017884f1e4c7",
+            "id": "787d005ff8306fbb",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -224,7 +238,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 416.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,52 +269,55 @@
     "type": "floating",
     "children": [
       {
-        "id": "52a477615c5785e6",
+        "id": "1378cd65cf98af63",
         "type": "window",
         "children": [
           {
-            "id": "c37305efcf57373d",
+            "id": "ebc9a0ed7957437f",
             "type": "tabs",
             "children": [
               {
-                "id": "42cf44afebd44c05",
+                "id": "aa4b3d9b80991082",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Index.md",
+                    "file": "GMAP 395/GMAP 395 - Welcome.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Index"
+                  "title": "GMAP 395 - Welcome"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 573,
-        "y": 626,
-        "width": 802,
-        "height": 402,
+        "x": 510,
+        "y": 555,
+        "width": 800,
+        "height": 400,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "42cf44afebd44c05",
+  "active": "aa4b3d9b80991082",
   "lastOpenFiles": [
-    "docs/gmap-395/module-1/fractals.png",
-    "docs/gmap-395/module-1/3d-shapes-01-01.png",
-    "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md",
+    "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md",
     "GMAP 395/Module 1/GMAP 395 - Module 1.md",
     "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
     "GMAP 395/Introduction/GMAP395-DAGsNodes.excalidraw.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md",
     "GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md",
+    "GMAP 395/Module 1/395tut1portal.png",
+    "Index.md",
+    "docs/gmap-395/module-1/fractals.png",
+    "docs/gmap-395/module-1/3d-shapes-01-01.png",
+    "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/Module 1/noise.jpg",
     "GMAP 395/Module 1/fractals.png",
     "GMAP 395/Module 1/3D-Shapes-01-01.png",
@@ -307,9 +325,7 @@
     "GMAP 395/Module 1/gamefeelcover.webp",
     "GMAP 395/Module 1/modualassetpack.png",
     "GMAP 395/Notes/GMAP 395 - WK 2 - Planning.md",
-    "Index.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
-    "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
     "GMAP 395/Notes/GMAP 395 - WK 1 - Planning.md",
     "GMAP 395/Introduction/Introduction.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Video Lecture.md",
@@ -324,8 +340,6 @@
     "docs/slides/GMAP 395 - WK 1 - Slides/GMAP 395/Module 1/design-everyday-things.jpg",
     "docs/slides/GMAP 395 - WK 1 - Slides/GMAP 395/Module 1",
     "docs/slides/GMAP 395 - WK 1 - Slides/GMAP 395",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img/whiteboard.png",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img/sponge.png",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/plugin.js",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/_style.css",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/README.md",

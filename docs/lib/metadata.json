@@ -1,8 +1,8 @@
 {
   "vaultName": "drexel-teaching",
-  "lastExport": 1736892873942,
+  "lastExport": 1736973799838,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon mk-folder-lines mk-inline-context-enabled mk-flow-minimal background-settings-workplace-theme-light-in-the-note background-settings-workplace-theme-dark-in-the-sky background-image-settings-markdown-page-transparent notebook-liked-markdown-page-grid-notebook-1 panel-page-bg-theme-light-wall panel-page-bg-theme-dark-plant layout-style-options-default bt-default-unordered-list default-ol-list-marker list-no-border bt-connected-indent-hover bt-colorful-connected-indent-hover folder-icons remove-arrow bt-toggle-colorful-folder folder-style-change-options-colorful-border folder-colorful-six table-width-100 tag-default admonition-bg-color-same style-options-for-admonition-plugin style-options-for-buttons-plugin dataview-list-style-pacman memos-banner-gradient thino-frosted-style thino-background-default quiet-outline-optimize code-theme-bt-default whole-code-wrap",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon mk-folder-lines mk-inline-context-enabled mk-flow-minimal background-settings-workplace-theme-light-in-the-note background-settings-workplace-theme-dark-in-the-sky background-image-settings-markdown-page-transparent notebook-liked-markdown-page-grid-notebook-1 panel-page-bg-theme-light-wall panel-page-bg-theme-dark-plant layout-style-options-default bt-default-unordered-list default-ol-list-marker list-no-border bt-connected-indent-hover bt-colorful-connected-indent-hover folder-icons remove-arrow bt-toggle-colorful-folder folder-style-change-options-colorful-border folder-colorful-six table-width-100 tag-default admonition-bg-color-same style-options-for-admonition-plugin style-options-for-buttons-plugin dataview-list-style-pacman memos-banner-gradient thino-frosted-style thino-background-default quiet-outline-optimize code-theme-bt-default whole-code-wrap iconic-clickable-icons iconic-theme-btopaz",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
@@ -12,6 +12,7 @@
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Video Lecture.md",
     "GMAP 395/Introduction/GMAP395-DAGsNodes.excalidraw.md",
     "GMAP 395/Module 1/3D-Shapes-01-01.png",
+    "GMAP 395/Module 1/395tut1portal.png",
     "GMAP 395/Module 1/fractals.png",
     "GMAP 395/Module 1/gamefeelcover.webp",
     "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
@@ -99,199 +100,199 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1736892873942,
-      "sourceSize": 18544,
+      "modifiedTime": 1736973799838,
+      "sourceSize": 19391,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 1351,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 131118,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 855378,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 239,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 1676,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 154459,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "gmap-395/introduction/design-everyday-things.jpg": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 92337,
       "exportedPath": "gmap-395/introduction/design-everyday-things.jpg",
       "dependencies": []
     },
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 20354,
       "exportedPath": "gmap-395/introduction/gmap-395-wk-1-slides.html",
       "dependencies": [
@@ -299,85 +300,87 @@
       ]
     },
     "GMAP 395/Introduction/design-everyday-things.jpg": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 92337,
       "exportedPath": "gmap-395/introduction/design-everyday-things.jpg",
       "dependencies": []
     },
     "GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 1349,
       "exportedPath": "gmap-395/introduction/gmap-395-introduction-and-overview.html",
       "dependencies": []
     },
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Video Lecture.md": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 279,
       "exportedPath": "gmap-395/introduction/gmap-395-wk-1-video-lecture.html",
       "dependencies": []
     },
     "GMAP 395/Introduction/GMAP395-DAGsNodes.excalidraw.md": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 24612,
       "exportedPath": "gmap-395/introduction/gmap395-dagsnodes.excalidraw.html",
       "dependencies": []
     },
     "GMAP 395/Module 1/GMAP 395 - Module 1.md": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 3143,
       "exportedPath": "gmap-395/module-1/gmap-395-module-1.html",
       "dependencies": []
     },
     "GMAP 395/GMAP 395 - Syllabus.md": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 18328,
       "exportedPath": "gmap-395/gmap-395-syllabus.html",
       "dependencies": []
     },
     "GMAP 395/GMAP 395 - Welcome.md": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 2996,
       "exportedPath": "gmap-395/gmap-395-welcome.html",
       "dependencies": []
     },
     "Index.md": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 1380,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md": {
-      "modifiedTime": 1736892873942,
-      "sourceSize": 11462,
+      "modifiedTime": 1736973799838,
+      "sourceSize": 12641,
       "exportedPath": "gmap-395/module-1/gmap-395-wk-2-tutorial.html",
-      "dependencies": []
+      "dependencies": [
+        "gmap-395/module-1/395tut1portal.png"
+      ]
     },
     "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 5316,
       "exportedPath": "gmap-395/module-1/gmap-395-asn-1-brief.html",
       "dependencies": []
     },
     "GMAP 395/Module 1/3D-Shapes-01-01.png": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 25423,
       "exportedPath": "gmap-395/module-1/3d-shapes-01-01.png",
       "dependencies": []
     },
     "GMAP 395/Module 1/fractals.png": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 227331,
       "exportedPath": "gmap-395/module-1/fractals.png",
       "dependencies": []
     },
     "GMAP 395/Module 1/gamefeelcover.webp": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 14164,
       "exportedPath": "gmap-395/module-1/gamefeelcover.webp",
       "dependencies": []
     },
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 10883,
       "exportedPath": "gmap-395/module-1/gmap-395-wk-2-slides.html",
       "dependencies": [
@@ -390,63 +393,75 @@
       ]
     },
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 260,
       "exportedPath": "gmap-395/module-1/gmap-395-wk-2-video-lecture.html",
       "dependencies": []
     },
     "GMAP 395/Module 1/modualassetpack.png": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 1384977,
       "exportedPath": "gmap-395/module-1/modualassetpack.png",
       "dependencies": []
     },
     "GMAP 395/Module 1/noise.jpg": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 57476,
       "exportedPath": "gmap-395/module-1/noise.jpg",
       "dependencies": []
     },
     "GMAP 395/Module 1/pcgTaxonomy.png": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 28452,
       "exportedPath": "gmap-395/module-1/pcgtaxonomy.png",
       "dependencies": []
     },
     "gmap-395/module-1/gamefeelcover.webp": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 14164,
       "exportedPath": "gmap-395/module-1/gamefeelcover.webp",
       "dependencies": []
     },
     "gmap-395/module-1/modualassetpack.png": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 1384977,
       "exportedPath": "gmap-395/module-1/modualassetpack.png",
       "dependencies": []
     },
     "gmap-395/module-1/pcgtaxonomy.png": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 28452,
       "exportedPath": "gmap-395/module-1/pcgtaxonomy.png",
       "dependencies": []
     },
     "gmap-395/module-1/3d-shapes-01-01.png": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 25423,
       "exportedPath": "gmap-395/module-1/3d-shapes-01-01.png",
       "dependencies": []
     },
     "gmap-395/module-1/fractals.png": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 227331,
       "exportedPath": "gmap-395/module-1/fractals.png",
       "dependencies": []
     },
     "gmap-395/module-1/noise.jpg": {
-      "modifiedTime": 1736892873942,
+      "modifiedTime": 1736973799838,
       "sourceSize": 57476,
       "exportedPath": "gmap-395/module-1/noise.jpg",
+      "dependencies": []
+    },
+    "GMAP 395/Module 1/395tut1portal.png": {
+      "modifiedTime": 1736973799838,
+      "sourceSize": 484158,
+      "exportedPath": "gmap-395/module-1/395tut1portal.png",
+      "dependencies": []
+    },
+    "gmap-395/module-1/395tut1portal.png": {
+      "modifiedTime": 1736973799838,
+      "sourceSize": 484158,
+      "exportedPath": "gmap-395/module-1/395tut1portal.png",
       "dependencies": []
     }
   }

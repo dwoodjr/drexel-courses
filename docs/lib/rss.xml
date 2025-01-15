@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 14 Jan 2025 22:14:41 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 14 Jan 2025 22:14:33 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 15 Jan 2025 20:43:27 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 15 Jan 2025 20:43:19 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Video</a><br><br><br>
 <br>The relationship between games, design, and play.
@@ -1032,13 +1032,16 @@ Real-time control of virtual objects in a simulated space, with interaction emph
 <br>How do node-based workflows enhance creativity and efficiency in game design?
 <br>What are the advantages and challenges of combining proceduralism and modularity in a game project?
 <br>Can you identify a game you’ve played that effectively uses procedural techniques? How did it enhance (or detract from) the gameplay experience?
-<br>]]></description><link>gmap-395\module-1\gmap-395-wk-2-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md</guid><pubDate>Tue, 14 Jan 2025 21:12:21 GMT</pubDate><enclosure url="gmap-395\module-1\gamefeelcover.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\gamefeelcover.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[<strong><em>Procedural Eldritch Portal: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
- <br><br><br><br>In this tutorial, we will create a Procedural "Eldritch Portal", an ominous and glowing gateway surrounded by rocky terrain and organic tendrils. This project aims to integrates procedural modeling techniques and node-based workflows to craft a dynamic and mystical game-based environment artifact.<br><br>
+<br>]]></description><link>gmap-395\module-1\gmap-395-wk-2-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md</guid><pubDate>Tue, 14 Jan 2025 21:12:21 GMT</pubDate><enclosure url="gmap-395\module-1\gamefeelcover.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\gamefeelcover.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[<strong><em>Procedural Eldritch Portal + Environment: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
+ <br><br><img alt="395tut1portal.png" src="gmap-395\module-1\395tut1portal.png" style="width: 640px; max-width: 100%;"><br><br><br>In this tutorial, we will create a Procedural "Eldritch Portal" Environment Art, an ominous and glowing gateway surrounded by rocky terrain and organic tendrils. This project aims to integrates procedural modeling techniques and node-based workflows to craft a dynamic and mystical game-based environment artifact.<br><br>
 <br>Understand the Geometry Nodes system in Blender.
 <br>Apply procedural workflows to create modular and reusable assets.
 <br>Explore node-based techniques for attributes like scattering, randomization, and deformation.
 <br>Gain insight into exporting assets for game engines like Unity.
-<br><br><br><br><br>
+<br>Reminder: Documentation is your best friend!
+<a rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html" target="_blank">https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html</a>
+<br>Intro Video: <br>
+[gmap395_tut1_intro.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_Ewtu7qaLOfP_oFTQ?e=Dfjfxw)<br><br><br><br><br>
 <br>Open Blender and create a new project.
 <br>Switch to the Geometry Nodes workspace.
 
@@ -1080,7 +1083,8 @@ Real-time control of virtual objects in a simulated space, with interaction emph
 
 <br>
 Section Recap: Now you've got a basic terrain base and some rocks scattered along the surface. The scattering and rock scale are randomized to provide a more natural look. If you want to later, you can procedurally model some rocks and replate the basic primitive used as a stand-in.  
-<br><br><br><br><br>
+<br>
+[gmap395_tut1_p1.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_Ev1DF4vxnCCHC5jw?e=fayUeZ)<br><br><br><br><br>
 <br>Start with a Base Shape:
 
 <br>Add a Bezier Circle (Shift + A &gt; Curve &gt; Circle) to represent the outer edge of your portal. Name it appropriately, like portal_base_geo. Now assign a new geometry node modifier to it in the Geometry Nodes context. This provides a smooth and flexible base for the portal geometry.
@@ -1128,7 +1132,7 @@ You will need to temporarily connect the Instances output from  both Instance to
 If you with to have a circular plane to fill the void in the portal (maybe for doing a shader later on) you can use a Fill Curve node. Just connect a new edge from the geometry output of the main Group Input node to it and then connect the Mesh output to the Mesh input of the Mesh Boolean 
 <br>
 Section Recap: Boolean operations allow us to create complex shapes by combining or subtracting simpler ones. Here, we use the smaller set of geometry to combine with the larger set of geometry, forming the portal’s basic structure. Now, if you wish to later, you can model better stone using the cubes as a base to make the portal look better.
-<br><br><br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_EuJDcode-o2D6LIA?e=rsBx7O" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_EuJDcode-o2D6LIA?e=rsBx7O" target="_blank">gmap395_tut1_p2.mp4</a><br><br><br><br><br><br>
 <br>Define Tendril Paths:
 
 <br>Add a Curve Line (Shift + A &gt; Curve &gt; Curve Line) and then add a Transform Geometry node to a new modifier context.
@@ -1159,9 +1163,10 @@ Section Recap: Boolean operations allow us to create complex shapes by combining
 
 
 
-<br><br><br>Optimization and Export
+<br>
+[gmap395_tut1_p3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EtzgD0ilFKv0Moww?e=JO4ROa)<br><br><br>Optimization and Export
 We will do the optimization and mesh export in week 3 before importing to Unity. Just be sure to have some procedural game art ready to go.
-<br><br>]]></description><link>gmap-395\module-1\gmap-395-wk-2-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md</guid><pubDate>Mon, 13 Jan 2025 21:28:40 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 2 - Video Lecture]]></title><description><![CDATA[ 
+<br><br>]]></description><link>gmap-395\module-1\gmap-395-wk-2-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md</guid><pubDate>Wed, 15 Jan 2025 20:42:25 GMT</pubDate><enclosure url="gmap-395\module-1\395tut1portal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\395tut1portal.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 2 - Video Lecture]]></title><description><![CDATA[ 
  <br><br><a data-tooltip-position="top" aria-label="[gmap395_wk2.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" rel="noopener nofollow" class="external-link" href="[gmap395_wk2.mp4](https:\\1drv.ms\v\s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" target="_blank">Video Link</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md</guid><pubDate>Tue, 14 Jan 2025 22:14:12 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
  <br><br><br><br>Instructor Details
 

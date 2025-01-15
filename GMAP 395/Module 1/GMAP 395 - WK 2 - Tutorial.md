@@ -1,10 +1,12 @@
 
-# ***Procedural Eldritch Portal: A Tutorial for Blender***
+# ***Procedural Eldritch Portal + Environment: A Tutorial for Blender***
+
+![[395tut1portal.png|640]]
 
 ## Introduction
 
 ### Theme: "Something from the Void"
-In this tutorial, we will create a **Procedural "Eldritch Portal"**, an ominous and glowing gateway surrounded by rocky terrain and organic tendrils. This project aims to integrates procedural modeling techniques and node-based workflows to craft a dynamic and mystical game-based environment artifact.
+In this tutorial, we will create a **Procedural "Eldritch Portal" Environment Art**, an ominous and glowing gateway surrounded by rocky terrain and organic tendrils. This project aims to integrates procedural modeling techniques and node-based workflows to craft a dynamic and mystical game-based environment artifact.
 
 ### Learning Goals:
 - Understand the **Geometry Nodes** system in Blender.
@@ -12,6 +14,13 @@ In this tutorial, we will create a **Procedural "Eldritch Portal"**, an ominous 
 - Explore **node-based techniques** for attributes like scattering, randomization, and deformation.
 - Gain insight into exporting assets for **game engines** like Unity.
 
+
+> [!warning] Reminder: *Documentation* is your best friend!
+> https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html
+
+***Intro Video***: 
+<iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_Ewa8MCYxCviVy2gg?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
+[gmap395_tut1_intro.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_Ewtu7qaLOfP_oFTQ?e=Dfjfxw)
 
 
 ##
@@ -49,6 +58,8 @@ In this tutorial, we will create a **Procedural "Eldritch Portal"**, an ominous 
 
 > **Section Recap:** Now you've got a basic terrain base and some rocks scattered along the surface. The scattering and rock scale are randomized to provide a more natural look. If you want to later, you can procedurally model some rocks and replate the basic primitive used as a stand-in.  
 
+<iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_Ev2buzpZnIe8YM5A?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
+[gmap395_tut1_p1.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_Ev1DF4vxnCCHC5jw?e=fayUeZ)
 
 ##
 ---
@@ -90,6 +101,9 @@ In this tutorial, we will create a **Procedural "Eldritch Portal"**, an ominous 
 
 > **Section Recap:** Boolean operations allow us to create complex shapes by combining or subtracting simpler ones. Here, we use the smaller set of geometry to combine with the larger set of geometry, forming the portal’s basic structure. Now, if you wish to later, you can model better stone using the cubes as a base to make the portal look better.
 
+[gmap395_tut1_p2.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EuJDcode-o2D6LIA?e=rsBx7O)
+<iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_Eue0CpgFjlPwTaeA?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
 ##
 ---
 
@@ -113,9 +127,15 @@ In this tutorial, we will create a **Procedural "Eldritch Portal"**, an ominous 
     4. To create a more "natural" look we will add some random roatation so the tendrils are not all uniform. Grab a `Random Value` node set to *Vector*. *Max* value are 0.0, 0.1, and 1.90.
         1. The *Value* output goes to the Rotation input of a `Rotate Instances` node. This connects to the `Instance on Points` and the `Group Output` nodes. You can also use a `Transform Geometry` node to move all the tendrils into place.
 
+
+<iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_Etx1QgHhvQEc79vQ?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
+[gmap395_tut1_p3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EtzgD0ilFKv0Moww?e=JO4ROa)
+
+
 ---
 
 ## Export
+
 > [!error] Optimization and Export
 > We will do the optimization and mesh export in week 3 before importing to Unity. Just be sure to have some procedural game art ready to go.
 
