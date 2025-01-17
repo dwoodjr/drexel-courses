@@ -27,44 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
+                "file": "GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - ASN 1 - Brief"
+              "title": "GMAP 395 - WK 2 - Slides"
             }
           },
           {
-            "id": "e7a7b303c61786dc",
+            "id": "986e69b9e98db2e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md",
+                "file": "GMAP 395/Module 1/GMAP 395 - WK 3 - Slides .md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - WK 2 - Video Lecture"
-            }
-          },
-          {
-            "id": "6721433d659d74cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - WK 2 - Tutorial"
+              "title": "GMAP 395 - WK 3 - Slides"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +103,7 @@
             }
           },
           {
-            "id": "787d005ff8306fbb",
+            "id": "244427adb1c904f1",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -238,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5,
-    "collapsed": true
+    "width": 416.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,63 +246,26 @@
       "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "iconic:Open rulebook": false
     }
   },
-  "floating": {
-    "id": "4e67e8e2adab9179",
-    "type": "floating",
-    "children": [
-      {
-        "id": "1378cd65cf98af63",
-        "type": "window",
-        "children": [
-          {
-            "id": "ebc9a0ed7957437f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "aa4b3d9b80991082",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GMAP 395/GMAP 395 - Welcome.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "GMAP 395 - Welcome"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 510,
-        "y": 555,
-        "width": 800,
-        "height": 400,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "aa4b3d9b80991082",
+  "active": "986e69b9e98db2e6",
   "lastOpenFiles": [
+    "GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md",
+    "GMAP 395/Module 1/GMAP 395 - WK 3 - Slides .md",
+    "Index.md",
+    "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
+    "GMAP 395/Module 1/GMAP 395 - Module 1.md",
+    "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md",
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
-    "GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md",
-    "GMAP 395/Module 1/GMAP 395 - Module 1.md",
-    "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
     "GMAP 395/Introduction/GMAP395-DAGsNodes.excalidraw.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md",
     "GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md",
     "GMAP 395/Module 1/395tut1portal.png",
-    "Index.md",
     "docs/gmap-395/module-1/fractals.png",
     "docs/gmap-395/module-1/3d-shapes-01-01.png",
-    "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/Module 1/noise.jpg",
     "GMAP 395/Module 1/fractals.png",
     "GMAP 395/Module 1/3D-Shapes-01-01.png",
