@@ -67,4 +67,5 @@ By the end of this module, you will:
 
 ---
 ---
+
 >[!info]  [[GMAP 395 - Welcome| Return to the Course Main Page]]

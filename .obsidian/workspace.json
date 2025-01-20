@@ -8,6 +8,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "877d89564ffa4b4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Index"
+            }
+          },
+          {
             "id": "3cf2eafa8a303d6d",
             "type": "leaf",
             "state": {
@@ -22,7 +36,7 @@
             }
           },
           {
-            "id": "7e5c1d4202e96db5",
+            "id": "f41d64a94e021146",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,25 +48,23 @@
               "icon": "lucide-file",
               "title": "GMAP 395 - WK 3 - Slides"
             }
+          },
+          {
+            "id": "24e4993c807b2744",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Module 1/GMAP 395 - WK 3 - Tutorial.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - WK 3 - Tutorial"
+            }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "f2023ce3659781dd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "739eb41dd49c43d8",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +117,7 @@
             }
           },
           {
-            "id": "ef4b49da0e0fb488",
+            "id": "47f90988fd4c825b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -226,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,33 +264,74 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "7e5c1d4202e96db5",
+  "floating": {
+    "id": "6cd192cac3999acf",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2c9b8d0062e1146e",
+        "type": "window",
+        "children": [
+          {
+            "id": "157da71d760072cb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "eaefd63a24c9e82f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Index.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Index"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 830,
+        "y": 915,
+        "width": 800,
+        "height": 400,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "eaefd63a24c9e82f",
   "lastOpenFiles": [
-    "GMAP 395/Module 1/GMAP 395 - Module 1.md",
-    "Index.md",
-    "GMAP 395/Module 1/GMAP 395 - WK 3 - Slides.md",
-    "GMAP 395/Module 1/GMAP 395 - WK 3 - Slides .md",
-    "GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md",
-    "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
     "GMAP 395/GMAP 395 - Welcome.md",
-    "GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md",
+    "GMAP 395/Module 1/GMAP 395 - WK 3 - Tutorial.md",
+    "GMAP 395/Module 1/GMAP 395 - WK 3 - Slides.md",
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
+    "GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md",
+    "GMAP 395/Module 1/GMAP 395 - Module 1.md",
+    "GMAP 395/Introduction/Introduction.md",
     "GMAP 395/Introduction/GMAP395-DAGsNodes.excalidraw.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md",
     "GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md",
+    "GMAP 395/Module 1/6492c4ab6751d8f29f5e4826_LAUNCH_Screenshot_101-p-500.webp",
+    "GMAP 395/Module 1/6492c4abf65d6e4dfffbb89e_CONTROL_WorldTrailer_quarry_sky-p-500.avif",
+    "GMAP 395/Module 1/iPad_02-600x800.png",
+    "GMAP 395/Module 1/iPad_01-600x800.png",
+    "Index.md",
+    "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
+    "GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md",
+    "GMAP 395/Module 1/GMAP 395 - WK 3 - Slides .md",
     "GMAP 395/Module 1/395tut1portal.png",
     "docs/gmap-395/module-1/fractals.png",
     "docs/gmap-395/module-1/3d-shapes-01-01.png",
     "GMAP 395/Module 1/noise.jpg",
     "GMAP 395/Module 1/fractals.png",
     "GMAP 395/Module 1/3D-Shapes-01-01.png",
-    "GMAP 395/Module 1/pcgTaxonomy.png",
-    "GMAP 395/Module 1/gamefeelcover.webp",
-    "GMAP 395/Module 1/modualassetpack.png",
     "GMAP 395/Notes/GMAP 395 - WK 2 - Planning.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/Notes/GMAP 395 - WK 1 - Planning.md",
-    "GMAP 395/Introduction/Introduction.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Video Lecture.md",
     "docs/gmap-395/introduction/introduction.html",
     "docs/gmap-395/introduction/gmap395_wk1.mp4",
@@ -288,7 +341,6 @@
     "Excalidraw/GMAP395-DAGsNodes.excalidraw.md",
     "GMAP 395/Module 1/GMAP 395 - WK 1 - Slides.md",
     "GMAP 395/Module 1/GMAP 395 - Introduction and Overview.md",
-    "docs/slides/GMAP 395 - WK 1 - Slides/GMAP 395/Module 1/design-everyday-things.jpg",
     "docs/slides/GMAP 395 - WK 1 - Slides/GMAP 395/Module 1",
     "docs/slides/GMAP 395 - WK 1 - Slides/GMAP 395",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/plugin.js",
@@ -297,8 +349,6 @@
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/style.css",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chalkboard/img",
     "docs/slides/GMAP 395 - WK 1 - Slides/plugin/chart/README.md",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/customcontrols/README.md",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/menu/README.md",
-    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/menu/CONTRIBUTING.md"
+    "docs/slides/GMAP 395 - WK 1 - Slides/plugin/customcontrols/README.md"
   ]
 }

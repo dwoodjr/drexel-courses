@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 15 Jan 2025 20:43:27 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 15 Jan 2025 20:43:19 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 20 Jan 2025 19:06:37 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 20 Jan 2025 19:06:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Video</a><br><br><br>
 <br>The relationship between games, design, and play.
@@ -636,7 +636,8 @@ How does understanding the development process help you approach game design or 
 What trends or common tools did you notice across different games?<br>
 How might these approaches inspire your work as a game designer or artist?
 ]]></description><link>gmap-395\introduction\gmap-395-wk-1-slides.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md</guid><pubDate>Tue, 07 Jan 2025 15:54:10 GMT</pubDate><enclosure url="gmap-395\introduction\design-everyday-things.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\introduction\design-everyday-things.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 1 - Video Lecture]]></title><description><![CDATA[ 
- <br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_AsN9Rcq9MtNowLIQ?e=V4Sh1W" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_AsN9Rcq9MtNowLIQ?e=V4Sh1W" target="_blank">Video link if above does not play in browser</a>]]></description><link>gmap-395\introduction\gmap-395-wk-1-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Video Lecture.md</guid><pubDate>Wed, 08 Jan 2025 23:44:40 GMT</pubDate></item><item><title><![CDATA[Assignment 1: Procedural Game Art and Lighting Systems]]></title><description><![CDATA[ 
+ <br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_AsN9Rcq9MtNowLIQ?e=V4Sh1W" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_AsN9Rcq9MtNowLIQ?e=V4Sh1W" target="_blank">Video link if above does not play in browser</a>]]></description><link>gmap-395\introduction\gmap-395-wk-1-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Video Lecture.md</guid><pubDate>Wed, 08 Jan 2025 23:44:40 GMT</pubDate></item><item><title><![CDATA[Introduction]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\introduction\introduction.html</link><guid isPermaLink="false">GMAP 395/Introduction/Introduction.md</guid><pubDate>Wed, 08 Jan 2025 23:28:11 GMT</pubDate></item><item><title><![CDATA[Assignment 1: Procedural Game Art and Lighting Systems]]></title><description><![CDATA[ 
  <br><br><br>Assignment Overview  
 In this assignment, students will:
 
@@ -756,10 +757,11 @@ The theme Something from the Void is intentionally open-ended. Interpret it crea
 <br>Explore Unity’s lighting systems to design atmospheric and visually appealing scenes.
 <br>Develop an iterative workflow for asset creation, scene design, and troubleshooting.
 
-<br><br>]]></description><link>gmap-395\module-1\gmap-395-asn-1-brief.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md</guid><pubDate>Tue, 14 Jan 2025 20:38:18 GMT</pubDate></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-asn-1-brief.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md</guid><pubDate>Fri, 17 Jan 2025 19:49:24 GMT</pubDate></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
  <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br><br><a data-href="GMAP 395 - WK 2 - Slides" href="gmap-395\module-1\gmap-395-wk-2-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Slides</a><br>
 <a data-href="GMAP 395 - WK 2 - Video Lecture" href="gmap-395\module-1\gmap-395-wk-2-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Video Lecture</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial" data-href="GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial" href="gmap-395\module-1\gmap-395-wk-2-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Tutorial</a><br>
+<a data-href="GMAP 395 - WK 3 - Slides" href="gmap-395\module-1\gmap-395-wk-3-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Slides</a><br>
 <a data-href="GMAP 395 - ASN 1 - Brief" href="gmap-395\module-1\gmap-395-asn-1-brief.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - ASN 1 - Brief</a><br><br><br>
 <br>Introduction to procedural modeling with Blender.
 <br>Basics of lighting systems with Unity.
@@ -788,7 +790,7 @@ The theme Something from the Void is intentionally open-ended. Interpret it crea
 <br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Tue, 14 Jan 2025 22:08:41 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 2 - Slides]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Fri, 17 Jan 2025 19:49:48 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 2 - Slides]]></title><description><![CDATA[ 
  <br><br><br><br><br><br><img alt="gamefeelcover.webp" src="gmap-395\module-1\gamefeelcover.webp" style="width: 320px; max-width: 100%;"><br>Game Feel
 Real-time control of virtual objects in a simulated space, with interaction emphasized by polish.<br>
 -- Steve Swink
@@ -1032,7 +1034,7 @@ Real-time control of virtual objects in a simulated space, with interaction emph
 <br>How do node-based workflows enhance creativity and efficiency in game design?
 <br>What are the advantages and challenges of combining proceduralism and modularity in a game project?
 <br>Can you identify a game you’ve played that effectively uses procedural techniques? How did it enhance (or detract from) the gameplay experience?
-<br>]]></description><link>gmap-395\module-1\gmap-395-wk-2-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md</guid><pubDate>Tue, 14 Jan 2025 21:12:21 GMT</pubDate><enclosure url="gmap-395\module-1\gamefeelcover.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\gamefeelcover.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[<strong><em>Procedural Eldritch Portal + Environment: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
+<br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md</guid><pubDate>Fri, 17 Jan 2025 19:48:44 GMT</pubDate><enclosure url="gmap-395\module-1\gamefeelcover.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\gamefeelcover.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[<strong><em>Procedural Eldritch Portal + Environment: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
  <br><br><img alt="395tut1portal.png" src="gmap-395\module-1\395tut1portal.png" style="width: 640px; max-width: 100%;"><br><br><br>In this tutorial, we will create a Procedural "Eldritch Portal" Environment Art, an ominous and glowing gateway surrounded by rocky terrain and organic tendrils. This project aims to integrates procedural modeling techniques and node-based workflows to craft a dynamic and mystical game-based environment artifact.<br><br>
 <br>Understand the Geometry Nodes system in Blender.
 <br>Apply procedural workflows to create modular and reusable assets.
@@ -1166,8 +1168,243 @@ Section Recap: Boolean operations allow us to create complex shapes by combining
 <br>
 [gmap395_tut1_p3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EtzgD0ilFKv0Moww?e=JO4ROa)<br><br><br>Optimization and Export
 We will do the optimization and mesh export in week 3 before importing to Unity. Just be sure to have some procedural game art ready to go.
-<br><br>]]></description><link>gmap-395\module-1\gmap-395-wk-2-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md</guid><pubDate>Wed, 15 Jan 2025 20:42:25 GMT</pubDate><enclosure url="gmap-395\module-1\395tut1portal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\395tut1portal.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 2 - Video Lecture]]></title><description><![CDATA[ 
- <br><br><a data-tooltip-position="top" aria-label="[gmap395_wk2.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" rel="noopener nofollow" class="external-link" href="[gmap395_wk2.mp4](https:\\1drv.ms\v\s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" target="_blank">Video Link</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md</guid><pubDate>Tue, 14 Jan 2025 22:14:12 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md</guid><pubDate>Fri, 17 Jan 2025 19:48:58 GMT</pubDate><enclosure url="gmap-395\module-1\395tut1portal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\395tut1portal.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 2 - Video Lecture]]></title><description><![CDATA[ 
+ <br><br><a data-tooltip-position="top" aria-label="[gmap395_wk2.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" rel="noopener nofollow" class="external-link" href="[gmap395_wk2.mp4](https:\\1drv.ms\v\s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" target="_blank">Video Link</a><br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md</guid><pubDate>Fri, 17 Jan 2025 19:49:10 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 3 - Slides]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br>
+<br>Purpose of Lighting:
+
+<br>Enhance mood and atmosphere.
+<br>Guide the player’s attention.
+<br>Improve visual clarity and realism.
+<br>Communicate gameplay mechanics and objectives.
+<br>Balance aesthetics with performance.
+
+
+<br><br><br>
+<br>Quality: Determines how light interacts with surfaces.
+
+<br>Example: Realistic shadows, soft light falloffs.
+
+
+<br>Quantity: The intensity and coverage of light.
+
+<br>Example: Brightness levels and area of influence.
+
+
+<br>Direction: The angle and position of light.
+
+<br>Example: Backlighting for dramatic silhouettes.
+
+
+<br><br><br><br>
+<br>Understanding Quality:
+
+<br>High-quality lighting enhances immersion with realistic shadows and nuanced illumination.
+<br>Balancing quality ensures performance optimization.
+
+
+<br>Managing Quantity:
+
+<br>Excessively bright or dim lighting can confuse players.
+<br>Adjust light intensity to fit the scene’s tone and function.
+
+
+<br>Using Direction Effectively:
+
+<br>Side or top-down lighting can highlight textures or contours.
+<br>Directional lighting aids in visual storytelling.
+
+
+<br><br><br><br>
+<br>Direct Lighting: Hits surfaces directly.
+<br>Indirect Lighting: Bounces light off surfaces.
+<br>Ambient Lighting: General illumination without a specific source.
+<br>Emissive Lighting: Objects emit their own light.
+<br>Global Illumination (GI): Simulates realistic light interactions through bounces.
+<br><a data-tooltip-position="top" aria-label="https://www.adobe.com/products/substance3d/discover/what-is-global-illumination.html#:~:text=Global illumination is a feature,doesn't look very realistic." rel="noopener nofollow" class="external-link" href="https://www.adobe.com/products/substance3d/discover/what-is-global-illumination.html#:~:text=Global%20illumination%20is%20a%20feature,doesn't%20look%20very%20realistic." target="_blank">A guide to global illumination - ADOBE </a><br><br><br><br>
+<br>General Principles:
+
+<br>All game engines rely on similar principles for rendering lighting.
+<br>Systems like lightmaps, probes, and dynamic adjustments are ubiquitous.
+
+
+<br>Implementation Tips:
+
+<br>Always profile lighting performance.
+<br>Utilize modular workflows for scalability when needed/possible.
+
+
+<br><br><br>
+<br>Directional Light: Simulates sunlight, infinite reach.
+<br>Point Light: Emits light uniformly in all directions.
+<br>Spot Light: Creates a cone-shaped beam.
+<br>Area Light: Illuminates a specific area (baked only).
+<br><a data-tooltip-position="top" aria-label="https://book.leveldesignbook.com/process/lighting" rel="noopener nofollow" class="external-link" href="https://book.leveldesignbook.com/process/lighting" target="_blank">The Level Design Book - Lighting</a><br><br><br>
+<br>Dynamic Lighting: Updates continuously, ideal for interactive or changing environments.
+<br>Static Lighting: Pre-calculated for non-interactive elements to reduce processing.
+<br>Hybrid Systems: Combine dynamic and static methods for optimized results.
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/Manual/LightModes-introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/Manual/LightModes-introduction.html" target="_blank">Unity Documentation on "Light Modes"</a><br><br><br>
+<br>Limit Realtime Lights: Use baked lighting wherever possible.
+<br>Leverage Mixed Lighting: Combine dynamic and static lighting.
+<br>Light Probes: Optimize lighting for dynamic objects.
+<br>Reflection Probes: Simulate realistic reflections.
+<br>Profile Lighting Costs: Regularly monitor performance impact.
+<br><a data-tooltip-position="top" aria-label="https://vintay.medium.com/difference-between-realtime-mixed-and-baked-lighting-in-unity-6bda1f24bfb" rel="noopener nofollow" class="external-link" href="https://vintay.medium.com/difference-between-realtime-mixed-and-baked-lighting-in-unity-6bda1f24bfb" target="_blank">Difference Between Realtime, Mixed, And Baked Lighting in Unity</a><br>See again (<a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=04YUZ3bWAyg" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=04YUZ3bWAyg" target="_blank">Global Illumination in Tom Clancy's The Division</a>)<br><br><br>
+<br>Baking Systems: Pre-render static lights for better performance.
+<br>Volumetric Effects: Add atmospheric depth with fog and light scattering.
+<br>Custom Shaders: Fine-tune light interactions for specific materials.
+<br>Node-Based Workflows and Code: Use visual tools for procedural lighting systems.
+<br><br><br>
+<br>Day/Night Cycles: Transition lighting over time to match environmental storytelling.
+<br>Interactive Lighting: Lights that respond to player actions or environmental triggers.
+<br>Color and Intensity Shifts: Create mood transitions or dramatic effects.
+<br><br><br>
+<br>Guidance: Direct player attention to objectives.
+
+<br>Example: Highlight interactable objects or paths.
+
+
+<br>Atmosphere: Build tension or mood.
+
+<br>Example: Dim, flickering lights in a horror game.
+
+
+<br>Puzzle Elements: Use light as an integral component of gameplay challenges.
+
+<br>Example: Reflective surfaces or light-activated mechanisms.
+
+
+<br><br><br><br>
+<br>Layered Lighting: Combine ambient, direct, and dynamic sources for depth.
+<br>Color Theory in Lighting: Use color to evoke emotions or set the scene’s tone.
+<br>Light-Based Storytelling: Subtle shifts in lighting to hint at narrative progression.
+<br><br><br>
+<br>LOD Systems: Adjust lighting details based on distance.
+<br>Render Pipelines (Graphics Pipeline): Use advanced pipelines for better control.
+<br>Post-Processing: Enhance visuals without additional light sources.
+<br><a data-tooltip-position="top" aria-label="https://www.geeksforgeeks.org/opengl-rendering-pipeline-overview/" rel="noopener nofollow" class="external-link" href="https://www.geeksforgeeks.org/opengl-rendering-pipeline-overview/" target="_blank">OpenGL Rendering Pipeline | An Overview</a><br>
+<a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Graphics_pipeline" rel="noopener nofollow" class="external-link" href="https://en.wikipedia.org/wiki/Graphics_pipeline" target="_blank">Graphics Pipelines</a><br><br><br><br><br>
+<br>Emotion and Atmosphere:
+
+<br>Colors evoke specific emotions and set the tone of a scene.
+<br>Example: Warm colors like orange and red convey energy or danger, while cool colors like blue and green suggest calm or mystery.
+
+
+<br>Player Guidance:
+
+<br>Bright or contrasting colors naturally draw attention to key gameplay elements.
+<br>Example: A glowing blue portal in a dimly lit room.
+
+
+<br><br><br>
+<br>Hue, Saturation, and Value (HSV):
+
+<br>Hue: The color itself (e.g., red, blue, yellow).
+<br>Saturation: The intensity or purity of the color.
+<br>Value: The brightness or darkness of the color.
+
+
+<br>Color Harmony:
+
+<br>Complementary Colors: Opposite on the color wheel (e.g., blue and orange) create contrast.
+<br>Analogous Colors: Side-by-side on the wheel (e.g., red, orange, yellow) create harmony.
+<br>Triadic Colors: Equally spaced around the wheel for balance (e.g., red, yellow, blue).
+
+
+<br>Color Temperature:
+
+<br>Warm Colors: Reds, yellows, and oranges evoke energy and warmth.
+<br>Cool Colors: Blues and greens create calm or distance.
+
+
+<br><br><br><br><br>
+<br>A previsualization tool that maps out the emotional journey of a game using color.
+<br>Often used in animated films and games to ensure consistency and coherence in visual storytelling.
+<br><br>
+<br>Break down the game or level into key moments or scenes.
+<br>Assign a dominant color palette to each moment based on its mood or theme.
+
+<br>Example: Use red hues for high-intensity battles and softer blues for reflective or quiet moments.
+
+
+<br>Create thumbnail sketches or storyboards with approximate lighting and color.
+<br><a data-tooltip-position="top" aria-label="https://photography.tutsplus.com/tutorials/how-to-colourscripts-animation--cms-38391" rel="noopener nofollow" class="external-link" href="https://photography.tutsplus.com/tutorials/how-to-colourscripts-animation--cms-38391" target="_blank">How to Make a Color Script</a><br>
+<a data-tooltip-position="top" aria-label="https://www.khanacademy.org/computing/pixar/art-of-lighting/introduction-to-virtual-lighting/a/exercise-5-color-scripts" rel="noopener nofollow" class="external-link" href="https://www.khanacademy.org/computing/pixar/art-of-lighting/introduction-to-virtual-lighting/a/exercise-5-color-scripts" target="_blank">Color Scripting - Khan Academy</a><br><br><br><br>
+<br>Color Temperature in Lighting:
+
+<br>Use warm light for natural, inviting environments (e.g., sunlight or firelight).
+<br>Use cool light for sterile or eerie settings (e.g., moonlight or fluorescent light).
+
+
+<br>Color Grading in Post-Processing:
+
+<br>Adjust the overall tone of a scene to emphasize mood.
+<br>Example: Desaturate colors for a bleak, dystopian setting or enhance vibrancy for fantastical worlds.
+
+
+<br>Dynamic Color Shifts:
+
+<br>Change lighting color dynamically to reflect gameplay events or mood shifts.
+<br>Example: A room flooding with red light during an alarm.
+
+
+<br><br><br><br>
+<br>Platform: High-spec PC and consoles (PS4/PS5, Xbox One/Series).
+<br>Lighting Techniques Used:
+
+<br>Dynamic Lighting: Utilizes real-time ray tracing for accurate reflections, shadows, and indirect lighting. Light changes dynamically as the player interacts with the environment or moves through different spaces.
+<br>Global Illumination: Achieved through ray tracing to simulate realistic light bounces, enhancing immersion in its moody, supernatural world.
+<br>Volumetric Lighting: Used extensively to create atmospheric effects like light beams filtering through dust or fog, amplifying the game's eerie tone.
+
+
+<br>Optimization Techniques:
+
+<br>Ray tracing is scaled back on lower-end systems by using approximations or turning off certain effects while maintaining the overall mood.
+<br>Selective use of baked lighting for static geometry.
+
+
+<br><br><br><br>
+<br>Platform: Mobile devices.
+<br>Lighting Techniques Used:
+
+<br>Baked Lighting: Pre-calculated lightmaps are used for all scenes, ensuring the game runs smoothly on low-power devices while maintaining visual appeal.
+<br>Ambient Occlusion: Baked into textures to give depth and definition to the minimalist geometric environments.
+<br>Color as Light: Simple, vibrant color palettes imply lighting and shadow, reducing computational overhead while creating an artistic, dreamlike aesthetic.
+
+
+<br>Optimization Techniques:
+
+<br>Fixed camera angles and static environments allow for efficient pre-rendering.
+<br>Minimal reliance on dynamic lights, focusing instead on artistic use of gradients and shading.
+
+
+<br><br><br><br><br><br>
+<br>How does each game leverage its lighting strategy to create a distinct mood and enhance the player experience?
+<br>What challenges might developers face when scaling the lighting approach for different platforms or performance tiers?
+<br>How do the artistic and technical choices in each game reflect the limitations or opportunities of their respective platforms?
+<br><br><br><br>
+<br>Use baked lighting for static elements.
+<br>Add light probes for dynamic objects.
+<br>Profile scene with Unity’s Profiler.
+<br><br>
+<br>Add spotlights to key areas.
+<br>Use color grading for mood.
+<br>Implement dynamic light triggers for interactivity.
+<br><br><br>
+<br>Lighting Attributes: Quality, quantity, direction.
+<br>Optimization Tools: Lightmaps, probes, and profiling.
+<br>Dynamic Techniques: Time-of-day, animated lights, interactive systems.
+<br>Gameplay Integration: Light as a mechanic for guidance and immersion.
+<br><br><br><br>
+<br>Lighting Principles Are Universal: The same concepts apply across all major engines and tools.
+<br>Always Iterate: Refine lighting to balance performance and aesthetics.
+<br>Stay Curious: Explore how other games use light to innovate.
+<br><br><br>
+<br>How does lighting influence player decision-making?
+<br>What challenges arise when balancing performance with high-quality lighting?
+<br>How can you apply these concepts across different game engines or tools?
+<br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-3-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 3 - Slides.md</guid><pubDate>Mon, 20 Jan 2025 19:04:58 GMT</pubDate><enclosure url="gmap-395\module-1\6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 3 - Tutorial]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\module-1\gmap-395-wk-3-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 3 - Tutorial.md</guid><pubDate>Mon, 20 Jan 2025 16:17:44 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
  <br><br><br><br>Instructor Details
 
 <br>Name: Darren Woodland, Jr.

@@ -6,16 +6,7 @@ height: 1080
 
 ### **_Game Lighting and Workflows_**
 #### GMAP 395: Advanced Game Art and Production
-##### Week 2
-
----
-
-### Agenda
-- **Lighting Quality, Quantity, and Direction**
-- **Optimizing Lighting for Performance**
-- **Dynamic Lighting in Game Engines**
-- **Lighting as a Gameplay Mechanic**
-- **Technical Lighting and Workflow Tools**
+##### Week 3
 
 ---
 
@@ -37,6 +28,8 @@ height: 1080
 - **Direction:** The angle and position of light.
     - Example: Backlighting for dramatic silhouettes.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7MNl-j7WqTw?si=DfxcntQvlkXxpBhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ---
 
@@ -51,6 +44,9 @@ height: 1080
     - Side or top-down lighting can highlight textures or contours.
     - Directional lighting aids in visual storytelling.
 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VXggMZvqSvM?si=_8we5-icTZw7dV3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 ### Lighting Types Overview
 - **Direct Lighting:** Hits surfaces directly.
@@ -59,22 +55,31 @@ height: 1080
 - **Emissive Lighting:** Objects emit their own light.
 - **Global Illumination (GI):** Simulates realistic light interactions through bounces.
 
+
+[A guide to global illumination - ADOBE ](https://www.adobe.com/products/substance3d/discover/what-is-global-illumination.html#:~:text=Global%20illumination%20is%20a%20feature,doesn't%20look%20very%20realistic.)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/04YUZ3bWAyg?si=FYbntATZXyYFmGlt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
+
 ### Technical Considerations Across Platforms
 - **General Principles:**
     - All game engines rely on similar principles for rendering lighting.
     - Systems like lightmaps, probes, and dynamic adjustments are ubiquitous.
 - **Implementation Tips:**
     - Always profile lighting performance.
-    - Utilize modular workflows for scalability.
+    - Utilize modular workflows for scalability when needed/possible.
+
 
 ---
 
-### Common Light Types
+### Common Types of Light Emitting Objects
 1. **Directional Light:** Simulates sunlight, infinite reach.
 2. **Point Light:** Emits light uniformly in all directions.
 3. **Spot Light:** Creates a cone-shaped beam.
 4. **Area Light:** Illuminates a specific area (baked only).
+
+[The Level Design Book - Lighting](https://book.leveldesignbook.com/process/lighting)
 
 ---
 
@@ -82,6 +87,8 @@ height: 1080
 - **Dynamic Lighting:** Updates continuously, ideal for interactive or changing environments.
 - **Static Lighting:** Pre-calculated for non-interactive elements to reduce processing.
 - **Hybrid Systems:** Combine dynamic and static methods for optimized results.
+
+[Unity Documentation on "Light Modes"](https://docs.unity3d.com/6000.0/Documentation/Manual/LightModes-introduction.html)
 
 ---
 
@@ -92,13 +99,18 @@ height: 1080
 4. **Reflection Probes:** Simulate realistic reflections.
 5. **Profile Lighting Costs:** Regularly monitor performance impact.
 
+[Difference Between Realtime, Mixed, And Baked Lighting in Unity](https://vintay.medium.com/difference-between-realtime-mixed-and-baked-lighting-in-unity-6bda1f24bfb)
+
+> [!NOTE] See again ([Global Illumination in Tom Clancy's The Division](https://www.youtube.com/watch?v=04YUZ3bWAyg))
+
+
 ---
 
 ### Tools for Technical Lighting
 - **Baking Systems:** Pre-render static lights for better performance.
 - **Volumetric Effects:** Add atmospheric depth with fog and light scattering.
 - **Custom Shaders:** Fine-tune light interactions for specific materials.
-- **Node-Based Workflows:** Use visual tools for procedural lighting systems.
+- **Node-Based Workflows and Code:** Use visual tools for procedural lighting systems.
 
 ---
 
@@ -117,6 +129,8 @@ height: 1080
 - **Puzzle Elements:** Use light as an integral component of gameplay challenges.
     - Example: Reflective surfaces or light-activated mechanisms.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wjMlHY3-sWI?si=5Y-cKS6g87Q0Oq9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ### Advanced Lighting Design Strategies
@@ -128,8 +142,12 @@ height: 1080
 
 ### Balancing Performance and Visuals
 - **LOD Systems:** Adjust lighting details based on distance.
-- **Render Pipelines:** Use advanced pipelines for better control.
+- **Render Pipelines (Graphics Pipeline):** Use advanced pipelines for better control.
 - **Post-Processing:** Enhance visuals without additional light sources.
+
+[OpenGL Rendering Pipeline | An Overview](https://www.geeksforgeeks.org/opengl-rendering-pipeline-overview/)
+[Graphics Pipelines](https://en.wikipedia.org/wiki/Graphics_pipeline)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oLiJTcdBCkM?si=sPORx7YosYtV_EFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -157,6 +175,7 @@ height: 1080
     - **Warm Colors:** Reds, yellows, and oranges evoke energy and warmth.
     - **Cool Colors:** Blues and greens create calm or distance.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zl2B6SCqA1s?si=sCEeLNxe_vBOuYck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -172,6 +191,12 @@ height: 1080
     - Example: Use red hues for high-intensity battles and softer blues for reflective or quiet moments.
 3. Create thumbnail sketches or storyboards with approximate lighting and color.
 
+[How to Make a Color Script](https://photography.tutsplus.com/tutorials/how-to-colourscripts-animation--cms-38391)
+[Color Scripting - Khan Academy](https://www.khanacademy.org/computing/pixar/art-of-lighting/introduction-to-virtual-lighting/a/exercise-5-color-scripts)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BWEWOBJKWpA?si=fkQ1myM-CWSLCPpf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ---
 
 ### Techniques for Integrating Color and Light
@@ -185,9 +210,11 @@ height: 1080
     - Change lighting color dynamically to reflect gameplay events or mood shifts.
     - Example: A room flooding with red light during an alarm.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DXcYSbH5Ukw?si=9LnX1dwr3HRZw4GG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
-### Case Study: Dynamic Lighting Example: "Control" by Remedy Entertainment
+### Case Study: Dynamic Lighting Example: "[Control](https://www.remedygames.com/games/control)" by Remedy Entertainment
 - **Platform:** High-spec PC and consoles (PS4/PS5, Xbox One/Series).
 - **Lighting Techniques Used:**
     - **Dynamic Lighting:** Utilizes real-time ray tracing for accurate reflections, shadows, and indirect lighting. Light changes dynamically as the player interacts with the environment or moves through different spaces.
@@ -198,9 +225,14 @@ height: 1080
     - Selective use of baked lighting for static geometry.
 
 
+| ![[6492c4abf65d6e4dfffbb89e_CONTROL_WorldTrailer_quarry_sky-p-500.avif]] | ![[6492c4ab6751d8f29f5e4826_LAUNCH_Screenshot_101-p-500.webp]] |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------- |
+|                                                                          |                                                                |
+
+
 ---
 
-### Case Study: Optimized Lighting Example: "Monument Valley" by ustwo games
+### Case Study: Optimized Lighting Example: "[Monument Valley](https://www.monumentvalleygame.com/mv3)" by ustwo games
 - **Platform:** Mobile devices.
 - **Lighting Techniques Used:**
     - **Baked Lighting:** Pre-calculated lightmaps are used for all scenes, ensuring the game runs smoothly on low-power devices while maintaining visual appeal.
@@ -210,6 +242,11 @@ height: 1080
     - Fixed camera angles and static environments allow for efficient pre-rendering.
     - Minimal reliance on dynamic lights, focusing instead on artistic use of gradients and shading.
 
+
+
+|                          |                          |
+| ------------------------ | ------------------------ |
+| ![[iPad_02-600x800.png]] | ![[iPad_01-600x800.png]] |
 
 ---
 
@@ -241,14 +278,6 @@ height: 1080
 2. Use **color grading** for mood.
 3. Implement **dynamic light triggers** for interactivity.
 
----
-
-### Lab Preview
-- **Exercise:** Create a modular environment with optimized lighting.
-    1. Set up baked lighting.
-    2. Add dynamic elements (e.g., moving lights).
-    3. Use post-processing for mood enhancement.
-- **Deliverable:** A screenshot demonstrating optimized, interactive lighting.
 
 ---
 
@@ -258,6 +287,7 @@ height: 1080
 - **Dynamic Techniques:** Time-of-day, animated lights, interactive systems.
 - **Gameplay Integration:** Light as a mechanic for guidance and immersion.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MkWIHLL5pyQ?si=rEcFB3zqTH6k5P63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -273,3 +303,5 @@ height: 1080
 3. How can you apply these concepts across different game engines or tools?
 
 ---
+
+>[!info]  [[GMAP 395 - Module 1| Return to the Module Page]]
