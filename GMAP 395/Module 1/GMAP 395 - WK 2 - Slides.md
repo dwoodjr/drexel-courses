@@ -10,7 +10,7 @@ height: 1080
 
 ---
 ### Game Feel
-![[gamefeelcover.webp|320]]
+![[GMAP 395/Module 1/Media/gamefeelcover.webp|320]]
 > [!quote] Game Feel
 > Real-time control of virtual objects in a simulated space, with interaction emphasized by polish.
 > -- Steve Swink
@@ -94,7 +94,7 @@ height: 1080
 
 >[!example] [Balancing modularity and uniqueness in Environment Art](https://www.beyondextent.com/articles/balancing-modularity-and-uniqueness-in-environment-art)
 
-![[modualassetpack.png|640]]
+![[GMAP 395/Module 1/Media/modualassetpack.png|640]]
 
 ---
 
@@ -118,7 +118,7 @@ Book:
 
 ### Taxonomy of Procedural Content Generation (PCG)
 
-![[pcgTaxonomy.png]]
+![[GMAP 395/Module 1/Media/pcgTaxonomy.png]]
 
 - **Game Bits:** Assets (textures, sounds, models).
 - **Game Space:** Levels, terrains, maps.
@@ -186,7 +186,7 @@ Book:
 **Applications:**
 - Procedural transformations (_e.g.,_ proportional scaling).
 
-![[3D-Shapes-01-01.png|320]]
+![[GMAP 395/Module 1/Media/3D-Shapes-01-01.png|320]]
 
 ---
 
@@ -226,8 +226,8 @@ Book:
 
 ---
 
-![[fractals.png|320]]
-![[noise.jpg]]
+![[GMAP 395/Module 1/Media/fractals.png|320]]
+![[GMAP 395/Module 1/Media/noise.jpg]]
 
 
 ---

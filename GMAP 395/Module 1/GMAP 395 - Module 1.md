@@ -7,7 +7,8 @@ This module introduces foundational skills in **procedural modeling** and **ligh
 [[GMAP 395 - WK 2 - Slides]]
 [[GMAP 395 - WK 2 - Video Lecture]]
 [[GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial|GMAP 395 - WK 2 - Tutorial]]
-[[GMAP 395 - WK 3 - Slides]]
+[[GMAP 395 - WK 3 - Slides| GMAP 395 - WK 3 - Slides + Video]]
+[[GMAP 395 - WK 3 - Tutorial]]
 [[GMAP 395 - ASN 1 - Brief]]
 
 ---

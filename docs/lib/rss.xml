@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 20 Jan 2025 19:06:37 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 20 Jan 2025 19:06:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 21 Jan 2025 00:14:54 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 21 Jan 2025 00:14:43 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Video</a><br><br><br>
 <br>The relationship between games, design, and play.
@@ -637,7 +637,8 @@ What trends or common tools did you notice across different games?<br>
 How might these approaches inspire your work as a game designer or artist?
 ]]></description><link>gmap-395\introduction\gmap-395-wk-1-slides.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md</guid><pubDate>Tue, 07 Jan 2025 15:54:10 GMT</pubDate><enclosure url="gmap-395\introduction\design-everyday-things.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\introduction\design-everyday-things.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 1 - Video Lecture]]></title><description><![CDATA[ 
  <br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_AsN9Rcq9MtNowLIQ?e=V4Sh1W" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_AsN9Rcq9MtNowLIQ?e=V4Sh1W" target="_blank">Video link if above does not play in browser</a>]]></description><link>gmap-395\introduction\gmap-395-wk-1-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Video Lecture.md</guid><pubDate>Wed, 08 Jan 2025 23:44:40 GMT</pubDate></item><item><title><![CDATA[Introduction]]></title><description><![CDATA[ 
- ]]></description><link>gmap-395\introduction\introduction.html</link><guid isPermaLink="false">GMAP 395/Introduction/Introduction.md</guid><pubDate>Wed, 08 Jan 2025 23:28:11 GMT</pubDate></item><item><title><![CDATA[Assignment 1: Procedural Game Art and Lighting Systems]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\introduction\introduction.html</link><guid isPermaLink="false">GMAP 395/Introduction/Introduction.md</guid><pubDate>Wed, 08 Jan 2025 23:28:11 GMT</pubDate></item><item><title><![CDATA[Media]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\module-1\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 1/Media/Media.md</guid><pubDate>Mon, 20 Jan 2025 19:16:35 GMT</pubDate></item><item><title><![CDATA[Assignment 1: Procedural Game Art and Lighting Systems]]></title><description><![CDATA[ 
  <br><br><br>Assignment Overview  
 In this assignment, students will:
 
@@ -761,7 +762,8 @@ The theme Something from the Void is intentionally open-ended. Interpret it crea
  <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br><br><a data-href="GMAP 395 - WK 2 - Slides" href="gmap-395\module-1\gmap-395-wk-2-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Slides</a><br>
 <a data-href="GMAP 395 - WK 2 - Video Lecture" href="gmap-395\module-1\gmap-395-wk-2-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Video Lecture</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial" data-href="GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial" href="gmap-395\module-1\gmap-395-wk-2-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Tutorial</a><br>
-<a data-href="GMAP 395 - WK 3 - Slides" href="gmap-395\module-1\gmap-395-wk-3-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Slides</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - WK 3 - Slides" data-href="GMAP 395 - WK 3 - Slides" href="gmap-395\module-1\gmap-395-wk-3-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Slides + Video</a><br>
+<a data-href="GMAP 395 - WK 3 - Tutorial" href="gmap-395\module-1\gmap-395-wk-3-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Tutorial</a><br>
 <a data-href="GMAP 395 - ASN 1 - Brief" href="gmap-395\module-1\gmap-395-asn-1-brief.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - ASN 1 - Brief</a><br><br><br>
 <br>Introduction to procedural modeling with Blender.
 <br>Basics of lighting systems with Unity.
@@ -790,8 +792,8 @@ The theme Something from the Void is intentionally open-ended. Interpret it crea
 <br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Fri, 17 Jan 2025 19:49:48 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 2 - Slides]]></title><description><![CDATA[ 
- <br><br><br><br><br><br><img alt="gamefeelcover.webp" src="gmap-395\module-1\gamefeelcover.webp" style="width: 320px; max-width: 100%;"><br>Game Feel
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Tue, 21 Jan 2025 00:14:29 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 2 - Slides]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><img alt="GMAP 395/Module 1/Media/gamefeelcover.webp" src="gmap-395\module-1\media\gamefeelcover.webp" style="width: 320px; max-width: 100%;"><br>Game Feel
 Real-time control of virtual objects in a simulated space, with interaction emphasized by polish.<br>
 -- Steve Swink
 <br><br><br><br>
@@ -871,7 +873,7 @@ Real-time control of virtual objects in a simulated space, with interaction emph
 
 <br>Synergy with Proceduralism:<br>
 <br>Modular assets populated procedurally for diverse environments (e.g., No Man’s Sky).
-<br><a data-tooltip-position="top" aria-label="https://www.beyondextent.com/articles/balancing-modularity-and-uniqueness-in-environment-art" rel="noopener nofollow" class="external-link" href="https://www.beyondextent.com/articles/balancing-modularity-and-uniqueness-in-environment-art" target="_blank">Balancing modularity and uniqueness in Environment Art</a><br><img alt="modualassetpack.png" src="gmap-395\module-1\modualassetpack.png" style="width: 640px; max-width: 100%;"><br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.beyondextent.com/articles/balancing-modularity-and-uniqueness-in-environment-art" rel="noopener nofollow" class="external-link" href="https://www.beyondextent.com/articles/balancing-modularity-and-uniqueness-in-environment-art" target="_blank">Balancing modularity and uniqueness in Environment Art</a><br><img alt="GMAP 395/Module 1/Media/modualassetpack.png" src="gmap-395\module-1\media\modualassetpack.png" style="width: 640px; max-width: 100%;"><br><br><br>
 <br>Asset Organization:
 
 <br>Maintain a clean structure for quick access and scalability.
@@ -887,7 +889,7 @@ Real-time control of virtual objects in a simulated space, with interaction emph
 <br>Ensure modular assets work seamlessly in various configurations.
 
 
-<br><br><br>Book: <br> <a data-tooltip-position="top" aria-label="https://www.pcgbook.com/" rel="noopener nofollow" class="external-link" href="https://www.pcgbook.com/" target="_blank">Procedural Content Generation in Games</a><br><br><br><br><img alt="pcgTaxonomy.png" src="gmap-395\module-1\pcgtaxonomy.png"><br>
+<br><br><br>Book: <br> <a data-tooltip-position="top" aria-label="https://www.pcgbook.com/" rel="noopener nofollow" class="external-link" href="https://www.pcgbook.com/" target="_blank">Procedural Content Generation in Games</a><br><br><br><br><img alt="GMAP 395/Module 1/Media/pcgTaxonomy.png" src="gmap-395\module-1\media\pcgtaxonomy.png"><br>
 <br>Game Bits: Assets (textures, sounds, models).
 <br>Game Space: Levels, terrains, maps.
 <br>Game Systems: Rules and mechanics (e.g., weather systems).
@@ -954,7 +956,7 @@ Real-time control of virtual objects in a simulated space, with interaction emph
 
 <br>Applications:<br>
 <br>Procedural transformations (e.g., proportional scaling).
-<br><img alt="3D-Shapes-01-01.png" src="gmap-395\module-1\3d-shapes-01-01.png" style="width: 320px; max-width: 100%;"><br><br><br>
+<br><img alt="GMAP 395/Module 1/Media/3D-Shapes-01-01.png" src="gmap-395\module-1\media\3d-shapes-01-01.png" style="width: 320px; max-width: 100%;"><br><br><br>
 <br>Nodes and Data Flow: Organizing procedural steps.
 <br>Scattering/Copying: Distributing objects procedurally (e.g., foliage).
 <br>Splines: Creating paths and smooth curves.
@@ -997,8 +999,8 @@ Real-time control of virtual objects in a simulated space, with interaction emph
 <br>Example: Creating procedurally generated buildings or city layouts.
 
 
-<br><br><img alt="fractals.png" src="gmap-395\module-1\fractals.png" style="width: 320px; max-width: 100%;"><br>
-<img alt="noise.jpg" src="gmap-395\module-1\noise.jpg"><br><br><br>
+<br><br><img alt="GMAP 395/Module 1/Media/fractals.png" src="gmap-395\module-1\media\fractals.png" style="width: 320px; max-width: 100%;"><br>
+<img alt="GMAP 395/Module 1/Media/noise.jpg" src="gmap-395\module-1\media\noise.jpg"><br><br><br>
 <br>Nodes: Visual representation of workflows.
 <br>Attributes: Define unique object behaviors.
 <br>Randomization: Add variation for realism.
@@ -1034,8 +1036,8 @@ Real-time control of virtual objects in a simulated space, with interaction emph
 <br>How do node-based workflows enhance creativity and efficiency in game design?
 <br>What are the advantages and challenges of combining proceduralism and modularity in a game project?
 <br>Can you identify a game you’ve played that effectively uses procedural techniques? How did it enhance (or detract from) the gameplay experience?
-<br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md</guid><pubDate>Fri, 17 Jan 2025 19:48:44 GMT</pubDate><enclosure url="gmap-395\module-1\gamefeelcover.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\gamefeelcover.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[<strong><em>Procedural Eldritch Portal + Environment: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
- <br><br><img alt="395tut1portal.png" src="gmap-395\module-1\395tut1portal.png" style="width: 640px; max-width: 100%;"><br><br><br>In this tutorial, we will create a Procedural "Eldritch Portal" Environment Art, an ominous and glowing gateway surrounded by rocky terrain and organic tendrils. This project aims to integrates procedural modeling techniques and node-based workflows to craft a dynamic and mystical game-based environment artifact.<br><br>
+<br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md</guid><pubDate>Mon, 20 Jan 2025 19:17:08 GMT</pubDate><enclosure url="gmap-395\module-1\media\gamefeelcover.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\media\gamefeelcover.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[<strong><em>Procedural Eldritch Portal + Environment: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
+ <br><br><img alt="GMAP 395/Module 1/Media/395tut1portal.png" src="gmap-395\module-1\media\395tut1portal.png" style="width: 640px; max-width: 100%;"><br><br><br>In this tutorial, we will create a Procedural "Eldritch Portal" Environment Art, an ominous and glowing gateway surrounded by rocky terrain and organic tendrils. This project aims to integrates procedural modeling techniques and node-based workflows to craft a dynamic and mystical game-based environment artifact.<br><br>
 <br>Understand the Geometry Nodes system in Blender.
 <br>Apply procedural workflows to create modular and reusable assets.
 <br>Explore node-based techniques for attributes like scattering, randomization, and deformation.
@@ -1168,9 +1170,11 @@ Section Recap: Boolean operations allow us to create complex shapes by combining
 <br>
 [gmap395_tut1_p3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EtzgD0ilFKv0Moww?e=JO4ROa)<br><br><br>Optimization and Export
 We will do the optimization and mesh export in week 3 before importing to Unity. Just be sure to have some procedural game art ready to go.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md</guid><pubDate>Fri, 17 Jan 2025 19:48:58 GMT</pubDate><enclosure url="gmap-395\module-1\395tut1portal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\395tut1portal.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 2 - Video Lecture]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md</guid><pubDate>Mon, 20 Jan 2025 19:16:51 GMT</pubDate><enclosure url="gmap-395\module-1\media\395tut1portal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\media\395tut1portal.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 2 - Video Lecture]]></title><description><![CDATA[ 
  <br><br><a data-tooltip-position="top" aria-label="[gmap395_wk2.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" rel="noopener nofollow" class="external-link" href="[gmap395_wk2.mp4](https:\\1drv.ms\v\s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" target="_blank">Video Link</a><br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md</guid><pubDate>Fri, 17 Jan 2025 19:49:10 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 3 - Slides]]></title><description><![CDATA[ 
- <br><br><br><br><br><br>
+ <br><br><br><br><a data-tooltip-position="top" aria-label="[gmap395_wk3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_FWfbFNa6ud6HX0Eg?e=LHB4am)" rel="noopener nofollow" class="external-link" href="[gmap395_wk3.mp4](https:\\1drv.ms\v\s!AqQzGx8l4o2wk_FWfbFNa6ud6HX0Eg?e=LHB4am)" target="_blank">Week 3 Video Lecture Link</a>
+
+<br><br><br>
 <br>Purpose of Lighting:
 
 <br>Enhance mood and atmosphere.
@@ -1403,8 +1407,517 @@ We will do the optimization and mesh export in week 3 before importing to Unity.
 <br>How does lighting influence player decision-making?
 <br>What challenges arise when balancing performance with high-quality lighting?
 <br>How can you apply these concepts across different game engines or tools?
-<br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-3-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 3 - Slides.md</guid><pubDate>Mon, 20 Jan 2025 19:04:58 GMT</pubDate><enclosure url="gmap-395\module-1\6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 3 - Tutorial]]></title><description><![CDATA[ 
- ]]></description><link>gmap-395\module-1\gmap-395-wk-3-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 3 - Tutorial.md</guid><pubDate>Mon, 20 Jan 2025 16:17:44 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+<br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-3-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 3 - Slides.md</guid><pubDate>Mon, 20 Jan 2025 19:17:15 GMT</pubDate><enclosure url="gmap-395\module-1\media\6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\media\6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Lab Exercise: Lighting, Post-Processing, and Dynamic Camera in Unity URP]]></title><description><![CDATA[ 
+ <br><br><br>In this lab, you'll create a simple 3D scene using the Universal Render Pipeline (URP), apply basic lighting techniques and a dynamic day-night cycle that affects gameplay and mood. This scene will be incorporating you Procedural Game Art Asset from Module 1 - Part 1.<br><br>
+<br>Unity 2022.3 LTS or later
+<br>Basic familiarity with the Unity interface
+<br>Basic familiarity with C# scripting in Unity
+<br><br><br><br><br><br>We will need to do some very simple <a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/modeling/meshes/retopology.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/meshes/retopology.html" target="_blank">Retopology</a> in blender with out geometry then apply some simple <a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/modeling/meshes/uv/index.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/meshes/uv/index.html" target="_blank">UVs</a> before we export and import into Unity.<br><br>Modularity and Reuse
+We will be doing the following operations to all of our procedural geometry. So just pick one object from Part 1 and and follow along (e.g. start with tendrals_base_geo).
+<br>For this portion of the tutorial watch and follow along with the video from Entagma, on doing the Retopology and UV Unwrapping procedurally using geometry nodes. You will apply this same process to all sections of the procedural game art from Part 1. <br>Blender Tutorial: Procedural UV Unwrapping with Geometry Nodes
+
+<a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=02XNGOVpSV4" target="_blank">https://www.youtube.com/watch?v=02XNGOVpSV4</a>
+<br>Types of Retopology
+It is important to note that we are aiming for a quick version of retopology that is rapid for our prototyping in this course. IF you were going to work on retopology for animation, it would be best to do a more traditional method like Quad Remeshing with some manual retopology. Like in this video: <a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=hQ8HvDuSWCQ" target="_blank">https://www.youtube.com/watch?v=hQ8HvDuSWCQ</a>
+<br><br>
+<br>
+Create a new URP 3D Unity project.
+
+<br>When creating a new project, select "3D (URP)" as the template.
+
+
+<br>
+In the Hierarchy window, right-click and select 3D Object &gt; Plane to create a ground plane. ONLY IF NEEDED.
+
+<br><br>Tip
+Use different materials for each object to make them visually distinct. Select each object, create a new material (right-click in Project window &gt; Create &gt; Material), and set a unique color in the Inspector. Make sure to use the "Universal Render Pipeline/Lit" shader for these materials.
+<br><br><br>
+<br>
+The default URP project comes with a Directional Light. Adjust its settings:
+
+<br>Set the Directional Light rotation to (50, -30, 0) and reduce its Intensity to 0.5.
+
+
+<br>
+Create two additional lights:
+
+<br>Create a Point Light (GameObject &gt; Light &gt; Point Light)
+<br>Create a Spot Light (GameObject &gt; Light &gt; Spot Light)
+
+
+<br>
+Configure the lights:
+
+<br>Position the Point Light at (0, 3, 0) and set its Range to 10. Set intensity to 5
+<br>Position the Spot Light at (-5, 5, -5), rotate it to (45, 45, 0), and set its Range to 15 and Spot Angle to 30. Set intensity to 35
+<br>Set all of the lights' Mode to Mixed in their Light component settings.<br>
+<img alt="lightingMode.png" src="gmap-395\module-1\media\lightingmode.png">
+
+
+<br>Connection to Lecture
+Each Light type serves a specific purpose in lighting your scene. The Directional Light acts as your main light source (like the sun), while Point and Spot Lights add depth and focus to specific areas.
+<br>
+<br>Experiment with light colors:
+
+<br>Set the Directional Light to a warm color (e.g., FFF4E0).
+<br>Set the Point Light to a cool blue color (e.g., ADD8E6).
+<br>Set the Spot Light to a subtle purple (e.g., 8A2BE2).<br>
+<img alt="colorHexCode.png" src="gmap-395\module-1\media\colorhexcode.png">
+Tip
+Use color theory to create mood and depth in your scene. Warm colors tend to advance (appear closer), while cool colors recede (appear farther away).
+
+
+
+
+<br><br><br>
+<br>
+Create a new empty GameObject and name it "DayNightController".
+
+<br>
+Add a new script to this object, also named "DayNightController".
+
+<br>
+Open the script and add the following code:
+
+<br>using UnityEngine;
+
+public class DayNightController : MonoBehaviour
+{
+    public Light sunLight;
+    public float dayDuration = 60f; // One day every 60 seconds
+    
+    public float timeOfDay = 0.25f; // Start at 6:00 AM
+
+    void Update()
+    {
+        timeOfDay += Time.deltaTime / dayDuration;
+        if (timeOfDay &gt;= 1f) timeOfDay -= 1f;
+
+        float sunRotation = timeOfDay * 360f;
+        sunLight.transform.rotation = Quaternion.Euler(sunRotation, 230f, 0);
+    }
+}
+<br>
+<br>Create a Directional Light for the sun (only if one does not already exist) and assign it to the sunLight variable in the DayNightController component.
+<br><img alt="sunLight.png" src="gmap-395\module-1\media\sunlight.png"><br>Sun Position
+The sun's starting rotation of (90, 230, 0) positions it in the east at the start of the day.
+<br><br>
+<br>Modify the DayNightController script to change the sun's color based on the time of day:
+<br>public class DayNightController : MonoBehaviour
+{
+    // ... previous code ...
+
+    public Gradient sunColor;
+
+    void Update()
+    {
+        // ... previous update code ...
+
+        sunLight.color = sunColor.Evaluate(timeOfDay);
+    }
+}
+<br>
+<br>In the Inspector, set up the color gradient for the sun:
+
+<br>Morning: Soft orange
+<br>Midday: Bright white
+<br>Evening: Deep orange
+<br>Night: Dark blue
+
+
+<br><img alt="sunColor.png" src="gmap-395\module-1\media\suncolor.png"><br>Color Selection
+Use warm colors for sunrise/sunset and cool colors for night to create a more realistic atmosphere.
+<br>
+<br>Extend the DayNightController script to modify the sun's intensity:
+<br>public class DayNightController : MonoBehaviour
+{
+    // ... previous code ...
+    public AnimationCurve lightIntensityCurve;
+
+    void Update()
+    {
+        // ... previous update code ...
+        
+        // Update sun intensity
+        float intensityMultiplier = lightIntensityCurve.Evaluate(timeOfDay);
+        sunLight.intensity = intensityMultiplier * 1.5f; // Base intensity of 1.5
+    }
+}
+<br>
+<br>In the Inspector, set up the Light Intensity Curve:
+
+<br>Create an AnimationCurve with the following key points:
+
+<br>Time 0.0 (Midnight): Value 0.1
+<br>Time 0.25 (Sunrise): Value 0.8
+<br>Time 0.5 (Noon): Value 1.0
+<br>Time 0.75 (Sunset): Value 0.8
+<br>Time 1.0 (Midnight): Value 0.1
+
+
+
+
+<br><img alt="sunIntensity.png" src="gmap-395\module-1\media\sunintensity.png"><br>Light Intensity
+The intensity curve allows for smooth transitions between day and night, with peak brightness at noon and minimum at midnight.
+<br>
+<br>Adjust the base intensity (1.5f in the example) to fit your scene's lighting needs.
+<br>Fine-tuning
+Experiment with different intensity values and curve shapes to achieve the desired lighting effect for your specific environment.
+<br><br><br>
+<br>
+Open the Lighting window:
+
+<br>Go to Window &gt; Rendering &gt; Lighting
+
+
+<br>
+Familiarize yourself with the Lighting window:
+
+<br>Scene: Contains general lighting settings for the current scene
+<br>Environment: Controls skybox and ambient lighting and fog
+<br>Realtime Lightmaps: Shows real-time lightmaps
+<br>Baked Lightmaps: Shows baked lightmaps
+
+
+<br>Connection to Lecture
+The Lighting window is your central hub for controlling global lighting settings and baking lightmaps.
+<br><img alt="lightingWindow.png" src="gmap-395\module-1\media\lightingwindow.png"><br>
+<br>
+Create a Lighting Settings Asset:
+
+<br>In the Lighting window, click "New" next to "Lighting Settings Asset"
+<br>Save it as "MainLightingSettings" in your project's Settings folder
+
+
+<br>
+Configure Lighting Settings:
+
+<br>In the Scene section
+
+<br>Create a new Lighting Settings Asset
+
+<br>Name it "LightSettings_" + your scene name 
+
+
+<br>Turn on Realtime Global Illumination
+
+<br>Adjust Indirect Resolution to 2 Texels Per Unit
+
+
+
+
+<br>In the Environment section:
+
+<br>Set Skybox Material to "Default-Skybox"
+<br>Change Sun Source to your scene Directional Light
+
+
+<br>In the Mixed Lighting section:
+
+<br>Set Lighting Mode to "Baked Indirect"
+
+
+<br>In the Lightmapping Settings section:
+
+<br>Set Lightmapper to "Progressive GPU (Preview)"
+<br>Leave the default settings for now. You can adjust with these later.
+
+
+
+
+<br>
+Open the Light Explorer:
+
+<br>Go to Window &gt; Rendering &gt; Light Explorer
+<br>The Light Explorer has taps to access quick settings changes for Lights, 2D Lights, Reflection Probes, Light Probes, and Static Emissives.
+
+
+<br>
+Use the Light Explorer to quickly adjust multiple lights:
+
+<br>Review and adjust thing like the Mode, Intensity, and Range of your lights among other settings.
+
+
+<br>Tip
+The Light Explorer is excellent for getting an overview of all lights in your scene and making bulk adjustments.
+<br><img alt="lightExplorer.png" src="gmap-395\module-1\media\lightexplorer.png"><br>
+<br>
+Prepare for lightmap baking:
+
+<br>Select all static objects in your scene (ground plane and any non-moving objects)
+<br>In the Inspector, check "Static" at the top
+<br>Expand the Static dropdown and ensure "Contribute Global Illumination (Contribute GI)" is checked
+
+
+<br>
+Generate lighting:
+
+<br>In the Lighting window, scroll to the bottom
+<br>Click "Generate Lighting"
+<br>Wait for the baking process to complete
+
+
+<br>Important
+Lightmap baking can take some time, especially for complex scenes. Be patient!
+<br>Warning
+It is not recommended to tick on Auto Generate. This is because lighting will constantly cook anytime a change is made. For very large scene with Mixed or Baked lighting, this can take hours and slows down the Unity Editor.
+<br>
+<br>Review the results:
+
+<br>Once baking is complete, examine your scene in both the Scene and Game views
+<br>Look for any areas where the lighting seems off or could be improved
+
+
+<br><br><br>
+<br>
+Create a new material:
+
+<br>In the Project window, right-click &gt; Create &gt; Material
+<br>Name it "EmissiveMaterial"
+
+
+<br>
+Configure the emissive material:
+
+<br>Select the EmissiveMaterial in the Project window
+<br>In the Inspector, ensure the Shader is set to "Universal Render Pipeline/Lit"
+<br>Scroll down to the Emission section
+<br>Check the "Emission" box to enable it
+<br>Click the color picker next to Emission to choose a color (e.g., a bright blue 00FFFF)
+<br>Set the Emission color Intensity to 2 (you can adjust this value to increase or decrease the glow intensity)
+
+
+<br>
+Apply the emissive material:
+
+<br>Drag the EmissiveMaterial onto the Sphere in your scene.
+<br>Place another primitive object close to the sphere with the emissive material applied.
+
+
+<br>How Emissive Materials Work
+Emissive materials simulate light-emitting surfaces. They don't actually emit light that affects other objects in real-time, but they appear to glow and can contribute to the overall lighting of the scene when lighting is generated.
+<br><img alt="emissiveMat.png" src="gmap-395\module-1\media\emissivemat.png"><br>
+<br>
+Observe the difference in Realtime vs Baked lighting: For Realtime:
+
+<br>The emissive object will appear to glow.
+<br>If the object is marked as "Static" in the Inspector, it can contribute to real-time Global Illumination (GI).
+<br>Open the Light Explorer (Window &gt; Rendering &gt; Light Explorer) and ensure the emissive object has "Contribute Global Illumination" checked.
+<br>Non-static (dynamic) emissive objects will not affect GI but will still glow.
+
+For Baked:
+
+<br>Make sure the Sphere is marked as "Static" in the Inspector.
+<br>In the Lighting window, under Baked Lightmaps, ensure "Baked Global Illumination" is enabled.
+<br>Click "Generate Lighting" to bake the lighting.
+
+
+<br>Emissives and Global Illumination In both realtime and baked scenarios, static emissive materials can contribute to global illumination, subtly lighting nearby surfaces. This creates a more realistic and integrated lighting effect. However, moving (dynamic) emissive objects are not supported.<br>Performance Consideration Realtime GI from emissive materials can be performance-intensive. For mobile or performance-critical projects, consider using baked lighting or limiting the use of emissive materials that contribute to realtime GI.<br>
+<br>
+Experiment with static vs dynamic emissive objects:
+
+<br>Create a copy of your emissive sphere and place it in the scene.
+<br>Keep one sphere marked as "Static" and the other unmarked.
+<br>Compare how they interact with the environment in both realtime and baked lighting scenarios.
+
+
+<br>
+Iterate and refine:
+
+<br>Adjust light settings, object materials, or lightmapping settings as needed
+<br>Regenerate lighting after making significant changes
+
+
+<br>Connection to Lecture
+Baked lighting is crucial for performance in many games, especially on mobile or VR platforms. It allows for complex lighting scenarios without the performance cost of real-time lights.
+<br>Experiment
+Try adjusting the light positions, intensities, and colors. See how these changes affect the mood of your scene. Also, experiment with different post-processing settings to achieve various visual styles.
+<br><br><br>Post Processing Lesson
+We will revisit Post Processing at a later time in the course in more detail, for now, we need it to comprehend Emissive Materials and how they affect lighting.
+<br>
+<br>
+Set up the Post-Processing Volume:
+
+<br>Create a Global Volume (GameObject &gt; Volume &gt; Global Volume)
+
+
+<br>
+Create a Post-Processing Profile:
+
+<br>Create a Rendering folder in your Project window.
+<br>In the Project window, right-click &gt; Create &gt; Volume Profile.
+<br>Name it "Main Profile".
+<br>Drag this profile into the Profile slot of your Global Volume component.
+
+
+<br>
+Add and configure effects:
+
+<br>Select the "Main Profile" in the Project window.
+<br>Click Add Override and add the following:
+
+<br>Bloom
+<br>Color Adjustments (URP uses this instead of Color Grading)
+<br>Vignette
+
+
+
+
+<br>
+Configure the effects:
+
+<br>Bloom: Set Intensity to 1 and Threshold to 0.9.
+<br>Color Adjustments: Change Contrast to 10 and Saturation to 10. Give the Color Filter a slightly warmer or cooler tone using the color picker.
+<br>Vignette: Set Intensity to 0.4 and Smoothness to 0.3.<br>
+<img alt="globalVolume.png" src="gmap-395\module-1\media\globalvolume.png">
+
+
+<br>Connection to Lecture
+Post-processing effects are applied after the scene is rendered, similar to filters in photo editing software. They can dramatically enhance the mood and style of your game.
+<br>
+<br>Enable post-processing on the camera:
+
+<br>Select the Main Camera in the Hierarchy.
+<br>Ensure it has a "Universal Additional Camera Data" component.
+<br>Under the Rendering section tick on Post Processing
+<br>In this component, set "Render Type" to "Base" if it isn't already.<br>
+<img alt="cameraPP.png" src="gmap-395\module-1\media\camerapp.png">
+
+
+<br>Important
+If you don't see any change, ensure that your Scene View is set to have Post-Processing turned on using the top right hotbar.
+<br><br>
+<br>
+Create a Light Probe Group:
+
+<br>In the Hierarchy, right-click &gt; Light &gt; Light Probe Group
+
+
+<br>
+Position Light Probes:
+
+<br>With the Light Probe Group selected, you'll see spheres in the scene view
+<br>Position these spheres around your scene, focusing on areas where dynamic objects will move. 
+<br>Select the Light Probe Group in the Hierarchy. In the Inspector, click Edit Light probe Positions. You can now move the yellow spheres.
+<br>Place probes near corners, under overhangs, and in open areas. Anywhere where moving objects or better lighting data is needed.
+<br>Aim for a good coverage without overdoing it (start with about 8-10 probes for our small scene)
+
+
+<br><img alt="editLightProbe.png" src="gmap-395\module-1\media\editlightprobe.png"><br>Light Probe Placement
+Think of light probes as sampling points for lighting. Place them where you want dynamic objects to pick up lighting information, especially in areas with significant lighting changes or dynamic objects.
+<br>
+<br>
+Create a dynamic object:
+
+<br>Add a new cube to your scene (GameObject &gt; 3D Object &gt; Cube)
+<br>Position it slightly above the ground plane
+<br>Ensure it's not marked as Static in the Inspector
+
+
+<br>
+Set up a simple movement script:
+
+<br>Create a new script called "ObjectMover"
+<br>Add this script to your new cube
+<br>Open the script and replace its contents with:
+
+
+<br>using UnityEngine;
+
+public class ObjectMover : MonoBehaviour
+{
+    public float speed = 2f;
+    public float distance = 4f;
+
+    private Vector3 startPosition;
+
+    void Start()
+    {
+        startPosition = transform.position;
+    }
+
+    void Update()
+    {
+        float newX = startPosition.x + Mathf.Sin(Time.time * speed) * distance;
+        transform.position = new Vector3(newX, transform.position.y, transform.position.z);
+    }
+}
+<br>
+<br>
+Bake lighting:
+
+<br>Ensure your static objects are marked as Static
+<br>Open the Lighting window (Window &gt; Rendering &gt; Lighting)
+<br>Click "Generate Lighting" to bake your lightmaps and light probes
+
+
+<br>
+Observe the results:
+
+<br>Play the scene and watch how the moving cube picks up lighting information from the probes
+<br>The cube should show smooth lighting transitions as it moves through different areas of your scene
+
+
+<br>Light Probes and URP
+In URP, Light Probes work seamlessly with the scriptable render pipeline, providing efficient lighting for dynamic objects in both forward and deferred rendering paths.
+<br>
+<br>Experiment with probe placement:
+
+<br>Try adding more probes or adjusting their positions
+<br>Rebake lighting and observe how it affects the lighting on your moving cube
+
+
+<br>Performance Consideration
+While Light Probes are more performance-friendly than real-time lighting, too many probes can increase memory usage and baking times. Start with a minimal set and add more only where needed.
+<br>
+<br>Combine with emissive materials:
+
+<br>Try placing some light probes near your emissive object from the previous sections
+<br>Observe how the moving cube picks up the glow from the emissive object as it passes nearby
+
+
+<br><br><br>
+<br>
+Add a Sphere your scene and ensure it is set to Static
+
+<br>
+Create a highly reflective material for the sphere. Something with full Metallic Map and Smoothness should work.<br>
+<img alt="metalMaterial.png" src="gmap-395\module-1\media\metalmaterial.png">
+
+<br>
+Add a reflection probe to your scene:
+
+<br>Right-click &gt; Light &gt; Reflection Probe
+<br>Generally, place probes in key areas of your environment (e.g., near water bodies, in the center of clearings) where accurate reflections are needed. 
+
+<br>Place this probe around the sphere with the reflective material.
+
+
+
+
+<br>
+Configure the Reflection Probe:
+
+<br>Set the Type to Realtime
+<br>Set Refresh Mode to Every Frame
+<br>Adjust the Box Size to cover the desired area
+
+
+<br>Real-time Reflection Probes
+Setting the Reflection Probe to update every frame ensures that it will always reflect the current state of your scene, including changes in lighting from the day/night cycle. However, be aware that this can be performance-intensive, especially for larger or more complex scenes.
+<br>
+<br>(Optional) For performance optimization, you can adjust the Time Slicing setting:
+
+<br>Set Time Slicing to All Faces At Once for immediate updates (more performance-intensive)
+<br>Or choose "Individual Faces" to spread the update over multiple frames (better performance, slight delay in reflections)
+
+
+<br>Performance Considerations
+If you notice performance issues, consider reducing the update frequency or using a mix of real-time and baked probes in your scene. You can also adjust the resolution of the probe to balance between quality and performance.
+<br>Reflection Probes
+Reflection probes will now update as the day-night cycle progresses, providing dynamic reflections that match the changing lighting conditions.
+]]></description><link>gmap-395\module-1\gmap-395-wk-3-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 3 - Tutorial.md</guid><pubDate>Tue, 21 Jan 2025 00:13:30 GMT</pubDate><enclosure url="gmap-395\module-1\media\lightingmode.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\media\lightingmode.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 1]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\module-1\module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/Module 1.md</guid><pubDate>Mon, 20 Jan 2025 19:16:44 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
  <br><br><br><br>Instructor Details
 
 <br>Name: Darren Woodland, Jr.

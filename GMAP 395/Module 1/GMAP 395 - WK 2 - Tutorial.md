@@ -1,7 +1,7 @@
 
 # ***Procedural Eldritch Portal + Environment: A Tutorial for Blender***
 
-![[395tut1portal.png|640]]
+![[GMAP 395/Module 1/Media/395tut1portal.png|640]]
 
 ## Introduction
 

@@ -8,6 +8,10 @@ height: 1080
 #### GMAP 395: Advanced Game Art and Production
 ##### Week 3
 
+> [!example] [Week 3 Video Lecture Link]([gmap395_wk3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_FWfbFNa6ud6HX0Eg?e=LHB4am))
+> <iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_FWQvDS6rWDVCS3hA?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+
 ---
 
 ### What is Game Lighting?
@@ -225,7 +229,7 @@ height: 1080
     - Selective use of baked lighting for static geometry.
 
 
-| ![[6492c4abf65d6e4dfffbb89e_CONTROL_WorldTrailer_quarry_sky-p-500.avif]] | ![[6492c4ab6751d8f29f5e4826_LAUNCH_Screenshot_101-p-500.webp]] |
+| ![[GMAP 395/Module 1/Media/6492c4abf65d6e4dfffbb89e_CONTROL_WorldTrailer_quarry_sky-p-500.avif]] | ![[GMAP 395/Module 1/Media/6492c4ab6751d8f29f5e4826_LAUNCH_Screenshot_101-p-500.webp]] |
 | ------------------------------------------------------------------------ | -------------------------------------------------------------- |
 |                                                                          |                                                                |
 
@@ -246,7 +250,7 @@ height: 1080
 
 |                          |                          |
 | ------------------------ | ------------------------ |
-| ![[iPad_02-600x800.png]] | ![[iPad_01-600x800.png]] |
+| ![[GMAP 395/Module 1/Media/iPad_02-600x800.png]] | ![[GMAP 395/Module 1/Media/iPad_01-600x800.png]] |
 
 ---
 

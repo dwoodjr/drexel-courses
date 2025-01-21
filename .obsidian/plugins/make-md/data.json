@@ -36,10 +36,6 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Legacy/Legacy/LHL",
-    "//Legacy/Legacy/FA - 24",
-    "//Legacy/Legacy/FA - 24/Legacy/FA - 24/DIGM 131",
-    "//Legacy/Legacy/FA - 24/Legacy/FA - 24/DIGM 131/Legacy/FA - 24/DIGM 131/DOCs",
     "//docs/docs/slides/docs/slides/GMAP 395 - WK 1 - Slides",
     "//docs/docs/gmap-395",
     "//docs/docs/gmap-395/docs/gmap-395/module-1",
@@ -48,6 +44,7 @@
     "GMAP 395",
     "GMAP 395/GMAP 395/Module 1",
     "//GMAP 395",
+    "//Legacy",
     "//GMAP 395/GMAP 395/Module 1"
   ],
   "expandFolderOnClick": true,
