@@ -10,10 +10,10 @@ In this lab, you'll create a simple 3D scene using the Universal Render Pipeline
 
 ## Video Tutorials
 
-| Part 1                                                                                                                                                     | Part 2                                                                                                                                    | Part 3 |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| <iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_FXBBGHCZ_2nr6Zqg?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe> | <iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_FZNnHemy6Zo2OReA?embed=1" width="98" height="120" frameborder="0" scrolling="no"></iframe> |        |
-| [gmap395_tut2_p1.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_FXZ7EobnQCfylfDg?e=KvqpM3)                                                                         | [gmap395_tut2_pt2.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_FZzrRRBJsoZsmerA?e=xmapGB)                                                       |        |
+| Part 1                                                                                                                                                     | Part 2                                                                                                                                     | Part 3                                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_FXBBGHCZ_2nr6Zqg?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe> | <iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_FZNnHemy6Zo2OReA?embed=1" width="320" height="320" frameborder="0" scrolling="no"></iframe> | <iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_Ffeb6n1cHJJ_-2eg?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe> |
+| [gmap395_tut2_p1.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_FXZ7EobnQCfylfDg?e=KvqpM3)                                                                         | [gmap395_tut2_pt2.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_FZzrRRBJsoZsmerA?e=xmapGB)                                                        | [gmap395_tut2_p3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_FfYleFBjPAAebSsw?e=tlYTad)                                                                         |
 
 
 ---
@@ -36,16 +36,19 @@ For this portion of the tutorial watch and follow along with the video from *Ent
 > [!NOTE] Types of Retopology
 > It is important to note that we are aiming for a quick version of retopology that is rapid for our prototyping in this course. IF you were going to work on retopology for animation, it would be best to do a more traditional method like Quad Remeshing with some manual retopology. Like in this video: https://www.youtube.com/watch?v=hQ8HvDuSWCQ
 
-
 ### Unity Scene Setup
 1. Create a new URP 3D Unity project.
    - When creating a new project, select "3D (URP)" as the template.
 
 2. In the Hierarchy window, right-click and select 3D Object > Plane to create a ground plane. ONLY IF NEEDED.
 
-
 ### Blender Geometry Import
+If using Blender Geometry Nodes, to properly export that geometry to a useful data format like FBX or glTF. You will need to first ***Realize Instances*** then ***Apply*** the geometry modifiers to make a static piece of geometry in Blender. You can see this is action in Part 2 from the *Video Tutorials* above.
 
+##### Useful Info I Found on This Process
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xeOL8wbHDV0?si=_w-WLwFSs-yKqZ5S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+https://blender.community/c/rightclickselect/G9Jy/?sorting=hot
 
 > [!tip] Tip
 > Use different materials for each object to make them visually distinct. Select each object, create a new material (right-click in Project window > Create > Material), and set a unique color in the Inspector. Make sure to use the "Universal Render Pipeline/Lit" shader for these materials.

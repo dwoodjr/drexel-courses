@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +117,7 @@
             }
           },
           {
-            "id": "47f90988fd4c825b",
+            "id": "08b283c9b9f94485",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -264,53 +264,17 @@
       "iconic:Open rulebook": false
     }
   },
-  "floating": {
-    "id": "6cd192cac3999acf",
-    "type": "floating",
-    "children": [
-      {
-        "id": "2c9b8d0062e1146e",
-        "type": "window",
-        "children": [
-          {
-            "id": "157da71d760072cb",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "eaefd63a24c9e82f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Index.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Index"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 830,
-        "y": 915,
-        "width": 800,
-        "height": 400,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "eaefd63a24c9e82f",
+  "active": "24e4993c807b2744",
   "lastOpenFiles": [
+    "Index.md",
     "GMAP 395/GMAP 395 - Welcome.md",
+    "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/Module 1/GMAP 395 - WK 3 - Tutorial.md",
     "GMAP 395/Module 1/GMAP 395 - WK 3 - Slides.md",
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md",
     "GMAP 395/Module 1/GMAP 395 - Module 1.md",
+    "GMAP 395/Module 1/Media/Media.md",
     "GMAP 395/Introduction/Introduction.md",
     "GMAP 395/Introduction/GMAP395-DAGsNodes.excalidraw.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md",
@@ -319,7 +283,6 @@
     "GMAP 395/Module 1/6492c4abf65d6e4dfffbb89e_CONTROL_WorldTrailer_quarry_sky-p-500.avif",
     "GMAP 395/Module 1/iPad_02-600x800.png",
     "GMAP 395/Module 1/iPad_01-600x800.png",
-    "Index.md",
     "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md",
     "GMAP 395/Module 1/GMAP 395 - WK 3 - Slides .md",
@@ -330,7 +293,6 @@
     "GMAP 395/Module 1/fractals.png",
     "GMAP 395/Module 1/3D-Shapes-01-01.png",
     "GMAP 395/Notes/GMAP 395 - WK 2 - Planning.md",
-    "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/Notes/GMAP 395 - WK 1 - Planning.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Video Lecture.md",
     "docs/gmap-395/introduction/introduction.html",
