@@ -46,7 +46,7 @@ For questions or concerns, feel free to reach out:
 - Introduction to node-based workflows for modeling
 - Introduction to real-time lighting systems
 
-### Module 2: Shaders and Materials Development
+### [[GMAP 395 - Module 2|Module 2: Shaders and Materials Development]]
 - Creating custom shaders
 - Understanding lighting interactions
 - Stylized vs. photorealistic materials
@@ -61,7 +61,7 @@ For questions or concerns, feel free to reach out:
 - Modular camera systems and applications
 - Camera effects and real-time feedback
 
-### Final Project
+### [[GMAP 395 - Final Project - Details and Requirements|Final Project]]
 - A cohesive real-time scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
 
 ---
