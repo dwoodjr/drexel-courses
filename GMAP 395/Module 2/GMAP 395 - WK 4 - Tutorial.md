@@ -3,6 +3,8 @@
 ## Objective
 Create a swirling circular portal shader using Unity’s Shader Graph, complete with dynamic transparency and procedural motion effects.
 
+![[portalShaderGrab.png|640]]
+
 ---
 ## Video Tutorial
 
