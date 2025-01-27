@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 27 Jan 2025 16:38:57 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 27 Jan 2025 16:38:42 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 27 Jan 2025 21:57:11 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 27 Jan 2025 21:56:55 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Video</a><br><br><br>
 <br>The relationship between games, design, and play.
@@ -2035,8 +2035,9 @@ Explore the theme by crafting shaders and materials that evoke mystery, emptines
 <br>Late submissions will incur a 10% penalty per day.
 
 <br><br>]]></description><link>gmap-395\module-2\gmap-395-asn-2-brief.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - ASN 2 - Brief.md</guid><pubDate>Mon, 27 Jan 2025 16:15:04 GMT</pubDate></item><item><title><![CDATA[Module 2 - Shaders and Material Development]]></title><description><![CDATA[ 
- <br><br><br>This module delves into shader creation and material development, essential skills for adding dynamic visual behavior to assets. Students will explore both code-based and node-based shader workflows, focusing on enhancing procedural assets for real-time interactivity.<br><br><a data-href="GMAP 395 - WK 4 - Slides + Video" href="gmap-395\module-2\gmap-395-wk-4-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - Slides + Video</a><br>
+ <br><br><br>This module deals with shader creation and material development, essential skills for adding dynamic visual behavior to assets. Students will explore both code-based and node-based shader workflows, focusing on enhancing procedural assets for real-time interactivity.<br><br><a data-href="GMAP 395 - WK 4 - Slides + Video" href="gmap-395\module-2\gmap-395-wk-4-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - Slides + Video</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395/Module 2/GMAP 395 - WK 4 - Tutorial" data-href="GMAP 395/Module 2/GMAP 395 - WK 4 - Tutorial" href="gmap-395\module-2\gmap-395-wk-4-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - Tutorial</a><br>
+<a data-href="GMAP 395 - WK 4 - In-Class Lab" href="gmap-395\module-2\gmap-395-wk-4-in-class-lab.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - In-Class Lab</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 5 - Slides" data-href="GMAP 395 - WK 5 - Slides" href="GMAP 395 - WK 5 - Slides" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 5 - Slides + Video</a><br>
 <a data-href="GMAP 395 - WK 5 - Tutorial" href="GMAP 395 - WK 5 - Tutorial" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 5 - Tutorial</a><br>
 <a data-href="GMAP 395 - ASN 2 - Brief" href="gmap-395\module-2\gmap-395-asn-2-brief.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - ASN 2 - Brief</a><br><br><br>
@@ -2074,7 +2075,179 @@ Explore the theme by crafting shaders and materials that evoke mystery, emptines
 <br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.shadergraph@16.0/manual/Node-Library.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.shadergraph@16.0/manual/Node-Library.html" target="_blank">Shader Graph Node Library</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-shaders-and-materials?pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-shaders-and-materials?pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Learn - Shaders and Materials</a>
 <br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/2022.3/Documentation/Manual/class-GraphicsSettings.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/2022.3/Documentation/Manual/class-GraphicsSettings.html" target="_blank">Unity Graphics Settings Overview</a>
-<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-2\gmap-395-module-2.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - Module 2.md</guid><pubDate>Mon, 27 Jan 2025 02:49:03 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 4 - Slides + Video]]></title><description><![CDATA[ 
+<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-2\gmap-395-module-2.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - Module 2.md</guid><pubDate>Mon, 27 Jan 2025 21:54:16 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 4 - In-Class Lab]]></title><description><![CDATA[ 
+ <br><br>Gain hands-on experience creating and modifying basic shaders using Unity's Shader Graph. <br><br>
+<br>Unity 2022.3
+<br>Basic understanding of Unity interface
+<br>Universal Render Pipeline (URP) set up in your project
+<br><br><br><br>
+<br>In Unity, right-click in the Project window
+<br>Select Create &gt; Shader &gt; Universal Render Pipeline &gt; Unlit Shader Graph
+<br>Name it "MyFirstShaderGraph"
+<br>Double-click to open it in the Shader Graph window
+<br><br>
+<br>In the Shader Graph window, locate the Blackboard (usually on the left side)
+<br>In the Blackboard:
+
+<br>Click the + button
+<br>Choose Color from the dropdown
+<br>Name it _Color (or any appropriate name)
+<br>Set a default color if desired (found in the Graph Inspector &gt; Node Settings)
+
+
+<br>In the graph area:
+
+<br>Click and drag the _Color property from the Blackboard directly into the graph area
+
+
+<br>Connect the Color property node's output to the Base Color input of the "Fragment" node
+<br>Click "Save Asset" to save your shader graph
+<br><br>
+<br>In Unity, create a new 3D object (e.g., Sphere) in your scene
+<br>Create a new material:
+
+<br>Right-click in the Project window &gt; Create &gt; Material
+<br>Name it appropriately
+
+
+<br>In the new material's Inspector:
+
+<br>Set the Shader to your "Shader Graph/MyFirstShaderGraph"
+<br>Adjust the Color property to see changes on your 3D object
+
+
+<br><br><br><br>
+<br>
+In the Blackboard, add the following properties:
+
+<br>Texture2D named _MainTex
+<br>Vector2 named _Tiling (set default to 1,1)
+<br>Vector2 named _Offset (set default to 0,0)
+
+
+<br>
+In your Shader Graph, add the following nodes:
+
+<br>Drag the _MainTex, _Tiling, and _Offset properties from the Blackboard into the graph
+<br>Add a Tiling And Offsetnode
+<br>Add a Sample Texture 2D node
+
+
+<br>Hotkey
+SPACEBAR is the hotkey shortcut to open the create node dialogue box.
+<br>
+<br>Connect the nodes:
+
+<br>Connect the _Tiling and _Offset outputs to the respective inputs of the Tiling And Offset node
+<br>Connect the UV output of Tiling And Offset to the UV input of Sample Texture 2D
+<br>Connect the _MainTex property to the Texture input of Sample Texture 2D
+
+
+<br><br>
+<br>
+Add a Multiply node
+
+<br>
+Connect:
+
+<br>The RGBA output of Sample Texture 2D to one input of Multiply
+<br>The _Color property to the other input of Multiply
+<br>The output of Multiply to the Base Color of the Fragment node
+
+
+<br>
+Save the Shader Graph
+
+<br><br>
+<br>Select your 3D object in the scene
+<br>In the Inspector, you should now see slots for Texture, Tiling, and Offset
+<br>Assign a texture to the Texture slot
+<br>Adjust Tiling and Offset values to see how they affect the texture
+<br><br><br><br>
+<br>
+In the Blackboard, add these Float properties:
+
+<br>_WaveAmount (default 1)
+<br>_WaveSpeed (default 1)
+<br>_WaveFrequency (default 1)
+
+
+<br>
+In your Shader Graph, add these nodes:
+
+<br>Drag the new Float properties from the Blackboard into the graph
+<br>Add Time node
+<br>Add Position node (set to World)
+<br>Add Sine node
+<br>Add several Multiply (3) nodes
+<br>Add Add node
+<br>Add Split node
+
+
+<br>
+Connect the nodes to create the wave effect:
+
+<br>Connect the output of the World Position node to the input of the Split node
+<br>Connect the R output of the Split node (which represents the X component) to one input of a Multiply node
+<br>Connect the _WaveFrequency to the other input of this Multiply node
+<br>Multiply _WaveSpeed by Time
+<br>Add the results of the above two operations using an Add node
+<br>Feed the output of the Add node into the Sine node
+<br>Multiply the Sine output by _WaveAmount
+
+
+<br>
+Add a Combine node:
+
+<br>Connect the R (X) and B (Z) from the Split node to the corresponding inputs on the Combine
+<br>For the G(Y) input of the Combine node, add the wave calculation to the G(Y) output of the Split node and connect it.
+
+
+<br>
+Connect the Combine node's output (RGBA or RGB) to the Position input of the Vertex node
+
+<br><br>
+<br>Save the Shader Graph
+<br>Select your 3D object in the scene
+<br>In the Inspector, you should now see Wave Amount, Wave Speed, and Wave Frequency properties
+<br>Adjust these values to see how they affect the object's shape
+<br><br><br><br>Modify your shader to blend between two colors based on a custom parameter.<br><br>
+<br>In the Blackboard, add:
+
+<br>Another Color property named _Color2
+<br>A Float property named _BlendFactor (set range 0 to 1)
+
+
+<br>Modes in Graph Inspector
+You can change the Mode of a property in the Graph Inspector to something like Slider
+<br>
+<br>
+In the graph area:
+
+<br>Drag the new properties from the Blackboard
+<br>Add a Lerp node
+
+
+<br>
+Connect the nodes:
+
+<br>Connect _Color and _Color2 to the A and B inputs of the Lerp node respectively
+<br>Connect _BlendFactor to the T input of the Lerp node
+
+
+<br>
+Use the output of the Lerp node in your final color calculation (e.g., multiply it with your texture sample)
+
+<br>
+Save the Shader Graph and adjust the Blend Factor in your material's Inspector to blend between the two colors.
+
+<br><br>
+<br>Try blending based on vertex position instead of a custom parameter
+<br>Implement a smooth transition that cycles between the colors over time (Time or Sine)
+<br>Add a third color and blend between all three
+<br>Check
+Remember to save your Shader Graph after each major change, and don't hesitate to experiment with different connections and values!
+]]></description><link>gmap-395\module-2\gmap-395-wk-4-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - WK 4 - In-Class Lab.md</guid><pubDate>Mon, 27 Jan 2025 21:55:53 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 4 - Slides + Video]]></title><description><![CDATA[ 
  <br><br><br><br>Week 4 Video Lecture
 
 <a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_F3vSAiT9rcAKv5Jw?e=HRmiMT" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_F3vSAiT9rcAKv5Jw?e=HRmiMT" target="_blank">gmap395_wk4.mp4</a>

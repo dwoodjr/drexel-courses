@@ -2,12 +2,13 @@
 
 ## Overview
 
-This module delves into **shader creation** and **material development**, essential skills for adding dynamic visual behavior to assets. Students will explore both code-based and node-based shader workflows, focusing on enhancing procedural assets for real-time interactivity.
+This module deals with **shader creation** and **material development**, essential skills for adding dynamic visual behavior to assets. Students will explore both code-based and node-based shader workflows, focusing on enhancing procedural assets for real-time interactivity.
 
 ### Key Links
 
 [[GMAP 395 - WK 4 - Slides + Video]]
 [[GMAP 395/Module 2/GMAP 395 - WK 4 - Tutorial|GMAP 395 - WK 4 - Tutorial]]
+[[GMAP 395 - WK 4 - In-Class Lab]]
 [[GMAP 395 - WK 5 - Slides|GMAP 395 - WK 5 - Slides + Video]]
 [[GMAP 395 - WK 5 - Tutorial]]
 [[GMAP 395 - ASN 2 - Brief]]
