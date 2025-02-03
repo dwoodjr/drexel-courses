@@ -31,22 +31,22 @@ jobs:
     steps:
       # Step 1: Check out the repository
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
         # This action clones your repository, providing access to its contents.
 
       # Step 2: Set up GitHub Pages
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5.0.0
         # Prepares the environment for deploying to GitHub Pages.
 
       # Step 3: Upload the 'docs' directory as an artifact
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4.6.0
         with:
           path: 'docs'  # Specifies the directory containing your site files
         # Packages the contents of the 'docs' directory for deployment.
 
       # Step 4: Deploy the uploaded artifact to GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4.0.5
         # Publishes the artifact to GitHub Pages, making your site live.
