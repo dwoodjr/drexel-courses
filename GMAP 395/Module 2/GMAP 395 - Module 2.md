@@ -9,7 +9,7 @@ This module deals with **shader creation** and **material development**, essenti
 [[GMAP 395 - WK 4 - Slides + Video]]
 [[GMAP 395/Module 2/GMAP 395 - WK 4 - Tutorial|GMAP 395 - WK 4 - Tutorial]]
 [[GMAP 395 - WK 4 - In-Class Lab]]
-[[GMAP 395 - WK 5 - Slides|GMAP 395 - WK 5 - Slides + Video]]
+[[GMAP 395 - WK 5 - Slides + Video|GMAP 395 - WK 5 - Slides + Video]] 
 [[GMAP 395 - WK 5 - Tutorial]]
 [[GMAP 395 - ASN 2 - Brief]]
 

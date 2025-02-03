@@ -264,4 +264,4 @@ Shader "Custom/ExampleShader"
 - Shaders are a powerful tool for creating immersive, visually striking experiences.
 - Mastering shaders bridges a gap between art and technology in game development and beyond.
 ---
->[!info]  [[GMAP 395 - Module 1| Return to the Module Page]]
+>[!info]  [[GMAP 395 - Module 2| Return to the Module Page]]

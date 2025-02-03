@@ -1,4 +1,4 @@
-# 🕹️ **GMAP 395: Final Project Guide**
+# 🕹️ ***GMAP 395: Final Project Guide**
 
 ## 🎯 Project Overview
 
@@ -11,7 +11,7 @@ Students will create a **polished, interactive game art piece** by focusing on *
 Each module for the final includes **main requirements** and **one additional challenge** to practice development, critical-thinking, and creativity.
 
 ### 📦 Module 1: Procedural Modeling + Lighting Systems
-> **Original Requirements**:
+> **Requirements**:
 > - ✅ Create a **procedural or modular system** for props, characters, or environments.
 > - ✅ Integrate **at least three lighting sources**: one directional light and two auxiliary lights (e.g., point, spot, area lights).
 > - ✅ Use modular assets to build a cohesive scene.
@@ -23,35 +23,35 @@ Each module for the final includes **main requirements** and **one additional ch
 ---
 
 ### 🖌️ Module 2: Shaders and Materials Development
-> **Original Requirements**:
+> **Requirements**:
 > - ✅ Develop at least **two custom shaders** using Shader Graph or HLSL.
 > - ✅ Include shaders with **dynamic properties**, like adjustable emission, transparency, or surface effects.
 > - ✅ Ensure shaders are cohesive with the overall project aesthetic.
 
 > **🔧 Additional Requirement**:
-> - Design a **shader with user-driven interactions** or environmental triggers (e.g., heat distortion near light sources, ripple effects when interacted with).
+> - Design a **shader with user-driven interactions** (for *both required shaders*) activated by user interaction or environmental triggers (e.g., heat distortion near light sources, ripple effects when interacted with).
 
 ---
 
 ### ✨ Module 3: Effects + Particle Systems
-> **Original Requirements**:
-> - ✅ Create **at least three particle systems** dynamically triggered by player actions (e.g., sparks, smoke, mist).
+> **Requirements**:
+> - ✅ Create **at least three particle systems** (e.g., sparks, smoke, mist).
 > - ✅ Use modular techniques for particle creation (e.g., reusable templates, layered systems).
 > - ✅ Ensure effects are **integrated** within a cohesive game art scene.
 
 > **🔧 Additional Requirement**:
-> - Build a **reactive particle system** that changes based on environmental conditions or time (e.g., intensity, color, or behavior adjusting to a day-night cycle).
+> - Build a **reactive particle system** (for *2 of the 3* required systems) that changes based on environmental conditions, player interaction, or time (e.g., intensity, color, or behavior adjusting to a day-night cycle).
 
 ---
 
 ### 🎥 Module 4: Camera Effects + Post-Processing
-> **Original Requirements**:
+> **Requirements**:
 > - ✅ Implement a **dynamic camera system** using Cinemachine.
 > - ✅ Add **at least two post-processing effects** (e.g., bloom, color grading, depth of field) to enhance visual quality.
 > - ✅ Use camera animations or transitions to highlight specific parts of the scene.
 
 > **🔧 Additional Requirement**:
-> - Develop a **camera-based interaction system**, such as zoom-in on specific triggers or focus shifts during player interactions.
+> - Develop a **camera-based interaction system**, such as zoom-in on specific triggers or focus shifts during player interactions and manipulate (*1 of the 2* required post-process effects) based on player interaction of environmental triggers.
 
 ---
 
@@ -66,9 +66,9 @@ Each module for the final includes **main requirements** and **one additional ch
 >     - Include **annotations or narration** explaining key design decisions.
 > 3. **Postmortem Document**:
 >     - A 1–2 page reflection including:
->         - **🎉 Successes**: Highlight key achievements.
->         - **😅 Challenges**: Discuss difficulties and solutions.
->         - **📚 Learning Outcomes**: Share what you’ve learned.
+>         - **Successes**: Highlight key achievements.
+>         - **Challenges**: Discuss difficulties and solutions.
+>         - **Learning Outcomes**: Share what you’ve learned.
 >     - Include citations for any external assets used.
 > 4. **Unity Project Files**:
 >     - A zipped folder with only the necessary files: **Assets**, **Packages**, **ProjectSettings** ONLY (❌ omit the Library, Temp, and other folders).
@@ -77,6 +77,10 @@ Each module for the final includes **main requirements** and **one additional ch
 
 ---
 
+> [!warning] Requirements
+> For each module there are a set of **Requirements** that must be met for every module. Then there are **Additional Requirements** that must only be met for whichever module you choose to polish for the final.
+
+---
 ## 🏆 Grading Criteria
 Your project will be evaluated based on:
 - **Technical Mastery**: Effective use of tools and workflows from the chosen module.
@@ -84,3 +88,7 @@ Your project will be evaluated based on:
 - **Cohesion**: Visual and thematic consistency throughout the project.
 - **Polish**: Overall quality and refinement of the interactive experience.
 - **Presentation**: Clarity and professionalism in the playthrough video and postmortem document.
+
+---
+---
+>[!info]  [[GMAP 395 - Welcome| Return to the Main Course Page]]

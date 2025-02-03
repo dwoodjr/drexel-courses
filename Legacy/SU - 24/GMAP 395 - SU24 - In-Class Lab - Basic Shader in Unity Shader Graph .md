@@ -112,7 +112,7 @@ Gain hands-on experience creating and modifying basic shaders using Unity's Shad
 
 4. Add a `Combine` node:
    - Connect the `R` (X) and `B` (Z) from the `Split` node to the corresponding inputs on the `Combine`
-   - For the `G`(Y) input of the `Combine` node, add the wave calculation to the `G`(Y) output of the `Split` node and connect it.
+   - For the `G`(Y) input of the `Combine` node, `Add` the wave calculation to the `G`(Y) output of the `Split` node and connect it to the `G`(Y) input.
 
 5. Connect the `Combine` node's output (RGBA or RGB) to the `Position` input of the Vertex node
 

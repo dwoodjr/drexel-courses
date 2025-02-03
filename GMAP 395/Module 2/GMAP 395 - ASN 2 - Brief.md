@@ -5,7 +5,7 @@
 > [!info] Assignment Overview  
 > In this assignment, students will:
 > 
-> 1. Develop custom shaders and materials for the procedural game asset created in Assignment 1.
+> 1. Develop custom shaders and materials for the procedural game asset created in ***Assignment 1***.
 > 2. Use Unity's Shader Graph or a similar node-based tool to create dynamic, real-time effects (must be displayed in Unity).
 > 3. Ensure shaders and materials enhance the asset’s presentation, aligning with the class theme: _Something from the Void_.
 > 4. Present the final shaders in a Unity scene and document the process in a README file.
@@ -18,7 +18,7 @@
 > 
 > - **Part 1: Shader Creation**  
 >     Design and implement dynamic shaders to achieve real-time visual effects for your asset.
-> - **Part 2: Material Application**  
+> - **Part 2: Interactive Material Application**  
 >     Use the shaders and materials from `Part 1`, to create a real-time feedback based on a game event.
 
 ---
@@ -29,7 +29,6 @@
 
 > [!question] Shader Inspiration from the Void  
 > Explore the theme by crafting shaders and materials that evoke mystery, emptiness, or cosmic energy. Examples include:
-> 
 > - A swirling galaxy effect on a portal or artifact.
 > - A glowing material with pulsating patterns and emissive highlights.
 > - Transparency effects to mimic glass-like or ethereal surfaces.
@@ -73,15 +72,19 @@
 
 > [!todo] What to Submit
 >1. README File:
->     - A Markdown or TXT file that explains your work:
+>     - A Markdown, TXT, or PDF file that explains your work:
 >         - Shader design techniques and inspirations.
 >         - Material setup and Unity scene configuration.
 >         - Challenges encountered and solutions implemented.
 > 2. Recorded Video (5–10 Minutes):
->     - A video walkthrough showcasing:
+>     - A ***Screen Recorded*** video walkthrough showcasing:
+>         - Record the Unity Scene and any other relevant DDC application used
 >         - Shader effects and how they align with the theme.
 >         - Material application in Unity and real-time demonstration of effects.
 >         - Integration of lights and post-processing(optional) to complement the shaders.
+
+> [!warning] Screenrecording
+> Download *OBS Studio* or some other comparable software, record your screen and talk me through your design process and other requirements specified in the document.
 
 > [!info] README Example Format
 > 

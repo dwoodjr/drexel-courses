@@ -151,3 +151,4 @@ Create a swirling circular portal shader using Unity’s Shader Graph, complete 
 
 ---
 ---
+>[!info]  [[GMAP 395 - Module 2| Return to the Module Page]]
