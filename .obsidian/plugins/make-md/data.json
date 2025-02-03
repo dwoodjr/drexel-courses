@@ -44,7 +44,8 @@
     "GMAP 395",
     "GMAP 395/GMAP 395/Module 1",
     "//Legacy",
-    "//GMAP 395"
+    "//GMAP 395",
+    "//GMAP 395/GMAP 395/Module 2"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

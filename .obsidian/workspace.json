@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 2/GMAP 395 - WK 5 - Slides + Video.md",
+                "file": "GMAP 395/Module 2/GMAP 395 - WK 5 - Tutorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - WK 5 - Slides + Video"
+              "title": "GMAP 395 - WK 5 - Tutorial"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,7 +251,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "0b608f96bae9599e",
+  "active": "21bfeec24519c989",
   "lastOpenFiles": [
     "Index.md",
     "GMAP 395/GMAP 395 - Welcome.md",
