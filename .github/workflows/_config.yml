@@ -41,7 +41,7 @@ jobs:
 
       # Step 3: Upload the 'docs' directory as an artifact
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4
         with:
           path: 'docs'  # Specifies the directory containing your site files
         # Packages the contents of the 'docs' directory for deployment.
