@@ -225,7 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,47 +251,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "floating": {
-    "id": "84bc80a974851dfb",
-    "type": "floating",
-    "children": [
-      {
-        "id": "f33bbe5fd875e26f",
-        "type": "window",
-        "children": [
-          {
-            "id": "00467e288d11f5c3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f426626b6ed5a52a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Index.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Index"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 509,
-        "y": 554,
-        "width": 1002,
-        "height": 502,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "f426626b6ed5a52a",
+  "active": "0b608f96bae9599e",
   "lastOpenFiles": [
+    "Index.md",
     "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/Module 2/GMAP 395 - WK 5 - Tutorial.md",
@@ -301,7 +263,6 @@
     "GMAP 395/Module 2/GMAP 395 - WK 4 - In-Class Lab.md",
     "GMAP 395/Module 2/GMAP 395 - Module 2.md",
     "GMAP 395/Module 2/media/media.md",
-    "GMAP 395/Module 1/Module 1.md",
     "GMAP 395/Module 1/GMAP 395 - WK 3 - Tutorial.md",
     "GMAP 395/Module 1/GMAP 395 - WK 3 - Slides.md",
     "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
@@ -311,6 +272,15 @@
     "GMAP 395/Introduction/GMAP395-DAGsNodes.excalidraw.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md",
     "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
+    "docs/lib/media/6155340132a851f6089e.svg",
+    "docs/gmap-395/module-2/gmap-395-wk-5-tutorial.html",
+    "docs/gmap-395/module-2/gmap-395-wk-5-slides-+-video.html",
+    "docs/gmap-395/module-2/media/renderpipeline.jpg",
+    "docs/gmap-395/module-2/media/portalinspector.png",
+    "docs/gmap-395/module-2/media/mdn-games-3d-rendering-pipeline.png",
+    "docs/gmap-395/module-2/media/enemyspawnerinspector.png",
+    "docs/gmap-395/module-2/media/dotween1.png",
+    "GMAP 395/Module 1/Module 1.md",
     "GMAP 395/Notes/Quiz Questions.md",
     "GMAP 395/Notes/week 4 shader material notes.md",
     "GMAP 395/Module 2/media/renderPipeline.jpg",
@@ -318,25 +288,15 @@
     "GMAP 395/Module 2/media/mdn-games-3d-rendering-pipeline.png.crdownload",
     "GMAP 395/Module 2/media/enemySpawnerInspector.png",
     "GMAP 395/Module 2/media/portalInspector.png",
-    "GMAP 395/Module 2/media/dotween1.png",
-    "Index.md",
     "GMAP 395/Module 2/GMAP 395 - ASN 2 - Brief.md",
     "GMAP 395/Module 2/Module 2.md",
     "GMAP 395/Introduction/Introduction.md",
-    "GMAP 395/Module 2/media/MasterStack_Populated.png",
     "GMAP 395/Module 2/media/MasterStack_Populated.png.crdownload",
-    "GMAP 395/Module 2/media/GraphSettings_Menu.png",
     "GMAP 395/Module 2/media/GraphSettings_Menu.png.crdownload",
-    "GMAP 395/Module 2/media/blackboard_shadergraph_path.png",
     "GMAP 395/Module 2/media/blackboard_shadergraph_path.png.crdownload",
     "GMAP 395/Module 2/media",
-    "GMAP 395/GMAP 395.md",
     "GMAP 395/Module 2",
-    "GMAP 395/Module 1/6492c4ab6751d8f29f5e4826_LAUNCH_Screenshot_101-p-500.webp",
-    "GMAP 395/Module 1/6492c4abf65d6e4dfffbb89e_CONTROL_WorldTrailer_quarry_sky-p-500.avif",
     "docs/gmap-395/introduction/introduction.html",
-    "docs/gmap-395/introduction/gmap395_wk1.mp4",
-    "docs/gmap-395/introduction/gmap-395-wk-1-video-lecture.html",
-    "GMAP 395/Introduction/gmap395_wk1.mp4"
+    "docs/gmap-395/introduction/gmap395_wk1.mp4"
   ]
 }
