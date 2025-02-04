@@ -2,7 +2,10 @@
 
 ## 🎯 Project Overview
 
-Students will create a **polished, interactive game art piece** by focusing on **one module of their choice** from the course. This final deliverable will showcase their technical and artistic skills while demonstrating mastery of the selected module.
+Students will create a **polished, interactive game art piece** by focusing on **one module of their choice** from the course to do the *Additional Requirements* for. This final deliverable will showcase their technical and artistic skills while demonstrating mastery of the selected module.
+
+> [!NOTE] Requirements vs Additional Requirements
+> The "Requirements" for all four modules are *required for all projects*. You will choose ***one*** module to complete the "Additional Requirement" for to complete the final project.
 
 ---
 

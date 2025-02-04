@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +104,7 @@
             }
           },
           {
-            "id": "8a26a6324e80d678",
+            "id": "0e0bda4671f63b63",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -225,7 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 444.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,7 +251,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21bfeec24519c989",
+  "active": "0b608f96bae9599e",
   "lastOpenFiles": [
     "Index.md",
     "GMAP 395/GMAP 395 - Welcome.md",
@@ -271,6 +271,7 @@
     "GMAP 395/Module 1/Media/Media.md",
     "GMAP 395/Introduction/GMAP395-DAGsNodes.excalidraw.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md",
+    "GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md",
     "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
     "docs/lib/media/6155340132a851f6089e.svg",
     "docs/gmap-395/module-2/gmap-395-wk-5-tutorial.html",
