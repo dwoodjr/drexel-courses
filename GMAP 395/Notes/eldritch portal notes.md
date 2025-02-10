@@ -1,0 +1,54 @@
+- before part 1 - step 1 we first need to ensure that we have the VFX graph installed and updated via the unity package manager. go to the "unity registry" tab and search for "visual effect graph"
+- part 1 - step 1: they should make a VFX folder to place their vfx graphs in
+- p1-s1: they should increase the Rate set in the Spawn context from 16 to ~100 or more (experiment)
+- part 1 - step 1: there is no material assignment needed, remove this crap. "assign" the vfx graph by dragign it into the scene an positioning it near the portal asset with teh portal sahder (its center).
+- p1 - s2 . the set position is "shape: arc circle"
+- p1 - s2: add that the Angles X postion needs to be set to 90 degreees in the Circle > Transform dropdown of that node
+- p1-s2: the way to expose the radious isto make a float parameter of the same name in the Blackboard and connect it to the radius of the arc circle.
+- p1-s2: arc max is 6.28 not 360 degrees
+- p1-s2: position mode is Surface, spawn mode is random, but feel free to experiment with these
+- p1-s2: delete defualt set velocity, then add set velocity from directio and speed (tangent)
+- p1-s2: expose speed by creating a float parameter and connecting it to max speed of velocity node:
+- p1-s2: set color by speed (gradient) instead. Set up a gradient for color of particles. use ringrotationspeed toset max (y) for Speed Range of this block
+- p1-s2: use the default set lifetime random (uniform) block that is alread ther insted. expose parameter by makinga vector 2 of smae name. x in min y is max. connect these to min max of the set lifetime (dropdown context to get indivisual x and y)
+- p1-s2: note: to see color take effect they must chnage the main texture of teh particles and delete the Set color over life block, both found in Output Particle Quad context
+- p1-s2: PortalRingColor again created via Blackboard as exposed parameter (Gradient) not color type. Be sure to adjust the intensity of the colors used in the gradient to interact with Bloom more. (higher intensity value more bloom)
+- p1-s4: Add a step as it doen not exist. in this step we will use the Update Particle context to add some more visual interest and variatio to our particle ring.
+- p1-s4: add a Conform to Sphere block. the scphere radius (in doropdown) should be set using the portalringradius parameter. 
+- p1-s4: add a turbulence node. Mode set to Relative nOise Type set to Perlin (or feel free to experiment)
+- p1-s4: adjust the parameters for all forces nodes to reach a desired look
+- p1-s5:  Add a setp 5 to part 1: this will focus on the Output Particle Quad context
+- p1-s5: Experiment with Blend Modes. i suggest Additive
+- p1-s5: Set the main texture to something like defualt-particle (b/w gradient) or create your own shapes with an alpha mask in another program
+- p1-s5: Make sure there is an Orient: Face Camera Plane
+- p1-s5: Adjust the Set Size Random from Curve node. Clock the curve and adjust the values to achieve a desired look. I suggest linear increase from (0,0) to about (1,0.1). Set a randome seed value or leave it at 0
+- IN general just a note to add via callout: make sure to save your gaph regularly
+
+---
+For the beam section it is a little more complex, but we will make one set of particle and trails, then we will duplicate and reverse some values to getr beams in both directions (up and down)
+- Part 2 - step 1 (p2-s1): Be sure to mention to assign the VFXG in the same potion as the ring, scenter of the portal swirl
+- p2-s1: Also need to be sure to mention uping the Rate in Spawn context to match (250)
+- p2-s1: use the set velocity random (no such thing as upwards and downwards), 0.01 and -0.1 for x and z axis. 0 and 1 for y axis. No need for BeamSpeed (remove)
+- p2-s1:Set lifetime random. use a vector 2 parameter from blackbaord. set x to 5 y to 10. connect to A and B inputs (dropdown in tje paramter node)
+- p2-s1: use a set postion Line not sphere, start y is 0 end y is 1, 0,0 for x and z (no need for BeamRadius) but will need a float aparm for BeamLineEnd, default to 1.
+- p2-s1:Set color by speed (like from the previous Particle Ring) but the color values of the gradient parameter "BeamColor" need to be reversed (darker on left brighter on right). The alpha values for the color also needs to gradually increas form 0% (left ) to 100% (right)
+- p2-s2: Change the step 2 to be about the Update Particle context
+- p2-s2: create a GPU Event Triugger Event Alays wit a 250 count (will be used later)
+- p2-s2: create another gpu event Trigger event Rate (Over Time). set Rate to 250 (will be used later)
+- p2-s3: make a new part 3, this is where will will work on duplicating and connecting the logic for the particle networks.
+- p2-s3: delete the Output Particle Quad, it is not needed at all
+- p2-s3: Dupliacte the particle contexts (drag selcet > right-click > duplicate)
+- p2-s3: Delete the Trigger Event Always fromt he duplicate particle network, it is not needed (only the Trigger Event Rate is needed)
+- p2-s3: Connect the Trigger Event Always form the first netowork to a new GPU Event context block (create a new node in the empty space and select GPU Event). connect this new event to the Initilaize particle of the duplicate network.
+- p2-s3: Lets connect the paramters now. Start with BeamLifetimeMinMax, this connects to the same inputs on the duplicate. 
+- p2-s3: The BeamLineEnd needs to connect to a multiply node (by -1) then connect it to the Shape:Line End (Y) of the duplicate
+- p2-s3: BeamColor connects to teh same input on the duplicate
+- p2-s3:  Now, crate a new node in empty space and search for Heads and Trails. Drop this down. It is a sample/example of how to do head asn trails,we wil luse the Trails section of this. So delete the Heads Network section, keep the Trail Bodies network.
+- p2-s3: Connect the Trigger event rate from the first network to the GPU Event of the Trail Bodies.
+- p2-s3: Delete the Set LifeTime and add an Inherit Source Lifetime (set) block
+- p2-s3: Delete the Turbulance from the Update Particle Strip context
+- p2-s3: In the Outpur ParticleStrip Quad context chnage the Blend Mode to Additive
+- p2-s3: Replace teh Set Size over Life with a Set Size Random (Uniform). Create a BeamSize vector 2 parameter in the bloackboard, x is 0.01 y is 0.05
+- Duplicate the Trail Bodies network (grag selct > right-slick> duplicate) and connect the second particle network's Trigger Event Rate yo the GPU event of the Duplicate.
+- Now there should be two beams shooting upwards and downward from the center of the portal. No need to worry about animating any exposed values (unless you want to) we will work on tha next week. So you should now have some particles around the portal and beams shooting form it together. Dont wory this will make more sense wehen we animate the vlaeus based on the portal shader animation from last module. for bnow you will havea pretty busy looking scne VFX-wise.
+- 
