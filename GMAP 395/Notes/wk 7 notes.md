@@ -1,0 +1,15 @@
+- part 1 - step 1: NO updating VFX, use already exposed parameters from week 6 tutorial.
+	- PortalRingRadius
+	- RingRotationSpeed
+	- PortalRingColor (just the intensity values will be animated)
+- part 1 - step 2: Create a NEW script that will have a similar structure and function to the PortalShaderController.cs from week 6.
+	- Name this script PortalEffectsController.cs
+	- We will need DG.Tweening for DOTween
+	- We will need UnityEngine.VFX
+	- Reference the VFX Graph
+	- Animate with DOTWEEN PortalRingRadius (1.0 > 1.35 >  0.0)
+		- Disable effect when it reaches 0.0 in this property
+	- Animate with dotween RingrotationSpeed (0.25 > 5.0)
+	- Animate with dotween PrtalRingColor (gradient) intensity values. All values from (current number > current number + 5)
+- part 1 - step 2: Attach this script to an empty game object VFX Controller
+- 

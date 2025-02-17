@@ -162,3 +162,111 @@ One common **shader optimization technique** is to reduce the number of **expens
 ##### **Question 10 (True/False)**
 
 **False** – Shaders can be applied to **both static and dynamic** objects, influencing animations, physics-based effects, and real-time interactions.
+
+### Quiz: Real-Time Shader and Visual Effects Development
+
+#### **Week 5 (Shader Graph & Visual Shader Development) – 5 Questions**
+
+##### **1. True/False**
+
+**Question:** Shader Graph requires the use of Unity’s Scriptable Render Pipeline (SRP).  
+**Answer:** **True**
+
+##### **2. Multiple Choice**
+
+**Question:** What is the function of the Blackboard in Shader Graph?  
+A) Stores temporary shader calculations  
+B) Defines and exposes parameters  
+C) Displays real-time shader previews  
+D) Handles color adjustments dynamically  
+**Answer:** **B) Defines and exposes parameters**
+
+##### **3. Short Answer**
+
+**Question:** Name two common types of noise used for procedural patterns in Shader Graph.  
+**Answer:** **Perlin Noise, Voronoi Noise**
+
+##### **4. Multiple Choice**
+
+**Question:** Which of the following is NOT a core function of a fragment shader?  
+A) Calculating the final pixel color  
+B) Manipulating UV coordinates  
+C) Transforming vertex positions  
+D) Executing texture mapping  
+**Answer:** **C) Transforming vertex positions**
+
+##### **5. True/False**
+
+**Question:** Normal maps modify geometry in a shader to create actual depth.  
+**Answer:** **False** (Normal maps only simulate depth using lighting effects.)
+
+
+#### **Week 6 (Real-Time VFX in Games) – 10 Questions**
+
+##### **6. True/False**
+
+**Question:** Real-time VFX in games are pre-rendered effects that do not interact with game mechanics.  
+**Answer:** **False**
+
+##### **7. Multiple Choice**
+
+**Question:** Which of the following is NOT a common use case for real-time VFX?  
+A) Explosions  
+B) UI enhancements  
+C) Magic spells  
+D) Texture baking  
+**Answer:** **D) Texture baking**
+
+##### **8. Short Answer**
+
+**Question:** What are two ways that real-time VFX improve the player experience?  
+**Answer:** **Enhance visual feedback, reinforce game mechanics**
+
+##### **9. Multiple Choice**
+
+**Question:** What does the "Juiciness" step in game feel refer to?  
+A) The immediate response to player input  
+B) The addition of visually satisfying effects  
+C) The game's core rule structure  
+D) The use of ambient audio for atmosphere  
+**Answer:** **B) The addition of visually satisfying effects**
+
+##### **10. True/False**
+
+**Question:** The Unity Particle System is GPU-based and allows for highly complex particle simulations.  
+**Answer:** **False** (The Unity Particle System is CPU-based, whereas VFX Graph is GPU-based.)
+
+##### **11. Short Answer**
+
+**Question:** What is the key advantage of VFX Graph over Unity's traditional Particle System?  
+**Answer:** **VFX Graph is GPU-accelerated and can handle millions of particles efficiently.**
+
+##### **12. Multiple Choice**
+
+**Question:** What is the main function of the Emission Module in Unity’s Particle System?  
+A) Determines particle movement over time  
+B) Controls the rate and method of particle spawning  
+C) Sets the initial particle color  
+D) Defines the physical shape of emitted particles  
+**Answer:** **B) Controls the rate and method of particle spawning**
+
+##### **13. Short Answer**
+
+**Question:** What is the purpose of modularity in VFX design?  
+**Answer:** **It allows for the reuse of VFX components to improve consistency, iteration speed, and performance.**
+
+##### **14. Multiple Choice**
+
+**Question:** Which of these VFX techniques is best for creating natural, organic movement?  
+A) Keyframe animation  
+B) Noise-based movement  
+C) Rigid body physics  
+D) Static sprites  
+**Answer:** **B) Noise-based movement**
+
+##### **15. True/False**
+
+**Question:** Performance considerations for real-time VFX include optimizing particle count, texture size, and reducing overdraw.  
+**Answer:** **True**
+
+

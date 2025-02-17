@@ -6,94 +6,47 @@
       {
         "id": "8f940a31b1f279e1",
         "type": "tabs",
-        "dimension": 65.3558052434457,
         "children": [
           {
-            "id": "69b13807b44e828a",
+            "id": "08b33ea867f809ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 3/GMAP 395 - WK 6 - Slides + Video.md",
+                "file": "GMAP 395/Module 3/GMAP 395 - WK 7 - Slides + Video.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - WK 6 - Slides + Video"
+              "title": "GMAP 395 - WK 7 - Slides + Video"
             }
           },
           {
-            "id": "8b1efef5a8c2a0c6",
+            "id": "8b7761526bb9259d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 3/GMAP 395 - WK 6 - Tutorial.md",
+                "file": "GMAP 395/Module 3/GMAP 395 - WK 7 - In-Class Lab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - WK 6 - Tutorial"
+              "title": "GMAP 395 - WK 7 - In-Class Lab"
             }
           },
           {
-            "id": "5218648d5d651ef9",
+            "id": "159b23ffafbdd36e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 3/GMAP 395 - WK 6 - In-Class Lab.md",
+                "file": "GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - WK 6 - In-Class Lab"
-            }
-          },
-          {
-            "id": "6b8ea166fa891451",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/Module 3/GMAP 395 - ASN 3 - Brief.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - ASN 3 - Brief"
-            }
-          },
-          {
-            "id": "d243d16865be1c03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/Module 3/GMAP 395 - Module 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - Module 3"
-            }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "10ec0e55f3c5d31c",
-        "type": "tabs",
-        "dimension": 34.644194756554306,
-        "children": [
-          {
-            "id": "72618adc884d9418",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
+              "title": "GMAP 395 - WK 7 - Tutorial"
             }
           }
         ]
@@ -150,7 +103,7 @@
             }
           },
           {
-            "id": "22adbfd2ff37e85a",
+            "id": "182b23c8055a769c",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -164,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 399.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -271,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 444.5
+    "width": 388.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -297,31 +250,16 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "d243d16865be1c03",
+  "active": "08b33ea867f809ff",
   "lastOpenFiles": [
-    "GMAP 395/Module 3/GMAP 395 - WK 6 - Slides + Video.md",
-    "docs/lib/media/gamefeelcover.webp",
     "Index.md",
-    "docs/gmap-395/module-3/media/vfxingamestypes.webp",
-    "docs/gmap-395/module-3/media/volibear.jpg",
-    "docs/gmap-395/module-3/media/portalvfxsplash.png",
-    "docs/gmap-395/module-3/media/vfx_styleguide_final_public_hidpjqwx7lqyx0pjj3ss.pdf",
-    "docs/gmap-395/module-3/media/vfxingamessplash.png",
-    "docs/gmap-395/module-3/media/vfxg1.png",
-    "docs/gmap-395/module-3/media/vfxg1.avif",
-    "docs/gmap-395/module-3/media/unityparticlesystsem.png",
-    "docs/gmap-395/module-3/media/media.html",
-    "docs/gmap-395/module-3/media/gmap-395-su24-in-class-lab-intro-to-particles-+-vfx.pdf",
-    "docs/gmap-395/module-3/gmap-395-wk-6-in-class-lab.html",
-    "docs/gmap-395/module-3/media",
-    "docs/gmap-395/module-3/gmap-395-module-3.html",
-    "docs/gmap-395/module-3/gmap-395-wk-6-tutorial.html",
-    "docs/gmap-395/module-3/gmap-395-wk-6-slides-+-video.html",
-    "docs/gmap-395/module-3/gmap-395-asn-3-brief.html",
-    "docs/gmap-395/module-3",
     "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
+    "GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md",
+    "GMAP 395/Module 3/GMAP 395 - WK 7 - Slides + Video.md",
+    "GMAP 395/Module 3/GMAP 395 - WK 7 - In-Class Lab.md",
     "GMAP 395/Module 3/GMAP 395 - WK 6 - Tutorial.md",
+    "GMAP 395/Module 3/GMAP 395 - WK 6 - Slides + Video.md",
     "GMAP 395/Module 3/GMAP 395 - WK 6 - In-Class Lab.md",
     "GMAP 395/Module 3/GMAP 395 - Module 3.md",
     "GMAP 395/Module 3/media/media.md",
@@ -340,9 +278,25 @@
     "GMAP 395/Module 1/Media/Media.md",
     "GMAP 395/Introduction/GMAP395-DAGsNodes.excalidraw.md",
     "GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md",
-    "GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md",
-    "GMAP 395/Module 3/GMAP 395 - ASN 3 - Brief.md",
-    "GMAP 395/Module 3/media/vfxg1.png",
-    "GMAP 395/Module 3/media/vfxg1.avif"
+    "docs/gmap-395/module-3/gmap-395-wk-7-tutorial.html",
+    "docs/gmap-395/module-3/gmap-395-wk-7-slides-+-video.html",
+    "docs/gmap-395/module-3/gmap-395-wk-7-in-class-lab.html",
+    "docs/gmap-395/module-3/media/vfxgsplash.png",
+    "docs/gmap-395/module-3/media/vfxgraph_3-5_complexnetwork.png",
+    "docs/gmap-395/module-3/media/portalbeamvfx.png",
+    "docs/gmap-395/module-3/media/perlin-noise-terrain-mesh1.png",
+    "docs/gmap-395/module-3/media/pasted-image-20240729215838.png",
+    "docs/gmap-395/module-3/media/lab_vx2_fullsubg.png",
+    "docs/gmap-395/module-3/media/lab_vfx2_updateinit.png",
+    "docs/gmap-395/module-3/media/lab_vfx2_samplebez.png",
+    "docs/gmap-395/module-3/media/lab_vfx2_propbinders.png",
+    "docs/gmap-395/module-3/media/lab_vfx2_possetup.png",
+    "docs/gmap-395/module-3/media/desktop.ini",
+    "docs/gmap-395/module-3/media/vfx_styleguide_final_public_hidpjqwx7lqyx0pjj3ss.pdf",
+    "docs/gmap-395/module-3/media/media.html",
+    "docs/gmap-395/module-3/media/gmap-395-su24-in-class-lab-intro-to-particles-+-vfx.pdf",
+    "docs/gmap-395/module-3/gmap-395-wk-6-in-class-lab.html",
+    "docs/gmap-395/module-3/media",
+    "docs/gmap-395/module-3/gmap-395-module-3.html"
   ]
 }

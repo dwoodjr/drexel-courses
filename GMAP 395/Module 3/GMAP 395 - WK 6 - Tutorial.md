@@ -172,3 +172,4 @@ To create trailing effects, we will use Unity's built-in `Example Heads and Trai
 
 ---
 ---
+>[!info]  [[GMAP 395 - Module 3| Return to the Module Page]]

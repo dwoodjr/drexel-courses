@@ -91,8 +91,6 @@ height: 1080
 
 ---
 
----
-
 ### Unity Particle System Overview
 
 - Built-in VFX tool with CPU-based simulation.

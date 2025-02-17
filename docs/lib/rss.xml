@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 10 Feb 2025 16:50:03 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 10 Feb 2025 16:49:44 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 17 Feb 2025 21:08:09 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 17 Feb 2025 21:07:43 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Video</a><br><br><br>
 <br>The relationship between games, design, and play.
@@ -3414,7 +3414,7 @@ Check out <a data-tooltip-position="top" aria-label="https://learn.unity.com/pro
 <br>Breakdown of stylized VFX in League of Legends.
 <br>Use of lighting, particles, and shaders to enhance character identity.
 <br>Blog: <a data-tooltip-position="top" aria-label="https://leagueoflegends.com/en-us/news/dev/dev-a-storm-is-brewing/" rel="noopener nofollow" class="external-link" href="https://leagueoflegends.com/en-us/news/dev/dev-a-storm-is-brewing/" target="_blank">A Storm is Brewing</a>
-<br><img alt="volibear.jpg" src="gmap-395\module-3\media\volibear.jpg" style="width: 720px; max-width: 100%;"><br><br><br><br>
+<br><img alt="volibear.jpg" src="gmap-395\module-3\media\volibear.jpg" style="width: 720px; max-width: 100%;"><br><br><br>
 <br>Built-in VFX tool with CPU-based simulation.
 <br>Efficient for many effects, but has limitations for complex scenes.
 <br>Trusted by developers, used for particles like:
@@ -3534,7 +3534,7 @@ Example: League of Legends' VFX style guide ensures every champion’s effects a
 <br><br><br>
 <br>Implement a basic real-time VFX system in Unity.
 <br>Focus on timing, response, and feedback.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-6-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 6 - Slides + Video.md</guid><pubDate>Mon, 10 Feb 2025 16:32:05 GMT</pubDate><enclosure url="gmap-395\module-3\media\vfxingamestypes.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\vfxingamestypes.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Enhancing the Eldritch Portal with VFX]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-6-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 6 - Slides + Video.md</guid><pubDate>Mon, 17 Feb 2025 17:08:08 GMT</pubDate><enclosure url="gmap-395\module-3\media\vfxingamestypes.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\vfxingamestypes.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Enhancing the Eldritch Portal with VFX]]></title><description><![CDATA[ 
  <br><br><br>In this tutorial, we will enhance the Eldritch Portal Shader (from Week 4 &amp; 5) by creating a particle-based anticipatory effect in Unity’s VFX Graph. This effect will foreshadow the portal’s opening using an ever-present particle ring that intensifies and converges before triggering a vertical energy beam just before the portal activates.  This first tutorial will focus ion just setting up the particle systems that will be animated later.<br><img alt="portalVFXSplash.png" src="gmap-395\module-3\media\portalvfxsplash.png"><br><br>✅ Unity 2022.3 with URP and VFX Graph Installed<br>
 Ensure Visual Effect Graph is installed and updated via Unity Package Manager.<br>
 Go to the Unity Registry tab and search for "Visual Effect Graph"<br>
@@ -3713,7 +3713,730 @@ You will likely need to follow this written tutorial AND watch the companion vid
 <br>Connect the Second Beam’s Trigger Event Rate to the GPU Event of the duplicate.
 <br><br><br>✅ Two beams should now be shooting both upwards and downwards from the portal’s center.<br>
 ✅ No need to animate exposed values yet; we’ll handle this next week.<br>
-✅ You should now have a visually busy portal effect with swirling particles and beams.<br><br>]]></description><link>gmap-395\module-3\gmap-395-wk-6-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 6 - Tutorial.md</guid><pubDate>Mon, 10 Feb 2025 15:01:05 GMT</pubDate><enclosure url="gmap-395\module-3\media\portalvfxsplash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\portalvfxsplash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[🕹️ <strong>*GMAP 395: Final Project Guide</strong>]]></title><description><![CDATA[ 
+✅ You should now have a visually busy portal effect with swirling particles and beams.<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-6-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 6 - Tutorial.md</guid><pubDate>Wed, 12 Feb 2025 17:07:10 GMT</pubDate><enclosure url="gmap-395\module-3\media\portalvfxsplash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\portalvfxsplash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 7 - In-Class Lab]]></title><description><![CDATA[ 
+ <br><br><br>Create a modular, procedural beam/stream effect that follows a path(spline), and collides with surfaces.<br><br>
+<br>Create a new VFX Graph:
+
+<br>Right-click in the Project window
+<br>Select Create &gt; Visual Effects &gt; Visual Effect Graph
+<br>Name it BeamEffect
+
+
+<br>Set up the basic structure:
+
+<br>Add a Spawn context
+<br>Add an Initialize Particle context
+<br>Add an Update Particle context
+<br>Add an Output Particle Quad context
+
+
+<br>In the Spawn context:<br>
+- Set the spawn rate to Constant with a value of 5000
+Spawn Rate/Count  
+A high spawn rate creates a dense, continuous stream effect.
+
+
+<br>In the Initialize Particle context:
+
+<br>Delete all default nodes except Capacity
+<br>Add a Set Position block
+<br>Add a Set Velocity Random form Curve block<br>
+<img alt="lab_vfx2_init.png" src="gmap-395\module-3\media\lab_vfx2_init.png">
+
+
+<br>In the Update Particle context:
+
+<br>Add a Set Lifetime node
+
+<br>Set the lifetime to a value of 5 seconds (adjustable based on desired effect duration)
+
+
+<br>Add a Set Size over Lifetime node
+
+<br>Create a size curve that stays consistent over the particle lifetime<br>
+<img alt="Pasted image 20240729215838.png" src="gmap-395\module-3\media\pasted-image-20240729215838.png">
+
+
+
+
+<br>In the Output Particle Quad context:
+
+<br>Set the particle rendering to Quad (which it should be by default)
+<br>Set the Blend Mode to Addative
+<br>Assign a gradient to the Set Color over Life block
+
+
+<br>Blend Mode  
+Ensure the Blend Mode set to an Additive shader to create a glowing beam effect with Post Processing.
+<br><br>
+<br>
+Create a Block Sub-graph for Path Following:
+
+<br>Right-click in the Project window
+<br>Select Create &gt; Visual Effects &gt; Visual Effect Sub-graph Block
+<br>Name it PathFollow
+
+
+<br>Sub-graphs  
+Sub-graphs allow you to create reusable components for your VFX, making your graph more modular and easier to manage.
+<br>
+<br>In the Block Sub-graph:
+
+<br>Set the Suitable Contexts to Update
+<br>Add a Set Position node/block
+<br>Outside of the Bock Subgraph: 
+
+<br>Create a Sample Bezier node
+<br>Create am Age Over Lifetime node and connect it to the T input of the Sample Bezier
+<br>Create a Get Attribute: Particle ID node
+<br>Create an Add node and add the Position output of the Sample Bezier with the Particle ID output of the Get Attribute nodes
+<br>Create a Perlin Curl Noise 3D node and plug the output of the Add node to the Coordinate input
+<br>Create a Multiply node and plug the Noise output to the A input
+<br>Create another Add node add the Multiply output with the Position output of the Sample Bezier 
+<br>Plug the Add output into the Position input of the Block Subgraph Set Position block
+<br><img alt="lab_vfx2_baseSubgraph.png" src="gmap-395\module-3\media\lab_vfx2_basesubgraph.png">
+
+
+
+
+<br>Expose parameters in the Block Sub-graph:
+
+<br>Add Positon (x4) parameters for the path and name them 1 - 4
+
+<br>Plug these position parameters into the A - D inputs of the Sample Bezier
+<br><img alt="lab_vfx2_sampleBez.png" src="gmap-395\module-3\media\lab_vfx2_samplebez.png">
+
+
+<br>Add a Float parameter named Spread and default to 0.25
+
+<br>Plug the Spread parameter into the B input of the Multiply node
+<br><img alt="lab_vfx2_multiplySubg.png" src="gmap-395\module-3\media\lab_vfx2_multiplysubg.png">
+
+
+<br>Save you VFX Subgraph<br>
+<img alt="lab_vx2_fullSubg.png" src="gmap-395\module-3\media\lab_vx2_fullsubg.png">
+
+
+<br>In your main VFX Graph, add your new Block Sub-graph node to the Update Particle context:
+
+<br>You will need to create new exposed parameters for the Spread - Float and 1-4 - Position parameters in the main graph Blackboard.
+<br>When this is done go into the Unity Editor and put your VFXG in the scene (if not done so already)
+<br>In the Unity Hierarchy add 4 empty game objects and name them p1-p4 to represent the transform position of the spline
+
+<br><img alt="lab_vfx2_posSetup.png" src="gmap-395\module-3\media\lab_vfx2_possetup.png">
+
+
+<br>In the Inspector, on your VFXG game object add a VFX Property Binder component
+<br>Add (x4) Position properties to the Property Bindings section
+
+<br>+ &gt; Transform &gt; Position (x4)
+<br>Click on one the top property binding set the Target to p1 and set the Property name to 1_position
+
+<br>Repeat this step for the remaining 3 properties, making sure the Property name is #_position<br>
+<img alt="lab_vfx2_propBinders.png" src="gmap-395\module-3\media\lab_vfx2_propbinders.png">
+
+
+
+
+
+
+<br>Naming Convention
+In the property binder the Property name should be the name of the property from the main graph Blackboard followed by an underscore and property type PropertyName_TypeOfBinder. So in this case it is #_position
+<br>Modular Approach  
+This modular approach allows you to easily change the path of the beam, enabling dynamic and flexible visual effects.
+<br>
+<br>In the main VFX Graph your Path Follow node should have the 1-4 Position Properties and the Spread property plugged in to their respective inputs<br>
+<img alt="lab_vfx2_followPath.png" src="gmap-395\module-3\media\lab_vfx2_followpath.png">
+<br><br>
+<br>In the Update Particle context, add a Turbulence node:
+
+<br>Connect it to various exposed properties to control later in C# (if desired)
+
+
+<br>In the Update Particle context, add a Collision node:<br>
+- There are a few collision types so pick one like Collide with Sphere<br>
+- Set the Transform&gt;Position of block/node to the end of the spline (the 4 position property)<br>
+<img alt="lab_vfx2_4Pos.png" src="gmap-395\module-3\media\lab_vfx2_4pos.png">
+<br><br>
+<br>Create a GPU Event (On Die)<br>
+1. In the new Initialize Particle context section:<br>
+1. Set Lifetime Random using desired values<br>
+2. Set Velocity Random sing desired values<br>
+3. Create a Set Position (Mesh) block<br>
+1. Set the position to the last position (4) of the spline using the 4 position property as the input for Transform&gt;Position input
+First VFX Lab
+This is very similar in style to the GPU Event form the first VFX Graph Lab
+
+
+<br>In the Blackboard:
+
+<br>Create an exposed Mesh property called Spawn Mesh
+
+<br>Plug this property into the Mesh input of the Set Position (Mesh) block
+
+
+<br>Create a Vector 3 Called Mesh Scale
+
+<br>Plug this into the Transform&gt;Scale input of the Set Position (Mesh) block<img alt="lab_vfx2_gpuInit.png" src="gmap-395\module-3\media\lab_vfx2_gpuinit.png">
+
+
+
+
+<br>In the Update Particle context:
+
+<br>Add nodes to create a desired On Die particle effect
+<br>For example:
+
+<br>Add Set Size Random
+<br>Add Turbulence
+<br>Add Gravity
+
+
+
+<img alt="lab_vfx2_gpuUpdate.png" src="gmap-395\module-3\media\lab_vfx2_gpuupdate.png">
+<br>In the Output Particle Quad context:
+<br>
+<br>Add a Set Color over Life block and use a gradient, like before<br>
+<img alt="lab_vfx2_gpuOut.png" src="gmap-395\module-3\media\lab_vfx2_gpuout.png">
+<br>
+<br>In your main beam VFX Graph, add a Trigger Event node:<br>
+- Trigger this event on particle death Trigger Event on Die<br>
+- Use this event to spawn your impact effect for the VFX Graph<br>
+<img alt="lab_vfx2_gpuTrigger 2.png" src="gmap-395\module-3\media\lab_vfx2_gputrigger-2.png">
+Note
+Combining multiple VFX Graphs/Subgraphs/GPU Events allows for more complex, layered effects.
+
+
+
+<br><br><br>
+<br>Make the beam reactive to player input, allowing real-time control of the path. (C# Scripting)
+<br>Implement a more complex impact response, like surface scorching or deformation. (Shader on Mesh)
+<br>Use ta shader to create a more complex procedural animation for the beam particles.
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - In-Class Lab.md</guid><pubDate>Mon, 17 Feb 2025 20:09:03 GMT</pubDate><enclosure url="gmap-395\module-3\media\lab_vfx2_init.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\lab_vfx2_init.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 7 - Slides + Video]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br>
+<br>What are real-time VFX?
+<br>Why are they crucial for game development?
+<br>How do they integrate into modern game engines?
+<br>Where do shaders fit in?
+<br><br><br><br>
+<br>Enhancing Game Feel: Player immersion through visual impact
+<br>Providing Visual Feedback: Representing gameplay mechanics
+<br>Creating Atmosphere: Setting the mood and tone of a game world
+<br>Guiding Player Attention: Directing the eye using motion and color
+<br><br><br><br>
+<br>What is VFX Graph?
+
+<br>A GPU-powered, node-based tool for creating real-time VFX
+
+
+<br>Why use VFX Graph instead of a traditional particle system?
+
+<br>Performance: Uses GPU acceleration
+<br>Flexibility: Can handle complex simulations
+<br>Scalability: Works with procedural effects
+
+
+<br><a data-tooltip-position="top" aria-label="https://unity.com/features/visual-effect-graph" rel="noopener nofollow" class="external-link" href="https://unity.com/features/visual-effect-graph" target="_blank">VFX Graph</a><br><img alt="vfxgSplash.png" src="gmap-395\module-3\media\vfxgsplash.png" style="width: 720px; max-width: 100%;"><br><br><br>
+<br>Initialize, Update, and Output Stages
+
+<br>Each stage controls different aspects of an effect
+
+
+<br>Using Contexts to Structure Effects
+
+<br>Emit, spawn, evolve, and output visual data
+
+
+<br>Key Properties and Attributes
+
+<br>Controlling speed, lifespan, and rendering of particles
+
+
+<br><img alt="VFXGraph_3-5_ComplexNetwork.png" src="gmap-395\module-3\media\vfxgraph_3-5_complexnetwork.png" style="width: 720px; max-width: 100%;"><br><br><br>
+<br>Definition: Designing reusable, interchangeable VFX components
+<br>Why Modular?
+
+<br>Consistency: Keeps effects visually unified
+<br>Efficiency: Reduces redundant work
+<br>Flexibility: Enables rapid iteration and customization
+
+
+<br><br><br>
+<br>Sub-graphs: Reusable VFX components
+<br>Prefab Systems: Assigning VFX to game assets dynamically
+<br>Scriptable Objects: Storing reusable effect parameters
+<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=DRi2bRDB-x0" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=DRi2bRDB-x0" target="_blank">Proceduralism as a catalyst for creativity feat. Julie Lottering from SideFX</a><br>
+<a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=lb4yVPeWuwY" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=lb4yVPeWuwY" target="_blank">Proceduralism for Games? Short answer is YES. | Christos Stavridis | GDC HIVE 2023</a><br><br><br>
+<br>Definition: Using algorithms to generate VFX dynamically
+<br>Applications in Games:
+
+<br>Particle behavior (e.g., wind-driven dust, randomized explosions)
+<br>Procedural shape generation (e.g., smoke, fire)
+<br>Color schemes that evolve over time
+
+
+<br><a data-tooltip-position="top" aria-label="https://www.autodesk.com/solutions/procedural-generation" rel="noopener nofollow" class="external-link" href="https://www.autodesk.com/solutions/procedural-generation" target="_blank">Procedural generation: Creating infinite algorithmic realities</a><br><br><br><br>
+<br>Noise in Motion:
+
+<br>Integrating Perlin noise for fluid, organic movement
+
+
+<br>Shaping Effects with Noise:
+
+<br>Creating naturalistic smoke, fire, and energy patterns
+
+
+<br><a data-tooltip-position="top" aria-label="https://adrianb.io/2014/08/09/perlinnoise.html" rel="noopener nofollow" class="external-link" href="https://adrianb.io/2014/08/09/perlinnoise.html" target="_blank">Understanding Perlin Noise</a><br>
+[Perlin Noise: A Procedural Generation Algorithm](# Perlin Noise: A Procedural Generation Algorithm)<br><img alt="perlin-noise-terrain-mesh1.png" src="gmap-395\module-3\media\perlin-noise-terrain-mesh1.png" style="width: 720px; max-width: 100%;"><br><br><br>
+<br>What is Mesh Emission?
+
+<br>Using 3D models as particle emitters instead of simple point sources
+
+
+<br>Why Use Meshes?
+
+<br>Enables complex particle behaviors
+<br>Aligns particles with character movements
+<br>Creates detailed environmental effects
+
+
+<br><br><br>
+<br>Import a mesh asset
+<br>Set it as the emitter in the VFX Graph
+<br>Control particle emission based on mesh attributes
+<br>Adjust parameters for density and speed
+<br><br><br><br>
+<br>What are Decals?
+
+<br>2D images projected onto 3D surfaces
+
+
+<br>Use Cases:
+
+<br>Blood splatters, bullet holes, footprints
+<br>Magic circles, surface-based energy effects
+
+
+<br>Performance Benefits:
+
+<br>Add detail without modifying geometry
+<br>Can be animated dynamically in VFX Graph
+
+
+<br>
+[URP Decals in Unity](https://www.youtube.com/watch?v=zSMjTK8d7GQ)<br><br><br>
+<br>Animating Decals: Simulating movement on surfaces
+<br>Reactive Decals: Creating effects like scorch marks that fade over time
+<br>Optimizing Performance: Using GPU-friendly decal projection
+<br><br><br>
+<br>Why Interaction Matters in VFX
+
+<br>Makes environments feel alive and reactive
+<br>Enhances player feedback in gameplay
+
+
+<br>Examples of Interactive VFX
+
+<br>Splashes in water when a character lands
+<br>Dust kicking up as a player runs
+<br>Particles colliding with objects (rain hitting surfaces)
+
+
+<br><img alt="Block-CollideWithDepthBufferMain.png" src="gmap-395\module-3\media\block-collidewithdepthbuffermain.png"><br><br><br>
+<br>Activate collision detection in VFX Graph
+<br>Define collision surfaces (plane, sphere, or mesh)
+<br>Apply force or change particle behavior upon impact
+<br><br><br>
+<br>Why Use Shaders in VFX?
+
+<br>Shaders modify particle visuals dynamically
+<br>Add advanced effects like refraction, emissive glow, and distortion
+
+
+<br>How It Works:
+
+<br>Use Shader Graph as an output material in VFX Graph
+<br>Modify shader parameters in real-time based on particle properties
+
+
+<br><br><br>
+<br>Examples of Shader-Controlled VFX
+
+<br>Heat distortions for explosions
+<br>Energy-based auras that pulse dynamically
+<br>Water ripples that react to collisions
+
+
+<br>Using Shader Graph to Adjust Particle Appearance
+
+<br>Connect VFX Graph outputs to shader inputs
+<br>Modify properties like opacity, glow, and texture movement
+
+
+<br><br><br>
+<br>Example Workflow:
+
+<br>Create a VFX Graph system for an explosion
+<br>Apply Shader Graph to control particle visuals
+<br>Use real-time parameters (e.g., intensity, color) to adjust shader properties
+
+
+<br>Benefit: More integrated, seamless visual effects
+<br><br><br>
+<br>Modifying Shader Properties via Gameplay
+
+<br>Connecting game events to VFX shader parameters
+<br>Examples:
+
+<br>Fire effect that intensifies when a player is near
+<br>Magic aura that fades when a spell ends
+
+
+
+
+<br><br><br>
+<br>Expose shader parameters to Unity’s inspector
+<br>Modify them in real-time using scripts
+<br>Link parameters to gameplay events
+<br>Optimize for performance
+<br><a rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VFX.VisualEffect.html" target="_blank">https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VFX.VisualEffect.html</a><br><br><br>
+<br>Balancing visual fidelity and frame rate
+
+<br>Avoiding overdraw in transparent particle effects
+<br>Reducing unnecessary GPU calculations
+<br>Using GPU instancing for efficient rendering
+
+
+<br><br><br>
+<br>Limit Simultaneous effects: Fewer complex effect splaying at one time
+<br>Reduce Particle Lifetime: Shorter effects reduce CPU/GPU load
+<br>Use "LODs" for Effects: Lower detail for distance effects
+<br><br><br>
+<br>Example:
+
+<br>How Control (Remedy Entertainment) handles interactive lighting &amp; destruction effects
+<br>How Destiny 2 (Bungie) uses shader-driven energy effects to create responsive player abilities
+
+
+<br><br><br>
+<br>AI-Assisted VFX Creation
+<br>Ray-Traced Particle Systems for ultra-realistic lighting
+<br>Procedural VFX Workflows for generative effects in games
+<br>VFX in XR (VR/AR/MR) for immersive real-time experiences
+<br><br><br>
+<br>Modular and procedural workflows enable flexible VFX
+<br>Shaders + VFX Graph create advanced, real-time visual effects
+<br>Performance optimization is crucial for real-time rendering
+<br>Interactive VFX enhances immersion and gameplay feedback
+<br><br><br>
+<br>How do shaders enhance VFX in gameplay?
+<br>What are some real-world examples of modular VFX?
+<br>Where do you see VFX heading in the next five years?
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - Slides + Video.md</guid><pubDate>Mon, 17 Feb 2025 21:07:24 GMT</pubDate><enclosure url="gmap-395\module-3\media\vfxgsplash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\vfxgsplash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - Week 7 Tutorial]]></title><description><![CDATA[ 
+ <br><br><br><br><br>This tutorial refines the timing and sequencing of portal-based visual effects in Unity. Using C# scripting and DOTween, we will:<br>
+<br>Animate the Portal Ring VFX to pulse before the portal opens.
+<br>Trigger the Energy Beam VFX after the portal closes.
+<br>Align these effects with gameplay logic (enhancing game feel).
+<br>By the end, students will understand how sequencing and timing-based VFX create stronger player anticipation and response.<br><img alt="portalBeamVFX.png" src="gmap-395\module-3\media\portalbeamvfx.png"><br><br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_JLePfLQVEQnJr33w?e=dFmT9U" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_JLePfLQVEQnJr33w?e=dFmT9U" target="_blank">gmap395_wk7.mp4</a><br><br><br><br>✅ Unity 2022.3 with URP and VFX Graph Installed<br>
+✅ Completion of Week 5’s "Game-Based Real-Time Shader Control w/ DOTween"<br>
+✅ Completion of Week 6’s "Enhancing the Eldritch Portal with VFX"<br>
+✅ Basic understanding of C# scripting, DOTween, and Unity Events<br>Unity VFX Scripting API
+The scripts from todays class will be using Unity's <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VFX.VisualEffect.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VFX.VisualEffect.html" target="_blank">VFX Scripting API</a> for VFX graph. Particle System has a separate API.
+<br><br><br>
+VFX are not just visuals—they are part of gameplay feedback.<br>
+Players subconsciously react to anticipation and payoff sequences before major in-game events.
+<br>In this case:<br>
+<br>The portal doesn’t just "pop open," it builds anticipation with a pulsing particle ring.
+<br>After the portal closes, the energy beam fires, creating a dramatic "release" effect.
+<br>Why?
+
+<br>Anticipation (Ring) = Builds tension before the event.
+<br>Payoff (Beam) = Reinforces impact and finality after the event.
+
+
+<br>This creates a stronger connection between VFX, game feel, and gameplay metaphor/mechanics.<br><br><br><br>In this section, we will create the PortalEffectsController from scratch.<br>
+This script will control the portal ring effect, animating its exposed VFX properties from Week 6 using DOTween.<br>The Portal Ring Effect serves as an anticipatory visual cue before the portal opens.<br>
+By animating its properties over time, we create a build-up sequence that enhances game feel.<br><br>In Week 6, we created a portal ring effect using Unity's VFX Graph.<br>
+The following exposed properties were created in the VFX Graph Blackboard:<br><br><br>Now, let's create the PortalEffectsController script to control the Portal Ring Effect.<br><br>
+<br>In Unity, go to the Project Window.
+<br>Navigate to the Scripts folder (or create one if needed).
+<br>Right-click &gt; Create &gt; C# Script and name it PortalEffectsController.
+<br>Open the script in Visual Studio or VS Code.
+<br><br>Replace the default code with the following:<br>using UnityEngine;
+using UnityEngine.VFX;
+using DG.Tweening;
+using System.Collections;
+
+public class PortalEffectsController : MonoBehaviour
+{
+    // Reference to the VFX Graph for the ring effect (assign in the Inspector)
+    [SerializeField] private VisualEffect portalVFX;
+
+    /// &lt;summary&gt;
+    /// Plays the portal ring burst effect.
+    /// Animates PortalRingRadius from 1.0 -&gt; 1.35 -&gt; 0.0, then stops the VFX.
+    /// &lt;/summary
+    public IEnumerator PlayPortalEffect()
+    {
+        if (portalVFX == null)
+        {
+            Debug.LogError("Portal VFX reference not set!");
+            yield break;
+        }
+
+        // Set the starting value.
+        portalVFX.SetFloat("PortalRingRadius", 1.0f);
+        // Create a DOTween sequence to animate the ring.
+        Sequence ringSequence = DOTween.Sequence();
+        ringSequence.Append(
+            DOTween.To(
+                () =&gt; portalVFX.GetFloat("PortalRingRadius"),
+                x =&gt; portalVFX.SetFloat("PortalRingRadius", x),
+                1.35f,
+                1f
+            )
+        );
+
+        ringSequence.Append(
+            DOTween.To(
+                () =&gt; portalVFX.GetFloat("PortalRingRadius"),
+                x =&gt; portalVFX.SetFloat("PortalRingRadius", x),
+                0.0f,
+                1f
+            )
+        );
+
+        // When complete, stop the VFX.
+        ringSequence.OnComplete(() =&gt; portalVFX.Stop());
+
+        // Wait until the sequence is finished.
+        yield return ringSequence.WaitForCompletion();
+
+    }
+
+    /// &lt;summary&gt;
+    /// Restarts the portal ring effect (e.g. after the sequence finishes).
+    /// &lt;/summary&gt;
+
+    public void RestartRingEffect()
+    {
+        if (portalVFX != null)
+        {
+            // Reset initial values required for the portal ring effect.
+            portalVFX.SetFloat("PortalRingRadius", 1.0f);
+            // Restart the VFX.
+            portalVFX.Play();
+        }
+    }
+
+}
+<br><br>
+<br>Attach the Script to a GameObject
+
+<br>In Unity, create an empty GameObject in the Hierarchy.
+<br>Rename it "VFX Controller".
+<br>Drag and attach the PortalEffectsController.cs script to this GameObject.
+
+
+<br>Assign the VFX Graph
+
+<br>Select the GameObject.
+<br>In the Inspector, locate the Portal VFX field.
+<br>Drag the Portal Ring VFX Graph from the Hierarchy into this field.
+
+
+<br><br><br><br>In this section, we will implement the PortalBeamEffect script using the provided code.<br>
+This script controls the portal beam effect, which fires after the portal closes as a visual payoff for the event.<br>The Beam Effect enhances game feel, reinforcing the impact of the portal cycle completion.<br>
+By properly sequencing this after the portal closes, we strengthen player response and timing in gameplay.<br><br>The PortalBeamEffect script is set up to start and stop the Energy Beam Effect.<br><br>using UnityEngine;
+using UnityEngine.VFX;
+using System.Collections;
+
+public class PortalBeamEffect : MonoBehaviour
+{
+    // Reference to the beam VFX Graph (assign in the Inspector)
+    public VisualEffect beamVFX;
+    // Duration for which the beam effect remains active.
+    public float beamDuration = 2.0f;
+
+    private void Start()
+    {
+        // Ensure the beam doesn't play automatically on scene start.
+        if (beamVFX != null)
+        {
+            beamVFX.Stop();
+        }
+    }
+
+    /// &lt;summary&gt;
+    /// Plays the beam effect by starting the VFX, waits for the duration, then stops it.
+    /// &lt;/summary&gt;
+    public IEnumerator PlayBeamEffect()
+    {
+        if (beamVFX == null)
+        {
+            Debug.LogError("Beam VFX reference not set!");
+            yield break;
+        }
+        
+        beamVFX.Play();
+        yield return new WaitForSeconds(beamDuration);
+        beamVFX.Stop();
+    }
+}
+<br><br>
+<br>References the Beam VFX Graph (must be assigned in Unity).
+<br>Ensures the beam does NOT play automatically on scene start.
+<br>Provides a coroutine to play the beam, wait, then stop it.
+<br><br>
+<br>Attach the Script to a GameObject
+
+<br>In Unity, in the Hierarchy, locate the GameObject from Part 1.
+<br>Drag and attach the PortalBeamEffect.cs script to this GameObject.
+
+
+<br>Assign the VFX Graph
+
+<br>Select the GameObject.
+<br>In the Inspector, locate the Beam VFX field.
+<br>Drag the Energy Beam VFX Graph from the Hierarchy into this field.
+
+
+<br><br><br><br>In this section, we will recreate the EnemySpawner script from its original version to match the intended tutorial sequence design.  Additionally, we will review and verify the PortalShaderController to ensure it functions correctly within this sequence.<br>The EnemySpawner is responsible for orchestrating the VFX timing, enemy spawning logic, and game feel elements. An argument could be made that the sequencing should be a separate script from enemy spawning logic, but I wanted to keep it a bit simpler for now.<br><br>Before we proceed with EnemySpawner, we need to verify that PortalShaderController is correct for the tutorial.<br><br>using UnityEngine;
+using DG.Tweening; // Import DOTween
+
+public class PortalShaderController : MonoBehaviour
+{
+    public Material portalMaterial;  // Assign the material in the Inspector
+    private static readonly int EdgeWidthProperty = Shader.PropertyToID("_EdgeWidth");
+
+    public float normalWidth = 0.2f;
+    public float alertWidth = 0.6f;
+    public float transitionDuration = 1.0f; // How long the animation takes
+
+    void Start()
+    {
+        if (portalMaterial == null)
+        {
+            Debug.LogError("Portal material not assigned!");
+            return;
+        }
+
+        // Ensure EdgeWidth starts at normal width
+        portalMaterial.SetFloat(EdgeWidthProperty, normalWidth);
+    }
+
+    // Triggered when an enemy is about to spawn
+    public void ActivateAlert()
+    {
+        Debug.Log("Portal activating.");
+        
+        // DOTween smoothly changes EdgeWidth over time
+        portalMaterial.DOFloat(alertWidth, EdgeWidthProperty, transitionDuration)
+            .SetEase(Ease.InOutQuad);
+    }
+
+    // Reset the effect after a delay
+    public void DeactivateAlert()
+    {
+        Debug.Log("Portal deactivating.");
+        
+        // DOTween smoothly returns EdgeWidth to normal
+        portalMaterial.DOFloat(normalWidth, EdgeWidthProperty, transitionDuration)
+            .SetEase(Ease.InOutQuad);
+    }
+}
+<br><br>✔️ Uses DOTween to animate the shader property _EdgeWidth, expanding when activated and resetting when closed.<br>
+✔️ The ActivateAlert() function properly transitions the effect when the portal is "opening."<br>
+✔️ The DeactivateAlert() function ensures it returns to normal after closing.<br>
+✔️ The transitionDuration parameter can be adjusted to fine-tune timing.<br>No modifications should be needed. The PortalShaderController functions correctly for the purposes of our tutorial. It is jus a good habit to check code you will be referencing/interacting with in the editor.<br><br>Now, we will REBUILD the EnemySpawner script from its original version, incorporating the full game feel sequence.<br><br>
+<br>In Unity, go to the Project Window.
+<br>Navigate to the Scripts folder (or create one if needed).
+<br>Right-click &gt; Create &gt; C# Script and name it EnemySpawner (or open the original script if you have one).
+<br>Open the script in your IDE.
+<br><br>Replace the code with the following:<br>using UnityEngine;
+using System.Collections;
+using DG.Tweening;
+
+public class EnemySpawner : MonoBehaviour
+{
+    [Header("Portal Settings")]
+    public PortalEffectsController portalEffects; // Controls the ring effect
+    public PortalShaderController portalShader;   // Controls the shader opening/closing
+    public PortalBeamEffect portalBeamEffect;     // Controls the beam effect
+
+    [Tooltip("Delay after shader opens before spawning the enemy.")]
+    public float enemyInstantiationDelay = 1.0f; 
+
+    [Tooltip("Delay after beam effect stops before restarting the portal ring effect.")]
+    public float ringRestartDelay = 0.5f;
+
+    [Header("Enemy Settings")]
+    public GameObject enemyPrefab;         // Enemy prefab to spawn
+    public Transform releasePoint;         // Target position on the ground
+    public float dropDuration = 3f;        // Duration of the enemy falling
+
+    void Update()
+    {
+        // For testing: trigger the full sequence with the Space key.
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(TriggerFullSequence());
+        }
+    }
+
+    IEnumerator TriggerFullSequence()
+    {
+        Debug.Log("Starting enemy spawn sequence...");
+
+        // --- STEP 1: Portal Ring Effect (Anticipation) ---
+        yield return portalEffects.PlayPortalEffect();
+
+        // --- STEP 2: Portal Shader Opens (Portal Begins to Activate) ---
+        portalShader.ActivateAlert();
+        yield return new WaitForSeconds(portalShader.transitionDuration);
+
+        // --- STEP 3: Enemy Spawning (Gameplay Event) ---
+        yield return new WaitForSeconds(enemyInstantiationDelay);
+        GameObject enemyInstance = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+        enemyInstance.transform.DOMove(releasePoint.position, dropDuration)
+            .SetEase(Ease.Linear)
+            .OnComplete(() =&gt;
+            {
+                // Unparent the enemy so it moves freely in the scene
+                enemyInstance.transform.parent = null;
+            });
+        yield return new WaitForSeconds(dropDuration);
+
+        // --- STEP 4: Portal Shader Closes (Portal Powers Down) ---
+        portalShader.DeactivateAlert();
+        yield return new WaitForSeconds(portalShader.transitionDuration);
+
+        // --- STEP 5: Portal Beam Effect (Powerful Release) ---
+        yield return StartCoroutine(portalBeamEffect.PlayBeamEffect());
+
+        // --- STEP 6: Restart Portal Ring Effect (Loop Back to Idle State) ---
+        yield return new WaitForSeconds(ringRestartDelay);
+        portalEffects.RestartRingEffect();
+
+        Debug.Log("Enemy spawn sequence complete.");
+    }
+}
+<br><br>The updated script ensures proper sequencing and game feel through timing considerations:<br><br><br>✅ Now, the entire sequence works as a fully structured event.<br><br>
+<br>Click Play in Unity.
+<br>Press Space to trigger the full sequence.
+<br>Observe the correct ordering of effects:
+
+<br>Portal Ring pulses
+<br>Portal Shader expands
+<br>Enemy spawns
+<br>Portal Shader closes
+<br>Energy Beam fires
+<br>Portal Ring resets
+
+
+<br>Adjust timing variables in the Inspector to fine-tune the pacing.
+<br><br><br>The tutorial is now complete! 🎉<br>
+The full portal cycle now functions as an engaging game-based metaphor!<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md</guid><pubDate>Mon, 17 Feb 2025 20:15:19 GMT</pubDate><enclosure url="gmap-395\module-3\media\portalbeamvfx.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\portalbeamvfx.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[🕹️ <strong>*GMAP 395: Final Project Guide</strong>]]></title><description><![CDATA[ 
  <br><br><br>Students will create a polished, interactive game art piece by focusing on one module of their choice from the course to do the Additional Requirements for. This final deliverable will showcase their technical and artistic skills while demonstrating mastery of the selected module.<br>Requirements vs Additional Requirements
 The "Requirements" for all four modules are required for all projects. You will choose one module to complete the "Additional Requirement" for to complete the final project.
 <br><br><br>Each module for the final includes main requirements and one additional challenge to practice development, critical-thinking, and creativity.<br><br>
