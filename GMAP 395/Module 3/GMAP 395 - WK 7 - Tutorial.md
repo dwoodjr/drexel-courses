@@ -6,7 +6,7 @@
 
 ## Objective
 
-This tutorial refines the timing and sequencing of portal-based visual effects in Unity. Using C# scripting and DOTween, we will:
+This tutorial refines the timing and sequencing of the portal-based visual effects in Unity. Using C# scripting and DOTween, we will:
 
 1. Animate the Portal Ring VFX to pulse before the portal opens.
 2. Trigger the Energy Beam VFX after the portal closes.
@@ -72,11 +72,16 @@ By animating its properties over time, we create a build-up sequence that enhanc
 In Week 6, we created a portal ring effect using Unity's VFX Graph.  
 The following exposed properties were created in the VFX Graph Blackboard:
 
-| Property Name         | Type  | Description                           |
-| --------------------- | ----- | ------------------------------------- |
-| `PortalRingRadius`    | Float | Controls the size of the ring         |
-| `PortalRotationSpeed` | Float | Controls the brightness/intensity     |
-| `PortalRingColor`     | Float | Controls the visibility of the effect |
+| Property Name         | Type  | Description                         |
+| --------------------- | ----- | ----------------------------------- |
+| `PortalRingRadius`    | Float | Controls the size of the ring       |
+| `PortalRotationSpeed` | Float | Controls the rotation and intensity |
+| `PortalRingColor`     | Float | Controls the color of the effect    |
+
+
+> [!NOTE] Animated Parameter
+> We will primarily focus on animating the *Radius* parameter with DOTween, but the same steps and principle apply for animating other properties.
+
 
 ## Step 2: Create the PortalEffectsController Script
 

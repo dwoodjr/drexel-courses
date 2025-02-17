@@ -9,7 +9,7 @@
 > 2. Use Unity’s **Particle System (Shuriken)** or **VFX Graph** to generate interactive and dynamic visual effects.
 > 3. Ensure the effects align with the class theme: _Something from the Void_.
 > 4. Integrate basic C# scripting to trigger or control the effects dynamically.
-> 5. Present their work as a **Unity scene**, with a **README file** documenting their process and a **recorded video walkthrough**.
+> 5. Present their work with a **README file** documenting their process and a **recorded video walkthrough**.
 
 ---
 

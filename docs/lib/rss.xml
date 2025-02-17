@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 17 Feb 2025 21:08:09 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 17 Feb 2025 21:07:43 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 17 Feb 2025 23:10:08 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 17 Feb 2025 23:09:46 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Video</a><br><br><br>
 <br>The relationship between games, design, and play.
@@ -3215,7 +3215,7 @@ In this assignment, students will:
 <br>Use Unity’s Particle System (Shuriken) or VFX Graph to generate interactive and dynamic visual effects.
 <br>Ensure the effects align with the class theme: Something from the Void.
 <br>Integrate basic C# scripting to trigger or control the effects dynamically.
-<br>Present their work as a Unity scene, with a README file documenting their process and a recorded video walkthrough.
+<br>Present their work with a README file documenting their process and a recorded video walkthrough.
 
 <br><br><br>Assignment Breakdown
 
@@ -3322,7 +3322,7 @@ The theme Something from the Void should guide the design of your effects. Consi
 <br>File Naming: abc123_Lastname_Firstname_A3.zip.
 <br>Late Policy: 10% penalty per day.
 
-<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-asn-3-brief.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - ASN 3 - Brief.md</guid><pubDate>Mon, 10 Feb 2025 16:45:47 GMT</pubDate></item><item><title><![CDATA[Module 3 - Effects and Particle Systems]]></title><description><![CDATA[ 
+<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-asn-3-brief.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - ASN 3 - Brief.md</guid><pubDate>Mon, 17 Feb 2025 23:04:12 GMT</pubDate></item><item><title><![CDATA[Module 3 - Effects and Particle Systems]]></title><description><![CDATA[ 
  <br><br><br>This module focuses on particle systems and their role in game art and interactive experiences. Students will explore procedural and modular approaches to designing particle effects, learning how to implement them effectively within a game engine.<br><br><a data-href="GMAP 395 - ASN 3 - Brief" href="gmap-395\module-3\gmap-395-asn-3-brief.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - ASN 3 - Brief</a><br>
 <a data-href="GMAP 395 - WK 6 - Slides + Video" href="gmap-395\module-3\gmap-395-wk-6-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 6 - Slides + Video</a><br>
 <a data-href="GMAP 395 - WK 6 - Tutorial" href="gmap-395\module-3\gmap-395-wk-6-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 6 - Tutorial</a><br>
@@ -4133,7 +4133,7 @@ Combining multiple VFX Graphs/Subgraphs/GPU Events allows for more complex, laye
 <br>What are some real-world examples of modular VFX?
 <br>Where do you see VFX heading in the next five years?
 <br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - Slides + Video.md</guid><pubDate>Mon, 17 Feb 2025 21:07:24 GMT</pubDate><enclosure url="gmap-395\module-3\media\vfxgsplash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\vfxgsplash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - Week 7 Tutorial]]></title><description><![CDATA[ 
- <br><br><br><br><br>This tutorial refines the timing and sequencing of portal-based visual effects in Unity. Using C# scripting and DOTween, we will:<br>
+ <br><br><br><br><br>This tutorial refines the timing and sequencing of the portal-based visual effects in Unity. Using C# scripting and DOTween, we will:<br>
 <br>Animate the Portal Ring VFX to pulse before the portal opens.
 <br>Trigger the Energy Beam VFX after the portal closes.
 <br>Align these effects with gameplay logic (enhancing game feel).
@@ -4157,7 +4157,9 @@ Players subconsciously react to anticipation and payoff sequences before major i
 <br>This creates a stronger connection between VFX, game feel, and gameplay metaphor/mechanics.<br><br><br><br>In this section, we will create the PortalEffectsController from scratch.<br>
 This script will control the portal ring effect, animating its exposed VFX properties from Week 6 using DOTween.<br>The Portal Ring Effect serves as an anticipatory visual cue before the portal opens.<br>
 By animating its properties over time, we create a build-up sequence that enhances game feel.<br><br>In Week 6, we created a portal ring effect using Unity's VFX Graph.<br>
-The following exposed properties were created in the VFX Graph Blackboard:<br><br><br>Now, let's create the PortalEffectsController script to control the Portal Ring Effect.<br><br>
+The following exposed properties were created in the VFX Graph Blackboard:<br><br>Animated Parameter
+We will primarily focus on animating the Radius parameter with DOTween, but the same steps and principle apply for animating other properties.
+<br><br>Now, let's create the PortalEffectsController script to control the Portal Ring Effect.<br><br>
 <br>In Unity, go to the Project Window.
 <br>Navigate to the Scripts folder (or create one if needed).
 <br>Right-click &gt; Create &gt; C# Script and name it PortalEffectsController.
@@ -4436,7 +4438,7 @@ public class EnemySpawner : MonoBehaviour
 
 <br>Adjust timing variables in the Inspector to fine-tune the pacing.
 <br><br><br>The tutorial is now complete! 🎉<br>
-The full portal cycle now functions as an engaging game-based metaphor!<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md</guid><pubDate>Mon, 17 Feb 2025 20:15:19 GMT</pubDate><enclosure url="gmap-395\module-3\media\portalbeamvfx.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\portalbeamvfx.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[🕹️ <strong>*GMAP 395: Final Project Guide</strong>]]></title><description><![CDATA[ 
+The full portal cycle now functions as an engaging game-based metaphor!<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md</guid><pubDate>Mon, 17 Feb 2025 23:09:37 GMT</pubDate><enclosure url="gmap-395\module-3\media\portalbeamvfx.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\portalbeamvfx.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[🕹️ <strong>*GMAP 395: Final Project Guide</strong>]]></title><description><![CDATA[ 
  <br><br><br>Students will create a polished, interactive game art piece by focusing on one module of their choice from the course to do the Additional Requirements for. This final deliverable will showcase their technical and artistic skills while demonstrating mastery of the selected module.<br>Requirements vs Additional Requirements
 The "Requirements" for all four modules are required for all projects. You will choose one module to complete the "Additional Requirement" for to complete the final project.
 <br><br><br>Each module for the final includes main requirements and one additional challenge to practice development, critical-thinking, and creativity.<br><br>
