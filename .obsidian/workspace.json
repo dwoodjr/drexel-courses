@@ -6,7 +6,7 @@
       {
         "id": "8f940a31b1f279e1",
         "type": "tabs",
-        "dimension": 56.515151515151516,
+        "dimension": 60.07575757575757,
         "children": [
           {
             "id": "08b33ea867f809ff",
@@ -65,12 +65,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "d5aae0896fb88bf9",
         "type": "tabs",
-        "dimension": 43.484848484848484,
+        "dimension": 39.92424242424242,
         "children": [
           {
             "id": "55370a07d509460c",
@@ -283,7 +283,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "159b23ffafbdd36e",
+  "active": "8b7761526bb9259d",
   "lastOpenFiles": [
     "Index.md",
     "GMAP 395/GMAP 395 - Welcome.md",

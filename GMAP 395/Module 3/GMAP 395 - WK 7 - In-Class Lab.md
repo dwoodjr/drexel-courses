@@ -18,7 +18,7 @@ Create a modular, procedural beam/stream effect that follows a path(spline), and
     - Add an `Output Particle Quad` context
       
 3. **In the Spawn context:**
-    - Set the spawn rate to `Constant` with a value of `5000`
+    - Set the spawn rate to `Constant` with a value of `5000`+
 > [!tip] **Spawn Rate/Count**  
 > A high spawn rate creates a dense, continuous stream effect.
     
@@ -139,7 +139,7 @@ Create a modular, procedural beam/stream effect that follows a path(spline), and
 >     Combining multiple VFX Graphs/Subgraphs/GPU Events allows for more complex, layered effects.
 
 ---
-### Advanced Challenges:
+### Advanced Challenges (Not Needed for In-Class):
 
 14. Make the beam reactive to player input, allowing real-time control of the path. (C# Scripting)
 15. Implement a more complex impact response, like surface scorching or deformation. (Shader on Mesh)
