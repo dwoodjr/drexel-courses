@@ -8,7 +8,75 @@
         "type": "tabs",
         "children": [
           {
-            "id": "61c36694927d8acf",
+            "id": "ad4442f890e9d312",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/GMAP 395 - Syllabus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - Syllabus"
+            }
+          },
+          {
+            "id": "d2e676069c0772fc",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "GMAP 395/Module 4"
+              },
+              "icon": "lucide-file",
+              "title": "Module 4"
+            }
+          },
+          {
+            "id": "911c7baf6172c7de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - WK 9 - Slides + Video"
+            }
+          },
+          {
+            "id": "31e0f54f58ec32a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - WK 9 - Tutorial"
+            }
+          },
+          {
+            "id": "6a6eb025fa46d6c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - Final Project - Details and Requirements"
+            }
+          },
+          {
+            "id": "9d95ae8ebc89b413",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +89,8 @@
               "title": "Six Thinking Hats Giving Good Game Design Feedback"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -75,7 +144,7 @@
             }
           },
           {
-            "id": "c048f026101a9ede",
+            "id": "27d5b543c744d65f",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -89,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 316.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -222,14 +291,31 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "61c36694927d8acf",
+  "active": "911c7baf6172c7de",
   "lastOpenFiles": [
-    "docs/gmap-395/module-4/six-thinking-hats-giving-good-game-design-feedback.html",
-    "docs/gmap-395/module-4",
+    "docs/gmap-395/module-4/gmap-395-wk-9-tutorial.html",
+    "docs/gmap-395/module-4/gmap-395-wk-9-slides-+-video.html",
+    "docs/gmap-395/module-4/gmap-395-module-4.html",
+    "docs/gmap-395/module-4/gmap-395-in-class-lab.html",
+    "docs/gmap-395/module-4/gmap-395-guides-custom-post-processing-effects.html",
+    "docs/gmap-395/module-4/media/gmap-395-su24-tutorial-film-noir-post-processing-effect.pdf",
+    "docs/gmap-395/module-4/media/home-after.png",
+    "docs/gmap-395/module-4/media/tutwk9splash.png",
+    "docs/gmap-395/module-4/media/media.html",
+    "docs/gmap-395/module-4/media/home-before.png",
+    "docs/gmap-395/module-4/media/capsule_616x353.jpg",
+    "docs/gmap-395/module-4/media/gmap-395-su24-tutorial-pixelation-full-screen-shader-and-custom-render-pass.pdf",
+    "docs/gmap-395/module-4/media/421988f6-a827-428b-86d4-9b815f15cdce.jpg",
+    "docs/gmap-395/module-4/media",
     "Index.md",
     "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
+    "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
+    "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
+    "GMAP 395/Module 4/GMAP 395 - Module 4.md",
+    "GMAP 395/Module 4/GMAP 395 - Guides - Custom Post-Processing Effects.md",
+    "GMAP 395/Module 4/media/media.md",
     "GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md",
     "GMAP 395/Module 3/GMAP 395 - WK 7 - Slides + Video.md",
     "GMAP 395/Module 3/GMAP 395 - WK 7 - In-Class Lab.md",
@@ -246,29 +332,12 @@
     "GMAP 395/Module 2/GMAP 395 - Module 2.md",
     "GMAP 395/Module 2/media/media.md",
     "GMAP 395/Module 1/GMAP 395 - WK 3 - Tutorial.md",
-    "GMAP 395/Module 1/GMAP 395 - WK 3 - Slides.md",
-    "GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md",
-    "GMAP 395/Module 1/GMAP 395 - WK 2 - Slides.md",
-    "GMAP 395/Module 1/GMAP 395 - Module 1.md",
-    "GMAP 395/Module 1/Media/Media.md",
-    "GMAP 395/Module 4",
-    "docs/gmap-395/module-3/gmap-395-wk-7-tutorial.html",
-    "docs/gmap-395/module-3/gmap-395-wk-7-slides-+-video.html",
-    "docs/gmap-395/module-3/gmap-395-wk-7-in-class-lab.html",
-    "docs/gmap-395/module-3/media/vfxgsplash.png",
-    "docs/gmap-395/module-3/media/vfxgraph_3-5_complexnetwork.png",
-    "docs/gmap-395/module-3/media/portalbeamvfx.png",
-    "docs/gmap-395/module-3/media/perlin-noise-terrain-mesh1.png",
-    "docs/gmap-395/module-3/media/pasted-image-20240729215838.png",
-    "docs/gmap-395/module-3/media/lab_vx2_fullsubg.png",
-    "docs/gmap-395/module-3/media/lab_vfx2_updateinit.png",
-    "docs/gmap-395/module-3/media/lab_vfx2_samplebez.png",
-    "docs/gmap-395/module-3/media/lab_vfx2_propbinders.png",
-    "docs/gmap-395/module-3/media/lab_vfx2_possetup.png",
-    "docs/gmap-395/module-3/media/desktop.ini",
-    "docs/gmap-395/module-3/media/vfx_styleguide_final_public_hidpjqwx7lqyx0pjj3ss.pdf",
-    "docs/gmap-395/module-3/media/media.html",
-    "docs/gmap-395/module-3/media/gmap-395-su24-in-class-lab-intro-to-particles-+-vfx.pdf",
-    "docs/gmap-395/module-3/gmap-395-wk-6-in-class-lab.html"
+    "GMAP 395/Module 4/media/421988f6-a827-428b-86d4-9b815f15cdce.jpg",
+    "GMAP 395/Module 4/media/capsule_616x353.jpg",
+    "GMAP 395/Module 4/media/home-after.png",
+    "GMAP 395/Module 4/media/home-before.png",
+    "GMAP 395/Module 4/media/GMAP 395 - SU24 -Tutorial - Pixelation Full-Screen Shader and Custom Render Pass.pdf",
+    "GMAP 395/Module 4/media/GMAP 395 - SU24 -Tutorial - Film Noir Post-Processing Effect.pdf",
+    "GMAP 395/Module 4/media/tutWk9Splash.png"
   ]
 }

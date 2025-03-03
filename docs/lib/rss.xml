@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 23 Feb 2025 18:20:37 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 23 Feb 2025 18:20:16 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 03 Mar 2025 21:51:13 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 03 Mar 2025 21:50:35 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Video</a><br><br><br>
 <br>The relationship between games, design, and play.
@@ -4438,7 +4438,681 @@ public class EnemySpawner : MonoBehaviour
 
 <br>Adjust timing variables in the Inspector to fine-tune the pacing.
 <br><br><br>The tutorial is now complete! 🎉<br>
-The full portal cycle now functions as an engaging game-based metaphor!<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md</guid><pubDate>Mon, 17 Feb 2025 23:09:37 GMT</pubDate><enclosure url="gmap-395\module-3\media\portalbeamvfx.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\portalbeamvfx.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[🎩 Six Thinking Hats: Giving Good Game Design Feedback]]></title><description><![CDATA[ 
+The full portal cycle now functions as an engaging game-based metaphor!<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md</guid><pubDate>Mon, 17 Feb 2025 23:09:37 GMT</pubDate><enclosure url="gmap-395\module-3\media\portalbeamvfx.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\portalbeamvfx.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\module-4\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 4/media/media.md</guid><pubDate>Sun, 02 Mar 2025 20:42:02 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Guides - Custom Post-Processing Effects]]></title><description><![CDATA[ 
+ <br><br><br><br>]]></description><link>gmap-395\module-4\gmap-395-guides-custom-post-processing-effects.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - Guides - Custom Post-Processing Effects.md</guid><pubDate>Mon, 03 Mar 2025 20:03:45 GMT</pubDate></item><item><title><![CDATA[In-Class Lab: Introduction to Cinemachine in Unity URP]]></title><description><![CDATA[ 
+ <br><br><br>This lab aims to guide you through setting up Cinemachine in Unity's Universal Render Pipeline (URP), understanding its core components, and implementing dynamic camera controls<br><br>
+<br>Unity 2022.3 LTS or late 
+<br>Basic familiarity with the Unity interface
+<br><br><br><br>
+<br>Open Unity Hub: Launch the Unity Hub application
+<br>Create a New Project: Click on the "New Project" button
+<br>Select URP Template: Choose the "3D (URP)" template
+<br>Name and Location: Enter a project name (e.g., "CinemachineIntro") 
+
+<br>Select a location to save the project
+
+
+<br>Create: - Click "Create Project"
+<br><br><br><br>
+<br>Access Package Manager: 
+
+<br>In Unity, navigate to Window &gt; Package Manager
+
+
+<br><br>
+<br>Find Cinemachine: 
+
+<br>In the Package Manager, ensure "Unity Registry" is selected in the dropdown 
+<br>Scroll to locate "Cinemachine" or use the search bar
+
+
+<br>Install:
+
+<br>Select "Cinemachine" and click the "Install" button
+
+
+<br><br><br><br>Cinemachine is a powerful Unity package that simplifies camera control, allowing for dynamic and complex camera behaviors without extensive coding<br><br>
+<br>Cinemachine Brain:
+
+<br>Function: Acts as the link between Unity's main camera and Cinemachine's virtual cameras. It interprets and blends the instructions from virtual cameras to control the main camera's behavior
+<br>Usage: Attached to the Main Camera
+
+
+<br>Cinemachine Virtual Camera:
+
+<br>Function: Defines specific camera behaviors, such as position, rotation, and follow targets. Unlike the main camera, virtual cameras don't render scenes but provide instructions to the Cinemachine Brain
+<br>Usage: Multiple virtual cameras can be created to achieve various cinematic effects, like cutscenes or dynamic following
+
+
+<br><br><br><br>
+<br>Select Main Camera: In the Hierarchy window, click on the "Main Camera"
+<br>Add Cinemachine Brain: In the Inspector window, click "Add Component" - Search for "Cinemachine Brain" and select it
+<br>Note: If you star by just creating a Virtual Camera (Right-Click -&gt; Cinemachine -&gt; Virtual Camera) a brain will automatically be added to the scene Main Camera.<br><br>
+<br>Add Virtual Camera: In the Menu Bar, navigate to Cinemachine &gt; Create Virtual Camera
+<br>Configure Virtual Camera: A new GameObject named "Virtual Camera" appears in the Hierarchy 
+
+<br>Select it
+<br>In the Inspector window, you'll see the CinemachineVirtualCamera component
+
+
+<br><br><br><br>
+<br>Create a Target Object:
+
+<br>In the Hierarchy, create a Cube (Right- click &gt; 3D Object &gt; Cube)
+<br>Position it at (0, 0.5, 0)
+
+
+<br><br>
+<br>Assign Follow and Look At Targets: 
+
+<br>Select your "Virtual Camera" 
+<br>In the Inspector, set the "Follow" and "Look At" fields to the Cube (drag the Cube from the Hierarchy to these fields)
+
+
+<br>Adjust Camera Settings: 
+<br>Modify the "Lens" settings, such as Field of View, to achieve the desired framing 
+
+<br>Under "Aim", explore options like Composer to fine-tune how the camera tracks the target
+
+
+<br><br><br>
+<br>Play the Scene:
+
+<br>Click the "Play" button to enter Play Mode
+<br>Observe how the virtual camera follows and looks at the Cube
+
+
+<br>Move the Target:
+<br>While in Play Mode, select the Cube and move it around (or create a script to animate it)
+
+<br>Notice how the camera dynamically adjusts to keep the Cube in view
+
+
+<br><br><br>Cinemachine allows seamless transitions between multiple virtual cameras, enabling dynamic and cinematic camera movements in your scene.<br><br>
+<br>Add a Second Virtual Camera:
+
+<br>Navigate to Cinemachine &gt; Create Virtual Camera.
+<br>A new GameObject named "Virtual Camera (1)" will appear in the Hierarchy.
+
+
+<br>Configure the Second Virtual Camera:
+
+<br>Select "Virtual Camera (1)".
+<br>In the Inspector, set the "Follow" and "Look At" fields to a different target or adjust its Transform to a new position.
+<br>For example, create another Cube at a different location and assign it as the target.
+
+
+<br><br>Cinemachine manages transitions between virtual cameras based on their Priority and Activation.<br>
+<br>Set Camera Priorities:
+
+<br>Each virtual camera has a Priority property. The camera with the highest priority becomes active.
+<br>To switch cameras, adjust their priorities accordingly.
+
+
+<br>Activate/Deactivate Cameras via Script:<br>
+-  You can enable or disable virtual cameras through C# scripts to control transitions.<br>
+-  For example, to switch to "Virtual Camera (1)" when pressing a number key:
+```csharp
+
+using UnityEngine;<br>
+using Cinemachine;
+<br>public class CameraSwitcher : MonoBehaviour<br>
+{<br>
+public CinemachineVirtualCamera vcam1;<br>
+public CinemachineVirtualCamera vcam2;<br>&nbsp; &nbsp; void Start()<br>
+{<br>
+ActivateCamera(vcam1); // Start with vcam1 active by default<br>
+}<br>&nbsp; &nbsp; void Update()<br>
+{<br>
+if (Input.GetKeyDown(KeyCode.Alpha1))<br>
+{<br>
+ActivateCamera(vcam1);<br>
+}<br>&nbsp; &nbsp; &nbsp; &nbsp; if (Input.GetKeyDown(KeyCode.Alpha2))<br>
+{<br>
+ActivateCamera(vcam2);<br>
+}<br>
+}<br>&nbsp; &nbsp; void ActivateCamera(CinemachineVirtualCamera activeCam)<br>
+{<br>
+vcam1.gameObject.SetActive(activeCam == vcam1);<br>
+vcam2.gameObject.SetActive(activeCam == vcam2);<br>
+}<br>
+}<br>
+```<br>-  Attach this script to an empty GameObject and assign **Virtual Camera1** and **Virtual Camera2** in the **Inspector**.
+<br><br>
+<br>Press 1 → activates Virtual Camera1.
+<br>Press 2 → activates Virtual Camera2.
+<br>Deactivates the other camera automatically.
+<br>Starts with Virtual Camera1 active by default in Start().
+<br>
+<br>Customize Transition Blends:
+
+<br>Cinemachine allows customization of the blending between cameras.
+<br>Select the Main Camera and, in the Cinemachine Brain component, adjust the Default Blend settings to control the transition style and duration.
+
+
+<br><br><br>Cinemachine offers advanced functionalities to enhance camera behavior.<br><br>
+<br>Add Noise to a Virtual Camera:
+
+<br>Select a virtual camera (e.g., "Virtual Camera").
+<br>In the Inspector, expand the "Noise" section.
+<br>Choose a Noise Profile (e.g., Basic Multi Perlin) to add procedural camera shake.
+
+
+<br>Adjust Noise Parameters:
+
+<br>Modify the Amplitude Gain and Frequency Gain to control the intensity and speed of the shake effect.
+
+
+<br><br><br>
+<br>Play the Scene:
+
+<br>Click the "Play" button to enter Play Mode.
+<br>Interact with your scene and observe the camera behaviors, transitions, and effects implemented.
+
+
+<br>Refine Camera Settings:
+
+<br>Based on the playtest, tweak virtual camera settings, noise profiles, and transition blends to achieve the desired cinematic experience.
+
+
+<br>Info
+By following this comprehensive tutorial, you've learned how to set up and utilize Cinemachine in Unity to create dynamic and professional camera systems for your projects.
+<br>For a visual walkthrough and more advanced techniques, consider watching the following tutorial:<br><br>Video: How to use Cameras in Unity: Cinemachine Virtual Cameras<br><br><br><br><br>This lab aims to introduce you to post- processing in Unity's Universal Render Pipeline (URP), enabling you to enhance your game's visual quality by applying various effects<br><br>URP integrates post- processing effects using the Volume framework. Follow these steps to set it up<br><br>
+<br>Select the Main Camera:
+
+<br>In the Hierarchy, click on "Main Camera"
+
+
+<br>Enable Post- Processing:<br>
+2. In the Inspector under Rendering, check the Post Processing box
+<br><br>
+<br>Add a Global Volume: 
+
+<br>In the Hierarchy, right- click and select Volume &gt; Global Volume
+
+
+<br>Create a Volume Profile:<br>
+2. With the Global Volume selected, click "Add Component" in the Inspector<br>
+3. Choose "Volume" - Click "New" next to the Profile field to create a new Volume Profile
+<br><br><br>Now that the Volume is set up, let's add some common post- processing effects<br><br>
+<br>Add Bloom: 
+
+<br>In the Inspector of the Global Volume, click "Add Override"
+<br>Select "Post- processing" &gt; "Bloom"
+
+
+<br>Configure Bloom: 
+
+<br>Enable the Intensity property by checking its box and set it to 0.5 
+<br>Adjust the Threshold to control the brightness level at which Bloom starts
+
+
+<br><br>
+<br>Add Vignette: 
+
+<br>Click "Add Override" again 
+<br>Select "Post- processing" &gt; "Vignette"
+
+
+<br>Configure Vignette: 
+
+<br>Enable the Intensity property and set it to 0.3
+<br>Adjust the Smoothness to 0.5 for a subtle darkening around the edges
+
+
+<br><br>
+<br>Add Color Adjustments: 
+
+<br>Click "Add Override" 
+<br>Select "Post- processing" &gt; "Color Adjustments"
+
+
+<br>Configure Color Adjustments: 
+
+<br>Enable the Post Exposure property and set it to 0.5 to brighten the scene 
+<br>Adjust the Contrast to 10 for more depth 
+<br>Modify the Saturation to - 10 for a slight desaturation effect
+
+
+<br><br><br>After adding these effects, you should notice changes in your scene<br>
+<br>
+Bloom: Bright areas emit a soft glow
+
+<br>
+Vignette: Edges of the screen are subtly darkened, focusing attention toward the center
+
+<br>
+Color Adjustments: Overall brightness, contrast, and color saturation are modified To see the effects in action
+
+<br>
+Ensure you're in Scene or Game view 
+
+<br>If effects aren't visible in the Scene view, click the "Gizmos" dropdown and ensure "Post- Processing" is enabled
+<br>Also ensure it is enabled on the Main Camera and in the URP Settings Asset
+
+
+<br><br><br>Feel free to explore other post- processing effects<br>
+<br>
+Depth of Field: Blurs objects based on their distance from the camera
+
+<br>
+Film Grain: Adds a cinematic grainy texture
+
+<br>
+Lens Distortion: Simulates lens imperfections for creative effects To add these
+
+<br>
+Click "Add Override" in the Global Volume - Select the desired effect
+
+]]></description><link>gmap-395\module-4\gmap-395-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - In-Class Lab.md</guid><pubDate>Sun, 02 Mar 2025 21:12:12 GMT</pubDate></item><item><title><![CDATA[Module 4 – Camera Effects and Post-Processing]]></title><description><![CDATA[ 
+ <br><br><br>In this module, you'll learn how to enhance your game environments using advanced camera systems and post-processing techniques. These tools allow you to craft cinematic experiences, dynamic gameplay feedback, and a polished visual style that responds to player actions.<br><br><br>
+<br>Full-Screen Effects and Post-Processing:
+
+<br>Bloom, depth of field, color grading, vignette, and more using Unity’s Post-Processing stack.
+<br>Creating mood and atmosphere through visual filtering.
+
+
+<br>Modular Camera Systems:
+
+<br>Cinemachine for dynamic, reusable camera rigs.
+<br>Triggered camera transitions and guided player focus.
+
+
+<br>Camera Effects and Real-Time Feedback:
+
+<br>Screen shake, zooms, and motion blur tied to gameplay events.
+<br>Using camera motion and effects to reinforce player actions.
+
+
+<br><br><br>By the end of this module, you will:<br>
+<br>Implement a modular camera system using Cinemachine.
+<br>Apply post-processing profiles to enhance scene visuals.
+<br>Trigger real-time camera effects based on player interactions.
+<br>Understand the connection between camera design and player experience.
+<br><br><br>
+<br>Ensure your Unity project is using the Universal Render Pipeline (URP).
+<br>Install Cinemachine via the Unity Package Manager.
+<br>Review your previous modules to integrate existing assets and shaders into a cohesive scene.
+<br>If you’ve never used Cinemachine:
+<a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=P_ibDJhFVMU" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=P_ibDJhFVMU" target="_blank">Cinemachine in Action</a>
+<br><br><br>
+<br>Unity 2022.3 or higher (URP setup).
+<br>Cinemachine for camera systems.
+<br>Post-Processing stack (integrated into URP).
+<br><br><br><br>
+<br>Implement post-processing to polish your procedural artifact scene.
+<br>Create a dynamic camera system that responds to player proximity and movement.
+<br>Apply real-time feedback effects such as camera shake or focus shifts.
+<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/Manual/urp/integration-with-post-processing.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/Manual/urp/integration-with-post-processing.html" target="_blank">Unity Post-Processing Documentation</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html" target="_blank">Unity Cinemachine Documentation</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/project/creative-core-post-processing" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/project/creative-core-post-processing" target="_blank">How to Use Post-Processing in URP</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/tutorial/cinemachine-cameras-2018#" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/tutorial/cinemachine-cameras-2018#" target="_blank">How to Use Camera in Unity</a>
+<br><br><br>
+<br>A cinematic zoom when the player approaches your artifact.
+<br>A post-processing profile that shifts the mood of your scene from day to night.
+<br>A camera shake effect when interacting with your procedural object.
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-4\gmap-395-module-4.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - Module 4.md</guid><pubDate>Sun, 02 Mar 2025 17:17:07 GMT</pubDate></item><item><title><![CDATA[GMAP 395]]></title><description><![CDATA[ 
+ <br><br><br><br><br>
+<br>We've already covered Lighting in depth.
+<br>This presentation focuses on:
+
+<br>Post-processing
+<br>Full-screen shader effects
+<br>Camera behaviors and interactions
+
+
+<br><br><br>
+<br>Enhance atmosphere and mood
+<br>Refine visual storytelling
+<br>Create player focus through lenses, effects, and transitions
+<br>Optimize and stylize your scenes
+<br><br><br>
+<br>Lighting sets mood and clarity
+<br>Guides players and reinforces theme
+<br>Direct interaction with post-processing and camera effects
+<br><br><br>
+<br>Post-processing filters amplify lighting setups
+
+<br>Bloom enhances emissive
+<br>Color grading adjusts overall tone
+<br>Vignette focuses attention
+
+
+<br><br><br>
+<br>Combine dynamic lighting with shaders:
+
+<br>Day/Night Cycles
+<br>Color Shifts
+<br>Fog and Atmospherics
+
+
+<br><br><br><br><br>
+<br>Visual effects applied after rendering
+<br>Runs over the full screen, like photo filters in real-time
+<br>Handles mood, style, and polish
+<br><br><br><br>
+<br>Bloom
+<br>Color Grading
+<br>Vignette
+<br>Depth of Field
+<br>Motion Blur
+<br>Chromatic Aberration
+<br><br><br><br>
+<br>Create a Global Volume
+<br>Assign a Post-Processing Profile
+<br>Add overrides (Bloom, Vignette, etc.)
+<br>Enable post-processing on the camera
+<br><br><br>
+<br>Bloom + Emissives = Glow
+<br>Vignette = Cinematic framing
+<br>Color Adjustments = Visual mood shifts
+<br><img alt="home-before.png" src="gmap-395\module-4\media\home-before.png" style="width: 720px; max-width: 100%;"><br>
+<img alt="home-after.png" src="gmap-395\module-4\media\home-after.png" style="width: 720px; max-width: 100%;"><br><br><br>
+<br>Subtlety &gt; Overload
+<br>Profile performance costs
+<br>Stack effects logically (Color Grading → Bloom → Vignette)
+<br><br><br>
+<br>Implement correct "using statements"
+<br>Reference the Volume and the Override needed for control
+<br>using UnityEngine.Rendering;  
+using UnityEngine.Rendering.Universal;  
+  
+public class VignetteController : MonoBehaviour  
+{  
+    public Volume postProcessVolume;  
+    private Vignette vignette;
+}
+<br><br><br><br><br>
+<br>Shaders that modify the entire frame
+<br>Applied through a render pass or post-process pipeline
+<br>Example uses:
+
+<br>Pixelation
+<br>Screen distortion
+<br>Color filters
+
+
+<br><br><br>
+<br>Custom artistic control
+<br>Real-time dynamic adjustments
+<br>Performance-efficient stylization
+<br><br><br>
+<br>UV manipulation
+<br>Noise overlays
+<br>Color blending
+<br>Depth-based effects
+<br><br><br>
+<br>Use DOTween or C# to change shader parameters
+<br>Example: Expand portal effect on enemy spawn
+<br>Sync shader animations with player actions
+<br><br><br>
+<br>Swirls, ripples, and patterns
+<br>Masking and blending
+<br>Dynamic reactions to game state
+<br><br><br><br><br>
+<br>Player perspective = player experience
+<br>Cinematic movement builds immersion
+<br>Connects gameplay to visual storytelling
+<br><br><br><br>
+<br>Follow Cameras
+<br>Dolly Tracks
+<br>Target Groups
+<br>Blend Transitions
+<br><img alt="capsule_616x353.jpg" src="gmap-395\module-4\media\capsule_616x353.jpg"><br><br><br>
+<br>Shake on impact
+<br>Zoom on focus
+<br>Rotate for drama
+<br>Depth of Field on object proximity
+<br><img alt="421988f6-a827-428b-86d4-9b815f15cdce.jpg" src="gmap-395\module-4\media\421988f6-a827-428b-86d4-9b815f15cdce.jpg" style="width: 720px; max-width: 100%;"><br><br><br>
+<br>Match camera behavior with post-process states
+<br>Example:
+
+<br>Zoom → Increase Depth of Field
+<br>Rotate → Add Motion Blur
+
+
+<br><br><br>
+<br>Trigger shaders during camera moves
+<br>Layer transitions and fade-ins
+<br>Match action with visual flow
+<br><br><br><br>Layer multiple cameras together, with cameras that focus on specific layers or objects in a scene.<br><br><br><br><br><br>
+<br>Procedural asset with dynamic shader
+<br>Lighting supports mood
+<br>Post-processing adds polish
+<br>Camera movements guide focus
+<br><br><br>
+<br>How can you combine these systems?
+<br>Where can shaders and post-processing amplify your procedural assets?
+<br>How does the camera’s perspective shape the player’s experience?
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-wk-9-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md</guid><pubDate>Mon, 03 Mar 2025 21:49:37 GMT</pubDate><enclosure url="gmap-395\module-4\media\home-before.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-4\media\home-before.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 9 Tutorial]]></title><description><![CDATA[ 
+ <br><br><br><img alt="tutWk9Splash.png" src="gmap-395\module-4\media\tutwk9splash.png"><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_NKaj-oxfZpUrjR7Q?e=4frRJP" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_NKaj-oxfZpUrjR7Q?e=4frRJP" target="_blank">gmap395_wk9.mp4</a><br><br><br><br>In this tutorial, we will add two key interactive systems to our enemy spawn sequence:<br>
+<br>A Post-Processing Vignette Effect that uses DOTween to pulse the screen green, reinforcing the anticipation of enemy arrival.
+<br>A Cinemachine Zoom Control, allowing the player to zoom in with a button press to get a closer look at the action.
+<br>Scripting APIs for this Tutroial
+<a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.1/manual/Volumes.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.1/manual/Volumes.html" target="_blank">Unity Doc on Volumes</a><br>
+<a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@12.0/manual/Volumes-API.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@12.0/manual/Volumes-API.html" target="_blank">Editing Volumes at Runtime</a><br>
+<a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.cinemachine@2.3/manual/index.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.cinemachine@2.3/manual/index.html" target="_blank">Unity Doc on Cinemachine</a><br>
+<a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.cinemachine@2.1/api/Cinemachine.CinemachineVirtualCamera.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.cinemachine@2.1/api/Cinemachine.CinemachineVirtualCamera.html" target="_blank">CinemachineVirtualCamera Class</a>
+<br><br>Design Reasoning: Visual feedback and real-time control are critical parts to guiding the player's emotions and attention. A subtle green vignette can signal danger and build tension, while player-controlled zoom provides agency, allowing players to focus on dramatic events like an enemy spawning.<br><br><br>
+<br>Unity 2022.3 LTS with URP
+<br>DOTween installed and set up
+<br>Cinemachine installed
+<br>Completion of the Week 7 sequence (Portal, Shader, EnemySpawner, etc.)
+<br><br><br><br>Post-processing effects are a final layer of polish that add emotional weight.<br>
+For example:<br>
+<br>Vignette = Focus and tension
+<br>Green Tint = Danger, sickness, or otherworldly energy
+<br><br>Pulse a green vignette during the enemy spawn sequence.<br><br><br>
+<br>Locate your Global Volume in the Hierarchy.
+<br>In the Inspector, find the attached Volume Profile.
+<br>Click Add Override → Post-processing → Vignette.
+<br>Enable these settings:
+
+<br>Color: Black (for now)
+<br>Intensity: 0.3
+<br>Smoothness: 0.5
+
+
+<br>📝 Design Note:<br>
+We start subtle so the change to green is noticeable and feels meaningful during the event.<br><br><br>
+Scripts (Folder) → Create → C# Script → Name it VignetteController
+<br>Paste this code:<br>using UnityEngine;
+using DG.Tweening;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+
+public class VignetteController : MonoBehaviour
+{
+    public Volume postProcessVolume;
+    private Vignette vignette;
+
+    public Color normalColor = Color.black;
+    public Color alertColor = Color.green;
+    public float alertIntensity = 0.6f;
+    public float transitionDuration = 1.0f;
+
+    void Start()
+    {
+        postProcessVolume.profile.TryGet(out vignette);
+        vignette.color.value = normalColor;
+        vignette.intensity.value = 0.3f;
+    }
+
+	public void ActivateAlert()
+	{
+	    DOTween.To(() =&gt; vignette.color.value, x =&gt; vignette.color.value = x, alertColor, transitionDuration);
+	    DOTween.To(() =&gt; vignette.intensity.value, x =&gt; vignette.intensity.value = x, alertIntensity, transitionDuration);
+	}
+
+	public void DeactivateAlert()
+	{
+	    DOTween.To(() =&gt; vignette.color.value, x =&gt; vignette.color.value = x, normalColor, transitionDuration);
+	    DOTween.To(() =&gt; vignette.intensity.value, x =&gt; vignette.intensity.value = x, 0.3f, transitionDuration);
+	}
+
+}
+<br><br><br>
+<br>Create an empty GameObject in the Hierarchy → Name it VignetteController.
+<br>Add the VignetteController.cs script.
+<br>Drag the Global Volume into the Post Process Volume field.
+<br><br><br>
+<br>In EnemySpawner.cs, (at the top with the other variables) add:
+<br>public VignetteController vignetteController;
+<br>
+<br>Before the portal ring effect starts, activate the vignette (inside TriggerFullSequence()):
+<br>vignetteController.ActivateAlert();
+<br>
+<br>After the enemy has spawned and the sequence ends, reset it  (inside TriggerFullSequence()):
+<br>vignetteController.DeactivateAlert();
+<br>📝 Design Note:<br>
+Players need signals when big events happen. This pulse grabs attention without needing UI text.<br><br><br>
+<br>One all scripts have been made/modified.
+<br>Ensure that the Vignette Controller game object is created as has the VingetteController.cs attached.
+<br>Ensure the EnemySpawner.cs has the Vignette Controller game object assigned.
+<br>Play the scene and activate the sequence with the assigned key press.
+
+<br>You should now see the edges of teh screen skrink in and turn green.
+<br>Note: if your scene has little light, the effect will not be as noticeable, as Vignette uses alpha transparency. 
+
+
+<br><br>By adding one private variable and updating the ActivateAlert() and DeactivareAlert() methods to use DOTween sequencing, we can have the vignete color or intensity pusle while the alert is active.<br>private Tween pulseTween; //add this new variable
+
+public void ActivateAlert() //update this function call
+{
+    // Transition to the alert color
+    DOTween.To(() =&gt; vignette.color.value, x =&gt; vignette.color.value = x, alertColor, transitionDuration);
+
+    // Start pulsing the intensity
+    pulseTween = DOTween.To(() =&gt; vignette.intensity.value, x =&gt; vignette.intensity.value = x, alertIntensity, transitionDuration)
+        .SetLoops(-1, LoopType.Yoyo)
+        .SetEase(Ease.InOutSine);
+}
+
+public void DeactivateAlert() //update this function call
+{
+    // Stop pulsing
+    if (pulseTween != null)
+    {
+        pulseTween.Kill();
+    }
+
+    // Reset to normal color and intensity
+    DOTween.To(() =&gt; vignette.color.value, x =&gt; vignette.color.value = x, normalColor, transitionDuration);
+    DOTween.To(() =&gt; vignette.intensity.value, x =&gt; vignette.intensity.value = x, 0.3f, transitionDuration);
+}
+
+<br>
+<br>Make the above code changes and play the scene again. You should now see the effect pulse.
+<br><br><br><br><br>Zoom gives the player agency to focus on something important. It's also a dramatic tool—getting close to the action increases intensity and makes the experience feel more "personal."<br><br><br>
+<br>Go to Package Manager → Cinemachine (install if not done).
+<br>In the Hierarchy, Cinemachine → Create Virtual Camera.
+<br>Set the Virtual Camera’s Field of View (FOV) to 60.
+<br><br><br>Note: The following steps will reset the transform of the Main Camera. So take note of its transforms!<br>
+<br>Right-Click in the Hierarchy --&gt; Cinemachine --&gt; Virtual Camera.
+<br>You will now a Virtua Camera in the scene and your Main Camera will have a Cinemachine Brain attached to it.
+
+<br>Note: Changing the Main Cameras transforms will do nothing. The Virtual Camera not controls the Main Camera.
+
+
+<br>In the Virtual Camera, set Transition -&gt; Body to Do Nothing.
+<br>In the Virtual Camera, set Aim to POV.
+<br>To reposition your camera, use the Virtual Camera -&gt; Transform -&gt; Position to move it. 
+<br>To rotate use the Virtual Camera -&gt; Aim -&gt; Vertical Axis Value) and Horizontal Axis (Value).
+<br>Reposition your camera to a desired location.
+<br><br><br>
+Scripts → Create → C# Script → Name it CameraZoomController
+<br>Paste this code:<br>using UnityEngine;
+using DG.Tweening;
+using Cinemachine;
+
+public class CameraZoomController : MonoBehaviour
+{
+    public CinemachineVirtualCamera virtualCamera;
+    public float normalFOV = 60f;
+    public float zoomedFOV = 30f;
+    public float zoomDuration = 0.5f;
+
+    private bool isZoomed = false;
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            ToggleZoom();
+        }
+    }
+
+	void ToggleZoom()
+	{
+	    float targetFOV = isZoomed ? normalFOV : zoomedFOV;
+	    DOTween.To(
+	        () =&gt; virtualCamera.m_Lens.FieldOfView,
+	        x =&gt; {
+	            var lens = virtualCamera.m_Lens;
+	            lens.FieldOfView = x;
+	            virtualCamera.m_Lens = lens;
+	        },
+	        targetFOV,
+	        zoomDuration
+	    );
+	    isZoomed = !isZoomed;
+	}
+
+}
+<br><br><br>
+<br>Create an empty GameObject → Name it CameraController.
+<br>Add the CameraZoomController.cs script.
+<br>Drag your Virtual Camera into the script’s Virtual Camera field.
+<br><br><br>✅ Press Z to zoom in/out during gameplay.<br>
+✅ Trigger the enemy sequence and see how zoom + vignette work together.<br><br><br>If you would like to have the ability to click into the game window and remove the cursor (or called playing in focus) add the following code to CameraZoomController.cs.<br>	private bool cursorLocked = true;
+	
+	void Start()
+	{
+	    LockCursor();
+	}
+	
+	void Update()
+	{
+	    if (Input.GetKeyDown(KeyCode.Z))
+	    {
+	        ToggleZoom();
+	    }
+	    if (Input.GetKeyDown(KeyCode.Escape))
+	    {
+	        UnlockCursor();
+	    }
+	    // Click to re-lock when unlocked
+	    if (!cursorLocked &amp;&amp; Input.GetMouseButtonDown(0))
+	    {
+	        LockCursor();
+	    }
+	}
+	
+	void LockCursor()
+	{
+	    Cursor.lockState = CursorLockMode.Locked;
+	    Cursor.visible = false;
+	    cursorLocked = true;
+	}
+	
+	void UnlockCursor()
+	{
+	    Cursor.lockState = CursorLockMode.None;
+	    Cursor.visible = true;
+	    cursorLocked = false;
+	}
+<br><br>
+<br>Press Escape → unlocks cursor, makes it visible.
+<br>Click anywhere (left mouse click) → re-locks cursor.
+<br>Keeps track of whether the cursor is locked with the cursorLocked flag so it doesn't keep trying to lock it when it's already locked.
+<br>Works in Play Mode and builds.
+<br><br><br>
+<br>The vignette builds subconscious tension—danger is coming!
+<br>The zoom gives the player control to witness the danger up close.
+<br>Together, they turn a simple spawn event into a cinematic-esq, dramatic moment.
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-wk-9-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md</guid><pubDate>Mon, 03 Mar 2025 21:08:53 GMT</pubDate><enclosure url="gmap-395\module-4\media\tutwk9splash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-4\media\tutwk9splash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[🎩 Six Thinking Hats: Giving Good Game Design Feedback]]></title><description><![CDATA[ 
  <br><br>The Six Thinking Hats method helps provide structured and meaningful feedback. Instead of just saying, “I like this” or “This part is bad”, this method encourages you to analyze different aspects of the project from multiple perspectives.<br>Each hat represents a different way of thinking about a certain topic/idea, even about your own or another's game! You don’t need to use every hat in every response, but using at least three will make your feedback more valuable.<br><br><br>
 🧐 What are the objective facts about the project?
 <br>
@@ -4494,7 +5168,10 @@ Creative suggestion:
 <br>Remember: Your feedback should be specific and constructive—help your peers refine their projects!<br><br>]]></description><link>gmap-395\module-4\six-thinking-hats-giving-good-game-design-feedback.html</link><guid isPermaLink="false">GMAP 395/Module 4/Six Thinking Hats Giving Good Game Design Feedback.md</guid><pubDate>Sun, 23 Feb 2025 18:17:21 GMT</pubDate></item><item><title><![CDATA[🕹️ <strong>*GMAP 395: Final Project Guide</strong>]]></title><description><![CDATA[ 
  <br><br><br>Students will create a polished, interactive game art piece by focusing on one module of their choice from the course to do the Additional Requirements for. This final deliverable will showcase their technical and artistic skills while demonstrating mastery of the selected module.<br>Requirements vs Additional Requirements
 The "Requirements" for all four modules are required for all projects. You will choose one module to complete the "Additional Requirement" for to complete the final project.
-<br><br><br>Each module for the final includes main requirements and one additional challenge to practice development, critical-thinking, and creativity.<br><br>
+The "polished game art piece" you will make for the final is the same work you have been doing for the whole quarter. You are not required to make new work, just polish your existing assets.
+<br>DUE DATE
+Saturday, March 22nd @ 11:59 PM
+<br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_NJLPK-nqm7VbyChQ?e=PbvnMW" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_NJLPK-nqm7VbyChQ?e=PbvnMW" target="_blank">gmap395_finalVid.mp4</a><br><br><br><br>Each module for the final includes main requirements and one additional challenge to practice development, critical-thinking, and creativity.<br><br>
 Requirements:
 
 <br>✅ Create a procedural or modular system for props, characters, or environments.
@@ -4541,7 +5218,7 @@ Requirements:
 <br>
 🔧 Additional Requirement:
 
-<br>Develop a camera-based interaction system, such as zoom-in on specific triggers or focus shifts during player interactions and manipulate (1 of the 2 required post-process effects) based on player interaction of environmental triggers.
+<br>Develop a camera-based interaction system, such as zoom-in on specific triggers or focus shifts during player interactions and manipulate (1 of the 2 required post-process effects) based on player interaction of environmental triggers.**
 
 <br><br><br>What to Submit
 
@@ -4588,7 +5265,7 @@ For each module there are a set of Requirements that must be met for every modul
 <br>Cohesion: Visual and thematic consistency throughout the project.
 <br>Polish: Overall quality and refinement of the interactive experience.
 <br>Presentation: Clarity and professionalism in the playthrough video and postmortem document.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Tue, 04 Feb 2025 00:39:20 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Mon, 03 Mar 2025 21:06:51 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
  <br><br><br><br>Instructor Details
 
 <br>Name: Darren Woodland, Jr.
@@ -4763,7 +5440,7 @@ By the end of this course, you'll:
 <br>Understand the interplay of art and programming.
 <br>Gain a portfolio-ready project demonstrating your technical art skills.
 
-<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Mon, 27 Jan 2025 16:31:06 GMT</pubDate></item><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
+<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Sun, 02 Mar 2025 17:03:59 GMT</pubDate></item><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
  <br><br>About This Page
 Welcome to the landing page for the courses I teach! This includes courses from both:
 

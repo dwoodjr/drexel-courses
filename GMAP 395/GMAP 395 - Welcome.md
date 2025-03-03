@@ -51,12 +51,12 @@ For questions or concerns, feel free to reach out:
 - Understanding lighting interactions
 - Stylized vs. photorealistic materials
 
-### Module 3: Effects + Particle Systems
+### [[GMAP 395 - Module 3|Module 3: Effects + Particle Systems]]
 - Introduction to particle systems
 - Procedural and modular design with particles
 - Applications and feedback
 
-### Module 4: Camera Effects + Prost-Processing
+### [[GMAP 395 - Module 4|Module 4: Camera Effects + Prost-Processing]]
 - Full-screen effects and post processing
 - Modular camera systems and applications
 - Camera effects and real-time feedback

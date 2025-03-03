@@ -6,6 +6,15 @@ Students will create a **polished, interactive game art piece** by focusing on *
 
 > [!NOTE] Requirements vs Additional Requirements
 > The "Requirements" for all four modules are *required for all projects*. You will choose ***one*** module to complete the "Additional Requirement" for to complete the final project.
+> 
+> The "polished game art piece" you will make for the final *is the same work* you have been doing for the whole quarter. You are not required to make new work, just polish your existing assets.
+
+> [!error] DUE DATE
+> ***Saturday, March 22nd @ 11:59 PM***
+
+[gmap395_finalVid.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_NJLPK-nqm7VbyChQ?e=PbvnMW)
+<iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_NJecRf4EeoFj-wjQ?embed=1" width="640" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
 
 ---
 
@@ -54,7 +63,7 @@ Each module for the final includes **main requirements** and **one additional ch
 > - ✅ Use camera animations or transitions to highlight specific parts of the scene.
 
 > **🔧 Additional Requirement**:
-> - Develop a **camera-based interaction system**, such as zoom-in on specific triggers or focus shifts during player interactions and manipulate (*1 of the 2* required post-process effects) based on player interaction of environmental triggers.
+> - Develop a **camera-based interaction system**, such as zoom-in on specific triggers or focus shifts during player interactions and manipulate (*1 of the 2* required post-process effects) based on player interaction of environmental triggers.**
 
 ---
 
@@ -72,7 +81,7 @@ Each module for the final includes **main requirements** and **one additional ch
 >         - **Successes**: Highlight key achievements.
 >         - **Challenges**: Discuss difficulties and solutions.
 >         - **Learning Outcomes**: Share what you’ve learned.
->     - Include citations for any external assets used.
+>     - *Include citations for any external assets used.*
 > 4. **Unity Project Files**:
 >     - A zipped folder with only the necessary files: **Assets**, **Packages**, **ProjectSettings** ONLY (❌ omit the Library, Temp, and other folders).
 > 5. **Polished Build**:
