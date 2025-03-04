@@ -6,6 +6,7 @@
       {
         "id": "8f940a31b1f279e1",
         "type": "tabs",
+        "dimension": 67.25190839694658,
         "children": [
           {
             "id": "ad4442f890e9d312",
@@ -25,12 +26,14 @@
             "id": "d2e676069c0772fc",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "GMAP 395/Module 4"
+                "file": "GMAP 395/Module 4/GMAP 395 - ASN 4 - Brief.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 4"
+              "title": "GMAP 395 - ASN 4 - Brief"
             }
           },
           {
@@ -90,7 +93,24 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "ed26d1cb4945945e",
+        "type": "tabs",
+        "dimension": 32.74809160305344,
+        "children": [
+          {
+            "id": "3b555f108546e09e",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -291,8 +311,14 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "911c7baf6172c7de",
+  "active": "d2e676069c0772fc",
   "lastOpenFiles": [
+    "docs/gmap-395/module-4/gmap-395-asn-4-brief.html",
+    "GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md",
+    "GMAP 395/Module 4/GMAP 395 - ASN 4 - Brief.md",
+    "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
+    "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
+    "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
     "docs/gmap-395/module-4/gmap-395-wk-9-tutorial.html",
     "docs/gmap-395/module-4/gmap-395-wk-9-slides-+-video.html",
     "docs/gmap-395/module-4/gmap-395-module-4.html",
@@ -310,9 +336,6 @@
     "Index.md",
     "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
-    "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
-    "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
-    "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
     "GMAP 395/Module 4/GMAP 395 - Module 4.md",
     "GMAP 395/Module 4/GMAP 395 - Guides - Custom Post-Processing Effects.md",
     "GMAP 395/Module 4/media/media.md",
@@ -330,14 +353,11 @@
     "GMAP 395/Module 2/GMAP 395 - WK 4 - Slides + Video.md",
     "GMAP 395/Module 2/GMAP 395 - WK 4 - In-Class Lab.md",
     "GMAP 395/Module 2/GMAP 395 - Module 2.md",
-    "GMAP 395/Module 2/media/media.md",
-    "GMAP 395/Module 1/GMAP 395 - WK 3 - Tutorial.md",
     "GMAP 395/Module 4/media/421988f6-a827-428b-86d4-9b815f15cdce.jpg",
     "GMAP 395/Module 4/media/capsule_616x353.jpg",
     "GMAP 395/Module 4/media/home-after.png",
     "GMAP 395/Module 4/media/home-before.png",
     "GMAP 395/Module 4/media/GMAP 395 - SU24 -Tutorial - Pixelation Full-Screen Shader and Custom Render Pass.pdf",
-    "GMAP 395/Module 4/media/GMAP 395 - SU24 -Tutorial - Film Noir Post-Processing Effect.pdf",
     "GMAP 395/Module 4/media/tutWk9Splash.png"
   ]
 }

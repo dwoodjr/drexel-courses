@@ -1,7 +1,14 @@
+---
+theme: black
+width: 1920
+height: 1080
+---
 
-# GMAP 395
+# GMAP 395 - Advanced Game art and Production
 
 ### Post-Processing, Full-Screen Shader Effects, and Cameras
+
+#### Week 9
 
 ---
 

@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 03 Mar 2025 21:51:13 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 03 Mar 2025 21:50:35 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 04 Mar 2025 01:03:16 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 04 Mar 2025 01:02:33 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Video</a><br><br><br>
 <br>The relationship between games, design, and play.
@@ -4439,7 +4439,76 @@ public class EnemySpawner : MonoBehaviour
 <br>Adjust timing variables in the Inspector to fine-tune the pacing.
 <br><br><br>The tutorial is now complete! 🎉<br>
 The full portal cycle now functions as an engaging game-based metaphor!<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md</guid><pubDate>Mon, 17 Feb 2025 23:09:37 GMT</pubDate><enclosure url="gmap-395\module-3\media\portalbeamvfx.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\portalbeamvfx.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
- ]]></description><link>gmap-395\module-4\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 4/media/media.md</guid><pubDate>Sun, 02 Mar 2025 20:42:02 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Guides - Custom Post-Processing Effects]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\module-4\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 4/media/media.md</guid><pubDate>Sun, 02 Mar 2025 20:42:02 GMT</pubDate></item><item><title><![CDATA[Assignment 4: Cinemachine and Post-Processing Integration]]></title><description><![CDATA[ 
+ <br><br><br>Assignment Overview  
+In this final module assignment, students will:
+
+<br>Integrate at least two (2) post-processing effects into their project using Unity's URP Post-Processing system.
+<br>Control one post-processing effect dynamically through C# scripting (such as adjusting bloom intensity, vignette strength, or depth of field focus).
+<br>Implement Cinemachine to create dynamic camera movements and transitions.
+<br>Present their work within their ongoing project scene and document the process in a README file.
+
+<br><br><br>Assignment Breakdown
+
+<br>Part 1: Post-Processing Effects
+
+<br>Apply a minimum of two (2) post-processing effects (examples: Bloom, Depth of Field, Color Adjustments, Vignette, Chromatic Aberration).
+<br>Ensure these effects contribute to the overall atmosphere and mood of your environment.
+
+
+<br>Part 2: Scripted Post-Processing Control
+
+<br>Write a C# script to dynamically adjust at least one of your post-processing parameters during runtime (e.g., change vignette intensity when the player approaches the artifact).
+
+
+<br>Part 3: Cinemachine Camera System
+
+<br>Use Cinemachine to set up dynamic camera(s).
+<br>Essentially, install cinemachine and setup in your project to apply camera position.
+
+
+
+<br><br><br>What to Submit
+1.README File (Markdown or TXT) that explains:<br>
+- Which post-processing effects you used and why.<br>
+- How your C# script controls a post-processing effect in real-time.<br>
+- How Cinemachine is used in your scene.<br>
+- Any challenges you faced and how you resolved them.<br>
+2. Recorded Video (5–10 Minutes):<br>
+- Screen-record your scene.<br>
+- Walk through the post-processing effects, scripted control, and Cinemachine setup.<br>
+- Reflect on how these elements contribute to the overall polish of your environment.
+<br><br><br># Assignment 4: Cinemachine and Post-Processing Integration
+
+## Post-Processing Effects
+- Bloom: Applied to enhance artifact glow.
+- Depth of Field: Used to focus attention on the artifact when nearby.
+- Vignette: Added subtle dark edges for atmospheric tension.
+
+## Scripted Control
+- I created a script that increases vignette intensity as the player gets closer to the artifact, creating a sense of pressure and immersion.
+
+## Cinemachine Setup
+- I implemented a free-look camera that orbits around the artifact.
+- Added a triggered dolly camera that activates during a key interaction.
+
+## Challenges
+- Ensuring smooth transitions between Cinemachine cameras.
+- Managing post-processing volume blending across different zones.
+<br><br>Submission Guidelines
+
+<br>Submission Format: ZIP file uploaded to Drexel Learn.
+<br>File Naming: abc123_Lastname_Firstname_A4.zip.
+<br>Late submissions will incur a 10% penalty per day.
+
+<br><br><br>By completing this assignment, you will:
+
+<br>Understand how to implement and customize post-processing effects.
+<br>Gain experience scripting real-time control over visual effects.
+<br>Design and refine camera systems with Cinemachine.
+<br>Polish your procedural game environment with cinematic and atmospheric enhancements.
+
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-asn-4-brief.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - ASN 4 - Brief.md</guid><pubDate>Tue, 04 Mar 2025 01:01:23 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Guides - Custom Post-Processing Effects]]></title><description><![CDATA[ 
  <br><br><br><br>]]></description><link>gmap-395\module-4\gmap-395-guides-custom-post-processing-effects.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - Guides - Custom Post-Processing Effects.md</guid><pubDate>Mon, 03 Mar 2025 20:03:45 GMT</pubDate></item><item><title><![CDATA[In-Class Lab: Introduction to Cinemachine in Unity URP]]></title><description><![CDATA[ 
  <br><br><br>This lab aims to guide you through setting up Cinemachine in Unity's Universal Render Pipeline (URP), understanding its core components, and implementing dynamic camera controls<br><br>
 <br>Unity 2022.3 LTS or late 
@@ -4753,8 +4822,8 @@ Click "Add Override" in the Global Volume - Select the desired effect
 <br>A cinematic zoom when the player approaches your artifact.
 <br>A post-processing profile that shifts the mood of your scene from day to night.
 <br>A camera shake effect when interacting with your procedural object.
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-4\gmap-395-module-4.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - Module 4.md</guid><pubDate>Sun, 02 Mar 2025 17:17:07 GMT</pubDate></item><item><title><![CDATA[GMAP 395]]></title><description><![CDATA[ 
- <br><br><br><br><br>
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-4\gmap-395-module-4.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - Module 4.md</guid><pubDate>Sun, 02 Mar 2025 17:17:07 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Advanced Game art and Production]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br>
 <br>We've already covered Lighting in depth.
 <br>This presentation focuses on:
 
@@ -4886,7 +4955,7 @@ public class VignetteController : MonoBehaviour
 <br>How can you combine these systems?
 <br>Where can shaders and post-processing amplify your procedural assets?
 <br>How does the camera’s perspective shape the player’s experience?
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-wk-9-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md</guid><pubDate>Mon, 03 Mar 2025 21:49:37 GMT</pubDate><enclosure url="gmap-395\module-4\media\home-before.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-4\media\home-before.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 9 Tutorial]]></title><description><![CDATA[ 
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-wk-9-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md</guid><pubDate>Mon, 03 Mar 2025 22:55:29 GMT</pubDate><enclosure url="gmap-395\module-4\media\home-before.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-4\media\home-before.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 9 Tutorial]]></title><description><![CDATA[ 
  <br><br><br><img alt="tutWk9Splash.png" src="gmap-395\module-4\media\tutwk9splash.png"><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_NKaj-oxfZpUrjR7Q?e=4frRJP" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_NKaj-oxfZpUrjR7Q?e=4frRJP" target="_blank">gmap395_wk9.mp4</a><br><br><br><br>In this tutorial, we will add two key interactive systems to our enemy spawn sequence:<br>
 <br>A Post-Processing Vignette Effect that uses DOTween to pulse the screen green, reinforcing the anticipation of enemy arrival.
 <br>A Cinemachine Zoom Control, allowing the player to zoom in with a button press to get a closer look at the action.

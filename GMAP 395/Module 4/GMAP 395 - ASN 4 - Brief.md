@@ -5,9 +5,9 @@
 > [!info] Assignment Overview  
 > In this final module assignment, students will:
 > 
-> 1. Integrate **at least three (3)** post-processing effects into their project using Unity's URP Post-Processing system.
+> 1. Integrate **at least two (2)** post-processing effects into their project using Unity's URP Post-Processing system.
 > 2. Control **one post-processing effect dynamically** through C# scripting (such as adjusting bloom intensity, vignette strength, or depth of field focus).
-> 3. Implement **Cinemachine** to create dynamic, player-responsive camera movements and transitions.
+> 3. Implement **Cinemachine** to create dynamic camera movements and transitions.
 > 4. Present their work within their ongoing project scene and document the process in a README file.
 
 ---
@@ -17,13 +17,13 @@
 > [!summary] Assignment Breakdown
 > 
 > - **Part 1: Post-Processing Effects**
->     - Apply a minimum of **three (3)** post-processing effects (examples: Bloom, Depth of Field, Color Adjustments, Vignette, Chromatic Aberration).
+>     - Apply a minimum of **two (2)** post-processing effects (examples: Bloom, Depth of Field, Color Adjustments, Vignette, Chromatic Aberration).
 >     - Ensure these effects contribute to the overall atmosphere and mood of your environment.
 > - **Part 2: Scripted Post-Processing Control**
 >     - Write a **C# script** to dynamically adjust at least **one** of your post-processing parameters during runtime (e.g., change vignette intensity when the player approaches the artifact).
 > - **Part 3: Cinemachine Camera System**
->     - Use **Cinemachine** to set up dynamic cameras (examples: dolly shots, orbit cameras, smooth follow, or trigger-based camera transitions).
->     - Design the camera behavior to enhance the player's experience of the artifact and environment.
+>     - Use **Cinemachine** to set up dynamic camera(s).
+>     - Essentially, install cinemachine and setup in your project to apply camera position.
 
 ---
 
