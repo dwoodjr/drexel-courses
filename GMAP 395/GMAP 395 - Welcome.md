@@ -64,6 +64,10 @@ For questions or concerns, feel free to reach out:
 ### [[GMAP 395 - Final Project - Details and Requirements|Final Project]]
 - A cohesive real-time scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
 
+### Bonus - Game Audio Implementation
+- [[Legacy Tutorials for Game Audio Implementation and Mixing]]
+- [[Legacy Presentations on Procedural Audio for Games - SU24]]
+
 ---
 
 ## 🛠️ **Tools and Software**

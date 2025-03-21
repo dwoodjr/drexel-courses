@@ -1,4 +1,7 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 04 Mar 2025 01:03:16 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 04 Mar 2025 01:02:33 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 21 Mar 2025 01:24:13 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 21 Mar 2025 01:23:40 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[media]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\bonus-proc-audio\media\media.html</link><guid isPermaLink="false">GMAP 395/Bonus - Proc Audio/media/media.md</guid><pubDate>Fri, 21 Mar 2025 01:14:27 GMT</pubDate></item><item><title><![CDATA[Legacy Presentations on Procedural Audio for Games - SU24]]></title><description><![CDATA[ 
+ <br><br><br><br>]]></description><link>gmap-395\bonus-proc-audio\legacy-presentations-on-procedural-audio-for-games-su24.html</link><guid isPermaLink="false">GMAP 395/Bonus - Proc Audio/Legacy Presentations on Procedural Audio for Games - SU24.md</guid><pubDate>Fri, 21 Mar 2025 01:16:35 GMT</pubDate></item><item><title><![CDATA[Legacy Tutorials for Game Audio Implementation and Mixing]]></title><description><![CDATA[ 
+ <br><br><br><br>]]></description><link>gmap-395\bonus-proc-audio\legacy-tutorials-for-game-audio-implementation-and-mixing.html</link><guid isPermaLink="false">GMAP 395/Bonus - Proc Audio/Legacy Tutorials for Game Audio Implementation and Mixing.md</guid><pubDate>Fri, 21 Mar 2025 01:19:34 GMT</pubDate></item><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Video</a><br><br><br>
 <br>The relationship between games, design, and play.
@@ -5496,6 +5499,9 @@ Whether you're aiming to focus on creating visually stunning worlds or procedura
 <br>Camera effects and real-time feedback
 <br><br>
 <br>A cohesive real-time scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
+<br><br>
+<br><a data-href="Legacy Tutorials for Game Audio Implementation and Mixing" href="gmap-395\bonus-proc-audio\legacy-tutorials-for-game-audio-implementation-and-mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Legacy Tutorials for Game Audio Implementation and Mixing</a>
+<br><a data-href="Legacy Presentations on Procedural Audio for Games - SU24" href="gmap-395\bonus-proc-audio\legacy-presentations-on-procedural-audio-for-games-su24.html" class="internal-link" target="_self" rel="noopener nofollow">Legacy Presentations on Procedural Audio for Games - SU24</a>
 <br><br><br>Recommended Software
 
 <br>Unity: <a data-tooltip-position="top" aria-label="https://unity.com/download" rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">Download Link</a>
@@ -5509,7 +5515,7 @@ By the end of this course, you'll:
 <br>Understand the interplay of art and programming.
 <br>Gain a portfolio-ready project demonstrating your technical art skills.
 
-<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Sun, 02 Mar 2025 17:03:59 GMT</pubDate></item><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
+<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Fri, 21 Mar 2025 01:21:42 GMT</pubDate></item><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
  <br><br>About This Page
 Welcome to the landing page for the courses I teach! This includes courses from both:
 
