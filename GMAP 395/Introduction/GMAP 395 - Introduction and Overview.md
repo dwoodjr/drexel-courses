@@ -4,13 +4,20 @@
 This introductory module sets the stage for the quarter by exploring the core ideas of **games, design, and play** while introducing **technical art** and **procedural workflows** as key methodologies in modern game development.
 
 ### Key Links
-[[GMAP 395 - WK 1 - Slides|Week 1 Slides]]
-[[GMAP 395 - WK 1 - Video Lecture| Week 1 Video]]
+#### Start here with the module sections!
+[[GMAP 395 - Introduction - A|Module IA: What is Technical Art?]]
+[[GAMP 395 - Introduction - B|Module IB: Procedural Thinking Basics]]
+[[GMAP 395 - Introduction - C|Module IC: Node-Based Workflows Introduction]]
+[[GMAP 395 - SU25 - Theme| Course Theme]]
+
+---
+[[GMAP 395 - WK 1 - Video Lecture| Legacy - Week 1 Video]]
+[[GMAP 395 - WK 1 - Slides| Legacy - Week 1 Slides]]
 
 ---
 
 ## Topics Covered
-- The relationship between games, design, and play.
+- The relationship between games, design, and play. (Lecture)
 - Introduction to **technical art for games**.
 - Fundamentals of **procedural and modular workflows**.
 

@@ -16,8 +16,8 @@ title: Syllabus
 ### **Classroom Information**
 
 > [!info] Classroom Info
-> 
-> - **Location:** URBN 252
+> - **Term:** Summer Quarter 2025
+> - **Location:** URBN 250
 > - Students will use Drexel Learn and their `@drexel.edu` emails for all class communication.
 
 ### **Course Description**
@@ -33,6 +33,14 @@ This course introduces students to procedural real-time game systems and technic
 > - Particle and image effects
 > - Lighting, camera techniques, and post-processing
 
+### **Course Philosophy**
+
+> [!note] Learning Approach
+> 
+> **Studio-Based Learning**: Class time prioritizes hands-on practice, peer collaboration, and instructor guidance.
+> **Modular Skill Development**: Content is organized into focused, digestible modules that build progressively toward professional competency.
+> **Critique Culture**: Weekly progress reviews emphasizing creative growth through peer and instructor feedback.
+
 ### **Expected Learning Outcomes**
 
 By the end of the course, students will demonstrate skills in:
@@ -42,6 +50,7 @@ By the end of the course, students will demonstrate skills in:
 - ✨ VFX creation
 - 🖌️ Shader and material development
 - 🔄 Technical workflows for real-time game art
+- 🎯 Professional critique and feedback skills
 
 ---
 
@@ -49,8 +58,8 @@ By the end of the course, students will demonstrate skills in:
 ### Required
 > [!success] Useful Links
 > 
-> - [Unity 2022.3.9LTS Download](https://unity3d.com/get-unity/download/archive)
-> - [Blender 4.3 Download](https://www.blender.org/download/)
+> - [Unity 2022.3.9LTS Download](https://unity3d.com/get-unity/download/archive)(Lab Version) or 2022.3.45LTS(latest)
+> - [Blender 4.4 Download](https://www.blender.org/download/)
 > - [Visual Studio Code](https://code.visualstudio.com/) or your favorite IDE (must support C# + Python)
 
 ### Recommended
@@ -65,12 +74,21 @@ By the end of the course, students will demonstrate skills in:
 
 ## **Course Modules and Assignments**
 
+### Course Introduction + Setup
+
+> [!tip] Week 1 Highlights
+> 
+> - Syllabus, Course Structure, and Important Links
+> - Tool setup and workflow establishment
+> - Weekly check-ins and peer feedback
+> - Course Theme 
+
 ### Module 1: Procedural Modeling + Lighting Systems
 
-> [!tip] Weeks 1-3 Highlights
+> [!tip] Weeks 2-3 Highlights
 > 
 > - Fundamentals of procedural modeling
-> - Modular workflows
+> - Modular workflows, node-based workflows, and DAGs
 > - Lighting systems focusing on geometry and light interplay
 
 **Assignment 1:** Create a modular game asset and integrate lighting systems.  
@@ -82,6 +100,7 @@ By the end of the course, students will demonstrate skills in:
 > 
 > - Custom shader creation using code and visual scripting
 > - Application of shaders to procedural assets for real-time interactivity
+> - Material properties and real-time rendering
 
 **Assignment 2:** Develop shaders for the asset created in Assignment 1.  
 **Due:** Week 5
@@ -89,7 +108,7 @@ By the end of the course, students will demonstrate skills in:
 ### Module 3: Effects + Particle Systems
 
 > [!tip] Weeks 6-7 Highlights
-> 
+> - VFX design principles and workflows
 > - Particle systems using visual scripting and component-based systems
 > - Creating interactive effects tied to game mechanics
 
@@ -98,37 +117,46 @@ By the end of the course, students will demonstrate skills in:
 
 ### Module 4: Camera Effects and Post-Processing
 
-> [!tip] Week 8 Highlights
+> [!tip] Week 8-9 Highlights
 > 
 > - Camera manipulation techniques
 > - Post-processing pipelines for polish and visual enhancement
+> - Performance and visual quality balancing
 
 **Assignment 4:** Implement camera effects and post-processing for the asset.  
 **Due:** Week 8
 
 ### ***Final Project***
 
-> [!warning] Weeks 9-11 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.
+> [!warning] Weeks 10-11 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.
 
 **Final Deliverables:**
 - 🎯 Cohesive scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
+- 🎥 Presentation videos with technical breakdown
 
 ---
 
+### **Typical Class Format**
+1. **Check-in & Critique**: Weekly progress presentations and peer feedback
+2. **Mini-Lecture & Demo**: Just-in-time instruction based on current module
+3. **Studio Practice**: Hands-on work with instructor guidance and peer collaboration
+4. **Wrap-up & Next Steps**: Preview upcoming content and assignment clarification
+
 ## **Course Schedule**
 
-| **Week** | **Topics**                                     | **Assignment**                         | **Due**               | Notes                                                                          |
-| -------- | ---------------------------------------------- | -------------------------------------- | --------------------- | ------------------------------------------------------------------------------ |
-| 1        | Introduction, Procedural Workflows, Modularity |                                        |                       |                                                                                |
-| 2        | Procedural Modeling                            | Assignment 1: Modeling + Lighting      | Week 3                |                                                                                |
-| 3        | Game Lighting, Lighting Systems                |                                        |                       | NO CLASS - UNIVERSITY HOLIDAY. <br>Lecture Video + Online Materials.           |
-| 4        | Shader Graph, Material Basics                  | Assignment 2: Shaders + Materials      | Week 5                |                                                                                |
-| 5        | Advanced Shader Workflows                      |                                        |                       |                                                                                |
-| 6        | Particle systems, VFX Fundamentals             | Assignment 3: Effects + Particles      | Week 7                |                                                                                |
-| 7        | Interactive VFX techniques                     |                                        |                       |                                                                                |
-| 8        | Camera Effects, Post-Processing                | Assignment 4: Camera + Post-Processing | Week 8                |                                                                                |
-| 9-10     | Final Project: Integration                     | Final Project Draft                    | Week 10               |                                                                                |
-| 11       | Final Project: Polish                          | Final Project                          | Week 11 (Finals Week) | NO CLASS MEETING FOR FINAL EXAM. Turn in final project on Drexel Learn by EOW. |
+| **Week** | **Topics**                                     | **Assignment**                         | **Due**               | Notes                                                                                                     |
+| -------- | ---------------------------------------------- | -------------------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------- |
+| 1        | Introduction, Procedural Workflows, Modularity |                                        |                       |                                                                                                           |
+| 2        | Procedural Modeling                            | Assignment 1: Modeling + Lighting      | Week 3                |                                                                                                           |
+| 3        | Game Lighting, Lighting Systems                |                                        |                       |                                                                                                           |
+| 4        | Shader Graph, Material Basics                  | Assignment 2: Shaders + Materials      | Week 5                |                                                                                                           |
+| 5        | Advanced Shader Workflows                      |                                        |                       |                                                                                                           |
+| 6        | Particle systems, VFX Fundamentals             | Assignment 3: Effects + Particles      | Week 7                |                                                                                                           |
+| 7        | Interactive VFX techniques                     |                                        |                       |                                                                                                           |
+| 8        | Camera Effects                                 | Assignment 4: Camera + Post-Processing | Week 9                |                                                                                                           |
+| 9        | Post-Processing Effects                        |                                        |                       |                                                                                                           |
+| 10       | Final Project: Integration                     | Final Project Draft                    | Week 10               |                                                                                                           |
+| 11       | Final Project: Polish                          | Final Project                          | Week 11 (Finals Week) | NO CLASS MEETING FOR FINAL EXAM. Turn in final project on Drexel Learn by EOW. *See BB Learn for Details* |
 
 ---
 
@@ -139,7 +167,7 @@ By the end of the course, students will demonstrate skills in:
 > - **35% Assignments:** Bi-weekly assignments focusing on module topics.
 > - **25% Final Project:** Integration of course concepts into a cohesive artifact.
 > - **25% Participation and Professionalism:** Engagement, attendance, and critique contributions.
-> - **15% Weekly Quizzes:** Short assessments via Drexel Learn to reinforce key concepts.
+> - **15% Weekly Progress Reviews:** Short assessments via Drexel Learn to reinforce key concepts.
 
 ---
 
@@ -151,7 +179,7 @@ By the end of the course, students will demonstrate skills in:
 > 	- **No personal electronic devices**: Cell phones, tablets, laptops, and other devices must be turned off and put away unless explicitly permitted for note-taking or learning activity use.
 > 	- **No non-course-related activities**: *Gaming, video watching, social media use, or any other non-course-related activities are strictly prohibited.*
 > 	- **Acceptable learning activities**: Note-taking (electronic or handwritten) and productive doodling/drawing related to course content are permitted and encouraged.
-> 	- **Lab sessions**: During hands-on lab portions, device use is allowed for course-related work, peer discussions, and instructor engagement.
+> 	- **Lab sessions**: During hands-on lab portions, device use is allowed for course-related work. Peer discussions, and instructor engagement is strongly encouraged.
 
 > [!error] Affects Participation + Professionalism
 > Violations of this policy will impact the `Participation and Professionalism` grade. Multiple offenses may result in a zero (0) for this component of the course grade, without exception.
@@ -183,6 +211,7 @@ By the end of the course, students will demonstrate skills in:
 > - Students are allowed one unexcused absence.
 > - Missing more than one class (unexcused) reduces your grade.
 > - Each late arrival to class will result in 50% attendance for the day.
+> - **Weekly Progress Reviews are mandatory** - missing reviews impact participation grade
 
 > [!NOTE] Excused Abcense
 > Note that an excused absence is defined as one that is the result of a condition or circumstance beyond the student's control, such as illness, a family crisis or emergency, or some other serious and important personal circumstance.
@@ -197,11 +226,14 @@ By the end of the course, students will demonstrate skills in:
 > [!warning] Approved AI Uses
 > 1. AI tools are permitted for developing assets for assignments and projects, such as generating images or code snippets.
 > 2. Students may use AI to help better contextualize and understand code, programming concepts, and course structures. This includes using AI for code review, breakdowns, and topic summaries.
-> 3. All written materials, explanations, and analyses submitted for assignments should be the original work of the student. AI should not be used to generate these portions of your submissions.
+> 3. *All written materials, explanations, and analyses submitted for assignments should be the original work of the student.* AI should not be used to generate these portions of your submissions.
 
 > [!NOTE] Use and Citation
-> The use of AI tools is not mandatory. Students may opt out of using AI assistants entirely if they prefer to complete all work without AI assistance.
-> When AI tools are used, students must clearly indicate which portions of their work were created with AI assistance and which tools were used.
+> **The use of AI tools is not mandatory.** Students may opt out of using AI assistants entirely if they prefer to complete all work without AI assistance.
+> When AI tools are used students must:
+> - Clearly indicate which portions of their work were created with AI assistance and which tools were used
+> - Be able to explain and defend all submitted work
+> - Be able to demonstrate original creative decision-making and artistic voice
 
 > [!error] Use and Understanding
 > Regardless of AI usage, students are responsible for understanding and being able to explain all aspects of their submitted work.
@@ -232,6 +264,19 @@ This course, including all meetings, assignments, and activities, operates under
 ### [Students with Disabilities](https://drexel.edu/scdc/co-op/policies/students-with-disabilities#:~:text=To%20be%20eligible%20for%20assistance,please%20visit%20Disability%20Resources'%20website.)
 
 ---
+
+## Appendix: Assessment Criteria
+
+### **Module Assignment Rubric**
+
+|**Skill Level**|**Technical Execution**|**Creative Problem-Solving**|**Professional Presentation**|
+|---|---|---|---|
+|**Mastery (A)**|Demonstrates advanced understanding with innovative applications|Original solutions showing deep creative thinking|Industry-ready documentation and presentation|
+|**Proficient (B)**|Solid technical execution meeting all requirements|Effective problem-solving with some creative insights|Professional-quality work with clear documentation|
+|**Developing (C)**|Basic technical competency with minor issues|Standard approaches with limited creative exploration|Adequate presentation meeting minimum requirements|
+|**Beginning (D-F)**|Significant technical problems or incomplete work|Minimal problem-solving or creative engagement|Poor presentation or missing documentation|
+
+---
 ## Appendix: Grade Scale and Default Rubric
 
 | Grade | Percentage | Description                 | Criteria                                                                                                                                                                                                                                                                                                                                                    |
@@ -250,6 +295,7 @@ This course, including all meetings, assignments, and activities, operates under
 | F     | 00-62%     | Failure. Work Unacceptable  | Not demonstrating completion of required assignments. Not addressing assignment requirements.                                                                                                                                                                                                                                                               |
 
 ---
-**Instructor Notes:** Some smaller incremental updates or changes to the syllabus may not result in a notification via Drexel Learn or email.
+**Note**: This syllabus reflects our **modular learning approach** - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.
+
 
 > [!info]  [[GMAP 395 - Welcome| Return to the Course Main Page]]

@@ -255,7 +255,10 @@ Key principles from ***The Design of Everyday Things***
   - DDE: Ideal for refining player experiences through testing and iteration.
 
 ---
-
+## END OF SLIDES
+---
+---
+---
 ### What is Technical Art?
 - **Definition:**
   - The bridge between art and technology in game development.

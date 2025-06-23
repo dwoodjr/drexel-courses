@@ -18,6 +18,7 @@ title: Welcome to GMAP 395!
 ## 🏛️***Course Links***
 ### [BB Learn](https://learn.dcollege.net/ultra/courses/_384869_1/cl/outline)
 ### [[GMAP 395 - Syllabus|Syllabus]]
+### [[GMAP 395 - SU25 - Theme|Course Theme]]
 
 ---
 
@@ -76,18 +77,6 @@ For questions or concerns, feel free to reach out:
 > - **Unity**: [Download Link](https://unity.com/download)
 > - **Blender**: [Download Link](https://www.blender.org/download/)
 > - **Visual Studio Code**: [Download Link](https://code.visualstudio.com/)
-
----
-
-## ✨ **Why Take This Course?**
-
-> [!quote] "Learn to merge art with technology in innovative ways."
->
-> By the end of this course, you'll:
-> - Build visually compelling and efficient game environments.
-> - Understand the interplay of art and programming.
-> - Gain a portfolio-ready project demonstrating your technical art skills.
-
 
 ---
 ---

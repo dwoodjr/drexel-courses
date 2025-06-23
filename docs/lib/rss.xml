@@ -1,10 +1,377 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 21 Mar 2025 01:24:13 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 21 Mar 2025 01:23:40 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[media]]></title><description><![CDATA[ 
- ]]></description><link>gmap-395\bonus-proc-audio\media\media.html</link><guid isPermaLink="false">GMAP 395/Bonus - Proc Audio/media/media.md</guid><pubDate>Fri, 21 Mar 2025 01:14:27 GMT</pubDate></item><item><title><![CDATA[Legacy Presentations on Procedural Audio for Games - SU24]]></title><description><![CDATA[ 
- <br><br><br><br>]]></description><link>gmap-395\bonus-proc-audio\legacy-presentations-on-procedural-audio-for-games-su24.html</link><guid isPermaLink="false">GMAP 395/Bonus - Proc Audio/Legacy Presentations on Procedural Audio for Games - SU24.md</guid><pubDate>Fri, 21 Mar 2025 01:16:35 GMT</pubDate></item><item><title><![CDATA[Legacy Tutorials for Game Audio Implementation and Mixing]]></title><description><![CDATA[ 
- <br><br><br><br>]]></description><link>gmap-395\bonus-proc-audio\legacy-tutorials-for-game-audio-implementation-and-mixing.html</link><guid isPermaLink="false">GMAP 395/Bonus - Proc Audio/Legacy Tutorials for Game Audio Implementation and Mixing.md</guid><pubDate>Fri, 21 Mar 2025 01:19:34 GMT</pubDate></item><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
- <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Slides</a><br>
-<a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Week 1 Video</a><br><br><br>
-<br>The relationship between games, design, and play.
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 23 Jun 2025 21:57:49 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 23 Jun 2025 21:56:27 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Time Required: 5-7 minutes<br>
+Learning Focus: Understanding procedural workflows and algorithmic content creation <br>
+Builds On: Module 1A (Technical Art fundamentals)
+<br><br><br>Procedural thinking involves using algorithms and rules to automate content creation. Instead of manually creating each element, you define a set of instructions that generate content automatically. This approach transforms repetitive manual work into systematic, scalable processes.<br><br>Traditional approach: "I need to model 50 unique trees"<br>
+Procedural approach: "I need to create rules that generate 50 unique trees automatically"<br>Key principle: Write the rules once, generate infinite variations. (obviously developing rules takes time, but I hope you get the idea)<br><br><br><br>
+<br>Landscape Creation: Algorithmic height maps and erosion simulation
+<br>Vegetation Placement: Rules-based distribution of plants and trees
+<br>Biome Systems: Automatic climate-based environment generation
+<br><br>
+<br>Modular Characters: Mix-and-match clothing, accessories, and features
+<br>Procedural Animation: Rule-based movement and behavior systems
+<br>Dynamic Scaling: Automatic adaptation for different character sizes
+<br><br>
+<br>Building Generation: Modular construction systems with infinite variations
+<br>Dungeon Creation: Algorithmic layout with gameplay flow considerations
+<br>Urban Planning: Procedural cities with realistic street layouts and zoning
+<br><br><br><br>
+<br>Reduces time spent on repetitive tasks
+<br>Accelerates iteration through parameter adjustment
+<br>Eliminates manual errors in repetitive processes
+<br><br>
+<br>Enables creation of vast, dynamic worlds
+<br>Supports rapid prototyping of multiple design directions
+<br>Facilitates easy updates across entire asset libraries
+<br><br>
+<br>Generates unexpected results that inspire new directions
+<br>Provides systematic exploration of design spaces
+<br>Maintains consistency while enabling variation
+<br><br>GDC Talk = Long Video
+This is a lengthy video, please do not attempt to watch the full video during class!<br>
+I recommend watching from the beginning to about 6:10 (Usual Evolution+)<br>
+Feel free to watch the full outside of class if it particularly interesting to you.
+<br><br><br><br>
+<br>Creating many similar but varied elements
+<br>Needing to iterate quickly on design parameters
+<br>Working with systematic, rule-based patterns
+<br>Building scalable content pipelines
+<br><br>
+<br>Creating hero assets requiring precise artistic control
+<br>Working with unique, one-off designs
+<br>Dealing with highly irregular or organic forms
+<br>Fine-tuning specific aesthetic details
+<br><br>Combine procedural generation with manual refinement:<br>
+<br>Generate base content procedurally
+<br>Manually adjust and refine key elements
+<br>Use procedural methods for variations and iterations
+<br><br><br><br>
+<br>Random Placement: Distributing objects with controlled variation
+<br>Density Control: Using maps and rules to control placement frequency
+<br>Collision Avoidance: Ensuring scattered objects don't intersect inappropriately
+<br><br>
+<br>Geometric Patterns: Mathematical relationships creating regular designs
+<br>Noise-Based Variation: Using algorithmic noise for organic randomness
+<br>Rule-Based Systems: Logic that determines pattern behavior
+<br><br>
+<br>Randomization: Controlled variation within specified ranges
+<br>Mathematical Relationships: Linking parameters through equations
+<br>Conditional Logic: Rules that trigger based on specific conditions
+<br><br>
+<br>Component Systems: Combining pre-made pieces in systematic ways
+<br>Constraint-Based Placement: Rules governing how pieces connect
+<br>Variation Generation: Creating diversity from limited base components
+<br><br><br><br>Manual Approach:<br>
+<br>Model individual trees
+<br>Place each tree by hand
+<br>Adjust size and rotation manually
+<br>Repeat for hundreds of trees
+<br>Procedural Approach:<br>
+<br>Create base tree models (3-5+ variations)
+<br>Define placement rules (density, slope tolerance, clustering)
+<br>Set variation parameters (scale, rotation, species distribution)
+<br>Generate forest automatically with controllable parameters<br>
+Result: Same visual quality, fraction of the time, infinite variation potential
+<br><br><br>Pattern Recognition Exercise (3-4 minutes) Identify Procedural Elements: Think of games you've played recently and identify 3 examples where procedural generation might have been used. Consider:
+Examples to look for:
+
+<br>Repeating but varied elements (buildings, trees, rocks)
+<br>Large-scale environments with systematic patterns
+<br>Character customization systems
+<br>Weapon or item generation systems
+
+Analysis Questions:
+
+<br>What made you think this element was procedural?
+<br>What rules or patterns do you notice?
+<br>How does the system create variety while maintaining consistency?
+
+<br>Write down your examples - you'll share these during class discussion next week.<br><br><br>PCG encompasses different types of automated content creation:<br><br>
+<br>Assets: Textures, sounds, models
+<br>Components: Individual game elements
+<br><br>
+<br>Levels: Playable areas and environments
+<br>Terrains: Landscapes and geographical features
+<br>Maps: Layout and spatial organization
+<br><br>
+<br>Rules: Mechanical relationships and interactions
+<br>Mechanics: Gameplay systems and features
+<br><br>
+<br>Events: Dynamic occurrences and triggers
+<br>Narratives: Story elements and branching paths
+<br>Quests: Mission and objective generation
+<br><br><br><br>
+<br>Infinite Universe: Procedurally generated planets, flora, and fauna
+<br>Systematic Variety: Consistent rules creating believable diversity
+<br>Player Discovery: Each player experiences unique content
+<br><br>
+<br>Terrain Generation: Algorithmic landscapes with biome systems
+<br>Structure Placement: Villages, dungeons, and landmarks
+<br>Resource Distribution: Ore placement following geological rules
+<br><br>
+<br>Weapon Generation: Millions of unique weapons from modular components
+<br>Stat Calculation: Mathematical systems determining weapon properties
+<br>Visual Variety: Procedural combinations of parts and materials
+<br><br><br>Explore Further
+
+<br><a data-tooltip-position="top" aria-label="https://www.autodesk.com/solutions/proceduralism" rel="noopener nofollow" class="external-link" href="https://www.autodesk.com/solutions/proceduralism" target="_blank">Procedural Workflows Explained - Autodesk</a>
+<br><a data-tooltip-position="top" aria-label="https://www.pcgbook.com/" rel="noopener nofollow" class="external-link" href="https://www.pcgbook.com/" target="_blank">Procedural Content Generation in Games - Free Online Book</a>
+<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=erI7k3lt4UY" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=erI7k3lt4UY" target="_blank">The Art of Procedural Noise(Video)</a>
+
+<br><br>
+<br>L-Systems: Rule-based systems for generating fractal-like structures
+<br>Voronoi Patterns: Mathematical techniques for organic-looking distributions
+<br>Flow Fields: Directing procedural systems with vector fields
+<br><br><br>Coming up: We'll explore how visual scripting systems make procedural thinking accessible and powerful for artists.<br>Progress Tracking
+
+<br>Module 1A: What is Technical Art? ✓
+<br>Module 1B: Procedural Thinking Basics ✓
+<br>Module 1C: Node-Based Workflows Introduction
+
+<br><br><br>Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Introduction - A" data-href="GMAP 395 - Introduction - A" href="gmap-395\introduction\gmap-395-introduction-a.html" class="internal-link" target="_self" rel="noopener nofollow">Module IA</a><br>
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Introduction - C" data-href="GMAP 395 - Introduction - C" href="gmap-395\introduction\gmap-395-introduction-c.html" class="internal-link" target="_self" rel="noopener nofollow">Module IC</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Introduction and Overview" data-href="GMAP 395 - Introduction and Overview" href="gmap-395\introduction\gmap-395-introduction-and-overview.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\introduction\gamp-395-introduction-b.html</link><guid isPermaLink="false">GMAP 395/Introduction/GAMP 395 - Introduction - B.md</guid><pubDate>Mon, 23 Jun 2025 21:21:59 GMT</pubDate></item><item><title><![CDATA[Module 1A: What is Technical Art?]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Time Required: 5-7 minutes<br>
+Learning Focus: Understanding the role and importance of technical art in game development<br>
+Preparation for: Week 2 and course foundation
+<br><br><br>Technical art is the bridge between art and technology in game development. Technical artists combine creative and technical skills to enhance workflows and visual quality, ensuring the seamless integration of assets into game engines while solving cross-disciplinary challenges between artists and programmers.<br><br>Technical artists serve as problem solvers and workflow optimizers in the game development pipeline:<br>
+<br>Asset Integration Specialists: Ensure artwork functions properly within game engines
+<br>Pipeline Architects: Design and maintain efficient content creation workflows
+<br>Cross-Disciplinary Communicators: Translate between artistic vision and technical constraints
+<br>Automation Engineers: Create tools and scripts that streamline repetitive tasks
+<br>Quality Assurance: Maintain visual and performance standards across projects
+<br><br><br>Essential Skill Areas
+
+<br>Attention to Detail: Precision in both creative and technical execution
+<br>Communication and Collaboration: Ability to work with diverse teams and explain complex concepts
+<br>Strong Art and Technical Knowledge: Understanding both aesthetic principles and technical implementation
+<br>Technical Proficiency: Coding, scripting, and tool development capabilities
+<br>Creative Problem-Solving: Innovative approaches to workflow and visual challenges
+
+<br><br>Technical artists think in systems and workflows rather than individual assets. They ask questions like:<br>
+<br>"How can we automate this process?"
+<br>"What if we need to make 100 variations of this asset?"
+<br>"How do we maintain quality while meeting performance requirements?"
+<br>"What tools can we build to help the team work more efficiently?"
+<br><br><br><br><br>In Character Creation:<br>
+<br>Automated rigging systems for faster character setup
+<br>Procedural clothing and accessory systems
+<br>Dynamic hair and fur solutions
+<br>In Environment Art:<br>
+<br>Modular building systems with automatic UV mapping
+<br>Procedural terrain and foliage placement
+<br>Automated LOD (Level of Detail) generation
+<br>In VFX and Animation:<br>
+<br>Real-time particle systems optimized for performance
+<br>Dynamic lighting solutions that respond to gameplay
+<br>Automated texture streaming and compression
+<br><br><br>In GMAP 395, you'll develop technical art skills through:<br>Procedural Workflows: Learning to create systems that generate content automatically<br>
+Pipeline Integration: Understanding how different tools work together efficiently<br>
+Performance Optimization: Balancing visual quality with real-time rendering requirements <br><br>Technical art skills are increasingly valuable because:<br>
+<br>Industry Demand: Studios need artists who understand technical constraints
+<br>Workflow Efficiency: Companies value employees who can optimize processes
+<br>Creative Problem-Solving: Technical artists often find innovative solutions to complex challenges
+<br>Cross-Disciplinary Value: These skills transfer across many creative technology fields
+<br><br><br>Quick Reflection (2-3 minutes) Before moving to the next module, consider these questions:
+Current Skills Inventory:
+
+<br>Which technical art skills do I already have? (Consider: scripting, 3D software, problem-solving, automation)
+<br>What technical challenges have I encountered in previous art projects?
+<br>How comfortable am I with learning new software and technical workflows?
+
+Course Connection:
+
+<br>What aspects of technical art am I most excited to learn?
+<br>How might these skills benefit my current or future projects?
+
+<br>Write down 2-3 specific technical art skills you want to develop this quarter. You'll reference these later when deciding on your project ideas and during our first critique session.<br><br><br>Dive Deeper
+
+<br><a data-tooltip-position="top" aria-label="https://www.riotgames.com/en/artedu/technical-art" rel="noopener nofollow" class="external-link" href="https://www.riotgames.com/en/artedu/technical-art" target="_blank">What is Technical Art? - Riot Games</a>
+<br><a data-tooltip-position="top" aria-label="https://www.screenskills.com/job-profiles/browse/games/technical-art/technical-artist/" rel="noopener nofollow" class="external-link" href="https://www.screenskills.com/job-profiles/browse/games/technical-art/technical-artist/" target="_blank">Technical Artist Career Profile - ScreenSkills</a>
+<br><a data-tooltip-position="top" aria-label="https://www.tech-artists.org/t/about-the-professional-category/9845" rel="noopener nofollow" class="external-link" href="https://www.tech-artists.org/t/about-the-professional-category/9845" target="_blank">Tech-Artists Community Site</a>
+<br><a data-tooltip-position="top" aria-label="https://www.cgspectrum.com/career-pathways/technical-artist" rel="noopener nofollow" class="external-link" href="https://www.cgspectrum.com/career-pathways/technical-artist" target="_blank">Technical Artist Career Pathways - CG Spectrum</a>
+
+<br><br>Technical art is one of the fastest-growing specializations in game development. As projects become more complex and development timelines shorter, the need for artists who can create efficient, scalable workflows becomes critical.<br><br><br>Coming up: We'll explore how algorithmic thinking and rule-based systems can automate content creation and enhance creative workflows.<br>Progress Tracking
+
+<br>Module 1A: What is Technical Art? ✓
+<br>Module 1B: Procedural Thinking Basics
+<br>Module 1C: Node-Based Workflows Introduction
+
+<br><br><br>Module Navigation 
+Next: <a data-tooltip-position="top" aria-label="GAMP 395 - Introduction - B" data-href="GAMP 395 - Introduction - B" href="gmap-395\introduction\gamp-395-introduction-b.html" class="internal-link" target="_self" rel="noopener nofollow">Module IB</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Introduction and Overview" data-href="GMAP 395 - Introduction and Overview" href="gmap-395\introduction\gmap-395-introduction-and-overview.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\introduction\gmap-395-introduction-a.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - Introduction - A.md</guid><pubDate>Mon, 23 Jun 2025 21:22:04 GMT</pubDate></item><item><title><![CDATA[Module 1C: Node-Based Workflows Introduction]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Time Required: 5-7 minutes<br>
+Learning Focus: Understanding visual scripting and data flow concepts<br>
+Builds On: Modules 1A &amp; 1B (Technical Art and Procedural Thinking)
+<br><br><br>Node-based workflows use visual scripting and data-driven approaches to create procedural systems and assets. Instead of writing traditional code, you connect visual nodes that represent specific operations, creating a flowchart-like system that's both powerful and accessible to artists.<br><br>Nodes represent specific tasks or operations:<br>
+<br>Input Nodes: Provide data to the system (geometry, textures, parameters)
+<br>Processing Nodes: Modify or transform data (scale, rotate, duplicate, filter)
+<br>Output Nodes: Generate final results (meshes, materials, effects)
+<br>Connections define data flow:<br>
+<br>Data flows from left to right or top to bottom (typically)
+<br>Each connection carries specific types of information
+<br>Visual feedback shows how changes propagate through the system
+<br><br><br><br>A Directed Acyclic Graph is a structure where:<br>
+<br>Directed: Connections flow in one direction (like water flowing downstream)
+<br>Acyclic: No loops or circular references that would create infinite processing (typically)
+<br>Graph: Network of connected nodes representing relationships
+<br><br>Non-linear workflows enable:<br>
+<br>Iterative development: Change parameters anywhere in the chain
+<br>Modular construction: Swap out pieces without rebuilding everything
+<br>Dependency management: Clear understanding of how changes affect final output
+<br>Applications in Game Development:<br>
+<br>Organizing and optimizing procedural pipelines
+<br>Managing dependencies between assets and systems
+<br>Building complex modeling, texturing, or animation workflows
+<br>Creating real-time gameplay systems
+<br>DAG Resources
+
+<br><a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Directed_acyclic_graph" rel="noopener nofollow" class="external-link" href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">Directed Acyclic Graph - Wikipedia</a>
+<br><a data-tooltip-position="top" aria-label="https://www.getdbt.com/blog/guide-to-dags" rel="noopener nofollow" class="external-link" href="https://www.getdbt.com/blog/guide-to-dags" target="_blank">Guide to DAGs - dbt</a>
+
+<br><br><br><br>
+<br>Procedural modeling and geometric operations
+<br>Real-time parameter adjustment with immediate visual feedback
+<br>Modular node groups for reusable operations
+<br><br>
+<br>Industry-standard procedural modeling and VFX creation
+<br>Complex simulations (fluids, destruction, crowds)
+<br>Extensive node library for specialized operations
+<br><br>
+<br>Visual shader creation without traditional coding
+<br>Real-time preview of material changes
+<br>Cross-platform compatibility with automatic code generation
+<br><br>
+<br>Visual scripting for gameplay logic and interactive systems
+<br>Artist-friendly programming for complex game mechanics
+<br>Integration with rendering and animation systems
+<br><br><br><br><br><br>
+<br>Visual representation makes logic easier to understand
+<br>No syntax requirements - drag, drop, and connect
+<br>Immediate feedback through real-time previews
+<br>Error prevention through type-safe connections
+<br><br>
+<br>Isolate operations in individual nodes for easy debugging
+<br>Reusable components can be saved and shared
+<br>Clear data flow shows exactly how information moves through the system
+<br>Non-destructive editing preserves original data
+<br><br>
+<br>Parameter tweaking without rebuilding entire systems
+<br>A/B testing through parallel node chains
+<br>Version control through node group management
+<br>Documentation through visual system layout
+<br><br><br><br>
+<br>Terrain creation with height maps and erosion simulation
+<br>Building generation using modular architectural components
+<br>Vegetation systems with realistic distribution patterns
+<br><br>
+<br>Complex surface properties combining multiple texture layers
+<br>Animated materials with time-based parameter changes
+<br>Conditional rendering based on distance or performance requirements
+<br><br>
+<br>Interactive mechanics without traditional programming
+<br>AI behavior trees using visual logic systems
+<br>UI systems with dynamic layout and content
+<br><br><br><br>
+<br>Geometry: 3D mesh data, points, edges, faces
+<br>Attributes: Properties attached to geometry (color, scale, rotation)
+<br>Numbers: Float values, integers, vectors
+<br>Boolean: True/false logic for conditional operations
+<br><br><br>
+<br>Primitive Objects: Basic shapes (cube, sphere, plane)
+<br>Import Nodes: External data (models, images, point clouds)
+<br>Parameter Controls: User-adjustable values and settings
+<br><br>
+<br>Transform Operations: Move, rotate, scale geometry
+<br>Duplication Systems: Arrays, scattering, instancing
+<br>Deformation Tools: Bend, twist, noise displacement
+<br>Boolean Operations: Combine, subtract, intersect geometry
+<br><br>
+<br>Math Operations: Add, multiply, compare values
+<br>Conditional Logic: If/then statements for branching behavior
+<br>Random Generators: Controlled variation and noise
+<br>Attribute Manipulation: Reading and writing object properties
+<br><br><br>Visual Thinking Exercise (3-4 minutes) Sketch a Simple Node Network: Think of any simple creative process and draw it as connected boxes with arrows. Examples could be:
+
+<br>Making breakfast (ingredients → cooking steps → final dish)
+<br>Getting dressed (choosing clothes → putting them on → final outfit)
+<br>Creating a simple drawing (basic shapes → details → colors → finished art)
+<br>Or any process you can think of!
+
+Drawing Guidelines:
+
+<br>Use simple boxes for each step
+<br>Label each box with what happens
+<br>Use arrows to show the order/flow
+<br>Think about: What do I start with? What steps transform it? What's the result?
+
+<br>The goal: Practice thinking in "data flow" - how information or materials move from step to step to create something new.<br><br><br><br>
+<br>Begin with basic operations and verify each step
+<br>Add complexity gradually rather than building everything at once
+<br>Test frequently to catch issues early in the process
+<br><br>
+<br>What information do I start with? (input data)
+<br>What transformations do I need? (processing steps)
+<br>What's my desired end result? (output goals)
+<br><br>
+<br>Group related operations into reusable components
+<br>Create parameter interfaces for easy adjustment
+<br>Build libraries of useful node groups for future projects
+<br><br>
+<br>Expose key parameters at the top level for easy access
+<br>Use preview modes to work with simplified data during development
+<br>Document your networks with clear naming and organization
+<br><br><br><br>Procedural destruction sequences:<br>
+<br>Input: Building geometry
+<br>Processing: Fracture patterns, physics simulation, debris generation
+<br>Output: Realistic destruction animation with thousands of pieces
+<br><br>Dynamic weather materials:<br>
+<br>Input: Base terrain textures, weather parameters
+<br>Processing: Blend wet/dry states, add puddle formation, adjust surface properties
+<br>Output: Real-time material that responds to game weather systems
+<br><br>Modular environment pieces:<br>
+<br>Input: Basic architectural forms
+<br>Processing: Add surface details, wear patterns, modular connection points
+<br>Output: Library of compatible building pieces for level design
+<br><br><br>Explore Node-Based Systems
+
+<br><a data-tooltip-position="top" aria-label="https://www.sidefx.com/tutorials/intro-to-houdinis-node-based-workflow/" rel="noopener nofollow" class="external-link" href="https://www.sidefx.com/tutorials/intro-to-houdinis-node-based-workflow/" target="_blank">Introduction to Node-Based Workflows in Houdini</a>
+<br><a data-tooltip-position="top" aria-label="https://www.sidefx.com/docs/houdini/nodes/index.html" rel="noopener nofollow" class="external-link" href="https://www.sidefx.com/docs/houdini/nodes/index.html" target="_blank">Houdini Node Documentation</a>
+<br><a data-tooltip-position="top" aria-label="https://spin.atomicobject.com/blender-node-based-workflows/" rel="noopener nofollow" class="external-link" href="https://spin.atomicobject.com/blender-node-based-workflows/" target="_blank">Blender Node-Based Workflows</a>
+
+<br><br><br>You now have the foundational knowledge to understand:<br>
+<br>The role of technical art in bridging creativity and technology
+<br>Procedural thinking as a systematic approach to content creation
+<br>Node-based workflows as visual tools for implementing procedural systems
+<br>Pre-Class Preparation Complete
+
+<br>Module 1A: What is Technical Art? ✓
+<br>Module 1B: Procedural Thinking Basics ✓
+<br>Module 1C: Node-Based Workflows Introduction ✓
+
+<br><br><br>
+<br>DAG: Directed Acyclic Graph - visual representation of data flow without loops
+<br>Node: Individual operation or process in a visual system
+<br>Data Flow: Movement of information from input through processing to output
+<br>Procedural: Content created through rules and algorithms rather than manual construction
+<br>Modular: Components designed to work together in flexible combinations
+<br>Pipeline: Series of connected processes that transform data from start to finish
+<br>Next up: Module 1 (Weeks 2-3) where you will apply these concepts hands-on with Blender Geometry Nodes and Unity integration!<br><br><br>Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GAMP 395 - Introduction - B" data-href="GAMP 395 - Introduction - B" href="gmap-395\introduction\gamp-395-introduction-b.html" class="internal-link" target="_self" rel="noopener nofollow">Module IB</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Introduction and Overview" data-href="GMAP 395 - Introduction and Overview" href="gmap-395\introduction\gmap-395-introduction-and-overview.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\introduction\gmap-395-introduction-c.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - Introduction - C.md</guid><pubDate>Mon, 23 Jun 2025 21:22:10 GMT</pubDate></item><item><title><![CDATA[Introduction and Overview]]></title><description><![CDATA[ 
+ <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Introduction - A" data-href="GMAP 395 - Introduction - A" href="gmap-395\introduction\gmap-395-introduction-a.html" class="internal-link" target="_self" rel="noopener nofollow">Module IA: What is Technical Art?</a><br>
+<a data-tooltip-position="top" aria-label="GAMP 395 - Introduction - B" data-href="GAMP 395 - Introduction - B" href="gmap-395\introduction\gamp-395-introduction-b.html" class="internal-link" target="_self" rel="noopener nofollow">Module IB: Procedural Thinking Basics</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Introduction - C" data-href="GMAP 395 - Introduction - C" href="gmap-395\introduction\gmap-395-introduction-c.html" class="internal-link" target="_self" rel="noopener nofollow">Module IC: Node-Based Workflows Introduction</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - SU25 - Theme" data-href="GMAP 395 - SU25 - Theme" href="gmap-395\gmap-395-su25-theme.html" class="internal-link" target="_self" rel="noopener nofollow">Course Theme</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Legacy - Week 1 Video</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Legacy - Week 1 Slides</a><br><br><br>
+<br>The relationship between games, design, and play. (Lecture)
 <br>Introduction to technical art for games.
 <br>Fundamentals of procedural and modular workflows.
 <br><br><br>By the end of this module, you will:<br>
@@ -16,7 +383,7 @@
 <br><a data-tooltip-position="top" aria-label="https://www.screenskills.com/job-profiles/browse/games/technical-art/technical-artist/" rel="noopener nofollow" class="external-link" href="https://www.screenskills.com/job-profiles/browse/games/technical-art/technical-artist/" target="_blank">What is Technical Artist?</a>
 <br><a data-tooltip-position="top" aria-label="https://www.autodesk.com/solutions/proceduralism" rel="noopener nofollow" class="external-link" href="https://www.autodesk.com/solutions/proceduralism" target="_blank">Procedural Workflows Explained</a>
 <br><a data-tooltip-position="top" aria-label="https://www.void1gaming.com/post/3-pillars-in-game-engineering-intro-to-modular-game-design" rel="noopener nofollow" class="external-link" href="https://www.void1gaming.com/post/3-pillars-in-game-engineering-intro-to-modular-game-design" target="_blank">Introduction to Modular Design</a>
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\introduction\gmap-395-introduction-and-overview.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md</guid><pubDate>Wed, 08 Jan 2025 23:27:36 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 1 - Slides]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\introduction\gmap-395-introduction-and-overview.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md</guid><pubDate>Mon, 23 Jun 2025 21:54:49 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 1 - Slides]]></title><description><![CDATA[ 
  <br><br><br><br><br>
 <br>Purpose: 
 
@@ -354,7 +721,7 @@
 <br>DDE: Ideal for refining player experiences through testing and iteration.
 
 
-<br><br><br>
+<br><br><br><br><br><br><br>
 <br>
 Definition:
 
@@ -638,7 +1005,7 @@ Key Roles:
 How does understanding the development process help you approach game design or technical art critically?<br>
 What trends or common tools did you notice across different games?<br>
 How might these approaches inspire your work as a game designer or artist?
-]]></description><link>gmap-395\introduction\gmap-395-wk-1-slides.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md</guid><pubDate>Tue, 07 Jan 2025 15:54:10 GMT</pubDate><enclosure url="gmap-395\introduction\design-everyday-things.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\introduction\design-everyday-things.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 1 - Video Lecture]]></title><description><![CDATA[ 
+]]></description><link>gmap-395\introduction\gmap-395-wk-1-slides.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md</guid><pubDate>Mon, 23 Jun 2025 21:26:14 GMT</pubDate><enclosure url="gmap-395\introduction\design-everyday-things.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\introduction\design-everyday-things.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 1 - Video Lecture]]></title><description><![CDATA[ 
  <br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_AsN9Rcq9MtNowLIQ?e=V4Sh1W" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_AsN9Rcq9MtNowLIQ?e=V4Sh1W" target="_blank">Video link if above does not play in browser</a>]]></description><link>gmap-395\introduction\gmap-395-wk-1-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Video Lecture.md</guid><pubDate>Wed, 08 Jan 2025 23:44:40 GMT</pubDate></item><item><title><![CDATA[Media]]></title><description><![CDATA[ 
  ]]></description><link>gmap-395\module-1\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 1/Media/Media.md</guid><pubDate>Mon, 20 Jan 2025 19:16:35 GMT</pubDate></item><item><title><![CDATA[Assignment 1: Procedural Game Art and Lighting Systems]]></title><description><![CDATA[ 
  <br><br><br>Assignment Overview  
@@ -1173,8 +1540,8 @@ Section Recap: Boolean operations allow us to create complex shapes by combining
 [gmap395_tut1_p3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EtzgD0ilFKv0Moww?e=JO4ROa)<br><br><br>Optimization and Export
 We will do the optimization and mesh export in week 3 before importing to Unity. Just be sure to have some procedural game art ready to go.
 <br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Tutorial.md</guid><pubDate>Mon, 20 Jan 2025 19:16:51 GMT</pubDate><enclosure url="gmap-395\module-1\media\395tut1portal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-1\media\395tut1portal.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 2 - Video Lecture]]></title><description><![CDATA[ 
- <br><br><a data-tooltip-position="top" aria-label="[gmap395_wk2.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" rel="noopener nofollow" class="external-link" href="[gmap395_wk2.mp4](https:\\1drv.ms\v\s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" target="_blank">Video Link</a><br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md</guid><pubDate>Fri, 17 Jan 2025 19:49:10 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 3 - Slides]]></title><description><![CDATA[ 
- <br><br><br><br><a data-tooltip-position="top" aria-label="[gmap395_wk3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_FWfbFNa6ud6HX0Eg?e=LHB4am)" rel="noopener nofollow" class="external-link" href="[gmap395_wk3.mp4](https:\\1drv.ms\v\s!AqQzGx8l4o2wk_FWfbFNa6ud6HX0Eg?e=LHB4am)" target="_blank">Week 3 Video Lecture Link</a>
+ <br><br><a data-tooltip-position="top" aria-label="[gmap395_wk2.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" rel="noopener nofollow" class="external-link" href=".\[gmap395_wk2.mp4](https:\\1drv.ms\v\s!AqQzGx8l4o2wk_EnKYcs_oFzmZB0Sg?e=abV2gc)" target="_blank">Video Link</a><br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-wk-2-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - WK 2 - Video Lecture.md</guid><pubDate>Fri, 17 Jan 2025 19:49:10 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 3 - Slides]]></title><description><![CDATA[ 
+ <br><br><br><br><a data-tooltip-position="top" aria-label="[gmap395_wk3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_FWfbFNa6ud6HX0Eg?e=LHB4am)" rel="noopener nofollow" class="external-link" href=".\[gmap395_wk3.mp4](https:\\1drv.ms\v\s!AqQzGx8l4o2wk_FWfbFNa6ud6HX0Eg?e=LHB4am)" target="_blank">Week 3 Video Lecture Link</a>
 
 <br><br><br>
 <br>Purpose of Lighting:
@@ -5337,7 +5704,89 @@ For each module there are a set of Requirements that must be met for every modul
 <br>Cohesion: Visual and thematic consistency throughout the project.
 <br>Polish: Overall quality and refinement of the interactive experience.
 <br>Presentation: Clarity and professionalism in the playthrough video and postmortem document.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Mon, 03 Mar 2025 21:06:51 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Mon, 03 Mar 2025 21:06:51 GMT</pubDate></item><item><title><![CDATA[Course Theme: So What About Tomorrow?]]></title><description><![CDATA[ 
+ <br><br>Theme Overview So What About Tomorrow? is an open-ended exploration of temporal concepts, technological evolution, and speculative futures. 
+This theme invites students to consider relationships between past, present, and future through their art and technical work. 
+Rather than prescriptive guidelines, this framework offers creative starting points that can be interpreted broadly across many visual styles and conceptual approaches.
+<br><br><br><br>"So What About Tomorrow?" can be approached from multiple angles:<br>
+<br>How does technology evolve and change over time?
+<br>What stories do objects tell about their past and potential futures?
+<br>How do we visualize concepts of progress, decay, hope, or uncertainty?
+<br>What aesthetic choices communicate temporal relationships?
+<br><br>Students may explore any aspect of "tomorrow" that interests them:<br>
+<br>Technological Speculation: Future tools, interfaces, or environments
+<br>Temporal Archaeology: Past technologies reimagined or rediscovered
+<br>Evolution and Change: Transformation processes over time
+<br>Utopian/Dystopian Visions: Optimistic or cautionary futures
+<br>Cyclical Time: Recurring patterns or circular progression
+<br>Personal Tomorrow: Individual hopes, fears, or expectations
+<br><br><br>Visual Suggestions (Not Requirements) These are starting points for inspiration - students are encouraged to develop their own visual language that serves their interpretation of the theme.<br><br>One possible interpretation focusing on technological archaeology<br><br>
+<br>Primary Colors: Deep blues (#0A1628), steel grays (#2C3E50), charcoal blacks (#1C1C1C)
+<br>#0A1628#2C3E50#1C1C1C<br>
+<br>Accent Colors: Electric cyan (#00D4FF), plasma purple (#8A2BE2), warning amber (#FF8C00)
+<br>#00D4FF#8A2BE2#FF8C00<br>
+<br>Organic Elements: Copper patina (#B87333), moss green (#228B22), rust orange (#CC5500)
+<br>#B87333#228B22#CC5500<br><br>
+<br>Temporal Layering: Showing multiple time periods in one object
+<br>Wear and Evolution: How materials change and age over time
+<br>Synthetic vs. Organic: Contrasting artificial and natural elements
+<br>Information as Physical: Data visualization made tangible
+<br><br>
+<br>Contrast: Sharp differences between old and new elements
+<br>Revelation: Lighting that discovers or uncovers hidden details
+<br>Atmosphere: Environmental mood that suggests time passage
+<br>Focus: Directing attention to key temporal relationships
+<br><br><br><br>Core Question: How can "So What About Tomorrow?" guide the creation of a cohesive, interactive game art experience?<br><br>Scene Foundation: How do we create modular systems that tell temporal stories?<br>
+<br>Procedural Systems: What rules can generate assets that show change or evolution over time?
+<br>Modular Architecture: How can components be recombined to suggest different temporal states?
+<br>Dynamic Lighting: What lighting changes could represent the passage of time or reveal hidden temporal layers?
+<br>Environmental Storytelling: How do procedural elements and lighting work together to communicate your vision of "tomorrow"?
+<br><br>Surface Narratives: How do materials express temporal concepts through interaction?<br>
+<br>Dynamic Shaders: What material properties change to show time, use, or environmental response?
+<br>Interactive Materials: How do surfaces respond to player interaction to reveal temporal stories?
+<br>Visual Consistency: How do custom shaders maintain your interpretation of the theme across different objects?
+<br>Performance Integration: How do shader effects enhance the scene without breaking real-time performance?
+<br><br>Atmospheric Storytelling: How do effects systems bring temporal concepts to life?<br>
+<br>Environmental Integration: What particle systems enhance your scene's temporal atmosphere?
+<br>Reactive Systems: How do effects respond to player interaction or environmental changes?
+<br>Modular Effects: How can particle systems be reused and recombined for efficiency?
+<br>Narrative Support: How do effects reinforce your interpretation of "tomorrow" without overwhelming the scene?
+<br><br>Experiential Presentation: How do camera systems guide the player through your temporal narrative?<br>
+<br>Dynamic Perspective: What camera movements or transitions reveal different aspects of your "tomorrow"?
+<br>Interactive Focus: How does the camera system respond to player interaction to highlight temporal elements?
+<br>Post-Processing Integration: How do visual effects enhance the mood and readability of your temporal concept?
+<br>Cohesive Experience: How do camera and post-processing unify all other technical elements into a single vision?
+<br><br>Scene Cohesion: How do all technical elements work together to create a unified interactive experience?<br>
+<br>Theme Unity: How do procedural assets, shaders, effects, and camera work together to express your vision of "tomorrow"?
+<br>Interactive Flow: How does player interaction reveal different aspects of your temporal concept across all systems?
+<br>Technical Harmony: How do performance considerations influence creative decisions while maintaining thematic integrity?
+<br>Portfolio Presentation: How does your final scene demonstrate both technical competency and personal artistic vision?
+<br><br><br><br>
+<br>Technical Skills (60%): Competency in procedural workflows, regardless of aesthetic
+<br>Creative Application (25%): Thoughtful interpretation of theme through personal lens
+<br>Professional Practice (15%): Documentation, presentation, and critique participation
+<br><br>
+<br>Process Discussion: How did temporal concepts influence technical decisions?
+<br>Conceptual Development: What aspects of "tomorrow" are you exploring?
+<br>Peer Learning: How do different interpretations inspire new approaches?
+<br>Technical Problem-Solving: How did theme requirements challenge or support skill development?
+<br><br><br><br>This open-ended approach can be adapted to different concepts:<br>
+<br>"What If...?" - Speculative design and alternative realities
+<br>"Where We've Been" - Historical interpretation and archaeological imagination
+<br>"In Between Spaces" - Liminal areas and transitional concepts
+<br>"The Invisible Made Visible" - Revealing hidden systems and processes
+<br><br>
+<br>Core framework: Open question + suggested approaches + student freedom
+<br>Technical integration: Theme serves skill development, not the reverse
+<br>Assessment consistency: Evaluation focuses on competency and growth
+<br>Cultural inclusivity: Themes accommodate diverse perspectives and interpretations
+<br><br><br><br>
+<br>Science Fiction: Literature, film, and games exploring future concepts
+<br>Design Movements: Historical approaches to imagining tomorrow
+<br>Cultural Futurism: Different cultural perspectives on time and progress
+<br>Technology Evolution: How tools and interfaces have changed over time
+<br>Personal Reflection: Individual hopes, fears, and expectations about change
+<br><br><br>Return to Main Page: <a data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Welcome</a>]]></description><link>gmap-395\gmap-395-su25-theme.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - SU25 - Theme.md</guid><pubDate>Mon, 23 Jun 2025 21:42:19 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
  <br><br><br><br>Instructor Details
 
 <br>Name: Darren Woodland, Jr.
@@ -5346,7 +5795,8 @@ For each module there are a set of Requirements that must be met for every modul
 
 <br><br>Classroom Info
 
-<br>Location: URBN 252
+<br>Term: Summer Quarter 2025
+<br>Location: URBN 250
 <br>Students will use Drexel Learn and their @drexel.edu emails for all class communication.
 
 <br><br>This course introduces students to procedural real-time game systems and technical art production. Students will explore game engine based workflows, gaining proficiency in shaders, particle systems, modeling, and visual effects. The course emphasizes real-time systems and modular design techniques.<br><br>Key Capabilities
@@ -5356,16 +5806,21 @@ For each module there are a set of Requirements that must be met for every modul
 <br>Particle and image effects
 <br>Lighting, camera techniques, and post-processing
 
+<br><br>Learning Approach
+Studio-Based Learning: Class time prioritizes hands-on practice, peer collaboration, and instructor guidance.<br>
+Modular Skill Development: Content is organized into focused, digestible modules that build progressively toward professional competency.<br>
+Critique Culture: Weekly progress reviews emphasizing creative growth through peer and instructor feedback.
 <br><br>By the end of the course, students will demonstrate skills in:<br>
 <br>🤖 Procedural modeling
 <br>💡 Scene lighting and camera effects
 <br>✨ VFX creation
 <br>🖌️ Shader and material development
 <br>🔄 Technical workflows for real-time game art
+<br>🎯 Professional critique and feedback skills
 <br><br><br><br>Useful Links
 
-<br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>
-<br><a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender 4.3 Download</a>
+<br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>(Lab Version) or 2022.3.45LTS(latest)
+<br><a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender 4.4 Download</a>
 <br><a data-tooltip-position="top" aria-label="https://code.visualstudio.com/" rel="noopener nofollow" class="external-link" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> or your favorite IDE (must support C# + Python)
 
 <br><br>Useful Links
@@ -5375,10 +5830,17 @@ For each module there are a set of Requirements that must be met for every modul
 <br><a data-tooltip-position="top" aria-label="https://www.gdcvault.com/" rel="noopener nofollow" class="external-link" href="https://www.gdcvault.com/" target="_blank">GDC Vault</a>
 <br><a data-tooltip-position="top" aria-label="https://freelibrary.org/" rel="noopener nofollow" class="external-link" href="https://freelibrary.org/" target="_blank">LinkedIn Learning via Free Library of Philadelphia</a>
 
-<br><br><br><br>Weeks 1-3 Highlights
+<br><br><br><br>Week 1 Highlights
+
+<br>Syllabus, Course Structure, and Important Links
+<br>Tool setup and workflow establishment
+<br>Weekly check-ins and peer feedback
+<br>Course Theme 
+
+<br><br>Weeks 2-3 Highlights
 
 <br>Fundamentals of procedural modeling
-<br>Modular workflows
+<br>Modular workflows, node-based workflows, and DAGs
 <br>Lighting systems focusing on geometry and light interplay
 
 <br>Assignment 1: Create a modular game asset and integrate lighting systems.<br>
@@ -5386,35 +5848,44 @@ Due: Week 3<br><br>Weeks 4-5 Highlights
 
 <br>Custom shader creation using code and visual scripting
 <br>Application of shaders to procedural assets for real-time interactivity
+<br>Material properties and real-time rendering
 
 <br>Assignment 2: Develop shaders for the asset created in Assignment 1.<br>
 Due: Week 5<br><br>Weeks 6-7 Highlights
 
+<br>VFX design principles and workflows
 <br>Particle systems using visual scripting and component-based systems
 <br>Creating interactive effects tied to game mechanics
 
 <br>Assignment 3: Add particle and dynamic visual effects to the modular asset.<br>
-Due: Week 7<br><br>Week 8 Highlights
+Due: Week 7<br><br>Week 8-9 Highlights
 
 <br>Camera manipulation techniques
 <br>Post-processing pipelines for polish and visual enhancement
+<br>Performance and visual quality balancing
 
 <br>Assignment 4: Implement camera effects and post-processing for the asset.<br>
-Due: Week 8<br><br>Weeks 9-11 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.<br>Final Deliverables:<br>
+Due: Week 8<br><br>Weeks 10-11 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.<br>Final Deliverables:<br>
 <br>🎯 Cohesive scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
-<br><br><br><br><br><br>Grading Breakdown
+<br>🎥 Presentation videos with technical breakdown
+<br><br><br>
+<br>Check-in &amp; Critique: Weekly progress presentations and peer feedback
+<br>Mini-Lecture &amp; Demo: Just-in-time instruction based on current module
+<br>Studio Practice: Hands-on work with instructor guidance and peer collaboration
+<br>Wrap-up &amp; Next Steps: Preview upcoming content and assignment clarification
+<br><br><br><br><br>Grading Breakdown
 
 <br>35% Assignments: Bi-weekly assignments focusing on module topics.
 <br>25% Final Project: Integration of course concepts into a cohesive artifact.
 <br>25% Participation and Professionalism: Engagement, attendance, and critique contributions.
-<br>15% Weekly Quizzes: Short assessments via Drexel Learn to reinforce key concepts.
+<br>15% Weekly Progress Reviews: Short assessments via Drexel Learn to reinforce key concepts.
 
 <br><br><br><br>Classroom Activities
 In order to foster a more optimal learning environment and ensure respect for all participants, the following policy is in effect during lectures, live-coding, and both guest and student presentations:<br>
 - No personal electronic devices: Cell phones, tablets, laptops, and other devices must be turned off and put away unless explicitly permitted for note-taking or learning activity use.<br>
 - No non-course-related activities: Gaming, video watching, social media use, or any other non-course-related activities are strictly prohibited.<br>
 - Acceptable learning activities: Note-taking (electronic or handwritten) and productive doodling/drawing related to course content are permitted and encouraged.<br>
-- Lab sessions: During hands-on lab portions, device use is allowed for course-related work, peer discussions, and instructor engagement.
+- Lab sessions: During hands-on lab portions, device use is allowed for course-related work. Peer discussions, and instructor engagement is strongly encouraged.
 <br>Affects Participation + Professionalism
 Violations of this policy will impact the Participation and Professionalism grade. Multiple offenses may result in a zero (0) for this component of the course grade, without exception.
 <br><br>Cheating and Plagiarism Definitions
@@ -5438,6 +5909,7 @@ Late work incurs a 10% penalty per day.
 <br>Students are allowed one unexcused absence.
 <br>Missing more than one class (unexcused) reduces your grade.
 <br>Each late arrival to class will result in 50% attendance for the day.
+<br>Weekly Progress Reviews are mandatory - missing reviews impact participation grade
 
 <br>Excused Abcense
 Note that an excused absence is defined as one that is the result of a condition or&nbsp;circumstance beyond the student's control, such as illness, a family crisis or&nbsp;emergency, or some other serious and important personal circumstance.
@@ -5451,7 +5923,12 @@ Artificial intelligence (AI) tools, such as large language models (e.g., ChatGPT
 
 <br>Use and Citation
 The use of AI tools is not mandatory. Students may opt out of using AI assistants entirely if they prefer to complete all work without AI assistance.<br>
-When AI tools are used, students must clearly indicate which portions of their work were created with AI assistance and which tools were used.
+When AI tools are used students must:
+
+<br>Clearly indicate which portions of their work were created with AI assistance and which tools were used
+<br>Be able to explain and defend all submitted work
+<br>Be able to demonstrate original creative decision-making and artistic voice
+
 <br>Use and Understanding
 Regardless of AI usage, students are responsible for understanding and being able to explain all aspects of their submitted work.
 <br><br>Course Changes to the Course
@@ -5460,7 +5937,7 @@ It is very important that each student has read and understood all the materials
 
 <br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
 
-<br><br><br><br><br><br><br><br><br><br>Instructor Notes: Some smaller incremental updates or changes to the syllabus may not result in a notification via Drexel Learn or email.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Tue, 14 Jan 2025 00:30:33 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Mon, 23 Jun 2025 20:13:52 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
  <br><br>About the Course
 GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on concepts and techniques related to technical art for games. 
 Dive into real-time systems and game engine workflows with topics like:
@@ -5471,7 +5948,7 @@ Dive into real-time systems and game engine workflows with topics like:
 <br>Camera Effects: Dynamic cameras and post-processing.
 
 Whether you're aiming to focus on creating visually stunning worlds or procedural game systems, this course equips you with the tools to succeed.
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 <br>Instructor: Darren Woodland, Jr.  
 <br>Office Hours (by appointment): <a data-tooltip-position="top" aria-label="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" rel="noopener nofollow" class="external-link" href="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" target="_blank">Microsoft Bookings</a> or email.
 <br><br><br>For questions or concerns, feel free to reach out:  <br>
@@ -5508,14 +5985,7 @@ Whether you're aiming to focus on creating visually stunning worlds or procedura
 <br>Blender: <a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Download Link</a>
 <br>Visual Studio Code: <a data-tooltip-position="top" aria-label="https://code.visualstudio.com/" rel="noopener nofollow" class="external-link" href="https://code.visualstudio.com/" target="_blank">Download Link</a>
 
-<br><br><br>"Learn to merge art with technology in innovative ways."
-By the end of this course, you'll:
-
-<br>Build visually compelling and efficient game environments.
-<br>Understand the interplay of art and programming.
-<br>Gain a portfolio-ready project demonstrating your technical art skills.
-
-<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Fri, 21 Mar 2025 01:21:42 GMT</pubDate></item><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
+<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Mon, 23 Jun 2025 21:55:50 GMT</pubDate></item><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
  <br><br>About This Page
 Welcome to the landing page for the courses I teach! This includes courses from both:
 

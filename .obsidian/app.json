@@ -4,8 +4,8 @@
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,
-    "margin": "0",
-    "downscalePercent": 85
+    "margin": "2",
+    "downscalePercent": 75
   },
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "./"
