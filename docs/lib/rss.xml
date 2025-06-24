@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 23 Jun 2025 21:57:49 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 23 Jun 2025 21:56:27 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 24 Jun 2025 20:49:59 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 24 Jun 2025 20:49:12 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Time Required: 5-7 minutes<br>
 Learning Focus: Understanding procedural workflows and algorithmic content creation <br>
@@ -369,7 +369,8 @@ Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Introduction an
  <br><br><br>This introductory module sets the stage for the quarter by exploring the core ideas of games, design, and play while introducing technical art and procedural workflows as key methodologies in modern game development.<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Introduction - A" data-href="GMAP 395 - Introduction - A" href="gmap-395\introduction\gmap-395-introduction-a.html" class="internal-link" target="_self" rel="noopener nofollow">Module IA: What is Technical Art?</a><br>
 <a data-tooltip-position="top" aria-label="GAMP 395 - Introduction - B" data-href="GAMP 395 - Introduction - B" href="gmap-395\introduction\gamp-395-introduction-b.html" class="internal-link" target="_self" rel="noopener nofollow">Module IB: Procedural Thinking Basics</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - Introduction - C" data-href="GMAP 395 - Introduction - C" href="gmap-395\introduction\gmap-395-introduction-c.html" class="internal-link" target="_self" rel="noopener nofollow">Module IC: Node-Based Workflows Introduction</a><br>
-<a data-tooltip-position="top" aria-label="GMAP 395 - SU25 - Theme" data-href="GMAP 395 - SU25 - Theme" href="gmap-395\gmap-395-su25-theme.html" class="internal-link" target="_self" rel="noopener nofollow">Course Theme</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Legacy - Week 1 Video</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - SU25 - Theme" data-href="GMAP 395 - SU25 - Theme" href="gmap-395\gmap-395-su25-theme.html" class="internal-link" target="_self" rel="noopener nofollow">Course Theme</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Weekly - 1" data-href="GMAP 395 - Weekly - 1" href="gmap-395\weeklies\gmap-395-weekly-1.html" class="internal-link" target="_self" rel="noopener nofollow">Weekly Critique - 1</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Video Lecture" data-href="GMAP 395 - WK 1 - Video Lecture" href="gmap-395\introduction\gmap-395-wk-1-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">Legacy - Week 1 Video</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 1 - Slides" data-href="GMAP 395 - WK 1 - Slides" href="gmap-395\introduction\gmap-395-wk-1-slides.html" class="internal-link" target="_self" rel="noopener nofollow">Legacy - Week 1 Slides</a><br><br><br>
 <br>The relationship between games, design, and play. (Lecture)
 <br>Introduction to technical art for games.
@@ -383,7 +384,7 @@ Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Introduction an
 <br><a data-tooltip-position="top" aria-label="https://www.screenskills.com/job-profiles/browse/games/technical-art/technical-artist/" rel="noopener nofollow" class="external-link" href="https://www.screenskills.com/job-profiles/browse/games/technical-art/technical-artist/" target="_blank">What is Technical Artist?</a>
 <br><a data-tooltip-position="top" aria-label="https://www.autodesk.com/solutions/proceduralism" rel="noopener nofollow" class="external-link" href="https://www.autodesk.com/solutions/proceduralism" target="_blank">Procedural Workflows Explained</a>
 <br><a data-tooltip-position="top" aria-label="https://www.void1gaming.com/post/3-pillars-in-game-engineering-intro-to-modular-game-design" rel="noopener nofollow" class="external-link" href="https://www.void1gaming.com/post/3-pillars-in-game-engineering-intro-to-modular-game-design" target="_blank">Introduction to Modular Design</a>
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\introduction\gmap-395-introduction-and-overview.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md</guid><pubDate>Mon, 23 Jun 2025 21:54:49 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 1 - Slides]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\introduction\gmap-395-introduction-and-overview.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md</guid><pubDate>Tue, 24 Jun 2025 20:33:29 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 1 - Slides]]></title><description><![CDATA[ 
  <br><br><br><br><br>
 <br>Purpose: 
 
@@ -508,7 +509,7 @@ Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Introduction an
 <br>Designing games requires the same care and consideration as designing everyday objects.
 
 
-<br><img alt="GMAP 395/Introduction/design-everyday-things.jpg" src="gmap-395\introduction\design-everyday-things.jpg"><br>--<br><br>Key principles from The Design of Everyday Things<br>
+<br><img alt="GMAP 395/Introduction/media/design-everyday-things.jpg" src="gmap-395\introduction\media\design-everyday-things.jpg"><br>--<br><br>Key principles from The Design of Everyday Things<br>
 <br>Affordances:
 
 <br>Elements that suggest how they should be used.
@@ -840,7 +841,7 @@ Key Roles:
 <br>Logic and gameplay systems in visual scripting tools.
 
 
-<br><a data-href="GMAP395-DAGsNodes.excalidraw" href="gmap-395\introduction\gmap395-dagsnodes.excalidraw.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP395-DAGsNodes.excalidraw</a><br>--<br><br>
+<br><a data-href="GMAP395-DAGsNodes.excalidraw" href="gmap-395\introduction\media\gmap395-dagsnodes.excalidraw.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP395-DAGsNodes.excalidraw</a><br>--<br><br>
 <br>Houdini:
 
 <br>Procedural modeling, VFX, and simulations using node-based workflows.
@@ -1005,7 +1006,7 @@ Key Roles:
 How does understanding the development process help you approach game design or technical art critically?<br>
 What trends or common tools did you notice across different games?<br>
 How might these approaches inspire your work as a game designer or artist?
-]]></description><link>gmap-395\introduction\gmap-395-wk-1-slides.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md</guid><pubDate>Mon, 23 Jun 2025 21:26:14 GMT</pubDate><enclosure url="gmap-395\introduction\design-everyday-things.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\introduction\design-everyday-things.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 1 - Video Lecture]]></title><description><![CDATA[ 
+]]></description><link>gmap-395\introduction\gmap-395-wk-1-slides.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md</guid><pubDate>Tue, 24 Jun 2025 20:47:59 GMT</pubDate><enclosure url="gmap-395\introduction\media\design-everyday-things.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\introduction\media\design-everyday-things.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 1 - Video Lecture]]></title><description><![CDATA[ 
  <br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_AsN9Rcq9MtNowLIQ?e=V4Sh1W" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_AsN9Rcq9MtNowLIQ?e=V4Sh1W" target="_blank">Video link if above does not play in browser</a>]]></description><link>gmap-395\introduction\gmap-395-wk-1-video-lecture.html</link><guid isPermaLink="false">GMAP 395/Introduction/GMAP 395 - WK 1 - Video Lecture.md</guid><pubDate>Wed, 08 Jan 2025 23:44:40 GMT</pubDate></item><item><title><![CDATA[Media]]></title><description><![CDATA[ 
  ]]></description><link>gmap-395\module-1\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 1/Media/Media.md</guid><pubDate>Mon, 20 Jan 2025 19:16:35 GMT</pubDate></item><item><title><![CDATA[Assignment 1: Procedural Game Art and Lighting Systems]]></title><description><![CDATA[ 
  <br><br><br>Assignment Overview  
@@ -5604,7 +5605,147 @@ What could be improved?
 
 Creative suggestion:  
 - What if you added a slight distortion effect around the artifact, like it’s warping space around it?  
-<br>Remember: Your feedback should be specific and constructive—help your peers refine their projects!<br><br>]]></description><link>gmap-395\module-4\six-thinking-hats-giving-good-game-design-feedback.html</link><guid isPermaLink="false">GMAP 395/Module 4/Six Thinking Hats Giving Good Game Design Feedback.md</guid><pubDate>Sun, 23 Feb 2025 18:17:21 GMT</pubDate></item><item><title><![CDATA[🕹️ <strong>*GMAP 395: Final Project Guide</strong>]]></title><description><![CDATA[ 
+<br>Remember: Your feedback should be specific and constructive—help your peers refine their projects!<br><br>]]></description><link>gmap-395\module-4\six-thinking-hats-giving-good-game-design-feedback.html</link><guid isPermaLink="false">GMAP 395/Module 4/Six Thinking Hats Giving Good Game Design Feedback.md</guid><pubDate>Sun, 23 Feb 2025 18:17:21 GMT</pubDate></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
+ <br><br>Overview 
+Purpose: Develop your quarter-long project concept through thematic exploration, skill goal-setting, and procedural thinking<br>
+Format: Individual presentation (3-4 minutes) + peer feedback<br>
+Due: Week 2 class session
+<br><br><br>This week's critique focuses on preproduction planning - the critical thinking and research phase that sets up successful projects. You'll present your initial project vision by connecting the course theme with your personal learning goals and procedural thinking approach.<br><br><br><br>Write 2-3 sentences explaining your personal interpretation of the course theme.<br>Consider questions like:<br>
+<br>What aspect of the theme interests you most?
+<br>What mood or feeling do you want to convey through your work?
+<br>How does the theme connect to your personal interests or artistic vision?
+<br><br>Gather visual references that inspire your interpretation of the course theme.<br>Reference Categories to Consider:<br>
+<br>Games: Environments, interfaces, characters that connect to the course theme
+<br>Film/TV: Production design, visual effects, cinematography relevant to the theme
+<br>Architecture: Design approaches that relate to thematic concepts
+<br>Technology: Concept art, industrial design, interface design
+<br>Art/Design: Any visual work that explores the course theme or related concepts
+<br>Strategic Selection Criteria:<br>
+<br>Procedural Potential: Look for elements that seem like they could be created through rules or algorithms
+<br>Modular Possibilities: Identify systems that appear to be built from reusable components
+<br>*Technical Interest: Choose references that connect to skills you want to develop*
+<br><br><br><br>Identify 2-3 specific technical art skills you want to develop this quarter.<br>Skill Categories to Consider:<br>
+<br>Procedural Modeling: Geometry nodes, algorithmic content creation, automated workflows
+<br>Lighting Systems: Dynamic lighting, atmosphere creation, cinematic techniques
+<br>Shader Development: Custom materials, interactive surfaces, visual effects
+<br>Particle Systems: Environmental effects, interactive dynamics, performance optimization
+<br>Camera &amp; Post-Processing: Cinematic presentation, interactive cameras, visual polish
+<br>For Each Skill Goal, Consider:<br>
+<br>Why does this skill interest you?
+<br>How does it connect to your theme interpretation?
+<br>What specific aspect or technique do you want to explore?
+<br>How might this skill appear in your final project?
+<br><br><br><br>Based on your theme interpretation and skill goals, propose a preliminary project concept.<br>Consider the Final Project Requirements:<br>
+<br>Interactive Scene: Unity-based experience showcasing your chosen module specialization
+<br>Module Focus: Which of the four modules (Modeling+Lighting, Shaders, Effects, Camera) most interests you for deep exploration?
+<br>Integration: How will all four modules work together in your scene?
+<br>Project Scope Questions:<br>
+<br>What type of environment, object, or experience do you want to create?
+<br>How will players interact with your scene?
+<br>What story or concept will your technical choices communicate?
+<br>How ambitious is this vision for an 11-week timeline?
+<br><br><br><br>Choose one aspect of your project concept and break it down into procedural steps.<br>Process:<br>
+<br>
+Identify a System: Pick one element that could benefit from procedural/algorithmic approaches (e.g., environment generation, material variation, particle behavior, camera movement)
+
+<br>
+Map the Logic: Write out the step-by-step process in "pseudocode" or simple logic:
+Example: Abandoned Tech Panel System
+- Start with: Base wall surface
+- Add: Grid of potential panel locations
+- Rule: 70% chance each location gets a panel
+- If panel: Choose from 3 panel types randomly
+- If damaged: Add rust/wear based on proximity to water sources
+- Add: Flickering lights with 30% failure rate
+
+
+<br>
+Consider Interactions: How might player interaction or environmental changes affect this system?
+
+<br>Alternative Examples:<br>
+<br>Material Aging: How surfaces change over time based on use patterns
+<br>Lighting Transitions: Rules for day/night cycles or mood changes
+<br>Particle Responses: How effects react to player presence or environmental triggers
+<br>Camera Behavior: Logic for focusing on points of interest or following player actions
+<br><br><br><br>Present your preproduction research covering:<br>
+<br>Theme Interpretation
+
+<br>Show 3-4 key mood board references
+<br>Explain your personal interpretation of the course theme
+
+
+<br>Skill Goals
+
+<br>Share your 2-3 technical development objectives
+<br>Connect them to your theme and references
+
+
+<br>Project Concept
+
+<br>Describe your preliminary project vision
+<br>Explain which module you're most interested in specializing in
+<br>Show how theme, skills, and concept connect
+
+
+<br>Procedural Thinking
+
+<br>Walk through your logic flow exercise
+<br>Explain the system you mapped out and why
+
+
+<br><br>Using the <a data-tooltip-position="top" aria-label="https://www.bitesizelearning.co.uk/resources/six-thinking-hats-technique#:~:text=The classic Six Thinking Hats,of perspectives to be heard." rel="noopener nofollow" class="external-link" href="https://www.bitesizelearning.co.uk/resources/six-thinking-hats-technique#:~:text=The%20classic%20Six%20Thinking%20Hats,of%20perspectives%20to%20be%20heard." target="_blank">Six Thinking Hats method</a>, provide feedback from different perspectives:<br>⚪ White Hat - Facts &amp; Information<br>
+<br>What additional references, techniques, or research might help?
+<br>Are there specific technical resources or examples to suggest?<br>
+🔴 Red Hat - Emotional Response
+<br>What's your gut reaction to this project concept?
+<br>What excites or concerns you about this direction?<br>
+⚫ Black Hat - Critical Analysis
+<br>What potential challenges or risks do you see?
+<br>Are there technical or scope limitations to consider?<br>
+💛 Yellow Hat - Positive Assessment
+<br>What strengths and opportunities does this concept offer?
+<br>How does this approach play to the presenter's interests or skills?<br>
+🔵 Blue Hat - Process &amp; Structure
+<br>Is the project concept clear and well-organized?
+<br>How effectively do the theme, skills, and technical approach connect?<br>
+🟢 Green Hat - Creative Alternatives
+<br>What creative variations or alternative approaches could be explored?
+<br>How might this concept be pushed further or in unexpected directions?
+<br><br><br><br>
+<br>Research Quality: Thoughtful selection and variety of references
+<br>Self-Reflection: Clear articulation of learning goals and interests
+<br>Planning Depth: Evidence of strategic thinking about project scope and approach
+<br><br>
+<br>Theme Connection: Strong personal interpretation of the course theme
+<br>Technical Integration: Realistic and specific connection between skills and concept
+<br>Project Viability: Appropriate scope and clear direction for quarter-long development
+<br><br>
+<br>Logic Clarity: Clear breakdown of systematic/algorithmic thinking
+<br>Creative Application: Innovative or thoughtful approach to procedural solutions
+<br>Implementation Potential: Realistic understanding of how logic could be executed
+<br><br><br><br>
+<br>Mood board: 10+ references organized thematically
+<br>Written summary: Theme interpretation + skill goals + project concept (1 page max)
+<br>Logic flow diagram: Visual or written breakdown of one procedural system
+<br><br>
+<br>Post your materials in your individual thread for feedback
+<br>Include any questions about technical implementation or project scope
+<br>Respond to *3* peer posts with constructive feedback and suggestions
+<br><br><br>Based on this week's presentations, we'll dive into procedural modeling fundamentals and begin developing the technical skills you've identified. Come prepared to start building!<br>Next Steps:<br>
+<br>Refine your project concept based on feedback
+<br>Begin gathering technical references for your chosen specialization
+<br>Prepare questions about procedural modeling techniques
+<br><br>Success Tips
+
+<br>Be specific rather than vague about your goals and concepts
+<br>Connect everything - theme, skills, and project should reinforce each other
+<br>Think systematically - break complex ideas into manageable procedural steps
+<br>Stay curious - use this as an opportunity to explore new directions
+
+<br>Navigation 
+Return to: <a data-href="GMAP 395 - Introduction and Overview" href="gmap-395\introduction\gmap-395-introduction-and-overview.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Introduction and Overview</a><br>
+Return to: <a data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Welcome</a>  
+]]></description><link>gmap-395\weeklies\gmap-395-weekly-1.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md</guid><pubDate>Tue, 24 Jun 2025 20:26:52 GMT</pubDate></item><item><title><![CDATA[🕹️ <strong>*GMAP 395: Final Project Guide</strong>]]></title><description><![CDATA[ 
  <br><br><br>Students will create a polished, interactive game art piece by focusing on one module of their choice from the course to do the Additional Requirements for. This final deliverable will showcase their technical and artistic skills while demonstrating mastery of the selected module.<br>Requirements vs Additional Requirements
 The "Requirements" for all four modules are required for all projects. You will choose one module to complete the "Additional Requirement" for to complete the final project.
 The "polished game art piece" you will make for the final is the same work you have been doing for the whole quarter. You are not required to make new work, just polish your existing assets.
@@ -5822,6 +5963,7 @@ Critique Culture: Weekly progress reviews emphasizing creative growth through pe
 <br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>(Lab Version) or 2022.3.45LTS(latest)
 <br><a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender 4.4 Download</a>
 <br><a data-tooltip-position="top" aria-label="https://code.visualstudio.com/" rel="noopener nofollow" class="external-link" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> or your favorite IDE (must support C# + Python)
+<br>Screen Recording Software (like OBS)
 
 <br><br>Useful Links
 
@@ -5937,7 +6079,7 @@ It is very important that each student has read and understood all the materials
 
 <br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Mon, 23 Jun 2025 20:13:52 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Tue, 24 Jun 2025 20:36:18 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
  <br><br>About the Course
 GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on concepts and techniques related to technical art for games. 
 Dive into real-time systems and game engine workflows with topics like:
@@ -5979,13 +6121,14 @@ Whether you're aiming to focus on creating visually stunning worlds or procedura
 <br><br>
 <br><a data-href="Legacy Tutorials for Game Audio Implementation and Mixing" href="gmap-395\bonus-proc-audio\legacy-tutorials-for-game-audio-implementation-and-mixing.html" class="internal-link" target="_self" rel="noopener nofollow">Legacy Tutorials for Game Audio Implementation and Mixing</a>
 <br><a data-href="Legacy Presentations on Procedural Audio for Games - SU24" href="gmap-395\bonus-proc-audio\legacy-presentations-on-procedural-audio-for-games-su24.html" class="internal-link" target="_self" rel="noopener nofollow">Legacy Presentations on Procedural Audio for Games - SU24</a>
-<br><br><br>Recommended Software
+<br><br><br><br><br><br>Recommended Software
 
 <br>Unity: <a data-tooltip-position="top" aria-label="https://unity.com/download" rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">Download Link</a>
 <br>Blender: <a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Download Link</a>
 <br>Visual Studio Code: <a data-tooltip-position="top" aria-label="https://code.visualstudio.com/" rel="noopener nofollow" class="external-link" href="https://code.visualstudio.com/" target="_blank">Download Link</a>
+<br>Screen Recording Software: i.e. OBS or Camtasia
 
-<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Mon, 23 Jun 2025 21:55:50 GMT</pubDate></item><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
+<br><br>]]></description><link>gmap-395\gmap-395-welcome.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Welcome.md</guid><pubDate>Tue, 24 Jun 2025 20:33:45 GMT</pubDate></item><item><title><![CDATA[🐲 Drexel Courses List]]></title><description><![CDATA[ 
  <br><br>About This Page
 Welcome to the landing page for the courses I teach! This includes courses from both:
 

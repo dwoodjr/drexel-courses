@@ -70,13 +70,19 @@ For questions or concerns, feel free to reach out:
 - [[Legacy Presentations on Procedural Audio for Games - SU24]]
 
 ---
+## 🦾**Weekly Critiques**
 
+### [[GMAP 395 - Weekly - 1| Weekly Critique - 1]]
+
+
+---
 ## 🛠️ **Tools and Software**
 
 > [!tip] **Recommended Software**
 > - **Unity**: [Download Link](https://unity.com/download)
 > - **Blender**: [Download Link](https://www.blender.org/download/)
 > - **Visual Studio Code**: [Download Link](https://code.visualstudio.com/)
+> - **Screen Recording Software**: i.e. OBS or Camtasia
 
 ---
 ---

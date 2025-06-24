@@ -97,7 +97,7 @@ height: 1080
   - Video games are modern artifacts of daily interaction, much like physical tools or interfaces.
   - Designing games requires the same care and consideration as designing everyday objects.
 
-![[GMAP 395/Introduction/design-everyday-things.jpg]]
+![[GMAP 395/Introduction/media/design-everyday-things.jpg]]
 
 --
 

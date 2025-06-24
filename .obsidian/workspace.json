@@ -50,49 +50,21 @@
             }
           },
           {
-            "id": "bd62c46d209fb048",
+            "id": "976822312ca4f911",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Introduction/GMAP 395 - Introduction - A.md",
+                "file": "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Introduction - A"
-            }
-          },
-          {
-            "id": "c5ab5601d9f6ec89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/Introduction/GAMP 395 - Introduction - B.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GAMP 395 - Introduction - B"
-            }
-          },
-          {
-            "id": "c622d83e668e10f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - Introduction and Overview"
+              "title": "GMAP 395 - Weekly - 1"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -169,7 +141,7 @@
       {
         "id": "93b3ddf4fd75b166",
         "type": "tabs",
-        "dimension": 61.57407407407407,
+        "dimension": 68.7037037037037,
         "children": [
           {
             "id": "0114a2603e0d5248",
@@ -279,7 +251,7 @@
       {
         "id": "654ae1b2ef08042f",
         "type": "tabs",
-        "dimension": 38.425925925925924,
+        "dimension": 31.296296296296294,
         "children": [
           {
             "id": "2b9aa3d6b77b12e1",
@@ -323,17 +295,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "81e14ee526097519",
+  "active": "976822312ca4f911",
   "lastOpenFiles": [
-    "docs/gmap-395/gmap-395-su25-theme.html",
+    "docs/gmap-395/weeklies/gmap-395-weekly-1.html",
+    "docs/gmap-395/weeklies",
     "Index.md",
-    "docs/gmap-395/introduction/gmap-395-introduction-c.html",
-    "docs/gmap-395/introduction/gmap-395-introduction-a.html",
-    "docs/gmap-395/introduction/gamp-395-introduction-b.html",
+    "docs/gmap-395/introduction/media/gmap395-dagsnodes.excalidraw.html",
+    "docs/gmap-395/introduction/media/design-everyday-things.jpg",
+    "docs/gmap-395/introduction/media",
     "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/GMAP 395 - SU25 - Theme.md",
     "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
+    "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
     "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
     "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
     "GMAP 395/Module 4/GMAP 395 - Module 4.md",
@@ -353,14 +327,13 @@
     "GMAP 395/Module 2/GMAP 395 - WK 4 - Slides + Video.md",
     "GMAP 395/Module 2/GMAP 395 - WK 4 - In-Class Lab.md",
     "GMAP 395/Module 2/GMAP 395 - Module 2.md",
-    "GMAP 395/Module 2/media/media.md",
+    "GMAP 395/Introduction/media",
+    "GMAP 395/Weeklies",
+    "docs/gmap-395/gmap-395-su25-theme.html",
+    "docs/gmap-395/introduction/gmap-395-introduction-c.html",
+    "docs/gmap-395/introduction/gmap-395-introduction-a.html",
+    "docs/gmap-395/introduction/gamp-395-introduction-b.html",
     "docs/gmap-395/bonus-proc-audio/legacy-tutorials-for-game-audio-implementation-and-mixing.html",
-    "docs/gmap-395/bonus-proc-audio/legacy-presentations-on-procedural-audio-for-games-su24.html",
-    "docs/gmap-395/bonus-proc-audio/media/media.html",
-    "docs/gmap-395/bonus-proc-audio/media/guide-dynamic-mixing-and-animation-events.pdf",
-    "docs/gmap-395/bonus-proc-audio/media/gmap-395-su24-in-class-lab-unity-audio-techniques.pdf",
-    "docs/gmap-395/bonus-proc-audio/media/10-advanced-audio-techniques-and-generative-sound.pdf",
-    "docs/gmap-395/bonus-proc-audio/media/9-game-audio-and-implementation.pdf",
     "docs/gmap-395/module-4/media/home-after.png",
     "docs/gmap-395/module-4/media/tutwk9splash.png",
     "docs/gmap-395/module-4/media/home-before.png",
@@ -369,7 +342,6 @@
     "GMAP 395/Module 4/media/421988f6-a827-428b-86d4-9b815f15cdce.jpg",
     "GMAP 395/Module 4/media/capsule_616x353.jpg",
     "GMAP 395/Module 4/media/home-after.png",
-    "GMAP 395/Module 4/media/home-before.png",
-    "GMAP 395/Module 4/media/tutWk9Splash.png"
+    "GMAP 395/Module 4/media/home-before.png"
   ]
 }

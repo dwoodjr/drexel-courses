@@ -9,6 +9,7 @@ This introductory module sets the stage for the quarter by exploring the core id
 [[GAMP 395 - Introduction - B|Module IB: Procedural Thinking Basics]]
 [[GMAP 395 - Introduction - C|Module IC: Node-Based Workflows Introduction]]
 [[GMAP 395 - SU25 - Theme| Course Theme]]
+[[GMAP 395 - Weekly - 1| Weekly Critique - 1]]
 
 ---
 [[GMAP 395 - WK 1 - Video Lecture| Legacy - Week 1 Video]]
