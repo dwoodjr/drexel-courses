@@ -10,7 +10,8 @@ https://www.youtube.com/watch?v=aO0eUnu0hO0
 # In-Class Demo for Week 1 - "Brickify": Blender GN Version
 In this demo video (similar to the one given during our Week 1 class) we are trying to create a system of rules/algorithms/procedures for turning any mesh geometry into In this demo video (similar to the one shown in our Week 1 class), we're creating a system of rules, algorithms, and procedures for converting any mesh geometry into "Lego" bricks. The approach is based on this [Houdini FX Tutorial](https://www.sidefx.com/tutorials/foundations-nodes-networks-assets/). The logic behind this modular and procedural system uses common procedural modeling techniques like "copy to points" and node-based vertex manipulation. Some of these concepts are covered in [[GAMP 395 - Introduction - B]].
 
-<iframe src="https://1drv.ms/v/c/b08de2251f1b33a4/IQSWwKAq52B-QLG_L10kRw7iAVjJE0YsGDk5iL_tAnYJu3Y" width="1920" height="1080" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://1drv.ms/v/c/b08de2251f1b33a4/IQSWwKAq52B-QLG_L10kRw7iAVjJE0YsGDk5iL_tAnYJu3Y" width="720" height="640" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
 [gmap_395_blendDemo_wk1.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/EZbAoCrnYH5Asb8vXSRHDuIBTicoVBNRYG9MqLdZayIxHw?e=fhG2wo)
 
 ----
