@@ -1,268 +1,9 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 01 Jul 2025 20:19:25 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 01 Jul 2025 20:19:18 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
- <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br>Module Overview Video 📹
-<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/Efav2YsR0JdOk_rWTc0hYQIBYaenUaj9qcafIpPiFFF44g?e=jx9lD2" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/Efav2YsR0JdOk_rWTc0hYQIBYaenUaj9qcafIpPiFFF44g?e=jx9lD2" target="_blank">Module 1 - Overview Video</a>
-<br><br><br><a data-href="GMAP 395 - Module 1A - Game Feel and Tactile Experience" href="gmap-395\module-1\submodules\gmap-395-module-1a-game-feel-and-tactile-experience.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1A - Game Feel and Tactile Experience</a><br>
-<a data-href="GMAP 395 - Module 1B - Procedural Workflows Introduction" href="gmap-395\module-1\submodules\gmap-395-module-1b-procedural-workflows-introduction.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1B - Procedural Workflows Introduction</a><br>
-<a data-href="GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques" href="gmap-395\module-1\submodules\gmap-395-module-1c-node-based-systems-and-advanced-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques</a><br>
-<a data-href="GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems" href="gmap-395\module-1\submodules\gmap-395-module-1d-lighting-fundamentals-and-technical-systems.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems</a><br>
-<a data-href="GMAP 395 - Module 1E - Color Theory and Advanced Lighting" href="gmap-395\module-1\submodules\gmap-395-module-1e-color-theory-and-advanced-lighting.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1E - Color Theory and Advanced Lighting</a><br>
-<a data-href="GMAP 395 - Module 1F - Case Studies and Practical Implementation" href="gmap-395\module-1\submodules\gmap-395-module-1f-case-studies-and-practical-implementation.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1F - Case Studies and Practical Implementation</a><br><br>N/A<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Guide - CT and CPS" data-href="GMAP 395 - Guide - CT and CPS" href="gmap-395\gmap-395-guide-ct-and-cps.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking and Creative Problem Solving</a><br>
-<a data-tooltip-position="top" aria-label="GMAP 395 - Guide - Procedural Modeling Fundamentals" data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Procedural Modeling Fundamentals</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" data-href="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" href="gmap-395\notes\gmap-395-wk-2-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Tutorial</a><br>
-<a data-href="GMAP 395 - WK 3 - Tutorial" href="gmap-395\module-1\tutorials\gmap-395-wk-3-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 1 - Brief" data-href="GMAP 395 - ASN 1 - Brief" href="gmap-395\module-1\gmap-395-asn-1-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 1 - Procedural Modeling + Lightning Systems</a><br><br><a data-href="GMAP 395 - WK 2 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-2-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Slides</a><br>
-<a data-href="GMAP 395 - WK 2 - Video Lecture" href="gmap-395\module-1\legacy\gmap-395-wk-2-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Video Lecture</a><br>
-<a data-tooltip-position="top" aria-label="GMAP 395 - WK 3 - Slides" data-href="GMAP 395 - WK 3 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-3-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Slides + Video</a><br><br><br>
-<br>Introduction to procedural modeling with Blender.
-<br>Basics of lighting systems with Unity.
-<br>Overview of procedural and modular workflows.
-<br><br><br>By the end of this module, you will:<br>
-<br>Gain foundational knowledge in procedural modeling techniques and lighting systems.
-<br>Explore the use of industry-standard tools like Blender and Unity.
-<br>Understand the importance of modular workflows in game art development.
-<br>Build confidence in preparing and setting up tools for complex projects.
-<br><br><br>
-<br>Confirm your computer meets the recommended specifications for Blender and Unity.
-<br>Install <a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender</a> 3.9 or higher.
-<br>Install Unity (2022.3) via the <a data-tooltip-position="top" aria-label="https://unity.com/download" rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">Unity Hub</a>
-<br>If you have never used Blender
-
-<br>If you have never used Unity
-
-<br><br><br><br><br>
-<br>Blender 3.9 or higher: Download from <a rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">https://www.blender.org/download/</a>.
-<br><br>
-<br>Unity (LTS version): Download from <a rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">https://unity.com/download</a>.
-<br>Ensure the system specifications match or exceed Unity's requirements.
-<br><br><br><br><br><br>
-<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" target="_blank">Blender Quick Start Guide</a>
-<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" target="_blank">Introduction to Geometry Nodes</a>
-<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
-<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
-<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Tue, 01 Jul 2025 20:09:01 GMT</pubDate></item><item><title><![CDATA[Critical Thinking and Creative Problem Solving for Artists, Designers, and Technologists]]></title><description><![CDATA[ 
- <br><br><br>In creative and technical work, the ability to solve problems systematically often matters more than any specific tool knowledge. Whether you're debugging a shader, designing a character, or optimizing game performance, the same core thinking skills apply.<br>This guide teaches you to approach challenges methodically rather than hoping for inspiration or getting paralyzed by complexity. You'll learn to break down problems, research effectively, and iterate toward solutions.<br>How This Connects: 
-This guide pairs with the <a data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Guide - Procedural Modeling Fundamentals</a> - the problem-solving framework here applies directly to technical modeling challenges, while working through geometry problems reinforces these thinking patterns.
-<br><br><br><br><br>🎯 Problem/Goal: You're tasked with creating an entire game environment but feel overwhelmed by the scope.<br>Quick Reality Check, Ask yourself: "If I had to demo this in 2 weeks, what's the absolute minimum that needs to work?"<br><br><br><br><br>Breaking It Down Step-by-Step 
-Instead of: "I need to make a castle, fast" (panic mode)
-Try this:
-
-<br>🔴 Core: Outer walls + main gate + courtyard
-<br>🟡 Systems: Towers (3), inner buildings (2), details
-<br>🟢 Order: Blockout → structures → props → polish
-
-<br>Common Pitfall Don't start with the most exciting part - start with what everything else depends on.<br><br><br><br>🔽 **Top-Down**
-Layout → Major structures → Details → Polish
-
-🔼 **Bottom-Up** 
-Modular pieces → Combinations → Full system
-
-👥 **Collaborative**
-Team brainstorm → Divide responsibilities → Regular check-ins
-<br>Learn More
-
-<br><a data-tooltip-position="top" aria-label="https://www.artstation.com/learning/courses/aJ/environment-design-fundamentals" rel="noopener nofollow" class="external-link" href="https://www.artstation.com/learning/courses/aJ/environment-design-fundamentals" target="_blank">Environment Design Fundamentals</a>
-<br><a data-tooltip-position="top" aria-label="https://www.gamedeveloper.com/production/" rel="noopener nofollow" class="external-link" href="https://www.gamedeveloper.com/production/" target="_blank">Game Production Pipelines</a>
-<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=dHMNeNapL1E" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=dHMNeNapL1E" target="_blank">Scoping for Indie Games</a>
-
-<br><br>Apply this to shader creation: Break down realistic water material:<br>
-<br>🔴 Core: Base color + basic normal
-<br>🟡 Systems: Waves + foam + reflection + refraction
-<br>🟢 Dependencies: Surface → animation → interaction effects
-<br>Success Metric You've mastered this when you can take any overwhelming task and create a clear, ordered breakdown in under 30 minutes.<br><br><br><br>🎯 Problem/Goal: Understanding what you're really working with and against so you can plan realistically.<br>Design Wisdom "Constraints are not limitations - they're the foundation that makes creativity possible."<br><br><br><br><br>Constraint-Driven Design Given: Mobile character with strict limits
-Constraints become features:
-
-<br>Low poly → Stylized, iconic look
-<br>Single texture → Cohesive color palette
-<br>No transparency → Bold, graphic design
-<br>Small screen → Strong silhouette focus
-
-<br><br><br><br>
-<br>🎯 Constraint Prioritization: Rank which limits are hardest vs. most flexible
-<br>💡 Creative Reframing: Ask "What becomes possible because of this limitation?"
-<br>📊 Resource Auditing: List available tools, time, and skills
-<br>Pro Technique Document your constraints visually - create a "constraint poster" for your workspace as a constant reminder.<br><br>Apply constraint analysis to a UI design:<br>
-<br>Technical: Screen sizes, input methods, performance
-<br>Usability: Accessibility, user experience, platform conventions
-<br>Aesthetic: Brand guidelines, art direction, readability
-<br>Success Metric You can quickly identify the 3 most limiting constraints for any project and explain how they'll shape your approach.<br><br><br><br><br>🎯 Problem/Goal: You need to create something you've never made before and don't know where to start.<br><br><br><br><br>Research Strategy in Action Goal: Cartoon-style water shader
-Research layers:
-
-<br>🎨 Visual: How does stylized water "read" as water?
-<br>🔧 Technical: What real-time techniques exist?
-<br>💭 Conceptual: How do animators suggest water movement?
-
-<br>Reference Organization
-
-<br>Create folders by project and concept
-<br>Tag images with keywords and techniques
-<br>Note why each reference is useful
-<br>Share collections with team members
-
-<br><br><br><br>
-<br>🖼️ Mood Boards: Feeling and atmosphere over technical specifics
-<br>🔧 Technical Breakdowns: Focus on construction methods
-<br>👥 Collaborative Research: Team members research different aspects
-<br>Essential Resources
-
-<br><a data-tooltip-position="top" aria-label="https://www.artstation.com/learning" rel="noopener nofollow" class="external-link" href="https://www.artstation.com/learning" target="_blank">ArtStation Learning</a>
-<br><a data-tooltip-position="top" aria-label="https://80.lv/" rel="noopener nofollow" class="external-link" href="https://80.lv/" target="_blank">80 Level Breakdowns</a>
-<br><a data-tooltip-position="top" aria-label="http://www.realtimerendering.com/" rel="noopener nofollow" class="external-link" href="http://www.realtimerendering.com/" target="_blank">Real-Time Rendering Resources</a>
-
-<br><br>Research for character design across game genres:<br>
-<br>Visual: Art styles, proportions, appeal factors
-<br>Technical: Rigging constraints, animation needs, performance
-<br>Conceptual: Psychology of character design, cultural considerations
-<br>Success Metric You can efficiently gather diverse, relevant references and explain how each one informs your creative decisions.<br><br><br><br>🎯 Problem/Goal: The exact solution doesn't exist, but similar problems have been solved elsewhere.<br><br><br><br><br>Translation Process 
-Film technique: Complex particle systems<br>
-Core principle: Layered depth creates visual richness<br>
-Game adaptation: Animated texture layers with depth sorting
-<br>Common Mistake Don't just copy techniques - understand why they work first.<br><br><br><br>
-<br>🎯 Direct Adaptation: Recreate exactly, then optimize
-<br>💡 Principle Extraction: Understand the why, rebuild the how
-<br>🔄 Hybrid Methods: Combine multiple source approaches
-<br>Cross-Pollination Technique Regularly browse fields outside your specialty - architecture, fashion, industrial design, biology.<br><br>Adapt web design patterns to game UI:<br>
-<br>Hover effects → Controller/touch feedback
-<br>Navigation patterns → Game menu systems
-<br>Responsive design → Multiple screen sizes
-<br>Success Metric You can see solutions in unexpected places and successfully adapt them to your creative challenges.<br><br><br><br>🎯 Problem/Goal: Not all tutorials and advice are good - how do you know what to trust?<br><br><br><br>Conflicting Advice Scenario
- Source A: "Never exceed 1,000 triangles"<br>
-Source B: "Up to 5,000 triangles is fine"<br>
-Source C: "It depends on your target device"
-<br>Evaluation process:<br><br>Validation Strategy
-
-<br>Context Check: When, where, why was this advice given?
-<br>Small Test: Build minimal example to verify claims
-<br>Reasoning Analysis: Understand the underlying logic
-
-<br><br><br><br>
-<br>👥 Community Validation: Ask experienced practitioners
-<br>🧪 Personal Testing: Build experiments to verify claims
-<br>📚 Contextual Research: Find advice specific to your situation
-<br>Information Quality Red Flags
-
-<br>No source attribution or credentials
-<br>Claims without supporting evidence
-<br>Advice that seems too good to be true
-<br>Information that contradicts established best practices
-
-<br><br>Evaluate design principles for different audiences:<br>
-<br>Research: What evidence supports these principles?
-<br>Test: How do different user groups respond?
-<br>Context: When do these principles apply vs. not apply?
-<br>Success Metric You can quickly assess information credibility and know when to dig deeper vs. accept advice.<br><br><br><br><br>🎯 Problem/Goal: You need to test ideas quickly without investing too much time in any single approach.<br><br><br><br><br>Prototype Progression 
-Week 1: Gray boxes, test jump feel<br>
-Week 2: Basic character shape, test animations<br>
-Week 3: Add visual feedback, test player reactions<br>
-Week 4: Final art pass on proven mechanics
-<br>Prototyping Hierarchy
-
-<br>Core functionality (does it work?)
-<br>User experience (does it feel right?)
-<br>Visual polish (does it look good?)
-
-<br><br><br><br>
-<br>📄 Paper Prototypes: Test concepts without digital tools
-<br>🖼️ Digital Mockups: Non-functional visual representations
-<br>🔧 Hybrid Methods: Combine low-fi and high-fi strategically
-<br>Prototype Pitfalls
-
-<br>Making prototypes too polished (wastes time)
-<br>Testing only one variable at a time (misses interactions)
-<br>Skipping documentation (loses valuable insights)
-
-<br><br>Prototype a new art style:<br>
-<br>Visual test: Single character/prop in new style
-<br>Consistency test: Multiple assets using same approach
-<br>Context test: Assets in actual game environment
-<br>Success Metric You can rapidly test core assumptions and pivot based on prototype feedback without emotional attachment to early work.<br><br><br><br>🎯 Problem/Goal: Learning from your process so you can improve and repeat successes.<br><br><br><br><br>Documentation Template 
-Project: Stylized Water Shader<br>
-Goal: Cartoon ocean for mobile game<br>
-Research: 3 days studying animated films<br>
-Attempts: Tried particle system (too heavy), vertex animation (wrong look)<br>
-Breakthrough: Combined UV scrolling with vertex displacement<br>
-Result: 60fps on target device, matches art style<br>
-Next time: Start with performance constraints, not visual goals
-<br>Documentation Timing
-
-<br>During work: Quick notes, screenshots of progress
-<br>After sessions: Reflection on what worked/didn't
-<br>Project end: Complete analysis and lessons learned
-
-<br><br><br><br>
-<br>📝 Written Logs: Traditional journaling and note-taking
-<br>📸 Visual Documentation: Screenshots, progress videos, annotated images
-<br>🎥 Process Recording: Screen capture while working
-<br>Documentation Tools
-
-<br>Text: Notion, Obsidian, simple markdown files
-<br>Visual: Milanote, PureRef, Pinterest boards
-<br>Mixed: Personal wiki, team knowledge base
-
-<br><br>Document a challenging modeling or animation process:<br>
-<br>Process: What steps did you follow?
-<br>Problems: Where did you get stuck and how did you solve it?
-<br>Patterns: What problem-solving approaches emerged?
-<br>Success Metric You have a growing personal knowledge base that you actively reference and update, making each project easier than the last.<br><br><br><br><br>🎯 Problem/Goal: Getting help when stuck and explaining your work to others effectively.<br><br><br><br>Poor vs. Good Help Requests
-❌ Poor request: "My shader is broken, help!"
-✅ Good request: "I'm creating a stylized water shader for mobile. It should look cartoon-like but I'm getting realistic results. Here's what I have [screenshot], here's what I want [reference image], and here's what I've tried [node graph]. Working in Blender 3.6, targeting Android devices. Any suggestions for the cartoon look?"
-<br><br><br><br><br>
-<br>💬 Synchronous: Real-time conversation, screen sharing
-<br>📧 Asynchronous: Detailed written explanations with materials
-<br>🎥 Video: Record problem demonstration with narration
-<br>Help Request Template
-
-<br>Goal: What are you trying to achieve?
-<br>Current State: What's happening now?
-<br>Context: Tools, platform, constraints
-<br>Attempts: What have you already tried?
-<br>Specific Ask: What kind of help do you need?
-
-<br><br>Explain a complex technical process to a non-technical team member:<br>
-<br>Use analogies and visual aids
-<br>Focus on outcomes rather than methods
-<br>Check understanding throughout explanation
-<br>Success Metric You consistently get helpful responses to your questions and can explain your work clearly to different audiences.<br><br><br><br>🎯 Problem/Goal: Accelerating your growth by understanding how others think through challenges.<br><br><br><br><br>What to Look For 
-Surface level: What tools they use, what settings they choose<br>
-Deeper level: When they pause to evaluate, how they handle mistakes, what order they work in<br>
-Deepest level: How they think about problems, what principles guide their decisions
-<br>Active Learning Approach
-
-<br>Watch once for overall impression
-<br>Watch again taking notes on decision points
-<br>Try to replicate the approach on your own project
-<br>Adapt the method to your specific needs
-
-<br><br><br><br>
-<br>🎓 Structured Learning: Courses, workshops, formal training
-<br>💬 Community Learning: Forums, Discord servers, study groups
-<br>🔍 Self-Directed Study: Analyzing published work and breakdowns
-<br>Learning Communities
-
-<br><a data-tooltip-position="top" aria-label="https://polycount.com/" rel="noopener nofollow" class="external-link" href="https://polycount.com/" target="_blank">Polycount</a> - Technical art community
-<br><a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX</a> - Effects artists
-<br><a data-tooltip-position="top" aria-label="https://techartaid.com/" rel="noopener nofollow" class="external-link" href="https://techartaid.com/" target="_blank">Tech Art Aid</a> - Technical art resources
-
-<br><br>Analyze a workflow from a different creative field:<br>
-<br>Architecture: How do architects plan complex projects?
-<br>Film: How do VFX artists approach problem-solving?
-<br>Product Design: How do industrial designers iterate?
-<br>Adapt one insight to your game development work.<br>Success Metric You can identify valuable learning opportunities in unexpected places and successfully integrate new approaches into your workflow.<br><br><br><br>The techniques in this guide become more powerful with practice. Start applying them to small challenges before tackling major projects. Each problem you solve systematically builds your confidence and expands your toolkit.<br>Key Takeaways
-
-<br>Break down complex challenges into manageable pieces
-<br>Research broadly and adapt solutions creatively
-<br>Iterate quickly and learn from failures
-<br>Document your process for future reference
-<br>Collaborate effectively to amplify your capabilities
-
-<br>Next Steps
-
-<br>Practice these techniques on your current projects
-<br>Build your personal reference and knowledge libraries
-<br>Find communities where you can both seek and offer help
-<br>Continue learning by analyzing others' problem-solving approaches
-
-<br>Remember: The goal isn't to never get stuck, but to have systematic ways of getting unstuck. Every challenge becomes an opportunity to strengthen your problem-solving skills.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-ct-and-cps.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - CT and CPS.md</guid><pubDate>Tue, 01 Jul 2025 20:18:32 GMT</pubDate></item><item><title><![CDATA[Procedural Modeling with Modular Thinking - A Beginner's Guide]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 01 Jul 2025 20:31:11 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 01 Jul 2025 20:31:07 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Procedural Modeling with Modular Thinking - A Beginner's Guide]]></title><description><![CDATA[ 
  <br><br><br>Procedural modeling means creating geometry through systematic, repeatable processes rather than manually placing every vertex. This approach excels in game development where you need efficient workflows, consistent results, and the ability to iterate quickly.<br>This guide teaches modular thinking - breaking complex forms into simple, reusable components that combine into sophisticated systems. While examples use Blender's Geometry Nodes, these principles apply to any procedural modeling tool.<br>How This Connects:
 This guide pairs with the <a data-tooltip-position="top" aria-label="GMAP 395 - Guide - CT and CPS" data-href="GMAP 395 - Guide - CT and CPS" href="gmap-395\gmap-395-guide-ct-and-cps.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking and Creative Problem-Solving</a> - the systematic problem-solving approaches there apply directly to procedural modeling challenges, while working through geometry problems reinforces those thinking patterns.
+<br>Example File 📁
+Below is a link to download the blender file used for the short concept demo videos in this guide. It has all of the geometry nodes and obejcts labeled by chapter number i.e. 2.1 - Wall<br>
+<a data-tooltip-position="top" aria-label="https://1drv.ms/u/c/b08de2251f1b33a4/EW7K_KEbB-ZAjmKnlqxON4QBNv5zooAmg0e5PpGnMCV_6Q?e=9gv9IN" rel="noopener nofollow" class="external-link" href="https://1drv.ms/u/c/b08de2251f1b33a4/EW7K_KEbB-ZAjmKnlqxON4QBNv5zooAmg0e5PpGnMCV_6Q?e=9gv9IN" target="_blank">procGenGuide.blend</a>
 <br><br><br><br><br>🎯 Problem/Goal: When should you choose procedural approaches over traditional modeling?<br>Key Decision Point Ask yourself: "Will I need multiple variations of this, or will it change frequently during development?"<br><br><br><br><br>Building System Breakdown 
 Manual approach:
 
@@ -771,7 +512,269 @@ Game Engines:
 <br>Join communities focused on procedural content creation
 <br>Analyze existing games to understand their procedural systems
 
-<br>Remember Procedural modeling isn't about replacing artistic skill - it's about amplifying it. The goal is to spend more time on creative decisions and less time on repetitive tasks, while maintaining the ability to iterate and experiment freely.<br>The thinking patterns you develop here apply beyond geometry - to materials, animation, level design, and any systematic creative work.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md</guid><pubDate>Tue, 01 Jul 2025 20:13:47 GMT</pubDate></item><item><title><![CDATA[Blender to Unity "Brickify" Demo Guide]]></title><description><![CDATA[ 
+<br>Remember Procedural modeling isn't about replacing artistic skill - it's about amplifying it. The goal is to spend more time on creative decisions and less time on repetitive tasks, while maintaining the ability to iterate and experiment freely.<br>The thinking patterns you develop here apply beyond geometry - to materials, animation, level design, and any systematic creative work.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md</guid><pubDate>Tue, 01 Jul 2025 20:30:36 GMT</pubDate></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
+ <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br>Module Overview Video 📹
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/Efav2YsR0JdOk_rWTc0hYQIBYaenUaj9qcafIpPiFFF44g?e=jx9lD2" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/Efav2YsR0JdOk_rWTc0hYQIBYaenUaj9qcafIpPiFFF44g?e=jx9lD2" target="_blank">Module 1 - Overview Video</a>
+<br><br><br><a data-href="GMAP 395 - Module 1A - Game Feel and Tactile Experience" href="gmap-395\module-1\submodules\gmap-395-module-1a-game-feel-and-tactile-experience.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1A - Game Feel and Tactile Experience</a><br>
+<a data-href="GMAP 395 - Module 1B - Procedural Workflows Introduction" href="gmap-395\module-1\submodules\gmap-395-module-1b-procedural-workflows-introduction.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1B - Procedural Workflows Introduction</a><br>
+<a data-href="GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques" href="gmap-395\module-1\submodules\gmap-395-module-1c-node-based-systems-and-advanced-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques</a><br>
+<a data-href="GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems" href="gmap-395\module-1\submodules\gmap-395-module-1d-lighting-fundamentals-and-technical-systems.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems</a><br>
+<a data-href="GMAP 395 - Module 1E - Color Theory and Advanced Lighting" href="gmap-395\module-1\submodules\gmap-395-module-1e-color-theory-and-advanced-lighting.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1E - Color Theory and Advanced Lighting</a><br>
+<a data-href="GMAP 395 - Module 1F - Case Studies and Practical Implementation" href="gmap-395\module-1\submodules\gmap-395-module-1f-case-studies-and-practical-implementation.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1F - Case Studies and Practical Implementation</a><br><br>N/A<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Guide - CT and CPS" data-href="GMAP 395 - Guide - CT and CPS" href="gmap-395\gmap-395-guide-ct-and-cps.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking and Creative Problem Solving</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Guide - Procedural Modeling Fundamentals" data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Procedural Modeling Fundamentals</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" data-href="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" href="gmap-395\notes\gmap-395-wk-2-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Tutorial</a><br>
+<a data-href="GMAP 395 - WK 3 - Tutorial" href="gmap-395\module-1\tutorials\gmap-395-wk-3-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 1 - Brief" data-href="GMAP 395 - ASN 1 - Brief" href="gmap-395\module-1\gmap-395-asn-1-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 1 - Procedural Modeling + Lightning Systems</a><br><br><a data-href="GMAP 395 - WK 2 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-2-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Slides</a><br>
+<a data-href="GMAP 395 - WK 2 - Video Lecture" href="gmap-395\module-1\legacy\gmap-395-wk-2-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Video Lecture</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - WK 3 - Slides" data-href="GMAP 395 - WK 3 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-3-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Slides + Video</a><br><br><br>
+<br>Introduction to procedural modeling with Blender.
+<br>Basics of lighting systems with Unity.
+<br>Overview of procedural and modular workflows.
+<br><br><br>By the end of this module, you will:<br>
+<br>Gain foundational knowledge in procedural modeling techniques and lighting systems.
+<br>Explore the use of industry-standard tools like Blender and Unity.
+<br>Understand the importance of modular workflows in game art development.
+<br>Build confidence in preparing and setting up tools for complex projects.
+<br><br><br>
+<br>Confirm your computer meets the recommended specifications for Blender and Unity.
+<br>Install <a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender</a> 3.9 or higher.
+<br>Install Unity (2022.3) via the <a data-tooltip-position="top" aria-label="https://unity.com/download" rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">Unity Hub</a>
+<br>If you have never used Blender
+
+<br>If you have never used Unity
+
+<br><br><br><br><br>
+<br>Blender 3.9 or higher: Download from <a rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">https://www.blender.org/download/</a>.
+<br><br>
+<br>Unity (LTS version): Download from <a rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">https://unity.com/download</a>.
+<br>Ensure the system specifications match or exceed Unity's requirements.
+<br><br><br><br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" target="_blank">Blender Quick Start Guide</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" target="_blank">Introduction to Geometry Nodes</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Tue, 01 Jul 2025 20:09:01 GMT</pubDate></item><item><title><![CDATA[Critical Thinking and Creative Problem Solving for Artists, Designers, and Technologists]]></title><description><![CDATA[ 
+ <br><br><br>In creative and technical work, the ability to solve problems systematically often matters more than any specific tool knowledge. Whether you're debugging a shader, designing a character, or optimizing game performance, the same core thinking skills apply.<br>This guide teaches you to approach challenges methodically rather than hoping for inspiration or getting paralyzed by complexity. You'll learn to break down problems, research effectively, and iterate toward solutions.<br>How This Connects: 
+This guide pairs with the <a data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Guide - Procedural Modeling Fundamentals</a> - the problem-solving framework here applies directly to technical modeling challenges, while working through geometry problems reinforces these thinking patterns.
+<br><br><br><br><br>🎯 Problem/Goal: You're tasked with creating an entire game environment but feel overwhelmed by the scope.<br>Quick Reality Check, Ask yourself: "If I had to demo this in 2 weeks, what's the absolute minimum that needs to work?"<br><br><br><br><br>Breaking It Down Step-by-Step 
+Instead of: "I need to make a castle, fast" (panic mode)
+Try this:
+
+<br>🔴 Core: Outer walls + main gate + courtyard
+<br>🟡 Systems: Towers (3), inner buildings (2), details
+<br>🟢 Order: Blockout → structures → props → polish
+
+<br>Common Pitfall Don't start with the most exciting part - start with what everything else depends on.<br><br><br><br>🔽 **Top-Down**
+Layout → Major structures → Details → Polish
+
+🔼 **Bottom-Up** 
+Modular pieces → Combinations → Full system
+
+👥 **Collaborative**
+Team brainstorm → Divide responsibilities → Regular check-ins
+<br>Learn More
+
+<br><a data-tooltip-position="top" aria-label="https://www.artstation.com/learning/courses/aJ/environment-design-fundamentals" rel="noopener nofollow" class="external-link" href="https://www.artstation.com/learning/courses/aJ/environment-design-fundamentals" target="_blank">Environment Design Fundamentals</a>
+<br><a data-tooltip-position="top" aria-label="https://www.gamedeveloper.com/production/" rel="noopener nofollow" class="external-link" href="https://www.gamedeveloper.com/production/" target="_blank">Game Production Pipelines</a>
+<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=dHMNeNapL1E" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=dHMNeNapL1E" target="_blank">Scoping for Indie Games</a>
+
+<br><br>Apply this to shader creation: Break down realistic water material:<br>
+<br>🔴 Core: Base color + basic normal
+<br>🟡 Systems: Waves + foam + reflection + refraction
+<br>🟢 Dependencies: Surface → animation → interaction effects
+<br>Success Metric You've mastered this when you can take any overwhelming task and create a clear, ordered breakdown in under 30 minutes.<br><br><br><br>🎯 Problem/Goal: Understanding what you're really working with and against so you can plan realistically.<br>Design Wisdom "Constraints are not limitations - they're the foundation that makes creativity possible."<br><br><br><br><br>Constraint-Driven Design Given: Mobile character with strict limits
+Constraints become features:
+
+<br>Low poly → Stylized, iconic look
+<br>Single texture → Cohesive color palette
+<br>No transparency → Bold, graphic design
+<br>Small screen → Strong silhouette focus
+
+<br><br><br><br>
+<br>🎯 Constraint Prioritization: Rank which limits are hardest vs. most flexible
+<br>💡 Creative Reframing: Ask "What becomes possible because of this limitation?"
+<br>📊 Resource Auditing: List available tools, time, and skills
+<br>Pro Technique Document your constraints visually - create a "constraint poster" for your workspace as a constant reminder.<br><br>Apply constraint analysis to a UI design:<br>
+<br>Technical: Screen sizes, input methods, performance
+<br>Usability: Accessibility, user experience, platform conventions
+<br>Aesthetic: Brand guidelines, art direction, readability
+<br>Success Metric You can quickly identify the 3 most limiting constraints for any project and explain how they'll shape your approach.<br><br><br><br><br>🎯 Problem/Goal: You need to create something you've never made before and don't know where to start.<br><br><br><br><br>Research Strategy in Action Goal: Cartoon-style water shader
+Research layers:
+
+<br>🎨 Visual: How does stylized water "read" as water?
+<br>🔧 Technical: What real-time techniques exist?
+<br>💭 Conceptual: How do animators suggest water movement?
+
+<br>Reference Organization
+
+<br>Create folders by project and concept
+<br>Tag images with keywords and techniques
+<br>Note why each reference is useful
+<br>Share collections with team members
+
+<br><br><br><br>
+<br>🖼️ Mood Boards: Feeling and atmosphere over technical specifics
+<br>🔧 Technical Breakdowns: Focus on construction methods
+<br>👥 Collaborative Research: Team members research different aspects
+<br>Essential Resources
+
+<br><a data-tooltip-position="top" aria-label="https://www.artstation.com/learning" rel="noopener nofollow" class="external-link" href="https://www.artstation.com/learning" target="_blank">ArtStation Learning</a>
+<br><a data-tooltip-position="top" aria-label="https://80.lv/" rel="noopener nofollow" class="external-link" href="https://80.lv/" target="_blank">80 Level Breakdowns</a>
+<br><a data-tooltip-position="top" aria-label="http://www.realtimerendering.com/" rel="noopener nofollow" class="external-link" href="http://www.realtimerendering.com/" target="_blank">Real-Time Rendering Resources</a>
+
+<br><br>Research for character design across game genres:<br>
+<br>Visual: Art styles, proportions, appeal factors
+<br>Technical: Rigging constraints, animation needs, performance
+<br>Conceptual: Psychology of character design, cultural considerations
+<br>Success Metric You can efficiently gather diverse, relevant references and explain how each one informs your creative decisions.<br><br><br><br>🎯 Problem/Goal: The exact solution doesn't exist, but similar problems have been solved elsewhere.<br><br><br><br><br>Translation Process 
+Film technique: Complex particle systems<br>
+Core principle: Layered depth creates visual richness<br>
+Game adaptation: Animated texture layers with depth sorting
+<br>Common Mistake Don't just copy techniques - understand why they work first.<br><br><br><br>
+<br>🎯 Direct Adaptation: Recreate exactly, then optimize
+<br>💡 Principle Extraction: Understand the why, rebuild the how
+<br>🔄 Hybrid Methods: Combine multiple source approaches
+<br>Cross-Pollination Technique Regularly browse fields outside your specialty - architecture, fashion, industrial design, biology.<br><br>Adapt web design patterns to game UI:<br>
+<br>Hover effects → Controller/touch feedback
+<br>Navigation patterns → Game menu systems
+<br>Responsive design → Multiple screen sizes
+<br>Success Metric You can see solutions in unexpected places and successfully adapt them to your creative challenges.<br><br><br><br>🎯 Problem/Goal: Not all tutorials and advice are good - how do you know what to trust?<br><br><br><br>Conflicting Advice Scenario
+ Source A: "Never exceed 1,000 triangles"<br>
+Source B: "Up to 5,000 triangles is fine"<br>
+Source C: "It depends on your target device"
+<br>Evaluation process:<br><br>Validation Strategy
+
+<br>Context Check: When, where, why was this advice given?
+<br>Small Test: Build minimal example to verify claims
+<br>Reasoning Analysis: Understand the underlying logic
+
+<br><br><br><br>
+<br>👥 Community Validation: Ask experienced practitioners
+<br>🧪 Personal Testing: Build experiments to verify claims
+<br>📚 Contextual Research: Find advice specific to your situation
+<br>Information Quality Red Flags
+
+<br>No source attribution or credentials
+<br>Claims without supporting evidence
+<br>Advice that seems too good to be true
+<br>Information that contradicts established best practices
+
+<br><br>Evaluate design principles for different audiences:<br>
+<br>Research: What evidence supports these principles?
+<br>Test: How do different user groups respond?
+<br>Context: When do these principles apply vs. not apply?
+<br>Success Metric You can quickly assess information credibility and know when to dig deeper vs. accept advice.<br><br><br><br><br>🎯 Problem/Goal: You need to test ideas quickly without investing too much time in any single approach.<br><br><br><br><br>Prototype Progression 
+Week 1: Gray boxes, test jump feel<br>
+Week 2: Basic character shape, test animations<br>
+Week 3: Add visual feedback, test player reactions<br>
+Week 4: Final art pass on proven mechanics
+<br>Prototyping Hierarchy
+
+<br>Core functionality (does it work?)
+<br>User experience (does it feel right?)
+<br>Visual polish (does it look good?)
+
+<br><br><br><br>
+<br>📄 Paper Prototypes: Test concepts without digital tools
+<br>🖼️ Digital Mockups: Non-functional visual representations
+<br>🔧 Hybrid Methods: Combine low-fi and high-fi strategically
+<br>Prototype Pitfalls
+
+<br>Making prototypes too polished (wastes time)
+<br>Testing only one variable at a time (misses interactions)
+<br>Skipping documentation (loses valuable insights)
+
+<br><br>Prototype a new art style:<br>
+<br>Visual test: Single character/prop in new style
+<br>Consistency test: Multiple assets using same approach
+<br>Context test: Assets in actual game environment
+<br>Success Metric You can rapidly test core assumptions and pivot based on prototype feedback without emotional attachment to early work.<br><br><br><br>🎯 Problem/Goal: Learning from your process so you can improve and repeat successes.<br><br><br><br><br>Documentation Template 
+Project: Stylized Water Shader<br>
+Goal: Cartoon ocean for mobile game<br>
+Research: 3 days studying animated films<br>
+Attempts: Tried particle system (too heavy), vertex animation (wrong look)<br>
+Breakthrough: Combined UV scrolling with vertex displacement<br>
+Result: 60fps on target device, matches art style<br>
+Next time: Start with performance constraints, not visual goals
+<br>Documentation Timing
+
+<br>During work: Quick notes, screenshots of progress
+<br>After sessions: Reflection on what worked/didn't
+<br>Project end: Complete analysis and lessons learned
+
+<br><br><br><br>
+<br>📝 Written Logs: Traditional journaling and note-taking
+<br>📸 Visual Documentation: Screenshots, progress videos, annotated images
+<br>🎥 Process Recording: Screen capture while working
+<br>Documentation Tools
+
+<br>Text: Notion, Obsidian, simple markdown files
+<br>Visual: Milanote, PureRef, Pinterest boards
+<br>Mixed: Personal wiki, team knowledge base
+
+<br><br>Document a challenging modeling or animation process:<br>
+<br>Process: What steps did you follow?
+<br>Problems: Where did you get stuck and how did you solve it?
+<br>Patterns: What problem-solving approaches emerged?
+<br>Success Metric You have a growing personal knowledge base that you actively reference and update, making each project easier than the last.<br><br><br><br><br>🎯 Problem/Goal: Getting help when stuck and explaining your work to others effectively.<br><br><br><br>Poor vs. Good Help Requests
+❌ Poor request: "My shader is broken, help!"
+✅ Good request: "I'm creating a stylized water shader for mobile. It should look cartoon-like but I'm getting realistic results. Here's what I have [screenshot], here's what I want [reference image], and here's what I've tried [node graph]. Working in Blender 3.6, targeting Android devices. Any suggestions for the cartoon look?"
+<br><br><br><br><br>
+<br>💬 Synchronous: Real-time conversation, screen sharing
+<br>📧 Asynchronous: Detailed written explanations with materials
+<br>🎥 Video: Record problem demonstration with narration
+<br>Help Request Template
+
+<br>Goal: What are you trying to achieve?
+<br>Current State: What's happening now?
+<br>Context: Tools, platform, constraints
+<br>Attempts: What have you already tried?
+<br>Specific Ask: What kind of help do you need?
+
+<br><br>Explain a complex technical process to a non-technical team member:<br>
+<br>Use analogies and visual aids
+<br>Focus on outcomes rather than methods
+<br>Check understanding throughout explanation
+<br>Success Metric You consistently get helpful responses to your questions and can explain your work clearly to different audiences.<br><br><br><br>🎯 Problem/Goal: Accelerating your growth by understanding how others think through challenges.<br><br><br><br><br>What to Look For 
+Surface level: What tools they use, what settings they choose<br>
+Deeper level: When they pause to evaluate, how they handle mistakes, what order they work in<br>
+Deepest level: How they think about problems, what principles guide their decisions
+<br>Active Learning Approach
+
+<br>Watch once for overall impression
+<br>Watch again taking notes on decision points
+<br>Try to replicate the approach on your own project
+<br>Adapt the method to your specific needs
+
+<br><br><br><br>
+<br>🎓 Structured Learning: Courses, workshops, formal training
+<br>💬 Community Learning: Forums, Discord servers, study groups
+<br>🔍 Self-Directed Study: Analyzing published work and breakdowns
+<br>Learning Communities
+
+<br><a data-tooltip-position="top" aria-label="https://polycount.com/" rel="noopener nofollow" class="external-link" href="https://polycount.com/" target="_blank">Polycount</a> - Technical art community
+<br><a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX</a> - Effects artists
+<br><a data-tooltip-position="top" aria-label="https://techartaid.com/" rel="noopener nofollow" class="external-link" href="https://techartaid.com/" target="_blank">Tech Art Aid</a> - Technical art resources
+
+<br><br>Analyze a workflow from a different creative field:<br>
+<br>Architecture: How do architects plan complex projects?
+<br>Film: How do VFX artists approach problem-solving?
+<br>Product Design: How do industrial designers iterate?
+<br>Adapt one insight to your game development work.<br>Success Metric You can identify valuable learning opportunities in unexpected places and successfully integrate new approaches into your workflow.<br><br><br><br>The techniques in this guide become more powerful with practice. Start applying them to small challenges before tackling major projects. Each problem you solve systematically builds your confidence and expands your toolkit.<br>Key Takeaways
+
+<br>Break down complex challenges into manageable pieces
+<br>Research broadly and adapt solutions creatively
+<br>Iterate quickly and learn from failures
+<br>Document your process for future reference
+<br>Collaborate effectively to amplify your capabilities
+
+<br>Next Steps
+
+<br>Practice these techniques on your current projects
+<br>Build your personal reference and knowledge libraries
+<br>Find communities where you can both seek and offer help
+<br>Continue learning by analyzing others' problem-solving approaches
+
+<br>Remember: The goal isn't to never get stuck, but to have systematic ways of getting unstuck. Every challenge becomes an opportunity to strengthen your problem-solving skills.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-ct-and-cps.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - CT and CPS.md</guid><pubDate>Tue, 01 Jul 2025 20:18:32 GMT</pubDate></item><item><title><![CDATA[Blender to Unity "Brickify" Demo Guide]]></title><description><![CDATA[ 
  <br><br>Duration: 15-20 minutes<br>
 Goal: Turn any object into LEGO-style bricks using procedural modeling<br><br><br>What we're making: A system that converts any 3D object into LEGO-style bricks Why this example: Shows point cloud generation, procedural modeling, and instancing - core technical art concepts<br><br><br><br>
 "Today we're going to create a system that can turn ANY 3D object into LEGO bricks. We'll build one perfect brick, then teach Blender how to copy it thousands of times intelligently. This is how studios create massive environments from small modular pieces."

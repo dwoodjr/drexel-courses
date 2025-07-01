@@ -9,6 +9,10 @@ This guide teaches modular thinking - breaking complex forms into simple, reusab
 > [!info] How This Connects:
 > This guide pairs with the [[GMAP 395 - Guide - CT and CPS| Critical Thinking and Creative Problem-Solving]] - the systematic problem-solving approaches there apply directly to procedural modeling challenges, while working through geometry problems reinforces those thinking patterns.
 
+> [!warning] Example File 📁
+    > Below is a link to download the blender file used for the short concept demo videos in this guide. It has all of the geometry nodes and obejcts labeled by chapter number i.e. `2.1 - Wall`
+    > [procGenGuide.blend](https://1drv.ms/u/c/b08de2251f1b33a4/EW7K_KEbB-ZAjmKnlqxON4QBNv5zooAmg0e5PpGnMCV_6Q?e=9gv9IN)
+
 ##
 ---
 
