@@ -4,15 +4,20 @@
 This introductory module sets the stage for the quarter by exploring the core ideas of **games, design, and play** while introducing **technical art** and **procedural workflows** as key methodologies in modern game development.
 
 ### Key Links
-#### Start here with the module sections!
+#### Submodules
 [[GMAP 395 - Introduction - A|Module IA: What is Technical Art?]]
 [[GAMP 395 - Introduction - B|Module IB: Procedural Thinking Basics]]
 [[GMAP 395 - Introduction - C|Module IC: Node-Based Workflows Introduction]]
+
+#### Demos
 [[GMAP 395 - Introduction - Blender GN Demo|In-Class Blender Demo - WK 1]]
+
+#### Guides
 [[GMAP 395 - SU25 - Theme| Course Theme]]
 [[GMAP 395 - Weekly - 1| Weekly Critique - 1]]
 
 ---
+#### Legacy Content
 [[GMAP 395 - WK 1 - Video Lecture| Legacy - Week 1 Video]]
 [[GMAP 395 - WK 1 - Slides| Legacy - Week 1 Slides]]
 

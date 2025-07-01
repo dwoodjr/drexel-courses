@@ -5,9 +5,9 @@
 > [!info] Assignment Overview  
 > In this assignment, students will:
 > 
-> 1. Create a procedural game asset in a DCC tool of their choice (e.g., Blender, Houdini, Unity).
+> 1. Create a ***procedural*** game asset in a DCC tool of their choice (e.g., Blender, Houdini, Unity).
 > 2. Import this asset into Unity to design and implement a lighting system that complements the asset's visual and thematic qualities.
-> 3. Ensure the asset and lighting align with the class theme: _Something from the Void_.
+> 3. Ensure the asset and lighting align with the class theme: [[GMAP 395 - SU25 - Theme|"So What About Tomorrow?"]].
 > 4. Present their work as a Unity scene with a README file documenting their process and a recorded video explaining their approach.
 
 ---
@@ -17,25 +17,23 @@
 > [!summary] Assignment Breakdown
 > 
 > - **Part 1: Procedural Game Art ** 
->     Create a procedural asset using a DCC software like Blender or Houdini. The asset must reflect the artistic theme _Something from the Void_. 
-> 	    Examples include eerie cosmic objects, Lovecraftian architecture, or mysterious artifacts.
+>     Create a procedural asset using a DCC software like Blender or Houdini. The asset must reflect the [[GMAP 395 - SU25 - Theme]]. 
 >     
 > - **Part 2: Lighting Systems in Unity ** 
->     Import the procedural asset into Unity, set up a lighting system that complements the theme and enhances its presentation, and apply optional post-processing effects.
+>     Import the procedural asset into Unity, set up a lighting system that complements the theme and enhances its presentation.
 >     
 
 ---
 
 ## Assignment Details
 
-### Theme: Something from the Void
+### Theme: So What About Tomorrow 
 
-> [!question] How to Approach the Theme  
-> The theme _Something from the Void_ is intentionally open-ended. Interpret it creatively—examples include:
-> 
-> - Cosmic and Space-Inspired: Black holes, celestial ruins, or futuristic alien artifacts.
-> - Horror or Mystery: Dark, surreal environments or Lovecraftian designs.
-> - Abstract Concepts: Geometry and lighting that evoke emptiness, infinity, or the unknown.
+>[!question] How to Approach the Theme  
+>The theme _So What About Tomorrow?_ is intentionally open-ended. Interpret it creatively—examples include:
+> - Technological Speculation: Future tools, interfaces, or environments.
+> - Temporal Archaeology: Past technologies reimagined or rediscovered.
+> - Evolution and Change: Transformation processes over time.
 
 ---
 
@@ -45,15 +43,15 @@
 > 
 > 1. Choose a DCC software like Blender, Houdini, or Maya.
 > 	1. The tutorial for part 1 of this module uses Blender Geometry Nodes
-> 2. Use procedural techniques/operations and a node-based workflow to create or modify a game art asset.
+> 2. Use procedural techniques/operations and a node-based workflow to *create or modify* a game art asset.
 > 3. Ensure the asset embodies the class theme.
 > 4. Export the asset to a format suitable for Unity (e.g., `.fbx`, `.obj`).
 
 > [!example] Example Ideas for Procedural Assets
 > 
-> - A glowing, alien crystal pulsing with energy.
-> - Ruined architecture on a distant moon.
-> - A swirling void orb or portal structure.
+> - A futuristic interface that evolves over time.
+> - Ancient technology being reclaimed by nature.
+> - A structure showing multiple temporal states simultaneously.
 
 ---
 
@@ -69,8 +67,8 @@
 
 > [!tip] Lighting Design Tips
 > 
-> - Think about how lighting enhances the void-related theme (e.g., shadows, stark contrasts, or mysterious glows).
-> - Experiment with unusual light colors and intensities to evoke an otherworldly atmosphere.
+> - Think about how lighting enhances temporal concepts (e.g., contrasts between old and new, revelation of hidden details).
+> - Experiment with lighting that suggests the passage of time or technological evolution.
 
 ---
 
@@ -87,11 +85,11 @@
 >         - Details of your lighting setup in Unity.
 >         - Any challenges you faced and how you solved them.
 > 3. Recorded Video (5–10 Minutes):
->     - Record a video that breaks down your design process.
+>     - Record a video that breaks down your design process (use screen recording software like OBS).
 >     - The video must cover:
 >         - Procedural Operations: Explain how you created your procedural game asset.
 >         - Lighting Setup: Discuss your lighting choices in Unity, including tools and techniques used.
->         - Theme Alignment: Reflect on how your work ties into _Something from the Void_.
+>         - Theme Alignment: Reflect on how your work ties into _So What About Tommorow?_.
 
 > [!info] README Example Format
 > 
@@ -126,7 +124,7 @@
 > [!success] By completing this assignment, you will:
 > 
 > - Understand and apply procedural workflows to create modular assets.
-> - Develop an artistic vision aligned with the theme _Something from the Void_.
+> - Develop an artistic vision aligned with the theme.
 > - Gain technical skills in importing assets into Unity and optimizing them for real-time use.
 > - Explore Unity’s lighting systems to design atmospheric and visually appealing scenes.
 > - Develop an iterative workflow for asset creation, scene design, and troubleshooting.

@@ -46,14 +46,14 @@
     "//docs/docs/GMAP 395 - WK 1 - Slides",
     "GMAP 395",
     "GMAP 395/GMAP 395/Module 1",
-    "//Legacy",
     "//Legacy/Legacy/FA - 24/Legacy/FA - 24/DIGM 131",
     "//Legacy/Legacy/FA - 24/Legacy/FA - 24/DIGM 131/Legacy/FA - 24/DIGM 131/ASNs",
     "//GMAP 395",
-    "//GMAP 395/GMAP 395/Introduction",
     "//GMAP 395/GMAP 395/Weeklies",
-    "//GMAP 395/GMAP 395/Class Demos",
-    "//GMAP 395/GMAP 395/Module 1"
+    "//GMAP 395/GMAP 395/Module 1",
+    "//Tags",
+    "//GMAP 395/GMAP 395/Module 1/GMAP 395/Module 1/submodules",
+    "//GMAP 395/GMAP 395/Module 1/GMAP 395/Module 1/tutorials"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

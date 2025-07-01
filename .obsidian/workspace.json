@@ -8,76 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "79b5e3e067c5e4da",
+            "id": "6495668347eaf504",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Introduction/GMAP 395 - Introduction - Blender GN Demo.md",
+                "file": "GMAP 395/Module 1/GMAP 395 - Module 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Introduction - Blender GN Demo"
+              "title": "GMAP 395 - Module 1"
             }
           },
           {
-            "id": "5bb543e5d10a741f",
+            "id": "59555a725faeeda1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md",
+                "file": "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Introduction and Overview"
+              "title": "GMAP 395 - ASN 1 - Brief"
             }
           },
           {
-            "id": "c10051b5fb2dab03",
+            "id": "fe5c6e220610c4a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/GMAP 395 - Welcome.md",
+                "file": "GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Welcome"
+              "title": "GMAP 395 - Guide - Procedural Modeling Fundamentals"
             }
           },
           {
-            "id": "976822312ca4f911",
+            "id": "027ac4627e49117d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Class Demos/Demo - 1 -Simple Blender to Unity.md",
+                "file": "GMAP 395/GMAP 395 - SU25 - Theme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Demo - 1 -Simple Blender to Unity"
-            }
-          },
-          {
-            "id": "b4663691431bc1b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/Introduction/GMAP 395 - WK 1 - Slides.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - WK 1 - Slides"
+              "title": "GMAP 395 - SU25 - Theme"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +118,7 @@
             }
           },
           {
-            "id": "84bc5d5bc60cb5c9",
+            "id": "9a61158ca3b65e4a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -145,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 357.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -154,7 +141,7 @@
       {
         "id": "93b3ddf4fd75b166",
         "type": "tabs",
-        "dimension": 68.70370370370371,
+        "dimension": 66.11111111111111,
         "children": [
           {
             "id": "81e14ee526097519",
@@ -263,7 +250,7 @@
       {
         "id": "654ae1b2ef08042f",
         "type": "tabs",
-        "dimension": 31.296296296296294,
+        "dimension": 33.88888888888889,
         "children": [
           {
             "id": "2b9aa3d6b77b12e1",
@@ -279,7 +266,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 516.5
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,53 +293,52 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "79b5e3e067c5e4da",
+  "active": "81e14ee526097519",
   "lastOpenFiles": [
-    "GMAP 395/Introduction/GMAP 395 - Introduction - Blender GN Demo.md",
-    "Index.md",
-    "docs/gmap-395/introduction/gmap-395-introduction-blender-gn-demo.html",
-    "GMAP 395/GMAP 395 - Welcome.md",
-    "GMAP 395/GMAP 395 - Syllabus.md",
+    "GMAP 395/Module 1/GMAP 395 - Module 1.md",
+    "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
+    "GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1A - Game Feel and Tactile Experience.md",
+    "docs/gmap-395/module-1/submodules/desktop.ini",
+    "docs/gmap-395/class-demos/desktop.ini",
+    "docs/gmap-395/module-1/tutorials/gmap-395-wk-3-tutorial.html",
+    "docs/gmap-395/module-1/tutorials/gmap-395-wk-2-tutorial.html",
+    "docs/gmap-395/module-1/tutorials",
+    "docs/gmap-395/module-1/submodules/gmap-395-module-1f-case-studies-and-practical-implementation.html",
+    "docs/gmap-395/module-1/submodules/gmap-395-module-1d-lighting-fundamentals-and-technical-systems.html",
+    "docs/gmap-395/module-1/submodules/gmap-395-module-1e-color-theory-and-advanced-lighting.html",
+    "docs/gmap-395/module-1/submodules/gmap-395-module-1b-procedural-workflows-introduction.html",
+    "docs/gmap-395/module-1/submodules/gmap-395-module-1a-game-feel-and-tactile-experience.html",
     "GMAP 395/GMAP 395 - SU25 - Theme.md",
-    "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
-    "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
-    "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
-    "GMAP 395/Module 4/GMAP 395 - Module 4.md",
-    "GMAP 395/Module 4/GMAP 395 - Guides - Custom Post-Processing Effects.md",
-    "GMAP 395/Module 4/media/media.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 7 - Slides + Video.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 7 - In-Class Lab.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 6 - Tutorial.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 6 - Slides + Video.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 6 - In-Class Lab.md",
-    "GMAP 395/Module 3/GMAP 395 - Module 3.md",
-    "GMAP 395/Module 3/media/media.md",
-    "GMAP 395/Module 2/GMAP 395 - WK 5 - Tutorial.md",
-    "GMAP 395/Module 2/GMAP 395 - WK 5 - Slides + Video.md",
-    "GMAP 395/Module 2/GMAP 395 - WK 4 - Tutorial.md",
-    "GMAP 395/Module 2/GMAP 395 - WK 4 - Slides + Video.md",
-    "GMAP 395/Module 2/GMAP 395 - WK 4 - In-Class Lab.md",
-    "GMAP 395/Module 2/GMAP 395 - Module 2.md",
-    "GMAP 395/Class Demos/desktop.ini",
-    "GMAP 395/Class Demos",
-    "docs/gmap-395/weeklies/gmap-395-weekly-1.html",
-    "docs/gmap-395/weeklies",
-    "docs/gmap-395/introduction/media/gmap395-dagsnodes.excalidraw.html",
+    "GMAP 395/Module 1/tutorials/GMAP 395 - WK 3 - Tutorial.md",
+    "GMAP 395/Module 1/tutorials/GMAP 395 - WK 2 - Tutorial.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1F - Case Studies and Practical Implementation.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1E - Color Theory and Advanced Lighting.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1B - Procedural Workflows Introduction.md",
+    "GMAP 395/Module 1/legacy/GMAP 395 - WK 3 - Slides.md",
+    "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Slides.md",
+    "GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md",
+    "GMAP 395/Module 1/Media/150518_r26517.webp",
+    "GMAP 395/Module 1/Media/metalMaterial.png",
+    "GMAP 395/Module 1/Media/modualassetpack.png",
+    "GMAP 395/Module 1/Media/6492c4ab6751d8f29f5e4826_LAUNCH_Screenshot_101-p-500.webp",
+    "GMAP 395/Module 1/Media/globalVolume.png",
+    "GMAP 395/Module 1/Media/iPad_02-600x800.png",
+    "GMAP 395/Module 1/Media/6492c4abf65d6e4dfffbb89e_CONTROL_WorldTrailer_quarry_sky-p-500.avif",
+    "GMAP 395/Module 1/tutorials/tutorials.md",
+    "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Video Lecture.md",
+    "GMAP 395/Module 1/legacy/legacy.md",
+    "GMAP 395/Module 1/submodules/submodules.md",
+    "Index.md",
+    "GMAP 395/Introduction/GAMP 395 - Introduction - B.md",
+    "GMAP 395/Introduction/GMAP 395 - Introduction - C.md",
+    "GMAP 395/Introduction/GMAP 395 - Introduction - A.md",
+    "GMAP 395/Introduction/Introduction.md",
+    "GMAP 395/GMAP 395 - Guide - CT and CPS.md",
     "docs/gmap-395/introduction/media/design-everyday-things.jpg",
-    "docs/gmap-395/introduction/media",
-    "GMAP 395/Introduction/media",
-    "GMAP 395/Weeklies",
-    "docs/gmap-395/gmap-395-su25-theme.html",
     "docs/gmap-395/module-4/media/home-after.png",
-    "docs/gmap-395/module-4/media/tutwk9splash.png",
-    "docs/gmap-395/module-4/media/home-before.png",
-    "docs/gmap-395/module-4/media/capsule_616x353.jpg",
-    "docs/gmap-395/module-4/media/421988f6-a827-428b-86d4-9b815f15cdce.jpg",
-    "GMAP 395/Module 4/media/421988f6-a827-428b-86d4-9b815f15cdce.jpg",
-    "GMAP 395/Module 4/media/capsule_616x353.jpg",
-    "GMAP 395/Module 4/media/home-after.png",
-    "GMAP 395/Module 4/media/home-before.png"
+    "docs/gmap-395/module-4/media/tutwk9splash.png"
   ]
 }

@@ -32,7 +32,7 @@ Students may explore any aspect of "tomorrow" that interests them:
 
 > [!note] Visual Suggestions (Not Requirements) These are starting points for inspiration - students are encouraged to develop their own visual language that serves their interpretation of the theme.
 
-### Example Aesthetic Direction: "Echoes of Tomorrow"
+### Example Aesthetic Direction:
 
 _One possible interpretation focusing on technological archaeology_
 
