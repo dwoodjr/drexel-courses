@@ -4,7 +4,7 @@
 This module introduces foundational skills in **procedural modeling** and **lighting systems**. Students will explore creating modular assets and environments using DCC tools and plugins.
 
 > [!summary] Module Overview Video 📹
-    > https://1drv.ms/v/c/b08de2251f1b33a4/IQT2r9mLEdCXTpP61k3NIWECAdYv9sE9Kj8M0uCnF6Zb-Q8?width=1024
+    > [Module 1 - Overview Video](https://1drv.ms/v/c/b08de2251f1b33a4/Efav2YsR0JdOk_rWTc0hYQIBYaenUaj9qcafIpPiFFF44g?e=jx9lD2)
 
 ### Key Links
 #### Submodules

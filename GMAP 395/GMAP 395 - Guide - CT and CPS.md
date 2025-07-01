@@ -190,6 +190,7 @@ mindmap
       Animated Films
         Moana
         Finding Nemo
+        Ponyo
       Games
         Wind Waker
         Ni No Kuni
@@ -282,7 +283,10 @@ graph LR
     B3 --> C3[Strategic color use]
 ```
 
-> [!example] Translation Process **Film technique:** Complex particle systems **Core principle:** Layered depth creates visual richness **Game adaptation:** Animated texture layers with depth sorting
+> [!example] Translation Process 
+> **Film technique:** Complex particle systems 
+> **Core principle:** Layered depth creates visual richness 
+> **Game adaptation:** Animated texture layers with depth sorting
 
 > [!warning] Common Mistake Don't just copy techniques - understand why they work first.
 
@@ -416,8 +420,11 @@ graph LR
     D1[Adjust values] --> D2[Test immediately] --> D3[Document results]
 ```
 
-> [!example] Prototype Progression **Week 1:** Gray boxes, test jump feel **Week 2:** Basic character shape, test animations  
-> **Week 3:** Add visual feedback, test player reactions **Week 4:** Final art pass on proven mechanics
+> [!example] Prototype Progression 
+> **Week 1:** Gray boxes, test jump feel 
+> **Week 2:** Basic character shape, test animations  
+> **Week 3:** Add visual feedback, test player reactions 
+> **Week 4:** Final art pass on proven mechanics
 
 > [!tip] Prototyping Hierarchy
 > 
@@ -491,7 +498,14 @@ mindmap
       Lessons Learned
 ```
 
-> [!example] Documentation Template **Project:** Stylized Water Shader **Goal:** Cartoon ocean for mobile game **Research:** 3 days studying animated films **Attempts:** Tried particle system (too heavy), vertex animation (wrong look) **Breakthrough:** Combined UV scrolling with vertex displacement **Result:** 60fps on target device, matches art style **Next time:** Start with performance constraints, not visual goals
+> [!example] Documentation Template 
+> **Project:** Stylized Water Shader 
+> **Goal:** Cartoon ocean for mobile game 
+> **Research:** 3 days studying animated films 
+> **Attempts:** Tried particle system (too heavy), vertex animation (wrong look) 
+> **Breakthrough:** Combined UV scrolling with vertex displacement 
+> **Result:** 60fps on target device, matches art style 
+> **Next time:** Start with performance constraints, not visual goals
 
 > [!tip] Documentation Timing
 > 
@@ -658,7 +672,7 @@ flowchart TD
 > 
 > - [Polycount](https://polycount.com/) - Technical art community
 > - [Real-Time VFX](https://realtimevfx.com/) - Effects artists
-> - [Tech Art Aid](https://tech-art-aid.com/) - Technical art resources
+> - [Tech Art Aid](https://techartaid.com/) - Technical art resources
 
 #### 🎯 Transfer Challenge
 

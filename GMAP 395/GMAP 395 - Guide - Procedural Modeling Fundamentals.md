@@ -7,7 +7,7 @@ Procedural modeling means creating geometry through systematic, repeatable proce
 This guide teaches modular thinking - breaking complex forms into simple, reusable components that combine into sophisticated systems. While examples use Blender's Geometry Nodes, these principles apply to any procedural modeling tool.
 
 > [!info] How This Connects:
-> This guide pairs with the [[Critical Thinking and Creative Problem Solving Guide]] - the systematic problem-solving approaches there apply directly to procedural modeling challenges, while working through geometry problems reinforces those thinking patterns.
+> This guide pairs with the [[GMAP 395 - Guide - CT and CPS| Critical Thinking and Creative Problem-Solving]] - the systematic problem-solving approaches there apply directly to procedural modeling challenges, while working through geometry problems reinforces those thinking patterns.
 
 ##
 ---
@@ -138,7 +138,8 @@ graph TD
     E --> E3[Planes]
 ```
 
-> [!example] System Implementation **Geometry Nodes hierarchy:**
+> [!example] System Implementation 
+> **Geometry Nodes hierarchy:**
 > 
 > 1. **Wall Component:** `length`, `height` → wall geometry
 > 2. **Building Component:** uses walls, adds `roof_type`, `door_count`
@@ -215,7 +216,8 @@ flowchart LR
     D1[End face points] --> D2[Connection guides]
 ```
 
-> [!example] Wall Component Setup **In Geometry Nodes:**
+> [!example] Wall Component Setup
+>  **In Geometry Nodes:**
 > 
 > 1. **Cube Primitive** → base shape
 > 2. **Transform:** Scale X (length), Z (height), Y (thickness)
@@ -224,7 +226,7 @@ flowchart LR
 > 5. **Instance Cubes:** Small connection indicators
 
 > [!NOTE] Concept Demo Video 📹
-    > https://1drv.ms/v/c/b08de2251f1b33a4/IQQS-O5nJ7T8SZRUW73GeOklAYqB9oAfScfkZE1FsemvPTI?width=660
+    > [gmap395_g_pm_2.1.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/ERL47mcntPxJlFRbvcZ46SUBX3-JJKYBapzzIc7oqFNUFQ?e=agdBNx)
 
 > [!tip] Transform Best Practices
 > 
@@ -289,7 +291,8 @@ graph LR
     B1[Window border] --> C1[Frame depth] --> D1[Inner trim] --> E1[Open window]
 ```
 
-> [!example] Window Frame Process **Geometry Nodes workflow:**
+> [!example] Window Frame Process 
+> **Geometry Nodes workflow:**
 > 
 > 1. **Select Faces:** Choose wall faces for windows
 > 2. **Inset Faces:** Create window frame border (0.1m)
@@ -298,7 +301,7 @@ graph LR
 > 5. **Delete Geometry:** Remove center faces for opening
 
 > [!NOTE] Concept Demo Video 📹
-    > https://1drv.ms/v/c/b08de2251f1b33a4/IQRNDviH63tESqeWgzLe91QMAW8n1piQFEuRij8IaR27GCE?width=660
+    > [gmap395_g_pm_2.2.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/EU0O-Ifre0RKp5aDMt73VAwBVugbBvb8iC6UwTSvcA8hDQ?e=06d7jE)
 
 > [!NOTE] A Note of Selections in GN
     > The selection capabilities are somewhat tool specific, it depends greatly on how that particular tool handles geometry data. In Blender GN, selection takes a bit more math or manual work. A hybrid approach of "preprocessing" you geometry and segmenting manually the pieces that need procedural elements is the better approach. With that said, below are some good sources on making selections in GN:
@@ -372,7 +375,8 @@ flowchart TD
     D1[Union cutouts] --> D2[Difference from wall]
 ```
 
-> [!example] Boolean Window System **Setup process:**
+> [!example] Boolean Window System 
+> **Setup process:**
 > 
 > 1. **Base wall geometry** (from previous examples)
 > 2. **Create cutout shapes** (rectangles for windows/doors)
@@ -383,7 +387,7 @@ flowchart TD
 > 7. **Boolean Difference** final cutouts from wall
 
 > [!NOTE] Concept Demo Video 📹
-    > https://1drv.ms/v/c/b08de2251f1b33a4/IQROJ56L0_hcTrNC8rC65CDsAep7rrtHjh1FMHAGygNviaM?width=660
+    > [gmap395_g_pm_2.3.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/EU4nnovT-FxOs0LysLrkIOwBUx-T-ezlLUdatMG5iEZUMg?e=zQTF4Q)
 
 > [!tip] Boolean Best Practices
 > 
@@ -462,7 +466,8 @@ flowchart LR
     E1[Random height] --> E2[Random rotation] --> E3[Multiple designs]
 ```
 
-> [!example] Fence System Implementation **Geometry Nodes setup:**
+> [!example] Fence System Implementation 
+> **Geometry Nodes setup:**
 > 
 > 1. **Input:** Curve path for fence line
 > 2. **Distribute Points on Curve:** Even spacing for posts
@@ -472,7 +477,7 @@ flowchart LR
 > 6. **Switch:** Randomly select from multiple post designs
 
 > [!NOTE] Concept Demo Video 📹
-    > https://1drv.ms/v/c/b08de2251f1b33a4/IQSankMSvhEJS6TrDAp8X4c2AQfSKCbZwhD1IAEd9_U5xb4?width=660
+    > [gmap395_g_pm_3.1.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/EZqeQxK-EQlLpOsMCnxfhzYBhj8N56oIYGNQpIkhHhXeDA?e=TOc44L)
 
 > [!tip] Array Variation Techniques
 > 
@@ -544,7 +549,8 @@ graph TD
     E1[Scale variation] --> E2[Rotation randomness] --> E3[Material IDs]
 ```
 
-> [!example] Rock Scattering System **Advanced distribution:**
+> [!example] Rock Scattering System 
+> **Advanced distribution:**
 > 
 > 1. **Terrain Analysis:** Use slope angle to control placement
 > 2. **Density Texture:** Paint where rocks should/shouldn't appear
@@ -554,7 +560,7 @@ graph TD
 > 6. **Variation:** Random scale (80-120%), rotation, material wear
 
 > [!NOTE] Concept Demo Video 📹
-    > https://1drv.ms/v/c/b08de2251f1b33a4/IQSWpN9iwQ08RYuYhXc1rYm-AWrmTZDQS6i3EQIO-QcDtBs?width=660
+    > [gmap395_g_pm_3.2.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/EZak32LBDTxFi5iFdzWtib4B3GyaLFz-B_CTvlMCsq6amA?e=kZAQoZ)
 
 > [!tip] Natural Variation Strategies
 > 
@@ -631,7 +637,8 @@ flowchart LR
     D1[Consistent texel density] --> D2[Tiling coordination] --> D3[Detail mapping]
 ```
 
-> [!example] UV Workflow for Procedural Buildings **Geometry Nodes setup:**
+> [!example] UV Workflow for Procedural Buildings 
+> **Geometry Nodes setup:**
 > 
 > 1. **Material ID Assignment:**
 >     - Walls get material index 0
@@ -647,7 +654,7 @@ flowchart LR
 >     - Align to texture grids
 
 > [!NOTE] Concept Demo Video 📹
-    > https://1drv.ms/v/c/b08de2251f1b33a4/IQSTFM-KBboMTKjea4FsBvyEAYgPwsMwLNDOjZIa1pI44vk?width=660
+    > [gmap395_g_pm_4.1.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/EZMUz4oFugxMqN5rgWwG_IQB2PQM3lkO2v5iOPnzWDgqGw?e=yZ399t)
 
 > [!NOTE] Procedural UV Tutorials for GN
     > [Blender Tutorial: Procedural UV Unwrapping with Geometry Nodes](https://www.youtube.com/watch?v=02XNGOVpSV4)
@@ -728,7 +735,8 @@ graph TD
     D1[Texture optimization] --> D2[Geometry sharing] --> D3[Culling systems]
 ```
 
-> [!example] Mobile Optimization Strategy **Performance targets:**
+> [!example] Mobile Optimization Strategy
+**Performance targets:**
 > 
 > - Building cluster: 10,000 triangles maximum
 > - Individual buildings: 500-2,000 triangles based on importance
@@ -818,7 +826,8 @@ flowchart LR
     D1[Parameter scripts] --> D2[Level tools] --> D3[Runtime generation]
 ```
 
-> [!example] Production Pipeline **Export preparation:**
+> [!example] Production Pipeline 
+> **Export preparation:**
 > 
 > 1. **Apply Geometry Nodes:** Bake procedural results to mesh
 > 2. **LOD Generation:** Create multiple detail levels
@@ -916,7 +925,8 @@ graph TD
     E1[Props, vegetation, wear] --> F1[Lighting, effects, weather]
 ```
 
-> [!example] Village System Implementation **Master control parameters:**
+> [!example] Village System Implementation 
+> **Master control parameters:**
 > 
 > - Village size (small/medium/large)
 > - Prosperity level (poor/modest/wealthy)
@@ -1002,7 +1012,8 @@ flowchart LR
     D1[Wear patterns] --> D2[Color schemes] --> D3[Performance stats]
 ```
 
-> [!example] Weapon Customization System **Component breakdown:**
+> [!example] Weapon Customization System 
+> **Component breakdown:**
 > 
 > 1. **Base Type:** Determines overall weapon category and stats
 > 2. **Handle System:** Length affects reach, material affects durability

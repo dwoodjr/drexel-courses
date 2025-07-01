@@ -1,4 +1,44 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 01 Jul 2025 20:06:34 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 01 Jul 2025 20:06:26 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Critical Thinking and Creative Problem Solving for Artists, Designers, and Technologists]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 01 Jul 2025 20:19:25 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 01 Jul 2025 20:19:18 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
+ <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br>Module Overview Video 📹
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/Efav2YsR0JdOk_rWTc0hYQIBYaenUaj9qcafIpPiFFF44g?e=jx9lD2" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/Efav2YsR0JdOk_rWTc0hYQIBYaenUaj9qcafIpPiFFF44g?e=jx9lD2" target="_blank">Module 1 - Overview Video</a>
+<br><br><br><a data-href="GMAP 395 - Module 1A - Game Feel and Tactile Experience" href="gmap-395\module-1\submodules\gmap-395-module-1a-game-feel-and-tactile-experience.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1A - Game Feel and Tactile Experience</a><br>
+<a data-href="GMAP 395 - Module 1B - Procedural Workflows Introduction" href="gmap-395\module-1\submodules\gmap-395-module-1b-procedural-workflows-introduction.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1B - Procedural Workflows Introduction</a><br>
+<a data-href="GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques" href="gmap-395\module-1\submodules\gmap-395-module-1c-node-based-systems-and-advanced-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques</a><br>
+<a data-href="GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems" href="gmap-395\module-1\submodules\gmap-395-module-1d-lighting-fundamentals-and-technical-systems.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems</a><br>
+<a data-href="GMAP 395 - Module 1E - Color Theory and Advanced Lighting" href="gmap-395\module-1\submodules\gmap-395-module-1e-color-theory-and-advanced-lighting.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1E - Color Theory and Advanced Lighting</a><br>
+<a data-href="GMAP 395 - Module 1F - Case Studies and Practical Implementation" href="gmap-395\module-1\submodules\gmap-395-module-1f-case-studies-and-practical-implementation.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1F - Case Studies and Practical Implementation</a><br><br>N/A<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Guide - CT and CPS" data-href="GMAP 395 - Guide - CT and CPS" href="gmap-395\gmap-395-guide-ct-and-cps.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking and Creative Problem Solving</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Guide - Procedural Modeling Fundamentals" data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Procedural Modeling Fundamentals</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" data-href="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" href="gmap-395\notes\gmap-395-wk-2-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Tutorial</a><br>
+<a data-href="GMAP 395 - WK 3 - Tutorial" href="gmap-395\module-1\tutorials\gmap-395-wk-3-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 1 - Brief" data-href="GMAP 395 - ASN 1 - Brief" href="gmap-395\module-1\gmap-395-asn-1-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 1 - Procedural Modeling + Lightning Systems</a><br><br><a data-href="GMAP 395 - WK 2 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-2-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Slides</a><br>
+<a data-href="GMAP 395 - WK 2 - Video Lecture" href="gmap-395\module-1\legacy\gmap-395-wk-2-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Video Lecture</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - WK 3 - Slides" data-href="GMAP 395 - WK 3 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-3-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Slides + Video</a><br><br><br>
+<br>Introduction to procedural modeling with Blender.
+<br>Basics of lighting systems with Unity.
+<br>Overview of procedural and modular workflows.
+<br><br><br>By the end of this module, you will:<br>
+<br>Gain foundational knowledge in procedural modeling techniques and lighting systems.
+<br>Explore the use of industry-standard tools like Blender and Unity.
+<br>Understand the importance of modular workflows in game art development.
+<br>Build confidence in preparing and setting up tools for complex projects.
+<br><br><br>
+<br>Confirm your computer meets the recommended specifications for Blender and Unity.
+<br>Install <a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender</a> 3.9 or higher.
+<br>Install Unity (2022.3) via the <a data-tooltip-position="top" aria-label="https://unity.com/download" rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">Unity Hub</a>
+<br>If you have never used Blender
+
+<br>If you have never used Unity
+
+<br><br><br><br><br>
+<br>Blender 3.9 or higher: Download from <a rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">https://www.blender.org/download/</a>.
+<br><br>
+<br>Unity (LTS version): Download from <a rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">https://unity.com/download</a>.
+<br>Ensure the system specifications match or exceed Unity's requirements.
+<br><br><br><br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" target="_blank">Blender Quick Start Guide</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" target="_blank">Introduction to Geometry Nodes</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Tue, 01 Jul 2025 20:09:01 GMT</pubDate></item><item><title><![CDATA[Critical Thinking and Creative Problem Solving for Artists, Designers, and Technologists]]></title><description><![CDATA[ 
  <br><br><br>In creative and technical work, the ability to solve problems systematically often matters more than any specific tool knowledge. Whether you're debugging a shader, designing a character, or optimizing game performance, the same core thinking skills apply.<br>This guide teaches you to approach challenges methodically rather than hoping for inspiration or getting paralyzed by complexity. You'll learn to break down problems, research effectively, and iterate toward solutions.<br>How This Connects: 
 This guide pairs with the <a data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Guide - Procedural Modeling Fundamentals</a> - the problem-solving framework here applies directly to technical modeling challenges, while working through geometry problems reinforces these thinking patterns.
 <br><br><br><br><br>🎯 Problem/Goal: You're tasked with creating an entire game environment but feel overwhelmed by the scope.<br>Quick Reality Check, Ask yourself: "If I had to demo this in 2 weeks, what's the absolute minimum that needs to work?"<br><br><br><br><br>Breaking It Down Step-by-Step 
@@ -71,7 +111,11 @@ Research layers:
 <br>Visual: Art styles, proportions, appeal factors
 <br>Technical: Rigging constraints, animation needs, performance
 <br>Conceptual: Psychology of character design, cultural considerations
-<br>Success Metric You can efficiently gather diverse, relevant references and explain how each one informs your creative decisions.<br><br><br><br>🎯 Problem/Goal: The exact solution doesn't exist, but similar problems have been solved elsewhere.<br><br><br><br><br>Translation Process Film technique: Complex particle systems Core principle: Layered depth creates visual richness Game adaptation: Animated texture layers with depth sorting<br>Common Mistake Don't just copy techniques - understand why they work first.<br><br><br><br>
+<br>Success Metric You can efficiently gather diverse, relevant references and explain how each one informs your creative decisions.<br><br><br><br>🎯 Problem/Goal: The exact solution doesn't exist, but similar problems have been solved elsewhere.<br><br><br><br><br>Translation Process 
+Film technique: Complex particle systems<br>
+Core principle: Layered depth creates visual richness<br>
+Game adaptation: Animated texture layers with depth sorting
+<br>Common Mistake Don't just copy techniques - understand why they work first.<br><br><br><br>
 <br>🎯 Direct Adaptation: Recreate exactly, then optimize
 <br>💡 Principle Extraction: Understand the why, rebuild the how
 <br>🔄 Hybrid Methods: Combine multiple source approaches
@@ -104,8 +148,11 @@ Source C: "It depends on your target device"
 <br>Research: What evidence supports these principles?
 <br>Test: How do different user groups respond?
 <br>Context: When do these principles apply vs. not apply?
-<br>Success Metric You can quickly assess information credibility and know when to dig deeper vs. accept advice.<br><br><br><br><br>🎯 Problem/Goal: You need to test ideas quickly without investing too much time in any single approach.<br><br><br><br><br>Prototype Progression Week 1: Gray boxes, test jump feel Week 2: Basic character shape, test animations  
-Week 3: Add visual feedback, test player reactions Week 4: Final art pass on proven mechanics
+<br>Success Metric You can quickly assess information credibility and know when to dig deeper vs. accept advice.<br><br><br><br><br>🎯 Problem/Goal: You need to test ideas quickly without investing too much time in any single approach.<br><br><br><br><br>Prototype Progression 
+Week 1: Gray boxes, test jump feel<br>
+Week 2: Basic character shape, test animations<br>
+Week 3: Add visual feedback, test player reactions<br>
+Week 4: Final art pass on proven mechanics
 <br>Prototyping Hierarchy
 
 <br>Core functionality (does it work?)
@@ -126,7 +173,15 @@ Week 3: Add visual feedback, test player reactions Week 4: Final art pass on pro
 <br>Visual test: Single character/prop in new style
 <br>Consistency test: Multiple assets using same approach
 <br>Context test: Assets in actual game environment
-<br>Success Metric You can rapidly test core assumptions and pivot based on prototype feedback without emotional attachment to early work.<br><br><br><br>🎯 Problem/Goal: Learning from your process so you can improve and repeat successes.<br><br><br><br><br>Documentation Template Project: Stylized Water Shader Goal: Cartoon ocean for mobile game Research: 3 days studying animated films Attempts: Tried particle system (too heavy), vertex animation (wrong look) Breakthrough: Combined UV scrolling with vertex displacement Result: 60fps on target device, matches art style Next time: Start with performance constraints, not visual goals<br>Documentation Timing
+<br>Success Metric You can rapidly test core assumptions and pivot based on prototype feedback without emotional attachment to early work.<br><br><br><br>🎯 Problem/Goal: Learning from your process so you can improve and repeat successes.<br><br><br><br><br>Documentation Template 
+Project: Stylized Water Shader<br>
+Goal: Cartoon ocean for mobile game<br>
+Research: 3 days studying animated films<br>
+Attempts: Tried particle system (too heavy), vertex animation (wrong look)<br>
+Breakthrough: Combined UV scrolling with vertex displacement<br>
+Result: 60fps on target device, matches art style<br>
+Next time: Start with performance constraints, not visual goals
+<br>Documentation Timing
 
 <br>During work: Quick notes, screenshots of progress
 <br>After sessions: Reflection on what worked/didn't
@@ -184,7 +239,7 @@ Deepest level: How they think about problems, what principles guide their decisi
 
 <br><a data-tooltip-position="top" aria-label="https://polycount.com/" rel="noopener nofollow" class="external-link" href="https://polycount.com/" target="_blank">Polycount</a> - Technical art community
 <br><a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX</a> - Effects artists
-<br><a data-tooltip-position="top" aria-label="https://tech-art-aid.com/" rel="noopener nofollow" class="external-link" href="https://tech-art-aid.com/" target="_blank">Tech Art Aid</a> - Technical art resources
+<br><a data-tooltip-position="top" aria-label="https://techartaid.com/" rel="noopener nofollow" class="external-link" href="https://techartaid.com/" target="_blank">Tech Art Aid</a> - Technical art resources
 
 <br><br>Analyze a workflow from a different creative field:<br>
 <br>Architecture: How do architects plan complex projects?
@@ -205,9 +260,9 @@ Deepest level: How they think about problems, what principles guide their decisi
 <br>Find communities where you can both seek and offer help
 <br>Continue learning by analyzing others' problem-solving approaches
 
-<br>Remember: The goal isn't to never get stuck, but to have systematic ways of getting unstuck. Every challenge becomes an opportunity to strengthen your problem-solving skills.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-ct-and-cps.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - CT and CPS.md</guid><pubDate>Sun, 29 Jun 2025 19:13:24 GMT</pubDate></item><item><title><![CDATA[Procedural Modeling with Modular Thinking - A Beginner's Guide]]></title><description><![CDATA[ 
+<br>Remember: The goal isn't to never get stuck, but to have systematic ways of getting unstuck. Every challenge becomes an opportunity to strengthen your problem-solving skills.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-ct-and-cps.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - CT and CPS.md</guid><pubDate>Tue, 01 Jul 2025 20:18:32 GMT</pubDate></item><item><title><![CDATA[Procedural Modeling with Modular Thinking - A Beginner's Guide]]></title><description><![CDATA[ 
  <br><br><br>Procedural modeling means creating geometry through systematic, repeatable processes rather than manually placing every vertex. This approach excels in game development where you need efficient workflows, consistent results, and the ability to iterate quickly.<br>This guide teaches modular thinking - breaking complex forms into simple, reusable components that combine into sophisticated systems. While examples use Blender's Geometry Nodes, these principles apply to any procedural modeling tool.<br>How This Connects:
-This guide pairs with the <a data-href="Critical Thinking and Creative Problem Solving Guide" href="Critical Thinking and Creative Problem Solving Guide" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking and Creative Problem Solving Guide</a> - the systematic problem-solving approaches there apply directly to procedural modeling challenges, while working through geometry problems reinforces those thinking patterns.
+This guide pairs with the <a data-tooltip-position="top" aria-label="GMAP 395 - Guide - CT and CPS" data-href="GMAP 395 - Guide - CT and CPS" href="gmap-395\gmap-395-guide-ct-and-cps.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking and Creative Problem-Solving</a> - the systematic problem-solving approaches there apply directly to procedural modeling challenges, while working through geometry problems reinforces those thinking patterns.
 <br><br><br><br><br>🎯 Problem/Goal: When should you choose procedural approaches over traditional modeling?<br>Key Decision Point Ask yourself: "Will I need multiple variations of this, or will it change frequently during development?"<br><br><br><br><br>Building System Breakdown 
 Manual approach:
 
@@ -238,7 +293,8 @@ Procedural approach:
 <br>What gets repeated with variations?
 <br>What might change during development?
 <br>Where do you spend time on repetitive tasks?
-<br>Success Metric You can quickly evaluate whether a modeling task would benefit from procedural approaches and explain the trade-offs.<br><br><br><br>🎯 Problem/Goal: Building complex systems from simple, reusable components.<br><br><br><br><br>System Implementation Geometry Nodes hierarchy:
+<br>Success Metric You can quickly evaluate whether a modeling task would benefit from procedural approaches and explain the trade-offs.<br><br><br><br>🎯 Problem/Goal: Building complex systems from simple, reusable components.<br><br><br><br><br>System Implementation 
+Geometry Nodes hierarchy:
 
 <br>Wall Component: length, height → wall geometry
 <br>Building Component: uses walls, adds roof_type, door_count
@@ -267,7 +323,8 @@ Procedural approach:
 <br>UI System: Buttons → Panels → Screens → Full Interface
 <br>Animation Rig: Controls → Sub-systems → Character → Scene
 <br>Material Library: Textures → Shaders → Material Sets → Environment
-<br>Success Metric You naturally think in terms of reusable components and can design systems that others can understand and extend.<br><br><br><br><br>🎯 Problem/Goal: Understanding the building blocks of all geometry.<br><br><br><br><br>Wall Component Setup In Geometry Nodes:
+<br>Success Metric You naturally think in terms of reusable components and can design systems that others can understand and extend.<br><br><br><br><br>🎯 Problem/Goal: Understanding the building blocks of all geometry.<br><br><br><br><br>Wall Component Setup
+ In Geometry Nodes:
 
 <br>Cube Primitive → base shape
 <br>Transform: Scale X (length), Z (height), Y (thickness)
@@ -276,7 +333,7 @@ Procedural approach:
 <br>Instance Cubes: Small connection indicators
 
 <br>Concept Demo Video 📹
-<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQQS-O5nJ7T8SZRUW73GeOklAYqB9oAfScfkZE1FsemvPTI?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQQS-O5nJ7T8SZRUW73GeOklAYqB9oAfScfkZE1FsemvPTI?width=660</a>
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/ERL47mcntPxJlFRbvcZ46SUBX3-JJKYBapzzIc7oqFNUFQ?e=agdBNx" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/ERL47mcntPxJlFRbvcZ46SUBX3-JJKYBapzzIc7oqFNUFQ?e=agdBNx" target="_blank">gmap395_g_pm_2.1.mp4</a>
 <br>Transform Best Practices
 
 <br>Consistent Origins: Decide on pivot standards for your project
@@ -299,7 +356,8 @@ Procedural approach:
 <br>Cyberpunk: Angular, tech-heavy base shapes
 <br>Organic Forest: Curved, natural-form primitives
 <br>Minimalist: Clean, simple geometric bases
-<br>Success Metric You can quickly generate appropriate base geometry and transform it systematically for different contexts.<br><br><br><br>🎯 Problem/Goal: Growing 2D shapes into 3D forms and adding surface detail.<br><br><br><br><br>Window Frame Process Geometry Nodes workflow:
+<br>Success Metric You can quickly generate appropriate base geometry and transform it systematically for different contexts.<br><br><br><br>🎯 Problem/Goal: Growing 2D shapes into 3D forms and adding surface detail.<br><br><br><br><br>Window Frame Process 
+Geometry Nodes workflow:
 
 <br>Select Faces: Choose wall faces for windows
 <br>Inset Faces: Create window frame border (0.1m)
@@ -308,7 +366,7 @@ Procedural approach:
 <br>Delete Geometry: Remove center faces for opening
 
 <br>Concept Demo Video 📹
-<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQRNDviH63tESqeWgzLe91QMAW8n1piQFEuRij8IaR27GCE?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQRNDviH63tESqeWgzLe91QMAW8n1piQFEuRij8IaR27GCE?width=660</a>
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EU0O-Ifre0RKp5aDMt73VAwBVugbBvb8iC6UwTSvcA8hDQ?e=06d7jE" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EU0O-Ifre0RKp5aDMt73VAwBVugbBvb8iC6UwTSvcA8hDQ?e=06d7jE" target="_blank">gmap395_g_pm_2.2.mp4</a>
 <br>A Note of Selections in GN
 The selection capabilities are somewhat tool specific, it depends greatly on how that particular tool handles geometry data. In Blender GN, selection takes a bit more math or manual work. A hybrid approach of "preprocessing" you geometry and segmenting manually the pieces that need procedural elements is the better approach. With that said, below are some good sources on making selections in GN:<br>
 <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=p4rwhifXNCw" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=p4rwhifXNCw" target="_blank">Select What You Want in Geometry Nodes - Blender Tutorial</a><br>
@@ -335,7 +393,8 @@ The selection capabilities are somewhat tool specific, it depends greatly on how
 <br>Armor pieces: Layered protection with depth
 <br>Vehicle panels: Surface detail and functional elements
 <br>Weapon design: Grip details, decorative elements
-<br>Success Metric You can efficiently add surface detail that enhances form while maintaining clean, workable topology.<br><br><br><br>🎯 Problem/Goal: Combining and cutting shapes to create complex forms.<br><br><br><br><br>Boolean Window System Setup process:
+<br>Success Metric You can efficiently add surface detail that enhances form while maintaining clean, workable topology.<br><br><br><br>🎯 Problem/Goal: Combining and cutting shapes to create complex forms.<br><br><br><br><br>Boolean Window System 
+Setup process:
 
 <br>Base wall geometry (from previous examples)
 <br>Create cutout shapes (rectangles for windows/doors)
@@ -346,7 +405,7 @@ The selection capabilities are somewhat tool specific, it depends greatly on how
 <br>Boolean Difference final cutouts from wall
 
 <br>Concept Demo Video 📹
-<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQROJ56L0_hcTrNC8rC65CDsAep7rrtHjh1FMHAGygNviaM?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQROJ56L0_hcTrNC8rC65CDsAep7rrtHjh1FMHAGygNviaM?width=660</a>
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EU4nnovT-FxOs0LysLrkIOwBUx-T-ezlLUdatMG5iEZUMg?e=zQTF4Q" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EU4nnovT-FxOs0LysLrkIOwBUx-T-ezlLUdatMG5iEZUMg?e=zQTF4Q" target="_blank">gmap395_g_pm_2.3.mp4</a>
 <br>Boolean Best Practices
 
 <br>Clean input geometry: No overlapping faces, good normals
@@ -375,7 +434,8 @@ The selection capabilities are somewhat tool specific, it depends greatly on how
 <br>Complex machinery: How would you break down a vehicle engine?
 <br>Architectural details: Gothic cathedral with intricate stonework
 <br>Character armor: Layered protection with functional details
-<br>Success Metric You understand when booleans are appropriate and can predict potential problems before they occur.<br><br><br><br><br>🎯 Problem/Goal: Efficiently creating repeated elements with controlled variation.<br><br><br><br><br>Fence System Implementation Geometry Nodes setup:
+<br>Success Metric You understand when booleans are appropriate and can predict potential problems before they occur.<br><br><br><br><br>🎯 Problem/Goal: Efficiently creating repeated elements with controlled variation.<br><br><br><br><br>Fence System Implementation 
+Geometry Nodes setup:
 
 <br>Input: Curve path for fence line
 <br>Distribute Points on Curve: Even spacing for posts
@@ -385,7 +445,7 @@ The selection capabilities are somewhat tool specific, it depends greatly on how
 <br>Switch: Randomly select from multiple post designs
 
 <br>Concept Demo Video 📹
-<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQSankMSvhEJS6TrDAp8X4c2AQfSKCbZwhD1IAEd9_U5xb4?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQSankMSvhEJS6TrDAp8X4c2AQfSKCbZwhD1IAEd9_U5xb4?width=660</a>
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EZqeQxK-EQlLpOsMCnxfhzYBhj8N56oIYGNQpIkhHhXeDA?e=TOc44L" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EZqeQxK-EQlLpOsMCnxfhzYBhj8N56oIYGNQpIkhHhXeDA?e=TOc44L" target="_blank">gmap395_g_pm_3.1.mp4</a>
 <br>Array Variation Techniques
 
 <br>Controlled randomness: Use seed values for repeatable results
@@ -409,7 +469,8 @@ The selection capabilities are somewhat tool specific, it depends greatly on how
 <br>Foliage System: Trees and plants with natural variation
 <br>Urban Details: Street lights, signs, traffic elements
 <br>Crowd System: Characters with different appearances and behaviors
-<br>Success Metric You can create natural-looking patterns that feel random but are actually controllable and repeatable.<br><br><br><br>🎯 Problem/Goal: Managing memory and performance while creating visual variety.<br><br><br><br><br>Rock Scattering System Advanced distribution:
+<br>Success Metric You can create natural-looking patterns that feel random but are actually controllable and repeatable.<br><br><br><br>🎯 Problem/Goal: Managing memory and performance while creating visual variety.<br><br><br><br><br>Rock Scattering System 
+Advanced distribution:
 
 <br>Terrain Analysis: Use slope angle to control placement
 <br>Density Texture: Paint where rocks should/shouldn't appear
@@ -419,7 +480,7 @@ The selection capabilities are somewhat tool specific, it depends greatly on how
 <br>Variation: Random scale (80-120%), rotation, material wear
 
 <br>Concept Demo Video 📹
-<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQSWpN9iwQ08RYuYhXc1rYm-AWrmTZDQS6i3EQIO-QcDtBs?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQSWpN9iwQ08RYuYhXc1rYm-AWrmTZDQS6i3EQIO-QcDtBs?width=660</a>
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EZak32LBDTxFi5iFdzWtib4B3GyaLFz-B_CTvlMCsq6amA?e=kZAQoZ" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EZak32LBDTxFi5iFdzWtib4B3GyaLFz-B_CTvlMCsq6amA?e=kZAQoZ" target="_blank">gmap395_g_pm_3.2.mp4</a>
 <br>Natural Variation Strategies
 
 <br>Size hierarchy: Mix large, medium, small elements
@@ -447,7 +508,8 @@ Frustum Culling:
 <br>What repeated elements could benefit from variation?
 <br>How would you balance memory vs. visual diversity?
 <br>What environmental logic should guide placement?
-<br>Success Metric You can create rich, varied environments that perform well and feel naturally distributed rather than obviously systematic.<br><br><br><br><br>🎯 Problem/Goal: Ensuring procedural geometry works well with texturing pipelines.<br><br><br><br><br>UV Workflow for Procedural Buildings Geometry Nodes setup:
+<br>Success Metric You can create rich, varied environments that perform well and feel naturally distributed rather than obviously systematic.<br><br><br><br><br>🎯 Problem/Goal: Ensuring procedural geometry works well with texturing pipelines.<br><br><br><br><br>UV Workflow for Procedural Buildings 
+Geometry Nodes setup:
 
 <br>Material ID Assignment:
 
@@ -472,7 +534,7 @@ Frustum Culling:
 
 
 <br>Concept Demo Video 📹
-<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQSTFM-KBboMTKjea4FsBvyEAYgPwsMwLNDOjZIa1pI44vk?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQSTFM-KBboMTKjea4FsBvyEAYgPwsMwLNDOjZIa1pI44vk?width=660</a>
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EZMUz4oFugxMqN5rgWwG_IQB2PQM3lkO2v5iOPnzWDgqGw?e=yZ399t" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EZMUz4oFugxMqN5rgWwG_IQB2PQM3lkO2v5iOPnzWDgqGw?e=yZ399t" target="_blank">gmap395_g_pm_4.1.mp4</a>
 <br>Procedural UV Tutorials for GN
 <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=02XNGOVpSV4" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=02XNGOVpSV4" target="_blank">Blender Tutorial: Procedural UV Unwrapping with Geometry Nodes</a><br>
 <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=Ubeot7lIvTM" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=Ubeot7lIvTM" target="_blank">How to create proper UV Maps with Geometry Nodes in Blender</a>
@@ -506,7 +568,8 @@ Frustum Culling:
 <br>Vehicle Customization: How would you handle paint jobs, decals, wear?
 <br>Character System: Clothing, skin, accessories with different materials?
 <br>Environment Kit: Modular pieces that tile seamlessly?
-<br>Success Metric Your procedural geometry textures properly without visible seams or stretching, and maintains consistent quality across variations.<br><br><br><br>🎯 Problem/Goal: Creating procedural systems that work within game engine constraints.<br><br><br><br><br>Mobile Optimization Strategy Performance targets:
+<br>Success Metric Your procedural geometry textures properly without visible seams or stretching, and maintains consistent quality across variations.<br><br><br><br>🎯 Problem/Goal: Creating procedural systems that work within game engine constraints.<br><br><br><br><br>Mobile Optimization Strategy
+Performance targets:
 
 <br>Building cluster: 10,000 triangles maximum
 <br>Individual buildings: 500-2,000 triangles based on importance
@@ -550,7 +613,8 @@ Optimization implementation:
 <br>What would you prioritize when moving from PC to mobile?
 <br>How would you maintain visual quality while cutting resources?
 <br>What features could become optional quality settings?
-<br>Success Metric You can hit performance targets while maintaining acceptable visual quality, and you understand the trade-offs involved.<br><br><br><br>🎯 Problem/Goal: Moving procedural work from creation tools into game engines effectively.<br><br><br><br><br>Production Pipeline Export preparation:
+<br>Success Metric You can hit performance targets while maintaining acceptable visual quality, and you understand the trade-offs involved.<br><br><br><br>🎯 Problem/Goal: Moving procedural work from creation tools into game engines effectively.<br><br><br><br><br>Production Pipeline 
+Export preparation:
 
 <br>Apply Geometry Nodes: Bake procedural results to mesh
 <br>LOD Generation: Create multiple detail levels
@@ -598,7 +662,8 @@ Unreal:
 <br>What needs to be procedural vs. baked?
 <br>How will non-technical team members interact with the system?
 <br>What performance requirements must the pipeline meet?
-<br>Success Metric You have a smooth workflow from creation tool to game engine that supports both iteration speed and final performance requirements.<br><br><br><br><br>🎯 Problem/Goal: Building complete environment systems using procedural approaches.<br><br><br><br><br>Village System Implementation Master control parameters:
+<br>Success Metric You have a smooth workflow from creation tool to game engine that supports both iteration speed and final performance requirements.<br><br><br><br><br>🎯 Problem/Goal: Building complete environment systems using procedural approaches.<br><br><br><br><br>Village System Implementation 
+Master control parameters:
 
 <br>Village size (small/medium/large)
 <br>Prosperity level (poor/modest/wealthy)
@@ -638,7 +703,8 @@ System hierarchy:
 <br>What are the core environmental elements?
 <br>How would you ensure variety while maintaining consistency?
 <br>What level of procedural generation vs. manual art direction makes sense?
-<br>Success Metric You can create compelling, believable environments that feel hand-crafted but benefit from procedural efficiency and variation.<br><br><br><br>🎯 Problem/Goal: Applying procedural thinking to smaller-scale asset creation.<br><br><br><br><br>Weapon Customization System Component breakdown:
+<br>Success Metric You can create compelling, believable environments that feel hand-crafted but benefit from procedural efficiency and variation.<br><br><br><br>🎯 Problem/Goal: Applying procedural thinking to smaller-scale asset creation.<br><br><br><br><br>Weapon Customization System 
+Component breakdown:
 
 <br>Base Type: Determines overall weapon category and stats
 <br>Handle System: Length affects reach, material affects durability
@@ -705,47 +771,7 @@ Game Engines:
 <br>Join communities focused on procedural content creation
 <br>Analyze existing games to understand their procedural systems
 
-<br>Remember Procedural modeling isn't about replacing artistic skill - it's about amplifying it. The goal is to spend more time on creative decisions and less time on repetitive tasks, while maintaining the ability to iterate and experiment freely.<br>The thinking patterns you develop here apply beyond geometry - to materials, animation, level design, and any systematic creative work.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md</guid><pubDate>Tue, 01 Jul 2025 20:00:09 GMT</pubDate></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
- <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br>Module Overview Video 📹
-<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQT2r9mLEdCXTpP61k3NIWECAdYv9sE9Kj8M0uCnF6Zb-Q8?width=1024" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQT2r9mLEdCXTpP61k3NIWECAdYv9sE9Kj8M0uCnF6Zb-Q8?width=1024</a>
-<br><br><br><a data-href="GMAP 395 - Module 1A - Game Feel and Tactile Experience" href="gmap-395\module-1\submodules\gmap-395-module-1a-game-feel-and-tactile-experience.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1A - Game Feel and Tactile Experience</a><br>
-<a data-href="GMAP 395 - Module 1B - Procedural Workflows Introduction" href="gmap-395\module-1\submodules\gmap-395-module-1b-procedural-workflows-introduction.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1B - Procedural Workflows Introduction</a><br>
-<a data-href="GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques" href="gmap-395\module-1\submodules\gmap-395-module-1c-node-based-systems-and-advanced-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques</a><br>
-<a data-href="GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems" href="gmap-395\module-1\submodules\gmap-395-module-1d-lighting-fundamentals-and-technical-systems.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems</a><br>
-<a data-href="GMAP 395 - Module 1E - Color Theory and Advanced Lighting" href="gmap-395\module-1\submodules\gmap-395-module-1e-color-theory-and-advanced-lighting.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1E - Color Theory and Advanced Lighting</a><br>
-<a data-href="GMAP 395 - Module 1F - Case Studies and Practical Implementation" href="gmap-395\module-1\submodules\gmap-395-module-1f-case-studies-and-practical-implementation.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1F - Case Studies and Practical Implementation</a><br><br>N/A<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Guide - CT and CPS" data-href="GMAP 395 - Guide - CT and CPS" href="gmap-395\gmap-395-guide-ct-and-cps.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking and Creative Problem Solving</a><br>
-<a data-tooltip-position="top" aria-label="GMAP 395 - Guide - Procedural Modeling Fundamentals" data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Procedural Modeling Fundamentals</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" data-href="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" href="gmap-395\notes\gmap-395-wk-2-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Tutorial</a><br>
-<a data-href="GMAP 395 - WK 3 - Tutorial" href="gmap-395\module-1\tutorials\gmap-395-wk-3-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 1 - Brief" data-href="GMAP 395 - ASN 1 - Brief" href="gmap-395\module-1\gmap-395-asn-1-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 1 - Procedural Modeling + Lightning Systems</a><br><br><a data-href="GMAP 395 - WK 2 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-2-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Slides</a><br>
-<a data-href="GMAP 395 - WK 2 - Video Lecture" href="gmap-395\module-1\legacy\gmap-395-wk-2-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Video Lecture</a><br>
-<a data-tooltip-position="top" aria-label="GMAP 395 - WK 3 - Slides" data-href="GMAP 395 - WK 3 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-3-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Slides + Video</a><br><br><br>
-<br>Introduction to procedural modeling with Blender.
-<br>Basics of lighting systems with Unity.
-<br>Overview of procedural and modular workflows.
-<br><br><br>By the end of this module, you will:<br>
-<br>Gain foundational knowledge in procedural modeling techniques and lighting systems.
-<br>Explore the use of industry-standard tools like Blender and Unity.
-<br>Understand the importance of modular workflows in game art development.
-<br>Build confidence in preparing and setting up tools for complex projects.
-<br><br><br>
-<br>Confirm your computer meets the recommended specifications for Blender and Unity.
-<br>Install <a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender</a> 3.9 or higher.
-<br>Install Unity (2022.3) via the <a data-tooltip-position="top" aria-label="https://unity.com/download" rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">Unity Hub</a>
-<br>If you have never used Blender
-
-<br>If you have never used Unity
-
-<br><br><br><br><br>
-<br>Blender 3.9 or higher: Download from <a rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">https://www.blender.org/download/</a>.
-<br><br>
-<br>Unity (LTS version): Download from <a rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">https://unity.com/download</a>.
-<br>Ensure the system specifications match or exceed Unity's requirements.
-<br><br><br><br><br><br>
-<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" target="_blank">Blender Quick Start Guide</a>
-<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" target="_blank">Introduction to Geometry Nodes</a>
-<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
-<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
-<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Tue, 01 Jul 2025 20:00:57 GMT</pubDate></item><item><title><![CDATA[Blender to Unity "Brickify" Demo Guide]]></title><description><![CDATA[ 
+<br>Remember Procedural modeling isn't about replacing artistic skill - it's about amplifying it. The goal is to spend more time on creative decisions and less time on repetitive tasks, while maintaining the ability to iterate and experiment freely.<br>The thinking patterns you develop here apply beyond geometry - to materials, animation, level design, and any systematic creative work.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md</guid><pubDate>Tue, 01 Jul 2025 20:13:47 GMT</pubDate></item><item><title><![CDATA[Blender to Unity "Brickify" Demo Guide]]></title><description><![CDATA[ 
  <br><br>Duration: 15-20 minutes<br>
 Goal: Turn any object into LEGO-style bricks using procedural modeling<br><br><br>What we're making: A system that converts any 3D object into LEGO-style bricks Why this example: Shows point cloud generation, procedural modeling, and instancing - core technical art concepts<br><br><br><br>
 "Today we're going to create a system that can turn ANY 3D object into LEGO bricks. We'll build one perfect brick, then teach Blender how to copy it thousands of times intelligently. This is how studios create massive environments from small modular pieces."
