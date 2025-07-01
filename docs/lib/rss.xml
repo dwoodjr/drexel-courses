@@ -1,4 +1,711 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 01 Jul 2025 20:01:29 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 01 Jul 2025 20:01:28 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 01 Jul 2025 20:06:34 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 01 Jul 2025 20:06:26 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Critical Thinking and Creative Problem Solving for Artists, Designers, and Technologists]]></title><description><![CDATA[ 
+ <br><br><br>In creative and technical work, the ability to solve problems systematically often matters more than any specific tool knowledge. Whether you're debugging a shader, designing a character, or optimizing game performance, the same core thinking skills apply.<br>This guide teaches you to approach challenges methodically rather than hoping for inspiration or getting paralyzed by complexity. You'll learn to break down problems, research effectively, and iterate toward solutions.<br>How This Connects: 
+This guide pairs with the <a data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Guide - Procedural Modeling Fundamentals</a> - the problem-solving framework here applies directly to technical modeling challenges, while working through geometry problems reinforces these thinking patterns.
+<br><br><br><br><br>🎯 Problem/Goal: You're tasked with creating an entire game environment but feel overwhelmed by the scope.<br>Quick Reality Check, Ask yourself: "If I had to demo this in 2 weeks, what's the absolute minimum that needs to work?"<br><br><br><br><br>Breaking It Down Step-by-Step 
+Instead of: "I need to make a castle, fast" (panic mode)
+Try this:
+
+<br>🔴 Core: Outer walls + main gate + courtyard
+<br>🟡 Systems: Towers (3), inner buildings (2), details
+<br>🟢 Order: Blockout → structures → props → polish
+
+<br>Common Pitfall Don't start with the most exciting part - start with what everything else depends on.<br><br><br><br>🔽 **Top-Down**
+Layout → Major structures → Details → Polish
+
+🔼 **Bottom-Up** 
+Modular pieces → Combinations → Full system
+
+👥 **Collaborative**
+Team brainstorm → Divide responsibilities → Regular check-ins
+<br>Learn More
+
+<br><a data-tooltip-position="top" aria-label="https://www.artstation.com/learning/courses/aJ/environment-design-fundamentals" rel="noopener nofollow" class="external-link" href="https://www.artstation.com/learning/courses/aJ/environment-design-fundamentals" target="_blank">Environment Design Fundamentals</a>
+<br><a data-tooltip-position="top" aria-label="https://www.gamedeveloper.com/production/" rel="noopener nofollow" class="external-link" href="https://www.gamedeveloper.com/production/" target="_blank">Game Production Pipelines</a>
+<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=dHMNeNapL1E" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=dHMNeNapL1E" target="_blank">Scoping for Indie Games</a>
+
+<br><br>Apply this to shader creation: Break down realistic water material:<br>
+<br>🔴 Core: Base color + basic normal
+<br>🟡 Systems: Waves + foam + reflection + refraction
+<br>🟢 Dependencies: Surface → animation → interaction effects
+<br>Success Metric You've mastered this when you can take any overwhelming task and create a clear, ordered breakdown in under 30 minutes.<br><br><br><br>🎯 Problem/Goal: Understanding what you're really working with and against so you can plan realistically.<br>Design Wisdom "Constraints are not limitations - they're the foundation that makes creativity possible."<br><br><br><br><br>Constraint-Driven Design Given: Mobile character with strict limits
+Constraints become features:
+
+<br>Low poly → Stylized, iconic look
+<br>Single texture → Cohesive color palette
+<br>No transparency → Bold, graphic design
+<br>Small screen → Strong silhouette focus
+
+<br><br><br><br>
+<br>🎯 Constraint Prioritization: Rank which limits are hardest vs. most flexible
+<br>💡 Creative Reframing: Ask "What becomes possible because of this limitation?"
+<br>📊 Resource Auditing: List available tools, time, and skills
+<br>Pro Technique Document your constraints visually - create a "constraint poster" for your workspace as a constant reminder.<br><br>Apply constraint analysis to a UI design:<br>
+<br>Technical: Screen sizes, input methods, performance
+<br>Usability: Accessibility, user experience, platform conventions
+<br>Aesthetic: Brand guidelines, art direction, readability
+<br>Success Metric You can quickly identify the 3 most limiting constraints for any project and explain how they'll shape your approach.<br><br><br><br><br>🎯 Problem/Goal: You need to create something you've never made before and don't know where to start.<br><br><br><br><br>Research Strategy in Action Goal: Cartoon-style water shader
+Research layers:
+
+<br>🎨 Visual: How does stylized water "read" as water?
+<br>🔧 Technical: What real-time techniques exist?
+<br>💭 Conceptual: How do animators suggest water movement?
+
+<br>Reference Organization
+
+<br>Create folders by project and concept
+<br>Tag images with keywords and techniques
+<br>Note why each reference is useful
+<br>Share collections with team members
+
+<br><br><br><br>
+<br>🖼️ Mood Boards: Feeling and atmosphere over technical specifics
+<br>🔧 Technical Breakdowns: Focus on construction methods
+<br>👥 Collaborative Research: Team members research different aspects
+<br>Essential Resources
+
+<br><a data-tooltip-position="top" aria-label="https://www.artstation.com/learning" rel="noopener nofollow" class="external-link" href="https://www.artstation.com/learning" target="_blank">ArtStation Learning</a>
+<br><a data-tooltip-position="top" aria-label="https://80.lv/" rel="noopener nofollow" class="external-link" href="https://80.lv/" target="_blank">80 Level Breakdowns</a>
+<br><a data-tooltip-position="top" aria-label="http://www.realtimerendering.com/" rel="noopener nofollow" class="external-link" href="http://www.realtimerendering.com/" target="_blank">Real-Time Rendering Resources</a>
+
+<br><br>Research for character design across game genres:<br>
+<br>Visual: Art styles, proportions, appeal factors
+<br>Technical: Rigging constraints, animation needs, performance
+<br>Conceptual: Psychology of character design, cultural considerations
+<br>Success Metric You can efficiently gather diverse, relevant references and explain how each one informs your creative decisions.<br><br><br><br>🎯 Problem/Goal: The exact solution doesn't exist, but similar problems have been solved elsewhere.<br><br><br><br><br>Translation Process Film technique: Complex particle systems Core principle: Layered depth creates visual richness Game adaptation: Animated texture layers with depth sorting<br>Common Mistake Don't just copy techniques - understand why they work first.<br><br><br><br>
+<br>🎯 Direct Adaptation: Recreate exactly, then optimize
+<br>💡 Principle Extraction: Understand the why, rebuild the how
+<br>🔄 Hybrid Methods: Combine multiple source approaches
+<br>Cross-Pollination Technique Regularly browse fields outside your specialty - architecture, fashion, industrial design, biology.<br><br>Adapt web design patterns to game UI:<br>
+<br>Hover effects → Controller/touch feedback
+<br>Navigation patterns → Game menu systems
+<br>Responsive design → Multiple screen sizes
+<br>Success Metric You can see solutions in unexpected places and successfully adapt them to your creative challenges.<br><br><br><br>🎯 Problem/Goal: Not all tutorials and advice are good - how do you know what to trust?<br><br><br><br>Conflicting Advice Scenario
+ Source A: "Never exceed 1,000 triangles"<br>
+Source B: "Up to 5,000 triangles is fine"<br>
+Source C: "It depends on your target device"
+<br>Evaluation process:<br><br>Validation Strategy
+
+<br>Context Check: When, where, why was this advice given?
+<br>Small Test: Build minimal example to verify claims
+<br>Reasoning Analysis: Understand the underlying logic
+
+<br><br><br><br>
+<br>👥 Community Validation: Ask experienced practitioners
+<br>🧪 Personal Testing: Build experiments to verify claims
+<br>📚 Contextual Research: Find advice specific to your situation
+<br>Information Quality Red Flags
+
+<br>No source attribution or credentials
+<br>Claims without supporting evidence
+<br>Advice that seems too good to be true
+<br>Information that contradicts established best practices
+
+<br><br>Evaluate design principles for different audiences:<br>
+<br>Research: What evidence supports these principles?
+<br>Test: How do different user groups respond?
+<br>Context: When do these principles apply vs. not apply?
+<br>Success Metric You can quickly assess information credibility and know when to dig deeper vs. accept advice.<br><br><br><br><br>🎯 Problem/Goal: You need to test ideas quickly without investing too much time in any single approach.<br><br><br><br><br>Prototype Progression Week 1: Gray boxes, test jump feel Week 2: Basic character shape, test animations  
+Week 3: Add visual feedback, test player reactions Week 4: Final art pass on proven mechanics
+<br>Prototyping Hierarchy
+
+<br>Core functionality (does it work?)
+<br>User experience (does it feel right?)
+<br>Visual polish (does it look good?)
+
+<br><br><br><br>
+<br>📄 Paper Prototypes: Test concepts without digital tools
+<br>🖼️ Digital Mockups: Non-functional visual representations
+<br>🔧 Hybrid Methods: Combine low-fi and high-fi strategically
+<br>Prototype Pitfalls
+
+<br>Making prototypes too polished (wastes time)
+<br>Testing only one variable at a time (misses interactions)
+<br>Skipping documentation (loses valuable insights)
+
+<br><br>Prototype a new art style:<br>
+<br>Visual test: Single character/prop in new style
+<br>Consistency test: Multiple assets using same approach
+<br>Context test: Assets in actual game environment
+<br>Success Metric You can rapidly test core assumptions and pivot based on prototype feedback without emotional attachment to early work.<br><br><br><br>🎯 Problem/Goal: Learning from your process so you can improve and repeat successes.<br><br><br><br><br>Documentation Template Project: Stylized Water Shader Goal: Cartoon ocean for mobile game Research: 3 days studying animated films Attempts: Tried particle system (too heavy), vertex animation (wrong look) Breakthrough: Combined UV scrolling with vertex displacement Result: 60fps on target device, matches art style Next time: Start with performance constraints, not visual goals<br>Documentation Timing
+
+<br>During work: Quick notes, screenshots of progress
+<br>After sessions: Reflection on what worked/didn't
+<br>Project end: Complete analysis and lessons learned
+
+<br><br><br><br>
+<br>📝 Written Logs: Traditional journaling and note-taking
+<br>📸 Visual Documentation: Screenshots, progress videos, annotated images
+<br>🎥 Process Recording: Screen capture while working
+<br>Documentation Tools
+
+<br>Text: Notion, Obsidian, simple markdown files
+<br>Visual: Milanote, PureRef, Pinterest boards
+<br>Mixed: Personal wiki, team knowledge base
+
+<br><br>Document a challenging modeling or animation process:<br>
+<br>Process: What steps did you follow?
+<br>Problems: Where did you get stuck and how did you solve it?
+<br>Patterns: What problem-solving approaches emerged?
+<br>Success Metric You have a growing personal knowledge base that you actively reference and update, making each project easier than the last.<br><br><br><br><br>🎯 Problem/Goal: Getting help when stuck and explaining your work to others effectively.<br><br><br><br>Poor vs. Good Help Requests
+❌ Poor request: "My shader is broken, help!"
+✅ Good request: "I'm creating a stylized water shader for mobile. It should look cartoon-like but I'm getting realistic results. Here's what I have [screenshot], here's what I want [reference image], and here's what I've tried [node graph]. Working in Blender 3.6, targeting Android devices. Any suggestions for the cartoon look?"
+<br><br><br><br><br>
+<br>💬 Synchronous: Real-time conversation, screen sharing
+<br>📧 Asynchronous: Detailed written explanations with materials
+<br>🎥 Video: Record problem demonstration with narration
+<br>Help Request Template
+
+<br>Goal: What are you trying to achieve?
+<br>Current State: What's happening now?
+<br>Context: Tools, platform, constraints
+<br>Attempts: What have you already tried?
+<br>Specific Ask: What kind of help do you need?
+
+<br><br>Explain a complex technical process to a non-technical team member:<br>
+<br>Use analogies and visual aids
+<br>Focus on outcomes rather than methods
+<br>Check understanding throughout explanation
+<br>Success Metric You consistently get helpful responses to your questions and can explain your work clearly to different audiences.<br><br><br><br>🎯 Problem/Goal: Accelerating your growth by understanding how others think through challenges.<br><br><br><br><br>What to Look For 
+Surface level: What tools they use, what settings they choose<br>
+Deeper level: When they pause to evaluate, how they handle mistakes, what order they work in<br>
+Deepest level: How they think about problems, what principles guide their decisions
+<br>Active Learning Approach
+
+<br>Watch once for overall impression
+<br>Watch again taking notes on decision points
+<br>Try to replicate the approach on your own project
+<br>Adapt the method to your specific needs
+
+<br><br><br><br>
+<br>🎓 Structured Learning: Courses, workshops, formal training
+<br>💬 Community Learning: Forums, Discord servers, study groups
+<br>🔍 Self-Directed Study: Analyzing published work and breakdowns
+<br>Learning Communities
+
+<br><a data-tooltip-position="top" aria-label="https://polycount.com/" rel="noopener nofollow" class="external-link" href="https://polycount.com/" target="_blank">Polycount</a> - Technical art community
+<br><a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX</a> - Effects artists
+<br><a data-tooltip-position="top" aria-label="https://tech-art-aid.com/" rel="noopener nofollow" class="external-link" href="https://tech-art-aid.com/" target="_blank">Tech Art Aid</a> - Technical art resources
+
+<br><br>Analyze a workflow from a different creative field:<br>
+<br>Architecture: How do architects plan complex projects?
+<br>Film: How do VFX artists approach problem-solving?
+<br>Product Design: How do industrial designers iterate?
+<br>Adapt one insight to your game development work.<br>Success Metric You can identify valuable learning opportunities in unexpected places and successfully integrate new approaches into your workflow.<br><br><br><br>The techniques in this guide become more powerful with practice. Start applying them to small challenges before tackling major projects. Each problem you solve systematically builds your confidence and expands your toolkit.<br>Key Takeaways
+
+<br>Break down complex challenges into manageable pieces
+<br>Research broadly and adapt solutions creatively
+<br>Iterate quickly and learn from failures
+<br>Document your process for future reference
+<br>Collaborate effectively to amplify your capabilities
+
+<br>Next Steps
+
+<br>Practice these techniques on your current projects
+<br>Build your personal reference and knowledge libraries
+<br>Find communities where you can both seek and offer help
+<br>Continue learning by analyzing others' problem-solving approaches
+
+<br>Remember: The goal isn't to never get stuck, but to have systematic ways of getting unstuck. Every challenge becomes an opportunity to strengthen your problem-solving skills.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-ct-and-cps.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - CT and CPS.md</guid><pubDate>Sun, 29 Jun 2025 19:13:24 GMT</pubDate></item><item><title><![CDATA[Procedural Modeling with Modular Thinking - A Beginner's Guide]]></title><description><![CDATA[ 
+ <br><br><br>Procedural modeling means creating geometry through systematic, repeatable processes rather than manually placing every vertex. This approach excels in game development where you need efficient workflows, consistent results, and the ability to iterate quickly.<br>This guide teaches modular thinking - breaking complex forms into simple, reusable components that combine into sophisticated systems. While examples use Blender's Geometry Nodes, these principles apply to any procedural modeling tool.<br>How This Connects:
+This guide pairs with the <a data-href="Critical Thinking and Creative Problem Solving Guide" href="Critical Thinking and Creative Problem Solving Guide" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking and Creative Problem Solving Guide</a> - the systematic problem-solving approaches there apply directly to procedural modeling challenges, while working through geometry problems reinforces those thinking patterns.
+<br><br><br><br><br>🎯 Problem/Goal: When should you choose procedural approaches over traditional modeling?<br>Key Decision Point Ask yourself: "Will I need multiple variations of this, or will it change frequently during development?"<br><br><br><br><br>Building System Breakdown 
+Manual approach:
+
+<br>Model walls, roof, windows individually (3 days)
+<br>Copy and modify for 5 variations (2 more days)
+<br>Client wants changes (start over: 2+ days)
+
+Procedural approach:
+
+<br>Define parameter system (4 days)
+<br>Generate 50 variations (instant)
+<br>Client changes (adjust parameters: hours)
+
+<br>When to Choose Procedural ✅ Need multiple variations ✅ Expect frequent changes  
+✅ Repetitive patterns involved ✅ Performance optimization needed
+❌ One-off hero assets ❌ Highly organic, unique forms ❌ Tight deadline with simple needs
+<br><br><br><br>
+<br>🔧 Full Procedural: Everything generated from parameters
+<br>🎨 Template-Based: Manual base with procedural variations
+<br>🔄 Hybrid Workflow: Manual hero pieces, procedural background
+<br>Essential Tools
+
+<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html" target="_blank">Blender Geometry Nodes</a>
+<br><a data-tooltip-position="top" aria-label="https://www.sidefx.com/learn/" rel="noopener nofollow" class="external-link" href="https://www.sidefx.com/learn/" target="_blank">Houdini</a>
+<br><a data-tooltip-position="top" aria-label="https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-CharacterAnimation/files/GUID-3CB2B4B3-9F8E-4E99-8210-CC4AE5CDA31C-htm.html" rel="noopener nofollow" class="external-link" href="https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-CharacterAnimation/files/GUID-3CB2B4B3-9F8E-4E99-8210-CC4AE5CDA31C-htm.html" target="_blank">Maya MASH</a>
+
+<br><br>Identify procedural opportunities in your current project:<br>
+<br>What gets repeated with variations?
+<br>What might change during development?
+<br>Where do you spend time on repetitive tasks?
+<br>Success Metric You can quickly evaluate whether a modeling task would benefit from procedural approaches and explain the trade-offs.<br><br><br><br>🎯 Problem/Goal: Building complex systems from simple, reusable components.<br><br><br><br><br>System Implementation Geometry Nodes hierarchy:
+
+<br>Wall Component: length, height → wall geometry
+<br>Building Component: uses walls, adds roof_type, door_count
+<br>District Component: arranges buildings with spacing, variety
+<br>Village Component: combines districts with roads and features
+
+<br>Modular Design Principles
+
+<br>Single Responsibility: Each component does one thing well
+<br>Composability: Components combine in predictable ways
+<br>Parameterization: Expose the right level of control
+<br>Documentation: Clear naming and organization
+
+<br><br><br><br>
+<br>🏗️ Hierarchical Systems: Clear levels of complexity
+<br>🕸️ Network Systems: Flexible component connections
+<br>📋 Template Systems: Pre-built arrangements with variation
+<br>Modular Pitfalls
+
+<br>Over-engineering simple tasks
+<br>Creating too many parameters (analysis paralysis)
+<br>Losing artistic control to systems
+<br>Ignoring performance implications
+
+<br><br>Apply modular thinking to non-geometry systems:<br>
+<br>UI System: Buttons → Panels → Screens → Full Interface
+<br>Animation Rig: Controls → Sub-systems → Character → Scene
+<br>Material Library: Textures → Shaders → Material Sets → Environment
+<br>Success Metric You naturally think in terms of reusable components and can design systems that others can understand and extend.<br><br><br><br><br>🎯 Problem/Goal: Understanding the building blocks of all geometry.<br><br><br><br><br>Wall Component Setup In Geometry Nodes:
+
+<br>Cube Primitive → base shape
+<br>Transform: Scale X (length), Z (height), Y (thickness)
+<br>Set Origin: Bottom center for ground placement (set position offset)
+<br>Distribute Points on Faces: End faces for connections
+<br>Instance Cubes: Small connection indicators
+
+<br>Concept Demo Video 📹
+<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQQS-O5nJ7T8SZRUW73GeOklAYqB9oAfScfkZE1FsemvPTI?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQQS-O5nJ7T8SZRUW73GeOklAYqB9oAfScfkZE1FsemvPTI?width=660</a>
+<br>Transform Best Practices
+
+<br>Consistent Origins: Decide on pivot standards for your project
+<br>Parameter Ranges: Set min/max values that make sense
+<br>Local vs. World: Understand coordinate system implications
+<br>Non-Destructive: Keep original proportions accessible
+
+<br><br><br><br>
+<br>📐 Mathematical Generation: Create primitives from formulas
+<br>📍 Point-Based Construction: Build from vertex positions
+<br>🎨 Profile-Based: Extrude shapes from 2D curves
+<br>Geometry Nodes Primitives
+
+<br>Cube - Basic box primitive
+<br>Cylinder - Radial geometry
+<br>Sphere - Subdivided sphere (UV or Icosphere)
+<br>Grid - Plane with subdivisions
+
+<br><br>Create modular primitives for specific art styles:<br>
+<br>Cyberpunk: Angular, tech-heavy base shapes
+<br>Organic Forest: Curved, natural-form primitives
+<br>Minimalist: Clean, simple geometric bases
+<br>Success Metric You can quickly generate appropriate base geometry and transform it systematically for different contexts.<br><br><br><br>🎯 Problem/Goal: Growing 2D shapes into 3D forms and adding surface detail.<br><br><br><br><br>Window Frame Process Geometry Nodes workflow:
+
+<br>Select Faces: Choose wall faces for windows
+<br>Inset Faces: Create window frame border (0.1m)
+<br>Extrude Faces: Push inward for depth (-0.05m)
+<br>Inset Faces (inverse extrude): Inner frame detail (0.02m)
+<br>Delete Geometry: Remove center faces for opening
+
+<br>Concept Demo Video 📹
+<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQRNDviH63tESqeWgzLe91QMAW8n1piQFEuRij8IaR27GCE?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQRNDviH63tESqeWgzLe91QMAW8n1piQFEuRij8IaR27GCE?width=660</a>
+<br>A Note of Selections in GN
+The selection capabilities are somewhat tool specific, it depends greatly on how that particular tool handles geometry data. In Blender GN, selection takes a bit more math or manual work. A hybrid approach of "preprocessing" you geometry and segmenting manually the pieces that need procedural elements is the better approach. With that said, below are some good sources on making selections in GN:<br>
+<a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=p4rwhifXNCw" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=p4rwhifXNCw" target="_blank">Select What You Want in Geometry Nodes - Blender Tutorial</a><br>
+<a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=BTFD1fnTVtk&amp;t=303s" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=BTFD1fnTVtk&amp;t=303s" target="_blank">Where to Begin in Geometry Nodes: Selections</a>
+<br>Surface Detail Strategy
+
+<br>Primary forms first: Establish main shapes before details
+<br>Consistent depth: Use similar inset/extrude values across project
+<br>Normal direction: Understand inside vs. outside faces
+<br>Edge flow: Maintain good topology for further operations
+
+<br><br><br><br>
+<br>📏 Linear Extrusion: Straight path, constant profile
+<br>🎯 Path Following: Profile follows curve
+<br>🔄 Adaptive Profile: Shape changes along path
+<br>Extrusion Gotchas
+
+<br>Normal direction: Pay attention to face orientation
+<br>Topology complexity: Too many operations create messy geometry
+<br>Scale sensitivity: Large scale differences can cause issues
+<br>Boolean preparation: Clean geometry for later operations
+
+<br><br>Apply extrusion thinking to character/vehicle design:<br>
+<br>Armor pieces: Layered protection with depth
+<br>Vehicle panels: Surface detail and functional elements
+<br>Weapon design: Grip details, decorative elements
+<br>Success Metric You can efficiently add surface detail that enhances form while maintaining clean, workable topology.<br><br><br><br>🎯 Problem/Goal: Combining and cutting shapes to create complex forms.<br><br><br><br><br>Boolean Window System Setup process:
+
+<br>Base wall geometry (from previous examples)
+<br>Create cutout shapes (rectangles for windows/doors)
+<br>Position with parameters (height, spacing, count)
+<br>Instance on Points to place multiple cutouts
+<br>Realize Instances to convert to geometry
+<br>Boolean Union to combine all cutouts
+<br>Boolean Difference final cutouts from wall
+
+<br>Concept Demo Video 📹
+<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQROJ56L0_hcTrNC8rC65CDsAep7rrtHjh1FMHAGygNviaM?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQROJ56L0_hcTrNC8rC65CDsAep7rrtHjh1FMHAGygNviaM?width=660</a>
+<br>Boolean Best Practices
+
+<br>Clean input geometry: No overlapping faces, good normals
+<br>Appropriate resolution: Match detail levels between objects
+<br>Order of operations: Union small pieces before main subtraction
+<br>Fallback plans: Have manual alternatives for complex cases
+
+<br><br><br><br>
+<br>🔧 Direct Boolean: Use boolean operations throughout
+<br>✂️ Manual Cutting: Use traditional modeling tools
+<br>🎨 Displacement: Use textures to fake surface details
+<br>Boolean Limitations
+
+<br>Topology mess: Can create n-gons and poor edge flow
+<br>Performance cost: Complex booleans are computationally expensive
+<br>Precision issues: Floating-point errors with very small/large objects
+<br>Art direction: May not give desired aesthetic control
+
+<br>Boolean Alternatives When booleans don't work well:
+
+<br>Knife Project: Cut along edges manually
+<br>Displacement Maps: Fake depth with textures
+<br>Separate Objects: Model pieces individually, assemble visually
+
+<br><br>Use boolean thinking for prop/mechanical design:<br>
+<br>Complex machinery: How would you break down a vehicle engine?
+<br>Architectural details: Gothic cathedral with intricate stonework
+<br>Character armor: Layered protection with functional details
+<br>Success Metric You understand when booleans are appropriate and can predict potential problems before they occur.<br><br><br><br><br>🎯 Problem/Goal: Efficiently creating repeated elements with controlled variation.<br><br><br><br><br>Fence System Implementation Geometry Nodes setup:
+
+<br>Input: Curve path for fence line
+<br>Distribute Points on Curve: Even spacing for posts
+<br>Instance on Points: Post geometry at each point
+<br>Curve to Mesh: Generate panels between posts
+<br>Random Value: Add height/rotation variation
+<br>Switch: Randomly select from multiple post designs
+
+<br>Concept Demo Video 📹
+<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQSankMSvhEJS6TrDAp8X4c2AQfSKCbZwhD1IAEd9_U5xb4?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQSankMSvhEJS6TrDAp8X4c2AQfSKCbZwhD1IAEd9_U5xb4?width=660</a>
+<br>Array Variation Techniques
+
+<br>Controlled randomness: Use seed values for repeatable results
+<br>Natural clustering: Group similar elements with noise
+<br>Progressive variation: Gradual changes across array
+<br>Rule-based selection: Different elements based on conditions
+
+<br><br><br><br>
+<br>📐 Simple Duplication: Basic copy and offset
+<br>🎯 Curve Following: Elements follow complex paths
+<br>🌍 Surface Scattering: Distribution across 3D surfaces
+<br>📊 Data-Driven: Arrays controlled by external information
+<br>Array Performance Considerations
+
+<br>Instance vs. Copy: Use instances when possible for memory efficiency
+<br>LOD Systems: Reduce detail for distant/background elements
+<br>Culling: Remove elements outside camera view
+<br>Batching: Group similar instances for rendering efficiency
+
+<br><br>Create arrays for different game contexts:<br>
+<br>Foliage System: Trees and plants with natural variation
+<br>Urban Details: Street lights, signs, traffic elements
+<br>Crowd System: Characters with different appearances and behaviors
+<br>Success Metric You can create natural-looking patterns that feel random but are actually controllable and repeatable.<br><br><br><br>🎯 Problem/Goal: Managing memory and performance while creating visual variety.<br><br><br><br><br>Rock Scattering System Advanced distribution:
+
+<br>Terrain Analysis: Use slope angle to control placement
+<br>Density Texture: Paint where rocks should/shouldn't appear
+<br>Rock Library: 8 different rock models in 3 size categories
+<br>Smart Selection: Larger rocks on steeper slopes
+<br>Clustering: Use noise to group rocks naturally
+<br>Variation: Random scale (80-120%), rotation, material wear
+
+<br>Concept Demo Video 📹
+<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQSWpN9iwQ08RYuYhXc1rYm-AWrmTZDQS6i3EQIO-QcDtBs?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQSWpN9iwQ08RYuYhXc1rYm-AWrmTZDQS6i3EQIO-QcDtBs?width=660</a>
+<br>Natural Variation Strategies
+
+<br>Size hierarchy: Mix large, medium, small elements
+<br>Clustering rules: Group similar items, break uniformity
+<br>Environmental logic: Consider how things would naturally occur
+<br>Layered randomness: Multiple variation systems working together
+
+<br><br><br><br>
+<br>🎲 Pure Random: Simple random selection
+<br>📊 Weighted Selection: Bias toward certain variations
+<br>🗺️ Map-Driven: Use textures to control placement
+<br>🎮 Gameplay-Responsive: Variation based on player actions
+<br>Optimization Techniques Distance-based LOD:
+
+<br>Near: Full detail instances
+<br>Medium: Simplified geometry
+<br>Far: Billboard sprites or removal
+
+Frustum Culling:
+
+<br>Remove instances outside camera view
+<br>Dynamic loading for streaming worlds
+
+<br><br>Design instancing for your game's specific needs:<br>
+<br>What repeated elements could benefit from variation?
+<br>How would you balance memory vs. visual diversity?
+<br>What environmental logic should guide placement?
+<br>Success Metric You can create rich, varied environments that perform well and feel naturally distributed rather than obviously systematic.<br><br><br><br><br>🎯 Problem/Goal: Ensuring procedural geometry works well with texturing pipelines.<br><br><br><br><br>UV Workflow for Procedural Buildings Geometry Nodes setup:
+
+<br>Material ID Assignment:
+
+<br>Walls get material index 0
+<br>Trim/details get index 1
+<br>Windows/doors get index 2
+
+
+<br>UV Generation:
+
+<br>Auto unwrap with angle-based seams
+<br>Normalize scale for consistent detail
+<br>Apply world-space coordinates for seamless tiling
+
+
+<br>Optimization:
+
+<br>Pack UVs efficiently
+<br>Minimize stretching
+<br>Align to texture grids
+
+
+
+<br>Concept Demo Video 📹
+<a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQSTFM-KBboMTKjea4FsBvyEAYgPwsMwLNDOjZIa1pI44vk?width=660" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQSTFM-KBboMTKjea4FsBvyEAYgPwsMwLNDOjZIa1pI44vk?width=660</a>
+<br>Procedural UV Tutorials for GN
+<a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=02XNGOVpSV4" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=02XNGOVpSV4" target="_blank">Blender Tutorial: Procedural UV Unwrapping with Geometry Nodes</a><br>
+<a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=Ubeot7lIvTM" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=Ubeot7lIvTM" target="_blank">How to create proper UV Maps with Geometry Nodes in Blender</a>
+<br>UV Best Practices for Procedural Work
+
+<br>Consistent texel density: Same detail level across all generated geometry
+<br>Predictable seams: Place seams where they won't be noticeable
+<br>Tiling-friendly: Consider how textures will repeat
+<br>Material zones: Group faces that need similar treatment
+
+<br><br><br><br>
+<br>🎯 Manual UV Layout: Traditional unwrapping workflow
+<br>🌍 Triplanar Mapping: No UVs needed, use world coordinates
+<br>📋 Texture Atlasing: Combine multiple textures into single atlas
+<br>📊 Procedural Textures: Generate patterns instead of using images
+<br>UV Pitfalls
+
+<br>Scale inconsistency: Different texel density across objects
+<br>Seam visibility: Poor seam placement ruins illusion
+<br>Stretching: Distorted textures from bad UV ratios
+<br>Waste: Inefficient UV packing reduces texture resolution
+
+<br>Geometry Nodes UV Tools
+
+<br>UV Unwrap - Automatic unwrapping with various methods
+<br>Set Position - Manual UV coordinate control
+<br>Store Named Attribute - Save UV data for later use
+<br>Sample Texture - Read texture values in node graph
+
+<br><br>Plan UV strategy for a complex procedural system:<br>
+<br>Vehicle Customization: How would you handle paint jobs, decals, wear?
+<br>Character System: Clothing, skin, accessories with different materials?
+<br>Environment Kit: Modular pieces that tile seamlessly?
+<br>Success Metric Your procedural geometry textures properly without visible seams or stretching, and maintains consistent quality across variations.<br><br><br><br>🎯 Problem/Goal: Creating procedural systems that work within game engine constraints.<br><br><br><br><br>Mobile Optimization Strategy Performance targets:
+
+<br>Building cluster: 10,000 triangles maximum
+<br>Individual buildings: 500-2,000 triangles based on importance
+<br>3 LOD levels per building type
+
+Optimization implementation:
+
+<br>Distance-based LOD: Far buildings become simple boxes
+<br>Selective detail: Hero buildings get full budgets
+<br>Smart culling: Remove back faces, occluded geometry
+<br>Texture sharing: Common materials across building types
+
+<br>Performance Planning
+
+<br>Budget first: Define limits before building systems
+<br>Measure early: Profile on target hardware regularly
+<br>Graceful degradation: Systems should work at multiple quality levels
+<br>User settings: Expose quality options for different devices
+
+<br><br><br><br>
+<br>📐 Geometric Optimization: Reduce polygons while maintaining silhouette
+<br>🎨 Texture Optimization: Use detail textures instead of geometry
+<br>⚙️ Shader Optimization: Move complexity from geometry to materials
+<br>💾 Streaming: Load/unload content based on proximity
+<br>Optimization Traps
+
+<br>Premature optimization: Don't optimize before measuring problems
+<br>Over-optimization: Sacrificing too much quality for minor gains
+<br>Platform assumptions: Different devices have different bottlenecks
+
+<br>
+<br>Ignoring tools: Engine-specific optimizations can be more effective
+<br>Profiling Tools
+
+<br>Blender: Statistics panel, vertex count displays
+<br>Unity: Profiler, Frame Debugger, Graphics tools
+<br>Unreal: Stat commands, GPU Visualizer
+<br>Third-party: RenderDoc, Intel GPA, NVIDIA Nsight
+
+<br><br>Optimize an existing asset for a more constrained platform:<br>
+<br>What would you prioritize when moving from PC to mobile?
+<br>How would you maintain visual quality while cutting resources?
+<br>What features could become optional quality settings?
+<br>Success Metric You can hit performance targets while maintaining acceptable visual quality, and you understand the trade-offs involved.<br><br><br><br>🎯 Problem/Goal: Moving procedural work from creation tools into game engines effectively.<br><br><br><br><br>Production Pipeline Export preparation:
+
+<br>Apply Geometry Nodes: Bake procedural results to mesh
+<br>LOD Generation: Create multiple detail levels
+<br>Material Baking: Combine complex materials into textures
+<br>UV Optimization: Pack efficiently for engine import
+
+Engine integration:
+
+<br>Prefab Setup: Organize components for easy use
+<br>Parameter Scripts: Expose key controls to level designers
+<br>Documentation: Clear instructions for non-technical users
+
+<br>Pipeline Best Practices
+
+<br>Standardized naming: Consistent conventions across projects
+<br>Modular exports: Separate components for flexibility
+<br>Version tracking: Clear file organization and change logs
+<br>Testing workflow: Regular validation on target platform
+
+<br><br><br><br>
+<br>💾 Full Baking: Export only final geometry, maximum compatibility
+<br>🔄 Hybrid Systems: Some runtime, some baked content
+<br>🎮 Engine-Native: Use engine's built-in procedural tools
+<br>☁️ Server Generation: Generate content remotely, stream to clients
+<br>Integration Challenges
+
+<br>Tool differences: Features available in creation tool vs. engine
+<br>Performance gaps: Editor performance vs. runtime performance
+<br>Team coordination: Different specialists using different tools
+<br>Iteration speed: How quickly can changes propagate through pipeline
+
+<br>Engine-Specific Tools Unity:
+
+<br>ProBuilder for runtime geometry creation
+<br>Visual Effect Graph for procedural effects
+<br>Custom editor tools for designer workflows
+
+Unreal:
+
+<br>Blueprint construction scripts
+<br>Procedural mesh component
+<br>Material parameter collections
+
+<br><br>Plan integration strategy for your current project:<br>
+<br>What needs to be procedural vs. baked?
+<br>How will non-technical team members interact with the system?
+<br>What performance requirements must the pipeline meet?
+<br>Success Metric You have a smooth workflow from creation tool to game engine that supports both iteration speed and final performance requirements.<br><br><br><br><br>🎯 Problem/Goal: Building complete environment systems using procedural approaches.<br><br><br><br><br>Village System Implementation Master control parameters:
+
+<br>Village size (small/medium/large)
+<br>Prosperity level (poor/modest/wealthy)
+<br>Defensive needs (peaceful/fortified/military)
+<br>Cultural style (generic/regional variants)
+
+System hierarchy:
+
+<br>Terrain Foundation: Generate or import landscape
+<br>Road Network: Main paths connecting to outside world
+<br>Lot Division: Parcels for different building types
+<br>Building Placement: Procedural architecture with variations
+<br>Infrastructure: Wells, market areas, defensive walls
+<br>Detail Layer: Props, vegetation, wear patterns
+<br>Atmosphere: Lighting, particle effects, ambient details
+
+<br>Environment System Design
+
+<br>Hierarchical dependency: Each level builds on the previous
+<br>Cultural consistency: All elements should feel like they belong together
+<br>Functional logic: Consider how people would actually use the space
+<br>Performance scaling: System should work at different quality levels
+
+<br><br><br><br>
+<br>🧩 Kit-of-Parts: Pre-made pieces arranged procedurally
+<br>🌱 Full Procedural: Everything generated from parameters
+<br>📋 Template-Based: Hand-crafted layouts with procedural variation
+<br>🎨 Artist-Directed: Procedural tools guided by manual art direction
+<br>Environment System Pitfalls
+
+<br>Uncanny valley: Systems that feel too perfect or systematic
+<br>Performance scaling: Complex systems that don't optimize well
+<br>Art direction loss: Procedural systems overriding artistic vision
+<br>Iteration difficulty: Systems so complex they become hard to modify
+
+<br><br>Plan environment system for your game concept:<br>
+<br>What are the core environmental elements?
+<br>How would you ensure variety while maintaining consistency?
+<br>What level of procedural generation vs. manual art direction makes sense?
+<br>Success Metric You can create compelling, believable environments that feel hand-crafted but benefit from procedural efficiency and variation.<br><br><br><br>🎯 Problem/Goal: Applying procedural thinking to smaller-scale asset creation.<br><br><br><br><br>Weapon Customization System Component breakdown:
+
+<br>Base Type: Determines overall weapon category and stats
+<br>Handle System: Length affects reach, material affects durability
+<br>Blade/Head: Shape affects damage type, size affects power
+<br>Detail Elements: Decorative pieces, engravings, gems
+<br>Wear System: Usage-based deterioration and battle damage
+
+Procedural features:
+
+<br>Auto-fitting: Components adjust to work together properly
+<br>Style consistency: Decoration follows cultural/material themes
+<br>Performance integration: Visual choices affect gameplay stats
+<br>Wear progression: Procedural damage accumulation over time
+
+<br>Prop Procedural Guidelines
+
+<br>Clear use cases: Not every prop benefits from procedural generation
+<br>Art direction respect: Systems should enhance, not replace, artistic vision
+<br>Performance awareness: Complex systems for simple props can be overkill
+<br>User experience: If designers will use it, make it intuitive
+
+<br><br><br><br>
+<br>🎯 Full Procedural: Everything parameterized and generated
+<br>🧩 Modular Manual: Hand-made pieces, procedural arrangement
+<br>📋 Template Customization: Base designs with procedural variation
+<br>🎨 Artist-Guided Procedural: Procedural tools controlled by manual art direction
+<br>Prop Procedural Tools Blender:
+
+<br>Geometry Nodes for component assembly
+<br>Material nodes for surface variation
+<br>Particle systems for detail distribution
+
+Game Engines:
+
+<br>Runtime component swapping
+<br>Shader parameter variation
+<br>Physics-based wear simulation
+
+<br><br>Identify procedural opportunities in your asset pipeline:<br>
+<br>What asset types get repeated with variations?
+<br>Where do you spend time on manual, repetitive tasks?
+<br>What would benefit from player or designer customization?
+<br>Success Metric You can identify when procedural approaches add value to prop creation and implement systems that enhance rather than complicate the creative process.<br><br><br><br>How critical thinking enhances procedural modeling:<br>
+<br>Problem decomposition helps break complex geometry challenges into manageable systems
+<br>Research skills help you find and adapt techniques from different domains
+<br>Iterative approaches let you test and refine procedural systems efficiently
+<br>Documentation practices help you build reusable procedural libraries
+<br>How procedural projects develop problem-solving skills:<br>
+<br>Systematic thinking becomes second nature when building modular systems
+<br>Parameter relationships teach cause-and-effect reasoning
+<br>Debugging procedural systems builds logical troubleshooting skills
+<br>Optimization constraints force creative problem-solving within limits
+<br>Building Your Personal Toolkit
+
+<br>Start with simple systems and gradually increase complexity
+<br>Build libraries of reusable components and techniques
+<br>Document your successful approaches for future projects
+<br>Study how others solve similar challenges and adapt their methods
+
+<br>Next Steps for Continued Learning
+
+<br>Practice these concepts on personal projects
+<br>Experiment with different procedural tools and workflows
+<br>Join communities focused on procedural content creation
+<br>Analyze existing games to understand their procedural systems
+
+<br>Remember Procedural modeling isn't about replacing artistic skill - it's about amplifying it. The goal is to spend more time on creative decisions and less time on repetitive tasks, while maintaining the ability to iterate and experiment freely.<br>The thinking patterns you develop here apply beyond geometry - to materials, animation, level design, and any systematic creative work.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md</guid><pubDate>Tue, 01 Jul 2025 20:00:09 GMT</pubDate></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
  <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br>Module Overview Video 📹
 <a rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/IQT2r9mLEdCXTpP61k3NIWECAdYv9sE9Kj8M0uCnF6Zb-Q8?width=1024" target="_blank">https://1drv.ms/v/c/b08de2251f1b33a4/IQT2r9mLEdCXTpP61k3NIWECAdYv9sE9Kj8M0uCnF6Zb-Q8?width=1024</a>
 <br><br><br><a data-href="GMAP 395 - Module 1A - Game Feel and Tactile Experience" href="gmap-395\module-1\submodules\gmap-395-module-1a-game-feel-and-tactile-experience.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1A - Game Feel and Tactile Experience</a><br>
