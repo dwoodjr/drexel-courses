@@ -143,7 +143,7 @@ Consider questions like:
     - Walk through your logic flow exercise
     - Explain the system you mapped out and why
 
-### Peer Feedback (3+ Other Peers)
+### Peer Feedback (3+ Other Peers) using the [[Six Thinking Hats Giving Good Game Design Feedback|🎩 Six Thinking Hats: Giving Good Game Design Feedback]]
 
 **Using the [Six Thinking Hats method](https://www.bitesizelearning.co.uk/resources/six-thinking-hats-technique#:~:text=The%20classic%20Six%20Thinking%20Hats,of%20perspectives%20to%20be%20heard.), provide feedback from different perspectives:**
 
@@ -199,7 +199,7 @@ Consider questions like:
 
 - **Post your materials** in your individual thread for feedback
 - **Include any questions** about technical implementation or project scope
-- **Respond to ***3*** peer posts** with constructive feedback and suggestions
+- **Respond to ***3*** peer posts with constructive feedback and suggestions
 
 ---
 
@@ -225,3 +225,4 @@ Based on this week's presentations, we'll dive into **procedural modeling fundam
 > [!info] Navigation 
 > **Return to:** [[GMAP 395 - Introduction and Overview]]  
 > **Return to:** [[GMAP 395 - Welcome]]  
+> **See:** [[Six Thinking Hats Giving Good Game Design Feedback|🎩 Six Thinking Hats: Giving Good Game Design Feedback]]

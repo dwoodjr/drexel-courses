@@ -93,7 +93,7 @@ _"The next step could be refining the lighting and adjusting the post-processing
 When giving feedback, **use at least three hats** to provide a balanced response. Example structure:
 
 ```markdown
-Feedback for [Student's Project Name]
+Feedback for [Student + Project Name]
 
 What’s working well? 
 - The glowing edges on the artifact are really effective at drawing attention.  

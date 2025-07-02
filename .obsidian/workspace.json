@@ -36,20 +36,6 @@
             }
           },
           {
-            "id": "fe5c6e220610c4a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - Guide - Procedural Modeling Fundamentals"
-            }
-          },
-          {
             "id": "027ac4627e49117d",
             "type": "leaf",
             "state": {
@@ -62,9 +48,23 @@
               "icon": "lucide-file",
               "title": "GMAP 395 - SU25 - Theme"
             }
+          },
+          {
+            "id": "8064174e3ebf82cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - Weekly - 1"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "six",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +118,7 @@
             }
           },
           {
-            "id": "9a61158ca3b65e4a",
+            "id": "0083a50ee05b9375",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -266,7 +266,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 451.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -293,12 +293,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fe5c6e220610c4a3",
+  "active": "81e14ee526097519",
   "lastOpenFiles": [
+    "GMAP 395/Weeklies/Six Thinking Hats Giving Good Game Design Feedback.md",
+    "docs/gmap-395/weeklies/six-thinking-hats-giving-good-game-design-feedback.html",
+    "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
+    "GMAP 395/GMAP 395 - SU25 - Theme.md",
+    "Index.md",
+    "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
     "GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md",
     "GMAP 395/GMAP 395 - Guide - CT and CPS.md",
     "GMAP 395/Module 1/GMAP 395 - Module 1.md",
-    "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
     "docs/gmap-395/gmap-395-guide-procedural-modeling-fundamentals.html",
     "docs/gmap-395/gmap-395-guide-ct-and-cps.html",
     "GMAP 395/Module 1/submodules/GMAP 395 - Module 1A - Game Feel and Tactile Experience.md",
@@ -309,8 +314,6 @@
     "docs/gmap-395/module-1/tutorials",
     "docs/gmap-395/module-1/submodules/gmap-395-module-1f-case-studies-and-practical-implementation.html",
     "docs/gmap-395/module-1/submodules/gmap-395-module-1d-lighting-fundamentals-and-technical-systems.html",
-    "docs/gmap-395/module-1/submodules/gmap-395-module-1e-color-theory-and-advanced-lighting.html",
-    "GMAP 395/GMAP 395 - SU25 - Theme.md",
     "GMAP 395/Module 1/tutorials/GMAP 395 - WK 3 - Tutorial.md",
     "GMAP 395/Module 1/tutorials/GMAP 395 - WK 2 - Tutorial.md",
     "GMAP 395/Module 1/submodules/GMAP 395 - Module 1F - Case Studies and Practical Implementation.md",
@@ -332,11 +335,8 @@
     "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Video Lecture.md",
     "GMAP 395/Module 1/legacy/legacy.md",
     "GMAP 395/Module 1/submodules/submodules.md",
-    "Index.md",
     "GMAP 395/Introduction/GAMP 395 - Introduction - B.md",
     "GMAP 395/Introduction/GMAP 395 - Introduction - C.md",
-    "GMAP 395/Introduction/GMAP 395 - Introduction - A.md",
-    "GMAP 395/Introduction/Introduction.md",
     "docs/gmap-395/introduction/media/design-everyday-things.jpg",
     "docs/gmap-395/module-4/media/home-after.png",
     "docs/gmap-395/module-4/media/tutwk9splash.png"
