@@ -1,6 +1,6 @@
 {
   "vaultName": "drexel-teaching",
-  "lastExport": 1751481036556,
+  "lastExport": 1751481212085,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon mk-folder-lines mk-inline-context-enabled mk-flow-minimal background-settings-workplace-theme-light-in-the-note background-settings-workplace-theme-dark-in-the-sky background-image-settings-markdown-page-transparent notebook-liked-markdown-page-grid-notebook-1 panel-page-bg-theme-light-wall panel-page-bg-theme-dark-plant layout-style-options-default bt-default-unordered-list default-ol-list-marker list-no-border bt-connected-indent-hover bt-colorful-connected-indent-hover folder-icons remove-arrow bt-toggle-colorful-folder folder-style-change-options-colorful-border folder-colorful-six table-width-100 tag-default admonition-bg-color-same style-options-for-admonition-plugin style-options-for-buttons-plugin dataview-list-style-pacman memos-banner-gradient thino-frosted-style thino-background-default quiet-outline-optimize code-theme-bt-default whole-code-wrap iconic-clickable-icons iconic-theme-btopaz",
   "useCustomHeadContent": false,
@@ -133,6 +133,9 @@
     "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/GMAP 395 - Welcome.md",
     "Index.md",
+    "lib/media/6492c4ab6751d8f29f5e4826_launch_screenshot_101-p-500.webp",
+    "lib/media/ipad_02-600x800.png",
+    "lib/media/150518_r26517.webp",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -174,10 +177,7 @@
     "lib/media/fractals.png",
     "lib/media/noise.jpg",
     "lib/media/6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif",
-    "lib/media/6492c4ab6751d8f29f5e4826_launch_screenshot_101-p-500.webp",
-    "lib/media/ipad_02-600x800.png",
     "lib/media/ipad_01-600x800.png",
-    "lib/media/150518_r26517.webp",
     "lib/media/395tut1portal.png",
     "lib/media/lightingmode.png",
     "lib/media/colorhexcode.png",
@@ -267,85 +267,85 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
@@ -357,97 +357,97 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 120116,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 6615,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 165254,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 855378,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 265,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 1637,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 163784,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
@@ -793,7 +793,7 @@
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
@@ -1388,20 +1388,20 @@
       "dependencies": []
     },
     "GMAP 395/Introduction/GAMP 395 - Introduction - B.md": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 8537,
+      "modifiedTime": 1751481212085,
+      "sourceSize": 8503,
       "exportedPath": "gmap-395/introduction/gamp-395-introduction-b.html",
       "dependencies": []
     },
     "GMAP 395/Introduction/GMAP 395 - Introduction - A.md": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 5915,
+      "modifiedTime": 1751481212085,
+      "sourceSize": 5881,
       "exportedPath": "gmap-395/introduction/gmap-395-introduction-a.html",
       "dependencies": []
     },
     "GMAP 395/Introduction/GMAP 395 - Introduction - C.md": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 10209,
+      "modifiedTime": 1751481212085,
+      "sourceSize": 10175,
       "exportedPath": "gmap-395/introduction/gmap-395-introduction-c.html",
       "dependencies": []
     },
@@ -1484,38 +1484,38 @@
       "dependencies": []
     },
     "GMAP 395/Module 1/submodules/GMAP 395 - Module 1A - Game Feel and Tactile Experience.md": {
-      "modifiedTime": 1751398479976,
-      "sourceSize": 6784,
+      "modifiedTime": 1751481212085,
+      "sourceSize": 6751,
       "exportedPath": "gmap-395/module-1/submodules/gmap-395-module-1a-game-feel-and-tactile-experience.html",
       "dependencies": []
     },
     "GMAP 395/Module 1/submodules/GMAP 395 - Module 1B - Procedural Workflows Introduction.md": {
-      "modifiedTime": 1751398479976,
-      "sourceSize": 10301,
+      "modifiedTime": 1751481212085,
+      "sourceSize": 10267,
       "exportedPath": "gmap-395/module-1/submodules/gmap-395-module-1b-procedural-workflows-introduction.html",
       "dependencies": []
     },
     "GMAP 395/Module 1/submodules/GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques.md": {
-      "modifiedTime": 1751398479976,
-      "sourceSize": 9494,
+      "modifiedTime": 1751481212085,
+      "sourceSize": 9460,
       "exportedPath": "gmap-395/module-1/submodules/gmap-395-module-1c-node-based-systems-and-advanced-techniques.html",
       "dependencies": []
     },
     "GMAP 395/Module 1/submodules/GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems.md": {
-      "modifiedTime": 1751398479976,
-      "sourceSize": 9443,
+      "modifiedTime": 1751481212085,
+      "sourceSize": 9409,
       "exportedPath": "gmap-395/module-1/submodules/gmap-395-module-1d-lighting-fundamentals-and-technical-systems.html",
       "dependencies": []
     },
     "GMAP 395/Module 1/submodules/GMAP 395 - Module 1E - Color Theory and Advanced Lighting.md": {
-      "modifiedTime": 1751398479976,
-      "sourceSize": 9335,
+      "modifiedTime": 1751481212085,
+      "sourceSize": 9301,
       "exportedPath": "gmap-395/module-1/submodules/gmap-395-module-1e-color-theory-and-advanced-lighting.html",
       "dependencies": []
     },
     "GMAP 395/Module 1/submodules/GMAP 395 - Module 1F - Case Studies and Practical Implementation.md": {
-      "modifiedTime": 1751398479976,
-      "sourceSize": 8215,
+      "modifiedTime": 1751481212085,
+      "sourceSize": 8180,
       "exportedPath": "gmap-395/module-1/submodules/gmap-395-module-1f-case-studies-and-practical-implementation.html",
       "dependencies": [
         "lib/media/6492c4ab6751d8f29f5e4826_launch_screenshot_101-p-500.webp",
@@ -1587,13 +1587,13 @@
       "dependencies": []
     },
     "lib/media/6492c4ab6751d8f29f5e4826_launch_screenshot_101-p-500.webp": {
-      "modifiedTime": 1751398479976,
+      "modifiedTime": 1751481212085,
       "sourceSize": 7270,
       "exportedPath": "lib/media/6492c4ab6751d8f29f5e4826_launch_screenshot_101-p-500.webp",
       "dependencies": []
     },
     "lib/media/ipad_02-600x800.png": {
-      "modifiedTime": 1751398479976,
+      "modifiedTime": 1751481212085,
       "sourceSize": 233576,
       "exportedPath": "lib/media/ipad_02-600x800.png",
       "dependencies": []
@@ -1605,7 +1605,7 @@
       "dependencies": []
     },
     "lib/media/150518_r26517.webp": {
-      "modifiedTime": 1751398479976,
+      "modifiedTime": 1751481212085,
       "sourceSize": 296892,
       "exportedPath": "lib/media/150518_r26517.webp",
       "dependencies": []
@@ -1689,13 +1689,13 @@
       "dependencies": []
     },
     "lib/fonts/293fd13dbca5a3e450ef.woff2": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 105924,
       "exportedPath": "lib/fonts/293fd13dbca5a3e450ef.woff2",
       "dependencies": []
     },
     "lib/fonts/085cb93e613ba3d40d2b.woff2": {
-      "modifiedTime": 1751481036556,
+      "modifiedTime": 1751481212085,
       "sourceSize": 112184,
       "exportedPath": "lib/fonts/085cb93e613ba3d40d2b.woff2",
       "dependencies": []

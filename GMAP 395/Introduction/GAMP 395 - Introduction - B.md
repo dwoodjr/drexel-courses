@@ -1,7 +1,6 @@
 # Module 1B: Procedural Thinking Basics
 
 > [!info] Module Overview 
-> **Time Required:** 5-7 minutes 
 > **Learning Focus:** Understanding procedural workflows and algorithmic content creation **
 > Builds On:** Module 1A (Technical Art fundamentals)
 

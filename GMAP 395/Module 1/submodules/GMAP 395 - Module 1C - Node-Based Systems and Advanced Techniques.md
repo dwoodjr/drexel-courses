@@ -1,7 +1,6 @@
 # Module 1C: Node-Based Systems and Advanced Techniques
 
 > [!info] Module Overview 
-> **Time Required:** 7-9 minutes 
 > **Learning Focus:** Visual scripting, 3D geometry fundamentals, and advanced procedural operations 
 > **Builds On:** Module 1B (Procedural workflows): [[GMAP 395 - Module 1B - Procedural Workflows Introduction]]
 

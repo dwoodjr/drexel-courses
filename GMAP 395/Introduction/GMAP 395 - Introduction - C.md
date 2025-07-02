@@ -1,7 +1,6 @@
 # Module 1C: Node-Based Workflows Introduction
 
 > [!info] Module Overview 
-> **Time Required:** 5-7 minutes 
 > **Learning Focus:** Understanding visual scripting and data flow concepts 
 > **Builds On:** Modules 1A & 1B (Technical Art and Procedural Thinking)
 

@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
+                "file": "GMAP 395/Introduction/GMAP 395 - Introduction - C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - ASN 1 - Brief"
+              "title": "GMAP 395 - Introduction - C"
             }
           }
         ],
@@ -293,8 +293,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8064174e3ebf82cf",
+  "active": "81e14ee526097519",
   "lastOpenFiles": [
+    "GMAP 395/Introduction/GMAP 395 - Introduction - C.md",
+    "GMAP 395/Introduction/GAMP 395 - Introduction - B.md",
+    "GMAP 395/Introduction/GMAP 395 - Introduction - A.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1F - Case Studies and Practical Implementation.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1E - Color Theory and Advanced Lighting.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1B - Procedural Workflows Introduction.md",
+    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1A - Game Feel and Tactile Experience.md",
     "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
     "GMAP 395/Weeklies/Six Thinking Hats Giving Good Game Design Feedback.md",
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
@@ -306,7 +315,6 @@
     "GMAP 395/Module 1/GMAP 395 - Module 1.md",
     "docs/gmap-395/gmap-395-guide-procedural-modeling-fundamentals.html",
     "docs/gmap-395/gmap-395-guide-ct-and-cps.html",
-    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1A - Game Feel and Tactile Experience.md",
     "docs/gmap-395/module-1/submodules/desktop.ini",
     "docs/gmap-395/class-demos/desktop.ini",
     "docs/gmap-395/module-1/tutorials/gmap-395-wk-3-tutorial.html",
@@ -316,11 +324,6 @@
     "docs/gmap-395/module-1/submodules/gmap-395-module-1d-lighting-fundamentals-and-technical-systems.html",
     "GMAP 395/Module 1/tutorials/GMAP 395 - WK 3 - Tutorial.md",
     "GMAP 395/Module 1/tutorials/GMAP 395 - WK 2 - Tutorial.md",
-    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1F - Case Studies and Practical Implementation.md",
-    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1E - Color Theory and Advanced Lighting.md",
-    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems.md",
-    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques.md",
-    "GMAP 395/Module 1/submodules/GMAP 395 - Module 1B - Procedural Workflows Introduction.md",
     "GMAP 395/Module 1/legacy/GMAP 395 - WK 3 - Slides.md",
     "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Slides.md",
     "GMAP 395/Introduction/GMAP 395 - Introduction and Overview.md",
@@ -335,8 +338,6 @@
     "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Video Lecture.md",
     "GMAP 395/Module 1/legacy/legacy.md",
     "GMAP 395/Module 1/submodules/submodules.md",
-    "GMAP 395/Introduction/GAMP 395 - Introduction - B.md",
-    "GMAP 395/Introduction/GMAP 395 - Introduction - C.md",
     "docs/gmap-395/introduction/media/design-everyday-things.jpg",
     "docs/gmap-395/module-4/media/home-after.png",
     "docs/gmap-395/module-4/media/tutwk9splash.png"

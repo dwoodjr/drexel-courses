@@ -1,7 +1,6 @@
 # Module 1F: Case Studies and Practical Implementation
 
 > [!info] Module Overview 
-> **Time Required:** 8-10 minutes 
 > **Learning Focus:** Real-world applications, comparative analysis, and implementation strategies 
 > **Builds On:** All previous modules - synthesis and application
 

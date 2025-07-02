@@ -1,7 +1,6 @@
 # Module 1D: Lighting Fundamentals and Technical Systems
 
 > [!info] Module Overview 
-> **Time Required:** 6-8 minutes 
 > **Learning Focus:** Technical lighting systems, optimization, and core lighting principles 
 > **Builds On:** Module 1C (Node-based systems and workflows)
 

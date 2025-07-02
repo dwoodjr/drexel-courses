@@ -1,7 +1,6 @@
 # Module 1E: Color Theory and Advanced Lighting
 
 > [!info] Module Overview 
-> **Time Required:** 6-8 minutes 
 > **Learning Focus:** Color theory in lighting design, emotional impact, and visual storytelling 
 >**Builds On:** Module 1D (Lighting fundamentals and technical systems): [[GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems]]
 

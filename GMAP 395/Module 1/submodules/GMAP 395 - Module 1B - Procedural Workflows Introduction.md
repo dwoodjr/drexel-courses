@@ -1,7 +1,6 @@
 # Module 1B: Procedural Workflows Introduction
 
 > [!info] Module Overview 
-> **Time Required:** 6-8 minutes 
 > **Learning Focus:** Understanding procedural content generation and algorithmic workflows 
 > **Builds On:** [[GMAP 395 - Module 1A - Game Feel and Tactile Experience]] (Game Feel fundamentals) and content from [[GAMP 395 - Introduction - B]]
 

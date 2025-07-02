@@ -1,7 +1,6 @@
 # Module 1A: What is Technical Art?
 
 > [!info] Module Overview 
-> **Time Required:** 5-7 minutes 
 > **Learning Focus:** Understanding the role and importance of technical art in game development 
 > **Preparation for:** Week 2 and course foundation
 

@@ -1,7 +1,6 @@
 # Module 1A: Game Feel and Tactile Experience
 
 > [!info] Module Overview 
-> **Time Required:** 5-7 minutes
 >  **Learning Focus:** Understanding game feel and its impact on player experience
 >  **Builds On:** Course introduction and design fundamentals: [[GMAP 395 - Introduction and Overview]]
 
