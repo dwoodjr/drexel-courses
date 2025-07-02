@@ -8,7 +8,7 @@
 > 1. Create a ***procedural*** game asset in a DCC tool of their choice (e.g., Blender, Houdini, Unity).
 > 2. Import this asset into Unity to design and implement a lighting system that complements the asset's visual and thematic qualities.
 > 3. Ensure the asset and lighting align with the class theme: [[GMAP 395 - SU25 - Theme|"So What About Tomorrow?"]].
-> 4. Present their work as a Unity scene with a README file documenting their process and a recorded video explaining their approach.
+> 4. Present their work within a Unity scene via **Video Recording**; and also produce a README file documenting their process and a recorded video explaining their approach.
 
 ---
 

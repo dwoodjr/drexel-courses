@@ -1,4 +1,123 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 02 Jul 2025 18:02:56 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 02 Jul 2025 18:02:54 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 02 Jul 2025 18:30:37 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 02 Jul 2025 18:30:36 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Assignment 1: Procedural Game Art and Lighting Systems]]></title><description><![CDATA[ 
+ <br><br><br>Assignment Overview  
+In this assignment, students will:
+
+<br>Create a procedural game asset in a DCC tool of their choice (e.g., Blender, Houdini, Unity).
+<br>Import this asset into Unity to design and implement a lighting system that complements the asset's visual and thematic qualities.
+<br>Ensure the asset and lighting align with the class theme: <a data-tooltip-position="top" aria-label="GMAP 395 - SU25 - Theme" data-href="GMAP 395 - SU25 - Theme" href="gmap-395\gmap-395-su25-theme.html" class="internal-link" target="_self" rel="noopener nofollow">"So What About Tomorrow?"</a>.
+<br>Present their work within a Unity scene via Video Recording; and also produce a README file documenting their process and a recorded video explaining their approach.
+
+<br><br><br>Assignment Breakdown
+
+<br>Part 1: Procedural Game Art <br>
+Create a procedural asset using a DCC software like Blender or Houdini. The asset must reflect the <a data-href="GMAP 395 - SU25 - Theme" href="gmap-395\gmap-395-su25-theme.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - SU25 - Theme</a>.<br>
+
+<br>Part 2: Lighting Systems in Unity <br>
+Import the procedural asset into Unity, set up a lighting system that complements the theme and enhances its presentation.<br>
+
+
+<br><br><br><br>How to Approach the Theme  
+The theme So What About Tomorrow? is intentionally open-ended. Interpret it creatively—examples include:
+
+<br>Technological Speculation: Future tools, interfaces, or environments.
+<br>Temporal Archaeology: Past technologies reimagined or rediscovered.
+<br>Evolution and Change: Transformation processes over time.
+
+<br><br><br>Key Steps for Part 1
+
+<br>Choose a DCC software like Blender, Houdini, or Maya.
+
+<br>The tutorial for part 1 of this module uses Blender Geometry Nodes
+
+
+<br>Use procedural techniques/operations and a node-based workflow to create or modify a game art asset.
+<br>Ensure the asset embodies the class theme.
+<br>Export the asset to a format suitable for Unity (e.g., .fbx, .obj).
+
+<br>Example Ideas for Procedural Assets
+
+<br>A futuristic interface that evolves over time.
+<br>Ancient technology being reclaimed by nature.
+<br>A structure showing multiple temporal states simultaneously.
+
+<br><br><br>Key Steps for Part 2
+
+<br>Import your procedural asset into Unity.
+<br>Set up a lighting system that complements the theme and highlights your asset:
+
+<br>Use at least one directional light to simulate natural or artificial light.
+<br>Add secondary lights (spotlights, area lights, etc.) for mood and detail.
+
+
+<br>Design the scene to enhance the asset’s presentation within the theme.
+
+<br>Lighting Design Tips
+
+<br>Think about how lighting enhances temporal concepts (e.g., contrasts between old and new, revelation of hidden details).
+<br>Experiment with lighting that suggests the passage of time or technological evolution.
+
+<br><br><br>What to Submit
+
+<br>Procedural Asset Source File:
+
+<br>Upload your DCC project file (e.g., .blend, .hip, .mb) to show procedural workflows.
+
+
+<br>README File:
+
+<br>Create a README file in TXT or Markdown format that explains your work.
+<br>Include:
+
+<br>A description of your procedural asset and its thematic inspiration.
+<br>Details of your lighting setup in Unity.
+<br>Any challenges you faced and how you solved them.
+
+
+
+
+<br>Recorded Video (5–10 Minutes):
+
+<br>Record a video that breaks down your design process (use screen recording software like OBS).
+<br>The video must cover:
+
+<br>Procedural Operations: Explain how you created your procedural game asset.
+<br>Lighting Setup: Discuss your lighting choices in Unity, including tools and techniques used.
+<br>Theme Alignment: Reflect on how your work ties into So What About Tommorow?.
+
+
+
+
+
+<br>README Example Format
+# Assignment 1: Procedural Game Art and Lighting Systems
+
+## Procedural Asset
+- Software Used: Blender  
+- Description: A modular crystal formation inspired by black holes, procedurally generated using Geometry Nodes.
+
+## Unity Lighting Setup
+- Lighting Design: Directional light for a natural glow, spotlights for eerie highlights.  
+- Post-Processing: Enabled bloom and vignette for a mystical, void-like effect.
+
+## Challenges
+- Issue: Balancing the asset’s high-detail geometry for real-time performance.  
+- Solution: Reduced polygon count and baked high-resolution normals.  
+
+<br><br>Submission Guidelines
+
+<br>Submission Format: Upload your project as a ZIP file to Drexel Learn.
+<br>File Naming Convention: abc123_Lastname_Firstname_A1.zip.
+<br>Late submissions will incur a 10% penalty per day.
+
+<br><br><br>By completing this assignment, you will:
+
+<br>Understand and apply procedural workflows to create modular assets.
+<br>Develop an artistic vision aligned with the theme.
+<br>Gain technical skills in importing assets into Unity and optimizing them for real-time use.
+<br>Explore Unity’s lighting systems to design atmospheric and visually appealing scenes.
+<br>Develop an iterative workflow for asset creation, scene design, and troubleshooting.
+
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-asn-1-brief.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md</guid><pubDate>Wed, 02 Jul 2025 18:30:04 GMT</pubDate></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
  <br><br>Overview 
 Purpose: Develop your quarter-long project concept through thematic exploration, skill goal-setting, and procedural thinking<br>
 Format: Individual presentation (3-4 minutes) + peer feedback<br>
@@ -3111,126 +3230,7 @@ Setting the Reflection Probe to update every frame ensures that it will always r
 If you notice performance issues, consider reducing the update frequency or using a mix of real-time and baked probes in your scene. You can also adjust the resolution of the probe to balance between quality and performance.
 <br>Reflection Probes
 Reflection probes will now update as the day-night cycle progresses, providing dynamic reflections that match the changing lighting conditions.
-]]></description><link>gmap-395\module-1\tutorials\gmap-395-wk-3-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/tutorials/GMAP 395 - WK 3 - Tutorial.md</guid><pubDate>Wed, 22 Jan 2025 16:15:57 GMT</pubDate><enclosure url="lib\media\lightingmode.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\lightingmode.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Assignment 1: Procedural Game Art and Lighting Systems]]></title><description><![CDATA[ 
- <br><br><br>Assignment Overview  
-In this assignment, students will:
-
-<br>Create a procedural game asset in a DCC tool of their choice (e.g., Blender, Houdini, Unity).
-<br>Import this asset into Unity to design and implement a lighting system that complements the asset's visual and thematic qualities.
-<br>Ensure the asset and lighting align with the class theme: <a data-tooltip-position="top" aria-label="GMAP 395 - SU25 - Theme" data-href="GMAP 395 - SU25 - Theme" href="gmap-395\gmap-395-su25-theme.html" class="internal-link" target="_self" rel="noopener nofollow">"So What About Tomorrow?"</a>.
-<br>Present their work as a Unity scene with a README file documenting their process and a recorded video explaining their approach.
-
-<br><br><br>Assignment Breakdown
-
-<br>Part 1: Procedural Game Art <br>
-Create a procedural asset using a DCC software like Blender or Houdini. The asset must reflect the <a data-href="GMAP 395 - SU25 - Theme" href="gmap-395\gmap-395-su25-theme.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - SU25 - Theme</a>.<br>
-
-<br>Part 2: Lighting Systems in Unity <br>
-Import the procedural asset into Unity, set up a lighting system that complements the theme and enhances its presentation.<br>
-
-
-<br><br><br><br>How to Approach the Theme  
-The theme So What About Tomorrow? is intentionally open-ended. Interpret it creatively—examples include:
-
-<br>Technological Speculation: Future tools, interfaces, or environments.
-<br>Temporal Archaeology: Past technologies reimagined or rediscovered.
-<br>Evolution and Change: Transformation processes over time.
-
-<br><br><br>Key Steps for Part 1
-
-<br>Choose a DCC software like Blender, Houdini, or Maya.
-
-<br>The tutorial for part 1 of this module uses Blender Geometry Nodes
-
-
-<br>Use procedural techniques/operations and a node-based workflow to create or modify a game art asset.
-<br>Ensure the asset embodies the class theme.
-<br>Export the asset to a format suitable for Unity (e.g., .fbx, .obj).
-
-<br>Example Ideas for Procedural Assets
-
-<br>A futuristic interface that evolves over time.
-<br>Ancient technology being reclaimed by nature.
-<br>A structure showing multiple temporal states simultaneously.
-
-<br><br><br>Key Steps for Part 2
-
-<br>Import your procedural asset into Unity.
-<br>Set up a lighting system that complements the theme and highlights your asset:
-
-<br>Use at least one directional light to simulate natural or artificial light.
-<br>Add secondary lights (spotlights, area lights, etc.) for mood and detail.
-
-
-<br>Design the scene to enhance the asset’s presentation within the theme.
-
-<br>Lighting Design Tips
-
-<br>Think about how lighting enhances temporal concepts (e.g., contrasts between old and new, revelation of hidden details).
-<br>Experiment with lighting that suggests the passage of time or technological evolution.
-
-<br><br><br>What to Submit
-
-<br>Procedural Asset Source File:
-
-<br>Upload your DCC project file (e.g., .blend, .hip, .mb) to show procedural workflows.
-
-
-<br>README File:
-
-<br>Create a README file in TXT or Markdown format that explains your work.
-<br>Include:
-
-<br>A description of your procedural asset and its thematic inspiration.
-<br>Details of your lighting setup in Unity.
-<br>Any challenges you faced and how you solved them.
-
-
-
-
-<br>Recorded Video (5–10 Minutes):
-
-<br>Record a video that breaks down your design process (use screen recording software like OBS).
-<br>The video must cover:
-
-<br>Procedural Operations: Explain how you created your procedural game asset.
-<br>Lighting Setup: Discuss your lighting choices in Unity, including tools and techniques used.
-<br>Theme Alignment: Reflect on how your work ties into So What About Tommorow?.
-
-
-
-
-
-<br>README Example Format
-# Assignment 1: Procedural Game Art and Lighting Systems
-
-## Procedural Asset
-- Software Used: Blender  
-- Description: A modular crystal formation inspired by black holes, procedurally generated using Geometry Nodes.
-
-## Unity Lighting Setup
-- Lighting Design: Directional light for a natural glow, spotlights for eerie highlights.  
-- Post-Processing: Enabled bloom and vignette for a mystical, void-like effect.
-
-## Challenges
-- Issue: Balancing the asset’s high-detail geometry for real-time performance.  
-- Solution: Reduced polygon count and baked high-resolution normals.  
-
-<br><br>Submission Guidelines
-
-<br>Submission Format: Upload your project as a ZIP file to Drexel Learn.
-<br>File Naming Convention: abc123_Lastname_Firstname_A1.zip.
-<br>Late submissions will incur a 10% penalty per day.
-
-<br><br><br>By completing this assignment, you will:
-
-<br>Understand and apply procedural workflows to create modular assets.
-<br>Develop an artistic vision aligned with the theme.
-<br>Gain technical skills in importing assets into Unity and optimizing them for real-time use.
-<br>Explore Unity’s lighting systems to design atmospheric and visually appealing scenes.
-<br>Develop an iterative workflow for asset creation, scene design, and troubleshooting.
-
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\gmap-395-asn-1-brief.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md</guid><pubDate>Tue, 01 Jul 2025 19:28:43 GMT</pubDate></item><item><title><![CDATA[Course Theme: So What About Tomorrow?]]></title><description><![CDATA[ 
+]]></description><link>gmap-395\module-1\tutorials\gmap-395-wk-3-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/tutorials/GMAP 395 - WK 3 - Tutorial.md</guid><pubDate>Wed, 22 Jan 2025 16:15:57 GMT</pubDate><enclosure url="lib\media\lightingmode.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\lightingmode.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Course Theme: So What About Tomorrow?]]></title><description><![CDATA[ 
  <br><br>Theme Overview So What About Tomorrow? is an open-ended exploration of temporal concepts, technological evolution, and speculative futures. 
 This theme invites students to consider relationships between past, present, and future through their art and technical work. 
 Rather than prescriptive guidelines, this framework offers creative starting points that can be interpreted broadly across many visual styles and conceptual approaches.
