@@ -1,4 +1,366 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 02 Jul 2025 18:33:36 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 02 Jul 2025 18:33:32 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 05 Jul 2025 15:08:25 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 05 Jul 2025 15:08:21 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[<strong><em>Procedural Eldritch Portal + Environment: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
+ <br><br><img alt="GMAP 395/Module 1/Media/395tut1portal.png" src="lib\media\395tut1portal.png" style="width: 640px; max-width: 100%;"><br><br><br>In this tutorial, we will create a Procedural "Eldritch Portal" Environment Art, an ominous and glowing gateway surrounded by rocky terrain and organic tendrils. This project aims to integrates procedural modeling techniques and node-based workflows to craft a dynamic and mystical game-based environment artifact.<br><br>
+<br>Understand the Geometry Nodes system in Blender.
+<br>Apply procedural workflows to create modular and reusable assets.
+<br>Explore node-based techniques for attributes like scattering, randomization, and deformation.
+<br>Gain insight into exporting assets for game engines like Unity.
+<br>Reminder: Documentation is your best friend!
+<a rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html" target="_blank">https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html</a>
+<br>Intro Video: <br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_Ewtu7qaLOfP_oFTQ?e=Dfjfxw" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_Ewtu7qaLOfP_oFTQ?e=Dfjfxw" target="_blank">gmap395_tut1_intro.mp4</a><br><br><br><br><br>
+<br>Open Blender and create a new project.
+<br>Switch to the Geometry Nodes workspace.
+
+<br>This can be found on the top toolbar.
+
+
+<br>Add a Plane (Shift + A &gt; Mesh &gt; Plane) and assign a new Geometry Nodes modifier.
+<br>Name your Geometry Nodes setup descriptively, e.g., Rocky_Base_Geo.<br><br><br>
+<br>Adding Noise Deformation: Use a Noise Texture and Displacement Modifier to create an uneven, rocky surface.
+
+<br>Let's start by subdividing our plan to allow for more detail when we apply a noise function. Create a Subdivide Mesh node and plug the Group Input's geometry output into the mesh input slot. Adjust the subdivision Level to 6. 
+<br>Next let's scale our plane to make more room. Create a Transform Geometry node and plug the mesh output of the subdivide mesh not into geometry input. Adjust the Scale property(attribute) to a desired size; but keep int under 5 for now just to keep things speedy/snappy.
+<br>Now we can work on applying some noise distortion so our plane look smore like a terrain. We will need the following nodes: Set Position, Position(Read) Combine XYZ, and a Noise Texture
+
+<br>Plug the geometry out from the transform node into the geometry input of Set Position. The geometry output from this node will go into the Group Output geometry input.
+<br>Plug the Position(Read) into the position input of Set Position. What this does is get the position of our plane and makes sure set position uses its current position.
+<br>Now the vector output of the Combine XYZ node will go into the offset input of Set Position.
+<br>Finally the color output of Noise Texture will go into the Z input of Combine XYZ.
+
+<br>From here you can adjust the values of the parameters for the noise node to reach a desired look. For more on how this node works and what those parameters mean have a look the the <a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/texture/noise.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/texture/noise.html" target="_blank">noise texture node documentation</a>.
+
+
+
+
+<br>For reference we are performing a noise deformation similar to this video: <a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=LmPhbfb2DH8" target="_blank">https://www.youtube.com/watch?v=LmPhbfb2DH8</a>
+
+
+<br>Scattering Rocks: Now let's scatter some "rocks" by using Point Distribution to scatter stand-in geometry and vary the size by Randomizing Attributes.
+
+<br>We'll add a Distribute Points on Faces node to the end of the chain. So, the geometry output from Set Position will go into the mesh input. This randomly scatters points onto the surface of our terrain geometry base. Use the Density and Seed values to adjust the amount of points.
+<br>Next we will need an Instance on Points node and an Ico Sphere node. Take the points output of the distribute node and plug it into the points input of the Instance on Points node. This is assigning the points we generated as the points we will not copy(instance) more geometry onto.
+<br>Now we need to adjust the size of our "rocks" so they look a bit more "natural" by randomizing the scale. You'll now need a Random Value(Float) and another Combine XYZ node. Plug the value output of the Random Value into the XYZ of the combine node. The vector output of this node will go into the scale input of the Instance Geometry node. 
+
+<br>If you want you can duplicate this section and apply it to the rotation of the instance node to randomize the rotation too.
+
+
+<br>Adjust the Min, Max, and Seed values to achieve a desired look.
+
+
+<br>
+Section Recap: Now you've got a basic terrain base and some rocks scattered along the surface. The scattering and rock scale are randomized to provide a more natural look. If you want to later, you can procedurally model some rocks and replate the basic primitive used as a stand-in.  
+<br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_Ev1DF4vxnCCHC5jw?e=fayUeZ" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_Ev1DF4vxnCCHC5jw?e=fayUeZ" target="_blank">gmap395_tut1_p1.mp4</a><br><br><br><br><br>
+<br>Start with a Base Shape:
+
+<br>Add a Bezier Circle (Shift + A &gt; Curve &gt; Circle) to represent the outer edge of your portal. Name it appropriately, like portal_base_geo. Now assign a new geometry node modifier to it in the Geometry Nodes context. This provides a smooth and flexible base for the portal geometry.
+<br>Drop down and Curve to Points node and an Instance on Points node. Adjust the Count of the curve points node to a number you like, I started with default 10. Plug the points output into the points input of the instance node.
+<br>Now we need some geometry to instance onto the points of our curve to start making the portals base structure. create Cube(Primitive) and a Transform Geometry node. the mesh output of the cube will go into the geometry input of the transform node.
+
+<br>Adjust the Scale(XYZ) of the transform node to get cubes of a desired size/shape.
+
+
+<br>As you may have noticed, the cubes are all around the circle but their rotation does not face the form of the curve, we will fix that now. Create an Align Rotation to Vector node. This node can read the Normals or Tangent of the vector direction of the points along the curve and we can then assign that rotation to another object, like the cubes.
+
+<br>Take the Tangent output of the Curve to Points node and plug it into the Vector input of the align node.
+<br>The parameter values on the Align Rotation to Vector node I found most helpful are to pick the X axis (below Rotation), and set the Pivot to Z.
+<br>Now the Rotation output of the align nodes goes to the Rotation input of the  Instance on Points node.
+<br>This process is similar to what is found in this video: <a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=J4RpyR3jN-U" target="_blank">https://www.youtube.com/watch?v=J4RpyR3jN-U</a>
+
+
+
+
+<br><br>
+<br>Creating additional portal stones:
+
+<br>Now that we have some basic stones for the portal we can duplicate some nodes and run essentially the same/similar operations to create the second set of stones.
+<br>Start by creating  a Transform Geometry node; we will use this to offset the rotation of our points later. 
+<br>Now you can duplicate(copy and paste) the nodes and connections for all of the nodes we used in Part 2 - Step 1 from above. Connect the Geometry output of the transform node into the Curve input of the newly duplicated Curve to Points node.
+<br>Now, keep all of the connections in tact from the nodes that were copied. We can now just go back into some of the nodes and adjust some parameters to get more of a stone portal look.
+
+<br>Start with the Transform Geometry node and adjust the Rotation(Z)  offset the second set of cubes.
+<br>Adjust the Scale(XYZ) of the cubes transform geometry node to make the smaller and a little longer in the second set.
+
+
+
+
+<br>To See All Geometry
+You will need to temporarily connect the Instances output from  both Instance to Points nodes into a Join Geometry node, then connect that to the Group Output.
+<br><br>
+<br>Apply Boolean Operations:
+
+<br>Drop down a Mesh Boolean node. If you used a Join Geometry node to see all of the geometry together, you can delete that now.
+<br>The Mesh Boolean node will allow us to perform a boolean operation using the two sets of cube/stones we made for the portal. In this case we will use Union as the operation type and tick on both Self Intersection and Hole Tolerant.
+<br>Now plug the Instances outputs from both chains/trees Instance on Points into the Mesh input of the Mesh Boolean. This can now be plugged into the main Group Output node.
+
+
+<br>Filling the Portal
+If you with to have a circular plane to fill the void in the portal (maybe for doing a shader later on) you can use a Fill Curve node. Just connect a new edge from the geometry output of the main Group Input node to it and then connect the Mesh output to the Mesh input of the Mesh Boolean 
+<br>
+Section Recap: Boolean operations allow us to create complex shapes by combining or subtracting simpler ones. Here, we use the smaller set of geometry to combine with the larger set of geometry, forming the portal’s basic structure. Now, if you wish to later, you can model better stone using the cubes as a base to make the portal look better.
+<br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_EuJDcode-o2D6LIA?e=rsBx7O" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_EuJDcode-o2D6LIA?e=rsBx7O" target="_blank">gmap395_tut1_p2.mp4</a><br><br><br><br><br><br>
+<br>Define Tendril Paths:
+
+<br>Add a Curve Line (Shift + A &gt; Curve &gt; Curve Line) and then add a Transform Geometry node to a new modifier context.
+<br>Us the transform node to adjust the Rotation(X) to around -90 degrees. Now we will essentially be using nodes used earlier in this tutorial to construct the rest of the tendrils. Create a Curve to Points node and an Instance on Points node. Adjust the Count of the curve points node to a larger number number, like 30. Plug the points output into the points input of the instance node.
+<br>We will need another Align Rotation to Vector node. Connect it like before, where the vector comes from the Curve to Points tangent output and the rotation output goes to the rotation input of the Instance to Points.
+<br>Create another Mesh Boolean node and plug the Instances output from instance points into the Mesh input.
+
+<br>You will need to set the boolean nodes parameters to Union and Exact respectively.
+
+
+<br>
+
+
+<br><br>
+<br>Adding Tendrils to their place :
+
+<br>We will use a Curve Circle node with a 0.5 Radius as a frame for the tendrils to be spawned on to. So, create this now.
+<br>Then, use another Curve to Points node and Instance to Points node combo to create a 6 Count points and instance the tendrils onto those points. 
+
+<br>Connect the Mesh output of the Mesh Boolean from earlier to the Instances input.
+
+
+<br>You'll use another Align Rotation to Vector node to get the Tangent from the curve points to the vector input. Then the Rotation output from this node matches to the Rotation input of the Instance on Points.
+<br>To create a more "natural" look we will add some random roatation so the tendrils are not all uniform. Grab a Random Value node set to Vector. Max value are 0.0, 0.1, and 1.90.
+
+<br>The Value output goes to the Rotation input of a Rotate Instances node. This connects to the Instance on Points and the Group Output nodes. You can also use a Transform Geometry node to move all the tendrils into place.
+
+
+
+
+<br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_EtzgD0ilFKv0Moww?e=JO4ROa" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_EtzgD0ilFKv0Moww?e=JO4ROa" target="_blank">gmap395_tut1_p3.mp4</a><br><br><br>Optimization and Export
+We will do the optimization and mesh export in week 3 before importing to Unity. Just be sure to have some procedural game art ready to go.
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\tutorials\gmap-395-wk-2-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/tutorials/GMAP 395 - WK 2 - Tutorial.md</guid><pubDate>Sat, 05 Jul 2025 15:06:43 GMT</pubDate><enclosure url="lib\media\395tut1portal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\395tut1portal.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
+ <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br>Module Overview Video 📹
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/Efav2YsR0JdOk_rWTc0hYQIBYaenUaj9qcafIpPiFFF44g?e=jx9lD2" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/Efav2YsR0JdOk_rWTc0hYQIBYaenUaj9qcafIpPiFFF44g?e=jx9lD2" target="_blank">Module 1 - Overview Video</a>
+<br><br><br><a data-href="GMAP 395 - Module 1A - Game Feel and Tactile Experience" href="gmap-395\module-1\submodules\gmap-395-module-1a-game-feel-and-tactile-experience.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1A - Game Feel and Tactile Experience</a><br>
+<a data-href="GMAP 395 - Module 1B - Procedural Workflows Introduction" href="gmap-395\module-1\submodules\gmap-395-module-1b-procedural-workflows-introduction.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1B - Procedural Workflows Introduction</a><br>
+<a data-href="GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques" href="gmap-395\module-1\submodules\gmap-395-module-1c-node-based-systems-and-advanced-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques</a><br>
+<a data-href="GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems" href="gmap-395\module-1\submodules\gmap-395-module-1d-lighting-fundamentals-and-technical-systems.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems</a><br>
+<a data-href="GMAP 395 - Module 1E - Color Theory and Advanced Lighting" href="gmap-395\module-1\submodules\gmap-395-module-1e-color-theory-and-advanced-lighting.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1E - Color Theory and Advanced Lighting</a><br>
+<a data-href="GMAP 395 - Module 1F - Case Studies and Practical Implementation" href="gmap-395\module-1\submodules\gmap-395-module-1f-case-studies-and-practical-implementation.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1F - Case Studies and Practical Implementation</a><br><br>N/A<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Guide - CT and CPS" data-href="GMAP 395 - Guide - CT and CPS" href="gmap-395\gmap-395-guide-ct-and-cps.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking and Creative Problem Solving</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Guide - Procedural Modeling Fundamentals" data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Procedural Modeling Fundamentals</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" data-href="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" href="gmap-395\notes\gmap-395-wk-2-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Tutorial</a><br>
+<a data-href="GMAP 395 - WK 3 - Tutorial" href="gmap-395\module-1\tutorials\gmap-395-wk-3-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 1 - Brief" data-href="GMAP 395 - ASN 1 - Brief" href="gmap-395\module-1\gmap-395-asn-1-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 1 - Procedural Modeling + Lightning Systems</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Weekly - 2" data-href="GMAP 395 - Weekly - 2" href="gmap-395\weeklies\gmap-395-weekly-2.html" class="internal-link" target="_self" rel="noopener nofollow">Weekly Crit 2</a><br><br><a data-href="GMAP 395 - WK 2 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-2-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Slides</a><br>
+<a data-href="GMAP 395 - WK 2 - Video Lecture" href="gmap-395\module-1\legacy\gmap-395-wk-2-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Video Lecture</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - WK 3 - Slides" data-href="GMAP 395 - WK 3 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-3-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Slides + Video</a><br><br><br>
+<br>Introduction to procedural modeling with Blender.
+<br>Basics of lighting systems with Unity.
+<br>Overview of procedural and modular workflows.
+<br><br><br>By the end of this module, you will:<br>
+<br>Gain foundational knowledge in procedural modeling techniques and lighting systems.
+<br>Explore the use of industry-standard tools like Blender and Unity.
+<br>Understand the importance of modular workflows in game art development.
+<br>Build confidence in preparing and setting up tools for complex projects.
+<br><br><br>
+<br>Confirm your computer meets the recommended specifications for Blender and Unity.
+<br>Install <a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender</a> 3.9 or higher.
+<br>Install Unity (2022.3) via the <a data-tooltip-position="top" aria-label="https://unity.com/download" rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">Unity Hub</a>
+<br>If you have never used Blender
+
+<br>If you have never used Unity
+
+<br><br><br><br><br>
+<br>Blender 3.9 or higher: Download from <a rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">https://www.blender.org/download/</a>.
+<br><br>
+<br>Unity (LTS version): Download from <a rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">https://unity.com/download</a>.
+<br>Ensure the system specifications match or exceed Unity's requirements.
+<br><br><br><br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" target="_blank">Blender Quick Start Guide</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" target="_blank">Introduction to Geometry Nodes</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Sat, 05 Jul 2025 15:02:24 GMT</pubDate></item><item><title><![CDATA[Week 3 Progress Check: Procedural Modeling Exploration]]></title><description><![CDATA[ 
+ <br><br>Overview 
+Purpose: Share your early procedural modeling experiments and current project direction<br>
+Format: Brief individual share (2-3 minutes) + peer feedback  online<br>
+Due: Week 3 class session
+<br><br><br>This week is all about showing your work - we want to see what you've been experimenting with in your procedural modeling explorations and how your project concept is evolving through some hands-on practice.<br><br><br><br>Capture your work-in-progress from your DCC (Blender, Maya, Houdini, etc.)<br>
+Some ideas of things to share:<br>
+<br>Node networks/graphs - Show us your procedural setup
+<br>Geometry results - What's your system generating?
+<br>Iterations/variations - Different outcomes from tweaking parameters
+<br>Problem areas - Things that aren't working yet (this is valuable too!)
+<br><br>Tell us where you're at with your project concept:<br>
+<br>What procedural modeling(s) technique are you exploring?
+<br>How does this connect to your original project vision? If its different/changes, how so ?
+<br>What's one thing you've discovered or learned that surprised you?
+<br>What's your next step or biggest current challenge?
+<br><br><br><br>
+<br>Show your screenshots - walk us through what we're seeing
+<br>Explain your process - what procedural approach are you using?
+<br>Connect to your project - how does this fit your bigger vision?
+<br>Share one challenge - what's not working or what do you need help with?
+<br><br>Quick responses to/from classmates:<br>
+<br>What do you find most interesting about this approach?
+<br>Any suggestions for troubleshooting or next steps?
+<br>How might this technique apply to other projects?
+<br><br><br><br>
+<br>Screenshots ready to share (uploaded to thread to present)
+<br>Brief talking points prepared
+<br><br>
+<br>Post your screenshots in your individual thread
+<br>Include your 2-3 sentence project update
+<br>Comment on 2-3 peer posts with encouragement or suggestions
+<br><br>Remember
+
+<br>Progress &gt; perfection - we want to see your learning process
+<br>Problems are valuable - share what's not working, we can help troubleshoot
+<br>Be specific - instead of "I'm making a building," try "I'm trying to use arrays/modifiers to create modular wall panels"
+
+]]></description><link>gmap-395\weeklies\gmap-395-weekly-2.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md</guid><pubDate>Sat, 05 Jul 2025 15:01:13 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+ <br><br><br><br>Instructor Details
+
+<br>Name: Darren Woodland, Jr.
+<br>Email: <a data-tooltip-position="top" aria-label="mailto:dkw34@drexel.edu" rel="noopener nofollow" class="external-link" href="mailto:dkw34@drexel.edu" target="_blank">dkw34@drexel.edu</a>
+<br>Office Hours: By appointment through email or <a data-tooltip-position="top" aria-label="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" rel="noopener nofollow" class="external-link" href="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" target="_blank">booking</a>.
+
+<br><br>Classroom Info
+
+<br>Term: Summer Quarter 2025
+<br>Location: URBN 250
+<br>Students will use Drexel Learn and their @drexel.edu emails for all class communication.
+
+<br><br>This course introduces students to procedural real-time game systems and technical art production. Students will explore game engine based workflows, gaining proficiency in shaders, particle systems, modeling, and visual effects. The course emphasizes real-time systems and modular design techniques.<br><br>Key Capabilities
+
+<br>Procedural and modular modeling
+<br>Shader and material development
+<br>Particle and image effects
+<br>Lighting, camera techniques, and post-processing
+
+<br><br>Learning Approach
+Studio-Based Learning: Class time prioritizes hands-on practice, peer collaboration, and instructor guidance.<br>
+Modular Skill Development: Content is organized into focused, digestible modules that build progressively toward professional competency.<br>
+Critique Culture: Weekly progress reviews emphasizing creative growth through peer and instructor feedback.
+<br><br>By the end of the course, students will demonstrate skills in:<br>
+<br>🤖 Procedural modeling
+<br>💡 Scene lighting and camera effects
+<br>✨ VFX creation
+<br>🖌️ Shader and material development
+<br>🔄 Technical workflows for real-time game art
+<br>🎯 Professional critique and feedback skills
+<br><br><br><br>Useful Links
+
+<br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>(Lab Version) or 2022.3.45LTS(latest)
+<br><a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender 4.4 Download</a>
+<br><a data-tooltip-position="top" aria-label="https://code.visualstudio.com/" rel="noopener nofollow" class="external-link" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> or your favorite IDE (must support C# + Python)
+<br>Screen Recording Software (like OBS)
+
+<br><br>Useful Links
+
+<br><a data-tooltip-position="top" aria-label="https://learn.drexel.edu/" rel="noopener nofollow" class="external-link" href="https://learn.drexel.edu/" target="_blank">Drexel Learn</a>
+<br><a data-tooltip-position="top" aria-label="https://dl.acm.org/" rel="noopener nofollow" class="external-link" href="https://dl.acm.org/" target="_blank">ACM Digital Library</a>
+<br><a data-tooltip-position="top" aria-label="https://www.gdcvault.com/" rel="noopener nofollow" class="external-link" href="https://www.gdcvault.com/" target="_blank">GDC Vault</a>
+<br><a data-tooltip-position="top" aria-label="https://freelibrary.org/" rel="noopener nofollow" class="external-link" href="https://freelibrary.org/" target="_blank">LinkedIn Learning via Free Library of Philadelphia</a>
+
+<br><br><br><br>Week 1 Highlights
+
+<br>Syllabus, Course Structure, and Important Links
+<br>Tool setup and workflow establishment
+<br>Weekly check-ins and peer feedback
+<br>Course Theme 
+
+<br><br>Weeks 2-3 Highlights
+
+<br>Fundamentals of procedural modeling
+<br>Modular workflows, node-based workflows, and DAGs
+<br>Lighting systems focusing on geometry and light interplay
+
+<br>Assignment 1: Create a modular game asset and integrate lighting systems.<br>
+Due: Week 3<br><br>Weeks 4-5 Highlights
+
+<br>Custom shader creation using code and visual scripting
+<br>Application of shaders to procedural assets for real-time interactivity
+<br>Material properties and real-time rendering
+
+<br>Assignment 2: Develop shaders for the asset created in Assignment 1.<br>
+Due: Week 5<br><br>Weeks 6-7 Highlights
+
+<br>VFX design principles and workflows
+<br>Particle systems using visual scripting and component-based systems
+<br>Creating interactive effects tied to game mechanics
+
+<br>Assignment 3: Add particle and dynamic visual effects to the modular asset.<br>
+Due: Week 7<br><br>Week 8-9 Highlights
+
+<br>Camera manipulation techniques
+<br>Post-processing pipelines for polish and visual enhancement
+<br>Performance and visual quality balancing
+
+<br>Assignment 4: Implement camera effects and post-processing for the asset.<br>
+Due: Week 8<br><br>Weeks 10-11 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.<br>Final Deliverables:<br>
+<br>🎯 Cohesive scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
+<br>🎥 Presentation videos with technical breakdown
+<br><br><br>
+<br>Check-in &amp; Critique: Weekly progress presentations and peer feedback
+<br>Mini-Lecture &amp; Demo: Just-in-time instruction based on current module
+<br>Studio Practice: Hands-on work with instructor guidance and peer collaboration
+<br>Wrap-up &amp; Next Steps: Preview upcoming content and assignment clarification
+<br><br><br><br><br>Grading Breakdown
+
+<br>35% Assignments: Bi-weekly assignments focusing on module topics.
+<br>25% Final Project: Integration of course concepts into a cohesive artifact.
+<br>25% Participation and Professionalism: Engagement, attendance, and critique contributions.
+<br>15% Weekly Progress Reviews: Short assessments via Drexel Learn to reinforce key concepts.
+
+<br><br><br><br>Classroom Activities
+In order to foster a more optimal learning environment and ensure respect for all participants, the following policy is in effect during lectures, live-coding, and both guest and student presentations:<br>
+- No personal electronic devices: Cell phones, tablets, laptops, and other devices must be turned off and put away unless explicitly permitted for note-taking or learning activity use.<br>
+- No non-course-related activities: Gaming, video watching, social media use, or any other non-course-related activities are strictly prohibited.<br>
+- Acceptable learning activities: Note-taking (electronic or handwritten) and productive doodling/drawing related to course content are permitted and encouraged.<br>
+- Lab sessions: During hands-on lab portions, device use is allowed for course-related work. Peer discussions, and instructor engagement is strongly encouraged.
+<br>Affects Participation + Professionalism
+Violations of this policy will impact the Participation and Professionalism grade. Multiple offenses may result in a zero (0) for this component of the course grade, without exception.
+<br><br>Cheating and Plagiarism Definitions
+Cheating or plagiarism, as defined for this course, are governed by the Drexel University Academic Integrity Policy.<br>
+Both are strictly forbidden. DO NOT DO IT!<br>
+All instances will be investigated and reported as outlined by Drexel University policy.<br>
+They will also result in: at minimum failing the assignment and an automatic decrease&nbsp;of one letter grade for your final grade and may result in your failing the course.
+<br><br>Submission Rules
+
+<br>Submit all work via Drexel Learn (unless other wise specified).
+<br>Follow assignment submission guidelines outlined in briefs
+<br>Use proper file naming conventions (e.g., abc123_a1_lighting_final.mp4).
+
+<br><br>Late Assignmnets
+Assignments must be turned in on time!<br>
+Lateness will automatically result in at&nbsp;minimum the loss of one letter grade.<br>
+Late work incurs a 10% penalty per day.
+<br><br>Attendance Requirements
+
+<br>Attendance is mandatory. 
+<br>Students are allowed one unexcused absence.
+<br>Missing more than one class (unexcused) reduces your grade.
+<br>Each late arrival to class will result in 50% attendance for the day.
+<br>Weekly Progress Reviews are mandatory - missing reviews impact participation grade
+
+<br>Excused Abcense
+Note that an excused absence is defined as one that is the result of a condition or&nbsp;circumstance beyond the student's control, such as illness, a family crisis or&nbsp;emergency, or some other serious and important personal circumstance.
+<br>Three or more absences results in course failure.<br><br>AI Use Policy
+Artificial intelligence (AI) tools, such as large language models (e.g., ChatGPT or Claude), may be used in this course under specific guidelines, outlined below.
+<br>Approved AI Uses
+
+<br>AI tools are permitted for developing assets for assignments and projects, such as generating images or code snippets.
+<br>Students may use AI to help better contextualize and understand code, programming concepts, and course structures. This includes using AI for code review, breakdowns, and topic summaries.
+<br>All written materials, explanations, and analyses submitted for assignments should be the original work of the student. AI should not be used to generate these portions of your submissions.
+
+<br>Use and Citation
+The use of AI tools is not mandatory. Students may opt out of using AI assistants entirely if they prefer to complete all work without AI assistance.<br>
+When AI tools are used students must:
+
+<br>Clearly indicate which portions of their work were created with AI assistance and which tools were used
+<br>Be able to explain and defend all submitted work
+<br>Be able to demonstrate original creative decision-making and artistic voice
+
+<br>Use and Understanding
+Regardless of AI usage, students are responsible for understanding and being able to explain all aspects of their submitted work.
+<br><br>Course Changes to the Course
+It is very important that each student has read and understood all the materials,&nbsp;assignments, and due dates on the syllabus. It is the prerogative of the instructor to change the course during the term at their discretion in the interest of&nbsp;responding to individual class needs. Changes will be communicated to students via Drexel Learn and/or email
+<br><br><br>This course, including all meetings, assignments, and activities, operates under Drexel University’s policies. All students are expected to read and fully understand these policies as they apply to the coursework and conduct within this class.<br><br>Plagiarism and Cheating Policy
+
+<br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Sat, 05 Jul 2025 15:04:30 GMT</pubDate></item><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Learning Focus: Understanding procedural workflows and algorithmic content creation <br>
 Builds On: Module 1A (Technical Art fundamentals)
@@ -2030,47 +2392,7 @@ Game Engines:
 <br>Join communities focused on procedural content creation
 <br>Analyze existing games to understand their procedural systems
 
-<br>Remember Procedural modeling isn't about replacing artistic skill - it's about amplifying it. The goal is to spend more time on creative decisions and less time on repetitive tasks, while maintaining the ability to iterate and experiment freely.<br>The thinking patterns you develop here apply beyond geometry - to materials, animation, level design, and any systematic creative work.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md</guid><pubDate>Tue, 01 Jul 2025 20:30:36 GMT</pubDate></item><item><title><![CDATA[Module 1 - Procedural Modeling and Lighting]]></title><description><![CDATA[ 
- <br><br><br>This module introduces foundational skills in procedural modeling and lighting systems. Students will explore creating modular assets and environments using DCC tools and plugins.<br>Module Overview Video 📹
-<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/Efav2YsR0JdOk_rWTc0hYQIBYaenUaj9qcafIpPiFFF44g?e=jx9lD2" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/Efav2YsR0JdOk_rWTc0hYQIBYaenUaj9qcafIpPiFFF44g?e=jx9lD2" target="_blank">Module 1 - Overview Video</a>
-<br><br><br><a data-href="GMAP 395 - Module 1A - Game Feel and Tactile Experience" href="gmap-395\module-1\submodules\gmap-395-module-1a-game-feel-and-tactile-experience.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1A - Game Feel and Tactile Experience</a><br>
-<a data-href="GMAP 395 - Module 1B - Procedural Workflows Introduction" href="gmap-395\module-1\submodules\gmap-395-module-1b-procedural-workflows-introduction.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1B - Procedural Workflows Introduction</a><br>
-<a data-href="GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques" href="gmap-395\module-1\submodules\gmap-395-module-1c-node-based-systems-and-advanced-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1C - Node-Based Systems and Advanced Techniques</a><br>
-<a data-href="GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems" href="gmap-395\module-1\submodules\gmap-395-module-1d-lighting-fundamentals-and-technical-systems.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1D - Lighting Fundamentals and Technical Systems</a><br>
-<a data-href="GMAP 395 - Module 1E - Color Theory and Advanced Lighting" href="gmap-395\module-1\submodules\gmap-395-module-1e-color-theory-and-advanced-lighting.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1E - Color Theory and Advanced Lighting</a><br>
-<a data-href="GMAP 395 - Module 1F - Case Studies and Practical Implementation" href="gmap-395\module-1\submodules\gmap-395-module-1f-case-studies-and-practical-implementation.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1F - Case Studies and Practical Implementation</a><br><br>N/A<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Guide - CT and CPS" data-href="GMAP 395 - Guide - CT and CPS" href="gmap-395\gmap-395-guide-ct-and-cps.html" class="internal-link" target="_self" rel="noopener nofollow">Critical Thinking and Creative Problem Solving</a><br>
-<a data-tooltip-position="top" aria-label="GMAP 395 - Guide - Procedural Modeling Fundamentals" data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Procedural Modeling Fundamentals</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" data-href="GMAP 395/Notes/GMAP 395 - WK 2 - Tutorial" href="gmap-395\notes\gmap-395-wk-2-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Tutorial</a><br>
-<a data-href="GMAP 395 - WK 3 - Tutorial" href="gmap-395\module-1\tutorials\gmap-395-wk-3-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 1 - Brief" data-href="GMAP 395 - ASN 1 - Brief" href="gmap-395\module-1\gmap-395-asn-1-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 1 - Procedural Modeling + Lightning Systems</a><br><br><a data-href="GMAP 395 - WK 2 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-2-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Slides</a><br>
-<a data-href="GMAP 395 - WK 2 - Video Lecture" href="gmap-395\module-1\legacy\gmap-395-wk-2-video-lecture.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 2 - Video Lecture</a><br>
-<a data-tooltip-position="top" aria-label="GMAP 395 - WK 3 - Slides" data-href="GMAP 395 - WK 3 - Slides" href="gmap-395\module-1\legacy\gmap-395-wk-3-slides.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 3 - Slides + Video</a><br><br><br>
-<br>Introduction to procedural modeling with Blender.
-<br>Basics of lighting systems with Unity.
-<br>Overview of procedural and modular workflows.
-<br><br><br>By the end of this module, you will:<br>
-<br>Gain foundational knowledge in procedural modeling techniques and lighting systems.
-<br>Explore the use of industry-standard tools like Blender and Unity.
-<br>Understand the importance of modular workflows in game art development.
-<br>Build confidence in preparing and setting up tools for complex projects.
-<br><br><br>
-<br>Confirm your computer meets the recommended specifications for Blender and Unity.
-<br>Install <a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender</a> 3.9 or higher.
-<br>Install Unity (2022.3) via the <a data-tooltip-position="top" aria-label="https://unity.com/download" rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">Unity Hub</a>
-<br>If you have never used Blender
-
-<br>If you have never used Unity
-
-<br><br><br><br><br>
-<br>Blender 3.9 or higher: Download from <a rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">https://www.blender.org/download/</a>.
-<br><br>
-<br>Unity (LTS version): Download from <a rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">https://unity.com/download</a>.
-<br>Ensure the system specifications match or exceed Unity's requirements.
-<br><br><br><br><br><br>
-<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/4.3/getting_started/about/index.html" target="_blank">Blender Quick Start Guide</a>
-<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html" target="_blank">Introduction to Geometry Nodes</a>
-<br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
-<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
-<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Tue, 01 Jul 2025 20:09:01 GMT</pubDate></item><item><title><![CDATA[Critical Thinking and Creative Problem Solving for Artists, Designers, and Technologists]]></title><description><![CDATA[ 
+<br>Remember Procedural modeling isn't about replacing artistic skill - it's about amplifying it. The goal is to spend more time on creative decisions and less time on repetitive tasks, while maintaining the ability to iterate and experiment freely.<br>The thinking patterns you develop here apply beyond geometry - to materials, animation, level design, and any systematic creative work.<br><br><br>]]></description><link>gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md</guid><pubDate>Tue, 01 Jul 2025 20:30:36 GMT</pubDate></item><item><title><![CDATA[Critical Thinking and Creative Problem Solving for Artists, Designers, and Technologists]]></title><description><![CDATA[ 
  <br><br><br>In creative and technical work, the ability to solve problems systematically often matters more than any specific tool knowledge. Whether you're debugging a shader, designing a character, or optimizing game performance, the same core thinking skills apply.<br>This guide teaches you to approach challenges methodically rather than hoping for inspiration or getting paralyzed by complexity. You'll learn to break down problems, research effectively, and iterate toward solutions.<br>How This Connects: 
 This guide pairs with the <a data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Guide - Procedural Modeling Fundamentals</a> - the problem-solving framework here applies directly to technical modeling challenges, while working through geometry problems reinforces these thinking patterns.
 <br><br><br><br><br>🎯 Problem/Goal: You're tasked with creating an entire game environment but feel overwhelmed by the scope.<br>Quick Reality Check, Ask yourself: "If I had to demo this in 2 weeks, what's the absolute minimum that needs to work?"<br><br><br><br><br>Breaking It Down Step-by-Step 
@@ -2945,141 +3267,7 @@ Real-time control of virtual objects in a simulated space, with interaction emph
 <br>How does lighting influence player decision-making?
 <br>What challenges arise when balancing performance with high-quality lighting?
 <br>How can you apply these concepts across different game engines or tools?
-<br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\legacy\gmap-395-wk-3-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/legacy/GMAP 395 - WK 3 - Slides.md</guid><pubDate>Mon, 20 Jan 2025 19:17:15 GMT</pubDate><enclosure url="lib\media\6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[<strong><em>Procedural Eldritch Portal + Environment: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
- <br><br><img alt="GMAP 395/Module 1/Media/395tut1portal.png" src="lib\media\395tut1portal.png" style="width: 640px; max-width: 100%;"><br><br><br>In this tutorial, we will create a Procedural "Eldritch Portal" Environment Art, an ominous and glowing gateway surrounded by rocky terrain and organic tendrils. This project aims to integrates procedural modeling techniques and node-based workflows to craft a dynamic and mystical game-based environment artifact.<br><br>
-<br>Understand the Geometry Nodes system in Blender.
-<br>Apply procedural workflows to create modular and reusable assets.
-<br>Explore node-based techniques for attributes like scattering, randomization, and deformation.
-<br>Gain insight into exporting assets for game engines like Unity.
-<br>Reminder: Documentation is your best friend!
-<a rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html" target="_blank">https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html</a>
-<br>Intro Video: <br>
-[gmap395_tut1_intro.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_Ewtu7qaLOfP_oFTQ?e=Dfjfxw)<br><br><br><br><br>
-<br>Open Blender and create a new project.
-<br>Switch to the Geometry Nodes workspace.
-
-<br>This can be found on the top toolbar.
-
-
-<br>Add a Plane (Shift + A &gt; Mesh &gt; Plane) and assign a new Geometry Nodes modifier.
-<br>Name your Geometry Nodes setup descriptively, e.g., Rocky_Base_Geo.<br><br><br>
-<br>Adding Noise Deformation: Use a Noise Texture and Displacement Modifier to create an uneven, rocky surface.
-
-<br>Let's start by subdividing our plan to allow for more detail when we apply a noise function. Create a Subdivide Mesh node and plug the Group Input's geometry output into the mesh input slot. Adjust the subdivision Level to 6. 
-<br>Next let's scale our plane to make more room. Create a Transform Geometry node and plug the mesh output of the subdivide mesh not into geometry input. Adjust the Scale property(attribute) to a desired size; but keep int under 5 for now just to keep things speedy/snappy.
-<br>Now we can work on applying some noise distortion so our plane look smore like a terrain. We will need the following nodes: Set Position, Position(Read) Combine XYZ, and a Noise Texture
-
-<br>Plug the geometry out from the transform node into the geometry input of Set Position. The geometry output from this node will go into the Group Output geometry input.
-<br>Plug the Position(Read) into the position input of Set Position. What this does is get the position of our plane and makes sure set position uses its current position.
-<br>Now the vector output of the Combine XYZ node will go into the offset input of Set Position.
-<br>Finally the color output of Noise Texture will go into the Z input of Combine XYZ.
-
-<br>From here you can adjust the values of the parameters for the noise node to reach a desired look. For more on how this node works and what those parameters mean have a look the the <a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/texture/noise.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/texture/noise.html" target="_blank">noise texture node documentation</a>.
-
-
-
-
-<br>For reference we are performing a noise deformation similar to this video: <a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=LmPhbfb2DH8" target="_blank">https://www.youtube.com/watch?v=LmPhbfb2DH8</a>
-
-
-<br>Scattering Rocks: Now let's scatter some "rocks" by using Point Distribution to scatter stand-in geometry and vary the size by Randomizing Attributes.
-
-<br>We'll add a Distribute Points on Faces node to the end of the chain. So, the geometry output from Set Position will go into the mesh input. This randomly scatters points onto the surface of our terrain geometry base. Use the Density and Seed values to adjust the amount of points.
-<br>Next we will need an Instance on Points node and an Ico Sphere node. Take the points output of the distribute node and plug it into the points input of the Instance on Points node. This is assigning the points we generated as the points we will not copy(instance) more geometry onto.
-<br>Now we need to adjust the size of our "rocks" so they look a bit more "natural" by randomizing the scale. You'll now need a Random Value(Float) and another Combine XYZ node. Plug the value output of the Random Value into the XYZ of the combine node. The vector output of this node will go into the scale input of the Instance Geometry node. 
-
-<br>If you want you can duplicate this section and apply it to the rotation of the instance node to randomize the rotation too.
-
-
-<br>Adjust the Min, Max, and Seed values to achieve a desired look.
-
-
-<br>
-Section Recap: Now you've got a basic terrain base and some rocks scattered along the surface. The scattering and rock scale are randomized to provide a more natural look. If you want to later, you can procedurally model some rocks and replate the basic primitive used as a stand-in.  
-<br>
-[gmap395_tut1_p1.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_Ev1DF4vxnCCHC5jw?e=fayUeZ)<br><br><br><br><br>
-<br>Start with a Base Shape:
-
-<br>Add a Bezier Circle (Shift + A &gt; Curve &gt; Circle) to represent the outer edge of your portal. Name it appropriately, like portal_base_geo. Now assign a new geometry node modifier to it in the Geometry Nodes context. This provides a smooth and flexible base for the portal geometry.
-<br>Drop down and Curve to Points node and an Instance on Points node. Adjust the Count of the curve points node to a number you like, I started with default 10. Plug the points output into the points input of the instance node.
-<br>Now we need some geometry to instance onto the points of our curve to start making the portals base structure. create Cube(Primitive) and a Transform Geometry node. the mesh output of the cube will go into the geometry input of the transform node.
-
-<br>Adjust the Scale(XYZ) of the transform node to get cubes of a desired size/shape.
-
-
-<br>As you may have noticed, the cubes are all around the circle but their rotation does not face the form of the curve, we will fix that now. Create an Align Rotation to Vector node. This node can read the Normals or Tangent of the vector direction of the points along the curve and we can then assign that rotation to another object, like the cubes.
-
-<br>Take the Tangent output of the Curve to Points node and plug it into the Vector input of the align node.
-<br>The parameter values on the Align Rotation to Vector node I found most helpful are to pick the X axis (below Rotation), and set the Pivot to Z.
-<br>Now the Rotation output of the align nodes goes to the Rotation input of the  Instance on Points node.
-<br>This process is similar to what is found in this video: <a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=J4RpyR3jN-U" target="_blank">https://www.youtube.com/watch?v=J4RpyR3jN-U</a>
-
-
-
-
-<br><br>
-<br>Creating additional portal stones:
-
-<br>Now that we have some basic stones for the portal we can duplicate some nodes and run essentially the same/similar operations to create the second set of stones.
-<br>Start by creating  a Transform Geometry node; we will use this to offset the rotation of our points later. 
-<br>Now you can duplicate(copy and paste) the nodes and connections for all of the nodes we used in Part 2 - Step 1 from above. Connect the Geometry output of the transform node into the Curve input of the newly duplicated Curve to Points node.
-<br>Now, keep all of the connections in tact from the nodes that were copied. We can now just go back into some of the nodes and adjust some parameters to get more of a stone portal look.
-
-<br>Start with the Transform Geometry node and adjust the Rotation(Z)  offset the second set of cubes.
-<br>Adjust the Scale(XYZ) of the cubes transform geometry node to make the smaller and a little longer in the second set.
-
-
-
-
-<br>To See All Geometry
-You will need to temporarily connect the Instances output from  both Instance to Points nodes into a Join Geometry node, then connect that to the Group Output.
-<br><br>
-<br>Apply Boolean Operations:
-
-<br>Drop down a Mesh Boolean node. If you used a Join Geometry node to see all of the geometry together, you can delete that now.
-<br>The Mesh Boolean node will allow us to perform a boolean operation using the two sets of cube/stones we made for the portal. In this case we will use Union as the operation type and tick on both Self Intersection and Hole Tolerant.
-<br>Now plug the Instances outputs from both chains/trees Instance on Points into the Mesh input of the Mesh Boolean. This can now be plugged into the main Group Output node.
-
-
-<br>Filling the Portal
-If you with to have a circular plane to fill the void in the portal (maybe for doing a shader later on) you can use a Fill Curve node. Just connect a new edge from the geometry output of the main Group Input node to it and then connect the Mesh output to the Mesh input of the Mesh Boolean 
-<br>
-Section Recap: Boolean operations allow us to create complex shapes by combining or subtracting simpler ones. Here, we use the smaller set of geometry to combine with the larger set of geometry, forming the portal’s basic structure. Now, if you wish to later, you can model better stone using the cubes as a base to make the portal look better.
-<br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_EuJDcode-o2D6LIA?e=rsBx7O" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_EuJDcode-o2D6LIA?e=rsBx7O" target="_blank">gmap395_tut1_p2.mp4</a><br><br><br><br><br><br>
-<br>Define Tendril Paths:
-
-<br>Add a Curve Line (Shift + A &gt; Curve &gt; Curve Line) and then add a Transform Geometry node to a new modifier context.
-<br>Us the transform node to adjust the Rotation(X) to around -90 degrees. Now we will essentially be using nodes used earlier in this tutorial to construct the rest of the tendrils. Create a Curve to Points node and an Instance on Points node. Adjust the Count of the curve points node to a larger number number, like 30. Plug the points output into the points input of the instance node.
-<br>We will need another Align Rotation to Vector node. Connect it like before, where the vector comes from the Curve to Points tangent output and the rotation output goes to the rotation input of the Instance to Points.
-<br>Create another Mesh Boolean node and plug the Instances output from instance points into the Mesh input.
-
-<br>You will need to set the boolean nodes parameters to Union and Exact respectively.
-
-
-<br>
-
-
-<br><br>
-<br>Adding Tendrils to their place :
-
-<br>We will use a Curve Circle node with a 0.5 Radius as a frame for the tendrils to be spawned on to. So, create this now.
-<br>Then, use another Curve to Points node and Instance to Points node combo to create a 6 Count points and instance the tendrils onto those points. 
-
-<br>Connect the Mesh output of the Mesh Boolean from earlier to the Instances input.
-
-
-<br>You'll use another Align Rotation to Vector node to get the Tangent from the curve points to the vector input. Then the Rotation output from this node matches to the Rotation input of the Instance on Points.
-<br>To create a more "natural" look we will add some random roatation so the tendrils are not all uniform. Grab a Random Value node set to Vector. Max value are 0.0, 0.1, and 1.90.
-
-<br>The Value output goes to the Rotation input of a Rotate Instances node. This connects to the Instance on Points and the Group Output nodes. You can also use a Transform Geometry node to move all the tendrils into place.
-
-
-
-
-<br>
-[gmap395_tut1_p3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EtzgD0ilFKv0Moww?e=JO4ROa)<br><br><br>Optimization and Export
-We will do the optimization and mesh export in week 3 before importing to Unity. Just be sure to have some procedural game art ready to go.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\tutorials\gmap-395-wk-2-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 1/tutorials/GMAP 395 - WK 2 - Tutorial.md</guid><pubDate>Mon, 20 Jan 2025 19:16:51 GMT</pubDate><enclosure url="lib\media\395tut1portal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\395tut1portal.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Lab Exercise: Lighting, Post-Processing, and Dynamic Camera in Unity URP]]></title><description><![CDATA[ 
+<br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 1" data-href="GMAP 395 - Module 1" href="gmap-395\module-1\gmap-395-module-1.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-1\legacy\gmap-395-wk-3-slides.html</link><guid isPermaLink="false">GMAP 395/Module 1/legacy/GMAP 395 - WK 3 - Slides.md</guid><pubDate>Mon, 20 Jan 2025 19:17:15 GMT</pubDate><enclosure url="lib\media\6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Lab Exercise: Lighting, Post-Processing, and Dynamic Camera in Unity URP]]></title><description><![CDATA[ 
  <br><br><br>In this lab, you'll create a simple 3D scene using the Universal Render Pipeline (URP), apply basic lighting techniques and a dynamic day-night cycle that affects gameplay and mood. This scene will be incorporating you Procedural Game Art Asset from Module 1 - Part 1.<br><br>
 <br>Unity 2022.3 LTS or later
 <br>Basic familiarity with the Unity interface
@@ -7666,159 +7854,7 @@ For each module there are a set of Requirements that must be met for every modul
 <br>Cohesion: Visual and thematic consistency throughout the project.
 <br>Polish: Overall quality and refinement of the interactive experience.
 <br>Presentation: Clarity and professionalism in the playthrough video and postmortem document.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Mon, 03 Mar 2025 21:06:51 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
- <br><br><br><br>Instructor Details
-
-<br>Name: Darren Woodland, Jr.
-<br>Email: <a data-tooltip-position="top" aria-label="mailto:dkw34@drexel.edu" rel="noopener nofollow" class="external-link" href="mailto:dkw34@drexel.edu" target="_blank">dkw34@drexel.edu</a>
-<br>Office Hours: By appointment through email or <a data-tooltip-position="top" aria-label="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" rel="noopener nofollow" class="external-link" href="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" target="_blank">booking</a>.
-
-<br><br>Classroom Info
-
-<br>Term: Summer Quarter 2025
-<br>Location: URBN 250
-<br>Students will use Drexel Learn and their @drexel.edu emails for all class communication.
-
-<br><br>This course introduces students to procedural real-time game systems and technical art production. Students will explore game engine based workflows, gaining proficiency in shaders, particle systems, modeling, and visual effects. The course emphasizes real-time systems and modular design techniques.<br><br>Key Capabilities
-
-<br>Procedural and modular modeling
-<br>Shader and material development
-<br>Particle and image effects
-<br>Lighting, camera techniques, and post-processing
-
-<br><br>Learning Approach
-Studio-Based Learning: Class time prioritizes hands-on practice, peer collaboration, and instructor guidance.<br>
-Modular Skill Development: Content is organized into focused, digestible modules that build progressively toward professional competency.<br>
-Critique Culture: Weekly progress reviews emphasizing creative growth through peer and instructor feedback.
-<br><br>By the end of the course, students will demonstrate skills in:<br>
-<br>🤖 Procedural modeling
-<br>💡 Scene lighting and camera effects
-<br>✨ VFX creation
-<br>🖌️ Shader and material development
-<br>🔄 Technical workflows for real-time game art
-<br>🎯 Professional critique and feedback skills
-<br><br><br><br>Useful Links
-
-<br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>(Lab Version) or 2022.3.45LTS(latest)
-<br><a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender 4.4 Download</a>
-<br><a data-tooltip-position="top" aria-label="https://code.visualstudio.com/" rel="noopener nofollow" class="external-link" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> or your favorite IDE (must support C# + Python)
-<br>Screen Recording Software (like OBS)
-
-<br><br>Useful Links
-
-<br><a data-tooltip-position="top" aria-label="https://learn.drexel.edu/" rel="noopener nofollow" class="external-link" href="https://learn.drexel.edu/" target="_blank">Drexel Learn</a>
-<br><a data-tooltip-position="top" aria-label="https://dl.acm.org/" rel="noopener nofollow" class="external-link" href="https://dl.acm.org/" target="_blank">ACM Digital Library</a>
-<br><a data-tooltip-position="top" aria-label="https://www.gdcvault.com/" rel="noopener nofollow" class="external-link" href="https://www.gdcvault.com/" target="_blank">GDC Vault</a>
-<br><a data-tooltip-position="top" aria-label="https://freelibrary.org/" rel="noopener nofollow" class="external-link" href="https://freelibrary.org/" target="_blank">LinkedIn Learning via Free Library of Philadelphia</a>
-
-<br><br><br><br>Week 1 Highlights
-
-<br>Syllabus, Course Structure, and Important Links
-<br>Tool setup and workflow establishment
-<br>Weekly check-ins and peer feedback
-<br>Course Theme 
-
-<br><br>Weeks 2-3 Highlights
-
-<br>Fundamentals of procedural modeling
-<br>Modular workflows, node-based workflows, and DAGs
-<br>Lighting systems focusing on geometry and light interplay
-
-<br>Assignment 1: Create a modular game asset and integrate lighting systems.<br>
-Due: Week 3<br><br>Weeks 4-5 Highlights
-
-<br>Custom shader creation using code and visual scripting
-<br>Application of shaders to procedural assets for real-time interactivity
-<br>Material properties and real-time rendering
-
-<br>Assignment 2: Develop shaders for the asset created in Assignment 1.<br>
-Due: Week 5<br><br>Weeks 6-7 Highlights
-
-<br>VFX design principles and workflows
-<br>Particle systems using visual scripting and component-based systems
-<br>Creating interactive effects tied to game mechanics
-
-<br>Assignment 3: Add particle and dynamic visual effects to the modular asset.<br>
-Due: Week 7<br><br>Week 8-9 Highlights
-
-<br>Camera manipulation techniques
-<br>Post-processing pipelines for polish and visual enhancement
-<br>Performance and visual quality balancing
-
-<br>Assignment 4: Implement camera effects and post-processing for the asset.<br>
-Due: Week 8<br><br>Weeks 10-11 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.<br>Final Deliverables:<br>
-<br>🎯 Cohesive scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
-<br>🎥 Presentation videos with technical breakdown
-<br><br><br>
-<br>Check-in &amp; Critique: Weekly progress presentations and peer feedback
-<br>Mini-Lecture &amp; Demo: Just-in-time instruction based on current module
-<br>Studio Practice: Hands-on work with instructor guidance and peer collaboration
-<br>Wrap-up &amp; Next Steps: Preview upcoming content and assignment clarification
-<br><br><br><br><br>Grading Breakdown
-
-<br>35% Assignments: Bi-weekly assignments focusing on module topics.
-<br>25% Final Project: Integration of course concepts into a cohesive artifact.
-<br>25% Participation and Professionalism: Engagement, attendance, and critique contributions.
-<br>15% Weekly Progress Reviews: Short assessments via Drexel Learn to reinforce key concepts.
-
-<br><br><br><br>Classroom Activities
-In order to foster a more optimal learning environment and ensure respect for all participants, the following policy is in effect during lectures, live-coding, and both guest and student presentations:<br>
-- No personal electronic devices: Cell phones, tablets, laptops, and other devices must be turned off and put away unless explicitly permitted for note-taking or learning activity use.<br>
-- No non-course-related activities: Gaming, video watching, social media use, or any other non-course-related activities are strictly prohibited.<br>
-- Acceptable learning activities: Note-taking (electronic or handwritten) and productive doodling/drawing related to course content are permitted and encouraged.<br>
-- Lab sessions: During hands-on lab portions, device use is allowed for course-related work. Peer discussions, and instructor engagement is strongly encouraged.
-<br>Affects Participation + Professionalism
-Violations of this policy will impact the Participation and Professionalism grade. Multiple offenses may result in a zero (0) for this component of the course grade, without exception.
-<br><br>Cheating and Plagiarism Definitions
-Cheating or plagiarism, as defined for this course, are governed by the Drexel University Academic Integrity Policy.<br>
-Both are strictly forbidden. DO NOT DO IT!<br>
-All instances will be investigated and reported as outlined by Drexel University policy.<br>
-They will also result in: at minimum failing the assignment and an automatic decrease&nbsp;of one letter grade for your final grade and may result in your failing the course.
-<br><br>Submission Rules
-
-<br>Submit all work via Drexel Learn (unless other wise specified).
-<br>Follow assignment submission guidelines outlined in briefs
-<br>Use proper file naming conventions (e.g., abc123_a1_lighting_final.mp4).
-
-<br><br>Late Assignmnets
-Assignments must be turned in on time!<br>
-Lateness will automatically result in at&nbsp;minimum the loss of one letter grade.<br>
-Late work incurs a 10% penalty per day.
-<br><br>Attendance Requirements
-
-<br>Attendance is mandatory. 
-<br>Students are allowed one unexcused absence.
-<br>Missing more than one class (unexcused) reduces your grade.
-<br>Each late arrival to class will result in 50% attendance for the day.
-<br>Weekly Progress Reviews are mandatory - missing reviews impact participation grade
-
-<br>Excused Abcense
-Note that an excused absence is defined as one that is the result of a condition or&nbsp;circumstance beyond the student's control, such as illness, a family crisis or&nbsp;emergency, or some other serious and important personal circumstance.
-<br>Three or more absences results in course failure.<br><br>AI Use Policy
-Artificial intelligence (AI) tools, such as large language models (e.g., ChatGPT or Claude), may be used in this course under specific guidelines, outlined below.
-<br>Approved AI Uses
-
-<br>AI tools are permitted for developing assets for assignments and projects, such as generating images or code snippets.
-<br>Students may use AI to help better contextualize and understand code, programming concepts, and course structures. This includes using AI for code review, breakdowns, and topic summaries.
-<br>All written materials, explanations, and analyses submitted for assignments should be the original work of the student. AI should not be used to generate these portions of your submissions.
-
-<br>Use and Citation
-The use of AI tools is not mandatory. Students may opt out of using AI assistants entirely if they prefer to complete all work without AI assistance.<br>
-When AI tools are used students must:
-
-<br>Clearly indicate which portions of their work were created with AI assistance and which tools were used
-<br>Be able to explain and defend all submitted work
-<br>Be able to demonstrate original creative decision-making and artistic voice
-
-<br>Use and Understanding
-Regardless of AI usage, students are responsible for understanding and being able to explain all aspects of their submitted work.
-<br><br>Course Changes to the Course
-It is very important that each student has read and understood all the materials,&nbsp;assignments, and due dates on the syllabus. It is the prerogative of the instructor to change the course during the term at their discretion in the interest of&nbsp;responding to individual class needs. Changes will be communicated to students via Drexel Learn and/or email
-<br><br><br>This course, including all meetings, assignments, and activities, operates under Drexel University’s policies. All students are expected to read and fully understand these policies as they apply to the coursework and conduct within this class.<br><br>Plagiarism and Cheating Policy
-
-<br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Tue, 24 Jun 2025 20:36:18 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Mon, 03 Mar 2025 21:06:51 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
  <br><br>About the Course
 GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on concepts and techniques related to technical art for games. 
 Dive into real-time systems and game engine workflows with topics like:

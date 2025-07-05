@@ -28,6 +28,7 @@ N/A
 
 #### Assignments
 [[GMAP 395 - ASN 1 - Brief|Assignment 1 - Procedural Modeling + Lightning Systems]]
+[[GMAP 395 - Weekly - 2|Weekly Crit 2]]
 
 #### Legacy Content
 [[GMAP 395 - WK 2 - Slides]]

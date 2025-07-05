@@ -1,6 +1,6 @@
 {
   "vaultName": "drexel-teaching",
-  "lastExport": 1751481212085,
+  "lastExport": 1751728101608,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon mk-folder-lines mk-inline-context-enabled mk-flow-minimal background-settings-workplace-theme-light-in-the-note background-settings-workplace-theme-dark-in-the-sky background-image-settings-markdown-page-transparent notebook-liked-markdown-page-grid-notebook-1 panel-page-bg-theme-light-wall panel-page-bg-theme-dark-plant layout-style-options-default bt-default-unordered-list default-ol-list-marker list-no-border bt-connected-indent-hover bt-colorful-connected-indent-hover folder-icons remove-arrow bt-toggle-colorful-folder folder-style-change-options-colorful-border folder-colorful-six table-width-100 tag-default admonition-bg-color-same style-options-for-admonition-plugin style-options-for-buttons-plugin dataview-list-style-pacman memos-banner-gradient thino-frosted-style thino-background-default quiet-outline-optimize code-theme-bt-default whole-code-wrap iconic-clickable-icons iconic-theme-btopaz",
   "useCustomHeadContent": false,
@@ -95,8 +95,8 @@
     "GMAP 395/Module 3/media/portalVFXSplash.png",
     "GMAP 395/Module 3/media/unityParticleSystsem.png",
     "GMAP 395/Module 3/media/VFX_Styleguide_final_public_hidpjqwx7lqyx0pjj3ss.pdf",
-    "GMAP 395/Module 3/media/vfxg1.png",
     "GMAP 395/Module 3/media/vfxg1.avif",
+    "GMAP 395/Module 3/media/vfxg1.png",
     "GMAP 395/Module 3/media/VFXGraph_3-5_ComplexNetwork.png",
     "GMAP 395/Module 3/media/vfxgSplash.png",
     "GMAP 395/Module 3/media/vfxingamessplash.png",
@@ -125,6 +125,7 @@
     "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
     "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
+    "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md",
     "GMAP 395/Weeklies/Six Thinking Hats Giving Good Game Design Feedback.md",
     "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
     "GMAP 395/GMAP 395 - Guide - CT and CPS.md",
@@ -133,9 +134,7 @@
     "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/GMAP 395 - Welcome.md",
     "Index.md",
-    "lib/media/6492c4ab6751d8f29f5e4826_launch_screenshot_101-p-500.webp",
-    "lib/media/ipad_02-600x800.png",
-    "lib/media/150518_r26517.webp",
+    "lib/media/395tut1portal.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -177,8 +176,10 @@
     "lib/media/fractals.png",
     "lib/media/noise.jpg",
     "lib/media/6492c4abf65d6e4dfffbb89e_control_worldtrailer_quarry_sky-p-500.avif",
+    "lib/media/6492c4ab6751d8f29f5e4826_launch_screenshot_101-p-500.webp",
+    "lib/media/ipad_02-600x800.png",
     "lib/media/ipad_01-600x800.png",
-    "lib/media/395tut1portal.png",
+    "lib/media/150518_r26517.webp",
     "lib/media/lightingmode.png",
     "lib/media/colorhexcode.png",
     "lib/media/sunlight.png",
@@ -267,85 +268,85 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
@@ -357,97 +358,97 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1751481212085,
-      "sourceSize": 120116,
+      "modifiedTime": 1751728101608,
+      "sourceSize": 120831,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1751481212085,
-      "sourceSize": 6615,
+      "modifiedTime": 1751728101608,
+      "sourceSize": 6704,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 165254,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 855378,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 265,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 1637,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 163784,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
@@ -473,14 +474,14 @@
       "dependencies": []
     },
     "GMAP 395/Module 1/GMAP 395 - Module 1.md": {
-      "modifiedTime": 1751401158567,
-      "sourceSize": 4117,
+      "modifiedTime": 1751728101608,
+      "sourceSize": 4157,
       "exportedPath": "gmap-395/module-1/gmap-395-module-1.html",
       "dependencies": []
     },
     "GMAP 395/GMAP 395 - Syllabus.md": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 22324,
+      "modifiedTime": 1751728101608,
+      "sourceSize": 22506,
       "exportedPath": "gmap-395/gmap-395-syllabus.html",
       "dependencies": []
     },
@@ -793,7 +794,7 @@
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
@@ -1524,8 +1525,8 @@
       ]
     },
     "GMAP 395/Module 1/tutorials/GMAP 395 - WK 2 - Tutorial.md": {
-      "modifiedTime": 1751398479976,
-      "sourceSize": 12725,
+      "modifiedTime": 1751728101608,
+      "sourceSize": 12730,
       "exportedPath": "gmap-395/module-1/tutorials/gmap-395-wk-2-tutorial.html",
       "dependencies": [
         "lib/media/395tut1portal.png"
@@ -1611,7 +1612,7 @@
       "dependencies": []
     },
     "lib/media/395tut1portal.png": {
-      "modifiedTime": 1751398479976,
+      "modifiedTime": 1751728101608,
       "sourceSize": 484158,
       "exportedPath": "lib/media/395tut1portal.png",
       "dependencies": []
@@ -1689,13 +1690,13 @@
       "dependencies": []
     },
     "lib/fonts/293fd13dbca5a3e450ef.woff2": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 105924,
       "exportedPath": "lib/fonts/293fd13dbca5a3e450ef.woff2",
       "dependencies": []
     },
     "lib/fonts/085cb93e613ba3d40d2b.woff2": {
-      "modifiedTime": 1751481212085,
+      "modifiedTime": 1751728101608,
       "sourceSize": 112184,
       "exportedPath": "lib/fonts/085cb93e613ba3d40d2b.woff2",
       "dependencies": []
@@ -1716,6 +1717,12 @@
       "modifiedTime": 1751479374976,
       "sourceSize": 3948,
       "exportedPath": "gmap-395/weeklies/six-thinking-hats-giving-good-game-design-feedback.html",
+      "dependencies": []
+    },
+    "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md": {
+      "modifiedTime": 1751728101608,
+      "sourceSize": 2545,
+      "exportedPath": "gmap-395/weeklies/gmap-395-weekly-2.html",
       "dependencies": []
     }
   }

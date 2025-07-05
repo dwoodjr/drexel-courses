@@ -20,6 +20,7 @@ In this tutorial, we will create a **Procedural "Eldritch Portal" Environment Ar
 
 ***Intro Video***: 
 <iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_Ewa8MCYxCviVy2gg?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
 [gmap395_tut1_intro.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_Ewtu7qaLOfP_oFTQ?e=Dfjfxw)
 
 
@@ -59,6 +60,7 @@ In this tutorial, we will create a **Procedural "Eldritch Portal" Environment Ar
 > **Section Recap:** Now you've got a basic terrain base and some rocks scattered along the surface. The scattering and rock scale are randomized to provide a more natural look. If you want to later, you can procedurally model some rocks and replate the basic primitive used as a stand-in.  
 
 <iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_Ev2buzpZnIe8YM5A?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
 [gmap395_tut1_p1.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_Ev1DF4vxnCCHC5jw?e=fayUeZ)
 
 ##
@@ -102,6 +104,8 @@ In this tutorial, we will create a **Procedural "Eldritch Portal" Environment Ar
 > **Section Recap:** Boolean operations allow us to create complex shapes by combining or subtracting simpler ones. Here, we use the smaller set of geometry to combine with the larger set of geometry, forming the portal’s basic structure. Now, if you wish to later, you can model better stone using the cubes as a base to make the portal look better.
 
 [gmap395_tut1_p2.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EuJDcode-o2D6LIA?e=rsBx7O)
+
+
 <iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_Eue0CpgFjlPwTaeA?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 ##
@@ -129,6 +133,7 @@ In this tutorial, we will create a **Procedural "Eldritch Portal" Environment Ar
 
 
 <iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_Etx1QgHhvQEc79vQ?embed=1" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
 [gmap395_tut1_p3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_EtzgD0ilFKv0Moww?e=JO4ROa)
 
 
