@@ -11,14 +11,12 @@
             "id": "f729da9a95e40562",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "GMAP 395/GMAP 395 - Student Examples.md",
-                "mode": "source",
-                "source": false
+                "file": "GMAP 395/Module 2/media/portalShaderGrab.png"
               },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - Student Examples"
+              "icon": "lucide-image",
+              "title": "portalShaderGrab"
             }
           },
           {
@@ -264,47 +262,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "floating": {
-    "id": "670d6e82fe99c704",
-    "type": "floating",
-    "children": [
-      {
-        "id": "713e405ee7c9dbdf",
-        "type": "window",
-        "children": [
-          {
-            "id": "77df82254a815edc",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8bcf990cd81470d7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GMAP 395/GMAP 395 - Student Examples.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "GMAP 395 - Student Examples"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 573,
-        "y": 626,
-        "width": 802,
-        "height": 402,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "8bcf990cd81470d7",
+  "active": "81e14ee526097519",
   "lastOpenFiles": [
+    "docs/lib/fonts/085cb93e613ba3d40d2b.woff2",
+    "docs/lib/fonts/293fd13dbca5a3e450ef.woff2",
+    "docs/lib/media/enemyspawnerinspector.png",
+    "docs/lib/media/portalinspector.png",
+    "docs/lib/media/dotween1.png",
+    "docs/lib/media/portalshadergrab.png",
+    "docs/lib/media/masterstack_populated.png",
+    "docs/lib/media/internalinspectorblackboardproperty.png",
+    "docs/lib/media/blackboard_shadergraph_path.png",
+    "docs/gmap-395/module-2/media/internalinspectorblackboardproperty.png",
+    "docs/lib/media/renderpipeline.jpg",
+    "docs/lib/media/metalmaterial.png",
+    "GMAP 395/Class Demos/Demo - 1 -Simple Blender to Unity.md",
     "GMAP 395/GMAP 395 - Student Examples.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/Module 2/submodules/GMAP 395 - Module 2C - Unity Shader Graph Intro.md",
@@ -322,7 +294,6 @@
     "docs/gmap-395/module-2/submodules/gmap-395-module-2e-shader-integration.html",
     "docs/gmap-395/module-2/submodules/gmap-395-module-2d-additional-shader-graph-techniques.html",
     "docs/gmap-395/module-2/submodules/gmap-395-module-2b-shader-dev-and-3d.html",
-    "docs/gmap-395/module-2/submodules/gmap-395-module-2a-shader-fundamentals.html",
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md",
     "GMAP 395/Module 2/tutorials/GMAP 395 - WK 5 - Tutorial.md",
     "GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - Tutorial.md",
@@ -337,18 +308,7 @@
     "GMAP 395/Module 1/submodules/submodules.md",
     "GMAP 395/Module 1/Module 1.md",
     "GMAP 395/Module 3/GMAP 395 - Module 3.md",
-    "GMAP 395/Module 2/media/InternalInspectorBlackboardProperty.png",
     "GMAP 395/Module 2/legacy/GMAP 395 - WK 4 - Slides + Video.md",
-    "GMAP 395/Weeklies/Weeklies.md",
-    "GMAP 395/Module 1/legacy/GMAP 395 - WK 3 - Slides.md",
-    "GMAP 395/Module 1/Media/150518_r26517.webp",
-    "GMAP 395/Module 1/Media/metalMaterial.png",
-    "GMAP 395/Module 1/Media/modualassetpack.png",
-    "GMAP 395/Module 1/Media/6492c4ab6751d8f29f5e4826_LAUNCH_Screenshot_101-p-500.webp",
-    "GMAP 395/Module 1/Media/globalVolume.png",
-    "GMAP 395/Module 1/Media/iPad_02-600x800.png",
-    "GMAP 395/Module 1/Media/6492c4abf65d6e4dfffbb89e_CONTROL_WorldTrailer_quarry_sky-p-500.avif",
-    "docs/gmap-395/introduction/media/design-everyday-things.jpg",
-    "docs/gmap-395/module-4/media/home-after.png"
+    "GMAP 395/Weeklies/Weeklies.md"
   ]
 }

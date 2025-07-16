@@ -56,7 +56,8 @@
     "//GMAP 395/GMAP 395/Weeklies",
     "//GMAP 395/GMAP 395/Module 1/GMAP 395/Module 1/legacy",
     "//GMAP 395/GMAP 395/Module 2",
-    "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/submodules"
+    "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/submodules",
+    "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/media"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
