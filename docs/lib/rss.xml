@@ -1,4 +1,270 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 16 Jul 2025 13:50:52 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 16 Jul 2025 13:50:44 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[GMAP 395 - WK 4 - Slides + Video]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 16 Jul 2025 14:00:46 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 16 Jul 2025 14:00:44 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 2A: Shader Fundamentals and Concepts]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Understanding what shaders are and their role in game development<br>
+Builds On: Game feel and procedural workflows from Module 1
+<br>Submodule Video Overview
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EbUsEfijfmtOumPraq06LbgBi88r2Zqr3NMYSlbOl9wdTw?e=N9XKDS" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EbUsEfijfmtOumPraq06LbgBi88r2Zqr3NMYSlbOl9wdTw?e=N9XKDS" target="_blank">gmap395_md2a.mkv</a>
+<br><br><br>Shaders are small programs that run on the GPU, defining the visual appearance of objects in a scene. Think of them as the "makeup artists" of graphics—they determine how materials interact with light to achieve desired visual effects.<br><br>Two Essential Shader Types
+
+<br>🔺 Vertex Shaders: Modify geometry at the vertex level (position, rotation, scale)
+<br>🎨 Fragment Shaders (Pixel Shaders): Control pixel-level color and lighting
+
+<br>There are more than just the above shader types, such as Compute Shaders. The above shaders are the two most common ones interfaced with for video game look development.<br><br>Additional Learning <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=ax1JLQABmOw" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=ax1JLQABmOw" target="_blank">What are shaders? - GDQuest</a><br><br><br>Understanding shaders unlocks powerful creative and technical capabilities for creating professional-quality games.<br><br>
+<br>🎨 Customization: Create unique materials impossible with standard tools
+<br>⚡ Optimization: Efficient use of GPU resources for real-time rendering
+<br>🔄 Dynamic Effects: Enable interactive and changing visuals
+<br>🎯 Precision: Fine control over exactly how your game looks
+<br>Real Game Examples
+
+<br>🌊 Stylized Water: Breath of the Wild's cel-shaded water effects
+<br>👻 Holograms: Halo's sci-fi projection effects
+<br>🎭 Cel-Shading: Borderlands' comic book visual style
+
+<br><br><br>Technical artists bridge the gap between visual design and programming, and shaders are one of their most powerful tools.<br><br>Bridging Art and Code
+
+<br>Translate artistic vision into technical implementation
+<br>Create dynamic visuals that respond to game systems
+<br>Develop reusable tools for the art team
+
+<br><br>Shaders work hand-in-hand with procedural workflows to create:<br>
+<br>🎨 Procedural Textures: Math-generated patterns and surfaces
+<br>🔧 Modular Workflows: Reusable shader components for efficiency
+<br>🌟 Dynamic Effects: Materials that change based on gameplay
+<br>Practical Applications
+
+<br>🌧️ Procedural Weathering: Rust and wear that appears over time
+<br>📐 Adjustable Templates: One shader system for multiple asset types
+<br>⚡ Interactive Materials: Surfaces that respond to player actions (more on this in part <a data-href="GMAP 395 - Module 2E - Shader Integration" href="gmap-395\module-2\submodules\gmap-395-module-2e-shader-integration.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2E - Shader Integration</a>)
+
+<br><br><br>🤔 Quick Analysis (2-3 minutes)
+Think about a recent game you played and consider:
+Visual Questions:
+
+<br>What materials looked particularly impressive or realistic?
+<br>Were there any special effects that caught your attention?
+<br>How did lighting interact with different surfaces?
+
+Write down 2-3 examples where shaders likely played a key role in creating those visual experiences.
+<br><br><br>Understanding how shaders fit into the broader game development process helps you see their strategic importance beyond just "making things look pretty."<br><br>Shaders connect multiple aspects of game development:<br>
+<br>🎨 Art Pipeline: Convert concept art into interactive materials
+<br>⚡ Performance: Balance visual quality with frame rate requirements
+<br>🎮 Gameplay: Create materials that support game mechanics
+<br>🏗️ Technical Requirements: Work within platform constraints
+<br><br><br>Coming up: We'll dive into the technical structure of shaders and how they integrate with 3D geometry, materials, and textures.<br>📍 Progress Tracking
+
+<br>Module 2A: Shader Fundamentals and Concepts ✓
+<br>Module 2B: Shader Development Workflow and 3D Integration
+<br>Module 2C: Unity Shader Graph Introduction
+<br>Module 2D: Advanced Shader Graph Techniques
+<br>Module 2E: Shader Integration and Optimization
+
+<br><br>🧭 Module Navigation 
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2B - Shader Dev and 3D" data-href="GMAP 395 - Module 2B - Shader Dev and 3D" href="gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2B</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-2\submodules\gmap-395-module-2a-shader-fundamentals.html</link><guid isPermaLink="false">GMAP 395/Module 2/submodules/GMAP 395 - Module 2A - Shader Fundamentals.md</guid><pubDate>Wed, 16 Jul 2025 13:59:07 GMT</pubDate></item><item><title><![CDATA[Module 2B: Shader Development Workflow and 3D Integration]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Understanding shader structure, 3D geometry integration, and material workflows<br>
+Builds On: Shader fundamentals from Module 2A
+<br>Submodule Video Overview
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EUIoj_TO2yVKnDyqsm6WAbUBH3c8nX5N8INVCquAZ7eKyQ?e=D9LR6S" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EUIoj_TO2yVKnDyqsm6WAbUBH3c8nX5N8INVCquAZ7eKyQ?e=D9LR6S" target="_blank">gmap395_md2b.mkv</a>
+<br><br><br>Understanding how shaders are structured helps you approach them systematically rather than feeling overwhelmed by the code.<br><br>Standard Shader Development Process
+
+<br>🎛️ Define Properties: Expose parameters like color or texture for customization
+<br>🔧 Create SubShaders: Specify rendering techniques for different hardware
+<br>⚡ Write Passes: Describe rendering steps (vertex and fragment programs)
+
+<br><br>Shader "Custom/ExampleShader"
+{
+    Properties
+    {
+        _Color ("Main Color", Color) = (1,1,1,1)
+    }
+    SubShader
+    {
+        Pass
+        {
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            
+            // Declare the _Color property as a uniform
+            fixed4 _Color;
+            
+            struct appdata
+            {
+                float4 vertex : POSITION; // Vertex position
+            };
+            
+            struct v2f
+            {
+                float4 pos : SV_POSITION; // Transformed position
+            };
+            
+            v2f vert (appdata v)
+            {
+                v2f o;
+                o.pos = UnityObjectToClipPos(v.vertex);
+                return o;
+            }
+            
+            // Use _Color in the fragment shader
+            fixed4 frag (v2f i) : SV_Target
+            {
+                return _Color; // Output the color
+            }
+            ENDCG
+        }
+    }
+}
+<br>Code Breakdown
+
+<br>Properties: _Color exposed parameter for material customization
+<br>SubShader: Contains rendering passes for different GPU capabilities
+<br>Vertex Function: Processes vertex data (positions, normals, UVs)
+<br>Fragment Function: Determines final pixel color using vertex shader inputs
+
+<br><br><br><br>Three Critical Variable Categories
+🌐 Uniform Variables:
+
+<br>Global variables constant during rendering of a single draw call
+<br>Set by CPU and shared across all shader invocations
+<br>Examples: Time values for animations, transformation matrices
+
+📍 Attributes:
+
+<br>Input data unique for each vertex from the vertex buffer
+<br>Available only in vertex shader
+<br>Examples: Vertex positions, texture coordinates (TEXCOORD)
+
+🔀 Varyings:
+
+<br>Variables passing interpolated data from vertex to fragment shader
+<br>Examples: Lighting data, vertex colors, processed normals
+
+<br>Further Learning <a data-tooltip-position="top" aria-label="https://thebookofshaders.com/" rel="noopener nofollow" class="external-link" href="https://thebookofshaders.com/" target="_blank">The Book of Shaders</a> - Excellent resource for deeper shader mathematics<br><br><br>Understanding how shaders connect to 3D geometry is crucial for creating believable materials and effects.<br><br>Essential Geometry Components
+
+<br>🔹 Vertices: Define points in 3D space
+<br>📏 Edges: Connect vertices to outline shapes
+<br>🔺 Faces: Form surfaces using connected edges
+<br>🗺️ UVs: Map 2D textures to 3D surfaces
+<br>➡️ Normals: Vectors perpendicular to faces for lighting calculations
+
+<br><br><br>The relationship between geometry and shaders creates the foundation for all visual effects in games.<br>Geometry-Shader Connections
+
+<br>📍 Vertex Data: Input for vertex shaders to transform 3D geometry
+<br>💡 Normals: Used in lighting equations for realistic shading effects
+<br>🗺️ UV Mapping: Guides texture placement via fragment shaders
+<br>🎨 Shader Outputs: Define the final appearance of geometry on-screen
+
+<br><br><br>Understanding the relationship between these three elements helps you build more sophisticated visual systems.<br><br>Understanding the Hierarchy
+🔧 Shaders: Small programs executed on the GPU that control light interaction
+📦 Materials: Wrappers for shaders that combine textures and parameters
+
+<br>Define the look of objects by associating shaders with visual properties
+<br>Example: A reflective material uses a custom shader for specular highlights
+
+🖼️ Textures: 2D images mapped to 3D geometry
+
+<br>Add details like color, patterns, or surface irregularities
+<br>Common Types: Diffuse, Normal, Specular, Emissive
+
+<br><br><br><br>Physically Based Rendering (PBR) represents the current industry standard for creating realistic materials that respond consistently to lighting.<br><br>PBR Fundamentals
+
+<br>Method: Simulates realistic lighting and material behavior
+<br>Key Concepts: Energy conservation, physically accurate shading
+<br>Benefits: Consistent results across different lighting environments
+
+<br><br>Essential PBR Maps
+
+<br>🎨 Base Color: Defines the albedo (color) of the surface
+<br>⚙️ Metallic: Specifies if the material is metal (affects reflection behavior)
+<br>🔘 Roughness/Smoothness: Controls surface reflectivity and micro-detail
+<br>📐 Normal Map: Adds surface details without additional geometry
+<br>🌑 Ambient Occlusion (AO): Simulates soft shadows in surface crevices
+
+<br>Procedural Material Tool <a data-tooltip-position="top" aria-label="https://www.materialmaker.org/" rel="noopener nofollow" class="external-link" href="https://www.materialmaker.org/" target="_blank">Material Maker</a> - Free procedural materials authoring tool based on Godot Engine<br><br><br>Shaders rely heavily on mathematical operations to create visual effects. Understanding these basics helps you approach shader development more confidently.<br><br>Core Mathematical Operations
+📐 Vector Operations:
+
+<br>Dot Product: Essential for lighting calculations
+<br>Cross Product: Used for calculating surface normals
+
+🔄 Matrix Transformations:
+
+<br>Object to world space conversions
+<br>Camera projection calculations
+
+🌈 Color Operations:
+
+<br>RGB blending and color transitions
+<br>Color space conversions
+
+🌊 Noise Functions:
+
+<br>Create procedural patterns for natural effects
+<br>Generate randomness for organic textures
+
+<br><br><br>Writing efficient shaders ensures your game maintains smooth performance across different hardware configurations.<br><br>Performance Best Practices
+
+<br>🔧 Minimize Complexity: Use simple math operations where possible
+<br>♻️ Reuse Variables: Avoid redundant calculations within shader code
+<br>📊 LOD Techniques: Reduce detail for distant objects automatically
+<br>🎯 Platform Awareness: Consider target hardware limitations early
+
+<br><br><br>Understanding common shader applications helps you recognize opportunities in your own projects.<br><br>Common Game Shader Applications
+💨 Dissolve Effects: Use noise textures to create object fading effects
+👻 Holographic Shaders: Combine transparency with scrolling UV animations
+🌊 Water Shaders: Simulate refraction and wave movement for realistic water
+<br>Professional VFX Community <a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX Website</a> - Industry forum for real-time visual effects<br><br><br>Coming up: We'll explore Unity's visual shader creation tool and learn how to build shaders without writing code.<br>📍 Progress Tracking
+
+<br>Module 2A: Shader Fundamentals and Concepts ✓
+<br>Module 2B: Shader Development Workflow and 3D Integration ✓
+<br>Module 2C: Unity Shader Graph Introduction
+<br>Module 2D: Advanced Shader Graph Techniques
+<br>Module 2E: Shader Integration and Optimization
+
+<br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2A - Shader Fundamentals" data-href="GMAP 395 - Module 2A - Shader Fundamentals" href="gmap-395\module-2\submodules\gmap-395-module-2a-shader-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2A</a><br>
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2C - Unity Shader Graph Intro" data-href="GMAP 395 - Module 2C - Unity Shader Graph Intro" href="gmap-395\module-2\submodules\gmap-395-module-2c-unity-shader-graph-intro.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2C</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html</link><guid isPermaLink="false">GMAP 395/Module 2/submodules/GMAP 395 - Module 2B - Shader Dev and 3D.md</guid><pubDate>Wed, 16 Jul 2025 13:59:30 GMT</pubDate></item><item><title><![CDATA[Module 2C: Unity Shader Graph Introduction]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Getting started with Unity's visual shader creation tool <br>
+Builds On: Shader structure and workflow concepts from Module 2B
+<br>Submodule Video Overview
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/ERbROowPDyFFnDlAF1ccXZgBM3ldSv_XQJkzMJWAdhFpYw?e=nrThhH" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/ERbROowPDyFFnDlAF1ccXZgBM3ldSv_XQJkzMJWAdhFpYw?e=nrThhH" target="_blank">gmap395_md2c.mkv</a>
+<br><br><br>Unity Shader Graph represents a fundamental shift in how we approach shader creation. Instead of writing (often) complex HLSL code, you can create sophisticated visual effects using a node-based interface (this form of visual scripting is something we have seen quite a bit now).<br>Think of Shader Graph as a visual translation layer that converts your creative ideas into the mathematical operations that GPUs understand. Most of the noes in visual scripting tools turn the visual operations into actual code and instructions in the background. When you connect nodes together, you're essentially building the same logic that would exist in written shader code (generally, with some small difference here and there), but in a way that makes the relationships between different operations much more visible and intuitive.<br><br>Before diving into Shader Graph, you need to understand one important technical requirement (for the version of Unity we use in the course). Shader Graph operates exclusively within Unity's Scriptable Render Pipeline (SRP), which means you cannot use it with the built-in render pipeline that Unity uses by default. For this course, we recommend using the Universal Render Pipeline (URP) because it provides excellent performance across different platforms while maintaining the flexibility you need for learning and applying your own artistic touches.<br><br><br><br>The Blackboard serves as your shader's control panel, where you define and expose parameters that other team members can adjust without opening the shader itself. When you create a property in the Blackboard, you're essentially saying "this is something that should be adjustable by designers or programmers in the editor. (assuming the property is Exposed)"<br><img alt="GMAP 395/Module 2/media/blackboard_shadergraph_path.png" src="lib\media\blackboard_shadergraph_path.png"><br>The Graph Inspector provides contextual information about whatever node you currently have selected; it offers detailed explanations of what each node does and how its parameters affect the final result. It also provides settings for the full shader graph itself.<br><img alt="InternalInspectorBlackboardProperty.png" src="lib\media\internalinspectorblackboardproperty.png"><br>The Main Stack handles the core logic of your shader, separating vertex operations (which affect geometry) from fragment operations (which determine pixel colors). This separation mirrors the fundamental shader structure discussed in previous modules.<br><img alt="GMAP 395/Module 2/media/MasterStack_Populated.png" src="lib\media\masterstack_populated.png"><br>The Main Preview shows real-time updates of your shader as you work. <br>Honestly, the preview is really not very useful and tends to stop working frequently.
+When in doubt, always test your shader on actual geometry in your scene to see how it truly behaves under real lighting conditions. 
+<br>The Toolbar contains essential functions for saving, compiling, and debugging your shaders.<br>Official Documentation <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Getting-Started.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Getting-Started.html" target="_blank">Shader Graph Documentation</a> provides comprehensive technical reference for all Shader Graph features.<br><br><br>Understanding how Shader Graph relates to the traditional shader concepts already covered will help you approach visual shader creation with a stronger foundation. When you create a node in Shader Graph, you're essentially creating a visual representation of code that would otherwise need to be written by hand.<br><br>Remember the shader code structure we examined in <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2B - Shader Dev and 3D" data-href="GMAP 395 - Module 2B - Shader Dev and 3D" href="gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2B</a>? Shader Graph takes those same concepts and presents them visually. When you connect a Texture Sample node to the Base Color input of your Main Stack, you're performing the same operation as writing texture sampling code in a traditional fragment shader.<br>Properties that you define in the Blackboard correspond directly to the Properties section of written shader code. The difference is that Shader Graph automatically handles the technical details of exposing these properties to Unity's material inspector.<br><br>Each node in Shader Graph represents a specific mathematical operation or data manipulation. A Multiply node performs the same function as a multiplication operation in written HLSL code.<br>This visual approach becomes particularly powerful when dealing with complex operations like normal mapping or procedural texture generation. Instead of writing mathematical formulas from scratch, you can build up these effects step by step, seeing the intermediate results at each stage of the process.<br><br><br>Creating your first shader in Shader Graph should feel like a guided exploration rather than a technical challenge. Start with simple concepts and gradually build complexity as you become more comfortable with the interface.<br><br>Begin by creating a new Unlit Shader Graph and focus on understanding how data flows from inputs to outputs. Add a Color property to your Blackboard and connect it directly to the Base Color input of your Fragment stack. This simple connection demonstrates the fundamental concept of Shader Graph: visual nodes represent data, and connections between nodes represent the flow of that data through your shader.<br>When you apply this shader to a material and then to a 3D object, you're seeing the same result you would get from the basic shader code we examined earlier, but achieved through visual means rather than written code. This equivalence is important to understand because it reinforces that Shader Graph is not a separate technology, but instead a different way of creating the same underlying GPU programs.<br><br>As you experiment with connecting different nodes, pay attention to the colors of the connection lines. These colors represent different data types:<br><br>Understanding these data types helps you make appropriate connections and avoid common mistakes. For example, connecting a Vector3 color output to a float input will automatically convert the color to a single grayscale value, which might not be what you intended.<br><br><br>🤔 Hands-On Exploration (5-7 minutes)
+Open Unity and create a new Shader Graph asset. Spend a few minutes exploring the interface without trying to create anything specific. Focus on understanding the relationship between different interface elements.
+Consider these questions as you explore:
+
+<br>How does adding a property to the Blackboard change what's available in the main graph area?
+<br>What happens when you select different nodes and observe the Graph Inspector?
+<br>How does the preview update when you make changes to your graph?
+
+Write down 2-3 observations about how the visual interface relates to the shader concepts we've discussed in previous modules.
+<br><br><br>Coming up: We'll explore sophisticated Shader Graph techniques including texture manipulation, vertex displacement, and procedural pattern generation.<br>📍 Progress Tracking
+
+<br>Module 2A: Shader Fundamentals and Concepts ✓
+<br>Module 2B: Shader Development Workflow and 3D Integration ✓
+<br>Module 2C: Unity Shader Graph Introduction ✓
+<br>Module 2D: Advanced Shader Graph Techniques
+<br>Module 2E: Shader Integration and Optimization
+
+<br><br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2B - Shader Dev and 3D" data-href="GMAP 395 - Module 2B - Shader Dev and 3D" href="gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2B</a><br>
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2D - Additional Shader Graph Techniques" data-href="GMAP 395 - Module 2D - Additional Shader Graph Techniques" href="gmap-395\module-2\submodules\gmap-395-module-2d-additional-shader-graph-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2D</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-2\submodules\gmap-395-module-2c-unity-shader-graph-intro.html</link><guid isPermaLink="false">GMAP 395/Module 2/submodules/GMAP 395 - Module 2C - Unity Shader Graph Intro.md</guid><pubDate>Wed, 16 Jul 2025 14:00:07 GMT</pubDate><enclosure url="lib\media\blackboard_shadergraph_path.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\blackboard_shadergraph_path.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - Student Examples]]></title><description><![CDATA[ 
+ <br><br>
+&gt;[!summary] [Video Link]([202345_GMAP395_002_Woodland_Ouroboros_Playthrough_001.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/EVTZtdXcWk1HkAjGn772YWsBh_9B6GxSuoCCWFs-JRPhbw?e=QdyB5i))<br>Note
+For this particular run of the course, students were tasked with creating something more aligned with an MVP for a game concept (more full game like) with a gameplay loop, rules, assets, and interactivity. The course does not require the full gameplay loop or rules now. It is much more art and tech integration focused.
+<br><br>
+&gt;[!summary] [Video Link]([cy437_Playthrough_WI24.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/EfrjiHTWVphErnaUVZaJJNUBC26DEWnqD3ZhZPwMx-0bqw?e=NKQ8dK))<br><br>
+&gt;[!summary] [Video Link]([Hyung_PlaythroughVideo_WI24.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/EbuL4JAKpLtIoFUBxjBvVG8B-NCGlrGeX2p2ZPlVBzXmPw?e=uW5r8I))]]></description><link>gmap-395\gmap-395-student-examples.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Student Examples.md</guid><pubDate>Wed, 16 Jul 2025 13:58:04 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 4 - Slides + Video]]></title><description><![CDATA[ 
  <br><br><br><br>Week 4 Video Lecture
 
 <a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_F3vSAiT9rcAKv5Jw?e=HRmiMT" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_F3vSAiT9rcAKv5Jw?e=HRmiMT" target="_blank">gmap395_wk4.mp4</a>
@@ -611,264 +877,7 @@ void Start() {
 
 
 <br>Takeaway: Shaders are a core part of how modern games achieve immersion and responsiveness!
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-2\legacy\gmap-395-wk-5-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 2/legacy/GMAP 395 - WK 5 - Slides + Video.md</guid><pubDate>Mon, 03 Feb 2025 19:40:02 GMT</pubDate><enclosure url="lib\media\renderpipeline.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\renderpipeline.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 2A: Shader Fundamentals and Concepts]]></title><description><![CDATA[ 
- <br><br>Module Overview 
-Learning Focus: Understanding what shaders are and their role in game development<br>
-Builds On: Game feel and procedural workflows from Module 1
-<br>Submodule Video Overview
-
-<br><br><br>Shaders are small programs that run on the GPU, defining the visual appearance of objects in a scene. Think of them as the "makeup artists" of graphics—they determine how materials interact with light to achieve desired visual effects.<br><br>Two Essential Shader Types
-
-<br>🔺 Vertex Shaders: Modify geometry at the vertex level (position, rotation, scale)
-<br>🎨 Fragment Shaders (Pixel Shaders): Control pixel-level color and lighting
-
-<br>There are more than just the above shader types, such as Compute Shaders. The above shaders are the two most common ones interfaced with for video game look development.<br><br>Additional Learning <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=ax1JLQABmOw" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=ax1JLQABmOw" target="_blank">What are shaders? - GDQuest</a><br><br><br>Understanding shaders unlocks powerful creative and technical capabilities for creating professional-quality games.<br><br>
-<br>🎨 Customization: Create unique materials impossible with standard tools
-<br>⚡ Optimization: Efficient use of GPU resources for real-time rendering
-<br>🔄 Dynamic Effects: Enable interactive and changing visuals
-<br>🎯 Precision: Fine control over exactly how your game looks
-<br>Real Game Examples
-
-<br>🌊 Stylized Water: Breath of the Wild's cel-shaded water effects
-<br>👻 Holograms: Halo's sci-fi projection effects
-<br>🎭 Cel-Shading: Borderlands' comic book visual style
-
-<br><br><br>Technical artists bridge the gap between visual design and programming, and shaders are one of their most powerful tools.<br><br>Bridging Art and Code
-
-<br>Translate artistic vision into technical implementation
-<br>Create dynamic visuals that respond to game systems
-<br>Develop reusable tools for the art team
-
-<br><br>Shaders work hand-in-hand with procedural workflows to create:<br>
-<br>🎨 Procedural Textures: Math-generated patterns and surfaces
-<br>🔧 Modular Workflows: Reusable shader components for efficiency
-<br>🌟 Dynamic Effects: Materials that change based on gameplay
-<br>Practical Applications
-
-<br>🌧️ Procedural Weathering: Rust and wear that appears over time
-<br>📐 Adjustable Templates: One shader system for multiple asset types
-<br>⚡ Interactive Materials: Surfaces that respond to player actions (more on this in part <a data-href="GMAP 395 - Module 2E - Shader Integration" href="gmap-395\module-2\submodules\gmap-395-module-2e-shader-integration.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2E - Shader Integration</a>)
-
-<br><br><br>🤔 Quick Analysis (2-3 minutes)
-Think about a recent game you played and consider:
-Visual Questions:
-
-<br>What materials looked particularly impressive or realistic?
-<br>Were there any special effects that caught your attention?
-<br>How did lighting interact with different surfaces?
-
-Write down 2-3 examples where shaders likely played a key role in creating those visual experiences.
-<br><br><br>Understanding how shaders fit into the broader game development process helps you see their strategic importance beyond just "making things look pretty."<br><br>Shaders connect multiple aspects of game development:<br>
-<br>🎨 Art Pipeline: Convert concept art into interactive materials
-<br>⚡ Performance: Balance visual quality with frame rate requirements
-<br>🎮 Gameplay: Create materials that support game mechanics
-<br>🏗️ Technical Requirements: Work within platform constraints
-<br><br><br>Coming up: We'll dive into the technical structure of shaders and how they integrate with 3D geometry, materials, and textures.<br>📍 Progress Tracking
-
-<br>Module 2A: Shader Fundamentals and Concepts ✓
-<br>Module 2B: Shader Development Workflow and 3D Integration
-<br>Module 2C: Unity Shader Graph Introduction
-<br>Module 2D: Advanced Shader Graph Techniques
-<br>Module 2E: Shader Integration and Optimization
-
-<br><br>🧭 Module Navigation 
-Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2B - Shader Dev and 3D" data-href="GMAP 395 - Module 2B - Shader Dev and 3D" href="gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2B</a><br>
-Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
-]]></description><link>gmap-395\module-2\submodules\gmap-395-module-2a-shader-fundamentals.html</link><guid isPermaLink="false">GMAP 395/Module 2/submodules/GMAP 395 - Module 2A - Shader Fundamentals.md</guid><pubDate>Wed, 16 Jul 2025 13:33:08 GMT</pubDate></item><item><title><![CDATA[Module 2B: Shader Development Workflow and 3D Integration]]></title><description><![CDATA[ 
- <br><br>Module Overview 
-Learning Focus: Understanding shader structure, 3D geometry integration, and material workflows<br>
-Builds On: Shader fundamentals from Module 2A
-<br>Submodule Video Overview
-
-<br><br><br>Understanding how shaders are structured helps you approach them systematically rather than feeling overwhelmed by the code.<br><br>Standard Shader Development Process
-
-<br>🎛️ Define Properties: Expose parameters like color or texture for customization
-<br>🔧 Create SubShaders: Specify rendering techniques for different hardware
-<br>⚡ Write Passes: Describe rendering steps (vertex and fragment programs)
-
-<br><br>Shader "Custom/ExampleShader"
-{
-    Properties
-    {
-        _Color ("Main Color", Color) = (1,1,1,1)
-    }
-    SubShader
-    {
-        Pass
-        {
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            
-            // Declare the _Color property as a uniform
-            fixed4 _Color;
-            
-            struct appdata
-            {
-                float4 vertex : POSITION; // Vertex position
-            };
-            
-            struct v2f
-            {
-                float4 pos : SV_POSITION; // Transformed position
-            };
-            
-            v2f vert (appdata v)
-            {
-                v2f o;
-                o.pos = UnityObjectToClipPos(v.vertex);
-                return o;
-            }
-            
-            // Use _Color in the fragment shader
-            fixed4 frag (v2f i) : SV_Target
-            {
-                return _Color; // Output the color
-            }
-            ENDCG
-        }
-    }
-}
-<br>Code Breakdown
-
-<br>Properties: _Color exposed parameter for material customization
-<br>SubShader: Contains rendering passes for different GPU capabilities
-<br>Vertex Function: Processes vertex data (positions, normals, UVs)
-<br>Fragment Function: Determines final pixel color using vertex shader inputs
-
-<br><br><br><br>Three Critical Variable Categories
-🌐 Uniform Variables:
-
-<br>Global variables constant during rendering of a single draw call
-<br>Set by CPU and shared across all shader invocations
-<br>Examples: Time values for animations, transformation matrices
-
-📍 Attributes:
-
-<br>Input data unique for each vertex from the vertex buffer
-<br>Available only in vertex shader
-<br>Examples: Vertex positions, texture coordinates (TEXCOORD)
-
-🔀 Varyings:
-
-<br>Variables passing interpolated data from vertex to fragment shader
-<br>Examples: Lighting data, vertex colors, processed normals
-
-<br>Further Learning <a data-tooltip-position="top" aria-label="https://thebookofshaders.com/" rel="noopener nofollow" class="external-link" href="https://thebookofshaders.com/" target="_blank">The Book of Shaders</a> - Excellent resource for deeper shader mathematics<br><br><br>Understanding how shaders connect to 3D geometry is crucial for creating believable materials and effects.<br><br>Essential Geometry Components
-
-<br>🔹 Vertices: Define points in 3D space
-<br>📏 Edges: Connect vertices to outline shapes
-<br>🔺 Faces: Form surfaces using connected edges
-<br>🗺️ UVs: Map 2D textures to 3D surfaces
-<br>➡️ Normals: Vectors perpendicular to faces for lighting calculations
-
-<br><br><br>The relationship between geometry and shaders creates the foundation for all visual effects in games.<br>Geometry-Shader Connections
-
-<br>📍 Vertex Data: Input for vertex shaders to transform 3D geometry
-<br>💡 Normals: Used in lighting equations for realistic shading effects
-<br>🗺️ UV Mapping: Guides texture placement via fragment shaders
-<br>🎨 Shader Outputs: Define the final appearance of geometry on-screen
-
-<br><br><br>Understanding the relationship between these three elements helps you build more sophisticated visual systems.<br><br>Understanding the Hierarchy
-🔧 Shaders: Small programs executed on the GPU that control light interaction
-📦 Materials: Wrappers for shaders that combine textures and parameters
-
-<br>Define the look of objects by associating shaders with visual properties
-<br>Example: A reflective material uses a custom shader for specular highlights
-
-🖼️ Textures: 2D images mapped to 3D geometry
-
-<br>Add details like color, patterns, or surface irregularities
-<br>Common Types: Diffuse, Normal, Specular, Emissive
-
-<br><br><br><br>Physically Based Rendering (PBR) represents the current industry standard for creating realistic materials that respond consistently to lighting.<br><br>PBR Fundamentals
-
-<br>Method: Simulates realistic lighting and material behavior
-<br>Key Concepts: Energy conservation, physically accurate shading
-<br>Benefits: Consistent results across different lighting environments
-
-<br><br>Essential PBR Maps
-
-<br>🎨 Base Color: Defines the albedo (color) of the surface
-<br>⚙️ Metallic: Specifies if the material is metal (affects reflection behavior)
-<br>🔘 Roughness/Smoothness: Controls surface reflectivity and micro-detail
-<br>📐 Normal Map: Adds surface details without additional geometry
-<br>🌑 Ambient Occlusion (AO): Simulates soft shadows in surface crevices
-
-<br>Procedural Material Tool <a data-tooltip-position="top" aria-label="https://www.materialmaker.org/" rel="noopener nofollow" class="external-link" href="https://www.materialmaker.org/" target="_blank">Material Maker</a> - Free procedural materials authoring tool based on Godot Engine<br><br><br>Shaders rely heavily on mathematical operations to create visual effects. Understanding these basics helps you approach shader development more confidently.<br><br>Core Mathematical Operations
-📐 Vector Operations:
-
-<br>Dot Product: Essential for lighting calculations
-<br>Cross Product: Used for calculating surface normals
-
-🔄 Matrix Transformations:
-
-<br>Object to world space conversions
-<br>Camera projection calculations
-
-🌈 Color Operations:
-
-<br>RGB blending and color transitions
-<br>Color space conversions
-
-🌊 Noise Functions:
-
-<br>Create procedural patterns for natural effects
-<br>Generate randomness for organic textures
-
-<br><br><br>Writing efficient shaders ensures your game maintains smooth performance across different hardware configurations.<br><br>Performance Best Practices
-
-<br>🔧 Minimize Complexity: Use simple math operations where possible
-<br>♻️ Reuse Variables: Avoid redundant calculations within shader code
-<br>📊 LOD Techniques: Reduce detail for distant objects automatically
-<br>🎯 Platform Awareness: Consider target hardware limitations early
-
-<br><br><br>Understanding common shader applications helps you recognize opportunities in your own projects.<br><br>Common Game Shader Applications
-💨 Dissolve Effects: Use noise textures to create object fading effects
-👻 Holographic Shaders: Combine transparency with scrolling UV animations
-🌊 Water Shaders: Simulate refraction and wave movement for realistic water
-<br>Professional VFX Community <a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX Website</a> - Industry forum for real-time visual effects<br><br><br>Coming up: We'll explore Unity's visual shader creation tool and learn how to build shaders without writing code.<br>📍 Progress Tracking
-
-<br>Module 2A: Shader Fundamentals and Concepts ✓
-<br>Module 2B: Shader Development Workflow and 3D Integration ✓
-<br>Module 2C: Unity Shader Graph Introduction
-<br>Module 2D: Advanced Shader Graph Techniques
-<br>Module 2E: Shader Integration and Optimization
-
-<br><br>🧭 Module Navigation 
-Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2A - Shader Fundamentals" data-href="GMAP 395 - Module 2A - Shader Fundamentals" href="gmap-395\module-2\submodules\gmap-395-module-2a-shader-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2A</a><br>
-Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2C - Unity Shader Graph Intro" data-href="GMAP 395 - Module 2C - Unity Shader Graph Intro" href="gmap-395\module-2\submodules\gmap-395-module-2c-unity-shader-graph-intro.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2C</a><br>
-Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
-]]></description><link>gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html</link><guid isPermaLink="false">GMAP 395/Module 2/submodules/GMAP 395 - Module 2B - Shader Dev and 3D.md</guid><pubDate>Wed, 16 Jul 2025 13:33:58 GMT</pubDate></item><item><title><![CDATA[Module 2C: Unity Shader Graph Introduction]]></title><description><![CDATA[ 
- <br><br>Module Overview 
-Learning Focus: Getting started with Unity's visual shader creation tool <br>
-Builds On: Shader structure and workflow concepts from Module 2B
-<br>Submodule Video Overview
-
-<br><br><br>Unity Shader Graph represents a fundamental shift in how we approach shader creation. Instead of writing (often) complex HLSL code, you can create sophisticated visual effects using a node-based interface (this form of visual scripting is something we have seen quite a bit now).<br>Think of Shader Graph as a visual translation layer that converts your creative ideas into the mathematical operations that GPUs understand. Most of the noes in visual scripting tools turn the visual operations into actual code and instructions in the background. When you connect nodes together, you're essentially building the same logic that would exist in written shader code (generally, with some small difference here and there), but in a way that makes the relationships between different operations much more visible and intuitive.<br><br>Before diving into Shader Graph, you need to understand one important technical requirement (for the version of Unity we use in the course). Shader Graph operates exclusively within Unity's Scriptable Render Pipeline (SRP), which means you cannot use it with the built-in render pipeline that Unity uses by default. For this course, we recommend using the Universal Render Pipeline (URP) because it provides excellent performance across different platforms while maintaining the flexibility you need for learning and applying your own artistic touches.<br><br><br><br>The Blackboard serves as your shader's control panel, where you define and expose parameters that other team members can adjust without opening the shader itself. When you create a property in the Blackboard, you're essentially saying "this is something that should be adjustable by designers or programmers in the editor. (assuming the property is Exposed)"<br><img alt="GMAP 395/Module 2/media/blackboard_shadergraph_path.png" src="lib\media\blackboard_shadergraph_path.png"><br>The Graph Inspector provides contextual information about whatever node you currently have selected; it offers detailed explanations of what each node does and how its parameters affect the final result. It also provides settings for the full shader graph itself.<br><img alt="InternalInspectorBlackboardProperty.png" src="lib\media\internalinspectorblackboardproperty.png"><br>The Main Stack handles the core logic of your shader, separating vertex operations (which affect geometry) from fragment operations (which determine pixel colors). This separation mirrors the fundamental shader structure discussed in previous modules.<br><img alt="GMAP 395/Module 2/media/MasterStack_Populated.png" src="lib\media\masterstack_populated.png"><br>The Main Preview shows real-time updates of your shader as you work. <br>Honestly, the preview is really not very useful and tends to stop working frequently.
-When in doubt, always test your shader on actual geometry in your scene to see how it truly behaves under real lighting conditions. 
-<br>The Toolbar contains essential functions for saving, compiling, and debugging your shaders.<br>Official Documentation <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Getting-Started.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Getting-Started.html" target="_blank">Shader Graph Documentation</a> provides comprehensive technical reference for all Shader Graph features.<br><br><br>Understanding how Shader Graph relates to the traditional shader concepts already covered will help you approach visual shader creation with a stronger foundation. When you create a node in Shader Graph, you're essentially creating a visual representation of code that would otherwise need to be written by hand.<br><br>Remember the shader code structure we examined in <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2B - Shader Dev and 3D" data-href="GMAP 395 - Module 2B - Shader Dev and 3D" href="gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2B</a>? Shader Graph takes those same concepts and presents them visually. When you connect a Texture Sample node to the Base Color input of your Main Stack, you're performing the same operation as writing texture sampling code in a traditional fragment shader.<br>Properties that you define in the Blackboard correspond directly to the Properties section of written shader code. The difference is that Shader Graph automatically handles the technical details of exposing these properties to Unity's material inspector.<br><br>Each node in Shader Graph represents a specific mathematical operation or data manipulation. A Multiply node performs the same function as a multiplication operation in written HLSL code.<br>This visual approach becomes particularly powerful when dealing with complex operations like normal mapping or procedural texture generation. Instead of writing mathematical formulas from scratch, you can build up these effects step by step, seeing the intermediate results at each stage of the process.<br><br><br>Creating your first shader in Shader Graph should feel like a guided exploration rather than a technical challenge. Start with simple concepts and gradually build complexity as you become more comfortable with the interface.<br><br>Begin by creating a new Unlit Shader Graph and focus on understanding how data flows from inputs to outputs. Add a Color property to your Blackboard and connect it directly to the Base Color input of your Fragment stack. This simple connection demonstrates the fundamental concept of Shader Graph: visual nodes represent data, and connections between nodes represent the flow of that data through your shader.<br>When you apply this shader to a material and then to a 3D object, you're seeing the same result you would get from the basic shader code we examined earlier, but achieved through visual means rather than written code. This equivalence is important to understand because it reinforces that Shader Graph is not a separate technology, but instead a different way of creating the same underlying GPU programs.<br><br>As you experiment with connecting different nodes, pay attention to the colors of the connection lines. These colors represent different data types:<br><br>Understanding these data types helps you make appropriate connections and avoid common mistakes. For example, connecting a Vector3 color output to a float input will automatically convert the color to a single grayscale value, which might not be what you intended.<br><br><br>🤔 Hands-On Exploration (5-7 minutes)
-Open Unity and create a new Shader Graph asset. Spend a few minutes exploring the interface without trying to create anything specific. Focus on understanding the relationship between different interface elements.
-Consider these questions as you explore:
-
-<br>How does adding a property to the Blackboard change what's available in the main graph area?
-<br>What happens when you select different nodes and observe the Graph Inspector?
-<br>How does the preview update when you make changes to your graph?
-
-Write down 2-3 observations about how the visual interface relates to the shader concepts we've discussed in previous modules.
-<br><br><br>Coming up: We'll explore sophisticated Shader Graph techniques including texture manipulation, vertex displacement, and procedural pattern generation.<br>📍 Progress Tracking
-
-<br>Module 2A: Shader Fundamentals and Concepts ✓
-<br>Module 2B: Shader Development Workflow and 3D Integration ✓
-<br>Module 2C: Unity Shader Graph Introduction ✓
-<br>Module 2D: Advanced Shader Graph Techniques
-<br>Module 2E: Shader Integration and Optimization
-
-<br><br><br>🧭 Module Navigation 
-Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2B - Shader Dev and 3D" data-href="GMAP 395 - Module 2B - Shader Dev and 3D" href="gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2B</a><br>
-Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2D - Additional Shader Graph Techniques" data-href="GMAP 395 - Module 2D - Additional Shader Graph Techniques" href="gmap-395\module-2\submodules\gmap-395-module-2d-additional-shader-graph-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2D</a><br>
-Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
-]]></description><link>gmap-395\module-2\submodules\gmap-395-module-2c-unity-shader-graph-intro.html</link><guid isPermaLink="false">GMAP 395/Module 2/submodules/GMAP 395 - Module 2C - Unity Shader Graph Intro.md</guid><pubDate>Wed, 16 Jul 2025 13:34:58 GMT</pubDate><enclosure url="lib\media\blackboard_shadergraph_path.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\blackboard_shadergraph_path.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 2D: Additional Shader Graph Techniques]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-2\legacy\gmap-395-wk-5-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 2/legacy/GMAP 395 - WK 5 - Slides + Video.md</guid><pubDate>Mon, 03 Feb 2025 19:40:02 GMT</pubDate><enclosure url="lib\media\renderpipeline.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\renderpipeline.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 2D: Additional Shader Graph Techniques]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Learning Focus: Mastering sophisticated Shader Graph operations for professional-quality materials<br>
 Builds On: Interface understanding and basic node connections from Module 2C
@@ -1834,10 +1843,7 @@ For each module there are a set of Requirements that must be met for every modul
 <br>Cohesion: Visual and thematic consistency throughout the project.
 <br>Polish: Overall quality and refinement of the interactive experience.
 <br>Presentation: Clarity and professionalism in the playthrough video and postmortem document.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Wed, 16 Jul 2025 13:48:57 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Student Examples]]></title><description><![CDATA[ 
- <br><br><br>[!note]<br>
-For this particular run of the course, students were tasked with creating something more aligned with an MVP for a game concept (more full game like) with a gameplay loop, rules, assets, and interactivity. The course does not require the full gameplay loop or rules now. It is much more art and tech integration focused.
-<br><br><br><br>]]></description><link>gmap-395\gmap-395-student-examples.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Student Examples.md</guid><pubDate>Wed, 16 Jul 2025 13:41:51 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Wed, 16 Jul 2025 13:48:57 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
  <br><br><br><br>Instructor Details
 
 <br>Name: Darren Woodland, Jr.

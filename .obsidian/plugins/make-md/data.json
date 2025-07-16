@@ -54,11 +54,9 @@
     "//GMAP 395/GMAP 395/Grading/GMAP 395/Grading/SU25",
     "//GMAP 395/GMAP 395/Module 1/GMAP 395/Module 1/submodules",
     "//GMAP 395/GMAP 395/Weeklies",
-    "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/submodules",
-    "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/tutorials",
-    "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/legacy",
     "//GMAP 395/GMAP 395/Module 1/GMAP 395/Module 1/legacy",
-    "//GMAP 395/GMAP 395/Module 2"
+    "//GMAP 395/GMAP 395/Module 2",
+    "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/submodules"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
