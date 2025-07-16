@@ -57,7 +57,8 @@
     "//GMAP 395/GMAP 395/Module 1/GMAP 395/Module 1/legacy",
     "//GMAP 395/GMAP 395/Module 2",
     "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/submodules",
-    "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/media"
+    "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/media",
+    "//GMAP 395/GMAP 395/Class Demos"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

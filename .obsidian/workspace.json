@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f729da9a95e40562",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "GMAP 395/Module 2/media/portalShaderGrab.png"
-              },
-              "icon": "lucide-image",
-              "title": "portalShaderGrab"
-            }
-          },
-          {
             "id": "f6cbec08bfc29da2",
             "type": "leaf",
             "state": {
@@ -65,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "six",
+                "query": "Demo - 1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +85,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -262,8 +250,34 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "81e14ee526097519",
+  "active": "47a0eb865347429d",
   "lastOpenFiles": [
+    "GMAP 395/GMAP 395 - Syllabus.md",
+    "Index.md",
+    "GMAP 395/GMAP 395 - Welcome.md",
+    "GMAP 395/GMAP 395 - SU25 - Theme.md",
+    "GMAP 395/GMAP 395 - Student Examples.md",
+    "GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md",
+    "GMAP 395/GMAP 395 - Guide - CT and CPS.md",
+    "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
+    "GMAP 395/Weeklies/Six Thinking Hats Giving Good Game Design Feedback.md",
+    "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md",
+    "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
+    "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
+    "GMAP 395/Module 4/GMAP 395 - Module 4.md",
+    "GMAP 395/Module 4/GMAP 395 - Guides - Custom Post-Processing Effects.md",
+    "GMAP 395/Module 4/media/media.md",
+    "GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md",
+    "GMAP 395/Module 3/GMAP 395 - WK 7 - Slides + Video.md",
+    "GMAP 395/Module 3/GMAP 395 - WK 7 - In-Class Lab.md",
+    "GMAP 395/Module 3/GMAP 395 - WK 6 - Tutorial.md",
+    "GMAP 395/Module 3/GMAP 395 - WK 6 - Slides + Video.md",
+    "GMAP 395/Module 3/GMAP 395 - WK 6 - In-Class Lab.md",
+    "GMAP 395/Module 3/GMAP 395 - Module 3.md",
+    "GMAP 395/Module 3/media/media.md",
+    "GMAP 395/Module 2/GMAP 395 - Module 2.md",
+    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 5 - Tutorial.md",
+    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - Tutorial.md",
     "docs/lib/fonts/085cb93e613ba3d40d2b.woff2",
     "docs/lib/fonts/293fd13dbca5a3e450ef.woff2",
     "docs/lib/media/enemyspawnerinspector.png",
@@ -276,15 +290,6 @@
     "docs/gmap-395/module-2/media/internalinspectorblackboardproperty.png",
     "docs/lib/media/renderpipeline.jpg",
     "docs/lib/media/metalmaterial.png",
-    "GMAP 395/Class Demos/Demo - 1 -Simple Blender to Unity.md",
-    "GMAP 395/GMAP 395 - Student Examples.md",
-    "GMAP 395/GMAP 395 - Syllabus.md",
-    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2C - Unity Shader Graph Intro.md",
-    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2B - Shader Dev and 3D.md",
-    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2A - Shader Fundamentals.md",
-    "GMAP 395/Module 2/GMAP 395 - Module 2.md",
-    "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 4.md",
     "docs/gmap-395/gmap-395-student-examples.html",
     "docs/gmap-395/module-2/tutorials/gmap-395-wk-5-tutorial.html",
     "docs/gmap-395/module-2/tutorials/gmap-395-wk-4-tutorial.html",
@@ -292,23 +297,6 @@
     "docs/gmap-395/module-2/tutorials",
     "docs/gmap-395/module-2/submodules/gmap-395-module-2c-unity-shader-graph-intro.html",
     "docs/gmap-395/module-2/submodules/gmap-395-module-2e-shader-integration.html",
-    "docs/gmap-395/module-2/submodules/gmap-395-module-2d-additional-shader-graph-techniques.html",
-    "docs/gmap-395/module-2/submodules/gmap-395-module-2b-shader-dev-and-3d.html",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md",
-    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 5 - Tutorial.md",
-    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - Tutorial.md",
-    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2E - Shader Integration.md",
-    "GMAP 395/Module 2/legacy/GMAP 395 - WK 5 - Slides + Video.md",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 5.md",
-    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2D - Additional Shader Graph Techniques.md",
-    "Index.md",
-    "GMAP 395/GMAP 395 - Welcome.md",
-    "GMAP 395/Module 2/submodules/submodules.md",
-    "GMAP 395/Module 2/Module 2.md",
-    "GMAP 395/Module 1/submodules/submodules.md",
-    "GMAP 395/Module 1/Module 1.md",
-    "GMAP 395/Module 3/GMAP 395 - Module 3.md",
-    "GMAP 395/Module 2/legacy/GMAP 395 - WK 4 - Slides + Video.md",
-    "GMAP 395/Weeklies/Weeklies.md"
+    "docs/gmap-395/module-2/submodules/gmap-395-module-2d-additional-shader-graph-techniques.html"
   ]
 }

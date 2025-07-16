@@ -18,7 +18,7 @@
   "minifyHTML": false,
   "makeNamesWebStyle": true,
   "onlyExportModified": false,
-  "deleteOldFiles": false,
+  "deleteOldFiles": true,
   "addThemeToggle": true,
   "addOutline": true,
   "addFileNav": true,
@@ -46,7 +46,6 @@
   "exportPath": "C:\\\\Users\\darre\\OneDrive - Drexel University\\Teaching\\Obsidian Vault\\drexel-teaching\\docs",
   "filesToExport": [
     [
-      "GMAP 395/Class Demos/Demo - 1 -Simple Blender to Unity.md",
       "GMAP 395/Introduction/media/design-everyday-things.jpg",
       "GMAP 395/Introduction/media/GMAP395-DAGsNodes.excalidraw.md",
       "GMAP 395/Introduction/GAMP 395 - Introduction - B.md",
