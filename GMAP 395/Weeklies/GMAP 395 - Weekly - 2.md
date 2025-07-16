@@ -44,7 +44,7 @@ Some ideas of things to share:
 - **Connect to your project** - how does this fit your bigger vision?
 - **Share one challenge** - what's not working or what do you need help with?
 
-### Peer Feedback & Discussion
+### Peer Feedback & Discussion (3+ peers)
 
 **Quick responses to/from classmates:**
 

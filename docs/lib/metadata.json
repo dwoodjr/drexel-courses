@@ -1,6 +1,6 @@
 {
   "vaultName": "drexel-teaching",
-  "lastExport": 1751728101608,
+  "lastExport": 1752673844839,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon mk-folder-lines mk-inline-context-enabled mk-flow-minimal background-settings-workplace-theme-light-in-the-note background-settings-workplace-theme-dark-in-the-sky background-image-settings-markdown-page-transparent notebook-liked-markdown-page-grid-notebook-1 panel-page-bg-theme-light-wall panel-page-bg-theme-dark-plant layout-style-options-default bt-default-unordered-list default-ol-list-marker list-no-border bt-connected-indent-hover bt-colorful-connected-indent-hover folder-icons remove-arrow bt-toggle-colorful-folder folder-style-change-options-colorful-border folder-colorful-six table-width-100 tag-default admonition-bg-color-same style-options-for-admonition-plugin style-options-for-buttons-plugin dataview-list-style-pacman memos-banner-gradient thino-frosted-style thino-background-default quiet-outline-optimize code-theme-bt-default whole-code-wrap iconic-clickable-icons iconic-theme-btopaz",
   "useCustomHeadContent": false,
@@ -54,23 +54,29 @@
     "GMAP 395/Module 1/tutorials/GMAP 395 - WK 3 - Tutorial.md",
     "GMAP 395/Module 1/GMAP 395 - ASN 1 - Brief.md",
     "GMAP 395/Module 1/GMAP 395 - Module 1.md",
+    "GMAP 395/Module 2/legacy/GMAP 395 - WK 4 - Slides + Video.md",
+    "GMAP 395/Module 2/legacy/GMAP 395 - WK 5 - Slides + Video.md",
     "GMAP 395/Module 2/media/blackboard_shadergraph_path.png",
     "GMAP 395/Module 2/media/dotween1.png",
     "GMAP 395/Module 2/media/enemySpawnerInspector.png",
     "GMAP 395/Module 2/media/GraphSettings_Menu.png",
+    "GMAP 395/Module 2/media/InternalInspectorBlackboardProperty.png",
     "GMAP 395/Module 2/media/MasterStack_Populated.png",
     "GMAP 395/Module 2/media/mdn-games-3d-rendering-pipeline.png",
     "GMAP 395/Module 2/media/media.md",
     "GMAP 395/Module 2/media/portalInspector.png",
     "GMAP 395/Module 2/media/portalShaderGrab.png",
     "GMAP 395/Module 2/media/renderPipeline.jpg",
+    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2A - Shader Fundamentals.md",
+    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2B - Shader Dev and 3D.md",
+    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2C - Unity Shader Graph Intro.md",
+    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2D - Additional Shader Graph Techniques.md",
+    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2E - Shader Integration.md",
+    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - In-Class Lab.md",
+    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - Tutorial.md",
+    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 5 - Tutorial.md",
     "GMAP 395/Module 2/GMAP 395 - ASN 2 - Brief.md",
     "GMAP 395/Module 2/GMAP 395 - Module 2.md",
-    "GMAP 395/Module 2/GMAP 395 - WK 4 - In-Class Lab.md",
-    "GMAP 395/Module 2/GMAP 395 - WK 4 - Slides + Video.md",
-    "GMAP 395/Module 2/GMAP 395 - WK 4 - Tutorial.md",
-    "GMAP 395/Module 2/GMAP 395 - WK 5 - Slides + Video.md",
-    "GMAP 395/Module 2/GMAP 395 - WK 5 - Tutorial.md",
     "GMAP 395/Module 3/media/Block-CollideWithDepthBufferMain.png",
     "GMAP 395/Module 3/media/GMAP 395 - SU24 - In-Class Lab - Intro to Particles + VFX.pdf",
     "GMAP 395/Module 3/media/lab_vfx2_4Pos.png",
@@ -130,11 +136,19 @@
     "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
     "GMAP 395/GMAP 395 - Guide - CT and CPS.md",
     "GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md",
+    "GMAP 395/GMAP 395 - Student Examples.md",
     "GMAP 395/GMAP 395 - SU25 - Theme.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/GMAP 395 - Welcome.md",
     "Index.md",
-    "lib/media/395tut1portal.png",
+    "lib/media/renderpipeline.jpg",
+    "lib/media/blackboard_shadergraph_path.png",
+    "lib/media/internalinspectorblackboardproperty.png",
+    "lib/media/masterstack_populated.png",
+    "lib/media/portalshadergrab.png",
+    "lib/media/dotween1.png",
+    "lib/media/portalinspector.png",
+    "lib/media/enemyspawnerinspector.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -166,7 +180,6 @@
     "lib/styles/other-plugins.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/supported-plugins.css",
     "lib/styles/main-styles.css",
     "gmap-395/introduction/media/design-everyday-things.jpg",
     "lib/media/gamefeelcover.webp",
@@ -180,6 +193,7 @@
     "lib/media/ipad_02-600x800.png",
     "lib/media/ipad_01-600x800.png",
     "lib/media/150518_r26517.webp",
+    "lib/media/395tut1portal.png",
     "lib/media/lightingmode.png",
     "lib/media/colorhexcode.png",
     "lib/media/sunlight.png",
@@ -192,11 +206,6 @@
     "lib/media/camerapp.png",
     "lib/media/editlightprobe.png",
     "lib/media/metalmaterial.png",
-    "gmap-395/module-2/media/portalshadergrab.png",
-    "gmap-395/module-2/media/renderpipeline.jpg",
-    "gmap-395/module-2/media/dotween1.png",
-    "gmap-395/module-2/media/portalinspector.png",
-    "gmap-395/module-2/media/enemyspawnerinspector.png",
     "gmap-395/module-3/media/gmap-395-su24-in-class-lab-intro-to-particles-+-vfx.pdf",
     "gmap-395/module-3/media/vfxingamestypes.webp",
     "gmap-395/module-3/media/volibear.jpg",
@@ -263,90 +272,89 @@
     "lib/styles/other-plugins.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/supported-plugins.css",
     "lib/styles/main-styles.css"
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
@@ -358,79 +366,79 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1751728101608,
-      "sourceSize": 120831,
+      "modifiedTime": 1752673844839,
+      "sourceSize": 129631,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1751728101608,
-      "sourceSize": 6704,
+      "modifiedTime": 1752673844839,
+      "sourceSize": 7663,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 165254,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 855378,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 265,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
@@ -442,13 +450,13 @@
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 163784,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
@@ -480,8 +488,8 @@
       "dependencies": []
     },
     "GMAP 395/GMAP 395 - Syllabus.md": {
-      "modifiedTime": 1751728101608,
-      "sourceSize": 22506,
+      "modifiedTime": 1752673844839,
+      "sourceSize": 22508,
       "exportedPath": "gmap-395/gmap-395-syllabus.html",
       "dependencies": []
     },
@@ -678,44 +686,18 @@
       "dependencies": []
     },
     "GMAP 395/Module 2/GMAP 395 - Module 2.md": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 3073,
+      "modifiedTime": 1752673844839,
+      "sourceSize": 4056,
       "exportedPath": "gmap-395/module-2/gmap-395-module-2.html",
       "dependencies": []
     },
-    "GMAP 395/Module 2/GMAP 395 - WK 4 - Slides + Video.md": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 11144,
-      "exportedPath": "gmap-395/module-2/gmap-395-wk-4-slides-+-video.html",
-      "dependencies": []
-    },
-    "GMAP 395/Module 2/GMAP 395 - WK 4 - Tutorial.md": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 6912,
-      "exportedPath": "gmap-395/module-2/gmap-395-wk-4-tutorial.html",
-      "dependencies": [
-        "gmap-395/module-2/media/portalshadergrab.png"
-      ]
-    },
     "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 5580,
+      "modifiedTime": 1752673844839,
+      "sourceSize": 5687,
       "exportedPath": "gmap-395/gmap-395-final-project-details-and-requirements.html",
       "dependencies": []
     },
-    "GMAP 395/Module 2/GMAP 395 - WK 4 - In-Class Lab.md": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 5916,
-      "exportedPath": "gmap-395/module-2/gmap-395-wk-4-in-class-lab.html",
-      "dependencies": []
-    },
     "GMAP 395/Module 2/media/portalShaderGrab.png": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 705570,
-      "exportedPath": "gmap-395/module-2/media/portalshadergrab.png",
-      "dependencies": []
-    },
-    "gmap-395/module-2/media/portalshadergrab.png": {
       "modifiedTime": 1750959764393,
       "sourceSize": 705570,
       "exportedPath": "gmap-395/module-2/media/portalshadergrab.png",
@@ -751,50 +733,8 @@
       "exportedPath": "gmap-395/module-2/media/renderpipeline.jpg",
       "dependencies": []
     },
-    "GMAP 395/Module 2/GMAP 395 - WK 5 - Slides + Video.md": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 12366,
-      "exportedPath": "gmap-395/module-2/gmap-395-wk-5-slides-+-video.html",
-      "dependencies": [
-        "gmap-395/module-2/media/renderpipeline.jpg"
-      ]
-    },
-    "GMAP 395/Module 2/GMAP 395 - WK 5 - Tutorial.md": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 8508,
-      "exportedPath": "gmap-395/module-2/gmap-395-wk-5-tutorial.html",
-      "dependencies": [
-        "gmap-395/module-2/media/dotween1.png",
-        "gmap-395/module-2/media/portalinspector.png",
-        "gmap-395/module-2/media/enemyspawnerinspector.png"
-      ]
-    },
-    "gmap-395/module-2/media/renderpipeline.jpg": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 149671,
-      "exportedPath": "gmap-395/module-2/media/renderpipeline.jpg",
-      "dependencies": []
-    },
-    "gmap-395/module-2/media/dotween1.png": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 431279,
-      "exportedPath": "gmap-395/module-2/media/dotween1.png",
-      "dependencies": []
-    },
-    "gmap-395/module-2/media/portalinspector.png": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 72247,
-      "exportedPath": "gmap-395/module-2/media/portalinspector.png",
-      "dependencies": []
-    },
-    "gmap-395/module-2/media/enemyspawnerinspector.png": {
-      "modifiedTime": 1750959764393,
-      "sourceSize": 15834,
-      "exportedPath": "gmap-395/module-2/media/enemyspawnerinspector.png",
-      "dependencies": []
-    },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
@@ -1690,13 +1630,13 @@
       "dependencies": []
     },
     "lib/fonts/293fd13dbca5a3e450ef.woff2": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 105924,
       "exportedPath": "lib/fonts/293fd13dbca5a3e450ef.woff2",
       "dependencies": []
     },
     "lib/fonts/085cb93e613ba3d40d2b.woff2": {
-      "modifiedTime": 1751728101608,
+      "modifiedTime": 1752673844839,
       "sourceSize": 112184,
       "exportedPath": "lib/fonts/085cb93e613ba3d40d2b.woff2",
       "dependencies": []
@@ -1720,9 +1660,143 @@
       "dependencies": []
     },
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md": {
-      "modifiedTime": 1751728101608,
-      "sourceSize": 2545,
+      "modifiedTime": 1752673844839,
+      "sourceSize": 2556,
       "exportedPath": "gmap-395/weeklies/gmap-395-weekly-2.html",
+      "dependencies": []
+    },
+    "GMAP 395/Module 2/legacy/GMAP 395 - WK 4 - Slides + Video.md": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 11144,
+      "exportedPath": "gmap-395/module-2/legacy/gmap-395-wk-4-slides-+-video.html",
+      "dependencies": []
+    },
+    "GMAP 395/Module 2/legacy/GMAP 395 - WK 5 - Slides + Video.md": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 12366,
+      "exportedPath": "gmap-395/module-2/legacy/gmap-395-wk-5-slides-+-video.html",
+      "dependencies": [
+        "lib/media/renderpipeline.jpg"
+      ]
+    },
+    "GMAP 395/Module 2/media/InternalInspectorBlackboardProperty.png": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 22296,
+      "exportedPath": "gmap-395/module-2/media/internalinspectorblackboardproperty.png",
+      "dependencies": []
+    },
+    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2A - Shader Fundamentals.md": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 5117,
+      "exportedPath": "gmap-395/module-2/submodules/gmap-395-module-2a-shader-fundamentals.html",
+      "dependencies": []
+    },
+    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2B - Shader Dev and 3D.md": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 9527,
+      "exportedPath": "gmap-395/module-2/submodules/gmap-395-module-2b-shader-dev-and-3d.html",
+      "dependencies": []
+    },
+    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2C - Unity Shader Graph Intro.md": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 8792,
+      "exportedPath": "gmap-395/module-2/submodules/gmap-395-module-2c-unity-shader-graph-intro.html",
+      "dependencies": [
+        "lib/media/blackboard_shadergraph_path.png",
+        "lib/media/internalinspectorblackboardproperty.png",
+        "lib/media/masterstack_populated.png"
+      ]
+    },
+    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2D - Additional Shader Graph Techniques.md": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 21958,
+      "exportedPath": "gmap-395/module-2/submodules/gmap-395-module-2d-additional-shader-graph-techniques.html",
+      "dependencies": []
+    },
+    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2E - Shader Integration.md": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 20061,
+      "exportedPath": "gmap-395/module-2/submodules/gmap-395-module-2e-shader-integration.html",
+      "dependencies": [
+        "lib/media/renderpipeline.jpg"
+      ]
+    },
+    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - In-Class Lab.md": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 5916,
+      "exportedPath": "gmap-395/module-2/tutorials/gmap-395-wk-4-in-class-lab.html",
+      "dependencies": []
+    },
+    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - Tutorial.md": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 6912,
+      "exportedPath": "gmap-395/module-2/tutorials/gmap-395-wk-4-tutorial.html",
+      "dependencies": [
+        "lib/media/portalshadergrab.png"
+      ]
+    },
+    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 5 - Tutorial.md": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 8508,
+      "exportedPath": "gmap-395/module-2/tutorials/gmap-395-wk-5-tutorial.html",
+      "dependencies": [
+        "lib/media/dotween1.png",
+        "lib/media/portalinspector.png",
+        "lib/media/enemyspawnerinspector.png"
+      ]
+    },
+    "GMAP 395/GMAP 395 - Student Examples.md": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 1041,
+      "exportedPath": "gmap-395/gmap-395-student-examples.html",
+      "dependencies": []
+    },
+    "lib/media/renderpipeline.jpg": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 149671,
+      "exportedPath": "lib/media/renderpipeline.jpg",
+      "dependencies": []
+    },
+    "lib/media/blackboard_shadergraph_path.png": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 17445,
+      "exportedPath": "lib/media/blackboard_shadergraph_path.png",
+      "dependencies": []
+    },
+    "lib/media/internalinspectorblackboardproperty.png": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 22296,
+      "exportedPath": "lib/media/internalinspectorblackboardproperty.png",
+      "dependencies": []
+    },
+    "lib/media/masterstack_populated.png": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 42217,
+      "exportedPath": "lib/media/masterstack_populated.png",
+      "dependencies": []
+    },
+    "lib/media/portalshadergrab.png": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 705570,
+      "exportedPath": "lib/media/portalshadergrab.png",
+      "dependencies": []
+    },
+    "lib/media/dotween1.png": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 431279,
+      "exportedPath": "lib/media/dotween1.png",
+      "dependencies": []
+    },
+    "lib/media/portalinspector.png": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 72247,
+      "exportedPath": "lib/media/portalinspector.png",
+      "dependencies": []
+    },
+    "lib/media/enemyspawnerinspector.png": {
+      "modifiedTime": 1752673844839,
+      "sourceSize": 15834,
+      "exportedPath": "lib/media/enemyspawnerinspector.png",
       "dependencies": []
     }
   }

@@ -1,4 +1,1995 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 05 Jul 2025 15:08:25 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 05 Jul 2025 15:08:21 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[<strong><em>Procedural Eldritch Portal + Environment: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 16 Jul 2025 13:50:52 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 16 Jul 2025 13:50:44 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[GMAP 395 - WK 4 - Slides + Video]]></title><description><![CDATA[ 
+ <br><br><br><br>Week 4 Video Lecture
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_F3vSAiT9rcAKv5Jw?e=HRmiMT" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_F3vSAiT9rcAKv5Jw?e=HRmiMT" target="_blank">gmap395_wk4.mp4</a>
+<br><br><br>
+<br>Definition: Shaders are small programs that run on the GPU, defining the visual appearance of objects in a scene.
+<br>Purpose: Control how materials interact with light to achieve desired visual effects.
+<br>Core Shader Types:
+
+<br>Vertex Shaders: Modify geometry at the vertex level.
+<br>Fragment Shaders (Pixel Shaders): Control pixel-level color and lighting.
+
+
+<br><br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=ax1JLQABmOw" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=ax1JLQABmOw" target="_blank">What are shaders? - GDQuest</a><br><br><br>
+<br>Customization: Allows unique material creation.
+<br>Optimization: Efficient use of GPU resources for real-time rendering.
+<br>Dynamic Effects: Enables interactive and changing visuals.
+<br>Examples:
+
+<br>"Stylized" water effects (Breath of the Wild).
+<br>Holograms (Halo).
+<br>Cel-shading (Borderlands).
+
+
+<br><br><br>
+<br>Bridging Art and Code:
+
+<br>Shaders enable technical artists to bridge visual design and programming.
+
+
+<br>Dynamic Visuals:
+
+<br>Create interactive and adaptive visuals for game systems.
+
+
+<br>Procedural Systems:
+
+<br>Shaders are often used in procedural workflows for generating textures, patterns, and effects.
+
+
+<br><br><br>
+<br>Procedural Textures:
+
+<br>Use math and logic to generate seamless textures.
+
+
+<br>Modular Workflows:
+
+<br>Reusable shader modules can streamline development.
+
+
+<br>Examples:
+
+<br>Procedural weathering effects.
+<br>Adjustable material templates for diverse assets.
+
+
+<br><br><br>
+<br>Define Properties: Expose parameters like color or texture to customize materials.
+<br>Create SubShaders: Specify rendering techniques for different hardware or conditions.
+<br>Write Passes: Describe rendering steps (e.g., vertex and fragment programs).
+<br><br><br>Shader "Custom/ExampleShader"
+{
+    Properties
+    {
+        _Color ("Main Color", Color) = (1,1,1,1)
+    }
+    SubShader
+    {
+        Pass
+        {
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            // Declare the _Color property as a uniform
+            fixed4 _Color;
+            struct appdata
+            {
+                float4 vertex : POSITION; // Vertex position
+            };
+            struct v2f
+            {
+                float4 pos : SV_POSITION; // Transformed position
+            };
+            v2f vert (appdata v)
+            {
+                v2f o;
+                o.pos = UnityObjectToClipPos(v.vertex);
+                return o;
+            }
+            // Use _Color in the fragment shader
+            fixed4 frag (v2f i) : SV_Target
+            {
+                return _Color; // Output the color
+            }
+            ENDCG
+        }
+    }
+}
+
+<br><br><br>
+<br>Shader Properties:
+
+<br>_Color: Exposed parameter for material customization.
+
+
+<br>SubShader:
+
+<br>Contains rendering passes for different GPU capabilities.
+
+
+<br>Vertex Function:
+
+<br>Processes vertex data (positions, normals, UVs).
+
+
+<br>Fragment Function:
+
+<br>Determines final pixel color using inputs from the vertex shader.
+
+
+<br><br><br>
+<br>Uniform Variables:
+
+<br>Definition: Global variables that are constant during the rendering of a single draw call. These are set by the CPU and shared across all invocations of a shader program.
+<br>Examples:
+
+<br>Time values for animations.
+
+
+
+
+<br>Attributes:
+
+<br>Definition: Input data that is unique for each vertex and provided by the vertex buffer. Attributes are available only in the vertex shader.
+<br>Examples:
+
+<br>Texture coordinates (TEXCOORD).
+
+
+
+
+<br>Varyings:
+
+<br>Definition: Variables used to pass interpolated data from the vertex shader to the fragment shader.
+<br>Examples:
+
+<br>Lighting data like vertex colors or normals.
+
+
+
+
+<br><a data-tooltip-position="top" aria-label="https://thebookofshaders.com/" rel="noopener nofollow" class="external-link" href="https://thebookofshaders.com/" target="_blank">The Book of Shaders</a><br><br><br>
+<br>Inputs:
+
+<br>Vertex Data: Positions, normals, UVs.
+<br>Textures: Color or detail maps.
+<br>Uniforms: Constants like time or transformations.
+
+
+<br>Outputs:
+
+<br>Final pixel colors rendered to the screen.
+
+
+<br><br><br><br>
+<br>Vertices: Define points in 3D space.
+<br>Edges: Connect vertices to outline shapes.
+<br>Faces: Form surfaces using connected edges.
+<br>UVs: Map 2D textures to 3D surfaces.
+<br>Normals: Vectors perpendicular to faces for lighting calculations.
+<br><br>
+<br>Vertex Data: Input for vertex shaders to transform 3D geometry.
+<br>Normals: Used in lighting equations for shading effects.
+<br>UV Mapping: Guides texture placement via fragment shaders.
+<br>Shader Outputs: Define the final appearance of geometry on-screen.
+<br><br><br><br><br>
+<br>Small programs executed on the GPU.
+<br>Control how light interacts with geometry.
+<br>Types: Vertex, Fragment, Compute.
+<br><br>
+<br>Definition: A wrapper for shaders, combining textures and parameters.
+<br>Role: Define the look of objects by associating shaders with visual properties.
+<br>Example: A reflective material uses a custom shader for specular highlights.
+<br><br>
+<br>Definition: 2D images mapped to 3D geometry.
+<br>Purpose: Add details like color, patterns, or surface irregularities.
+<br>Common Types: Diffuse, Normal, Specular, Emissive.
+<br><br><br><br><br>
+<br>Physically Based Rendering (PBR): A method to simulate realistic lighting and material behavior.
+<br>Key Concepts: Energy conservation, physically accurate shading.
+<br>Benefits: Consistent results across lighting environments.
+<br><br>
+<br>Base Color: Defines the albedo (color) of the surface.
+<br>Metallic: Specifies if the material is metal (affects reflection).
+<br>Roughness/Smoothness: Controls surface reflectivity.
+<br>Normal Map: Adds surface details without extra geometry.
+<br>Ambient Occlusion (AO): Simulates soft shadows in crevices.
+<br><a data-tooltip-position="top" aria-label="https://www.materialmaker.org/" rel="noopener nofollow" class="external-link" href="https://www.materialmaker.org/" target="_blank">Material Maker</a>
+Material Maker is a procedural materials authoring tool based on the Godot Engine.
+<br><br><br>
+<br>Vector Operations:
+
+<br>Dot Product: Lighting calculations.
+<br>Cross Product: Surface normals.
+
+
+<br>Matrix Transformations:
+
+<br>Object to world space conversions.
+
+
+<br>Color Operations:
+
+<br>RGB blending and transitions.
+
+
+<br>Noise Functions:
+
+<br>Create procedural patterns for effects.
+
+
+<br><br><br>
+<br>Minimize Complexity:
+
+<br>Use simple math operations where possible.
+
+
+<br>Reuse Variables:
+
+<br>Avoid redundant calculations.
+
+
+<br>LOD Techniques:
+
+<br>Reduce detail for distant objects.
+
+
+<br><br><br>
+<br>Dissolve Effects:
+
+<br>Use noise textures to create fading effects.
+
+
+<br>Holographic Shaders:
+
+<br>Add transparency and scrolling UV animations.
+
+
+<br>Water Shaders:
+
+<br>Simulate refraction and wave movement.
+
+
+<br><a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX Website</a><br><br><br>
+<br>What Is Shader Graph?
+
+<br>A node-based interface for creating shaders visually.
+
+
+<br>Benefits:
+
+<br>No coding required.
+<br>Rapid iteration and prototyping.
+
+
+<br>Components:
+
+<br>Blackboard, Nodes, Master Stack, Preview, etc.
+
+
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Getting-Started.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Getting-Started.html" target="_blank">Shader Graph Docs</a>
+<br>
+![[blackboard_shadergraph_path.png]]
+![[GraphSettings_Menu.png]]
+![[MasterStack_Populated.png|320]]
+<br><br><br><br>
+<br>Write a basic color shader.
+<br>Add texture support.
+<br>Implement vertex manipulation for dynamic effects.
+<br><br><br><br><br><a data-tooltip-position="top" aria-label="https://jettelly.com/store/the-unity-shaders-bible" rel="noopener nofollow" class="external-link" href="https://jettelly.com/store/the-unity-shaders-bible" target="_blank">The Unity Shader Bible</a><br><br><a data-tooltip-position="top" aria-label="https://www.shadertoy.com/" rel="noopener nofollow" class="external-link" href="https://www.shadertoy.com/" target="_blank">Shadertoy</a><br><br><br><br>
+<br>How do shaders enhance visual storytelling?
+<br>What challenges might arise in shader development?
+<br>Where could you apply shaders in your current projects?
+<br><br><br>
+<br>Shaders are a powerful tool for creating immersive, visually striking experiences.
+<br>Mastering shaders bridges a gap between art and technology in game development and beyond.
+<br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-2\legacy\gmap-395-wk-4-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 2/legacy/GMAP 395 - WK 4 - Slides + Video.md</guid><pubDate>Mon, 03 Feb 2025 16:29:14 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 5 - Slides + Video]]></title><description><![CDATA[ 
+ <br><br><br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_IPty_ck4XywUX00A?e=r8xsqz" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_IPty_ck4XywUX00A?e=r8xsqz" target="_blank">gmap395_wk5.mp4</a><br><br><br><br>
+<br>Shader Structure
+
+<br>Properties, Subshaders, Passes
+<br>Vertex Shaders 
+<br>Fragment Shaders
+
+
+<br><br><br>
+<br>Visual Shader Creation Tool in Unity
+<br>Node-Based Interface
+
+<br>No need for manual HLSL coding
+<br>Drag-and-drop workflow
+
+
+<br>Requires Scriptable Render Pipeline (SRP)
+
+<br>URP (Universal Render Pipeline) is recommended for this course
+
+
+<br><br><br>
+<br>Blackboard: Define and expose parameters
+<br>Graph Inspector: Contextual information about nodes
+<br>Main Stack: Handles Vertex and Fragment logic
+<br>Main Preview: Real-time shader preview (can be unreliable)
+<br>Toolbar: Save, compile, and debug shaders
+<br><br><br>
+<br>Base Color Texturing
+
+<br>Sample a Texture2D and apply UV coordinates
+
+
+<br>Using Lerp for Blending
+
+<br>Combine two textures using a Mask Texture
+
+
+<br>Adding Detail Textures
+
+<br>Multiply noise maps for realistic effects
+
+
+<br><br><br><br>
+<br>Normal Maps Enhance Perceived Depth
+
+<br>Adds lighting-based details without extra geometry
+
+
+<br>Implementation:
+
+<br>Use a Sample Texture 2D Node
+<br>Convert RGB values to Normal Data
+<br>Blend Normal Maps for extra detail
+
+
+<br><a data-tooltip-position="top" aria-label="https://www.artstation.com/blogs/typhen/GMyG/this-is-normal-1-what-normal-maps-are-and-how-they-work" rel="noopener nofollow" class="external-link" href="https://www.artstation.com/blogs/typhen/GMyG/this-is-normal-1-what-normal-maps-are-and-how-they-work" target="_blank">This is Normal - ArtStation</a><br>
+<a data-tooltip-position="top" aria-label="https://www.adobe.com/products/substance3d/discover/normal-mapping.html" rel="noopener nofollow" class="external-link" href="https://www.adobe.com/products/substance3d/discover/normal-mapping.html" target="_blank">What is Normal Mapping? - Adobe</a><br><br><br>
+<br>Color Adjustments
+
+<br>Adjust color values dynamically
+
+
+<br>UV Manipulation
+
+<br>Tiling, Offset, and Rotation
+
+
+<br>Vertex Displacement
+
+<br>Animate geometry movement
+
+
+<br>Time-Based Animations
+
+<br>Scroll textures, pulse effects
+
+
+<br><br><br><br><br>
+<br>Use the Position Node
+<br>Apply Sine Waves for Oscillating Movement
+<br>Combine Noise for Organic Deformations
+<br>Practical Use: Water ripples, grass swaying, liquid surfaces
+<br><br><br><br>
+<br>Types of Noise
+
+<br>Perlin Noise: Soft organic patterns
+<br>Voronoi Noise: Cellular structure
+<br>Gradient Noise: Blending &amp; soft transitions
+<br>Many more...
+
+
+<br>Blending Techniques
+
+<br>Combine noise with Lerp &amp; Multiply Nodes
+<br>Adjust intensity via Remap Node
+
+
+<br><br><br><br>
+<br>Lighting Models
+
+<br>PBR-based or Custom Light Calculations
+
+
+<br>Creating Custom Rim Lighting
+
+<br>Multiply View Direction and Normal
+<br>Apply an Fresnel Node for edge glow
+
+
+<br><br><br><br><br>
+<br>Handles transformations of vertex positions and attributes.
+<br>Adjusts geometry before rasterization.
+<br>Key Operations:
+
+<br>Model-View-Projection transformations.
+<br>Vertex displacement (e.g., vertex animation for waves or procedural terrain).
+
+
+<br><br>
+<br>Groups vertices into triangles or other primitives.
+<br>Prepares geometry for rasterization.
+<br>Affects edge visibility and culling.
+<br><br><br><br>
+<br>Converts primitives (triangles) into pixel fragments.
+<br>Determines which pixels will be rendered on the screen.
+<br><br>
+<br>Calculates the final color of each pixel.
+<br>Executes texture mapping, lighting calculations, and shading effects.
+<br><br>
+<br>Combines rendered pixels into a final image.
+<br>Handles blending, depth testing, and post-processing effects.
+<br><a rel="noopener nofollow" class="external-link" href="https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview" target="_blank">https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview</a><br><br><img alt="renderPipeline.jpg" src="lib\media\renderpipeline.jpg" style="width: 640px; max-width: 100%;"><br><br><br><br><br>
+<br>VFX Meshes
+
+<br>Assign shaders to particle systems
+
+
+<br>Custom VFX Shaders
+
+<br>Modify shaders dynamically in real-time
+
+
+<br>Particle Systems
+
+<br>Practical Use: Fire, smoke, dissolving effects
+
+
+<br><br><br>
+<br>Manipulating Shader Properties via C#
+
+<br>Expose shader parameters in Shader Graph (e.g., _Color, _Emission, _DistortionAmount)
+<br>Use C# scripts to modify material properties dynamically
+
+
+<br>Responding to Game Events
+
+<br>Change material colors when taking damage
+<br>Adjust transparency when cloaking
+<br>Animate distortion or displacement over time
+
+
+<br>Example: Modifying Shader Properties in C#
+using UnityEngine;
+
+public class MaterialController : MonoBehaviour
+{
+    public Material dynamicMaterial;
+    public float pulseSpeed = 2f;
+
+    void Update()
+    {
+        // Animate Emission Intensity Over Time
+        float emission = Mathf.PingPong(Time.time * pulseSpeed, 1f);
+        dynamicMaterial.SetFloat("_EmissionIntensity", emission);
+    }
+
+    public void SetDamageEffect()
+    {
+        // Flash red when hit
+        dynamicMaterial.SetColor("_BaseColor", Color.red);
+    }
+}
+
+
+<br>Real-World Uses
+
+<br>Player Interaction: Change material properties based on proximity
+<br>UI Feedback: Highlight objects when hovered over
+<br>Environmental Effects: Shift colors based on time of day or weather conditions
+
+
+<br><br><br>
+<br>What is Tweening?
+
+<br>Smooth interpolation of values over time
+
+
+<br>Linking Animations to Shader Properties
+
+<br>Change Emission Intensity, Transparency, Displacement
+
+
+<br>Tweening Libraries in Unity
+
+<br>DOTween, LeanTween
+
+
+<br>Example: Glow pulse shader using a tweened float variable
+<br>using DG.Tweening;
+Material mat;
+void Start() {
+    mat = GetComponent&lt;Renderer&gt;().material;
+    mat.DOColor(Color.blue, "_EmissionColor", 2f).SetLoops(-1, LoopType.Yoyo);
+}
+<br><br><br>
+<br>Cel Shading in Borderlands
+
+<br>Uses custom ramp shading
+<br>Simplified shadows for comic book style
+
+
+<br>Hologram Effects in Halo
+
+<br>Vertex displacement for distortion
+<br>Transparency with additive blending
+
+
+<br>Water Simulation in Sea of Thieves
+
+<br>Vertex waves via sine displacement
+<br>Reflection and refraction shaders
+
+
+<br><br><br>
+<br>Procedural Modeling generates game assets dynamically—Shaders can complement this by adding:
+
+<br>Procedural Textures: Generate surface detail without needing high-resolution textures
+<br>Dynamic Surface Effects: Adapt material appearance based on model parameters
+<br>Example: A procedural rock model can have a procedural shader that controls:
+
+<br>Color variation based on world position
+<br>Edge wear effects using curvature maps
+<br>Moss or dirt accumulation in crevices
+
+
+
+
+<br>Key Concept: Both Procedural Modeling &amp; Shaders use node-based workflows (Houdini, Blender Geometry Nodes, Unity Shader Graph)
+<br><br><br>
+<br>Lighting in Games defines how objects appear based on:
+
+<br>Direct Lighting (sunlight, spotlights)
+<br>Indirect Lighting (bounced light, reflections)
+<br>Ambient Lighting (general scene illumination)
+
+
+<br>Shaders Enhance Lighting by:
+
+<br>Controlling how materials respond to light (diffuse, metallic, specular)
+<br>Using custom lighting models to override Unity’s default lighting
+<br>Adding real-time effects, like rim lighting, emissive glow, and reflections
+
+
+<br>Example: A lava shader that uses emissive properties to glow in dark environments<br>
+
+<br><br><br>
+<br>Shader Graph
+
+<br>Visual scripting for shaders
+<br>No need for HLSL coding
+<br>Best for rapid prototyping
+<br>Limited in customization (but extendable with code)
+
+
+<br>HLSL / Custom Shader Code
+
+<br>More control over rendering logic
+<br>Better for performance optimizations
+<br>Required for advanced effects (custom lighting, procedural vertex animations)
+
+
+<br>When to Use Each?
+
+<br>Shader Graph: Prototyping, procedural textures, stylized effects
+<br>Handwritten Code: Performance-critical shaders, advanced lighting, VFX shaders
+
+
+<br><br><br>
+<br>Performance Considerations
+
+<br>Reduce Overdraw: Use Alpha Clipping instead of transparent materials when possible
+<br>Shader Complexity: Limit the number of shader passes (each pass is an extra rendering step)
+<br>Optimize Textures: Avoid high-res textures where procedural patterns can be used
+
+
+<br>Debugging Shader Graph
+
+<br>Use Frame Debugger (Window &gt; Analysis &gt; Frame Debugger) to see rendering steps
+<br>Use Material Debugging Mode (Scene View &gt; Debug Shading Modes) to isolate issues
+<br>Always test shaders under different lighting conditions
+
+
+<br><br><br>
+<br>Stylized Games
+
+<br>Example: Hollow Knight uses hand-painted textures + simple shaders for a 2D lighting effect
+
+
+<br>Realistic Games
+
+<br>Example: The Last of Us 2 uses physically-based shaders for materials like leather and metal
+
+
+<br>Procedural Effects
+
+<br>Example: No Man’s Sky procedural planets use Shader Graph for terrain blending
+
+
+<br>Interactive Environments
+
+<br>Example: Control by Remedy uses dynamic shaders for real-time environment shifts
+
+
+<br>Takeaway: Shaders are a core part of how modern games achieve immersion and responsiveness!
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-2\legacy\gmap-395-wk-5-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 2/legacy/GMAP 395 - WK 5 - Slides + Video.md</guid><pubDate>Mon, 03 Feb 2025 19:40:02 GMT</pubDate><enclosure url="lib\media\renderpipeline.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\renderpipeline.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 2A: Shader Fundamentals and Concepts]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Understanding what shaders are and their role in game development<br>
+Builds On: Game feel and procedural workflows from Module 1
+<br>Submodule Video Overview
+
+<br><br><br>Shaders are small programs that run on the GPU, defining the visual appearance of objects in a scene. Think of them as the "makeup artists" of graphics—they determine how materials interact with light to achieve desired visual effects.<br><br>Two Essential Shader Types
+
+<br>🔺 Vertex Shaders: Modify geometry at the vertex level (position, rotation, scale)
+<br>🎨 Fragment Shaders (Pixel Shaders): Control pixel-level color and lighting
+
+<br>There are more than just the above shader types, such as Compute Shaders. The above shaders are the two most common ones interfaced with for video game look development.<br><br>Additional Learning <a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=ax1JLQABmOw" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=ax1JLQABmOw" target="_blank">What are shaders? - GDQuest</a><br><br><br>Understanding shaders unlocks powerful creative and technical capabilities for creating professional-quality games.<br><br>
+<br>🎨 Customization: Create unique materials impossible with standard tools
+<br>⚡ Optimization: Efficient use of GPU resources for real-time rendering
+<br>🔄 Dynamic Effects: Enable interactive and changing visuals
+<br>🎯 Precision: Fine control over exactly how your game looks
+<br>Real Game Examples
+
+<br>🌊 Stylized Water: Breath of the Wild's cel-shaded water effects
+<br>👻 Holograms: Halo's sci-fi projection effects
+<br>🎭 Cel-Shading: Borderlands' comic book visual style
+
+<br><br><br>Technical artists bridge the gap between visual design and programming, and shaders are one of their most powerful tools.<br><br>Bridging Art and Code
+
+<br>Translate artistic vision into technical implementation
+<br>Create dynamic visuals that respond to game systems
+<br>Develop reusable tools for the art team
+
+<br><br>Shaders work hand-in-hand with procedural workflows to create:<br>
+<br>🎨 Procedural Textures: Math-generated patterns and surfaces
+<br>🔧 Modular Workflows: Reusable shader components for efficiency
+<br>🌟 Dynamic Effects: Materials that change based on gameplay
+<br>Practical Applications
+
+<br>🌧️ Procedural Weathering: Rust and wear that appears over time
+<br>📐 Adjustable Templates: One shader system for multiple asset types
+<br>⚡ Interactive Materials: Surfaces that respond to player actions (more on this in part <a data-href="GMAP 395 - Module 2E - Shader Integration" href="gmap-395\module-2\submodules\gmap-395-module-2e-shader-integration.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2E - Shader Integration</a>)
+
+<br><br><br>🤔 Quick Analysis (2-3 minutes)
+Think about a recent game you played and consider:
+Visual Questions:
+
+<br>What materials looked particularly impressive or realistic?
+<br>Were there any special effects that caught your attention?
+<br>How did lighting interact with different surfaces?
+
+Write down 2-3 examples where shaders likely played a key role in creating those visual experiences.
+<br><br><br>Understanding how shaders fit into the broader game development process helps you see their strategic importance beyond just "making things look pretty."<br><br>Shaders connect multiple aspects of game development:<br>
+<br>🎨 Art Pipeline: Convert concept art into interactive materials
+<br>⚡ Performance: Balance visual quality with frame rate requirements
+<br>🎮 Gameplay: Create materials that support game mechanics
+<br>🏗️ Technical Requirements: Work within platform constraints
+<br><br><br>Coming up: We'll dive into the technical structure of shaders and how they integrate with 3D geometry, materials, and textures.<br>📍 Progress Tracking
+
+<br>Module 2A: Shader Fundamentals and Concepts ✓
+<br>Module 2B: Shader Development Workflow and 3D Integration
+<br>Module 2C: Unity Shader Graph Introduction
+<br>Module 2D: Advanced Shader Graph Techniques
+<br>Module 2E: Shader Integration and Optimization
+
+<br><br>🧭 Module Navigation 
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2B - Shader Dev and 3D" data-href="GMAP 395 - Module 2B - Shader Dev and 3D" href="gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2B</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-2\submodules\gmap-395-module-2a-shader-fundamentals.html</link><guid isPermaLink="false">GMAP 395/Module 2/submodules/GMAP 395 - Module 2A - Shader Fundamentals.md</guid><pubDate>Wed, 16 Jul 2025 13:33:08 GMT</pubDate></item><item><title><![CDATA[Module 2B: Shader Development Workflow and 3D Integration]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Understanding shader structure, 3D geometry integration, and material workflows<br>
+Builds On: Shader fundamentals from Module 2A
+<br>Submodule Video Overview
+
+<br><br><br>Understanding how shaders are structured helps you approach them systematically rather than feeling overwhelmed by the code.<br><br>Standard Shader Development Process
+
+<br>🎛️ Define Properties: Expose parameters like color or texture for customization
+<br>🔧 Create SubShaders: Specify rendering techniques for different hardware
+<br>⚡ Write Passes: Describe rendering steps (vertex and fragment programs)
+
+<br><br>Shader "Custom/ExampleShader"
+{
+    Properties
+    {
+        _Color ("Main Color", Color) = (1,1,1,1)
+    }
+    SubShader
+    {
+        Pass
+        {
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            
+            // Declare the _Color property as a uniform
+            fixed4 _Color;
+            
+            struct appdata
+            {
+                float4 vertex : POSITION; // Vertex position
+            };
+            
+            struct v2f
+            {
+                float4 pos : SV_POSITION; // Transformed position
+            };
+            
+            v2f vert (appdata v)
+            {
+                v2f o;
+                o.pos = UnityObjectToClipPos(v.vertex);
+                return o;
+            }
+            
+            // Use _Color in the fragment shader
+            fixed4 frag (v2f i) : SV_Target
+            {
+                return _Color; // Output the color
+            }
+            ENDCG
+        }
+    }
+}
+<br>Code Breakdown
+
+<br>Properties: _Color exposed parameter for material customization
+<br>SubShader: Contains rendering passes for different GPU capabilities
+<br>Vertex Function: Processes vertex data (positions, normals, UVs)
+<br>Fragment Function: Determines final pixel color using vertex shader inputs
+
+<br><br><br><br>Three Critical Variable Categories
+🌐 Uniform Variables:
+
+<br>Global variables constant during rendering of a single draw call
+<br>Set by CPU and shared across all shader invocations
+<br>Examples: Time values for animations, transformation matrices
+
+📍 Attributes:
+
+<br>Input data unique for each vertex from the vertex buffer
+<br>Available only in vertex shader
+<br>Examples: Vertex positions, texture coordinates (TEXCOORD)
+
+🔀 Varyings:
+
+<br>Variables passing interpolated data from vertex to fragment shader
+<br>Examples: Lighting data, vertex colors, processed normals
+
+<br>Further Learning <a data-tooltip-position="top" aria-label="https://thebookofshaders.com/" rel="noopener nofollow" class="external-link" href="https://thebookofshaders.com/" target="_blank">The Book of Shaders</a> - Excellent resource for deeper shader mathematics<br><br><br>Understanding how shaders connect to 3D geometry is crucial for creating believable materials and effects.<br><br>Essential Geometry Components
+
+<br>🔹 Vertices: Define points in 3D space
+<br>📏 Edges: Connect vertices to outline shapes
+<br>🔺 Faces: Form surfaces using connected edges
+<br>🗺️ UVs: Map 2D textures to 3D surfaces
+<br>➡️ Normals: Vectors perpendicular to faces for lighting calculations
+
+<br><br><br>The relationship between geometry and shaders creates the foundation for all visual effects in games.<br>Geometry-Shader Connections
+
+<br>📍 Vertex Data: Input for vertex shaders to transform 3D geometry
+<br>💡 Normals: Used in lighting equations for realistic shading effects
+<br>🗺️ UV Mapping: Guides texture placement via fragment shaders
+<br>🎨 Shader Outputs: Define the final appearance of geometry on-screen
+
+<br><br><br>Understanding the relationship between these three elements helps you build more sophisticated visual systems.<br><br>Understanding the Hierarchy
+🔧 Shaders: Small programs executed on the GPU that control light interaction
+📦 Materials: Wrappers for shaders that combine textures and parameters
+
+<br>Define the look of objects by associating shaders with visual properties
+<br>Example: A reflective material uses a custom shader for specular highlights
+
+🖼️ Textures: 2D images mapped to 3D geometry
+
+<br>Add details like color, patterns, or surface irregularities
+<br>Common Types: Diffuse, Normal, Specular, Emissive
+
+<br><br><br><br>Physically Based Rendering (PBR) represents the current industry standard for creating realistic materials that respond consistently to lighting.<br><br>PBR Fundamentals
+
+<br>Method: Simulates realistic lighting and material behavior
+<br>Key Concepts: Energy conservation, physically accurate shading
+<br>Benefits: Consistent results across different lighting environments
+
+<br><br>Essential PBR Maps
+
+<br>🎨 Base Color: Defines the albedo (color) of the surface
+<br>⚙️ Metallic: Specifies if the material is metal (affects reflection behavior)
+<br>🔘 Roughness/Smoothness: Controls surface reflectivity and micro-detail
+<br>📐 Normal Map: Adds surface details without additional geometry
+<br>🌑 Ambient Occlusion (AO): Simulates soft shadows in surface crevices
+
+<br>Procedural Material Tool <a data-tooltip-position="top" aria-label="https://www.materialmaker.org/" rel="noopener nofollow" class="external-link" href="https://www.materialmaker.org/" target="_blank">Material Maker</a> - Free procedural materials authoring tool based on Godot Engine<br><br><br>Shaders rely heavily on mathematical operations to create visual effects. Understanding these basics helps you approach shader development more confidently.<br><br>Core Mathematical Operations
+📐 Vector Operations:
+
+<br>Dot Product: Essential for lighting calculations
+<br>Cross Product: Used for calculating surface normals
+
+🔄 Matrix Transformations:
+
+<br>Object to world space conversions
+<br>Camera projection calculations
+
+🌈 Color Operations:
+
+<br>RGB blending and color transitions
+<br>Color space conversions
+
+🌊 Noise Functions:
+
+<br>Create procedural patterns for natural effects
+<br>Generate randomness for organic textures
+
+<br><br><br>Writing efficient shaders ensures your game maintains smooth performance across different hardware configurations.<br><br>Performance Best Practices
+
+<br>🔧 Minimize Complexity: Use simple math operations where possible
+<br>♻️ Reuse Variables: Avoid redundant calculations within shader code
+<br>📊 LOD Techniques: Reduce detail for distant objects automatically
+<br>🎯 Platform Awareness: Consider target hardware limitations early
+
+<br><br><br>Understanding common shader applications helps you recognize opportunities in your own projects.<br><br>Common Game Shader Applications
+💨 Dissolve Effects: Use noise textures to create object fading effects
+👻 Holographic Shaders: Combine transparency with scrolling UV animations
+🌊 Water Shaders: Simulate refraction and wave movement for realistic water
+<br>Professional VFX Community <a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX Website</a> - Industry forum for real-time visual effects<br><br><br>Coming up: We'll explore Unity's visual shader creation tool and learn how to build shaders without writing code.<br>📍 Progress Tracking
+
+<br>Module 2A: Shader Fundamentals and Concepts ✓
+<br>Module 2B: Shader Development Workflow and 3D Integration ✓
+<br>Module 2C: Unity Shader Graph Introduction
+<br>Module 2D: Advanced Shader Graph Techniques
+<br>Module 2E: Shader Integration and Optimization
+
+<br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2A - Shader Fundamentals" data-href="GMAP 395 - Module 2A - Shader Fundamentals" href="gmap-395\module-2\submodules\gmap-395-module-2a-shader-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2A</a><br>
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2C - Unity Shader Graph Intro" data-href="GMAP 395 - Module 2C - Unity Shader Graph Intro" href="gmap-395\module-2\submodules\gmap-395-module-2c-unity-shader-graph-intro.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2C</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html</link><guid isPermaLink="false">GMAP 395/Module 2/submodules/GMAP 395 - Module 2B - Shader Dev and 3D.md</guid><pubDate>Wed, 16 Jul 2025 13:33:58 GMT</pubDate></item><item><title><![CDATA[Module 2C: Unity Shader Graph Introduction]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Getting started with Unity's visual shader creation tool <br>
+Builds On: Shader structure and workflow concepts from Module 2B
+<br>Submodule Video Overview
+
+<br><br><br>Unity Shader Graph represents a fundamental shift in how we approach shader creation. Instead of writing (often) complex HLSL code, you can create sophisticated visual effects using a node-based interface (this form of visual scripting is something we have seen quite a bit now).<br>Think of Shader Graph as a visual translation layer that converts your creative ideas into the mathematical operations that GPUs understand. Most of the noes in visual scripting tools turn the visual operations into actual code and instructions in the background. When you connect nodes together, you're essentially building the same logic that would exist in written shader code (generally, with some small difference here and there), but in a way that makes the relationships between different operations much more visible and intuitive.<br><br>Before diving into Shader Graph, you need to understand one important technical requirement (for the version of Unity we use in the course). Shader Graph operates exclusively within Unity's Scriptable Render Pipeline (SRP), which means you cannot use it with the built-in render pipeline that Unity uses by default. For this course, we recommend using the Universal Render Pipeline (URP) because it provides excellent performance across different platforms while maintaining the flexibility you need for learning and applying your own artistic touches.<br><br><br><br>The Blackboard serves as your shader's control panel, where you define and expose parameters that other team members can adjust without opening the shader itself. When you create a property in the Blackboard, you're essentially saying "this is something that should be adjustable by designers or programmers in the editor. (assuming the property is Exposed)"<br><img alt="GMAP 395/Module 2/media/blackboard_shadergraph_path.png" src="lib\media\blackboard_shadergraph_path.png"><br>The Graph Inspector provides contextual information about whatever node you currently have selected; it offers detailed explanations of what each node does and how its parameters affect the final result. It also provides settings for the full shader graph itself.<br><img alt="InternalInspectorBlackboardProperty.png" src="lib\media\internalinspectorblackboardproperty.png"><br>The Main Stack handles the core logic of your shader, separating vertex operations (which affect geometry) from fragment operations (which determine pixel colors). This separation mirrors the fundamental shader structure discussed in previous modules.<br><img alt="GMAP 395/Module 2/media/MasterStack_Populated.png" src="lib\media\masterstack_populated.png"><br>The Main Preview shows real-time updates of your shader as you work. <br>Honestly, the preview is really not very useful and tends to stop working frequently.
+When in doubt, always test your shader on actual geometry in your scene to see how it truly behaves under real lighting conditions. 
+<br>The Toolbar contains essential functions for saving, compiling, and debugging your shaders.<br>Official Documentation <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Getting-Started.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Getting-Started.html" target="_blank">Shader Graph Documentation</a> provides comprehensive technical reference for all Shader Graph features.<br><br><br>Understanding how Shader Graph relates to the traditional shader concepts already covered will help you approach visual shader creation with a stronger foundation. When you create a node in Shader Graph, you're essentially creating a visual representation of code that would otherwise need to be written by hand.<br><br>Remember the shader code structure we examined in <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2B - Shader Dev and 3D" data-href="GMAP 395 - Module 2B - Shader Dev and 3D" href="gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2B</a>? Shader Graph takes those same concepts and presents them visually. When you connect a Texture Sample node to the Base Color input of your Main Stack, you're performing the same operation as writing texture sampling code in a traditional fragment shader.<br>Properties that you define in the Blackboard correspond directly to the Properties section of written shader code. The difference is that Shader Graph automatically handles the technical details of exposing these properties to Unity's material inspector.<br><br>Each node in Shader Graph represents a specific mathematical operation or data manipulation. A Multiply node performs the same function as a multiplication operation in written HLSL code.<br>This visual approach becomes particularly powerful when dealing with complex operations like normal mapping or procedural texture generation. Instead of writing mathematical formulas from scratch, you can build up these effects step by step, seeing the intermediate results at each stage of the process.<br><br><br>Creating your first shader in Shader Graph should feel like a guided exploration rather than a technical challenge. Start with simple concepts and gradually build complexity as you become more comfortable with the interface.<br><br>Begin by creating a new Unlit Shader Graph and focus on understanding how data flows from inputs to outputs. Add a Color property to your Blackboard and connect it directly to the Base Color input of your Fragment stack. This simple connection demonstrates the fundamental concept of Shader Graph: visual nodes represent data, and connections between nodes represent the flow of that data through your shader.<br>When you apply this shader to a material and then to a 3D object, you're seeing the same result you would get from the basic shader code we examined earlier, but achieved through visual means rather than written code. This equivalence is important to understand because it reinforces that Shader Graph is not a separate technology, but instead a different way of creating the same underlying GPU programs.<br><br>As you experiment with connecting different nodes, pay attention to the colors of the connection lines. These colors represent different data types:<br><br>Understanding these data types helps you make appropriate connections and avoid common mistakes. For example, connecting a Vector3 color output to a float input will automatically convert the color to a single grayscale value, which might not be what you intended.<br><br><br>🤔 Hands-On Exploration (5-7 minutes)
+Open Unity and create a new Shader Graph asset. Spend a few minutes exploring the interface without trying to create anything specific. Focus on understanding the relationship between different interface elements.
+Consider these questions as you explore:
+
+<br>How does adding a property to the Blackboard change what's available in the main graph area?
+<br>What happens when you select different nodes and observe the Graph Inspector?
+<br>How does the preview update when you make changes to your graph?
+
+Write down 2-3 observations about how the visual interface relates to the shader concepts we've discussed in previous modules.
+<br><br><br>Coming up: We'll explore sophisticated Shader Graph techniques including texture manipulation, vertex displacement, and procedural pattern generation.<br>📍 Progress Tracking
+
+<br>Module 2A: Shader Fundamentals and Concepts ✓
+<br>Module 2B: Shader Development Workflow and 3D Integration ✓
+<br>Module 2C: Unity Shader Graph Introduction ✓
+<br>Module 2D: Advanced Shader Graph Techniques
+<br>Module 2E: Shader Integration and Optimization
+
+<br><br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2B - Shader Dev and 3D" data-href="GMAP 395 - Module 2B - Shader Dev and 3D" href="gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2B</a><br>
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2D - Additional Shader Graph Techniques" data-href="GMAP 395 - Module 2D - Additional Shader Graph Techniques" href="gmap-395\module-2\submodules\gmap-395-module-2d-additional-shader-graph-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2D</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-2\submodules\gmap-395-module-2c-unity-shader-graph-intro.html</link><guid isPermaLink="false">GMAP 395/Module 2/submodules/GMAP 395 - Module 2C - Unity Shader Graph Intro.md</guid><pubDate>Wed, 16 Jul 2025 13:34:58 GMT</pubDate><enclosure url="lib\media\blackboard_shadergraph_path.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\blackboard_shadergraph_path.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 2D: Additional Shader Graph Techniques]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Mastering sophisticated Shader Graph operations for professional-quality materials<br>
+Builds On: Interface understanding and basic node connections from Module 2C
+<br><br><br>Understanding how to work with textures in Shader Graph opens the door to creating sophisticated, detailed materials. The process builds upon the basic color control concepts from our previous module, but introduces the complexity of working with image data and combining multiple visual elements.<br>When you sample a texture in Shader Graph, you're essentially telling the GPU to look up color information from a 2D image at specific coordinates. The Sample Texture 2D node performs this operation, taking UV coordinates as input and returning color data as output. <br><br><br>The real power of texture mapping emerges when you begin combining multiple textures to create materials that feel rich and detailed. The Lerp (Linear Interpolation) node becomes your primary tool for blending different visual elements together. When you use a Lerp node, you're creating a smooth transition between two input textures based on a third input that acts as a blending mask.<br>Consider how this might work in practice: you could blend between a clean metal texture and a rusted metal texture using a noise pattern as your mask. Areas where the mask is white would show the clean metal, areas where the mask is black would show the rusted version, and gray areas would create a smooth blend between the two states.<br>Essential Texture Blending Pattern<br>Texture A (Clean Metal) ────┐
+                            ├── LERP ──► Blended Result
+Texture B (Rusted Metal) ───┘     ▲
+                                 │
+Noise Mask (Black/White) ─────────┘
+<br><br><br>Professional materials often use multiple texture layers to achieve convincing results (this is a physically-based rendering approach or PBR). The Multiply node becomes particularly useful when adding detail textures that enhance rather than replace your base material information. When you multiply a detail texture with your base color, darker areas of the detail texture will darken the base color, while lighter areas will leave it relatively unchanged. This creates the impression of surface variation and detail without completely obscuring your primary texture.<br><br><br><br>Normal mapping represents one of the most impactful techniques available in modern game development, allowing you to add the visual impression of detailed surface geometry without the performance cost of additional polygons.<br><br>A normal map stores surface direction information in the red, green, and blue channels of a texture, with each color channel representing direction along a different axis. When the lighting system calculates how light should interact with your surface, it uses this direction information to simulate bumps, crevices, and other surface irregularities that don't actually exist in your 3D geometry.<br>RGB Channel Breakdown<br>Normal Map Channels:
+🔴 Red   = X-axis direction (left/right bumps)
+🟢 Green = Y-axis direction (up/down bumps)  
+🔵 Blue  = Z-axis direction (in/out depth)
+
+Purple color = pointing toward camera
+<br>The Sample Texture 2D node can read normal map data, but you need to ensure that Unity interprets this data correctly. Setting the node's Type parameter to "Normal" tells Unity to treat the RGB values as direction vectors rather than color information. This distinction is crucial because normal maps require special mathematical processing to work properly with lighting calculations.<br>Essential Normal Mapping Resources
+Understanding the theory behind normal mapping will improve your practical application:
+
+<br><a data-tooltip-position="top" aria-label="https://www.artstation.com/blogs/typhen/GMyG/this-is-normal-1-what-normal-maps-are-and-how-they-work" rel="noopener nofollow" class="external-link" href="https://www.artstation.com/blogs/typhen/GMyG/this-is-normal-1-what-normal-maps-are-and-how-they-work" target="_blank">This is Normal - ArtStation</a>
+<br><a data-tooltip-position="top" aria-label="https://www.adobe.com/products/substance3d/discover/normal-mapping.html" rel="noopener nofollow" class="external-link" href="https://www.adobe.com/products/substance3d/discover/normal-mapping.html" target="_blank">What is Normal Mapping? - Adobe</a>
+
+<br><br>Professional materials often combine multiple normal maps to achieve different scales of surface detail. You might use one normal map to simulate large-scale surface features like scratches or dents, while using a second normal map to add fine-scale texture like fabric weave or metal grain.<br><br>When blending normal maps, it's important to understand that you're not simply adding color values together. Normal maps represent direction vectors, so combining them requires vector mathematics to ensure that the resulting surface directions remain physically plausible. The Normal Blend node handles these calculations automatically.<br><br><br>Creating materials that feel alive and responsive requires understanding how to manipulate various shader inputs dynamically. These techniques allow for materials that can change and respond to different conditions within your game state or gameplay mechanics.<br><br>The ability to adjust material colors dynamically opens up numerous gameplay possibilities. You might change a character's armor color to reflect different factions, or shift environmental materials to indicate different gameplay states. The basic mathematical nodes in Shader Graph—Add, Multiply, and Lerp—become useful tools for creating these dynamic color systems.<br><br>Understanding how these operations affect color can help you achieve specific visual goals. Multiplying a color by a value greater than one will brighten it, while multiplying by a value less than one will darken it. Adding a color value will shift the overall hue, which can be useful for creating lighting effects or magical glows. The Lerp node allows you to smoothly transition between different color states, perfect for creating materials that change over time or in response to player actions.<br><br>UV coordinates determine how textures map onto your 3D geometry, but they don't have to remain static! By manipulating UV coordinates, you can create scrolling textures, rotating patterns, and other animated effects that bring your materials to life. The Tiling and Offset node provides the base these parameters, allowing you to scale and move your texture mapping in real time.<br>UV Coordinates ──► Tiling and Offset ──► Animated UVs
+                        ▲
+                        │
+    Time ──► Multiply ──┘
+           (Speed Control)
+
+<br>Common UV Animation Patterns
+Scrolling Water:  UV.X += Time * Speed<br>
+Rotating Portal:  UV = Rotate(UV, Time * RotationSpeed)<br>
+Pulsing Scale:    UV *= 1 + Sin(Time) * 0.1
+<br><br><br>The Time node in Shader Graph provides access to various time values that you can use to drive animations. Understanding the different time outputs helps you choose the right one for your specific needs. The basic Time output provides the number of seconds since the application started, making it perfect for continuous animations like scrolling textures or pulsing lights.<br><br>When using time-based animations, consider how they will feel to players over extended gameplay sessions. Subtle, slow animations often work better than rapid, dramatic changes because they provide visual interest without becoming distracting or visually tiresome.<br><br><br><br>Vertex displacement represents a powerful technique for creating materials that actually modify the shape of your geometry rather than just changing its surface appearance. This capability opens up possibilities for effects like rippling water, swaying foliage, or morphing surfaces.<br><br>When you modify vertices in a shader, you're changing the actual 3D positions of points that make up your geometry. This (typically) happens before the lighting calculations, which means that displaced vertices will cast shadows and interact with lighting exactly as if the geometry were actually shaped that way. The Position node provides access to vertex position data, which you can then modify using mathematical operations.<br><br>The key to effective vertex displacement lies in understanding that you're working with the original vertex positions, not the final screen positions. This means you need to think in terms of local object space when designing your displacement effects. Moving a vertex along its normal direction will push it outward from the surface, while moving it along world space axes will create directional displacement effects.<br><br>Sine waves provide an excellent foundation for creating natural-looking motion because they produce smooth, cyclical changes that feel organic. When you combine the Sine node with the Time node, you create oscillating displacement that can simulate phenomena like water waves, breathing motions, or magical energy effects.<br>Basic Wave Displacement<br>// Simple sine wave
+Position.y += sin(Position.x + Time * Speed) * Amplitude
+
+// Multi-directional waves
+Position.y += sin(Position.x + Time * 2) * 0.1 +
+              cos(Position.z + Time * 1.5) * 0.05
+
+// Circular ripples
+Distance = length(Position.xz)
+Position.y += sin(Distance * Frequency + Time * Speed) * Amplitude
+<br>Understanding how to modify sine wave behavior allows you to fine-tune your effects for different visual goals. Multiplying the time input changes the frequency of oscillation, while multiplying the output changes the amplitude or strength of the displacement. Adding an offset to the time input can create phase differences between different parts of your geometry, resulting in wave-like motion that travels across your surface.<br><br><br><br>Noise functions represent the core of creating natural-looking, varied materials without requiring hand-painted textures. <br><br>Perlin Noise creates soft, organic patterns that work well for simulating natural phenomena like clouds, terrain variation, or organic surface textures. The gradual transitions and flowing patterns make it ideal for situations where you want variation that feels natural rather than chaotic.<br>Voronoi Noise generates cellular patterns that resemble cracked earth, animal skin patterns, or crystalline structures. The sharp boundaries between cells create a different aesthetic that can be useful for more geometric or structured procedural textures.<br>Gradient Noise provides another option for soft transitions (Perlin noise is actually a form of gradient noise) and blending effects, with characteristics that fall somewhere between Perlin and other noise types. Understanding when to use each type of noise comes with experience and experimentation.<br><br><br><br><br>The Remap node becomes particularly powerful when working with noise because it allows you to control exactly how noise values translate into visual effects. By remapping noise from its default range to different values, you can create sharp contrasts, soft gradients, or any variation in between.<br><br>Combining multiple noise patterns at different scales creates the kind of complex, layered variation that characterizes high-quality procedural materials. You might use large-scale noise to control primary color variation, medium-scale noise for texture detail, and small-scale noise for surface roughness variation. The Lerp and Multiply nodes help you blend these different scales of variation together effectively.<br>Large Scale Noise (0.1 frequency) ──┐
+                                    ├── Add ──► Complex Pattern
+Medium Scale Noise (0.5 frequency) ─┤
+                                    │
+Fine Detail Noise (2.0 frequency) ──┘
+<br><br><br>While Unity provides excellent built-in lighting systems (as we have seen already), understanding how to create custom lighting effects gives you additional creative control and allows you to achieve specific artistic styles that might not be possible with standard lighting alone.<br><br>Fresnel effects occur naturally when light interacts with surfaces at glancing angles, creating bright edges and darker center areas. The Fresnel node in Shader Graph simulates this phenomenon, allowing you to create rim lighting effects that highlight the edges of objects. This technique is particularly effective for creating magical glows, force field effects, or simply enhancing the visual separation between objects and their backgrounds.<br><br>Fresnel Applications<br>Rim Lighting:     Fresnel * Color * Intensity
+Force Fields:     Fresnel * Pulsing Animation
+Glass Materials:  1 - Fresnel (inverted for transparency)
+Energy Effects:   Fresnel * Noise * Bright Color
+<br><br><br><br>🤔 Synthesis Exercise (8-10 minutes)
+Think about a specific visual effect you'd like to create for a game project—perhaps magical energy, flowing water, weathered metal, or organic growth patterns. Consider how you might combine the techniques covered in this module to achieve that effect.
+Consider these technical approaches:
+
+<br>Which types of noise would be most appropriate for your effect?
+<br>How might you use UV animation to enhance the sense of movement or change?
+<br>Would vertex displacement add to the convincing nature of your effect?
+<br>How could custom lighting or rim effects enhance the overall impression?
+
+Sketch out a node flow (even just with words) that describes how you would approach building this effect step by step, building from simple base elements to more complex combined results.
+<br><br><br>Understanding how these advanced techniques connect to your overall game development workflow helps you see their practical applications beyond pure visual experimentation. The sophisticated materials you can create with these techniques become valuable assets that can enhance player engagement and support your game's overall design goals.<br><br>As your shaders become more sophisticated, maintaining good performance becomes increasingly important. Vertex displacement effects can be particularly expensive because they require additional geometry to look smooth, while complex noise calculations can impact fragment shader performance. Understanding these trade-offs helps you make informed decisions about when to use advanced techniques and when simpler approaches might be more appropriate.<br><br>Performance Hierarchy (Most to Least Expensive)
+
+<br>Vertex Displacement - Requires dense geometry
+<br>Multiple Texture Samples - Memory bandwidth heavy
+<br>Complex Math Operations - Sin, Cos, Pow functions
+<br>Simple Math - Add, Multiply, Lerp
+<br>Property Lookups - Colors, single values
+
+<br>The key lies in matching your shader complexity to your specific platform and performance requirements. Mobile games might require more conservative approaches, while high-end PC games can afford more sophisticated effects.<br><br><br>Coming up: We'll explore how to integrate shaders with game systems and understand how shaders fit into the broader rendering pipeline.<br>📍 Progress Tracking
+
+<br>Module 2A: Shader Fundamentals and Concepts ✓
+<br>Module 2B: Shader Development Workflow and 3D Integration ✓
+<br>Module 2C: Unity Shader Graph Introduction ✓
+<br>Module 2D: Advanced Shader Graph Techniques ✓
+<br>Module 2E: Shader Integration and Optimization
+
+<br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2C - Unity Shader Graph Intro" data-href="GMAP 395 - Module 2C - Unity Shader Graph Intro" href="gmap-395\module-2\submodules\gmap-395-module-2c-unity-shader-graph-intro.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2C</a><br>
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2E - Shader Integration" data-href="GMAP 395 - Module 2E - Shader Integration" href="gmap-395\module-2\submodules\gmap-395-module-2e-shader-integration.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2E</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-2\submodules\gmap-395-module-2d-additional-shader-graph-techniques.html</link><guid isPermaLink="false">GMAP 395/Module 2/submodules/GMAP 395 - Module 2D - Additional Shader Graph Techniques.md</guid><pubDate>Tue, 15 Jul 2025 01:52:15 GMT</pubDate></item><item><title><![CDATA[Module 2E: Shader Integration and Optimization]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Understanding shader performance, game system integration, and professional development practices<br>
+Builds On: Advanced techniques and practical implementation from Module 2D
+<br><br><br>To truly master shader development, you need to understand exactly where shaders fit within the broader process of converting 3D data into the images players see on their screens.<br><br><br><br><img alt="GMAP 395/Module 2/media/renderPipeline.jpg" src="lib\media\renderpipeline.jpg"><br><br>Data Transformation Stages
+Model Space Vertices ──► World Space ──► Screen Space
+        ▲                    ▲              ▲
+   Original Mesh        Transformed    Final Positions
+                                          
+Vertex Attributes ──► Interpolation ──► Fragment Data
+ (UV, Normal, Color)    (Rasterizer)    (Per-Pixel)
+
+<br>Understanding this timing helps you appreciate why vertex displacement creates convincing effects compared to texture-based illusions—displaced vertices participate in shadow casting and lighting calculations.<br><br><br><br>Deep Dive Resource <a data-tooltip-position="top" aria-label="https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview" rel="noopener nofollow" class="external-link" href="https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview" target="_blank">OpenGL Rendering Pipeline Overview</a> provides comprehensive technical details about how graphics pipelines function at a low level.<br><br><br>The real power of shaders in game development emerges when you connect them dynamically to your game's systems and logic. This integration transforms static visual elements into responsive, interactive components.<br><br><br>When you expose properties in your Shader Graph through the Blackboard, Unity automatically makes these properties available to your C# scripts through the Material class.<br>using UnityEngine;
+
+public class MaterialController : MonoBehaviour
+{
+    public Material dynamicMaterial;
+    public float pulseSpeed = 2f;
+
+    void Update()
+    {
+        // Create a pulsing emission effect using time-based animation
+        float emission = Mathf.PingPong(Time.time * pulseSpeed, 1f);
+        dynamicMaterial.SetFloat("_EmissionIntensity", emission);
+    }
+
+    public void SetDamageEffect()
+    {
+        // Flash red when the character takes damage
+        dynamicMaterial.SetColor("_BaseColor", Color.red);
+    }
+    
+    public void RestoreNormalColor()
+    {
+        // Return to the original color after damage effect
+        dynamicMaterial.SetColor("_BaseColor", Color.white);
+    }
+}
+<br><br>Professional Game Applications
+Health Systems:     Material.SetFloat("_DamageAmount", healthPercentage)
+Interactive Objects: Material.SetFloat("_GlowIntensity", proximityValue)  
+Environmental Story: Material.SetColor("_CorruptionColor", storyProgress)
+Achievement Visual:  Material.SetFloat("_CompletionGlow", achievementState)
+
+<br>Understanding these broader applications helps you think creatively about how material control can support your game's design goals beyond purely aesthetic considerations.<br><br><br>Creating smooth, polished visual transitions requires understanding how to integrate shader property changes with animation systems. Professional games rarely make abrupt visual changes because smooth transitions feel more natural.<br><br><br><br>using DG.Tweening;
+using UnityEngine;
+
+public class MaterialAnimator : MonoBehaviour
+{
+    public Material targetMaterial;
+    
+    void Start()
+    {
+        // Create a looping color animation that cycles between blue and red
+        targetMaterial.DOColor(Color.blue, "_EmissionColor", 2f)
+            .SetLoops(-1, LoopType.Yoyo);
+    }
+    
+    public void TriggerPowerUpEffect()
+    {
+        // Animate multiple properties simultaneously for a power-up effect
+        Sequence powerUpSequence = DOTween.Sequence();
+        powerUpSequence.Append(targetMaterial.DOFloat(2f, "_EmissionIntensity", 0.5f));
+        powerUpSequence.Join(targetMaterial.DOColor(Color.yellow, "_BaseColor", 0.5f));
+        powerUpSequence.AppendInterval(1f);
+        powerUpSequence.Append(targetMaterial.DOFloat(0f, "_EmissionIntensity", 0.5f));
+        powerUpSequence.Join(targetMaterial.DOColor(Color.white, "_BaseColor", 0.5f));
+    }
+}
+<br>Animation Parameter Types
+SetFloat() ──► Emission intensity, displacement strength, noise scale
+SetColor() ──► Base color, emission color, rim light color  
+SetVector() ──► UV offsets, direction vectors, multi-parameter controls
+SetTexture() ──► Swapping textures for state changes
+
+<br>The key insight: any parameter you can control through code can also be animated through tweening, opening up sophisticated visual sequences that respond to gameplay events with precisely timed material changes.<br><br><br>Examining how successful games use shader techniques provides valuable insights into professional development practices and helps you understand the strategic thinking behind visual design decisions.<br><br><br><br><br>The strategic aspect involves balancing visual sophistication with gameplay requirements—water needs to look convincing while clearly communicating navigation information.<br><br>Normal State ──► Trigger Event ──► Transition Shader ──► New State
+     ▲                                                       │
+     └─────────────── Return Event ◄─────────────────────────┘
+
+// Example: Control's reality-shifting walls
+Material.SetFloat("_TransitionAmount", 0f → 1f → 0f)
+<br>Professional Shader Integration Patterns
+Performance Scaling: LOD materials for different distances
+Platform Adaptation: Mobile vs PC shader complexity variants  
+Gameplay Integration: Health/status reflected in visual materials
+Environmental Systems: Time-of-day affecting material appearance
+
+<br><br><br>Creating shaders that perform well across different hardware configurations requires understanding both technical constraints and practical measurement techniques.<br><br><br><br><br><br>Unity Debugging Tools
+Frame Debugger (Window &gt; Analysis &gt; Frame Debugger)
+
+<br>See exactly how your shader renders step-by-step
+<br>Identify performance bottlenecks and unexpected behavior
+
+Scene View Debug Modes (Scene View &gt; Debug Shading Modes)
+
+<br>Isolate specific material components (albedo, normals, etc.)
+<br>Verify shader behavior under controlled conditions
+
+Material Inspector Debug Properties
+
+<br>Expose internal shader values for real-time tweaking
+<br>Test edge cases and parameter ranges
+
+<br>Professional debugging often involves systematically testing materials under different conditions to ensure consistent behavior across various gameplay scenarios.<br><br>Base Material Template
+├── Mobile Variant (LOD 0)
+│   ├── Single texture sample
+│   ├── Simple color operations
+│   └── No vertex displacement
+├── Standard Variant (LOD 1)  
+│   ├── 2-3 texture samples
+│   ├── Basic normal mapping
+│   └── Simple vertex effects
+└── High-End Variant (LOD 2)
+    ├── Multiple texture layers
+    ├── Complex normal blending
+    └── Advanced displacement
+<br>Performance Optimization Guidelines
+Texture Memory:    Pack multiple maps into single textures (RGBA channels)
+Math Operations:   Use Lerp instead of complex conditional logic
+Vertex Density:    Match geometry resolution to displacement complexity  
+Platform Testing:  Always test on target hardware, not just editor
+
+<br><br><br>Understanding when to use visual shader tools versus traditional shader coding helps you choose the most appropriate approach for different development scenarios.<br><br><br><br><br><br>Professional Development Strategy
+Start with Shader Graph for:
+
+<br>Rapid prototyping and concept validation
+<br>Team communication and visual documentation
+<br>Standard material effects and variations
+
+Transition to Hand-Written when:
+
+<br>Performance optimization becomes critical
+<br>Custom lighting models are required
+<br>Platform-specific adaptations are needed
+<br>Advanced techniques exceed Shader Graph capabilities
+
+<br>The visual logic you create in Shader Graph corresponds directly to operations you would write in shader code, so experience with one approach supports learning the other.edge rendering techniques, the flexibility of direct code often becomes necessary.<br>Complex lighting models, advanced post-processing effects, and highly optimized mobile shaders often require the precision and control that only hand-written code can provide. Understanding both approaches helps you choose the right tool for each specific situation.<br><br><br>🤔 Professional Application Exercise (10-12 minutes)
+Consider a specific game project you might work on (either real or hypothetical). Think about how the integration concepts from this module could enhance player experience and support your game's design goals.
+Integration Planning Matrix:
+
+Consider these questions:
+
+<br>How could dynamic material responses provide valuable feedback to players?
+<br>What performance constraints would you need to consider for your target platform?
+<br>How might your materials need to integrate with other systems like lighting or particle effects?
+
+Write a brief integration plan that describes your approach to material development within a larger game development effort.
+<br><br><br>Understanding current trends and future directions in shader development helps you prepare for evolving industry requirements and technological opportunities.<br><br><br><br>Building Expertise Roadmap
+Foundation Level (Current Module Focus)
+
+<br>✅ Shader Graph proficiency
+<br>✅ Material system integration
+<br>✅ Performance optimization basics
+<br>✅ Game system connections
+
+Intermediate Development
+
+<br>Hand-written HLSL shader creation
+<br>Custom lighting model implementation
+<br>Platform-specific optimization techniques
+<br>Advanced procedural content integration
+
+Advanced Specialization
+
+<br>Real-time ray tracing shader development
+<br>AI-assisted content generation workflows
+<br>Cross-platform rendering pipeline design
+<br>Technical art leadership and team coordination
+
+<br><br><br>This module has covered the essential concepts for integrating shader development into professional game development workflows. You've learned how shaders fit into the rendering pipeline, how to connect them dynamically to game systems, and how to approach performance optimization systematically.<br><br>The integration between technical skill and creative vision that shader development requires reflects broader patterns in modern game development. The most successful projects emerge from teams that can balance artistic goals with technical constraints while maintaining focus on player experience.<br>Professional Shader Development Mindset
+Creative Vision ──┐
+                   ├── Balanced Implementation ──► Player Experience
+Technical Reality─┘
+
+Consider simultaneously:
+• Visual impact and artistic goals
+• Performance constraints and platform limits  
+• Team workflow and collaboration needs
+• Player feedback and usability requirements
+
+<br><br>📍 Progress Tracking
+
+<br>Module 2A: Shader Fundamentals and Concepts ✓
+<br>Module 2B: Shader Development Workflow and 3D Integration ✓
+<br>Module 2C: Unity Shader Graph Introduction ✓
+<br>Module 2D: Advanced Shader Graph Techniques ✓
+<br>Module 2E: Shader Integration and Optimization ✓
+
+<br><br>🧭 Module Navigation
+ Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2D - Additional Shader Graph Techniques" data-href="GMAP 395 - Module 2D - Additional Shader Graph Techniques" href="gmap-395\module-2\submodules\gmap-395-module-2d-additional-shader-graph-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">Module 2D</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>  
+]]></description><link>gmap-395\module-2\submodules\gmap-395-module-2e-shader-integration.html</link><guid isPermaLink="false">GMAP 395/Module 2/submodules/GMAP 395 - Module 2E - Shader Integration.md</guid><pubDate>Tue, 15 Jul 2025 16:43:47 GMT</pubDate><enclosure url="lib\media\renderpipeline.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\renderpipeline.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 4 - In-Class Lab]]></title><description><![CDATA[ 
+ <br><br>Gain hands-on experience creating and modifying basic shaders using Unity's Shader Graph. <br><br>
+<br>Unity 2022.3
+<br>Basic understanding of Unity interface
+<br>Universal Render Pipeline (URP) set up in your project
+<br><br><br><br>
+<br>In Unity, right-click in the Project window
+<br>Select Create &gt; Shader &gt; Universal Render Pipeline &gt; Unlit Shader Graph
+<br>Name it "MyFirstShaderGraph"
+<br>Double-click to open it in the Shader Graph window
+<br><br>
+<br>In the Shader Graph window, locate the Blackboard (usually on the left side)
+<br>In the Blackboard:
+
+<br>Click the + button
+<br>Choose Color from the dropdown
+<br>Name it _Color (or any appropriate name)
+<br>Set a default color if desired (found in the Graph Inspector &gt; Node Settings)
+
+
+<br>In the graph area:
+
+<br>Click and drag the _Color property from the Blackboard directly into the graph area
+
+
+<br>Connect the Color property node's output to the Base Color input of the "Fragment" node
+<br>Click "Save Asset" to save your shader graph
+<br><br>
+<br>In Unity, create a new 3D object (e.g., Sphere) in your scene
+<br>Create a new material:
+
+<br>Right-click in the Project window &gt; Create &gt; Material
+<br>Name it appropriately
+
+
+<br>In the new material's Inspector:
+
+<br>Set the Shader to your "Shader Graph/MyFirstShaderGraph"
+<br>Adjust the Color property to see changes on your 3D object
+
+
+<br><br><br><br>
+<br>
+In the Blackboard, add the following properties:
+
+<br>Texture2D named _MainTex
+<br>Vector2 named _Tiling (set default to 1,1)
+<br>Vector2 named _Offset (set default to 0,0)
+
+
+<br>
+In your Shader Graph, add the following nodes:
+
+<br>Drag the _MainTex, _Tiling, and _Offset properties from the Blackboard into the graph
+<br>Add a Tiling And Offsetnode
+<br>Add a Sample Texture 2D node
+
+
+<br>Hotkey
+SPACEBAR is the hotkey shortcut to open the create node dialogue box.
+<br>
+<br>Connect the nodes:
+
+<br>Connect the _Tiling and _Offset outputs to the respective inputs of the Tiling And Offset node
+<br>Connect the UV output of Tiling And Offset to the UV input of Sample Texture 2D
+<br>Connect the _MainTex property to the Texture input of Sample Texture 2D
+
+
+<br><br>
+<br>
+Add a Multiply node
+
+<br>
+Connect:
+
+<br>The RGBA output of Sample Texture 2D to one input of Multiply
+<br>The _Color property to the other input of Multiply
+<br>The output of Multiply to the Base Color of the Fragment node
+
+
+<br>
+Save the Shader Graph
+
+<br><br>
+<br>Select your 3D object in the scene
+<br>In the Inspector, you should now see slots for Texture, Tiling, and Offset
+<br>Assign a texture to the Texture slot
+<br>Adjust Tiling and Offset values to see how they affect the texture
+<br><br><br><br>
+<br>
+In the Blackboard, add these Float properties:
+
+<br>_WaveAmount (default 1)
+<br>_WaveSpeed (default 1)
+<br>_WaveFrequency (default 1)
+
+
+<br>
+In your Shader Graph, add these nodes:
+
+<br>Drag the new Float properties from the Blackboard into the graph
+<br>Add Time node
+<br>Add Position node (set to World)
+<br>Add Sine node
+<br>Add several Multiply (3) nodes
+<br>Add Add node
+<br>Add Split node
+
+
+<br>
+Connect the nodes to create the wave effect:
+
+<br>Connect the output of the World Position node to the input of the Split node
+<br>Connect the R output of the Split node (which represents the X component) to one input of a Multiply node
+<br>Connect the _WaveFrequency to the other input of this Multiply node
+<br>Multiply _WaveSpeed by Time
+<br>Add the results of the above two operations using an Add node
+<br>Feed the output of the Add node into the Sine node
+<br>Multiply the Sine output by _WaveAmount
+
+
+<br>
+Add a Combine node:
+
+<br>Connect the R (X) and B (Z) from the Split node to the corresponding inputs on the Combine
+<br>For the G(Y) input of the Combine node, add the wave calculation to the G(Y) output of the Split node and connect it.
+
+
+<br>
+Connect the Combine node's output (RGBA or RGB) to the Position input of the Vertex node
+
+<br><br>
+<br>Save the Shader Graph
+<br>Select your 3D object in the scene
+<br>In the Inspector, you should now see Wave Amount, Wave Speed, and Wave Frequency properties
+<br>Adjust these values to see how they affect the object's shape
+<br><br><br><br>Modify your shader to blend between two colors based on a custom parameter.<br><br>
+<br>In the Blackboard, add:
+
+<br>Another Color property named _Color2
+<br>A Float property named _BlendFactor (set range 0 to 1)
+
+
+<br>Modes in Graph Inspector
+You can change the Mode of a property in the Graph Inspector to something like Slider
+<br>
+<br>
+In the graph area:
+
+<br>Drag the new properties from the Blackboard
+<br>Add a Lerp node
+
+
+<br>
+Connect the nodes:
+
+<br>Connect _Color and _Color2 to the A and B inputs of the Lerp node respectively
+<br>Connect _BlendFactor to the T input of the Lerp node
+
+
+<br>
+Use the output of the Lerp node in your final color calculation (e.g., multiply it with your texture sample)
+
+<br>
+Save the Shader Graph and adjust the Blend Factor in your material's Inspector to blend between the two colors.
+
+<br><br>
+<br>Try blending based on vertex position instead of a custom parameter
+<br>Implement a smooth transition that cycles between the colors over time (Time or Sine)
+<br>Add a third color and blend between all three
+<br>Check
+Remember to save your Shader Graph after each major change, and don't hesitate to experiment with different connections and values!
+]]></description><link>gmap-395\module-2\tutorials\gmap-395-wk-4-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - In-Class Lab.md</guid><pubDate>Mon, 27 Jan 2025 21:55:53 GMT</pubDate></item><item><title><![CDATA[Creating an Eldritch Portal Shader]]></title><description><![CDATA[ 
+ <br><br><br>Create a swirling circular portal shader using Unity’s Shader Graph, complete with dynamic transparency and procedural motion effects.<br><img alt="portalShaderGrab.png" src="lib\media\portalshadergrab.png" style="width: 640px; max-width: 100%;"><br><br><br>
+[gmap395_tut3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_F1UOYs8x0W2JbJRQ?e=JOQ7gp)<br><br><br>
+<br>Unity 2022.3 with URP installed.
+<br>Basic understanding of Shader Graph.
+<br>Completion of previous shader lab (recommended).
+<br><br><br><br>
+<br>In Unity, navigate to the Project tab.
+<br>Right-click and select Create &gt; Shader Graph &gt; URP/Lit Shader Graph.
+<br>Name it "EldritchPortalShader".
+<br>Important Graph Inspector Settings
+Surface Type : Transparent<br>
+Blending Mode: Multiply or Alpha<br>
+Render Face: Both<br>
+Alpha Clipping: ✅
+<br>Swirl Pattern Texture
+
+<br>Use a PNG with an alpha channel
+<br>Find something with a lot of "texture" or noise<br>
+What I used: <a data-tooltip-position="top" aria-label="https://1drv.ms/i/s!AqQzGx8l4o2wk_F0d_KPRwOyyq1jzg?e=mqpCpS" rel="noopener nofollow" class="external-link" href="https://1drv.ms/i/s!AqQzGx8l4o2wk_F0d_KPRwOyyq1jzg?e=mqpCpS" target="_blank">liquid_swirl_alpha.png</a>
+
+<br><br>
+<br>Open the Shader Graph and access the Blackboard.
+<br>Add the following properties:
+
+<br>Color: EdgeColor (default: Purple)
+<br>Float: EdgeWidth (default: 0.5, range: 0 to 1)
+<br>Texture2D: SwirlPattern (default: Procedural noise texture)
+<br>Float: SwirlSpeed (default: 1)
+<br>Float: Power (default: 2, range: 0.1 to 10)
+<br>Vector2: CenterPosition (default: 0,0)
+
+
+<br><br><br><br>
+<br>Time-Based Swirl Rotation:
+
+<br>Add a Time node and connect it to the A input of a Multiply node.
+<br>Link SwirlSpeed to the B input of the Multiply node.
+
+<br>the swirl speed can be set to a Slider (Mode) in the Graph Inspector (Node Settings)
+<br>Set the desired Min and Max; e.g. 0.1 - 1.
+
+
+<br>Connect the output to the Rotation input of a Rotate node.
+
+
+<br>Swirl UV Transformation:
+
+<br>Pass the output of the Rotate node to the UV input of a Tiling and Offset node.
+<br>Connect the output of Tiling and Offset to  to the UV input of a Polar Coordinates node.
+<br>Use CenterPosition as the Center input of the Polar Coordinates.
+<br>In Polar Coordinates Radial Scale should be ~1.25 and Length Scale ~1
+
+
+<br>Texture Sampling:
+
+<br>Add a Sample Texture 2D node.
+<br>Connect SwirlPattern to the Texture input and the output of Polar Coordinates to the UV input.
+
+<br>An important note for the next section, change the Mip Sampling Mode of the Sample Texture 2D node to Gradient in the Graph Inspector (Node Settings)
+
+
+<br>Use a DDX node, a DDY node, and the SamplerState to refine UV sampling.
+
+<br>Drop down a UV node and connect it to both DDX and DDY
+<br>Connect DDX to the DDX input of the Sample Texture 2D
+<br>Connect DDY to the DDY input of the Sample Texture 2D
+
+
+<br>Drop down a Sampler State node: set its Filter to Linear and its Warp to Mirror
+
+<br>Connect this node to the Sampler input of Sample Texture 2D
+
+
+
+
+<br>Swirl Blend:
+
+<br>Add a Blend node.
+<br>Connect the output of the Sample Texture 2D node to the Base input.
+<br>Connect EdgeColor to the Blend input.
+
+<br>The Mode should be set to Multiply (but feel free to experiment with looks)
+
+
+
+
+<br><br><br>
+<br>Noise Generation:
+
+<br>Add a Time node and connect it to a Multiply node for animation.
+
+<br>Multiply by ~.25
+
+
+<br>Pass the output to the Offset a Tiling and Offset node.
+
+
+<br>Noise Texture Sampling:
+
+<br>Add a Voronoi noise node and use the output of Time as its Angle Offset.
+
+<br>Experiment with Cell Density, but a good value is ~3.
+
+
+<br>Add a Gradient Noise node, connecting the output of Tiling and Offset to its UV input.
+
+<br>The Scale of the gradient node should be ~5.75.
+
+
+
+
+<br>Noise Blending:
+
+<br>Use a Blend node to combine the outputs of Voronoi and Gradient Noise.
+
+<br>I think the Mode Negation works well here; but again, experiment with it.
+
+
+
+
+<br><br><br>
+<br>Radial Transparency:
+
+<br>Add a Polar Coordinates node.
+
+<br>Set the Length Scale to ~2.45
+
+
+<br>Connect EdgeWidth as the Radial Scale input.
+
+
+<br>Gradient Sampling:
+
+<br>Pass the output of Polar Coordinates to the Time input of a Sample Gradient node.
+<br>Set the Gradient so it goes from Black &gt;&gt; White with more black showing, about halfway point.
+
+
+<br><br><br>
+<br>Base Swirl and Noise Combination:
+
+<br>Add a Multiply node.
+<br>Connect the output of the Blend node from the Basic Swirl Nodes section to A.
+<br>Connect the output of the Blend node from the Additional Noise section to B.
+
+
+<br>Power Adjustment:
+
+<br>Add a Power node and connect Power to its second input.
+<br>Pass the output of the Multiply node to the A input of Power.
+
+
+<br>Blend Blending:
+
+<br>Add a Blend(1) node to combine the outputs of the Power (into Blend input) node and the Sample Gradient node (into Base input) from the  Radial Alpha section.
+
+<br>Set the Opacity to ~1
+
+
+<br>Now Copy and Paste this Blend(2) node (you should now have 2)
+
+<br>Set this ones Opacity to ~0.5
+
+
+
+
+<br>Final Blend
+
+<br>Drop down a new Blend(Final) node.
+<br>Connect Blend(1) to Base
+<br>Connect Blend(2) to Base
+<br>Set the Opacity to ~0.5
+
+
+<br>Fragment Shader Stack:
+
+<br>Connect the final blend output to the main Fragment Shader output:
+
+<br>Base Color
+<br>Emission
+<br>Alpha
+<br>Alpha Clip Threshold
+
+
+
+
+<br><br><br><br>
+<br>Create or import a circular plane in Unity (or use a cylinder primitive).
+<br>Create a material from the Shader Graph (right-click &gt; create &gt; material)
+<br>Assign the material using the Eldritch Portal Shader to this mesh.
+<br><br>
+<br>Adjust the properties (EdgeWidt, SwirlSpeed, CenterPosition, etc.) to fine-tune the effect.
+<br>Experiment with different textures for SwirlPattern and different types of noise to create unique styles.
+<br><br>
+<br>Color Shifting: Use a Sample Gradient node linked to Time(Sine) for dynamic color transitions and pulsating effect.
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-2\tutorials\gmap-395-wk-4-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - Tutorial.md</guid><pubDate>Mon, 03 Feb 2025 16:29:40 GMT</pubDate><enclosure url="lib\media\portalshadergrab.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\portalshadergrab.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Game-Based Real-Time Shader Control w/ DOTween]]></title><description><![CDATA[ 
+ <br><br><br>In this tutorial, students will control shader parameters in real-time using C# scripts and game-based events. The goal is to modify the Eldritch Portal Shader from Week 4 dynamically, based on game logic (e.g., an enemy spawning from the portal).<br><br><br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_IOWxZ2Vcsusxzvng?e=ONBhuI" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_IOWxZ2Vcsusxzvng?e=ONBhuI" target="_blank">gmap395_tut4.mp4</a><br><br><br>✅ Unity 2022.3 with URP<br>
+✅ <a data-tooltip-position="top" aria-label="https://dotween.demigiant.com/getstarted.php" rel="noopener nofollow" class="external-link" href="https://dotween.demigiant.com/getstarted.php" target="_blank">DOTween</a><br>
+✅ Completion of Week 4’s Eldritch Portal Shader<br>
+✅ Basic familiarity with Shader Graph &amp; C# Scripting<br><br><br><br>Before we start controlling shader parameters, we need to install and set up DOTween in Unity. DOTween is a tweening engine that allows us to animate values smoothly over time, including object positions, UI elements, and shader properties.<br><br><br>
+<br>Open Unity and go to the Asset Store (Window &gt; Asset Store). The asset store can also be accesses from the Unity Hub (Community &gt; Asset Store)
+<br>Search for DOTween (by Demigiant). The free version is fine for this course.
+<br>Click Add to My Assets, then Open in Unity it into your project. Then Import it.
+<br>After importing, go to Tools &gt; DOTween Utility Panel in the top menu bar.
+<br>Click Setup DOTween (this generates the necessary setup files).
+<br><img alt="dotween1.png" src="lib\media\dotween1.png"><br>
+✅ DOTween is now ready to use in your project! 🎉
+<br><br><br>Let’s create a quick cube animation to test DOTween.<br><br>
+<br>In a new test scene, in the Hierarchy, right-click and select 3D Object &gt; Cube.
+<br>Rename it "TweenCube".
+<br>Reset its Transform (Right-click Transform &gt; Reset in the Inspector).
+<br><br>
+<br>In the Project Window, in your Scripts folder create a new C# script named DOTweenTest.cs.
+<br>Attach it to TweenCube.
+<br>Open the script and replace its contents with:
+<br>using UnityEngine;
+using DG.Tweening; // Import DOTween
+
+public class DOTweenTest : MonoBehaviour
+{
+    void Start()
+    {
+        // Move the cube up and down repeatedly
+        transform.DOMoveY(3f, 1f) // Move to Y = 3 in 1 second
+            .SetLoops(-1, LoopType.Yoyo) // Infinite loop with Yoyo effect
+            .SetEase(Ease.InOutSine); // Smooth transition
+    }
+}
+<br><br>
+<br>Click Play in Unity.
+<br>The cube will move up and down smoothly forever.
+<br>Try modifying values like:
+
+<br>Changing DOMoveY(3f, 1f) to DOMoveX(5f, 2f) to move sideways instead.
+<br>Adjusting .SetEase(Ease.InOutSine) to .SetEase(Ease.OutBounce) for a different effect.
+
+
+<br><br><br>✅ DOMoveY(3f, 1f) → Moves the cube’s Y position to 3 over 1 second.<br>
+✅ .SetLoops(-1, LoopType.Yoyo) → Makes it loop infinitely (up and down).<br>
+✅ .SetEase(Ease.InOutSine) → Creates a smooth, natural motion.<br>DOTween Documentation
+All of the possible functions/methods and concepts around the tweening engine can be learned from the <a data-tooltip-position="top" aria-label="https://dotween.demigiant.com/documentation.php" rel="noopener nofollow" class="external-link" href="https://dotween.demigiant.com/documentation.php" target="_blank">documentation</a>.
+<br><br><br><br>
+<br>Open the EldritchPortalShader in Shader Graph.
+<br>Locate the EdgeWidth property in the Blackboard.
+<br>Check its Reference Name is set to _EdgeWidth in the Graph Inspector &gt; Node Settings (for C# access).
+<br>Check that Exposed is ticked on.
+<br>Save and Apply changes.
+<br><br><br>We will use DOTween to smoothly animate the portal’s EdgeWidth when an "enemy is about to spawn."<br><br>
+<br>In Unity, create a new C# script named PortalShaderController.cs.
+<br>Attach it to the Portal GameObject, the one with the shader and material applied to it.
+<br>Replace its contents with the following:
+<br>using UnityEngine;
+using DG.Tweening; // Import DOTween
+
+public class PortalShaderController : MonoBehaviour
+{
+    public Material portalMaterial;  // Assign the material in the Inspector
+    private static readonly int EdgeWidthProperty = Shader.PropertyToID("_EdgeWidth");
+
+    public float normalWidth = 0.2f;
+    public float alertWidth = 0.6f;
+    public float transitionDuration = 1.0f; // How long the animation takes
+
+    void Start()
+    {
+        if (portalMaterial == null)
+        {
+            Debug.LogError("Portal material not assigned!");
+            return;
+        }
+
+        // Ensure EdgeWidth starts at normal width
+        portalMaterial.SetFloat(EdgeWidthProperty, normalWidth);
+    }
+
+    // Triggered when an enemy is about to spawn
+    public void ActivateAlert()
+    {
+        Debug.Log("Portal activating.");
+        
+        // DOTween smoothly changes EdgeWidth over time
+        portalMaterial.DOFloat(alertWidth, EdgeWidthProperty, transitionDuration)
+            .SetEase(Ease.InOutQuad);
+    }
+
+    // Reset the effect after a delay
+    public void DeactivateAlert()
+    {
+        Debug.Log("Portal deactivating.");
+        
+        // DOTween smoothly returns EdgeWidth to normal
+        portalMaterial.DOFloat(normalWidth, EdgeWidthProperty, transitionDuration)
+            .SetEase(Ease.InOutQuad);
+    }
+}
+<br><br>✅ DOFloat(): Smoothly transitions the shader property over time.<br>
+✅ SetEase(Ease.InOutQuad): Adds a smooth acceleration/deceleration.<br>
+✅ ActivateAlert(): Expands the portal effect.<br>
+✅ DeactivateAlert(): Resets the effect after a delay.<br>Inspector Values
+Be sure to assign the correct POrtal Material and tweak the Normal Width and Alert Width values in the Inspector for this script. If not errors may arise, such as a "NullReferenceExcpetion"
+<br><img alt="portalInspector.png" src="lib\media\portalinspector.png"><br><br><br><br>
+<br>Create an empty GameObject named "EnemySpawner".
+<br>Create a new script called EnemySpawner.
+<br>Attach the script to it and replace its contents:
+<br>using UnityEngine;
+using System.Collections;
+
+public class EnemySpawner : MonoBehaviour
+{
+    public PortalShaderController portalShader;
+    public float spawnDelay = 5f;  // Time before enemy spawns
+
+    void Start()
+    {
+        StartCoroutine(TriggerPortalAlert());
+    }
+
+    IEnumerator TriggerPortalAlert()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(spawnDelay);
+            
+            Debug.Log("Enemy spawning. Triggering portal effect.");
+            portalShader.ActivateAlert();
+            
+            yield return new WaitForSeconds(3f);
+            
+            Debug.Log("Enemy spawned. Resetting portal.");
+            portalShader.DeactivateAlert();
+        }
+    }
+}
+<br><br>
+<br>Drag the Portal GameObject into the portalShader field in the EnemySpawner script.
+<br>Play the scene—the portal will expand and contract smoothly when an enemy is "about to spawn."
+<br><img alt="enemySpawnerInspector.png" src="lib\media\enemyspawnerinspector.png"><br><br><br>✅ Test different EdgeWidth values to fine-tune the visual effect.<br>
+✅ Experiment with DOTween easing settings (Ease.OutBounce, Ease.InCirc, etc.).<br>
+✅ Try different game triggers instead of a timer (e.g., using OnTriggerEnter).<br><br><br>✅ Connected a C# script to Shader Graph to modify EdgeWidth dynamically.<br>
+✅ Used DOTween for smooth, animated transitions.<br>
+✅ Triggered the effect using a simulated enemy spawn event.<br>
+✅ Enhanced the experience with sound and particles.<br><br>
+<br>Try controlling other shader properties (like SwirlSpeed or EdgeColor).
+<br>Replace the enemy timer with a real game event (e.g., player proximity).  
+<br>Experiment with DOTween sequencing for more complex VFX.
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-2\tutorials\gmap-395-wk-5-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 2/tutorials/GMAP 395 - WK 5 - Tutorial.md</guid><pubDate>Mon, 03 Feb 2025 20:48:44 GMT</pubDate><enclosure url="lib\media\dotween1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\dotween1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 2 - Shaders and Material Development]]></title><description><![CDATA[ 
+ <br><br><br>This module deals with shader creation and material development, essential skills for adding dynamic visual behavior to assets. Students will explore both code-based and node-based shader workflows, focusing on enhancing procedural assets for real-time interactivity.<br>Module Overview Video 📹 &gt; <a data-tooltip-position="top" aria-label="" rel="noopener nofollow" class="external-link" href="" target="_blank">Module 2 - Overview Video</a> TODO<br><br><br><a data-href="GMAP 395 - Module 2A - Shader Fundamentals" href="gmap-395\module-2\submodules\gmap-395-module-2a-shader-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2A - Shader Fundamentals</a><br>
+<a data-href="GMAP 395 - Module 2B - Shader Dev and 3D" href="gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2B - Shader Dev and 3D</a><br>
+<a data-href="GMAP 395 - Module 2C - Unity Shader Graph Intro" href="gmap-395\module-2\submodules\gmap-395-module-2c-unity-shader-graph-intro.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2C - Unity Shader Graph Intro</a><br>
+<a data-href="GMAP 395 - Module 2D - Additional Shader Graph Techniques" href="gmap-395\module-2\submodules\gmap-395-module-2d-additional-shader-graph-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2D - Additional Shader Graph Techniques</a><br>
+<a data-href="GMAP 395 - Module 2E - Shader Integration" href="gmap-395\module-2\submodules\gmap-395-module-2e-shader-integration.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2E - Shader Integration</a><br><br>N/A<br><br>N/A<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 4 - Tutorial" data-href="GMAP 395 - WK 4 - Tutorial" href="gmap-395\module-2\tutorials\gmap-395-wk-4-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - Tutorial</a> <a data-href="GMAP 395 - WK 5 - Tutorial" href="gmap-395\module-2\tutorials\gmap-395-wk-5-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 5 - Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 2 - Brief" data-href="GMAP 395 - ASN 2 - Brief" href="gmap-395\module-2\gmap-395-asn-2-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 2 - Custom Shaders for Procedural Assets</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Weekly - 4" data-href="GMAP 395 - Weekly - 4" href="gmap-395\weeklies\gmap-395-weekly-4.html" class="internal-link" target="_self" rel="noopener nofollow">Weekly Crit 4</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Weekly - 5" data-href="GMAP 395 - Weekly - 5" href="gmap-395\weeklies\gmap-395-weekly-5.html" class="internal-link" target="_self" rel="noopener nofollow">Weekly Crit 5</a><br><br><a data-href="GMAP 395 - WK 4 - Slides + Video" href="gmap-395\module-2\legacy\gmap-395-wk-4-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - Slides + Video</a><br>
+<a data-href="GMAP 395 - WK 4 - In-Class Lab" href="gmap-395\module-2\tutorials\gmap-395-wk-4-in-class-lab.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - In-Class Lab</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - WK 5 - Slides + Video" data-href="GMAP 395 - WK 5 - Slides + Video" href="gmap-395\module-2\legacy\gmap-395-wk-5-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 5 - Slides + Video</a><br><br><br>
+<br>Introduction to shader fundamentals and material properties.
+<br>Unity Shader Graph workflow and node-based development.
+<br>PBR (Physically Based Rendering) material creation.
+<br>Dynamic and interactive shader behaviors.
+<br>Advanced techniques for real-time optimization.
+<br><br><br>By the end of this module, you will:<br>
+<br>Understand shader fundamentals and material properties for real-time rendering.
+<br>Practice with Unity Shader Graph for node-based shader development.
+<br>Develop dynamic and interactive shader behaviors.
+<br>Integrate custom shaders into real-time game systems.
+<br><br><br>
+<br>Ensure Unity (2022.3 or higher) is installed and updated.
+<br>Confirm your computer meets the recommended specifications for shader development.
+<br>Complete Module 1 assignments to have procedural assets ready for shader application.
+<br>If you have never used Shader Graph
+
+<br>If you are new to PBR Materials
+
+<br><br><br><br><br>
+<br>Unity 2022.3 SRP with Shader Graph: Included with Unity Editor.
+<br>An IDE (w/ optional HLSL support): Visual Studio or Visual Studio Code recommended.
+<br><br>
+<br>Substance 3D Painter (optional): For advanced material authoring.
+<br>Photoshop/GIMP (optional): For texture creation and editing.
+<br><br><br><br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Manual/shader-graph.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Manual/shader-graph.html" target="_blank">Unity Shader Graph Documentation</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.shadergraph@16.0/manual/Node-Library.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.shadergraph@16.0/manual/Node-Library.html" target="_blank">Shader Graph Node Library</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-shaders-and-materials?pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-shaders-and-materials?pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Learn - Shaders and Materials</a>
+<br><a data-tooltip-position="top" aria-label="https://www.kodeco.com/5671826-introduction-to-shaders-in-unity" rel="noopener nofollow" class="external-link" href="https://www.kodeco.com/5671826-introduction-to-shaders-in-unity" target="_blank">Introduction to Shaders in Unity</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/2022.3/Documentation/Manual/class-GraphicsSettings.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/2022.3/Documentation/Manual/class-GraphicsSettings.html" target="_blank">Unity Graphics Settings Overview</a>
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-2\gmap-395-module-2.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - Module 2.md</guid><pubDate>Mon, 14 Jul 2025 21:42:53 GMT</pubDate></item><item><title><![CDATA[Week 3 Progress Check: Procedural Modeling Exploration]]></title><description><![CDATA[ 
+ <br><br>Overview 
+Purpose: Share your early procedural modeling experiments and current project direction<br>
+Format: Brief individual share (2-3 minutes) + peer feedback  online<br>
+Due: Week 3 class session
+<br><br><br>This week is all about showing your work - we want to see what you've been experimenting with in your procedural modeling explorations and how your project concept is evolving through some hands-on practice.<br><br><br><br>Capture your work-in-progress from your DCC (Blender, Maya, Houdini, etc.)<br>
+Some ideas of things to share:<br>
+<br>Node networks/graphs - Show us your procedural setup
+<br>Geometry results - What's your system generating?
+<br>Iterations/variations - Different outcomes from tweaking parameters
+<br>Problem areas - Things that aren't working yet (this is valuable too!)
+<br><br>Tell us where you're at with your project concept:<br>
+<br>What procedural modeling(s) technique are you exploring?
+<br>How does this connect to your original project vision? If its different/changes, how so ?
+<br>What's one thing you've discovered or learned that surprised you?
+<br>What's your next step or biggest current challenge?
+<br><br><br><br>
+<br>Show your screenshots - walk us through what we're seeing
+<br>Explain your process - what procedural approach are you using?
+<br>Connect to your project - how does this fit your bigger vision?
+<br>Share one challenge - what's not working or what do you need help with?
+<br><br>Quick responses to/from classmates:<br>
+<br>What do you find most interesting about this approach?
+<br>Any suggestions for troubleshooting or next steps?
+<br>How might this technique apply to other projects?
+<br><br><br><br>
+<br>Screenshots ready to share (uploaded to thread to present)
+<br>Brief talking points prepared
+<br><br>
+<br>Post your screenshots in your individual thread
+<br>Include your 2-3 sentence project update
+<br>Comment on 2-3 peer posts with encouragement or suggestions
+<br><br>Remember
+
+<br>Progress &gt; perfection - we want to see your learning process
+<br>Problems are valuable - share what's not working, we can help troubleshoot
+<br>Be specific - instead of "I'm making a building," try "I'm trying to use arrays/modifiers to create modular wall panels"
+
+]]></description><link>gmap-395\weeklies\gmap-395-weekly-2.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md</guid><pubDate>Mon, 14 Jul 2025 20:19:51 GMT</pubDate></item><item><title><![CDATA[🕹️ <strong>*GMAP 395: Final Project Guide</strong>]]></title><description><![CDATA[ 
+ <br><br><br>Students will create a polished, interactive game art piece by focusing on one module of their choice from the course to do the Additional Requirements for. This final deliverable will showcase their technical and artistic skills while demonstrating mastery of the selected module.<br>Requirements vs Additional Requirements
+The "Requirements" for all four modules are required for all projects. You will choose one module to complete the "Additional Requirement" for to complete the final project.
+The "polished game art piece" you will make for the final is the same work you have been doing for the whole quarter. You are not required to make new work, just polish your existing assets.
+<br>DUE DATE
+TBD
+<br>Check out these <a data-tooltip-position="top" aria-label="GMAP 395 - Student Examples" data-href="GMAP 395 - Student Examples" href="gmap-395\gmap-395-student-examples.html" class="internal-link" target="_self" rel="noopener nofollow">Student Examples</a>from previous classes to get a feel for the final output.<br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_NJLPK-nqm7VbyChQ?e=PbvnMW" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_NJLPK-nqm7VbyChQ?e=PbvnMW" target="_blank">gmap395_finalVid.mp4</a><br><br><br><br>Each module for the final includes main requirements and one additional challenge to practice development, critical-thinking, and creativity.<br><br>
+Requirements:
+
+<br>✅ Create a procedural or modular system for props, characters, or environments.
+<br>✅ Integrate at least three lighting sources: one directional light and two auxiliary lights (e.g., point, spot, area lights).
+<br>✅ Use modular assets to build a cohesive scene.
+<br>✅ Incorporate a dynamic lighting element, like a day-night cycle or interactive light source.
+
+<br>
+🔧 Additional Requirement:
+
+<br>Add an advanced procedural element, such as animated modular components or interactive environmental changes (e.g., destructible props, dynamic weather systems).
+
+<br><br><br>
+Requirements:
+
+<br>✅ Develop at least two custom shaders using Shader Graph or HLSL.
+<br>✅ Include shaders with dynamic properties, like adjustable emission, transparency, or surface effects.
+<br>✅ Ensure shaders are cohesive with the overall project aesthetic.
+
+<br>
+🔧 Additional Requirement:
+
+<br>Design a shader with user-driven interactions (for both required shaders) activated by user interaction or environmental triggers (e.g., heat distortion near light sources, ripple effects when interacted with).
+
+<br><br><br>
+Requirements:
+
+<br>✅ Create at least three particle systems (e.g., sparks, smoke, mist).
+<br>✅ Use modular techniques for particle creation (e.g., reusable templates, layered systems).
+<br>✅ Ensure effects are integrated within a cohesive game art scene.
+
+<br>
+🔧 Additional Requirement:
+
+<br>Build a reactive particle system (for 2 of the 3 required systems) that changes based on environmental conditions, player interaction, or time (e.g., intensity, color, or behavior adjusting to a day-night cycle).
+
+<br><br><br>
+Requirements:
+
+<br>✅ Implement a dynamic camera system using Cinemachine.
+<br>✅ Add at least two post-processing effects (e.g., bloom, color grading, depth of field) to enhance visual quality.
+<br>✅ Use camera animations or transitions to highlight specific parts of the scene.
+
+<br>
+🔧 Additional Requirement:
+
+<br>Develop a camera-based interaction system, such as zoom-in on specific triggers or focus shifts during player interactions and manipulate (1 of the 2 required post-process effects) based on player interaction of environmental triggers.**
+
+<br><br><br>What to Submit
+
+<br>Interactive Scene:
+
+<br>A fully developed Unity scene meeting the requirements of the selected module.
+<br>The scene must be cohesive, polished, and technically proficient.
+
+
+<br>Playthrough Video:
+
+<br>A 10-minute video showcasing the final project.
+<br>Include annotations or narration explaining key design decisions.
+
+
+<br>Postmortem Document:
+
+<br>A 1–2 page reflection including:
+
+<br>Successes: Highlight key achievements.
+<br>Challenges: Discuss difficulties and solutions.
+<br>Learning Outcomes: Share what you’ve learned.
+
+
+<br>Include citations for any external assets used.
+
+
+<br>Unity Project Files:
+
+<br>A zipped folder with only the necessary files: Assets, Packages, ProjectSettings ONLY (❌ omit the Library, Temp, and other folders).
+
+
+<br>Polished Build:
+
+<br>A playable Windows build demonstrating your project.
+
+
+
+<br><br>Requirements
+For each module there are a set of Requirements that must be met for every module. Then there are Additional Requirements that must only be met for whichever module you choose to polish for the final.
+<br><br><br>Your project will be evaluated based on:<br>
+<br>Technical Mastery: Effective use of tools and workflows from the chosen module.
+<br>Creativity and Originality: Innovative and thoughtful design choices.
+<br>Cohesion: Visual and thematic consistency throughout the project.
+<br>Polish: Overall quality and refinement of the interactive experience.
+<br>Presentation: Clarity and professionalism in the playthrough video and postmortem document.
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Wed, 16 Jul 2025 13:48:57 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Student Examples]]></title><description><![CDATA[ 
+ <br><br><br>[!note]<br>
+For this particular run of the course, students were tasked with creating something more aligned with an MVP for a game concept (more full game like) with a gameplay loop, rules, assets, and interactivity. The course does not require the full gameplay loop or rules now. It is much more art and tech integration focused.
+<br><br><br><br>]]></description><link>gmap-395\gmap-395-student-examples.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Student Examples.md</guid><pubDate>Wed, 16 Jul 2025 13:41:51 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
+ <br><br><br><br>Instructor Details
+
+<br>Name: Darren Woodland, Jr.
+<br>Email: <a data-tooltip-position="top" aria-label="mailto:dkw34@drexel.edu" rel="noopener nofollow" class="external-link" href="mailto:dkw34@drexel.edu" target="_blank">dkw34@drexel.edu</a>
+<br>Office Hours: By appointment through email or <a data-tooltip-position="top" aria-label="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" rel="noopener nofollow" class="external-link" href="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" target="_blank">booking</a>.
+
+<br><br>Classroom Info
+
+<br>Term: Summer Quarter 2025
+<br>Location: URBN 250
+<br>Students will use Drexel Learn and their @drexel.edu emails for all class communication.
+
+<br><br>This course introduces students to procedural real-time game systems and technical art production. Students will explore game engine based workflows, gaining proficiency in shaders, particle systems, modeling, and visual effects. The course emphasizes real-time systems and modular design techniques.<br><br>Key Capabilities
+
+<br>Procedural and modular modeling
+<br>Shader and material development
+<br>Particle and image effects
+<br>Lighting, camera techniques, and post-processing
+
+<br><br>Learning Approach
+Studio-Based Learning: Class time prioritizes hands-on practice, peer collaboration, and instructor guidance.<br>
+Modular Skill Development: Content is organized into focused, digestible modules that build progressively toward professional competency.<br>
+Critique Culture: Weekly progress reviews emphasizing creative growth through peer and instructor feedback.
+<br><br>By the end of the course, students will demonstrate skills in:<br>
+<br>🤖 Procedural modeling
+<br>💡 Scene lighting and camera effects
+<br>✨ VFX creation
+<br>🖌️ Shader and material development
+<br>🔄 Technical workflows for real-time game art
+<br>🎯 Professional critique and feedback skills
+<br><br><br><br>Useful Links
+
+<br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>(Lab Version) or 2022.3.45LTS(latest)
+<br><a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender 4.4 Download</a>
+<br><a data-tooltip-position="top" aria-label="https://code.visualstudio.com/" rel="noopener nofollow" class="external-link" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> or your favorite IDE (must support C# + Python)
+<br>Screen Recording Software (like OBS)
+
+<br><br>Useful Links
+
+<br><a data-tooltip-position="top" aria-label="https://learn.drexel.edu/" rel="noopener nofollow" class="external-link" href="https://learn.drexel.edu/" target="_blank">Drexel Learn</a>
+<br><a data-tooltip-position="top" aria-label="https://dl.acm.org/" rel="noopener nofollow" class="external-link" href="https://dl.acm.org/" target="_blank">ACM Digital Library</a>
+<br><a data-tooltip-position="top" aria-label="https://www.gdcvault.com/" rel="noopener nofollow" class="external-link" href="https://www.gdcvault.com/" target="_blank">GDC Vault</a>
+<br><a data-tooltip-position="top" aria-label="https://freelibrary.org/" rel="noopener nofollow" class="external-link" href="https://freelibrary.org/" target="_blank">LinkedIn Learning via Free Library of Philadelphia</a>
+
+<br><br><br><br>Week 1 Highlights
+
+<br>Syllabus, Course Structure, and Important Links
+<br>Tool setup and workflow establishment
+<br>Weekly check-ins and peer feedback
+<br>Course Theme 
+
+<br><br>Weeks 2-3 Highlights
+
+<br>Fundamentals of procedural modeling
+<br>Modular workflows, node-based workflows, and DAGs
+<br>Lighting systems focusing on geometry and light interplay
+
+<br>Assignment 1: Create a modular game asset and integrate lighting systems.<br>
+Due: Week 3<br><br>Weeks 4-5 Highlights
+
+<br>Custom shader creation using code and visual scripting
+<br>Application of shaders to procedural assets for real-time interactivity
+<br>Material properties and real-time rendering
+
+<br>Assignment 2: Develop shaders for the asset created in Assignment 1.<br>
+Due: Week 5<br><br>Weeks 6-7 Highlights
+
+<br>VFX design principles and workflows
+<br>Particle systems using visual scripting and component-based systems
+<br>Creating interactive effects tied to game mechanics
+
+<br>Assignment 3: Add particle and dynamic visual effects to the modular asset.<br>
+Due: Week 7<br><br>Week 8-9 Highlights
+
+<br>Camera manipulation techniques
+<br>Post-processing pipelines for polish and visual enhancement
+<br>Performance and visual quality balancing
+
+<br>Assignment 4: Implement camera effects and post-processing for the asset.<br>
+Due: Week 8<br><br>Weeks 10-11 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.<br>Final Deliverables:<br>
+<br>🎯 Cohesive scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
+<br>🎥 Presentation videos with technical breakdown
+<br><br><br>
+<br>Check-in &amp; Critique: Weekly progress presentations and peer feedback
+<br>Mini-Lecture &amp; Demo: Just-in-time instruction based on current module
+<br>Studio Practice: Hands-on work with instructor guidance and peer collaboration
+<br>Wrap-up &amp; Next Steps: Preview upcoming content and assignment clarification
+<br><br><br><br><br>Grading Breakdown
+
+<br>35% Assignments: Bi-weekly assignments focusing on module topics.
+<br>25% Final Project: Integration of course concepts into a cohesive artifact.
+<br>25% Participation and Professionalism: Engagement, attendance, and critique contributions.
+<br>15% Weekly Progress Reviews: Short assessments via Drexel Learn to reinforce key concepts.
+
+<br><br><br><br>Classroom Activities
+In order to foster a more optimal learning environment and ensure respect for all participants, the following policy is in effect during lectures, live-coding, and both guest and student presentations:<br>
+- No personal electronic devices: Cell phones, tablets, laptops, and other devices must be turned off and put away unless explicitly permitted for note-taking or learning activity use.<br>
+- No non-course-related activities: Gaming, video watching, social media use, or any other non-course-related activities are strictly prohibited.<br>
+- Acceptable learning activities: Note-taking (electronic or handwritten) and productive doodling/drawing related to course content are permitted and encouraged.<br>
+- Lab sessions: During hands-on lab portions, device use is allowed for course-related work. Peer discussions, and instructor engagement is strongly encouraged.
+<br>Affects Participation + Professionalism
+Violations of this policy will impact the Participation and Professionalism grade. Multiple offenses may result in a zero (0) for this component of the course grade, without exception.
+<br><br>Cheating and Plagiarism Definitions
+Cheating or plagiarism, as defined for this course, are governed by the Drexel University Academic Integrity Policy.<br>
+Both are strictly forbidden. DO NOT DO IT!<br>
+All instances will be investigated and reported as outlined by Drexel University policy.<br>
+They will also result in: at minimum failing the assignment and an automatic decrease&nbsp;of one letter grade for your final grade and may result in your failing the course.
+<br><br>Submission Rules
+
+<br>Submit all work via Drexel Learn (unless other wise specified).
+<br>Follow assignment submission guidelines outlined in briefs
+<br>Use proper file naming conventions (e.g., abc123_a1_lighting_final.mp4).
+
+<br><br>Late Assignmnets
+Assignments must be turned in on time!<br>
+Lateness will automatically result in at&nbsp;minimum the loss of one letter grade.<br>
+Late work incurs a 10% penalty per day.
+<br><br>Attendance Requirements
+
+<br>Attendance is mandatory. 
+<br>Students are allowed one unexcused absence.
+<br>Missing more than one class (unexcused) reduces your grade.
+<br>Each late arrival to class will result in 50% attendance for the day.
+<br>Weekly Progress Reviews are mandatory - missing reviews impact participation grade
+
+<br>Excused Abcense
+Note that an excused absence is defined as one that is the result of a condition or&nbsp;circumstance beyond the student's control, such as illness, a family crisis or&nbsp;emergency, or some other serious and important personal circumstance.
+<br>Three or more absences results in course failure.<br><br>AI Use Policy
+Artificial intelligence (AI) tools, such as large language models (e.g., ChatGPT or Claude), may be used in this course under specific guidelines, outlined below.
+<br>Approved AI Uses
+
+<br>AI tools are permitted for developing assets for assignments and projects, such as generating images or code snippets.
+<br>Students may use AI to help better contextualize and understand code, programming concepts, and course structures. This includes using AI for code review, breakdowns, and topic summaries.
+<br>All written materials, explanations, and analyses submitted for assignments should be the original work of the student. AI should not be used to generate these portions of your submissions.
+
+<br>Use and Citation
+The use of AI tools is not mandatory. Students may opt out of using AI assistants entirely if they prefer to complete all work without AI assistance.<br>
+When AI tools are used students must:
+
+<br>Clearly indicate which portions of their work were created with AI assistance and which tools were used
+<br>Be able to explain and defend all submitted work
+<br>Be able to demonstrate original creative decision-making and artistic voice
+
+<br>Use and Understanding
+Regardless of AI usage, students are responsible for understanding and being able to explain all aspects of their submitted work.
+<br><br>Course Changes to the Course
+It is very important that each student has read and understood all the materials,&nbsp;assignments, and due dates on the syllabus. It is the prerogative of the instructor to change the course during the term at their discretion in the interest of&nbsp;responding to individual class needs. Changes will be communicated to students via Drexel Learn and/or email
+<br><br><br>This course, including all meetings, assignments, and activities, operates under Drexel University’s policies. All students are expected to read and fully understand these policies as they apply to the coursework and conduct within this class.<br><br>Plagiarism and Cheating Policy
+
+<br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Mon, 14 Jul 2025 22:11:11 GMT</pubDate></item><item><title><![CDATA[<strong><em>Procedural Eldritch Portal + Environment: A Tutorial for Blender</em></strong>]]></title><description><![CDATA[ 
  <br><br><img alt="GMAP 395/Module 1/Media/395tut1portal.png" src="lib\media\395tut1portal.png" style="width: 640px; max-width: 100%;"><br><br><br>In this tutorial, we will create a Procedural "Eldritch Portal" Environment Art, an ominous and glowing gateway surrounded by rocky terrain and organic tendrils. This project aims to integrates procedural modeling techniques and node-based workflows to craft a dynamic and mystical game-based environment artifact.<br><br>
 <br>Understand the Geometry Nodes system in Blender.
 <br>Apply procedural workflows to create modular and reusable assets.
@@ -170,197 +2161,7 @@ We will do the optimization and mesh export in week 3 before importing to Unity.
 <br><a data-tooltip-position="top" aria-label="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" rel="noopener nofollow" class="external-link" href="https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html" target="_blank">Blender Keyboard Shortcuts</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/pathway/unity-essentials" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/pathway/unity-essentials" target="_blank">Unity Essentials (Getting Started)</a>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-lighting?uv=2022.3&amp;pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Lighting Tutorials</a>
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Sat, 05 Jul 2025 15:02:24 GMT</pubDate></item><item><title><![CDATA[Week 3 Progress Check: Procedural Modeling Exploration]]></title><description><![CDATA[ 
- <br><br>Overview 
-Purpose: Share your early procedural modeling experiments and current project direction<br>
-Format: Brief individual share (2-3 minutes) + peer feedback  online<br>
-Due: Week 3 class session
-<br><br><br>This week is all about showing your work - we want to see what you've been experimenting with in your procedural modeling explorations and how your project concept is evolving through some hands-on practice.<br><br><br><br>Capture your work-in-progress from your DCC (Blender, Maya, Houdini, etc.)<br>
-Some ideas of things to share:<br>
-<br>Node networks/graphs - Show us your procedural setup
-<br>Geometry results - What's your system generating?
-<br>Iterations/variations - Different outcomes from tweaking parameters
-<br>Problem areas - Things that aren't working yet (this is valuable too!)
-<br><br>Tell us where you're at with your project concept:<br>
-<br>What procedural modeling(s) technique are you exploring?
-<br>How does this connect to your original project vision? If its different/changes, how so ?
-<br>What's one thing you've discovered or learned that surprised you?
-<br>What's your next step or biggest current challenge?
-<br><br><br><br>
-<br>Show your screenshots - walk us through what we're seeing
-<br>Explain your process - what procedural approach are you using?
-<br>Connect to your project - how does this fit your bigger vision?
-<br>Share one challenge - what's not working or what do you need help with?
-<br><br>Quick responses to/from classmates:<br>
-<br>What do you find most interesting about this approach?
-<br>Any suggestions for troubleshooting or next steps?
-<br>How might this technique apply to other projects?
-<br><br><br><br>
-<br>Screenshots ready to share (uploaded to thread to present)
-<br>Brief talking points prepared
-<br><br>
-<br>Post your screenshots in your individual thread
-<br>Include your 2-3 sentence project update
-<br>Comment on 2-3 peer posts with encouragement or suggestions
-<br><br>Remember
-
-<br>Progress &gt; perfection - we want to see your learning process
-<br>Problems are valuable - share what's not working, we can help troubleshoot
-<br>Be specific - instead of "I'm making a building," try "I'm trying to use arrays/modifiers to create modular wall panels"
-
-]]></description><link>gmap-395\weeklies\gmap-395-weekly-2.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md</guid><pubDate>Sat, 05 Jul 2025 15:01:13 GMT</pubDate></item><item><title><![CDATA[Syllabus]]></title><description><![CDATA[ 
- <br><br><br><br>Instructor Details
-
-<br>Name: Darren Woodland, Jr.
-<br>Email: <a data-tooltip-position="top" aria-label="mailto:dkw34@drexel.edu" rel="noopener nofollow" class="external-link" href="mailto:dkw34@drexel.edu" target="_blank">dkw34@drexel.edu</a>
-<br>Office Hours: By appointment through email or <a data-tooltip-position="top" aria-label="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" rel="noopener nofollow" class="external-link" href="https://outlook.office.com/bookwithme/user/8a28cf456da9442e97dda421b09a3af0@drexel.edu/meetingtype/MWYxQdbZA0mCye-WJGVcQw2?anonymous&amp;ep=mCardFromTile" target="_blank">booking</a>.
-
-<br><br>Classroom Info
-
-<br>Term: Summer Quarter 2025
-<br>Location: URBN 250
-<br>Students will use Drexel Learn and their @drexel.edu emails for all class communication.
-
-<br><br>This course introduces students to procedural real-time game systems and technical art production. Students will explore game engine based workflows, gaining proficiency in shaders, particle systems, modeling, and visual effects. The course emphasizes real-time systems and modular design techniques.<br><br>Key Capabilities
-
-<br>Procedural and modular modeling
-<br>Shader and material development
-<br>Particle and image effects
-<br>Lighting, camera techniques, and post-processing
-
-<br><br>Learning Approach
-Studio-Based Learning: Class time prioritizes hands-on practice, peer collaboration, and instructor guidance.<br>
-Modular Skill Development: Content is organized into focused, digestible modules that build progressively toward professional competency.<br>
-Critique Culture: Weekly progress reviews emphasizing creative growth through peer and instructor feedback.
-<br><br>By the end of the course, students will demonstrate skills in:<br>
-<br>🤖 Procedural modeling
-<br>💡 Scene lighting and camera effects
-<br>✨ VFX creation
-<br>🖌️ Shader and material development
-<br>🔄 Technical workflows for real-time game art
-<br>🎯 Professional critique and feedback skills
-<br><br><br><br>Useful Links
-
-<br><a data-tooltip-position="top" aria-label="https://unity3d.com/get-unity/download/archive" rel="noopener nofollow" class="external-link" href="https://unity3d.com/get-unity/download/archive" target="_blank">Unity 2022.3.9LTS Download</a>(Lab Version) or 2022.3.45LTS(latest)
-<br><a data-tooltip-position="top" aria-label="https://www.blender.org/download/" rel="noopener nofollow" class="external-link" href="https://www.blender.org/download/" target="_blank">Blender 4.4 Download</a>
-<br><a data-tooltip-position="top" aria-label="https://code.visualstudio.com/" rel="noopener nofollow" class="external-link" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> or your favorite IDE (must support C# + Python)
-<br>Screen Recording Software (like OBS)
-
-<br><br>Useful Links
-
-<br><a data-tooltip-position="top" aria-label="https://learn.drexel.edu/" rel="noopener nofollow" class="external-link" href="https://learn.drexel.edu/" target="_blank">Drexel Learn</a>
-<br><a data-tooltip-position="top" aria-label="https://dl.acm.org/" rel="noopener nofollow" class="external-link" href="https://dl.acm.org/" target="_blank">ACM Digital Library</a>
-<br><a data-tooltip-position="top" aria-label="https://www.gdcvault.com/" rel="noopener nofollow" class="external-link" href="https://www.gdcvault.com/" target="_blank">GDC Vault</a>
-<br><a data-tooltip-position="top" aria-label="https://freelibrary.org/" rel="noopener nofollow" class="external-link" href="https://freelibrary.org/" target="_blank">LinkedIn Learning via Free Library of Philadelphia</a>
-
-<br><br><br><br>Week 1 Highlights
-
-<br>Syllabus, Course Structure, and Important Links
-<br>Tool setup and workflow establishment
-<br>Weekly check-ins and peer feedback
-<br>Course Theme 
-
-<br><br>Weeks 2-3 Highlights
-
-<br>Fundamentals of procedural modeling
-<br>Modular workflows, node-based workflows, and DAGs
-<br>Lighting systems focusing on geometry and light interplay
-
-<br>Assignment 1: Create a modular game asset and integrate lighting systems.<br>
-Due: Week 3<br><br>Weeks 4-5 Highlights
-
-<br>Custom shader creation using code and visual scripting
-<br>Application of shaders to procedural assets for real-time interactivity
-<br>Material properties and real-time rendering
-
-<br>Assignment 2: Develop shaders for the asset created in Assignment 1.<br>
-Due: Week 5<br><br>Weeks 6-7 Highlights
-
-<br>VFX design principles and workflows
-<br>Particle systems using visual scripting and component-based systems
-<br>Creating interactive effects tied to game mechanics
-
-<br>Assignment 3: Add particle and dynamic visual effects to the modular asset.<br>
-Due: Week 7<br><br>Week 8-9 Highlights
-
-<br>Camera manipulation techniques
-<br>Post-processing pipelines for polish and visual enhancement
-<br>Performance and visual quality balancing
-
-<br>Assignment 4: Implement camera effects and post-processing for the asset.<br>
-Due: Week 8<br><br>Weeks 10-11 Focus Combine and refine work from Modules 1-4 into a polished scene or artifact.<br>Final Deliverables:<br>
-<br>🎯 Cohesive scene incorporating procedural assets, shaders, VFX, lighting, and post-processing.
-<br>🎥 Presentation videos with technical breakdown
-<br><br><br>
-<br>Check-in &amp; Critique: Weekly progress presentations and peer feedback
-<br>Mini-Lecture &amp; Demo: Just-in-time instruction based on current module
-<br>Studio Practice: Hands-on work with instructor guidance and peer collaboration
-<br>Wrap-up &amp; Next Steps: Preview upcoming content and assignment clarification
-<br><br><br><br><br>Grading Breakdown
-
-<br>35% Assignments: Bi-weekly assignments focusing on module topics.
-<br>25% Final Project: Integration of course concepts into a cohesive artifact.
-<br>25% Participation and Professionalism: Engagement, attendance, and critique contributions.
-<br>15% Weekly Progress Reviews: Short assessments via Drexel Learn to reinforce key concepts.
-
-<br><br><br><br>Classroom Activities
-In order to foster a more optimal learning environment and ensure respect for all participants, the following policy is in effect during lectures, live-coding, and both guest and student presentations:<br>
-- No personal electronic devices: Cell phones, tablets, laptops, and other devices must be turned off and put away unless explicitly permitted for note-taking or learning activity use.<br>
-- No non-course-related activities: Gaming, video watching, social media use, or any other non-course-related activities are strictly prohibited.<br>
-- Acceptable learning activities: Note-taking (electronic or handwritten) and productive doodling/drawing related to course content are permitted and encouraged.<br>
-- Lab sessions: During hands-on lab portions, device use is allowed for course-related work. Peer discussions, and instructor engagement is strongly encouraged.
-<br>Affects Participation + Professionalism
-Violations of this policy will impact the Participation and Professionalism grade. Multiple offenses may result in a zero (0) for this component of the course grade, without exception.
-<br><br>Cheating and Plagiarism Definitions
-Cheating or plagiarism, as defined for this course, are governed by the Drexel University Academic Integrity Policy.<br>
-Both are strictly forbidden. DO NOT DO IT!<br>
-All instances will be investigated and reported as outlined by Drexel University policy.<br>
-They will also result in: at minimum failing the assignment and an automatic decrease&nbsp;of one letter grade for your final grade and may result in your failing the course.
-<br><br>Submission Rules
-
-<br>Submit all work via Drexel Learn (unless other wise specified).
-<br>Follow assignment submission guidelines outlined in briefs
-<br>Use proper file naming conventions (e.g., abc123_a1_lighting_final.mp4).
-
-<br><br>Late Assignmnets
-Assignments must be turned in on time!<br>
-Lateness will automatically result in at&nbsp;minimum the loss of one letter grade.<br>
-Late work incurs a 10% penalty per day.
-<br><br>Attendance Requirements
-
-<br>Attendance is mandatory. 
-<br>Students are allowed one unexcused absence.
-<br>Missing more than one class (unexcused) reduces your grade.
-<br>Each late arrival to class will result in 50% attendance for the day.
-<br>Weekly Progress Reviews are mandatory - missing reviews impact participation grade
-
-<br>Excused Abcense
-Note that an excused absence is defined as one that is the result of a condition or&nbsp;circumstance beyond the student's control, such as illness, a family crisis or&nbsp;emergency, or some other serious and important personal circumstance.
-<br>Three or more absences results in course failure.<br><br>AI Use Policy
-Artificial intelligence (AI) tools, such as large language models (e.g., ChatGPT or Claude), may be used in this course under specific guidelines, outlined below.
-<br>Approved AI Uses
-
-<br>AI tools are permitted for developing assets for assignments and projects, such as generating images or code snippets.
-<br>Students may use AI to help better contextualize and understand code, programming concepts, and course structures. This includes using AI for code review, breakdowns, and topic summaries.
-<br>All written materials, explanations, and analyses submitted for assignments should be the original work of the student. AI should not be used to generate these portions of your submissions.
-
-<br>Use and Citation
-The use of AI tools is not mandatory. Students may opt out of using AI assistants entirely if they prefer to complete all work without AI assistance.<br>
-When AI tools are used students must:
-
-<br>Clearly indicate which portions of their work were created with AI assistance and which tools were used
-<br>Be able to explain and defend all submitted work
-<br>Be able to demonstrate original creative decision-making and artistic voice
-
-<br>Use and Understanding
-Regardless of AI usage, students are responsible for understanding and being able to explain all aspects of their submitted work.
-<br><br>Course Changes to the Course
-It is very important that each student has read and understood all the materials,&nbsp;assignments, and due dates on the syllabus. It is the prerogative of the instructor to change the course during the term at their discretion in the interest of&nbsp;responding to individual class needs. Changes will be communicated to students via Drexel Learn and/or email
-<br><br><br>This course, including all meetings, assignments, and activities, operates under Drexel University’s policies. All students are expected to read and fully understand these policies as they apply to the coursework and conduct within this class.<br><br>Plagiarism and Cheating Policy
-
-<br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Sat, 05 Jul 2025 15:04:30 GMT</pubDate></item><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-1\gmap-395-module-1.html</link><guid isPermaLink="false">GMAP 395/Module 1/GMAP 395 - Module 1.md</guid><pubDate>Sat, 05 Jul 2025 15:02:24 GMT</pubDate></item><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Learning Focus: Understanding procedural workflows and algorithmic content creation <br>
 Builds On: Module 1A (Technical Art fundamentals)
@@ -4608,1178 +6409,7 @@ Download OBS Studio or some other comparable software, record your screen and ta
 <br>File Naming: abc123_Lastname_Firstname_A2.zip.
 <br>Late submissions will incur a 10% penalty per day.
 
-<br><br>]]></description><link>gmap-395\module-2\gmap-395-asn-2-brief.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - ASN 2 - Brief.md</guid><pubDate>Tue, 28 Jan 2025 20:44:35 GMT</pubDate></item><item><title><![CDATA[Module 2 - Shaders and Material Development]]></title><description><![CDATA[ 
- <br><br><br>This module deals with shader creation and material development, essential skills for adding dynamic visual behavior to assets. Students will explore both code-based and node-based shader workflows, focusing on enhancing procedural assets for real-time interactivity.<br><br><a data-href="GMAP 395 - WK 4 - Slides + Video" href="gmap-395\module-2\gmap-395-wk-4-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - Slides + Video</a><br>
-<a data-tooltip-position="top" aria-label="GMAP 395/Module 2/GMAP 395 - WK 4 - Tutorial" data-href="GMAP 395/Module 2/GMAP 395 - WK 4 - Tutorial" href="gmap-395\module-2\gmap-395-wk-4-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - Tutorial</a><br>
-<a data-href="GMAP 395 - WK 4 - In-Class Lab" href="gmap-395\module-2\gmap-395-wk-4-in-class-lab.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - In-Class Lab</a><br>
-<a data-tooltip-position="top" aria-label="GMAP 395 - WK 5 - Slides + Video" data-href="GMAP 395 - WK 5 - Slides + Video" href="gmap-395\module-2\gmap-395-wk-5-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 5 - Slides + Video</a><br>
-<a data-href="GMAP 395 - WK 5 - Tutorial" href="gmap-395\module-2\gmap-395-wk-5-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 5 - Tutorial</a><br>
-<a data-href="GMAP 395 - ASN 2 - Brief" href="gmap-395\module-2\gmap-395-asn-2-brief.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - ASN 2 - Brief</a><br><br><br>
-<br>Introduction to Unity Shader Graph and custom shader creation.
-<br>Exploring material properties and real-time interactions.
-<br>Applying shaders to procedural assets developed in Module 1.
-<br><br><br>By the end of this module, you will:<br>
-<br>Gain foundational knowledge of shader and material workflows.
-<br>Create custom shaders using Unity Shader Graph and scripting.
-<br>Enhance procedural assets with dynamic visual behaviors.
-<br>Understand the integration of shaders into real-time systems.
-<br><br><br>
-<br>Ensure Unity (2022.3 or higher) is installed and updated.
-<br>Confirm your computer meets the recommended specifications for shader development.
-<br>Helpful Resources
-
-<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Manual/shader-graph.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Manual/shader-graph.html" target="_blank">Unity Shader Graph Documentation</a>
-<br><a data-tooltip-position="top" aria-label="https://www.kodeco.com/5671826-introduction-to-shaders-in-unity" rel="noopener nofollow" class="external-link" href="https://www.kodeco.com/5671826-introduction-to-shaders-in-unity" target="_blank">Introduction to Shaders in Unity</a>
-
-<br>If you are new to Shader Graph
-
-<br><br><br><br><br>
-<br>Unity 2022.3 SRP with Shader Graph: Included with Unity Editor.
-<br>An IDE (w/ optional HLSL support): Examples include Visual Studio or Visual Studio Code.
-<br><br><br><br>
-<br>Objective: Develop shaders to enhance the visual behavior of assets created in Assignment 1.
-<br>Key Deliverables:
-
-<br>A shader with dynamic effects (e.g., glow, transparency).
-<br>A material applied to a procedural asset demonstrating interactivity.
-
-
-<br>Due Date: Week 5
-<br><br><br>
-<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.shadergraph@16.0/manual/Node-Library.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.shadergraph@16.0/manual/Node-Library.html" target="_blank">Shader Graph Node Library</a>
-<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-shaders-and-materials?pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-shaders-and-materials?pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Learn - Shaders and Materials</a>
-<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/2022.3/Documentation/Manual/class-GraphicsSettings.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/2022.3/Documentation/Manual/class-GraphicsSettings.html" target="_blank">Unity Graphics Settings Overview</a>
-<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-2\gmap-395-module-2.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - Module 2.md</guid><pubDate>Sun, 02 Feb 2025 20:30:40 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 4 - In-Class Lab]]></title><description><![CDATA[ 
- <br><br>Gain hands-on experience creating and modifying basic shaders using Unity's Shader Graph. <br><br>
-<br>Unity 2022.3
-<br>Basic understanding of Unity interface
-<br>Universal Render Pipeline (URP) set up in your project
-<br><br><br><br>
-<br>In Unity, right-click in the Project window
-<br>Select Create &gt; Shader &gt; Universal Render Pipeline &gt; Unlit Shader Graph
-<br>Name it "MyFirstShaderGraph"
-<br>Double-click to open it in the Shader Graph window
-<br><br>
-<br>In the Shader Graph window, locate the Blackboard (usually on the left side)
-<br>In the Blackboard:
-
-<br>Click the + button
-<br>Choose Color from the dropdown
-<br>Name it _Color (or any appropriate name)
-<br>Set a default color if desired (found in the Graph Inspector &gt; Node Settings)
-
-
-<br>In the graph area:
-
-<br>Click and drag the _Color property from the Blackboard directly into the graph area
-
-
-<br>Connect the Color property node's output to the Base Color input of the "Fragment" node
-<br>Click "Save Asset" to save your shader graph
-<br><br>
-<br>In Unity, create a new 3D object (e.g., Sphere) in your scene
-<br>Create a new material:
-
-<br>Right-click in the Project window &gt; Create &gt; Material
-<br>Name it appropriately
-
-
-<br>In the new material's Inspector:
-
-<br>Set the Shader to your "Shader Graph/MyFirstShaderGraph"
-<br>Adjust the Color property to see changes on your 3D object
-
-
-<br><br><br><br>
-<br>
-In the Blackboard, add the following properties:
-
-<br>Texture2D named _MainTex
-<br>Vector2 named _Tiling (set default to 1,1)
-<br>Vector2 named _Offset (set default to 0,0)
-
-
-<br>
-In your Shader Graph, add the following nodes:
-
-<br>Drag the _MainTex, _Tiling, and _Offset properties from the Blackboard into the graph
-<br>Add a Tiling And Offsetnode
-<br>Add a Sample Texture 2D node
-
-
-<br>Hotkey
-SPACEBAR is the hotkey shortcut to open the create node dialogue box.
-<br>
-<br>Connect the nodes:
-
-<br>Connect the _Tiling and _Offset outputs to the respective inputs of the Tiling And Offset node
-<br>Connect the UV output of Tiling And Offset to the UV input of Sample Texture 2D
-<br>Connect the _MainTex property to the Texture input of Sample Texture 2D
-
-
-<br><br>
-<br>
-Add a Multiply node
-
-<br>
-Connect:
-
-<br>The RGBA output of Sample Texture 2D to one input of Multiply
-<br>The _Color property to the other input of Multiply
-<br>The output of Multiply to the Base Color of the Fragment node
-
-
-<br>
-Save the Shader Graph
-
-<br><br>
-<br>Select your 3D object in the scene
-<br>In the Inspector, you should now see slots for Texture, Tiling, and Offset
-<br>Assign a texture to the Texture slot
-<br>Adjust Tiling and Offset values to see how they affect the texture
-<br><br><br><br>
-<br>
-In the Blackboard, add these Float properties:
-
-<br>_WaveAmount (default 1)
-<br>_WaveSpeed (default 1)
-<br>_WaveFrequency (default 1)
-
-
-<br>
-In your Shader Graph, add these nodes:
-
-<br>Drag the new Float properties from the Blackboard into the graph
-<br>Add Time node
-<br>Add Position node (set to World)
-<br>Add Sine node
-<br>Add several Multiply (3) nodes
-<br>Add Add node
-<br>Add Split node
-
-
-<br>
-Connect the nodes to create the wave effect:
-
-<br>Connect the output of the World Position node to the input of the Split node
-<br>Connect the R output of the Split node (which represents the X component) to one input of a Multiply node
-<br>Connect the _WaveFrequency to the other input of this Multiply node
-<br>Multiply _WaveSpeed by Time
-<br>Add the results of the above two operations using an Add node
-<br>Feed the output of the Add node into the Sine node
-<br>Multiply the Sine output by _WaveAmount
-
-
-<br>
-Add a Combine node:
-
-<br>Connect the R (X) and B (Z) from the Split node to the corresponding inputs on the Combine
-<br>For the G(Y) input of the Combine node, add the wave calculation to the G(Y) output of the Split node and connect it.
-
-
-<br>
-Connect the Combine node's output (RGBA or RGB) to the Position input of the Vertex node
-
-<br><br>
-<br>Save the Shader Graph
-<br>Select your 3D object in the scene
-<br>In the Inspector, you should now see Wave Amount, Wave Speed, and Wave Frequency properties
-<br>Adjust these values to see how they affect the object's shape
-<br><br><br><br>Modify your shader to blend between two colors based on a custom parameter.<br><br>
-<br>In the Blackboard, add:
-
-<br>Another Color property named _Color2
-<br>A Float property named _BlendFactor (set range 0 to 1)
-
-
-<br>Modes in Graph Inspector
-You can change the Mode of a property in the Graph Inspector to something like Slider
-<br>
-<br>
-In the graph area:
-
-<br>Drag the new properties from the Blackboard
-<br>Add a Lerp node
-
-
-<br>
-Connect the nodes:
-
-<br>Connect _Color and _Color2 to the A and B inputs of the Lerp node respectively
-<br>Connect _BlendFactor to the T input of the Lerp node
-
-
-<br>
-Use the output of the Lerp node in your final color calculation (e.g., multiply it with your texture sample)
-
-<br>
-Save the Shader Graph and adjust the Blend Factor in your material's Inspector to blend between the two colors.
-
-<br><br>
-<br>Try blending based on vertex position instead of a custom parameter
-<br>Implement a smooth transition that cycles between the colors over time (Time or Sine)
-<br>Add a third color and blend between all three
-<br>Check
-Remember to save your Shader Graph after each major change, and don't hesitate to experiment with different connections and values!
-]]></description><link>gmap-395\module-2\gmap-395-wk-4-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - WK 4 - In-Class Lab.md</guid><pubDate>Mon, 27 Jan 2025 21:55:53 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 4 - Slides + Video]]></title><description><![CDATA[ 
- <br><br><br><br>Week 4 Video Lecture
-
-<a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_F3vSAiT9rcAKv5Jw?e=HRmiMT" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_F3vSAiT9rcAKv5Jw?e=HRmiMT" target="_blank">gmap395_wk4.mp4</a>
-<br><br><br>
-<br>Definition: Shaders are small programs that run on the GPU, defining the visual appearance of objects in a scene.
-<br>Purpose: Control how materials interact with light to achieve desired visual effects.
-<br>Core Shader Types:
-
-<br>Vertex Shaders: Modify geometry at the vertex level.
-<br>Fragment Shaders (Pixel Shaders): Control pixel-level color and lighting.
-
-
-<br><br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=ax1JLQABmOw" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=ax1JLQABmOw" target="_blank">What are shaders? - GDQuest</a><br><br><br>
-<br>Customization: Allows unique material creation.
-<br>Optimization: Efficient use of GPU resources for real-time rendering.
-<br>Dynamic Effects: Enables interactive and changing visuals.
-<br>Examples:
-
-<br>"Stylized" water effects (Breath of the Wild).
-<br>Holograms (Halo).
-<br>Cel-shading (Borderlands).
-
-
-<br><br><br>
-<br>Bridging Art and Code:
-
-<br>Shaders enable technical artists to bridge visual design and programming.
-
-
-<br>Dynamic Visuals:
-
-<br>Create interactive and adaptive visuals for game systems.
-
-
-<br>Procedural Systems:
-
-<br>Shaders are often used in procedural workflows for generating textures, patterns, and effects.
-
-
-<br><br><br>
-<br>Procedural Textures:
-
-<br>Use math and logic to generate seamless textures.
-
-
-<br>Modular Workflows:
-
-<br>Reusable shader modules can streamline development.
-
-
-<br>Examples:
-
-<br>Procedural weathering effects.
-<br>Adjustable material templates for diverse assets.
-
-
-<br><br><br>
-<br>Define Properties: Expose parameters like color or texture to customize materials.
-<br>Create SubShaders: Specify rendering techniques for different hardware or conditions.
-<br>Write Passes: Describe rendering steps (e.g., vertex and fragment programs).
-<br><br><br>Shader "Custom/ExampleShader"
-{
-    Properties
-    {
-        _Color ("Main Color", Color) = (1,1,1,1)
-    }
-    SubShader
-    {
-        Pass
-        {
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            // Declare the _Color property as a uniform
-            fixed4 _Color;
-            struct appdata
-            {
-                float4 vertex : POSITION; // Vertex position
-            };
-            struct v2f
-            {
-                float4 pos : SV_POSITION; // Transformed position
-            };
-            v2f vert (appdata v)
-            {
-                v2f o;
-                o.pos = UnityObjectToClipPos(v.vertex);
-                return o;
-            }
-            // Use _Color in the fragment shader
-            fixed4 frag (v2f i) : SV_Target
-            {
-                return _Color; // Output the color
-            }
-            ENDCG
-        }
-    }
-}
-
-<br><br><br>
-<br>Shader Properties:
-
-<br>_Color: Exposed parameter for material customization.
-
-
-<br>SubShader:
-
-<br>Contains rendering passes for different GPU capabilities.
-
-
-<br>Vertex Function:
-
-<br>Processes vertex data (positions, normals, UVs).
-
-
-<br>Fragment Function:
-
-<br>Determines final pixel color using inputs from the vertex shader.
-
-
-<br><br><br>
-<br>Uniform Variables:
-
-<br>Definition: Global variables that are constant during the rendering of a single draw call. These are set by the CPU and shared across all invocations of a shader program.
-<br>Examples:
-
-<br>Time values for animations.
-
-
-
-
-<br>Attributes:
-
-<br>Definition: Input data that is unique for each vertex and provided by the vertex buffer. Attributes are available only in the vertex shader.
-<br>Examples:
-
-<br>Texture coordinates (TEXCOORD).
-
-
-
-
-<br>Varyings:
-
-<br>Definition: Variables used to pass interpolated data from the vertex shader to the fragment shader.
-<br>Examples:
-
-<br>Lighting data like vertex colors or normals.
-
-
-
-
-<br><a data-tooltip-position="top" aria-label="https://thebookofshaders.com/" rel="noopener nofollow" class="external-link" href="https://thebookofshaders.com/" target="_blank">The Book of Shaders</a><br><br><br>
-<br>Inputs:
-
-<br>Vertex Data: Positions, normals, UVs.
-<br>Textures: Color or detail maps.
-<br>Uniforms: Constants like time or transformations.
-
-
-<br>Outputs:
-
-<br>Final pixel colors rendered to the screen.
-
-
-<br><br><br><br>
-<br>Vertices: Define points in 3D space.
-<br>Edges: Connect vertices to outline shapes.
-<br>Faces: Form surfaces using connected edges.
-<br>UVs: Map 2D textures to 3D surfaces.
-<br>Normals: Vectors perpendicular to faces for lighting calculations.
-<br><br>
-<br>Vertex Data: Input for vertex shaders to transform 3D geometry.
-<br>Normals: Used in lighting equations for shading effects.
-<br>UV Mapping: Guides texture placement via fragment shaders.
-<br>Shader Outputs: Define the final appearance of geometry on-screen.
-<br><br><br><br><br>
-<br>Small programs executed on the GPU.
-<br>Control how light interacts with geometry.
-<br>Types: Vertex, Fragment, Compute.
-<br><br>
-<br>Definition: A wrapper for shaders, combining textures and parameters.
-<br>Role: Define the look of objects by associating shaders with visual properties.
-<br>Example: A reflective material uses a custom shader for specular highlights.
-<br><br>
-<br>Definition: 2D images mapped to 3D geometry.
-<br>Purpose: Add details like color, patterns, or surface irregularities.
-<br>Common Types: Diffuse, Normal, Specular, Emissive.
-<br><br><br><br><br>
-<br>Physically Based Rendering (PBR): A method to simulate realistic lighting and material behavior.
-<br>Key Concepts: Energy conservation, physically accurate shading.
-<br>Benefits: Consistent results across lighting environments.
-<br><br>
-<br>Base Color: Defines the albedo (color) of the surface.
-<br>Metallic: Specifies if the material is metal (affects reflection).
-<br>Roughness/Smoothness: Controls surface reflectivity.
-<br>Normal Map: Adds surface details without extra geometry.
-<br>Ambient Occlusion (AO): Simulates soft shadows in crevices.
-<br><a data-tooltip-position="top" aria-label="https://www.materialmaker.org/" rel="noopener nofollow" class="external-link" href="https://www.materialmaker.org/" target="_blank">Material Maker</a>
-Material Maker is a procedural materials authoring tool based on the Godot Engine.
-<br><br><br>
-<br>Vector Operations:
-
-<br>Dot Product: Lighting calculations.
-<br>Cross Product: Surface normals.
-
-
-<br>Matrix Transformations:
-
-<br>Object to world space conversions.
-
-
-<br>Color Operations:
-
-<br>RGB blending and transitions.
-
-
-<br>Noise Functions:
-
-<br>Create procedural patterns for effects.
-
-
-<br><br><br>
-<br>Minimize Complexity:
-
-<br>Use simple math operations where possible.
-
-
-<br>Reuse Variables:
-
-<br>Avoid redundant calculations.
-
-
-<br>LOD Techniques:
-
-<br>Reduce detail for distant objects.
-
-
-<br><br><br>
-<br>Dissolve Effects:
-
-<br>Use noise textures to create fading effects.
-
-
-<br>Holographic Shaders:
-
-<br>Add transparency and scrolling UV animations.
-
-
-<br>Water Shaders:
-
-<br>Simulate refraction and wave movement.
-
-
-<br><a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX Website</a><br><br><br>
-<br>What Is Shader Graph?
-
-<br>A node-based interface for creating shaders visually.
-
-
-<br>Benefits:
-
-<br>No coding required.
-<br>Rapid iteration and prototyping.
-
-
-<br>Components:
-
-<br>Blackboard, Nodes, Master Stack, Preview, etc.
-
-
-<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Getting-Started.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Getting-Started.html" target="_blank">Shader Graph Docs</a>
-<br>
-![[blackboard_shadergraph_path.png]]
-![[GraphSettings_Menu.png]]
-![[MasterStack_Populated.png|320]]
-<br><br><br><br>
-<br>Write a basic color shader.
-<br>Add texture support.
-<br>Implement vertex manipulation for dynamic effects.
-<br><br><br><br><br><a data-tooltip-position="top" aria-label="https://jettelly.com/store/the-unity-shaders-bible" rel="noopener nofollow" class="external-link" href="https://jettelly.com/store/the-unity-shaders-bible" target="_blank">The Unity Shader Bible</a><br><br><a data-tooltip-position="top" aria-label="https://www.shadertoy.com/" rel="noopener nofollow" class="external-link" href="https://www.shadertoy.com/" target="_blank">Shadertoy</a><br><br><br><br>
-<br>How do shaders enhance visual storytelling?
-<br>What challenges might arise in shader development?
-<br>Where could you apply shaders in your current projects?
-<br><br><br>
-<br>Shaders are a powerful tool for creating immersive, visually striking experiences.
-<br>Mastering shaders bridges a gap between art and technology in game development and beyond.
-<br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-2\gmap-395-wk-4-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - WK 4 - Slides + Video.md</guid><pubDate>Mon, 03 Feb 2025 16:29:14 GMT</pubDate></item><item><title><![CDATA[Creating an Eldritch Portal Shader]]></title><description><![CDATA[ 
- <br><br><br>Create a swirling circular portal shader using Unity’s Shader Graph, complete with dynamic transparency and procedural motion effects.<br><img alt="portalShaderGrab.png" src="gmap-395\module-2\media\portalshadergrab.png" style="width: 640px; max-width: 100%;"><br><br><br>
-[gmap395_tut3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_F1UOYs8x0W2JbJRQ?e=JOQ7gp)<br><br><br>
-<br>Unity 2022.3 with URP installed.
-<br>Basic understanding of Shader Graph.
-<br>Completion of previous shader lab (recommended).
-<br><br><br><br>
-<br>In Unity, navigate to the Project tab.
-<br>Right-click and select Create &gt; Shader Graph &gt; URP/Lit Shader Graph.
-<br>Name it "EldritchPortalShader".
-<br>Important Graph Inspector Settings
-Surface Type : Transparent<br>
-Blending Mode: Multiply or Alpha<br>
-Render Face: Both<br>
-Alpha Clipping: ✅
-<br>Swirl Pattern Texture
-
-<br>Use a PNG with an alpha channel
-<br>Find something with a lot of "texture" or noise<br>
-What I used: <a data-tooltip-position="top" aria-label="https://1drv.ms/i/s!AqQzGx8l4o2wk_F0d_KPRwOyyq1jzg?e=mqpCpS" rel="noopener nofollow" class="external-link" href="https://1drv.ms/i/s!AqQzGx8l4o2wk_F0d_KPRwOyyq1jzg?e=mqpCpS" target="_blank">liquid_swirl_alpha.png</a>
-
-<br><br>
-<br>Open the Shader Graph and access the Blackboard.
-<br>Add the following properties:
-
-<br>Color: EdgeColor (default: Purple)
-<br>Float: EdgeWidth (default: 0.5, range: 0 to 1)
-<br>Texture2D: SwirlPattern (default: Procedural noise texture)
-<br>Float: SwirlSpeed (default: 1)
-<br>Float: Power (default: 2, range: 0.1 to 10)
-<br>Vector2: CenterPosition (default: 0,0)
-
-
-<br><br><br><br>
-<br>Time-Based Swirl Rotation:
-
-<br>Add a Time node and connect it to the A input of a Multiply node.
-<br>Link SwirlSpeed to the B input of the Multiply node.
-
-<br>the swirl speed can be set to a Slider (Mode) in the Graph Inspector (Node Settings)
-<br>Set the desired Min and Max; e.g. 0.1 - 1.
-
-
-<br>Connect the output to the Rotation input of a Rotate node.
-
-
-<br>Swirl UV Transformation:
-
-<br>Pass the output of the Rotate node to the UV input of a Tiling and Offset node.
-<br>Connect the output of Tiling and Offset to  to the UV input of a Polar Coordinates node.
-<br>Use CenterPosition as the Center input of the Polar Coordinates.
-<br>In Polar Coordinates Radial Scale should be ~1.25 and Length Scale ~1
-
-
-<br>Texture Sampling:
-
-<br>Add a Sample Texture 2D node.
-<br>Connect SwirlPattern to the Texture input and the output of Polar Coordinates to the UV input.
-
-<br>An important note for the next section, change the Mip Sampling Mode of the Sample Texture 2D node to Gradient in the Graph Inspector (Node Settings)
-
-
-<br>Use a DDX node, a DDY node, and the SamplerState to refine UV sampling.
-
-<br>Drop down a UV node and connect it to both DDX and DDY
-<br>Connect DDX to the DDX input of the Sample Texture 2D
-<br>Connect DDY to the DDY input of the Sample Texture 2D
-
-
-<br>Drop down a Sampler State node: set its Filter to Linear and its Warp to Mirror
-
-<br>Connect this node to the Sampler input of Sample Texture 2D
-
-
-
-
-<br>Swirl Blend:
-
-<br>Add a Blend node.
-<br>Connect the output of the Sample Texture 2D node to the Base input.
-<br>Connect EdgeColor to the Blend input.
-
-<br>The Mode should be set to Multiply (but feel free to experiment with looks)
-
-
-
-
-<br><br><br>
-<br>Noise Generation:
-
-<br>Add a Time node and connect it to a Multiply node for animation.
-
-<br>Multiply by ~.25
-
-
-<br>Pass the output to the Offset a Tiling and Offset node.
-
-
-<br>Noise Texture Sampling:
-
-<br>Add a Voronoi noise node and use the output of Time as its Angle Offset.
-
-<br>Experiment with Cell Density, but a good value is ~3.
-
-
-<br>Add a Gradient Noise node, connecting the output of Tiling and Offset to its UV input.
-
-<br>The Scale of the gradient node should be ~5.75.
-
-
-
-
-<br>Noise Blending:
-
-<br>Use a Blend node to combine the outputs of Voronoi and Gradient Noise.
-
-<br>I think the Mode Negation works well here; but again, experiment with it.
-
-
-
-
-<br><br><br>
-<br>Radial Transparency:
-
-<br>Add a Polar Coordinates node.
-
-<br>Set the Length Scale to ~2.45
-
-
-<br>Connect EdgeWidth as the Radial Scale input.
-
-
-<br>Gradient Sampling:
-
-<br>Pass the output of Polar Coordinates to the Time input of a Sample Gradient node.
-<br>Set the Gradient so it goes from Black &gt;&gt; White with more black showing, about halfway point.
-
-
-<br><br><br>
-<br>Base Swirl and Noise Combination:
-
-<br>Add a Multiply node.
-<br>Connect the output of the Blend node from the Basic Swirl Nodes section to A.
-<br>Connect the output of the Blend node from the Additional Noise section to B.
-
-
-<br>Power Adjustment:
-
-<br>Add a Power node and connect Power to its second input.
-<br>Pass the output of the Multiply node to the A input of Power.
-
-
-<br>Blend Blending:
-
-<br>Add a Blend(1) node to combine the outputs of the Power (into Blend input) node and the Sample Gradient node (into Base input) from the  Radial Alpha section.
-
-<br>Set the Opacity to ~1
-
-
-<br>Now Copy and Paste this Blend(2) node (you should now have 2)
-
-<br>Set this ones Opacity to ~0.5
-
-
-
-
-<br>Final Blend
-
-<br>Drop down a new Blend(Final) node.
-<br>Connect Blend(1) to Base
-<br>Connect Blend(2) to Base
-<br>Set the Opacity to ~0.5
-
-
-<br>Fragment Shader Stack:
-
-<br>Connect the final blend output to the main Fragment Shader output:
-
-<br>Base Color
-<br>Emission
-<br>Alpha
-<br>Alpha Clip Threshold
-
-
-
-
-<br><br><br><br>
-<br>Create or import a circular plane in Unity (or use a cylinder primitive).
-<br>Create a material from the Shader Graph (right-click &gt; create &gt; material)
-<br>Assign the material using the Eldritch Portal Shader to this mesh.
-<br><br>
-<br>Adjust the properties (EdgeWidt, SwirlSpeed, CenterPosition, etc.) to fine-tune the effect.
-<br>Experiment with different textures for SwirlPattern and different types of noise to create unique styles.
-<br><br>
-<br>Color Shifting: Use a Sample Gradient node linked to Time(Sine) for dynamic color transitions and pulsating effect.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-2\gmap-395-wk-4-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - WK 4 - Tutorial.md</guid><pubDate>Mon, 03 Feb 2025 16:29:40 GMT</pubDate><enclosure url="gmap-395\module-2\media\portalshadergrab.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-2\media\portalshadergrab.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 5 - Slides + Video]]></title><description><![CDATA[ 
- <br><br><br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_IPty_ck4XywUX00A?e=r8xsqz" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_IPty_ck4XywUX00A?e=r8xsqz" target="_blank">gmap395_wk5.mp4</a><br><br><br><br>
-<br>Shader Structure
-
-<br>Properties, Subshaders, Passes
-<br>Vertex Shaders 
-<br>Fragment Shaders
-
-
-<br><br><br>
-<br>Visual Shader Creation Tool in Unity
-<br>Node-Based Interface
-
-<br>No need for manual HLSL coding
-<br>Drag-and-drop workflow
-
-
-<br>Requires Scriptable Render Pipeline (SRP)
-
-<br>URP (Universal Render Pipeline) is recommended for this course
-
-
-<br><br><br>
-<br>Blackboard: Define and expose parameters
-<br>Graph Inspector: Contextual information about nodes
-<br>Main Stack: Handles Vertex and Fragment logic
-<br>Main Preview: Real-time shader preview (can be unreliable)
-<br>Toolbar: Save, compile, and debug shaders
-<br><br><br>
-<br>Base Color Texturing
-
-<br>Sample a Texture2D and apply UV coordinates
-
-
-<br>Using Lerp for Blending
-
-<br>Combine two textures using a Mask Texture
-
-
-<br>Adding Detail Textures
-
-<br>Multiply noise maps for realistic effects
-
-
-<br><br><br><br>
-<br>Normal Maps Enhance Perceived Depth
-
-<br>Adds lighting-based details without extra geometry
-
-
-<br>Implementation:
-
-<br>Use a Sample Texture 2D Node
-<br>Convert RGB values to Normal Data
-<br>Blend Normal Maps for extra detail
-
-
-<br><a data-tooltip-position="top" aria-label="https://www.artstation.com/blogs/typhen/GMyG/this-is-normal-1-what-normal-maps-are-and-how-they-work" rel="noopener nofollow" class="external-link" href="https://www.artstation.com/blogs/typhen/GMyG/this-is-normal-1-what-normal-maps-are-and-how-they-work" target="_blank">This is Normal - ArtStation</a><br>
-<a data-tooltip-position="top" aria-label="https://www.adobe.com/products/substance3d/discover/normal-mapping.html" rel="noopener nofollow" class="external-link" href="https://www.adobe.com/products/substance3d/discover/normal-mapping.html" target="_blank">What is Normal Mapping? - Adobe</a><br><br><br>
-<br>Color Adjustments
-
-<br>Adjust color values dynamically
-
-
-<br>UV Manipulation
-
-<br>Tiling, Offset, and Rotation
-
-
-<br>Vertex Displacement
-
-<br>Animate geometry movement
-
-
-<br>Time-Based Animations
-
-<br>Scroll textures, pulse effects
-
-
-<br><br><br><br><br>
-<br>Use the Position Node
-<br>Apply Sine Waves for Oscillating Movement
-<br>Combine Noise for Organic Deformations
-<br>Practical Use: Water ripples, grass swaying, liquid surfaces
-<br><br><br><br>
-<br>Types of Noise
-
-<br>Perlin Noise: Soft organic patterns
-<br>Voronoi Noise: Cellular structure
-<br>Gradient Noise: Blending &amp; soft transitions
-<br>Many more...
-
-
-<br>Blending Techniques
-
-<br>Combine noise with Lerp &amp; Multiply Nodes
-<br>Adjust intensity via Remap Node
-
-
-<br><br><br><br>
-<br>Lighting Models
-
-<br>PBR-based or Custom Light Calculations
-
-
-<br>Creating Custom Rim Lighting
-
-<br>Multiply View Direction and Normal
-<br>Apply an Fresnel Node for edge glow
-
-
-<br><br><br><br><br>
-<br>Handles transformations of vertex positions and attributes.
-<br>Adjusts geometry before rasterization.
-<br>Key Operations:
-
-<br>Model-View-Projection transformations.
-<br>Vertex displacement (e.g., vertex animation for waves or procedural terrain).
-
-
-<br><br>
-<br>Groups vertices into triangles or other primitives.
-<br>Prepares geometry for rasterization.
-<br>Affects edge visibility and culling.
-<br><br><br><br>
-<br>Converts primitives (triangles) into pixel fragments.
-<br>Determines which pixels will be rendered on the screen.
-<br><br>
-<br>Calculates the final color of each pixel.
-<br>Executes texture mapping, lighting calculations, and shading effects.
-<br><br>
-<br>Combines rendered pixels into a final image.
-<br>Handles blending, depth testing, and post-processing effects.
-<br><a rel="noopener nofollow" class="external-link" href="https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview" target="_blank">https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview</a><br><br><img alt="renderPipeline.jpg" src="gmap-395\module-2\media\renderpipeline.jpg" style="width: 640px; max-width: 100%;"><br><br><br><br><br>
-<br>VFX Meshes
-
-<br>Assign shaders to particle systems
-
-
-<br>Custom VFX Shaders
-
-<br>Modify shaders dynamically in real-time
-
-
-<br>Particle Systems
-
-<br>Practical Use: Fire, smoke, dissolving effects
-
-
-<br><br><br>
-<br>Manipulating Shader Properties via C#
-
-<br>Expose shader parameters in Shader Graph (e.g., _Color, _Emission, _DistortionAmount)
-<br>Use C# scripts to modify material properties dynamically
-
-
-<br>Responding to Game Events
-
-<br>Change material colors when taking damage
-<br>Adjust transparency when cloaking
-<br>Animate distortion or displacement over time
-
-
-<br>Example: Modifying Shader Properties in C#
-using UnityEngine;
-
-public class MaterialController : MonoBehaviour
-{
-    public Material dynamicMaterial;
-    public float pulseSpeed = 2f;
-
-    void Update()
-    {
-        // Animate Emission Intensity Over Time
-        float emission = Mathf.PingPong(Time.time * pulseSpeed, 1f);
-        dynamicMaterial.SetFloat("_EmissionIntensity", emission);
-    }
-
-    public void SetDamageEffect()
-    {
-        // Flash red when hit
-        dynamicMaterial.SetColor("_BaseColor", Color.red);
-    }
-}
-
-
-<br>Real-World Uses
-
-<br>Player Interaction: Change material properties based on proximity
-<br>UI Feedback: Highlight objects when hovered over
-<br>Environmental Effects: Shift colors based on time of day or weather conditions
-
-
-<br><br><br>
-<br>What is Tweening?
-
-<br>Smooth interpolation of values over time
-
-
-<br>Linking Animations to Shader Properties
-
-<br>Change Emission Intensity, Transparency, Displacement
-
-
-<br>Tweening Libraries in Unity
-
-<br>DOTween, LeanTween
-
-
-<br>Example: Glow pulse shader using a tweened float variable
-<br>using DG.Tweening;
-Material mat;
-void Start() {
-    mat = GetComponent&lt;Renderer&gt;().material;
-    mat.DOColor(Color.blue, "_EmissionColor", 2f).SetLoops(-1, LoopType.Yoyo);
-}
-<br><br><br>
-<br>Cel Shading in Borderlands
-
-<br>Uses custom ramp shading
-<br>Simplified shadows for comic book style
-
-
-<br>Hologram Effects in Halo
-
-<br>Vertex displacement for distortion
-<br>Transparency with additive blending
-
-
-<br>Water Simulation in Sea of Thieves
-
-<br>Vertex waves via sine displacement
-<br>Reflection and refraction shaders
-
-
-<br><br><br>
-<br>Procedural Modeling generates game assets dynamically—Shaders can complement this by adding:
-
-<br>Procedural Textures: Generate surface detail without needing high-resolution textures
-<br>Dynamic Surface Effects: Adapt material appearance based on model parameters
-<br>Example: A procedural rock model can have a procedural shader that controls:
-
-<br>Color variation based on world position
-<br>Edge wear effects using curvature maps
-<br>Moss or dirt accumulation in crevices
-
-
-
-
-<br>Key Concept: Both Procedural Modeling &amp; Shaders use node-based workflows (Houdini, Blender Geometry Nodes, Unity Shader Graph)
-<br><br><br>
-<br>Lighting in Games defines how objects appear based on:
-
-<br>Direct Lighting (sunlight, spotlights)
-<br>Indirect Lighting (bounced light, reflections)
-<br>Ambient Lighting (general scene illumination)
-
-
-<br>Shaders Enhance Lighting by:
-
-<br>Controlling how materials respond to light (diffuse, metallic, specular)
-<br>Using custom lighting models to override Unity’s default lighting
-<br>Adding real-time effects, like rim lighting, emissive glow, and reflections
-
-
-<br>Example: A lava shader that uses emissive properties to glow in dark environments<br>
-
-<br><br><br>
-<br>Shader Graph
-
-<br>Visual scripting for shaders
-<br>No need for HLSL coding
-<br>Best for rapid prototyping
-<br>Limited in customization (but extendable with code)
-
-
-<br>HLSL / Custom Shader Code
-
-<br>More control over rendering logic
-<br>Better for performance optimizations
-<br>Required for advanced effects (custom lighting, procedural vertex animations)
-
-
-<br>When to Use Each?
-
-<br>Shader Graph: Prototyping, procedural textures, stylized effects
-<br>Handwritten Code: Performance-critical shaders, advanced lighting, VFX shaders
-
-
-<br><br><br>
-<br>Performance Considerations
-
-<br>Reduce Overdraw: Use Alpha Clipping instead of transparent materials when possible
-<br>Shader Complexity: Limit the number of shader passes (each pass is an extra rendering step)
-<br>Optimize Textures: Avoid high-res textures where procedural patterns can be used
-
-
-<br>Debugging Shader Graph
-
-<br>Use Frame Debugger (Window &gt; Analysis &gt; Frame Debugger) to see rendering steps
-<br>Use Material Debugging Mode (Scene View &gt; Debug Shading Modes) to isolate issues
-<br>Always test shaders under different lighting conditions
-
-
-<br><br><br>
-<br>Stylized Games
-
-<br>Example: Hollow Knight uses hand-painted textures + simple shaders for a 2D lighting effect
-
-
-<br>Realistic Games
-
-<br>Example: The Last of Us 2 uses physically-based shaders for materials like leather and metal
-
-
-<br>Procedural Effects
-
-<br>Example: No Man’s Sky procedural planets use Shader Graph for terrain blending
-
-
-<br>Interactive Environments
-
-<br>Example: Control by Remedy uses dynamic shaders for real-time environment shifts
-
-
-<br>Takeaway: Shaders are a core part of how modern games achieve immersion and responsiveness!
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-2\gmap-395-wk-5-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - WK 5 - Slides + Video.md</guid><pubDate>Mon, 03 Feb 2025 19:40:02 GMT</pubDate><enclosure url="gmap-395\module-2\media\renderpipeline.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-2\media\renderpipeline.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Game-Based Real-Time Shader Control w/ DOTween]]></title><description><![CDATA[ 
- <br><br><br>In this tutorial, students will control shader parameters in real-time using C# scripts and game-based events. The goal is to modify the Eldritch Portal Shader from Week 4 dynamically, based on game logic (e.g., an enemy spawning from the portal).<br><br><br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_IOWxZ2Vcsusxzvng?e=ONBhuI" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_IOWxZ2Vcsusxzvng?e=ONBhuI" target="_blank">gmap395_tut4.mp4</a><br><br><br>✅ Unity 2022.3 with URP<br>
-✅ <a data-tooltip-position="top" aria-label="https://dotween.demigiant.com/getstarted.php" rel="noopener nofollow" class="external-link" href="https://dotween.demigiant.com/getstarted.php" target="_blank">DOTween</a><br>
-✅ Completion of Week 4’s Eldritch Portal Shader<br>
-✅ Basic familiarity with Shader Graph &amp; C# Scripting<br><br><br><br>Before we start controlling shader parameters, we need to install and set up DOTween in Unity. DOTween is a tweening engine that allows us to animate values smoothly over time, including object positions, UI elements, and shader properties.<br><br><br>
-<br>Open Unity and go to the Asset Store (Window &gt; Asset Store). The asset store can also be accesses from the Unity Hub (Community &gt; Asset Store)
-<br>Search for DOTween (by Demigiant). The free version is fine for this course.
-<br>Click Add to My Assets, then Open in Unity it into your project. Then Import it.
-<br>After importing, go to Tools &gt; DOTween Utility Panel in the top menu bar.
-<br>Click Setup DOTween (this generates the necessary setup files).
-<br><img alt="dotween1.png" src="gmap-395\module-2\media\dotween1.png"><br>
-✅ DOTween is now ready to use in your project! 🎉
-<br><br><br>Let’s create a quick cube animation to test DOTween.<br><br>
-<br>In a new test scene, in the Hierarchy, right-click and select 3D Object &gt; Cube.
-<br>Rename it "TweenCube".
-<br>Reset its Transform (Right-click Transform &gt; Reset in the Inspector).
-<br><br>
-<br>In the Project Window, in your Scripts folder create a new C# script named DOTweenTest.cs.
-<br>Attach it to TweenCube.
-<br>Open the script and replace its contents with:
-<br>using UnityEngine;
-using DG.Tweening; // Import DOTween
-
-public class DOTweenTest : MonoBehaviour
-{
-    void Start()
-    {
-        // Move the cube up and down repeatedly
-        transform.DOMoveY(3f, 1f) // Move to Y = 3 in 1 second
-            .SetLoops(-1, LoopType.Yoyo) // Infinite loop with Yoyo effect
-            .SetEase(Ease.InOutSine); // Smooth transition
-    }
-}
-<br><br>
-<br>Click Play in Unity.
-<br>The cube will move up and down smoothly forever.
-<br>Try modifying values like:
-
-<br>Changing DOMoveY(3f, 1f) to DOMoveX(5f, 2f) to move sideways instead.
-<br>Adjusting .SetEase(Ease.InOutSine) to .SetEase(Ease.OutBounce) for a different effect.
-
-
-<br><br><br>✅ DOMoveY(3f, 1f) → Moves the cube’s Y position to 3 over 1 second.<br>
-✅ .SetLoops(-1, LoopType.Yoyo) → Makes it loop infinitely (up and down).<br>
-✅ .SetEase(Ease.InOutSine) → Creates a smooth, natural motion.<br>DOTween Documentation
-All of the possible functions/methods and concepts around the tweening engine can be learned from the <a data-tooltip-position="top" aria-label="https://dotween.demigiant.com/documentation.php" rel="noopener nofollow" class="external-link" href="https://dotween.demigiant.com/documentation.php" target="_blank">documentation</a>.
-<br><br><br><br>
-<br>Open the EldritchPortalShader in Shader Graph.
-<br>Locate the EdgeWidth property in the Blackboard.
-<br>Check its Reference Name is set to _EdgeWidth in the Graph Inspector &gt; Node Settings (for C# access).
-<br>Check that Exposed is ticked on.
-<br>Save and Apply changes.
-<br><br><br>We will use DOTween to smoothly animate the portal’s EdgeWidth when an "enemy is about to spawn."<br><br>
-<br>In Unity, create a new C# script named PortalShaderController.cs.
-<br>Attach it to the Portal GameObject, the one with the shader and material applied to it.
-<br>Replace its contents with the following:
-<br>using UnityEngine;
-using DG.Tweening; // Import DOTween
-
-public class PortalShaderController : MonoBehaviour
-{
-    public Material portalMaterial;  // Assign the material in the Inspector
-    private static readonly int EdgeWidthProperty = Shader.PropertyToID("_EdgeWidth");
-
-    public float normalWidth = 0.2f;
-    public float alertWidth = 0.6f;
-    public float transitionDuration = 1.0f; // How long the animation takes
-
-    void Start()
-    {
-        if (portalMaterial == null)
-        {
-            Debug.LogError("Portal material not assigned!");
-            return;
-        }
-
-        // Ensure EdgeWidth starts at normal width
-        portalMaterial.SetFloat(EdgeWidthProperty, normalWidth);
-    }
-
-    // Triggered when an enemy is about to spawn
-    public void ActivateAlert()
-    {
-        Debug.Log("Portal activating.");
-        
-        // DOTween smoothly changes EdgeWidth over time
-        portalMaterial.DOFloat(alertWidth, EdgeWidthProperty, transitionDuration)
-            .SetEase(Ease.InOutQuad);
-    }
-
-    // Reset the effect after a delay
-    public void DeactivateAlert()
-    {
-        Debug.Log("Portal deactivating.");
-        
-        // DOTween smoothly returns EdgeWidth to normal
-        portalMaterial.DOFloat(normalWidth, EdgeWidthProperty, transitionDuration)
-            .SetEase(Ease.InOutQuad);
-    }
-}
-<br><br>✅ DOFloat(): Smoothly transitions the shader property over time.<br>
-✅ SetEase(Ease.InOutQuad): Adds a smooth acceleration/deceleration.<br>
-✅ ActivateAlert(): Expands the portal effect.<br>
-✅ DeactivateAlert(): Resets the effect after a delay.<br>Inspector Values
-Be sure to assign the correct POrtal Material and tweak the Normal Width and Alert Width values in the Inspector for this script. If not errors may arise, such as a "NullReferenceExcpetion"
-<br><img alt="portalInspector.png" src="gmap-395\module-2\media\portalinspector.png"><br><br><br><br>
-<br>Create an empty GameObject named "EnemySpawner".
-<br>Create a new script called EnemySpawner.
-<br>Attach the script to it and replace its contents:
-<br>using UnityEngine;
-using System.Collections;
-
-public class EnemySpawner : MonoBehaviour
-{
-    public PortalShaderController portalShader;
-    public float spawnDelay = 5f;  // Time before enemy spawns
-
-    void Start()
-    {
-        StartCoroutine(TriggerPortalAlert());
-    }
-
-    IEnumerator TriggerPortalAlert()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(spawnDelay);
-            
-            Debug.Log("Enemy spawning. Triggering portal effect.");
-            portalShader.ActivateAlert();
-            
-            yield return new WaitForSeconds(3f);
-            
-            Debug.Log("Enemy spawned. Resetting portal.");
-            portalShader.DeactivateAlert();
-        }
-    }
-}
-<br><br>
-<br>Drag the Portal GameObject into the portalShader field in the EnemySpawner script.
-<br>Play the scene—the portal will expand and contract smoothly when an enemy is "about to spawn."
-<br><img alt="enemySpawnerInspector.png" src="gmap-395\module-2\media\enemyspawnerinspector.png"><br><br><br>✅ Test different EdgeWidth values to fine-tune the visual effect.<br>
-✅ Experiment with DOTween easing settings (Ease.OutBounce, Ease.InCirc, etc.).<br>
-✅ Try different game triggers instead of a timer (e.g., using OnTriggerEnter).<br><br><br>✅ Connected a C# script to Shader Graph to modify EdgeWidth dynamically.<br>
-✅ Used DOTween for smooth, animated transitions.<br>
-✅ Triggered the effect using a simulated enemy spawn event.<br>
-✅ Enhanced the experience with sound and particles.<br><br>
-<br>Try controlling other shader properties (like SwirlSpeed or EdgeColor).
-<br>Replace the enemy timer with a real game event (e.g., player proximity).  
-<br>Experiment with DOTween sequencing for more complex VFX.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-href="GMAP 395 - Module 2" href="gmap-395\module-2\gmap-395-module-2.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-2\gmap-395-wk-5-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - WK 5 - Tutorial.md</guid><pubDate>Mon, 03 Feb 2025 20:48:44 GMT</pubDate><enclosure url="gmap-395\module-2\media\dotween1.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-2\media\dotween1.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
+<br><br>]]></description><link>gmap-395\module-2\gmap-395-asn-2-brief.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - ASN 2 - Brief.md</guid><pubDate>Tue, 28 Jan 2025 20:44:35 GMT</pubDate></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
  ]]></description><link>gmap-395\module-3\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 3/media/media.md</guid><pubDate>Fri, 07 Feb 2025 19:44:31 GMT</pubDate></item><item><title><![CDATA[Assignment 3: Effects and Particle Systems]]></title><description><![CDATA[ 
  <br><br><br>Assignment Overview  
 In this assignment, students will:
@@ -7754,107 +8384,7 @@ public class CameraZoomController : MonoBehaviour
 <br>The vignette builds subconscious tension—danger is coming!
 <br>The zoom gives the player control to witness the danger up close.
 <br>Together, they turn a simple spawn event into a cinematic-esq, dramatic moment.
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-wk-9-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md</guid><pubDate>Mon, 03 Mar 2025 21:08:53 GMT</pubDate><enclosure url="gmap-395\module-4\media\tutwk9splash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-4\media\tutwk9splash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[🕹️ <strong>*GMAP 395: Final Project Guide</strong>]]></title><description><![CDATA[ 
- <br><br><br>Students will create a polished, interactive game art piece by focusing on one module of their choice from the course to do the Additional Requirements for. This final deliverable will showcase their technical and artistic skills while demonstrating mastery of the selected module.<br>Requirements vs Additional Requirements
-The "Requirements" for all four modules are required for all projects. You will choose one module to complete the "Additional Requirement" for to complete the final project.
-The "polished game art piece" you will make for the final is the same work you have been doing for the whole quarter. You are not required to make new work, just polish your existing assets.
-<br>DUE DATE
-Saturday, March 22nd @ 11:59 PM
-<br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_NJLPK-nqm7VbyChQ?e=PbvnMW" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_NJLPK-nqm7VbyChQ?e=PbvnMW" target="_blank">gmap395_finalVid.mp4</a><br><br><br><br>Each module for the final includes main requirements and one additional challenge to practice development, critical-thinking, and creativity.<br><br>
-Requirements:
-
-<br>✅ Create a procedural or modular system for props, characters, or environments.
-<br>✅ Integrate at least three lighting sources: one directional light and two auxiliary lights (e.g., point, spot, area lights).
-<br>✅ Use modular assets to build a cohesive scene.
-<br>✅ Incorporate a dynamic lighting element, like a day-night cycle or interactive light source.
-
-<br>
-🔧 Additional Requirement:
-
-<br>Add an advanced procedural element, such as animated modular components or interactive environmental changes (e.g., destructible props, dynamic weather systems).
-
-<br><br><br>
-Requirements:
-
-<br>✅ Develop at least two custom shaders using Shader Graph or HLSL.
-<br>✅ Include shaders with dynamic properties, like adjustable emission, transparency, or surface effects.
-<br>✅ Ensure shaders are cohesive with the overall project aesthetic.
-
-<br>
-🔧 Additional Requirement:
-
-<br>Design a shader with user-driven interactions (for both required shaders) activated by user interaction or environmental triggers (e.g., heat distortion near light sources, ripple effects when interacted with).
-
-<br><br><br>
-Requirements:
-
-<br>✅ Create at least three particle systems (e.g., sparks, smoke, mist).
-<br>✅ Use modular techniques for particle creation (e.g., reusable templates, layered systems).
-<br>✅ Ensure effects are integrated within a cohesive game art scene.
-
-<br>
-🔧 Additional Requirement:
-
-<br>Build a reactive particle system (for 2 of the 3 required systems) that changes based on environmental conditions, player interaction, or time (e.g., intensity, color, or behavior adjusting to a day-night cycle).
-
-<br><br><br>
-Requirements:
-
-<br>✅ Implement a dynamic camera system using Cinemachine.
-<br>✅ Add at least two post-processing effects (e.g., bloom, color grading, depth of field) to enhance visual quality.
-<br>✅ Use camera animations or transitions to highlight specific parts of the scene.
-
-<br>
-🔧 Additional Requirement:
-
-<br>Develop a camera-based interaction system, such as zoom-in on specific triggers or focus shifts during player interactions and manipulate (1 of the 2 required post-process effects) based on player interaction of environmental triggers.**
-
-<br><br><br>What to Submit
-
-<br>Interactive Scene:
-
-<br>A fully developed Unity scene meeting the requirements of the selected module.
-<br>The scene must be cohesive, polished, and technically proficient.
-
-
-<br>Playthrough Video:
-
-<br>A 10-minute video showcasing the final project.
-<br>Include annotations or narration explaining key design decisions.
-
-
-<br>Postmortem Document:
-
-<br>A 1–2 page reflection including:
-
-<br>Successes: Highlight key achievements.
-<br>Challenges: Discuss difficulties and solutions.
-<br>Learning Outcomes: Share what you’ve learned.
-
-
-<br>Include citations for any external assets used.
-
-
-<br>Unity Project Files:
-
-<br>A zipped folder with only the necessary files: Assets, Packages, ProjectSettings ONLY (❌ omit the Library, Temp, and other folders).
-
-
-<br>Polished Build:
-
-<br>A playable Windows build demonstrating your project.
-
-
-
-<br><br>Requirements
-For each module there are a set of Requirements that must be met for every module. Then there are Additional Requirements that must only be met for whichever module you choose to polish for the final.
-<br><br><br>Your project will be evaluated based on:<br>
-<br>Technical Mastery: Effective use of tools and workflows from the chosen module.
-<br>Creativity and Originality: Innovative and thoughtful design choices.
-<br>Cohesion: Visual and thematic consistency throughout the project.
-<br>Polish: Overall quality and refinement of the interactive experience.
-<br>Presentation: Clarity and professionalism in the playthrough video and postmortem document.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Mon, 03 Mar 2025 21:06:51 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-wk-9-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md</guid><pubDate>Mon, 03 Mar 2025 21:08:53 GMT</pubDate><enclosure url="gmap-395\module-4\media\tutwk9splash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-4\media\tutwk9splash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
  <br><br>About the Course
 GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on concepts and techniques related to technical art for games. 
 Dive into real-time systems and game engine workflows with topics like:

@@ -10,7 +10,9 @@ Students will create a **polished, interactive game art piece** by focusing on *
 > The "polished game art piece" you will make for the final *is the same work* you have been doing for the whole quarter. You are not required to make new work, just polish your existing assets.
 
 > [!error] DUE DATE
-> ***Saturday, March 22nd @ 11:59 PM***
+> ***TBD***
+
+>[!summary] Check out these [[GMAP 395 - Student Examples|Student Examples]]from previous classes to get a feel for the final output.
 
 [gmap395_finalVid.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_NJLPK-nqm7VbyChQ?e=PbvnMW)
 <iframe src="https://1drv.ms/v/s!AqQzGx8l4o2wk_NJecRf4EeoFj-wjQ?embed=1" width="640" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
