@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 16 Jul 2025 14:54:04 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 16 Jul 2025 14:53:22 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 17 Jul 2025 17:18:46 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 17 Jul 2025 17:18:09 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Learning Focus: Understanding procedural workflows and algorithmic content creation <br>
 Builds On: Module 1A (Technical Art fundamentals)
@@ -4322,7 +4322,7 @@ Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2" data-
 <br>
 In the Blackboard, add the following properties:
 
-<br>Texture2D named _MainTex
+<br>Texture2D named _MainTex![[]]
 <br>Vector2 named _Tiling (set default to 1,1)
 <br>Vector2 named _Offset (set default to 0,0)
 
@@ -4402,7 +4402,10 @@ Connect the nodes to create the wave effect:
 Add a Combine node:
 
 <br>Connect the R (X) and B (Z) from the Split node to the corresponding inputs on the Combine
-<br>For the G(Y) input of the Combine node, add the wave calculation to the G(Y) output of the Split node and connect it.
+<br>Create an Add node. Connect the output of the add into the input for the G(Y) of the Combine node from the previous step.
+<br>Take the  G(Y) output of the Split node for the first (A) input of the add node. And finally connect the wave calculation final output into the second (B) input of the add node.
+Essentially, we want to ADD the wave calculation to the Green (G/Y) channel of the split node and take this final addition calculation and plug it into the Green (G/Y) input of the Combine node.
+
 
 
 <br>
@@ -4449,7 +4452,7 @@ Save the Shader Graph and adjust the Blend Factor in your material's Inspector t
 <br>Add a third color and blend between all three
 <br>Check
 Remember to save your Shader Graph after each major change, and don't hesitate to experiment with different connections and values!
-]]></description><link>gmap-395\module-2\tutorials\gmap-395-wk-4-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - In-Class Lab.md</guid><pubDate>Mon, 27 Jan 2025 21:55:53 GMT</pubDate></item><item><title><![CDATA[Creating an Eldritch Portal Shader]]></title><description><![CDATA[ 
+]]></description><link>gmap-395\module-2\tutorials\gmap-395-wk-4-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - In-Class Lab.md</guid><pubDate>Wed, 16 Jul 2025 21:45:20 GMT</pubDate></item><item><title><![CDATA[Creating an Eldritch Portal Shader]]></title><description><![CDATA[ 
  <br><br><br>Create a swirling circular portal shader using Unity’s Shader Graph, complete with dynamic transparency and procedural motion effects.<br><img alt="portalShaderGrab.png" src="lib\media\portalshadergrab.png" style="width: 640px; max-width: 100%;"><br><br><br>
 [gmap395_tut3.mp4](https://1drv.ms/v/s!AqQzGx8l4o2wk_F1UOYs8x0W2JbJRQ?e=JOQ7gp)<br><br><br>
 <br>Unity 2022.3 with URP installed.
@@ -4798,20 +4801,20 @@ public class EnemySpawner : MonoBehaviour
  <br><br><br>Assignment Overview  
 In this assignment, students will:
 
-<br>Develop custom shaders and materials for the procedural game asset created in Assignment 1.
+<br>Develop custom shaders and materials for the procedural game asset and lighting created in Assignment 1.
 <br>Use Unity's Shader Graph or a similar node-based tool to create dynamic, real-time effects (must be displayed in Unity).
-<br>Ensure shaders and materials enhance the asset’s presentation, aligning with the class theme: Something from the Void.
+<br>Ensure shaders and materials enhance the asset’s presentation, aligning with the chosen project concept and class theme: So What About Tomorrow?.
 <br>Present the final shaders in a Unity scene and document the process in a README file.
 
 <br><br><br>Assignment Breakdown
 
 <br>Part 1: Shader Creation<br>
-Design and implement dynamic shaders to achieve real-time visual effects for your asset.
+Design and implement dynamic shader(s) to achieve real-time visual effects for your asset.
 <br>Part 2: Interactive Material Application<br>
-Use the shaders and materials from Part 1, to create a real-time feedback based on a game event.
+Use the shaders and materials from Part 1, to create a real-time feedback based on an animation or simulated game event.
 
-<br><br><br><br>Shader Inspiration from the Void  
-Explore the theme by crafting shaders and materials that evoke mystery, emptiness, or cosmic energy. Examples include:
+<br><br><br><br>Shader Inspiration from the theme
+Explore the theme by crafting shader(s) and materials that evoke "utopia," futurism, or something more mechanically oriented like blowing wind. Examples include:
 
 <br>A swirling galaxy effect on a portal or artifact.
 <br>A glowing material with pulsating patterns and emissive highlights.
@@ -4913,12 +4916,15 @@ Download OBS Studio or some other comparable software, record your screen and ta
 <br>File Naming: abc123_Lastname_Firstname_A2.zip.
 <br>Late submissions will incur a 10% penalty per day.
 
-<br><br>]]></description><link>gmap-395\module-2\gmap-395-asn-2-brief.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - ASN 2 - Brief.md</guid><pubDate>Tue, 28 Jan 2025 20:44:35 GMT</pubDate></item><item><title><![CDATA[Module 2 - Shaders and Material Development]]></title><description><![CDATA[ 
- <br><br><br>This module deals with shader creation and material development, essential skills for adding dynamic visual behavior to assets. Students will explore both code-based and node-based shader workflows, focusing on enhancing procedural assets for real-time interactivity.<br>Module Overview Video 📹 &gt; <a data-tooltip-position="top" aria-label="" rel="noopener nofollow" class="external-link" href="" target="_blank">Module 2 - Overview Video</a> TODO<br><br><br><a data-href="GMAP 395 - Module 2A - Shader Fundamentals" href="gmap-395\module-2\submodules\gmap-395-module-2a-shader-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2A - Shader Fundamentals</a><br>
+<br><br>]]></description><link>gmap-395\module-2\gmap-395-asn-2-brief.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - ASN 2 - Brief.md</guid><pubDate>Wed, 16 Jul 2025 21:51:13 GMT</pubDate></item><item><title><![CDATA[Module 2 - Shaders and Material Development]]></title><description><![CDATA[ 
+ <br><br><br>This module deals with shader creation and material development, essential skills for adding dynamic visual behavior to assets. Students will explore both code-based and node-based shader workflows, focusing on enhancing procedural assets for real-time interactivity.<br>Module Overview Video 📹 &gt; <a data-tooltip-position="top" aria-label="[gmap395_md2Overview.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/EXKlQu-QFkNHoowkQR0eoEUBdB0nOK_hqbKuqV4P6TjQiQ?e=WBPbjw)" rel="noopener nofollow" class="external-link" href=".\[gmap395_md2Overview.mp4](https:\\1drv.ms\v\c\b08de2251f1b33a4\EXKlQu-QFkNHoowkQR0eoEUBdB0nOK_hqbKuqV4P6TjQiQ?e=WBPbjw)" target="_blank">Module 2 - Overview Video</a> 
+
+<br><br><br><a data-href="GMAP 395 - Module 2A - Shader Fundamentals" href="gmap-395\module-2\submodules\gmap-395-module-2a-shader-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2A - Shader Fundamentals</a><br>
 <a data-href="GMAP 395 - Module 2B - Shader Dev and 3D" href="gmap-395\module-2\submodules\gmap-395-module-2b-shader-dev-and-3d.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2B - Shader Dev and 3D</a><br>
 <a data-href="GMAP 395 - Module 2C - Unity Shader Graph Intro" href="gmap-395\module-2\submodules\gmap-395-module-2c-unity-shader-graph-intro.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2C - Unity Shader Graph Intro</a><br>
 <a data-href="GMAP 395 - Module 2D - Additional Shader Graph Techniques" href="gmap-395\module-2\submodules\gmap-395-module-2d-additional-shader-graph-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2D - Additional Shader Graph Techniques</a><br>
-<a data-href="GMAP 395 - Module 2E - Shader Integration" href="gmap-395\module-2\submodules\gmap-395-module-2e-shader-integration.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2E - Shader Integration</a><br><br>N/A<br><br>N/A<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 4 - Tutorial" data-href="GMAP 395 - WK 4 - Tutorial" href="gmap-395\module-2\tutorials\gmap-395-wk-4-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - Tutorial</a> <a data-href="GMAP 395 - WK 5 - Tutorial" href="gmap-395\module-2\tutorials\gmap-395-wk-5-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 5 - Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 2 - Brief" data-href="GMAP 395 - ASN 2 - Brief" href="gmap-395\module-2\gmap-395-asn-2-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 2 - Custom Shaders for Procedural Assets</a><br>
+<a data-href="GMAP 395 - Module 2E - Shader Integration" href="gmap-395\module-2\submodules\gmap-395-module-2e-shader-integration.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 2E - Shader Integration</a><br><br>N/A<br><br>N/A<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 4 - Tutorial" data-href="GMAP 395 - WK 4 - Tutorial" href="gmap-395\module-2\tutorials\gmap-395-wk-4-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - Tutorial</a><br>
+<a data-href="GMAP 395 - WK 5 - Tutorial" href="gmap-395\module-2\tutorials\gmap-395-wk-5-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 5 - Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 2 - Brief" data-href="GMAP 395 - ASN 2 - Brief" href="gmap-395\module-2\gmap-395-asn-2-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 2 - Custom Shaders for Procedural Assets</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - Weekly - 4" data-href="GMAP 395 - Weekly - 4" href="gmap-395\weeklies\gmap-395-weekly-4.html" class="internal-link" target="_self" rel="noopener nofollow">Weekly Crit 4</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - Weekly - 5" data-href="GMAP 395 - Weekly - 5" href="gmap-395\weeklies\gmap-395-weekly-5.html" class="internal-link" target="_self" rel="noopener nofollow">Weekly Crit 5</a><br><br><a data-href="GMAP 395 - WK 4 - Slides + Video" href="gmap-395\module-2\legacy\gmap-395-wk-4-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - Slides + Video</a><br>
 <a data-href="GMAP 395 - WK 4 - In-Class Lab" href="gmap-395\module-2\tutorials\gmap-395-wk-4-in-class-lab.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 4 - In-Class Lab</a><br>
@@ -4953,7 +4959,7 @@ Download OBS Studio or some other comparable software, record your screen and ta
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-shaders-and-materials?pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-shaders-and-materials?pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Learn - Shaders and Materials</a>
 <br><a data-tooltip-position="top" aria-label="https://www.kodeco.com/5671826-introduction-to-shaders-in-unity" rel="noopener nofollow" class="external-link" href="https://www.kodeco.com/5671826-introduction-to-shaders-in-unity" target="_blank">Introduction to Shaders in Unity</a>
 <br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/2022.3/Documentation/Manual/class-GraphicsSettings.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/2022.3/Documentation/Manual/class-GraphicsSettings.html" target="_blank">Unity Graphics Settings Overview</a>
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-2\gmap-395-module-2.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - Module 2.md</guid><pubDate>Mon, 14 Jul 2025 21:42:53 GMT</pubDate></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-2\gmap-395-module-2.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - Module 2.md</guid><pubDate>Thu, 17 Jul 2025 17:15:03 GMT</pubDate></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
  ]]></description><link>gmap-395\module-3\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 3/media/media.md</guid><pubDate>Fri, 07 Feb 2025 19:44:31 GMT</pubDate></item><item><title><![CDATA[Assignment 3: Effects and Particle Systems]]></title><description><![CDATA[ 
  <br><br><br>Assignment Overview  
 In this assignment, students will:
@@ -7107,7 +7113,115 @@ Some ideas of things to share:<br>
 <br>Problems are valuable - share what's not working, we can help troubleshoot
 <br>Be specific - instead of "I'm making a building," try "I'm trying to use arrays/modifiers to create modular wall panels"
 
-]]></description><link>gmap-395\weeklies\gmap-395-weekly-2.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md</guid><pubDate>Mon, 14 Jul 2025 20:19:51 GMT</pubDate></item><item><title><![CDATA[🎩 Six Thinking Hats: Giving Good Game Design Feedback]]></title><description><![CDATA[ 
+]]></description><link>gmap-395\weeklies\gmap-395-weekly-2.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md</guid><pubDate>Mon, 14 Jul 2025 20:19:51 GMT</pubDate></item><item><title><![CDATA[Week 4 Progress Check: Lighting &amp; Shader Research]]></title><description><![CDATA[ 
+ <br><br>Overview 
+Purpose: Share your Unity lighting setup and initial shader research/experimentation<br>
+Format: Brief individual share (2-3 minutes) + peer feedback online<br>
+Due: Thread Week 4 class session - Feedback Week 4 EOW
+<br><br><br>Time to show us how your asset is looking in Unity and what direction you're heading with shaders! This week we want to see your lighting setup in action and your research into shader possibilities for your final project.<br><br><br><br>Capture your asset properly lit in Unity:<br>
+<br>Your procedural asset from Module 1 in a Unity scene
+<br>Show off your lighting setup (directional light, point lights, etc.)
+<br><br>Show us your shader direction through:<br>Option A: Reference Research<br>
+<br>Screenshots of shaders/materials that inspire your final vision
+<br>Examples from games, tutorials, or art that match your aesthetic goals
+<br>Annotate what specifically appeals to you about each example
+<br>Option B: Initial Shader Graph Attempts<br>
+<br>Screenshots of simple shader graph experiments you've tried
+<br>Basic node setups, even if they're not working perfectly yet
+<br>Show your thought process through the node network
+<br>Option C: Combination of Both<br>
+<br>Mix of reference images and your early attempts to recreate them
+<br>Side-by-side comparisons of inspiration vs. your results
+<br><br>Tell us your shader game plan:<br>
+<br>What type of shader are you aiming for? (water, dissolve, foliage, metal, glass, etc.)
+<br>How will this shader enhance your asset's visual impact?
+<br>What's one specific effect or property you want to achieve?
+<br><br><br><br>
+<br>Show your Unity lighting - walk us through your scene setup
+<br>Present your shader research - explain what you're aiming for
+<br>Connect the vision - how will the shader enhance your lit asset?
+<br>Share one discovery - what did you learn from your research/attempts?
+<br><br>Quick responses to/from classmates:<br>
+<br>What lighting techniques are working well in their scene?
+<br>Any shader references or approaches that could benefit your own project?
+<br>Suggestions for shader tutorials or techniques to explore?
+<br>Remember to use the <a data-tooltip-position="top" aria-label="Six Thinking Hats Giving Good Game Design Feedback" data-href="Six Thinking Hats Giving Good Game Design Feedback" href="gmap-395\weeklies\six-thinking-hats-giving-good-game-design-feedback.html" class="internal-link" target="_self" rel="noopener nofollow">Six Hats Method</a> for meaningful and actionable feedback.<br><br><br><br>
+<br>Screenshots ready to share (uploaded to thread to present)
+<br>Brief talking points prepared about your shader direction
+<br><br>
+<br>Post your Unity lighting screenshot in your individual thread
+<br>Include your 2-3 shader research/attempt images
+<br>Add your shader direction statement
+<br>Comment on 2-3 peer posts with feedback or suggestions
+<br><br>💡 Remember
+
+<br>Research counts - even if you haven't made a shader yet, good reference research is valuable
+<br>Document your process - show us failed attempts, they help us understand your thinking
+<br>Be specific about goals - "I want a cool water shader" vs. "I want an animated water shader with foam edges and depth-based transparency"
+<br>Lighting matters - a well-lit basic material often looks better than a poorly-lit complex shader
+
+<br>🎯 Looking Ahead 
+Next week (Crit 5) you'll need to show your actual shader creation and application to your asset, so use this week to solidify your direction!
+]]></description><link>gmap-395\weeklies\gmap-395-weekly-4.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Weekly - 4.md</guid><pubDate>Wed, 16 Jul 2025 13:44:50 GMT</pubDate></item><item><title><![CDATA[Week 5 Progress Check: Shader Creation &amp; Material Application]]></title><description><![CDATA[ 
+ <br><br>Overview 
+Purpose: Demonstrate your custom shader development and material application to your asset<br>
+Format: Brief individual share (3-4 minutes) + peer feedback online<br>
+Due: Week 5 class session - Feedback by EOW
+<br><br><br>Time to put your shader research into practice! This week we want to see your actual shader creation in Shader Graph and how it looks when applied to your asset through materials. Show us both your successes and your problem-solving process.<br><br><br><br>Document your shader creation journey:<br>Required Screenshots:<br>
+<br>Your Shader Graph network - Show us the node setup you've created
+<br>Material applied to your asset - Your shader/material on your procedural model in Unity
+<br>Shader effect in action - Demonstrate any animated or interactive properties (if present at this time)
+<br><br>Briefly describe your shader development experience:<br>What You Attempted:<br>
+<br>What type of shader did you set out to create?
+<br>What specific visual effects or properties were you aiming for?
+<br>Which tutorials, references, or techniques did you follow?
+<br>What's Working:<br>
+<br>Which aspects of your shader are successful?
+<br>What effects or properties turned out better than expected?
+<br>Any happy accidents or discoveries along the way?
+<br>Challenges Faced:<br>
+<br>What technical problems did you encounter?
+<br>Which nodes or concepts were most difficult to understand?
+<br>Any performance issues or unexpected behaviors?
+<br>Solutions &amp; Workarounds:<br>
+<br>How did you solve (or attempt to solve) problems?
+<br>What resources helped you troubleshoot issues?
+<br>Any compromises you made to achieve your vision?
+<br><br><br><br>
+<br>Show your shader graph - walk us through your node network and logic
+<br>Demonstrate on your asset - how does the material look applied to your model?
+<br>Explain your process - what you attempted, what worked, what challenged you
+<br>Share solutions - how you overcame obstacles or what you're still working on
+<br><br>Constructive feedback focus:<br>
+<br>Technical suggestions for node improvements or optimizations
+<br>Visual feedback on the shader's aesthetic effectiveness
+<br>Troubleshooting ideas for ongoing challenges
+<br>Inspiration from successful techniques demonstrated by others
+<br>Remember to use the <a data-tooltip-position="top" aria-label="Six Thinking Hats Giving Good Game Design Feedback" data-href="Six Thinking Hats Giving Good Game Design Feedback" href="gmap-395\weeklies\six-thinking-hats-giving-good-game-design-feedback.html" class="internal-link" target="_self" rel="noopener nofollow">Six Hats Method</a> for meaningful and actionable feedback.<br><br><br><br>
+<br>Screenshots ready to share (uploaded to thread to present)
+<br>Brief notes prepared about your process and challenges
+<br><br>
+<br>Post your 2-3 shader development screenshots in your individual thread
+<br>Include your process explanation (what you attempted, what works, challenges, solutions)
+<br>Respond to 2-3 peer posts with technical suggestions or encouragement
+<br><br>🎯 Evaluation Focus
+This week we're looking for:
+
+<br>Experimentation - Evidence that you've actively worked with Shader Graph
+<br>Problem-solving - How you approach and work through technical challenges
+<br>Application - Successfully applying your shader to your asset via materials
+<br>Reflection - Understanding of what works, what doesn't, and why
+
+<br>💡 Remember
+
+<br>Progress over perfection - A simple working shader is better than a complex broken one
+<br>Document failures - Show us what didn't work, it helps everyone learn
+<br>Materials matter - Proper material setup is crucial for shader application
+<br>Performance awareness - Consider how complex your shader is for real-time rendering
+
+<br>🔄 Iteration Mindset 
+Your shader doesn't need to be final! This is about demonstrating your learning process and getting feedback for further refinement toward your final project.
+]]></description><link>gmap-395\weeklies\gmap-395-weekly-5.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Weekly - 5.md</guid><pubDate>Wed, 16 Jul 2025 13:45:36 GMT</pubDate></item><item><title><![CDATA[🎩 Six Thinking Hats: Giving Good Game Design Feedback]]></title><description><![CDATA[ 
  <br><br>The Six Thinking Hats method helps provide structured and meaningful feedback. Instead of just saying, “I like this” or “This part is bad”, this method encourages you to analyze different aspects of the project from multiple perspectives.<br>Each hat represents a different way of thinking about a certain topic/idea, even about your own or another's game! You don’t need to use every hat in every response, but using at least three will make your feedback more valuable.<br><br><br>
 🧐 What are the objective facts about the project?
 <br>

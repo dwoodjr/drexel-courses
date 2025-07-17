@@ -5,9 +5,9 @@
 > [!info] Assignment Overview  
 > In this assignment, students will:
 > 
-> 1. Develop custom shaders and materials for the procedural game asset created in ***Assignment 1***.
+> 1. Develop custom shaders and materials for the procedural game asset and lighting created in ***Assignment 1***.
 > 2. Use Unity's Shader Graph or a similar node-based tool to create dynamic, real-time effects (must be displayed in Unity).
-> 3. Ensure shaders and materials enhance the asset’s presentation, aligning with the class theme: _Something from the Void_.
+> 3. Ensure shaders and materials enhance the asset’s presentation, aligning with the chosen project concept and class theme: _So What About Tomorrow?_.
 > 4. Present the final shaders in a Unity scene and document the process in a README file.
 
 ---
@@ -17,18 +17,18 @@
 > [!summary] Assignment Breakdown
 > 
 > - **Part 1: Shader Creation**  
->     Design and implement dynamic shaders to achieve real-time visual effects for your asset.
+>     Design and implement dynamic shader(s) to achieve real-time visual effects for your asset.
 > - **Part 2: Interactive Material Application**  
->     Use the shaders and materials from `Part 1`, to create a real-time feedback based on a game event.
+>     Use the shaders and materials from `Part 1`, to create a real-time feedback based on an animation or simulated game event.
 
 ---
 
 ## Assignment Details
 
-### Theme: Something from the Void
+### Theme: So What About Tomorrow?
 
-> [!question] Shader Inspiration from the Void  
-> Explore the theme by crafting shaders and materials that evoke mystery, emptiness, or cosmic energy. Examples include:
+> [!question] Shader Inspiration from the theme
+> Explore the theme by crafting shader(s) and materials that evoke "utopia," futurism, or something more mechanically oriented like blowing wind. Examples include:
 > - A swirling galaxy effect on a portal or artifact.
 > - A glowing material with pulsating patterns and emissive highlights.
 > - Transparency effects to mimic glass-like or ethereal surfaces.

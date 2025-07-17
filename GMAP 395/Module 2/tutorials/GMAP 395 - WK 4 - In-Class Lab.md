@@ -47,7 +47,7 @@ Gain hands-on experience creating and modifying basic shaders using Unity's Shad
 ### Step 1: Modify the shader to accept a texture input
 
 1. In the Blackboard, add the following properties:
-   - Texture2D named `_MainTex`
+   - Texture2D named `_MainTex`![[]]
    - Vector2 named `_Tiling` (set default to 1,1)
    - Vector2 named `_Offset` (set default to 0,0)
 
@@ -112,7 +112,9 @@ Gain hands-on experience creating and modifying basic shaders using Unity's Shad
 
 4. Add a `Combine` node:
    - Connect the `R` (X) and `B` (Z) from the `Split` node to the corresponding inputs on the `Combine`
-   - For the `G`(Y) input of the `Combine` node, add the wave calculation to the `G`(Y) output of the `Split` node and connect it.
+   - Create an `Add` node. Connect the output of the add into the input for the `G`(Y) of the `Combine` node from the previous step.
+   - Take the  `G`(Y) output of the `Split` node for the first (A) input of the add node. And finally connect the *wave calculation* final output into the second (B) input of the add node.
+     >[!note] Essentially, we want to ADD the wave calculation to the Green (G/Y) channel of the split node and take this final addition calculation and plug it into the Green (G/Y) input of the Combine node.
 
 5. Connect the `Combine` node's output (RGBA or RGB) to the `Position` input of the Vertex node
 

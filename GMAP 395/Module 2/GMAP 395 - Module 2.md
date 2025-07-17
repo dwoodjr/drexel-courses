@@ -4,7 +4,8 @@
 
 This module deals with **shader creation** and **material development**, essential skills for adding dynamic visual behavior to assets. Students will explore both code-based and node-based shader workflows, focusing on enhancing procedural assets for real-time interactivity.
 
-> [!summary] Module Overview Video 📹 > [Module 2 - Overview Video]() ***TODO***
+> [!summary] Module Overview Video 📹 > [Module 2 - Overview Video]([gmap395_md2Overview.mp4](https://1drv.ms/v/c/b08de2251f1b33a4/EXKlQu-QFkNHoowkQR0eoEUBdB0nOK_hqbKuqV4P6TjQiQ?e=WBPbjw)) 
+> <iframe src="https://1drv.ms/v/c/b08de2251f1b33a4/IQRypULvkBZDR6KMJEEdHqBFASGURFuM7it2rZ2H8QzIqQw?width=2560&height=1440" width="800" height="600" frameborder="0"></iframe>
 
 ### Key Links
 
@@ -22,7 +23,8 @@ N/A
 N/A
 
 #### Tutorials
-[[GMAP 395 - WK 4 - Tutorial|GMAP 395 - WK 4 - Tutorial]] [[GMAP 395 - WK 5 - Tutorial]]
+[[GMAP 395 - WK 4 - Tutorial|GMAP 395 - WK 4 - Tutorial]] 
+[[GMAP 395 - WK 5 - Tutorial]]
 
 #### Assignments
 [[GMAP 395 - ASN 2 - Brief|Assignment 2 - Custom Shaders for Procedural Assets]]
