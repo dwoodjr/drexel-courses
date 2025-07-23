@@ -17,7 +17,8 @@ This module deals with **shader creation** and **material development**, essenti
 [[GMAP 395 - Module 2E - Shader Integration]]
 
 #### Demos
-N/A
+>[!warning] Demos on this Unity Package can be found in [[GMAP 395 - Module 2D - Additional Shader Graph Techniques]]
+>[MD2-ShaderExamples.unitypackage](https://1drv.ms/u/c/b08de2251f1b33a4/EY37yJgMWV9JjsnIEmYIK5EB0B4DH0nBwk7dmXUullgX2Q?e=xWjDmx)
 
 #### Guides
 N/A

@@ -4,6 +4,11 @@
 > **Learning Focus:** Understanding shader performance, game system integration, and professional development practices 
 > **Builds On:** Advanced techniques and practical implementation from Module 2D
 
+> [!summary] Submodule Video Overview
+> <iframe src="https://1drv.ms/v/c/b08de2251f1b33a4/IQTNDnkuxUN_TpK4a7XS61JZASpLhA4XOy1ALoN3X53dczw?width=2560&height=1440" width="800" height="600" frameborder="0"></iframe>
+> 
+> [gmap395_md2e.mkv](https://1drv.ms/v/c/b08de2251f1b33a4/Ec0OeS7FQ39OkrhrtdLrUlkBMQst0txb7lWQV2PG5bTBnw?e=7pzoxH)
+
 ---
 
 ## 🔄 Understanding Shaders in the Rendering Pipeline
@@ -147,6 +152,8 @@ Understanding these broader applications helps you think creatively about how ma
 ## 🎬 Animation and Tweening Integration for Smooth Transitions
 
 Creating smooth, polished visual transitions requires understanding how to integrate shader property changes with animation systems. Professional games rarely make abrupt visual changes because smooth transitions feel more natural.
+
+>[!hint] [DOTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) is recommended. Check out the [documentation](http://dotween.demigiant.com/documentation.php) here!
 
 ### 🔄 Tweening Architecture
 

@@ -4,6 +4,13 @@
 > **Learning Focus:** Mastering sophisticated Shader Graph operations for professional-quality materials 
 > **Builds On:** Interface understanding and basic node connections from Module 2C
 
+> [!summary] Submodule Video Overview
+> <iframe src="https://1drv.ms/v/c/b08de2251f1b33a4/IQSmN3tBUQsbSbCrRHcyFUX-AVSLAfR8vOcvdOblp6_hfZA?width=2560&height=1440" width="800" height="600" frameborder="0"></iframe>
+> 
+>[gmap395_md2d.mkv](https://1drv.ms/v/c/b08de2251f1b33a4/EaY3e0FRCxtJsKtEdzIVRf4BeSd7uEPSz95bGgEBIioxAg?e=JwSukh)
+
+>[!warning] The link to the unity package with [Shader Examples](https://1drv.ms/u/c/b08de2251f1b33a4/EY37yJgMWV9JjsnIEmYIK5EB9xL2fi0QqFsJxNCRwrp57w?e=sJD7bx)!
+
 ---
 
 ## 🎨 Texture Mapping and Blending Fundamentals

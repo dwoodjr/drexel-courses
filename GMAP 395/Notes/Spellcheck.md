@@ -1,0 +1,1 @@
+This Dot Product of the vertex positions by the wave direction sets the direction our wave will move in my multiplying the vectors to give us a new set of vectors
