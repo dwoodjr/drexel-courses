@@ -8,62 +8,105 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6d94cfbd7ca8e5d3",
+            "id": "aeea085dd127f612",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 2/tutorials/GMAP 395 - WK 5 - Tutorial.md",
+                "file": "GMAP 395/Module 3/GMAP 395 - Module 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - WK 5 - Tutorial"
+              "title": "GMAP 395 - Module 3"
             }
           },
           {
-            "id": "f6cbec08bfc29da2",
+            "id": "61ded58d78e8ff4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 2/GMAP 395 - Module 2.md",
+                "file": "GMAP 395/Module 3/submodules/GMAP 395 - Module 3A - VFX Basics and Game Feel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Module 2"
+              "title": "GMAP 395 - Module 3A - VFX Basics and Game Feel"
             }
           },
           {
-            "id": "338837cacec5e849",
+            "id": "efd1f8db5b9f38e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 2/submodules/GMAP 395 - Module 2E - Shader Integration.md",
+                "file": "GMAP 395/Module 3/submodules/GMAP 395 - Module 3B - Unity Particle System Hands-On.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Module 2E - Shader Integration"
+              "title": "GMAP 395 - Module 3B - Unity Particle System Hands-On"
             }
           },
           {
-            "id": "0f8d7b5c68181b0f",
+            "id": "7789df6e8d8f96bc",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/make-md/data.json",
-                "bFile": ".obsidian/plugins/make-md/data.json",
-                "aRef": ""
+                "file": "GMAP 395/Module 3/submodules/GMAP 395 - Module 3C - VFX Graph Introduction.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: data.json"
+              "icon": "lucide-file",
+              "title": "GMAP 395 - Module 3C - VFX Graph Introduction"
+            }
+          },
+          {
+            "id": "e36121be30e9cf5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Grading/SU25/GMAP 395 - SU25 - Crit Grades.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - SU25 - Crit Grades"
+            }
+          },
+          {
+            "id": "0c63cf4fac125165",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Weeklies/GMAP 395 - Week 6 - TPS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - Week 6 - TPS"
+            }
+          },
+          {
+            "id": "568d018760fc2ae9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - Final Project - Details and Requirements"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -117,7 +160,7 @@
             }
           },
           {
-            "id": "239369ded42b137a",
+            "id": "030542e098ffda22",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -131,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 451.5
+    "width": 321.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -140,7 +183,7 @@
       {
         "id": "93b3ddf4fd75b166",
         "type": "tabs",
-        "dimension": 48.51851851851852,
+        "dimension": 59.118236472945895,
         "children": [
           {
             "id": "81e14ee526097519",
@@ -249,7 +292,7 @@
       {
         "id": "654ae1b2ef08042f",
         "type": "tabs",
-        "dimension": 51.48148148148148,
+        "dimension": 40.88176352705411,
         "children": [
           {
             "id": "2b9aa3d6b77b12e1",
@@ -265,7 +308,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404.5
+    "width": 297.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -292,10 +335,29 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6d94cfbd7ca8e5d3",
+  "active": "81e14ee526097519",
   "lastOpenFiles": [
-    "GMAP 395/Module 2/submodules/GMAP 395 - Module 2C - Unity Shader Graph Intro.md",
     "Index.md",
+    "docs/gmap-395/weeklies/gmap-395-week-6-tps.html",
+    "docs/lib/media/portalbeamvfx.png",
+    "docs/lib/media/portalvfxsplash.png",
+    "docs/gmap-395/module-3/tutorials/gmap-395-wk-6-tutorial.html",
+    "docs/gmap-395/module-3/tutorials/gmap-395-wk-7-tutorial.html",
+    "docs/gmap-395/module-3/tutorials",
+    "docs/lib/media/screenshot-2025-07-29-210716.png",
+    "docs/lib/media/screenshot-2025-07-29-210550.png",
+    "docs/lib/media/screenshot-2025-07-29-200753.png",
+    "docs/lib/media/screenshot-2025-07-29-200313.png",
+    "docs/lib/media/screenshot-2025-07-29-191305.png",
+    "docs/lib/media/screenshot-2025-07-29-190811.png",
+    "docs/lib/media/screenshot-2025-07-29-184430.png",
+    "docs/lib/media/screenshot-2025-07-29-184357.png",
+    "docs/gmap-395/module-3/submodules/gmap-395-module-3e-vfx-style-guides-and-polish.html",
+    "docs/gmap-395/module-3/submodules/gmap-395-module-3c-vfx-graph-introduction.html",
+    "docs/gmap-395/module-3/submodules/gmap-395-module-3b-unity-particle-system-hands-on.html",
+    "docs/gmap-395/module-3/submodules/gmap-395-module-3d-advanced-vfx-techniques.html",
+    "docs/gmap-395/module-3/submodules/gmap-395-module-3a-vfx-basics-and-game-feel.html",
+    "docs/gmap-395/module-3/submodules",
     "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/GMAP 395 - SU25 - Theme.md",
@@ -307,38 +369,19 @@
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 5.md",
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 4.md",
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md",
+    "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
     "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
     "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
     "GMAP 395/Module 4/GMAP 395 - Module 4.md",
     "GMAP 395/Module 4/GMAP 395 - Guides - Custom Post-Processing Effects.md",
     "GMAP 395/Module 4/media/media.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 7 - Slides + Video.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 7 - In-Class Lab.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 6 - Tutorial.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 6 - Slides + Video.md",
-    "GMAP 395/Module 3/GMAP 395 - WK 6 - In-Class Lab.md",
     "GMAP 395/Module 3/GMAP 395 - Module 3.md",
-    "GMAP 395/Module 3/media/media.md",
-    "docs/gmap-395/weeklies/gmap-395-weekly-5.html",
-    "docs/gmap-395/weeklies/gmap-395-weekly-4.html",
-    "docs/lib/fonts/085cb93e613ba3d40d2b.woff2",
-    "docs/lib/fonts/293fd13dbca5a3e450ef.woff2",
-    "docs/lib/media/enemyspawnerinspector.png",
-    "docs/lib/media/portalinspector.png",
-    "docs/lib/media/dotween1.png",
-    "docs/lib/media/portalshadergrab.png",
-    "docs/lib/media/masterstack_populated.png",
-    "docs/lib/media/internalinspectorblackboardproperty.png",
-    "docs/lib/media/blackboard_shadergraph_path.png",
-    "docs/gmap-395/module-2/media/internalinspectorblackboardproperty.png",
-    "docs/lib/media/renderpipeline.jpg",
-    "docs/lib/media/metalmaterial.png",
-    "docs/gmap-395/gmap-395-student-examples.html",
-    "docs/gmap-395/module-2/tutorials/gmap-395-wk-5-tutorial.html",
-    "docs/gmap-395/module-2/tutorials/gmap-395-wk-4-tutorial.html",
-    "docs/gmap-395/module-2/tutorials/gmap-395-wk-4-in-class-lab.html",
-    "docs/gmap-395/module-2/tutorials",
-    "docs/gmap-395/module-2/submodules/gmap-395-module-2c-unity-shader-graph-intro.html"
+    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 7 - Tutorial.md",
+    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 6 - Tutorial.md",
+    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md",
+    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3D - Advanced VFX Techniques.md",
+    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3C - VFX Graph Introduction.md",
+    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3B - Unity Particle System Hands-On.md",
+    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3A - VFX Basics and Game Feel.md"
   ]
 }

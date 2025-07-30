@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 23 Jul 2025 16:27:33 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 23 Jul 2025 16:26:18 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 30 Jul 2025 18:13:21 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 30 Jul 2025 18:12:42 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Learning Focus: Understanding procedural workflows and algorithmic content creation <br>
 Builds On: Module 1A (Technical Art fundamentals)
@@ -4967,148 +4967,8 @@ Download OBS Studio or some other comparable software, record your screen and ta
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/mission/creative-core-shaders-and-materials?pathwayId=61a65568edbc2a00206076dd" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/mission/creative-core-shaders-and-materials?pathwayId=61a65568edbc2a00206076dd" target="_blank">Unity Learn - Shaders and Materials</a>
 <br><a data-tooltip-position="top" aria-label="https://www.kodeco.com/5671826-introduction-to-shaders-in-unity" rel="noopener nofollow" class="external-link" href="https://www.kodeco.com/5671826-introduction-to-shaders-in-unity" target="_blank">Introduction to Shaders in Unity</a>
 <br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/2022.3/Documentation/Manual/class-GraphicsSettings.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/2022.3/Documentation/Manual/class-GraphicsSettings.html" target="_blank">Unity Graphics Settings Overview</a>
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-2\gmap-395-module-2.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - Module 2.md</guid><pubDate>Wed, 23 Jul 2025 16:22:56 GMT</pubDate></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
- ]]></description><link>gmap-395\module-3\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 3/media/media.md</guid><pubDate>Fri, 07 Feb 2025 19:44:31 GMT</pubDate></item><item><title><![CDATA[Assignment 3: Effects and Particle Systems]]></title><description><![CDATA[ 
- <br><br><br>Assignment Overview  
-In this assignment, students will:
-
-<br>Implement particle systems and/or visual effects into their procedural game asset created in Assignment 1.
-<br>Use Unity’s Particle System (Shuriken) or VFX Graph to generate interactive and dynamic visual effects.
-<br>Ensure the effects align with the class theme: Something from the Void.
-<br>Integrate basic C# scripting to trigger or control the effects dynamically.
-<br>Present their work with a README file documenting their process and a recorded video walkthrough.
-
-<br><br><br>Assignment Breakdown
-
-<br>Part 1: Creating Particle Effects<br>
-Design and implement a particle system that enhances the visual presentation of your procedural asset.
-<br>Part 2: Adding Interactivity<br>
-Use C# scripting to dynamically control or trigger effects based on in-game interactions.
-
-<br><br><br><br>How to Approach the Theme  
-The theme Something from the Void should guide the design of your effects. Consider:
-
-<br>Cosmic and Abstract: Floating mist, swirling void energy, or ethereal particles.
-<br>Horror and Mystery: Dark fog, flickering embers, spectral trails.
-<br>Otherworldly Technology: Electric sparks, pulsing energy bursts, mechanical steam vents.
-
-<br><br><br>Key Steps for Part 1
-
-<br>Choose a particle system type:
-
-<br>Shuriken Particle System (Unity's Standard System)
-<br>VFX Graph (for more advanced GPU-based effects)
-
-
-<br>Design particle effects that complement your procedural asset.
-<br>Implement at least two of the following particle behaviors:
-
-<br>Emission Control (e.g., burst-based, looping, randomized rates)
-<br>Lifetime Modulation (e.g., fading particles, size variation over time)
-<br>Force Interaction (e.g., gravity, wind, turbulence fields)
-<br>Material Shaders (e.g., glowing effects, transparency, additively blended particles)
-
-
-<br>Integrate the particle system into your existing Unity scene.
-
-<br>Example Effects
-
-<br>Wisps of mist rising from the procedural artifact.
-<br>A void portal with swirling energy particles.
-<br>Sparks and dust emitted when an object is interacted with.
-
-<br><br><br>Key Steps for Part 2
-
-<br>Use C# scripting to add dynamic behavior to your particle system.
-<br>Implement at least one of the following interactive mechanics:
-
-<br>Trigger-based Activation: Particles appear when the player approaches.
-<br>Scripted Changes: Adjust particle properties over time using C# (e.g., color shifts, intensity increases).
-<br>Physics Integration: Particles that react to objects (collisions, forces).
-
-
-<br>Ensure that your effect is optimized and does not negatively impact performance.
-
-<br><br><br>What to Submit
-
-<br>README File
-
-<br>A text or markdown file describing:
-
-<br>The design and inspiration for your particle system.
-<br>How interactivity was implemented with C#.
-<br>Any challenges faced and solutions applied.
-
-
-
-
-<br>Recorded Video (5–10 Minutes)
-
-<br>A screen-recorded walkthrough showcasing:
-
-<br>The Unity scene with particle effects.
-<br>Demonstration of the interactivity in action.
-<br>Explanation of the design choices and implementation process.
-
-
-
-
-
-<br>README Example Format
-# Assignment 3: Effects and Particle Systems
-
-## Particle System Overview
-- Tool Used: Unity VFX Graph  
-- Effect: A swirling energy vortex emitting sparks and mist.  
-- Theme Connection: Represents a void artifact emitting unstable energy.
-
-## Interactive Elements
-- C# Script: Particles intensify when the player is near.  
-- Additional Behavior: Fog particles follow the player slightly for atmospheric immersion.
-
-## Challenges and Solutions
-- Issue: Particles were too performance-heavy.
-- Solution: Reduced spawn rate, optimized textures, and added LOD control.
-
-<br><br><br>By completing this assignment, you will:
-
-<br>Learn how to design and implement real-time visual effects.
-<br>Develop skills in Unity’s Particle System and VFX Graph.
-<br>Understand how to script dynamic interactions for game effects.
-<br>Explore performance optimizations for real-time systems.
-
-<br><br>Submission Guidelines
-
-<br>Format: ZIP file uploaded to Drexel Learn.
-<br>File Naming: abc123_Lastname_Firstname_A3.zip.
-<br>Late Policy: 10% penalty per day.
-
-<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-asn-3-brief.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - ASN 3 - Brief.md</guid><pubDate>Mon, 17 Feb 2025 23:04:12 GMT</pubDate></item><item><title><![CDATA[Module 3 - Effects and Particle Systems]]></title><description><![CDATA[ 
- <br><br><br>This module focuses on particle systems and their role in game art and interactive experiences. Students will explore procedural and modular approaches to designing particle effects, learning how to implement them effectively within a game engine.<br><br><a data-href="GMAP 395 - ASN 3 - Brief" href="gmap-395\module-3\gmap-395-asn-3-brief.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - ASN 3 - Brief</a><br>
-<a data-href="GMAP 395 - WK 6 - Slides + Video" href="gmap-395\module-3\gmap-395-wk-6-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 6 - Slides + Video</a><br>
-<a data-href="GMAP 395 - WK 6 - Tutorial" href="gmap-395\module-3\gmap-395-wk-6-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 6 - Tutorial</a><br>
-<a data-href="GMAP 395 - WK 6 - In-Class Lab" href="gmap-395\module-3\gmap-395-wk-6-in-class-lab.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 6 - In-Class Lab</a><br><br><br>
-<br>Introduction to particle systems in Unity.
-<br>Fundamentals of procedural particle design.
-<br>Implementing modular and reusable effects.
-<br>Feedback and real-time interactivity with particle-driven events.
-<br><br><br>By the end of this module, you will:<br>
-<br>Gain foundational knowledge in particle-based effects.
-<br>Understand procedural approaches to designing dynamic and modular effects.
-<br>Learn to create particle-driven interactions using Unity's Particle System and VFX Graph.
-<br>Implement event-driven effects to enhance gameplay feedback.
-<br><br><br>
-<br>Install Unity 2022.3 LTS.
-<br>Review previous module work to integrate effects into existing assets.
-<br>Explore Unity’s built-in Particle System and VFX Graph.
-<br>If you have never used Unity’s Particle System  
-Check out <a data-tooltip-position="top" aria-label="https://learn.unity.com/project/creative-core-vfx" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/project/creative-core-vfx" target="_blank">Unity Learn Creative Core: VFX</a>
-<br><br><br><br><br><br>
-<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/tutorial/introduction-to-particle-systems" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/tutorial/introduction-to-particle-systems" target="_blank">Unity Particle System Tutorials</a>
-<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=TwWL5IY4Lqs&amp;list=PLQMQNmwN3FvySzk-SdqJeRa6hpH6FYKji" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=TwWL5IY4Lqs&amp;list=PLQMQNmwN3FvySzk-SdqJeRa6hpH6FYKji" target="_blank">Unity VFX Graph Essentials</a>
-<br><a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-time VFX Community</a>
-<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-3\gmap-395-module-3.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - Module 3.md</guid><pubDate>Mon, 10 Feb 2025 16:48:04 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 6 - In-Class Lab]]></title><description><![CDATA[ 
- <br>]]></description><link>gmap-395\module-3\gmap-395-wk-6-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 6 - In-Class Lab.md</guid><pubDate>Mon, 10 Feb 2025 16:36:09 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 6 - Slides + Video]]></title><description><![CDATA[ 
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-2\gmap-395-module-2.html</link><guid isPermaLink="false">GMAP 395/Module 2/GMAP 395 - Module 2.md</guid><pubDate>Wed, 23 Jul 2025 16:22:56 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 6 - In-Class Lab]]></title><description><![CDATA[ 
+ <br>]]></description><link>gmap-395\module-3\legacy\gmap-395-wk-6-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 3/legacy/GMAP 395 - WK 6 - In-Class Lab.md</guid><pubDate>Mon, 10 Feb 2025 16:36:09 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 6 - Slides + Video]]></title><description><![CDATA[ 
  <br><br><br><br><br><br>
 <br>Definition: Visual effects (VFX) generated and rendered in real-time during gameplay.
 <br>Examples:
@@ -5141,7 +5001,7 @@ Check out <a data-tooltip-position="top" aria-label="https://learn.unity.com/pro
 <br>Highlight important elements dynamically.
 
 
-<br><img alt="vfxingamestypes.webp" src="gmap-395\module-3\media\vfxingamestypes.webp" style="width: 720px; max-width: 100%;"><br><br><br>
+<br><img alt="vfxingamestypes.webp" src="lib\media\vfxingamestypes.webp" style="width: 720px; max-width: 100%;"><br><br><br>
 <br>Player Control: VFX enhance the feeling of control.
 <br>Actions and Events: VFX reinforce gameplay actions visually.
 <br>User Feedback: Immediate, clear responses to inputs.
@@ -5175,7 +5035,7 @@ Check out <a data-tooltip-position="top" aria-label="https://learn.unity.com/pro
 <br>Breakdown of stylized VFX in League of Legends.
 <br>Use of lighting, particles, and shaders to enhance character identity.
 <br>Blog: <a data-tooltip-position="top" aria-label="https://leagueoflegends.com/en-us/news/dev/dev-a-storm-is-brewing/" rel="noopener nofollow" class="external-link" href="https://leagueoflegends.com/en-us/news/dev/dev-a-storm-is-brewing/" target="_blank">A Storm is Brewing</a>
-<br><img alt="volibear.jpg" src="gmap-395\module-3\media\volibear.jpg" style="width: 720px; max-width: 100%;"><br><br><br>
+<br><img alt="volibear.jpg" src="lib\media\volibear.jpg" style="width: 720px; max-width: 100%;"><br><br><br>
 <br>Built-in VFX tool with CPU-based simulation.
 <br>Efficient for many effects, but has limitations for complex scenes.
 <br>Trusted by developers, used for particles like:
@@ -5195,7 +5055,7 @@ Check out <a data-tooltip-position="top" aria-label="https://learn.unity.com/pro
 <br>Over Lifetime: Changes in particle size, speed, color, etc.
 
 
-<br><img alt="unityParticleSystsem.png" src="gmap-395\module-3\media\unityparticlesystsem.png" style="width: 320px; max-width: 100%;"><br><br><br><br>
+<br><img alt="unityParticleSystsem.png" src="lib\media\unityparticlesystsem.png" style="width: 320px; max-width: 100%;"><br><br><br><br>
 <br>Controls emission rate (particles per second).
 <br>Emission Type:
 
@@ -5220,7 +5080,7 @@ Check out <a data-tooltip-position="top" aria-label="https://learn.unity.com/pro
 <br>Node-Based Tool: Visual effect creation without scripting.
 <br>GPU-Accelerated: Handles millions of particles efficiently.
 <br>SRP Required: Requires Scriptable Render Pipeline for optimal performance.
-<br><img alt="vfxg1.png" src="gmap-395\module-3\media\vfxg1.png"><br><br><br>
+<br><img alt="vfxg1.png" src="lib\media\vfxg1.png"><br><br><br>
 <br>Nodes and Blocks: Define particle behavior.
 <br>Contexts: Stages of effect processing (spawn, initialize, update, output).
 <br>Properties: Global values affecting multiple nodes.
@@ -5295,8 +5155,1086 @@ Example: League of Legends' VFX style guide ensures every champion’s effects a
 <br><br><br>
 <br>Implement a basic real-time VFX system in Unity.
 <br>Focus on timing, response, and feedback.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-6-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 6 - Slides + Video.md</guid><pubDate>Mon, 17 Feb 2025 17:08:08 GMT</pubDate><enclosure url="gmap-395\module-3\media\vfxingamestypes.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\vfxingamestypes.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Enhancing the Eldritch Portal with VFX]]></title><description><![CDATA[ 
- <br><br><br>In this tutorial, we will enhance the Eldritch Portal Shader (from Week 4 &amp; 5) by creating a particle-based anticipatory effect in Unity’s VFX Graph. This effect will foreshadow the portal’s opening using an ever-present particle ring that intensifies and converges before triggering a vertical energy beam just before the portal activates.  This first tutorial will focus ion just setting up the particle systems that will be animated later.<br><img alt="portalVFXSplash.png" src="gmap-395\module-3\media\portalvfxsplash.png"><br><br>✅ Unity 2022.3 with URP and VFX Graph Installed<br>
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\legacy\gmap-395-wk-6-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 3/legacy/GMAP 395 - WK 6 - Slides + Video.md</guid><pubDate>Mon, 17 Feb 2025 17:08:08 GMT</pubDate><enclosure url="lib\media\vfxingamestypes.webp" length="0" type="image/webp"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\vfxingamestypes.webp"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 7 - In-Class Lab]]></title><description><![CDATA[ 
+ <br><br><br>Create a modular, procedural beam/stream effect that follows a path(spline), and collides with surfaces.<br><br>
+<br>Create a new VFX Graph:
+
+<br>Right-click in the Project window
+<br>Select Create &gt; Visual Effects &gt; Visual Effect Graph
+<br>Name it BeamEffect
+
+
+<br>Set up the basic structure:
+
+<br>Add a Spawn context
+<br>Add an Initialize Particle context
+<br>Add an Update Particle context
+<br>Add an Output Particle Quad context
+
+
+<br>In the Spawn context:<br>
+- Set the spawn rate to Constant with a value of 5000+
+Spawn Rate/Count  
+A high spawn rate creates a dense, continuous stream effect.
+
+
+<br>In the Initialize Particle context:
+
+<br>Delete all default nodes except Capacity
+<br>Add a Set Position block
+<br>Add a Set Velocity Random form Curve block<br>
+<img alt="lab_vfx2_init.png" src="lib\media\lab_vfx2_init.png">
+
+
+<br>In the Update Particle context:
+
+<br>Add a Set Lifetime node
+
+<br>Set the lifetime to a value of 5 seconds (adjustable based on desired effect duration)
+
+
+<br>Add a Set Size over Lifetime node
+
+<br>Create a size curve that stays consistent over the particle lifetime<br>
+<img alt="Pasted image 20240729215838.png" src="lib\media\pasted-image-20240729215838.png">
+
+
+
+
+<br>In the Output Particle Quad context:
+
+<br>Set the particle rendering to Quad (which it should be by default)
+<br>Set the Blend Mode to Addative
+<br>Assign a gradient to the Set Color over Life block
+
+
+<br>Blend Mode  
+Ensure the Blend Mode set to an Additive shader to create a glowing beam effect with Post Processing.
+<br><br>
+<br>
+Create a Block Sub-graph for Path Following:
+
+<br>Right-click in the Project window
+<br>Select Create &gt; Visual Effects &gt; Visual Effect Sub-graph Block
+<br>Name it PathFollow
+
+
+<br>Sub-graphs  
+Sub-graphs allow you to create reusable components for your VFX, making your graph more modular and easier to manage.
+<br>
+<br>In the Block Sub-graph:
+
+<br>Set the Suitable Contexts to Update
+<br>Add a Set Position node/block
+<br>Outside of the Bock Subgraph: 
+
+<br>Create a Sample Bezier node
+<br>Create am Age Over Lifetime node and connect it to the T input of the Sample Bezier
+<br>Create a Get Attribute: Particle ID node
+<br>Create an Add node and add the Position output of the Sample Bezier with the Particle ID output of the Get Attribute nodes
+<br>Create a Perlin Curl Noise 3D node and plug the output of the Add node to the Coordinate input
+<br>Create a Multiply node and plug the Noise output to the A input
+<br>Create another Add node add the Multiply output with the Position output of the Sample Bezier 
+<br>Plug the Add output into the Position input of the Block Subgraph Set Position block
+<br><img alt="lab_vfx2_baseSubgraph.png" src="lib\media\lab_vfx2_basesubgraph.png">
+
+
+
+
+<br>Expose parameters in the Block Sub-graph:
+
+<br>Add Positon (x4) parameters for the path and name them 1 - 4
+
+<br>Plug these position parameters into the A - D inputs of the Sample Bezier
+<br><img alt="lab_vfx2_sampleBez.png" src="lib\media\lab_vfx2_samplebez.png">
+
+
+<br>Add a Float parameter named Spread and default to 0.25
+
+<br>Plug the Spread parameter into the B input of the Multiply node
+<br><img alt="lab_vfx2_multiplySubg.png" src="lib\media\lab_vfx2_multiplysubg.png">
+
+
+<br>Save you VFX Subgraph<br>
+<img alt="lab_vx2_fullSubg.png" src="lib\media\lab_vx2_fullsubg.png">
+
+
+<br>In your main VFX Graph, add your new Block Sub-graph node to the Update Particle context:
+
+<br>You will need to create new exposed parameters for the Spread - Float and 1-4 - Position parameters in the main graph Blackboard.
+<br>When this is done go into the Unity Editor and put your VFXG in the scene (if not done so already)
+<br>In the Unity Hierarchy add 4 empty game objects and name them p1-p4 to represent the transform position of the spline
+
+<br><img alt="lab_vfx2_posSetup.png" src="lib\media\lab_vfx2_possetup.png">
+
+
+<br>In the Inspector, on your VFXG game object add a VFX Property Binder component
+<br>Add (x4) Position properties to the Property Bindings section
+
+<br>+ &gt; Transform &gt; Position (x4)
+<br>Click on one the top property binding set the Target to p1 and set the Property name to 1_position
+
+<br>Repeat this step for the remaining 3 properties, making sure the Property name is #_position<br>
+<img alt="lab_vfx2_propBinders.png" src="lib\media\lab_vfx2_propbinders.png">
+
+
+
+
+
+
+<br>Naming Convention
+In the property binder the Property name should be the name of the property from the main graph Blackboard followed by an underscore and property type PropertyName_TypeOfBinder. So in this case it is #_position
+<br>Modular Approach  
+This modular approach allows you to easily change the path of the beam, enabling dynamic and flexible visual effects.
+<br>
+<br>In the main VFX Graph your Path Follow node should have the 1-4 Position Properties and the Spread property plugged in to their respective inputs<br>
+<img alt="lab_vfx2_followPath.png" src="lib\media\lab_vfx2_followpath.png">
+<br><br>
+<br>In the Update Particle context, add a Turbulence node:
+
+<br>Connect it to various exposed properties to control later in C# (if desired)
+
+
+<br>In the Update Particle context, add a Collision node:<br>
+- There are a few collision types so pick one like Collide with Sphere<br>
+- Set the Transform&gt;Position of block/node to the end of the spline (the 4 position property)<br>
+<img alt="lab_vfx2_4Pos.png" src="lib\media\lab_vfx2_4pos.png">
+<br><br>
+<br>Create a GPU Event (On Die)<br>
+1. In the new Initialize Particle context section:<br>
+1. Set Lifetime Random using desired values<br>
+2. Set Velocity Random sing desired values<br>
+3. Create a Set Position (Mesh) block<br>
+1. Set the position to the last position (4) of the spline using the 4 position property as the input for Transform&gt;Position input
+First VFX Lab
+This is very similar in style to the GPU Event form the first VFX Graph Lab
+
+
+<br>In the Blackboard:
+
+<br>Create an exposed Mesh property called Spawn Mesh
+
+<br>Plug this property into the Mesh input of the Set Position (Mesh) block
+
+
+<br>Create a Vector 3 Called Mesh Scale
+
+<br>Plug this into the Transform&gt;Scale input of the Set Position (Mesh) block<img alt="lab_vfx2_gpuInit.png" src="lib\media\lab_vfx2_gpuinit.png">
+
+
+
+
+<br>In the Update Particle context:
+
+<br>Add nodes to create a desired On Die particle effect
+<br>For example:
+
+<br>Add Set Size Random
+<br>Add Turbulence
+<br>Add Gravity
+
+
+
+<img alt="lab_vfx2_gpuUpdate.png" src="lib\media\lab_vfx2_gpuupdate.png">
+<br>In the Output Particle Quad context:
+<br>
+<br>Add a Set Color over Life block and use a gradient, like before<br>
+<img alt="lab_vfx2_gpuOut.png" src="lib\media\lab_vfx2_gpuout.png">
+<br>
+<br>In your main beam VFX Graph, add a Trigger Event node:<br>
+- Trigger this event on particle death Trigger Event on Die<br>
+- Use this event to spawn your impact effect for the VFX Graph<br>
+<img alt="lab_vfx2_gpuTrigger 2.png" src="lib\media\lab_vfx2_gputrigger-2.png">
+Note
+Combining multiple VFX Graphs/Subgraphs/GPU Events allows for more complex, layered effects.
+
+
+
+<br><br><br>
+<br>Make the beam reactive to player input, allowing real-time control of the path. (C# Scripting)
+<br>Implement a more complex impact response, like surface scorching or deformation. (Shader on Mesh)
+<br>Use ta shader to create a more complex procedural animation for the beam particles.
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\legacy\gmap-395-wk-7-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 3/legacy/GMAP 395 - WK 7 - In-Class Lab.md</guid><pubDate>Mon, 17 Feb 2025 23:16:40 GMT</pubDate><enclosure url="lib\media\lab_vfx2_init.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\lab_vfx2_init.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 7 - Slides + Video]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br>
+<br>What are real-time VFX?
+<br>Why are they crucial for game development?
+<br>How do they integrate into modern game engines?
+<br>Where do shaders fit in?
+<br><br><br><br>
+<br>Enhancing Game Feel: Player immersion through visual impact
+<br>Providing Visual Feedback: Representing gameplay mechanics
+<br>Creating Atmosphere: Setting the mood and tone of a game world
+<br>Guiding Player Attention: Directing the eye using motion and color
+<br><br><br><br>
+<br>What is VFX Graph?
+
+<br>A GPU-powered, node-based tool for creating real-time VFX
+
+
+<br>Why use VFX Graph instead of a traditional particle system?
+
+<br>Performance: Uses GPU acceleration
+<br>Flexibility: Can handle complex simulations
+<br>Scalability: Works with procedural effects
+
+
+<br><a data-tooltip-position="top" aria-label="https://unity.com/features/visual-effect-graph" rel="noopener nofollow" class="external-link" href="https://unity.com/features/visual-effect-graph" target="_blank">VFX Graph</a><br><img alt="vfxgSplash.png" src="lib\media\vfxgsplash.png" style="width: 720px; max-width: 100%;"><br><br><br>
+<br>Initialize, Update, and Output Stages
+
+<br>Each stage controls different aspects of an effect
+
+
+<br>Using Contexts to Structure Effects
+
+<br>Emit, spawn, evolve, and output visual data
+
+
+<br>Key Properties and Attributes
+
+<br>Controlling speed, lifespan, and rendering of particles
+
+
+<br><img alt="VFXGraph_3-5_ComplexNetwork.png" src="lib\media\vfxgraph_3-5_complexnetwork.png" style="width: 720px; max-width: 100%;"><br><br><br>
+<br>Definition: Designing reusable, interchangeable VFX components
+<br>Why Modular?
+
+<br>Consistency: Keeps effects visually unified
+<br>Efficiency: Reduces redundant work
+<br>Flexibility: Enables rapid iteration and customization
+
+
+<br><br><br>
+<br>Sub-graphs: Reusable VFX components
+<br>Prefab Systems: Assigning VFX to game assets dynamically
+<br>Scriptable Objects: Storing reusable effect parameters
+<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=DRi2bRDB-x0" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=DRi2bRDB-x0" target="_blank">Proceduralism as a catalyst for creativity feat. Julie Lottering from SideFX</a><br>
+<a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=lb4yVPeWuwY" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=lb4yVPeWuwY" target="_blank">Proceduralism for Games? Short answer is YES. | Christos Stavridis | GDC HIVE 2023</a><br><br><br>
+<br>Definition: Using algorithms to generate VFX dynamically
+<br>Applications in Games:
+
+<br>Particle behavior (e.g., wind-driven dust, randomized explosions)
+<br>Procedural shape generation (e.g., smoke, fire)
+<br>Color schemes that evolve over time
+
+
+<br><a data-tooltip-position="top" aria-label="https://www.autodesk.com/solutions/procedural-generation" rel="noopener nofollow" class="external-link" href="https://www.autodesk.com/solutions/procedural-generation" target="_blank">Procedural generation: Creating infinite algorithmic realities</a><br><br><br><br>
+<br>Noise in Motion:
+
+<br>Integrating Perlin noise for fluid, organic movement
+
+
+<br>Shaping Effects with Noise:
+
+<br>Creating naturalistic smoke, fire, and energy patterns
+
+
+<br><a data-tooltip-position="top" aria-label="https://adrianb.io/2014/08/09/perlinnoise.html" rel="noopener nofollow" class="external-link" href="https://adrianb.io/2014/08/09/perlinnoise.html" target="_blank">Understanding Perlin Noise</a><br>
+[Perlin Noise: A Procedural Generation Algorithm](# Perlin Noise: A Procedural Generation Algorithm)<br><img alt="perlin-noise-terrain-mesh1.png" src="lib\media\perlin-noise-terrain-mesh1.png" style="width: 720px; max-width: 100%;"><br><br><br>
+<br>What is Mesh Emission?
+
+<br>Using 3D models as particle emitters instead of simple point sources
+
+
+<br>Why Use Meshes?
+
+<br>Enables complex particle behaviors
+<br>Aligns particles with character movements
+<br>Creates detailed environmental effects
+
+
+<br><br><br>
+<br>Import a mesh asset
+<br>Set it as the emitter in the VFX Graph
+<br>Control particle emission based on mesh attributes
+<br>Adjust parameters for density and speed
+<br><br><br><br>
+<br>What are Decals?
+
+<br>2D images projected onto 3D surfaces
+
+
+<br>Use Cases:
+
+<br>Blood splatters, bullet holes, footprints
+<br>Magic circles, surface-based energy effects
+
+
+<br>Performance Benefits:
+
+<br>Add detail without modifying geometry
+<br>Can be animated dynamically in VFX Graph
+
+
+<br>
+[URP Decals in Unity](https://www.youtube.com/watch?v=zSMjTK8d7GQ)<br><br><br>
+<br>Animating Decals: Simulating movement on surfaces
+<br>Reactive Decals: Creating effects like scorch marks that fade over time
+<br>Optimizing Performance: Using GPU-friendly decal projection
+<br><br><br>
+<br>Why Interaction Matters in VFX
+
+<br>Makes environments feel alive and reactive
+<br>Enhances player feedback in gameplay
+
+
+<br>Examples of Interactive VFX
+
+<br>Splashes in water when a character lands
+<br>Dust kicking up as a player runs
+<br>Particles colliding with objects (rain hitting surfaces)
+
+
+<br><img alt="Block-CollideWithDepthBufferMain.png" src="lib\media\block-collidewithdepthbuffermain.png"><br><br><br>
+<br>Activate collision detection in VFX Graph
+<br>Define collision surfaces (plane, sphere, or mesh)
+<br>Apply force or change particle behavior upon impact
+<br><br><br>
+<br>Why Use Shaders in VFX?
+
+<br>Shaders modify particle visuals dynamically
+<br>Add advanced effects like refraction, emissive glow, and distortion
+
+
+<br>How It Works:
+
+<br>Use Shader Graph as an output material in VFX Graph
+<br>Modify shader parameters in real-time based on particle properties
+
+
+<br><br><br>
+<br>Examples of Shader-Controlled VFX
+
+<br>Heat distortions for explosions
+<br>Energy-based auras that pulse dynamically
+<br>Water ripples that react to collisions
+
+
+<br>Using Shader Graph to Adjust Particle Appearance
+
+<br>Connect VFX Graph outputs to shader inputs
+<br>Modify properties like opacity, glow, and texture movement
+
+
+<br><br><br>
+<br>Example Workflow:
+
+<br>Create a VFX Graph system for an explosion
+<br>Apply Shader Graph to control particle visuals
+<br>Use real-time parameters (e.g., intensity, color) to adjust shader properties
+
+
+<br>Benefit: More integrated, seamless visual effects
+<br><br><br>
+<br>Modifying Shader Properties via Gameplay
+
+<br>Connecting game events to VFX shader parameters
+<br>Examples:
+
+<br>Fire effect that intensifies when a player is near
+<br>Magic aura that fades when a spell ends
+
+
+
+
+<br><br><br>
+<br>Expose shader parameters to Unity’s inspector
+<br>Modify them in real-time using scripts
+<br>Link parameters to gameplay events
+<br>Optimize for performance
+<br><a rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VFX.VisualEffect.html" target="_blank">https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VFX.VisualEffect.html</a><br><br><br>
+<br>Balancing visual fidelity and frame rate
+
+<br>Avoiding overdraw in transparent particle effects
+<br>Reducing unnecessary GPU calculations
+<br>Using GPU instancing for efficient rendering
+
+
+<br><br><br>
+<br>Limit Simultaneous effects: Fewer complex effect splaying at one time
+<br>Reduce Particle Lifetime: Shorter effects reduce CPU/GPU load
+<br>Use "LODs" for Effects: Lower detail for distance effects
+<br><br><br>
+<br>Example:
+
+<br>How Control (Remedy Entertainment) handles interactive lighting &amp; destruction effects
+<br>How Destiny 2 (Bungie) uses shader-driven energy effects to create responsive player abilities
+
+
+<br><br><br>
+<br>AI-Assisted VFX Creation
+<br>Ray-Traced Particle Systems for ultra-realistic lighting
+<br>Procedural VFX Workflows for generative effects in games
+<br>VFX in XR (VR/AR/MR) for immersive real-time experiences
+<br><br><br>
+<br>Modular and procedural workflows enable flexible VFX
+<br>Shaders + VFX Graph create advanced, real-time visual effects
+<br>Performance optimization is crucial for real-time rendering
+<br>Interactive VFX enhances immersion and gameplay feedback
+<br><br><br>
+<br>How do shaders enhance VFX in gameplay?
+<br>What are some real-world examples of modular VFX?
+<br>Where do you see VFX heading in the next five years?
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\legacy\gmap-395-wk-7-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 3/legacy/GMAP 395 - WK 7 - Slides + Video.md</guid><pubDate>Mon, 17 Feb 2025 21:07:24 GMT</pubDate><enclosure url="lib\media\vfxgsplash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\vfxgsplash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[legacy]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\module-3\legacy\legacy.html</link><guid isPermaLink="false">GMAP 395/Module 3/legacy/legacy.md</guid><pubDate>Tue, 29 Jul 2025 19:24:17 GMT</pubDate></item><item><title><![CDATA[Module 3A: VFX Basics and Game Feel]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Understanding what VFX are and how they make games feel better<br>
+Tools: Unity
+<br>Submodule Video Overview
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/ERfIsy7LlqhIjQjRvBHuc1gB3yrx2j5yi6Cquo1ZsbYJcQ?e=qZyddr" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/ERfIsy7LlqhIjQjRvBHuc1gB3yrx2j5yi6Cquo1ZsbYJcQ?e=qZyddr" target="_blank">gmap395_md3a.mkv</a>
+<br><br><br>VFX = Visual Effects - basically the "special effects" you see in games that aren't just static objects.<br><br>Think of VFX like special effects in movies:<br>
+<br>Explosions when something blows up
+<br>Sparks when metal hits metal
+<br>Smoke coming from a campfire
+<br>Magic sparkles around a wizard's spell
+<br>In games, these effects happen in real-time as you play!<br><br>
+<br>✨ Particle effects - sparks, smoke, fire
+<br>💥 Explosions - when grenades go off
+<br>🌟 Magic spells - glowing energy balls
+<br>💧 Weather - rain drops, snow flakes
+<br>🩸 Hit effects - blood splatter, damage numbers
+<br>So You Wanna Make Games: Episode 7 - VFX
+
+<br><br><br>Game Feel (Game Juice!) = How responsive and satisfying a game feels when you play it.<br><br>Player Action + Immediate Visual/Audio Response = Good Game Feel
+<br><br>Okay: Press jump button → character jumps (boring!)<br>
+Better: Press jump button → character jumps + dust particles + screen shake + sound effect (exciting!)<br><br>Think about your favorite game. What happens when you (if these apply, maybe they don't...):<br>
+<br>Attack an enemy?
+<br>Pick up an item?
+<br>Take damage?
+<br>Use a special ability?
+<br>You'll notice there are probably visual effects for each action!<br><br><br><br>
+<br>Coins: Sparkle effect when collected
+<br>Enemies: Puff of smoke when defeated
+<br>Power-ups: Glowing aura around Mario
+<br><br>
+<br>Shooting: Muzzle flash from gun
+<br>Hits: Blood spray + hit markers
+<br>Explosions: Fire, smoke, debris particles
+<br><br>
+<br>Abilities: Each spell has unique VFX
+<br>Critical hits: Special sparkle effects
+<br>Deaths: Dramatic explosion effects
+<br><br><br>Unity gives us two main tools for making VFX:<br><br>
+<br>Good for: Simple effects like fire, smoke, sparkles
+<br>Think of it like: A "particle sprinkler" that shoots out lots of tiny pieces
+<br>Beginner-friendly: Uses menus and sliders (no coding needed!)
+<br><br>
+<br>Good for: Complex effects with millions of particles
+<br>Think of it like: Visual programming with connected boxes
+<br>More powerful: Can make movie-quality effects (also no coding, but visual scripting!)
+<br>For now, we'll start with Particle System!<br><br><br>Let's make a simple explosion effect in 5 steps:<br><br>
+<br>Right-click in Hierarchy
+<br>Go to Effects → Particle System
+<br>You'll see white dots shooting upward!
+<br><br>
+<br>Select your Particle System
+<br>In Inspector, find "Start Color"
+<br>Change it to orange or red
+<br><br>
+<br>Find "Start Speed"
+<br>Change the number to make particles move faster/slower
+<br>Try "Start Size" to make particles bigger/smaller
+<br><br>
+<br>Open "Shape" section
+<br>Change "Shape" dropdown from "Cone" to "Sphere"
+<br>Watch how it changes!
+<br><br>
+<br>Find "Looping," turn it OFF
+<br>Open "Emission" section
+<br>Add "Bursts" by clicking the "+" button
+<br>Change "Count" to adjust number of particles up/down.
+<br><br>Press Play and watch your explosion effect!<br><img alt="Screenshot 2025-07-29 182816.png" src="lib\media\screenshot-2025-07-29-182816.png"><br><br><br>The Golden Rule: When a player does something, they should instantly see/hear/feel a response.<br><br>
+<br>Click a button → button glows immediately
+<br>Sword hits enemy → sparks fly right away
+<br>Character lands → dust appears at feet
+<br><br>
+<br>Click button → nothing happens visually
+<br>Attack enemy → no visual confirmation
+<br>Jump → no landing effect
+<br><br><br><br>Players should understand what's happening<br>
+<br>Healing effects = green particles
+<br>Damage effects = red particles
+<br>Magic effects = blue/purple particles
+<br><br>Similar actions should have similar effects<br>
+<br>All explosions use similar fire colors
+<br>All magic spells have similar sparkle patterns
+<br><br>Effects should match the importance of the action<br>
+<br>Small action = small effect (picking up coin)
+<br>Big action = big effect (boss death)
+<br><br><br>Next time you play a game, try and notice:<br>
+<br>What visual effects happen when you perform actions?
+<br>How do they make the game feel more responsive?
+<br>Which effects help you understand what's happening?
+<br>Quick Exercise: Pick a game you know well and write down 3 VFX effects you notice. What purpose does each one serve?<br><br>Remember VFX aren't just "pretty effects" - they're communication tools that tell players what's happening in your game!<br><br><br>🧭 Module Navigation 
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3B - Unity Particle System Hands-On" data-href="GMAP 395 - Module 3B - Unity Particle System Hands-On" href="gmap-395\module-3\submodules\gmap-395-module-3b-unity-particle-system-hands-on.html" class="internal-link" target="_self" rel="noopener nofollow">Module 3B</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-3\submodules\gmap-395-module-3a-vfx-basics-and-game-feel.html</link><guid isPermaLink="false">GMAP 395/Module 3/submodules/GMAP 395 - Module 3A - VFX Basics and Game Feel.md</guid><pubDate>Wed, 30 Jul 2025 16:51:55 GMT</pubDate><enclosure url="lib\media\screenshot-2025-07-29-182816.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\screenshot-2025-07-29-182816.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 3B: Unity Particle System Hands-On]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Creating your first VFX with Unity's Particle System<br>
+Tools: Unity, basic shapes
+<br>Submodule Video Overview
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/ETlkCpKib7hIr37fzgKD9-wBIn7515LcprbP4pqvNtocGw?e=wfqjJj" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/ETlkCpKib7hIr37fzgKD9-wBIn7515LcprbP4pqvNtocGw?e=wfqjJj" target="_blank">gmap395_md3b.mkv</a>
+<br><br><br>Think of a Particle System like a bubble machine:<br>
+<br>The machine = Particle System component
+<br>Each bubble = Individual particle
+<br>Bubble "properties" = Size, color, speed, lifetime (how long before they pop!)
+<br>Machine settings = How many bubbles per second, which direction
+<br>Key Insight: You control the "machine," and it creates thousands of individual "bubbles" (particles) automatically.<br><br><br><br>
+<br>Start Lifetime = How long each particle lives (like bubble lifespan)
+<br>Start Speed = How fast particles shoot out
+<br>Start Color = What color the particles are
+<br>There are actually way more settings, but to keep it simple start with these<br><br>
+<br>Cone = Particles spray like a garden hose
+<br>Sphere = Particles explode outward like fireworks
+<br>Box = Particles come from a rectangular area
+<br><br><br>Let's build a campfire step-by-step:<br><br>1. Create new scene
+2. Add Particle System (Effects → Particle System)
+3. Name it "Campfire"
+4. Position it at (0, 0, 0)
+<br><br>Main Module:
+- Start Lifetime: 2
+- Start Speed: 3
+- Start Color: Orange (#FF4500)
+- Start Size: 0.5
+<br><img alt="Screenshot 2025-07-29 180313.png" src="lib\media\screenshot-2025-07-29-180313.png"><br><br>Shape Module:
+- Shape: Cone
+- Angle: 15 (narrow cone)
+- Radius: 0.1
+<br><img alt="Screenshot 2025-07-29 180237.png" src="lib\media\screenshot-2025-07-29-180237.png"><br><br>Velocity over Lifetime Module:
+- Enable this module
+- Linear Y: 2 (makes fire go upward)
+<br><img alt="particle_3b-4_velocityLifetime 1.png" src="lib\media\particle_3b-4_velocitylifetime-1.png"><br><br>Size over Lifetime Module:
+- Enable this module
+- Size: Create curve that starts at 3 and ends at 0
+<br><img alt="particle_3b-5_sizeCurve.png" src="lib\media\particle_3b-5_sizecurve.png"><br>Test it! Press Play and you should see orange particles flowing upward like fire!<br><br><br>Duplicate the Campfire and modify your to create smoke:<br>Changes to make:
+- Lifetime: 5 (longer)
+- Start Color: Gray (#808080)
+- Start Speed: 1 (slower)
+- Start Size: 1 (bigger)
+- Size over Lifetime: Start at 0.5, end at 2 (grows bigger)
+- Position behind the Campfire
+<br><br><br>Real effects aren't perfectly uniform. Add randomness:<br>
+To change the default type of a parameter hit the down arrow (dropdown menu) to the far right of the value.<br><br>Instead of solid orange, use gradient:<br>Start Color:
+- Set to "Random Between Two Colors"
+- Color A: Orange (#FF4500)  
+- Color B: Red (#FF0000)
+<br><br>Start Size:
+- Set to "Random Between Two Constants"  
+- Min: 0.3
+- Max: 0.8
+<br><br>Start Speed:
+- Set to "Random Between Two Constants"
+- Min: 1.5
+- Max: 5  
+<br><img alt="Screenshot 2025-07-29 181541.png" src="lib\media\screenshot-2025-07-29-181541.png"><br><br><br>Let's make particles respond to player input with simple C# script:<br><br>using UnityEngine;
+
+public class VFXTrigger : MonoBehaviour 
+{
+    [Header("VFX Settings")]
+    public ParticleSystem myEffect;
+    public KeyCode triggerKey = KeyCode.Space;
+    
+    void Update() 
+    {
+        // When player presses space, play effect
+        if (Input.GetKeyDown(triggerKey)) 
+        {
+            PlayEffect();
+        }
+    }
+    
+    void PlayEffect() 
+    {
+        if (myEffect != null) 
+        {
+            myEffect.Play();
+            Debug.Log("VFX Played!");
+        }
+    }
+}
+<br>In order for this t work, you need to disable (tick OFF) "Play on Wake" in the main module.<br><br>
+<br>Create empty GameObject
+<br>Add this script to it
+<br>Drag your Particle System into "My Effect" slot
+<br>Press Play, then press Spacebar!
+<br><img alt="Screenshot 2025-07-29 182920.png" src="lib\media\screenshot-2025-07-29-182920.png"><br><br><br><br>
+<br>Limit particle count - Don't go crazy with numbers
+<br>Short lifetimes - Particles shouldn't live forever
+<br>Simple materials - Fancy textures slow things down
+<br>Turn off when not needed - Use Stop() in scripts
+<br><br>public class EfficientVFX : MonoBehaviour 
+{
+    public ParticleSystem effect;
+    
+    void Start() 
+    {
+        // Automatically stop after 5 seconds
+        Invoke("StopEffect", 5f);
+    }
+    
+    void StopEffect() 
+    {
+        effect.Stop();
+    }
+}
+<br><br><br>Goal: Create a "hit effect" that plays when something gets damaged.<br>Requirements:<br>
+<br>Red particles
+<br>Burst emission (not continuous)
+<br>Short lifetime (quick flash)
+<br>Spreads outward from impact point
+<br>Hint: Look for "Emission" module and change from "Rate over Time" to "Bursts"!<br><br><br><br>
+<br>Check if Particle System is selected
+<br>Make sure Start Color isn't transparent (Alpha value)
+<br>Verify Start Size isn't 0
+<br><br>
+<br>Adjust Start Speed
+<br>Check Velocity over Lifetime module
+<br><br>
+<br>Reset modules you're not using
+<br>Check Shape settings
+<br>Verify Main module settings
+<br><br><br>By the end of this module, you should be able to:<br>
+<br>Create a basic Particle System
+<br>Adjust main settings (lifetime, speed, color, size)
+<br>Use different emission shapes
+<br>Add randomness to make effects natural
+<br>Trigger effects with simple C# scripts
+<br>Create fire, smoke, and explosion effects
+<br><br>Practice Tip Try recreating VFX you see in games you play. Start simple - even basic sparkles or smoke can teach you a lot!<br><br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3A - VFX Basics and Game Feel" data-href="GMAP 395 - Module 3A - VFX Basics and Game Feel" href="gmap-395\module-3\submodules\gmap-395-module-3a-vfx-basics-and-game-feel.html" class="internal-link" target="_self" rel="noopener nofollow">Module 3A</a><br>
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3C - VFX Graph Introduction" data-href="GMAP 395 - Module 3C - VFX Graph Introduction" href="gmap-395\module-3\submodules\gmap-395-module-3c-vfx-graph-introduction.html" class="internal-link" target="_self" rel="noopener nofollow">Module 3C</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-3\submodules\gmap-395-module-3b-unity-particle-system-hands-on.html</link><guid isPermaLink="false">GMAP 395/Module 3/submodules/GMAP 395 - Module 3B - Unity Particle System Hands-On.md</guid><pubDate>Wed, 30 Jul 2025 16:53:10 GMT</pubDate><enclosure url="lib\media\screenshot-2025-07-29-180313.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\screenshot-2025-07-29-180313.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 3C: VFX Graph Introduction]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Understanding VFX Graph and node-based VFX creation<br>
+Prerequisites: Module 3B completed
+<br>Submodule Video Overview
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EW6rtk3czjtDnBD5UXd0h4kBzRlVxlOh2ifwxUKOiS1gVQ?e=AwZEgU" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EW6rtk3czjtDnBD5UXd0h4kBzRlVxlOh2ifwxUKOiS1gVQ?e=AwZEgU" target="_blank">gmap395_md3c.mkv</a>
+<br><br><br>VFX Graph is like building with LEGO blocks:<br>
+<br>Each block = A node that does one job
+<br>Connecting blocks = Wires that pass information
+<br>Final creation = Complex VFX effect
+<br>No programming = Visual connections instead of code
+<br><br><br><br><br><br>
+<br>Explosions with thousands of debris pieces
+<br>Magic spells with complex particle interactions
+<br>Environmental effects like falling leaves or rain
+<br>Weapon effects like detailed muzzle flashes
+<br><br>
+<br>Performance - Uses GPU for massive particle counts and faster computation
+<br>Flexibility - Can create near movie-quality effects
+<br>Reusability - Save node networks as templates
+<br><br><br><br>1. Window → Package Manager
+2. Search "Visual Effect Graph"
+3. Click Install
+<br><br>VFX Graph only works with one of the Scriptable Render Pipelines (SRP):<br>
+<br>Universal Render Pipeline (URP)
+<br>High Definition Render Pipeline (HDRP)
+<br>Not compatible with Built-in Render Pipeline!<br><img alt="Screenshot 2025-07-29 183420.png" src="lib\media\screenshot-2025-07-29-183420.png"><br><br><br><br><br>
+<br>Spawn = Number/how particles are born
+<br>Initialize = Starting particle properties
+<br>Update = How particles change over time
+<br>Output = How particles look when rendered
+<br><img alt="Screenshot 2025-07-29 184357.png" src="lib\media\screenshot-2025-07-29-184357.png"><br><br>
+<br>Set Position = Where particle appears
+<br>Set Velocity = How fast/direction particle moves
+<br>Set Color = Particle color
+<br>Set Size = Particle size
+<br>+ MANY MANY MORE
+<br><img alt="Screenshot 2025-07-29 184430.png" src="lib\media\screenshot-2025-07-29-184430.png"><br><br>
+<br>Add = Adds two numbers
+<br>Multiply = Multiplies numbers
+<br>Random = Creates random values
+<br>Time = Gets current game time
+<br>+ MANY MANY MORE
+<br><br><br><br>1. Project window (VFX folder) → Right-click
+2. Create → Visual Effects → Visual Effect Graph
+3. Name it "SimpleFireVFX"
+<br><br>1. Drag VFX Graph to scene
+2. It creates a GameObject with Visual Effect component
+3. You should see default particles
+<br><br>1. Double-click your VFX Graph asset
+2. VFX Graph window opens
+3. You'll see connected boxes (contexts)
+<br><br>In the Initialize context:
+1. Find the "Output Particle Quad" Context
+2. Change the "Set Color over Life" to a gradient from red to yellow
+3. Change the "Main Texture" to Default-Particle (the white one)
+4. Change "Set Size over Life" curve to go from from 1 to 0
+<br><img alt="Screenshot 2025-07-29 190811.png" src="lib\media\screenshot-2025-07-29-190811.png"><br><br><br><br>SPAWN → INITIALIZE → UPDATE → OUTPUT
+   ↓        ↓          ↓        ↓
+Create    Set Start   Change    Draw
+Particles Properties  Over Time Particles
+<br><br>
+<br>Spawn = Factory creates new toys
+<br>Initialize = Paint toys, add stickers
+<br>Update = Toys move on conveyor belt, might change
+<br>Output = Finished toys ready for display
+<br><br><br><br>
+<br>Click and drag from output port to input port
+<br>Lines show data flow between nodes
+<br>Colors indicate data types (float, vector, texture)
+<br><br>1. Right-click in Context
+2. Choose "Create Block" 
+3. Searh for block type
+4. Block appears in Context
+5. Adjust properties
+<br><br>
+<br>Spacebar = Open node creation menu
+<br>Delete = Remove selected nodes
+<br>Ctrl+Z = Undo changes
+<br><br><br>VFX Graph has a Blackboard just like Shader Graph for creating parameters! = &lt;x&gt;<br><img alt="Screenshot 2025-07-29 191305.png" src="lib\media\screenshot-2025-07-29-191305.png"><br><br>
+<br>Shared across all particles
+
+<br>Example: Overall effect color, intensity
+
+
+<br>Exposed to Inspector - designers/developers can adjust in Inspector or via Code
+<br><br>
+<br>Individual to each particle
+
+<br>Example: Each particle's position, velocity, age
+
+
+<br>Automatically managed by VFX Graph
+<br><br>// Expose a color property
+// In VFX Graph: Create Property → Color → Name it "EffectColor"
+// In Inspector: You can now change the color without opening VFX Graph
+<br><br><br><br>using UnityEngine;
+using UnityEngine.VFX;
+
+public class VFXController : MonoBehaviour 
+{
+    [Header("VFX Control")]
+    public VisualEffect vfxGraph;
+    public KeyCode playKey = KeyCode.Space;
+    
+    void Start()
+    {
+        // Stop the effect from playing on wake
+        vfxGraph.Stop();
+    }
+    
+    void Update() 
+    {
+        if (Input.GetKeyDown(playKey)) 
+        {
+            PlayVFX();
+        }
+    }
+    
+    void PlayVFX() 
+    {
+        // Play the effect
+        vfxGraph.Play();
+        
+        // Or trigger a burst event
+        vfxGraph.SendEvent("OnPlay");
+    }
+    
+    void ChangeColor() 
+    {
+        // Change a property (if you have a Color property called "EffectColor")
+        vfxGraph.SetVector4("EffectColor", Color.red);
+    }
+}
+<br>Notice
+Controlling VFX Graph via Scripting (Code) requires a specific "using statement" to access the class using UnityEngine.VFX.
+<br><br><br><br>
+<br>Check if using URP/HDRP (not Built-in Render Pipeline)
+<br>Verify Visual Effect component has your VFX Graph assigned
+<br>Make sure particles aren't transparent or too small
+<br><br>
+<br>Check if Spawn context is actually spawning particles
+<br>Verify Initialize context has basic properties set
+<br>Look for broken connections
+<br><br>
+<br>Reduce particle count in Spawn context
+<br>Check if you have infinite loops in Update context
+<br>Avoid too many complex calculations
+<br><br><br>You should understand:<br>
+<br>What VFX Graph is and why it's powerful
+<br>The difference between Particle System and VFX Graph
+<br>Basic node types (Context, Block, Operator)
+<br>The VFX pipeline flow (Spawn → Initialize → Update → Output)
+<br>How to create a simple fire/sparkle effect
+<br>How to connect VFX Graph to C# scripts
+<br><br>Practice Tip Start simple! Master basic fire and sparkle effects before attempting complex systems.<br><br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3B - Unity Particle System Hands-On" data-href="GMAP 395 - Module 3B - Unity Particle System Hands-On" href="gmap-395\module-3\submodules\gmap-395-module-3b-unity-particle-system-hands-on.html" class="internal-link" target="_self" rel="noopener nofollow">Module 3B</a><br>
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3D - Advanced VFX Techniques" data-href="GMAP 395 - Module 3D - Advanced VFX Techniques" href="gmap-395\module-3\submodules\gmap-395-module-3d-advanced-vfx-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">Module 3D</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-3\submodules\gmap-395-module-3c-vfx-graph-introduction.html</link><guid isPermaLink="false">GMAP 395/Module 3/submodules/GMAP 395 - Module 3C - VFX Graph Introduction.md</guid><pubDate>Wed, 30 Jul 2025 16:55:21 GMT</pubDate><enclosure url="lib\media\screenshot-2025-07-29-183420.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\screenshot-2025-07-29-183420.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 3D: Advanced VFX Techniques]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Mesh emission, decals, collisions, and shaders<br>
+Prerequisites: Module 3C completed
+<br><br><br><br>Instead of particles coming from a simple shape (sphere, cone), they come from any 3D model.<br>Think of it like:<br>
+<br>Rain falling from cloud-shaped mesh
+<br>Fire coming from torch handle mesh
+<br>Magic particles following character's sword mesh
+<br><br>
+<br>Character abilities (particles follow weapon/hands)
+<br>Environmental effects (leaves falling from tree mesh)
+<br>Destruction effects (debris from broken object mesh)
+<br><br><br><br>1. Create/import character model
+2. Create new VFX Graph: "CharacterAura"
+3. Add Visual Effect component to character
+<br>On Imported Meshes
+Imported meshed must have their mesh data be set to "Read/Write"<br>
+This can be done by selecting the mesh in the project window, then in the Inspector &gt; Model Tab &gt; Read/Write enables (tick ON)
+<img alt="Screenshot 2025-07-29 200313.png" src="lib\media\screenshot-2025-07-29-200313.png">
+<br><br>In VFX Graph:
+1. Select Initialize context
+2. Add "Set Position (Mesh)" block
+3. Select character mesh to "Mesh" field
+4. Set "Placement Mode" to "Surface"
+5. Adjust the "Scale" as needed
+<br><br>Initialize Context:
+- Set Color: Orange gradient
+- Set Velocity: Upward + random spread
+- Set Size: Small (0.1-0.3)
+- Set Lifetime: 2 seconds
+<br>Result: Fire particles now emit from character's surface!<br><img alt="Screenshot 2025-07-29 200753.png" src="lib\media\screenshot-2025-07-29-200753.png"><br><br><br><br>Decals = Images projected onto surfaces (like stickers on walls)<br>Game Examples:<br>
+<br>Bullet holes on walls
+<br>Blood splatters on ground
+<br>Magic circles under characters
+<br>Scorch marks from explosions
+<br><br><br><br><br><br>
+<br>Particles bounce off walls realistically
+<br>Rain drops splash when hitting ground
+<br>Magic effects interact with environment
+<br><br>In VFX Graph Update Context:
+1. Add "Collide with AABox" block
+2. Enable "Bounce" for bouncing particles
+3. Adjust "Bounce" value (0 = no bounce, 1 = perfect bounce)
+4. Set "Lifetime Loss" for particles that fade on impact
+<br><br>Some of the Collision💥 Nodes only work in HDRP (well really just one the Collide with Depth Buffer). There are some workarounds out there but the are not %100 and require a lot of work to get functioning.<br><br><br>Yes, you can make a custom shader for achieve a certain look to your particles! This allow for a lot of control over the visual style and rendering of teh individual aprticles. But try and use simple shaders on particles as you may be generating millions of them.<br><br>Shaders control how particles look when rendered:<br>
+<br>Glowing energy effects
+<br>Transparent smoke
+<br>Refractive distortions
+<br>Animated textures
+<br><br>1. Create new Shader Graph
+2. In VFX Graph Output context
+3. Set "Shader Graph" to your custom shader
+4. Connect VFX properties to shader inputs
+<br><br><br><br>
+<br>Limit active effects - Don't run 50 VFX all  at once
+<br>Use object pooling - Reuse VFX objects instead of creating new ones when possible
+<br>Control particle counts - More particles = slower performance
+<br>Clean up old effects - Destroy or stop VFX when not needed
+<br><br><br><br>Effects that change based on rules instead of being pre-made.<br>Examples:<br>
+<br>Fire gets bigger when there's more fuel
+<br>Lightning changes path based on obstacles
+<br>Particle color changes based on player health
+<br><br>
+![example] To Get This Script to Work<br>
+On your Simple Fire VFX Graph add a float property called Intensity and use by multiplying another number to control the Rate (another float).<br>
+<img alt="Screenshot 2025-07-29 210550.png" src="lib\media\screenshot-2025-07-29-210550.png"><br>
+Also add another color called FireColor and multiply the original EffectColor by this to set the color.<br>
+<img alt="Screenshot 2025-07-29 210716.png" src="lib\media\screenshot-2025-07-29-210716.png"><br>
+With these in place the following script should function!
+<br>using UnityEngine;
+using UnityEngine.VFX;
+
+public class ProceduralFire : MonoBehaviour 
+{
+    [Header("Fire Settings")]
+    public VisualEffect fireVFX;
+    public float fuelAmount = 100f;
+    public float burnRate = 10f;
+    
+    void Update() 
+    {
+        // Burn fuel over time
+        fuelAmount -= burnRate * Time.deltaTime;
+        
+        // Scale fire intensity based on fuel
+        float intensity = fuelAmount / 100f; // 0 to 1
+        
+        // Update VFX properties
+        fireVFX.SetFloat("Intensity", intensity);
+        fireVFX.SetVector4("FireColor", GetFireColor(intensity));
+        
+        // Extinguish when no fuel
+        if (fuelAmount &lt;= 0 &amp;&amp; fireVFX.isActiveAndEnabled) 
+        {
+            fireVFX.Stop();
+        }
+    }
+    
+    Color GetFireColor(float intensity) 
+    {
+        // Blue (cold) to Red (hot) to Yellow (hottest)
+        if (intensity &gt; 0.7f) return Color.yellow;
+        else if (intensity &gt; 0.3f) return Color.red;
+        else return Color.blue;
+    }
+    
+    public void AddFuel(float amount) 
+    {
+        fuelAmount += amount;
+        if (!fireVFX.isActiveAndEnabled) 
+        {
+            fireVFX.Play(); // Restart fire
+        }
+    }
+}
+<br><br><br><br>Breaking effects into reusable pieces that can be mixed and matched. You are able to create Subgraphs and custom Blocks with reusable nodes or bits of code. This allows for much easier development when there are multiple effects that need to use the same base defaults or operations. Do something once, then reuse it.<br><br>Explosion = Base Blast + Fire Particles + Smoke + Debris + Screen Shake
+Magic Spell = Energy Core + Sparkles + Glow + Trail + Impact
+<br><br><br><br>
+<br>Check if mesh has proper vertices/faces
+<br>Verify mesh is imported correctly and has Read/Write enabled
+<br>Try different "Placement Mode" settings (Surface, Volume, Vertex)
+<br><br>
+<br>Use simplified collision meshes
+<br>Limit collision check frequency
+<br>Consider using trigger volumes instead of per-particle collision
+<br><br>
+<br>Ensure shader is compatible with VFX Graph output
+<br>Check if shader properties are properly exposed
+<br>Verify URP/HDRP compatibility
+<br><br><br>You should be able to:<br>
+<br>Set up mesh emission from 3D objects
+<br>Create and use decals for surface effects
+<br>Implement collision detection for particles
+<br>Connect custom shaders to VFX Graph
+<br>Build modular, reusable VFX systems
+<br>Write scripts that control VFX properties
+<br>Optimize VFX for better performance
+<br><br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3C - VFX Graph Introduction" data-href="GMAP 395 - Module 3C - VFX Graph Introduction" href="gmap-395\module-3\submodules\gmap-395-module-3c-vfx-graph-introduction.html" class="internal-link" target="_self" rel="noopener nofollow">Module 3C</a><br>
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3E - VFX Style Guides and Polish" data-href="GMAP 395 - Module 3E - VFX Style Guides and Polish" href="gmap-395\module-3\submodules\gmap-395-module-3e-vfx-style-guides-and-polish.html" class="internal-link" target="_self" rel="noopener nofollow">Module 3E</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-3\submodules\gmap-395-module-3d-advanced-vfx-techniques.html</link><guid isPermaLink="false">GMAP 395/Module 3/submodules/GMAP 395 - Module 3D - Advanced VFX Techniques.md</guid><pubDate>Wed, 30 Jul 2025 01:07:42 GMT</pubDate><enclosure url="lib\media\screenshot-2025-07-29-200313.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\screenshot-2025-07-29-200313.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 3E: VFX Style Guides and Polish]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Creating consistent, readable VFX that enhance gameplay<br>
+Prerequisites: Understanding of basic VFX creation
+<br><br><br><br>A style guide ensures all VFX look like they belong in the same game world and clearly communicate gameplay information.<br><br><br><br>Players need to instantly understand what VFX mean:<br>
+<br>Red particles = Damage/danger
+<br>Green particles = Healing/safe
+<br>Blue particles = Magic/special abilities
+<br>Yellow particles = Important pickup/attention
+<br><br>All effects should feel like they're from the same universe:<br>
+<br>Similar color palettes
+<br>Matching visual complexity
+<br>Consistent particle behaviors
+<br><br>Artists can work faster with clear rules:<br>
+<br>"All explosions use this fire shader"
+<br>"Healing effects always pulse slowly"
+<br>"Enemy abilities are red, player abilities are blue"
+<br><br><br>Your VFX style guide should define:<br>
+<br>Color rules for different types of effects
+<br>Size hierarchy based on importance
+<br>Timing guidelines for different effect types
+<br>Visual complexity levels
+<br>Consistency rules across similar effects
+<br>Readability requirements
+<br>Performance budgets
+<br><br><br><br><br>
+<br>Clarity First - Gameplay readability over visual spectacle
+<br>Consistent Language - Similar effects use similar visuals
+<br>Hierarchy - Important effects are bigger/brighter
+<br>Team Identity - Each champion has unique VFX personality
+<br><br>
+<br>Enemy abilities = Red/Orange (danger!)
+<br>Friendly abilities = Blue/Green (safe)
+<br>Neutral effects = White/Gray
+<br>Ultimate abilities = More intense versions of character colors
+<br><br>
+<br>Basic abilities = Small, quick effects
+<br>Ultimate abilities = Large, dramatic effects with longer duration
+<br>Passive effects = Subtle, continuous visuals
+<br><br><br><br>Questions to ask:<br>
+<br>Is your game realistic or stylized?
+<br>What's the overall mood? (Dark/scary, bright/happy, serious/silly)
+<br>What's the setting? (Fantasy, sci-fi, modern, historical)
+<br><br>Example Color Rules:
+- Player effects: Blue (#0080FF)
+- Enemy effects: Red (#FF4040)  
+- Neutral/Environmental: White/Gray
+- Healing: Green (#40FF40)
+- Special/Rare: Purple (#8040FF)
+<br><br>Effect Importance Hierarchy:
+Level 1 (Basic): Simple, small effects
+Level 2 (Important): Medium size, more particles
+Level 3 (Ultimate): Large, complex, screen-filling
+<br><br><br>Visual effects, much like great animation and sound design, need pinpoint accurate timing and event following some of the 12 principles of animation is a good way to develop some of that timing and impactful effect.<br><br>Give players a warning before big effects:<br>Big Explosion Sequence:
+1. Small sparks (0.5 seconds)
+2. Medium glow buildup (1 second)  
+3. BOOM! Full explosion (0.2 seconds)
+4. Lingering smoke (3 seconds)
+<br><br>Don't just stop effects abruptly:<br>
+<br>Explosion → smoke and debris continue
+<br>Magic spell → sparkles fade gradually
+<br>Impact → dust settles slowly
+<br><br>Add extra details that enhance the main effect:<br>
+<br>Screen shake for explosions
+<br>Camera zoom for critical hits
+<br>UI elements that pulse with effects
+<br><br>This script is a theoretical example, it may not function in practice.
+The use of Coroutines is a great way to fire off different effects in a sequence using C#
+<br>using UnityEngine;
+using UnityEngine.VFX;
+
+public class VFXPolish : MonoBehaviour 
+{
+    [Header("VFX Components")]
+    public VisualEffect mainEffect;
+    public VisualEffect anticipationEffect;
+    public VisualEffect followThroughEffect;
+    
+    [Header("Camera Effects")]
+    public bool useScreenShake = true;
+    public float shakeIntensity = 1f;
+    
+    public void PlayPolishedEffect() 
+    {
+        StartCoroutine(PolishedSequence());
+    }
+    
+    System.Collections.IEnumerator PolishedSequence() 
+    {
+        // Phase 1: Anticipation
+        anticipationEffect.Play();
+        yield return new WaitForSeconds(1f);
+        anticipationEffect.Stop();
+        
+        // Phase 2: Main effect + Polish
+        mainEffect.Play();
+        
+        if (useScreenShake) 
+        {
+            CameraShake.Instance.Shake(shakeIntensity);
+        }
+        
+        yield return new WaitForSeconds(0.5f);
+        
+        // Phase 3: Follow-through
+        followThroughEffect.Play();
+        mainEffect.Stop();
+        
+        yield return new WaitForSeconds(2f);
+        followThroughEffect.Stop();
+    }
+}
+<br><br><br><br>
+<br>Most Important = Biggest, brightest, center screen
+<br>Moderately Important = Medium size, noticeable but not distracting
+<br>Background = Small, subtle, doesn't compete for attention
+<br><br>
+<br>Important effects should stand out from background
+<br>Use complementary colors for maximum visibility
+<br>Avoid visual noise - not every effect needs to be flashy
+<br><br>
+<br>Critical information = Immediate visual feedback
+<br>Persistent states = Gentle, continuous effects
+<br>Temporary effects = Clear start and end
+<br><br>Pro Tip When in doubt, prioritize gameplay clarity over visual spectacle. Players need to understand what's happening before they can appreciate how pretty it looks!<br><br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3D - Advanced VFX Techniques" data-href="GMAP 395 - Module 3D - Advanced VFX Techniques" href="gmap-395\module-3\submodules\gmap-395-module-3d-advanced-vfx-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">Module 3D</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-3\submodules\gmap-395-module-3e-vfx-style-guides-and-polish.html</link><guid isPermaLink="false">GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md</guid><pubDate>Wed, 30 Jul 2025 00:52:52 GMT</pubDate></item><item><title><![CDATA[Enhancing the Eldritch Portal with VFX]]></title><description><![CDATA[ 
+ <br><br><br>In this tutorial, we will enhance the Eldritch Portal Shader (from Week 4 &amp; 5) by creating a particle-based anticipatory effect in Unity’s VFX Graph. This effect will foreshadow the portal’s opening using an ever-present particle ring that intensifies and converges before triggering a vertical energy beam just before the portal activates.  This first tutorial will focus ion just setting up the particle systems that will be animated later.<br><img alt="portalVFXSplash.png" src="lib\media\portalvfxsplash.png"><br><br>✅ Unity 2022.3 with URP and VFX Graph Installed<br>
 Ensure Visual Effect Graph is installed and updated via Unity Package Manager.<br>
 Go to the Unity Registry tab and search for "Visual Effect Graph"<br>
 ✅ Completion of the Eldritch Portal Shader tutorial<br>
@@ -5474,431 +6412,12 @@ You will likely need to follow this written tutorial AND watch the companion vid
 <br>Connect the Second Beam’s Trigger Event Rate to the GPU Event of the duplicate.
 <br><br><br>✅ Two beams should now be shooting both upwards and downwards from the portal’s center.<br>
 ✅ No need to animate exposed values yet; we’ll handle this next week.<br>
-✅ You should now have a visually busy portal effect with swirling particles and beams.<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-6-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 6 - Tutorial.md</guid><pubDate>Wed, 12 Feb 2025 17:07:10 GMT</pubDate><enclosure url="gmap-395\module-3\media\portalvfxsplash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\portalvfxsplash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 7 - In-Class Lab]]></title><description><![CDATA[ 
- <br><br><br>Create a modular, procedural beam/stream effect that follows a path(spline), and collides with surfaces.<br><br>
-<br>Create a new VFX Graph:
-
-<br>Right-click in the Project window
-<br>Select Create &gt; Visual Effects &gt; Visual Effect Graph
-<br>Name it BeamEffect
-
-
-<br>Set up the basic structure:
-
-<br>Add a Spawn context
-<br>Add an Initialize Particle context
-<br>Add an Update Particle context
-<br>Add an Output Particle Quad context
-
-
-<br>In the Spawn context:<br>
-- Set the spawn rate to Constant with a value of 5000+
-Spawn Rate/Count  
-A high spawn rate creates a dense, continuous stream effect.
-
-
-<br>In the Initialize Particle context:
-
-<br>Delete all default nodes except Capacity
-<br>Add a Set Position block
-<br>Add a Set Velocity Random form Curve block<br>
-<img alt="lab_vfx2_init.png" src="gmap-395\module-3\media\lab_vfx2_init.png">
-
-
-<br>In the Update Particle context:
-
-<br>Add a Set Lifetime node
-
-<br>Set the lifetime to a value of 5 seconds (adjustable based on desired effect duration)
-
-
-<br>Add a Set Size over Lifetime node
-
-<br>Create a size curve that stays consistent over the particle lifetime<br>
-<img alt="Pasted image 20240729215838.png" src="gmap-395\module-3\media\pasted-image-20240729215838.png">
-
-
-
-
-<br>In the Output Particle Quad context:
-
-<br>Set the particle rendering to Quad (which it should be by default)
-<br>Set the Blend Mode to Addative
-<br>Assign a gradient to the Set Color over Life block
-
-
-<br>Blend Mode  
-Ensure the Blend Mode set to an Additive shader to create a glowing beam effect with Post Processing.
-<br><br>
-<br>
-Create a Block Sub-graph for Path Following:
-
-<br>Right-click in the Project window
-<br>Select Create &gt; Visual Effects &gt; Visual Effect Sub-graph Block
-<br>Name it PathFollow
-
-
-<br>Sub-graphs  
-Sub-graphs allow you to create reusable components for your VFX, making your graph more modular and easier to manage.
-<br>
-<br>In the Block Sub-graph:
-
-<br>Set the Suitable Contexts to Update
-<br>Add a Set Position node/block
-<br>Outside of the Bock Subgraph: 
-
-<br>Create a Sample Bezier node
-<br>Create am Age Over Lifetime node and connect it to the T input of the Sample Bezier
-<br>Create a Get Attribute: Particle ID node
-<br>Create an Add node and add the Position output of the Sample Bezier with the Particle ID output of the Get Attribute nodes
-<br>Create a Perlin Curl Noise 3D node and plug the output of the Add node to the Coordinate input
-<br>Create a Multiply node and plug the Noise output to the A input
-<br>Create another Add node add the Multiply output with the Position output of the Sample Bezier 
-<br>Plug the Add output into the Position input of the Block Subgraph Set Position block
-<br><img alt="lab_vfx2_baseSubgraph.png" src="gmap-395\module-3\media\lab_vfx2_basesubgraph.png">
-
-
-
-
-<br>Expose parameters in the Block Sub-graph:
-
-<br>Add Positon (x4) parameters for the path and name them 1 - 4
-
-<br>Plug these position parameters into the A - D inputs of the Sample Bezier
-<br><img alt="lab_vfx2_sampleBez.png" src="gmap-395\module-3\media\lab_vfx2_samplebez.png">
-
-
-<br>Add a Float parameter named Spread and default to 0.25
-
-<br>Plug the Spread parameter into the B input of the Multiply node
-<br><img alt="lab_vfx2_multiplySubg.png" src="gmap-395\module-3\media\lab_vfx2_multiplysubg.png">
-
-
-<br>Save you VFX Subgraph<br>
-<img alt="lab_vx2_fullSubg.png" src="gmap-395\module-3\media\lab_vx2_fullsubg.png">
-
-
-<br>In your main VFX Graph, add your new Block Sub-graph node to the Update Particle context:
-
-<br>You will need to create new exposed parameters for the Spread - Float and 1-4 - Position parameters in the main graph Blackboard.
-<br>When this is done go into the Unity Editor and put your VFXG in the scene (if not done so already)
-<br>In the Unity Hierarchy add 4 empty game objects and name them p1-p4 to represent the transform position of the spline
-
-<br><img alt="lab_vfx2_posSetup.png" src="gmap-395\module-3\media\lab_vfx2_possetup.png">
-
-
-<br>In the Inspector, on your VFXG game object add a VFX Property Binder component
-<br>Add (x4) Position properties to the Property Bindings section
-
-<br>+ &gt; Transform &gt; Position (x4)
-<br>Click on one the top property binding set the Target to p1 and set the Property name to 1_position
-
-<br>Repeat this step for the remaining 3 properties, making sure the Property name is #_position<br>
-<img alt="lab_vfx2_propBinders.png" src="gmap-395\module-3\media\lab_vfx2_propbinders.png">
-
-
-
-
-
-
-<br>Naming Convention
-In the property binder the Property name should be the name of the property from the main graph Blackboard followed by an underscore and property type PropertyName_TypeOfBinder. So in this case it is #_position
-<br>Modular Approach  
-This modular approach allows you to easily change the path of the beam, enabling dynamic and flexible visual effects.
-<br>
-<br>In the main VFX Graph your Path Follow node should have the 1-4 Position Properties and the Spread property plugged in to their respective inputs<br>
-<img alt="lab_vfx2_followPath.png" src="gmap-395\module-3\media\lab_vfx2_followpath.png">
-<br><br>
-<br>In the Update Particle context, add a Turbulence node:
-
-<br>Connect it to various exposed properties to control later in C# (if desired)
-
-
-<br>In the Update Particle context, add a Collision node:<br>
-- There are a few collision types so pick one like Collide with Sphere<br>
-- Set the Transform&gt;Position of block/node to the end of the spline (the 4 position property)<br>
-<img alt="lab_vfx2_4Pos.png" src="gmap-395\module-3\media\lab_vfx2_4pos.png">
-<br><br>
-<br>Create a GPU Event (On Die)<br>
-1. In the new Initialize Particle context section:<br>
-1. Set Lifetime Random using desired values<br>
-2. Set Velocity Random sing desired values<br>
-3. Create a Set Position (Mesh) block<br>
-1. Set the position to the last position (4) of the spline using the 4 position property as the input for Transform&gt;Position input
-First VFX Lab
-This is very similar in style to the GPU Event form the first VFX Graph Lab
-
-
-<br>In the Blackboard:
-
-<br>Create an exposed Mesh property called Spawn Mesh
-
-<br>Plug this property into the Mesh input of the Set Position (Mesh) block
-
-
-<br>Create a Vector 3 Called Mesh Scale
-
-<br>Plug this into the Transform&gt;Scale input of the Set Position (Mesh) block<img alt="lab_vfx2_gpuInit.png" src="gmap-395\module-3\media\lab_vfx2_gpuinit.png">
-
-
-
-
-<br>In the Update Particle context:
-
-<br>Add nodes to create a desired On Die particle effect
-<br>For example:
-
-<br>Add Set Size Random
-<br>Add Turbulence
-<br>Add Gravity
-
-
-
-<img alt="lab_vfx2_gpuUpdate.png" src="gmap-395\module-3\media\lab_vfx2_gpuupdate.png">
-<br>In the Output Particle Quad context:
-<br>
-<br>Add a Set Color over Life block and use a gradient, like before<br>
-<img alt="lab_vfx2_gpuOut.png" src="gmap-395\module-3\media\lab_vfx2_gpuout.png">
-<br>
-<br>In your main beam VFX Graph, add a Trigger Event node:<br>
-- Trigger this event on particle death Trigger Event on Die<br>
-- Use this event to spawn your impact effect for the VFX Graph<br>
-<img alt="lab_vfx2_gpuTrigger 2.png" src="gmap-395\module-3\media\lab_vfx2_gputrigger-2.png">
-Note
-Combining multiple VFX Graphs/Subgraphs/GPU Events allows for more complex, layered effects.
-
-
-
-<br><br><br>
-<br>Make the beam reactive to player input, allowing real-time control of the path. (C# Scripting)
-<br>Implement a more complex impact response, like surface scorching or deformation. (Shader on Mesh)
-<br>Use ta shader to create a more complex procedural animation for the beam particles.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - In-Class Lab.md</guid><pubDate>Mon, 17 Feb 2025 23:16:40 GMT</pubDate><enclosure url="gmap-395\module-3\media\lab_vfx2_init.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\lab_vfx2_init.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 7 - Slides + Video]]></title><description><![CDATA[ 
- <br><br><br><br><br><br>
-<br>What are real-time VFX?
-<br>Why are they crucial for game development?
-<br>How do they integrate into modern game engines?
-<br>Where do shaders fit in?
-<br><br><br><br>
-<br>Enhancing Game Feel: Player immersion through visual impact
-<br>Providing Visual Feedback: Representing gameplay mechanics
-<br>Creating Atmosphere: Setting the mood and tone of a game world
-<br>Guiding Player Attention: Directing the eye using motion and color
-<br><br><br><br>
-<br>What is VFX Graph?
-
-<br>A GPU-powered, node-based tool for creating real-time VFX
-
-
-<br>Why use VFX Graph instead of a traditional particle system?
-
-<br>Performance: Uses GPU acceleration
-<br>Flexibility: Can handle complex simulations
-<br>Scalability: Works with procedural effects
-
-
-<br><a data-tooltip-position="top" aria-label="https://unity.com/features/visual-effect-graph" rel="noopener nofollow" class="external-link" href="https://unity.com/features/visual-effect-graph" target="_blank">VFX Graph</a><br><img alt="vfxgSplash.png" src="gmap-395\module-3\media\vfxgsplash.png" style="width: 720px; max-width: 100%;"><br><br><br>
-<br>Initialize, Update, and Output Stages
-
-<br>Each stage controls different aspects of an effect
-
-
-<br>Using Contexts to Structure Effects
-
-<br>Emit, spawn, evolve, and output visual data
-
-
-<br>Key Properties and Attributes
-
-<br>Controlling speed, lifespan, and rendering of particles
-
-
-<br><img alt="VFXGraph_3-5_ComplexNetwork.png" src="gmap-395\module-3\media\vfxgraph_3-5_complexnetwork.png" style="width: 720px; max-width: 100%;"><br><br><br>
-<br>Definition: Designing reusable, interchangeable VFX components
-<br>Why Modular?
-
-<br>Consistency: Keeps effects visually unified
-<br>Efficiency: Reduces redundant work
-<br>Flexibility: Enables rapid iteration and customization
-
-
-<br><br><br>
-<br>Sub-graphs: Reusable VFX components
-<br>Prefab Systems: Assigning VFX to game assets dynamically
-<br>Scriptable Objects: Storing reusable effect parameters
-<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=DRi2bRDB-x0" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=DRi2bRDB-x0" target="_blank">Proceduralism as a catalyst for creativity feat. Julie Lottering from SideFX</a><br>
-<a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=lb4yVPeWuwY" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=lb4yVPeWuwY" target="_blank">Proceduralism for Games? Short answer is YES. | Christos Stavridis | GDC HIVE 2023</a><br><br><br>
-<br>Definition: Using algorithms to generate VFX dynamically
-<br>Applications in Games:
-
-<br>Particle behavior (e.g., wind-driven dust, randomized explosions)
-<br>Procedural shape generation (e.g., smoke, fire)
-<br>Color schemes that evolve over time
-
-
-<br><a data-tooltip-position="top" aria-label="https://www.autodesk.com/solutions/procedural-generation" rel="noopener nofollow" class="external-link" href="https://www.autodesk.com/solutions/procedural-generation" target="_blank">Procedural generation: Creating infinite algorithmic realities</a><br><br><br><br>
-<br>Noise in Motion:
-
-<br>Integrating Perlin noise for fluid, organic movement
-
-
-<br>Shaping Effects with Noise:
-
-<br>Creating naturalistic smoke, fire, and energy patterns
-
-
-<br><a data-tooltip-position="top" aria-label="https://adrianb.io/2014/08/09/perlinnoise.html" rel="noopener nofollow" class="external-link" href="https://adrianb.io/2014/08/09/perlinnoise.html" target="_blank">Understanding Perlin Noise</a><br>
-[Perlin Noise: A Procedural Generation Algorithm](# Perlin Noise: A Procedural Generation Algorithm)<br><img alt="perlin-noise-terrain-mesh1.png" src="gmap-395\module-3\media\perlin-noise-terrain-mesh1.png" style="width: 720px; max-width: 100%;"><br><br><br>
-<br>What is Mesh Emission?
-
-<br>Using 3D models as particle emitters instead of simple point sources
-
-
-<br>Why Use Meshes?
-
-<br>Enables complex particle behaviors
-<br>Aligns particles with character movements
-<br>Creates detailed environmental effects
-
-
-<br><br><br>
-<br>Import a mesh asset
-<br>Set it as the emitter in the VFX Graph
-<br>Control particle emission based on mesh attributes
-<br>Adjust parameters for density and speed
-<br><br><br><br>
-<br>What are Decals?
-
-<br>2D images projected onto 3D surfaces
-
-
-<br>Use Cases:
-
-<br>Blood splatters, bullet holes, footprints
-<br>Magic circles, surface-based energy effects
-
-
-<br>Performance Benefits:
-
-<br>Add detail without modifying geometry
-<br>Can be animated dynamically in VFX Graph
-
-
-<br>
-[URP Decals in Unity](https://www.youtube.com/watch?v=zSMjTK8d7GQ)<br><br><br>
-<br>Animating Decals: Simulating movement on surfaces
-<br>Reactive Decals: Creating effects like scorch marks that fade over time
-<br>Optimizing Performance: Using GPU-friendly decal projection
-<br><br><br>
-<br>Why Interaction Matters in VFX
-
-<br>Makes environments feel alive and reactive
-<br>Enhances player feedback in gameplay
-
-
-<br>Examples of Interactive VFX
-
-<br>Splashes in water when a character lands
-<br>Dust kicking up as a player runs
-<br>Particles colliding with objects (rain hitting surfaces)
-
-
-<br><img alt="Block-CollideWithDepthBufferMain.png" src="gmap-395\module-3\media\block-collidewithdepthbuffermain.png"><br><br><br>
-<br>Activate collision detection in VFX Graph
-<br>Define collision surfaces (plane, sphere, or mesh)
-<br>Apply force or change particle behavior upon impact
-<br><br><br>
-<br>Why Use Shaders in VFX?
-
-<br>Shaders modify particle visuals dynamically
-<br>Add advanced effects like refraction, emissive glow, and distortion
-
-
-<br>How It Works:
-
-<br>Use Shader Graph as an output material in VFX Graph
-<br>Modify shader parameters in real-time based on particle properties
-
-
-<br><br><br>
-<br>Examples of Shader-Controlled VFX
-
-<br>Heat distortions for explosions
-<br>Energy-based auras that pulse dynamically
-<br>Water ripples that react to collisions
-
-
-<br>Using Shader Graph to Adjust Particle Appearance
-
-<br>Connect VFX Graph outputs to shader inputs
-<br>Modify properties like opacity, glow, and texture movement
-
-
-<br><br><br>
-<br>Example Workflow:
-
-<br>Create a VFX Graph system for an explosion
-<br>Apply Shader Graph to control particle visuals
-<br>Use real-time parameters (e.g., intensity, color) to adjust shader properties
-
-
-<br>Benefit: More integrated, seamless visual effects
-<br><br><br>
-<br>Modifying Shader Properties via Gameplay
-
-<br>Connecting game events to VFX shader parameters
-<br>Examples:
-
-<br>Fire effect that intensifies when a player is near
-<br>Magic aura that fades when a spell ends
-
-
-
-
-<br><br><br>
-<br>Expose shader parameters to Unity’s inspector
-<br>Modify them in real-time using scripts
-<br>Link parameters to gameplay events
-<br>Optimize for performance
-<br><a rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VFX.VisualEffect.html" target="_blank">https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VFX.VisualEffect.html</a><br><br><br>
-<br>Balancing visual fidelity and frame rate
-
-<br>Avoiding overdraw in transparent particle effects
-<br>Reducing unnecessary GPU calculations
-<br>Using GPU instancing for efficient rendering
-
-
-<br><br><br>
-<br>Limit Simultaneous effects: Fewer complex effect splaying at one time
-<br>Reduce Particle Lifetime: Shorter effects reduce CPU/GPU load
-<br>Use "LODs" for Effects: Lower detail for distance effects
-<br><br><br>
-<br>Example:
-
-<br>How Control (Remedy Entertainment) handles interactive lighting &amp; destruction effects
-<br>How Destiny 2 (Bungie) uses shader-driven energy effects to create responsive player abilities
-
-
-<br><br><br>
-<br>AI-Assisted VFX Creation
-<br>Ray-Traced Particle Systems for ultra-realistic lighting
-<br>Procedural VFX Workflows for generative effects in games
-<br>VFX in XR (VR/AR/MR) for immersive real-time experiences
-<br><br><br>
-<br>Modular and procedural workflows enable flexible VFX
-<br>Shaders + VFX Graph create advanced, real-time visual effects
-<br>Performance optimization is crucial for real-time rendering
-<br>Interactive VFX enhances immersion and gameplay feedback
-<br><br><br>
-<br>How do shaders enhance VFX in gameplay?
-<br>What are some real-world examples of modular VFX?
-<br>Where do you see VFX heading in the next five years?
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - Slides + Video.md</guid><pubDate>Mon, 17 Feb 2025 21:07:24 GMT</pubDate><enclosure url="gmap-395\module-3\media\vfxgsplash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\vfxgsplash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - Week 7 Tutorial]]></title><description><![CDATA[ 
+✅ You should now have a visually busy portal effect with swirling particles and beams.<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\tutorials\gmap-395-wk-6-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/tutorials/GMAP 395 - WK 6 - Tutorial.md</guid><pubDate>Wed, 12 Feb 2025 17:07:10 GMT</pubDate><enclosure url="lib\media\portalvfxsplash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\portalvfxsplash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - Week 7 Tutorial]]></title><description><![CDATA[ 
  <br><br><br><br><br>This tutorial refines the timing and sequencing of the portal-based visual effects in Unity. Using C# scripting and DOTween, we will:<br>
 <br>Animate the Portal Ring VFX to pulse before the portal opens.
 <br>Trigger the Energy Beam VFX after the portal closes.
 <br>Align these effects with gameplay logic (enhancing game feel).
-<br>By the end, students will understand how sequencing and timing-based VFX create stronger player anticipation and response.<br><img alt="portalBeamVFX.png" src="gmap-395\module-3\media\portalbeamvfx.png"><br><br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_JLePfLQVEQnJr33w?e=dFmT9U" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_JLePfLQVEQnJr33w?e=dFmT9U" target="_blank">gmap395_wk7.mp4</a><br><br><br><br>✅ Unity 2022.3 with URP and VFX Graph Installed<br>
+<br>By the end, students will understand how sequencing and timing-based VFX create stronger player anticipation and response.<br><img alt="portalBeamVFX.png" src="lib\media\portalbeamvfx.png"><br><br><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_JLePfLQVEQnJr33w?e=dFmT9U" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_JLePfLQVEQnJr33w?e=dFmT9U" target="_blank">gmap395_wk7.mp4</a><br><br><br><br>✅ Unity 2022.3 with URP and VFX Graph Installed<br>
 ✅ Completion of Week 5’s "Game-Based Real-Time Shader Control w/ DOTween"<br>
 ✅ Completion of Week 6’s "Enhancing the Eldritch Portal with VFX"<br>
 ✅ Basic understanding of C# scripting, DOTween, and Unity Events<br>Unity VFX Scripting API
@@ -6199,7 +6718,165 @@ public class EnemySpawner : MonoBehaviour
 
 <br>Adjust timing variables in the Inspector to fine-tune the pacing.
 <br><br><br>The tutorial is now complete! 🎉<br>
-The full portal cycle now functions as an engaging game-based metaphor!<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-wk-7-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - WK 7 - Tutorial.md</guid><pubDate>Mon, 17 Feb 2025 23:09:37 GMT</pubDate><enclosure url="gmap-395\module-3\media\portalbeamvfx.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-3\media\portalbeamvfx.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
+The full portal cycle now functions as an engaging game-based metaphor!<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\tutorials\gmap-395-wk-7-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 3/tutorials/GMAP 395 - WK 7 - Tutorial.md</guid><pubDate>Mon, 17 Feb 2025 23:09:37 GMT</pubDate><enclosure url="lib\media\portalbeamvfx.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\portalbeamvfx.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Assignment 3: Effects and Particle Systems]]></title><description><![CDATA[ 
+ <br><br><br>Assignment Overview  
+In this assignment, students will:
+
+<br>Implement particle systems and/or visual effects into their procedural game asset created in Assignment 1.
+<br>Use Unity’s Particle System (Shuriken) or VFX Graph to generate interactive and dynamic visual effects.
+<br>Ensure the effects align with the class theme: So What About Tomorrow?.
+<br>Integrate basic C# scripting to trigger or control the effects dynamically.
+<br>Present their work with a README file documenting their process and a recorded video walkthrough.
+
+<br><br><br>Assignment Breakdown
+
+<br>Part 1: Creating Particle Effects<br>
+Design and implement a particle system that enhances the visual presentation of your procedural asset.
+<br>Part 2: Adding Interactivity<br>
+Use C# scripting to dynamically control or trigger effects based on in-game interactions.
+
+<br><br><br><br>How to Approach the Theme  
+The theme So What About Tomorrow? should guide the design of your effects. Consider:
+
+<br>Cosmic and Abstract: Floating mist, swirling void energy, or ethereal particles.
+<br>Horror and Mystery: Dark fog, flickering embers, spectral trails.
+<br>Otherworldly Technology: Electric sparks, pulsing energy bursts, mechanical steam vents.
+
+<br><br><br>Key Steps for Part 1
+
+<br>Choose a particle system type:
+
+<br>Shuriken Particle System (Unity's Standard System)
+<br>VFX Graph (for more advanced GPU-based effects)
+
+
+<br>Design particle effects that complement your procedural asset.
+<br>Implement at least two of the following particle behaviors:
+
+<br>Emission Control (e.g., burst-based, looping, randomized rates)
+<br>Lifetime Modulation (e.g., fading particles, size variation over time)
+<br>Force Interaction (e.g., gravity, wind, turbulence fields)
+<br>Material Shaders (e.g., glowing effects, transparency, additively blended particles)
+
+
+<br>Integrate the particle system into your existing Unity scene.
+
+<br>Example Effects
+
+<br>Wisps of mist rising from the procedural artifact.
+<br>A void portal with swirling energy particles.
+<br>Sparks and dust emitted when an object is interacted with.
+
+<br><br><br>Key Steps for Part 2
+
+<br>Use C# scripting to add dynamic behavior to your particle system.
+<br>Implement at least one of the following interactive mechanics:
+
+<br>Trigger-based Activation: Particles appear when the player approaches.
+<br>Scripted Changes: Adjust particle properties over time using C# (e.g., color shifts, intensity increases).
+<br>Physics Integration: Particles that react to objects (collisions, forces).
+
+
+<br>Ensure that your effect is optimized and does not negatively impact performance.
+
+<br><br><br>What to Submit
+
+<br>README File
+
+<br>A text or markdown file describing:
+
+<br>The design and inspiration for your particle system.
+<br>How interactivity was implemented with C#.
+<br>Any challenges faced and solutions applied.
+
+
+
+
+<br>Recorded Video (5–10 Minutes)
+
+<br>A screen-recorded walkthrough showcasing:
+
+<br>The Unity scene with particle effects.
+<br>Demonstration of the interactivity in action.
+<br>Explanation of the design choices and implementation process.
+
+
+
+
+
+<br>README Example Format
+# Assignment 3: Effects and Particle Systems
+
+## Particle System Overview
+- Tool Used: Unity VFX Graph  
+- Effect: A swirling energy vortex emitting sparks and mist.  
+- Theme Connection: Represents a void artifact emitting unstable energy.
+
+## Interactive Elements
+- C# Script: Particles intensify when the player is near.  
+- Additional Behavior: Fog particles follow the player slightly for atmospheric immersion.
+
+## Challenges and Solutions
+- Issue: Particles were too performance-heavy.
+- Solution: Reduced spawn rate, optimized textures, and added LOD control.
+
+<br><br><br>By completing this assignment, you will:
+
+<br>Learn how to design and implement real-time visual effects.
+<br>Develop skills in Unity’s Particle System and VFX Graph.
+<br>Understand how to script dynamic interactions for game effects.
+<br>Explore performance optimizations for real-time systems.
+
+<br><br>Submission Guidelines
+
+<br>Format: ZIP file uploaded to Drexel Learn.
+<br>File Naming: abc123_Lastname_Firstname_A3.zip.
+<br>Late Policy: 10% penalty per day.
+
+<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-3\gmap-395-asn-3-brief.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - ASN 3 - Brief.md</guid><pubDate>Wed, 30 Jul 2025 01:57:57 GMT</pubDate></item><item><title><![CDATA[Module 3 - Real-Time VFX and Particle Systems]]></title><description><![CDATA[ 
+ <br><br><br>This module introduces real-time visual effects (VFX) and their role in enhancing game feel and player feedback. Students will explore creating responsive particle effects using Unity's tools and learn how to integrate VFX into gameplay systems.<br>Module Overview Video 📹 <a data-tooltip-position="top" aria-label="[gmap395_md3Overview.mkv](https://1drv.ms/v/c/b08de2251f1b33a4/EU_Vs6EkJKtMgXhi5laBqPsBD3uUps7IOtpcwZyeJhj9Ow?e=OnJanX)" rel="noopener nofollow" class="external-link" href=".\[gmap395_md3Overview.mkv](https:\\1drv.ms\v\c\b08de2251f1b33a4\EU_Vs6EkJKtMgXhi5laBqPsBD3uUps7IOtpcwZyeJhj9Ow?e=OnJanX)" target="_blank">Module 3 - Overview Video</a>
+
+<br><br><br><a data-href="GMAP 395 - Module 3A - VFX Basics and Game Feel" href="gmap-395\module-3\submodules\gmap-395-module-3a-vfx-basics-and-game-feel.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 3A - VFX Basics and Game Feel</a><br>
+<a data-href="GMAP 395 - Module 3B - Unity Particle System Hands-On" href="gmap-395\module-3\submodules\gmap-395-module-3b-unity-particle-system-hands-on.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 3B - Unity Particle System Hands-On</a><br>
+<a data-href="GMAP 395 - Module 3C - VFX Graph Introduction" href="gmap-395\module-3\submodules\gmap-395-module-3c-vfx-graph-introduction.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 3C - VFX Graph Introduction</a><br>
+<a data-href="GMAP 395 - Module 3D - Advanced VFX Techniques" href="gmap-395\module-3\submodules\gmap-395-module-3d-advanced-vfx-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 3D - Advanced VFX Techniques</a><br>
+<a data-href="GMAP 395 - Module 3E - VFX Style Guides and Polish" href="gmap-395\module-3\submodules\gmap-395-module-3e-vfx-style-guides-and-polish.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 3E - VFX Style Guides and Polish</a> <br><br>N/A<br><br>N/A<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 6 - Tutorial" data-href="GMAP 395 - WK 6 - Tutorial" href="gmap-395\module-3\tutorials\gmap-395-wk-6-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">Week 6 - Unity Particle System Tutorial</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - WK 7 - Tutorial" data-href="GMAP 395 - WK 7 - Tutorial" href="gmap-395\module-3\tutorials\gmap-395-wk-7-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">Week 7 - VFX Graph Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 3 - Brief" data-href="GMAP 395 - ASN 3 - Brief" href="gmap-395\module-3\gmap-395-asn-3-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 3 - Interactive Particle Effect</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Week 6 - TPS" data-href="GMAP 395 - Week 6 - TPS" href="gmap-395\weeklies\gmap-395-week-6-tps.html" class="internal-link" target="_self" rel="noopener nofollow">Week 6 Think-Pair-Share</a><br><br><a data-href="GMAP 395 - WK 6 - Slides + Video" href="gmap-395\module-3\legacy\gmap-395-wk-6-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 6 - Slides + Video</a><br>
+<a data-href="GMAP 395 - WK 7 - Slides + Video" href="gmap-395\module-3\legacy\gmap-395-wk-7-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 7 - Slides + Video</a><br>
+<a data-href="GMAP 395 - WK 6 - In-Class Lab" href="gmap-395\module-3\legacy\gmap-395-wk-6-in-class-lab.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 6 - In-Class Lab</a><br>
+<a data-href="GMAP 395 - WK 7 - In-Class Lab" href="gmap-395\module-3\legacy\gmap-395-wk-7-in-class-lab.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 7 - In-Class Lab</a><br><br><br>
+<br>Understanding game feel and how VFX enhance player experience.
+<br>Creating effects with Unity's Particle System and VFX Graph.
+<br>Advanced techniques including mesh emission, decals, and collisions.
+<br>Developing VFX style guides for consistent visual language.
+<br>Integrating VFX into gameplay systems and player feedback loops.
+<br><br><br>By the end of this module, you will:<br>
+<br>Understand how VFX contribute to game feel and player engagement.
+<br>Create basic to advanced particle effects using Unity's built-in tools.
+<br>Implement responsive VFX systems that react to player actions.
+<br>Develop consistent visual language through style guides.
+<br>Integrate VFX into complete gameplay systems.
+<br><br><br>
+<br>Confirm Unity 2022.3 LTS is installed with Universal Render Pipeline (URP).
+<br>Install Visual Effect Graph package from Package Manager.
+<br>Review basic Unity scene setup and GameObject manipulation.
+<br>VFX Graph Requirements VFX Graph requires Universal Render Pipeline (URP) or High Definition Render Pipeline (HDRP). It will NOT work with Built-in Render Pipeline.<br>If you have never used Unity's Particle System
+
+<br><br><br><br><br>
+<br>Unity 2022.3 LTS: Download from <a rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">https://unity.com/download</a>
+<br>Visual Effect Graph Package: Install via Package Manager
+<br>Universal Render Pipeline: Required for VFX Graph functionality
+<br><br>
+<br>Blender: For creating custom particle emission meshes
+<br>Photoshop/GIMP: For creating custom particle textures
+<br><br><br><br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/project/creative-core-vfx" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/project/creative-core-vfx" target="_blank">Unity Learn Creative Core: VFX</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@14.0/manual/index.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@14.0/manual/index.html" target="_blank">Unity VFX Graph Documentation</a>
+<br><a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX Community</a>
+<br><a data-tooltip-position="top" aria-label="https://nexus.leagueoflegends.com/en-us/2017/10/dev-leagues-vfx-style-guide/" rel="noopener nofollow" class="external-link" href="https://nexus.leagueoflegends.com/en-us/2017/10/dev-leagues-vfx-style-guide/" target="_blank">League of Legends VFX Style Guide</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Manual/ParticleSystems.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Manual/ParticleSystems.html" target="_blank">Unity Particle System Reference</a>
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-3\gmap-395-module-3.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - Module 3.md</guid><pubDate>Wed, 30 Jul 2025 16:57:13 GMT</pubDate></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
  ]]></description><link>gmap-395\module-4\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 4/media/media.md</guid><pubDate>Sun, 02 Mar 2025 20:42:02 GMT</pubDate></item><item><title><![CDATA[Assignment 4: Cinemachine and Post-Processing Integration]]></title><description><![CDATA[ 
  <br><br><br>Assignment Overview  
 In this final module assignment, students will:
@@ -6942,7 +7619,70 @@ public class CameraZoomController : MonoBehaviour
 <br>The vignette builds subconscious tension—danger is coming!
 <br>The zoom gives the player control to witness the danger up close.
 <br>Together, they turn a simple spawn event into a cinematic-esq, dramatic moment.
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-wk-9-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md</guid><pubDate>Mon, 03 Mar 2025 21:08:53 GMT</pubDate><enclosure url="gmap-395\module-4\media\tutwk9splash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-4\media\tutwk9splash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-wk-9-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md</guid><pubDate>Mon, 03 Mar 2025 21:08:53 GMT</pubDate><enclosure url="gmap-395\module-4\media\tutwk9splash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-4\media\tutwk9splash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[VFX Graph Think-Pair-Share Activity]]></title><description><![CDATA[ 
+ <br><br><br>Duration: ~50 minutes<br>
+Format: Exploratory Thinking → Pair Discussion → Class Sharing<br>
+Goal: Understand VFX Graph nodes through hands-on experimentation<br>
+Students will:<br>
+<br>Gain hands-on VFX Graph experience
+<br>Understand node-based thinking
+<br>Practice explaining technical concepts
+<br>See multiple approaches to same tools
+<br>Build confidence through experimentation
+<br><br><br>Create a default VFX Graph in Unity.<br>
+Right-Click (Project Window) &gt; Create &gt; Visual Effects &gt; VFX Graph<br>
+Give it a useful name.<br>Base Graph Components:<br>
+<br>Spawn Rate (Constant)
+<br>Set Velocity (Random)
+<br>Set Lifetime (Random)
+<br>Orient (Face Camera Plane)
+<br>Set Size (Over Lifetime)
+<br>Set Color (Over Lifetime)
+<br><br><br>Thinking + Exploration<br>Based on your assigned Node Focus Card (below), investigate the nodes listed.<br>
+Hint: The internet has a ton of information; including <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@14.0/manual/index.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@14.0/manual/index.html" target="_blank">Unity's VFX Graph Documentation</a><br><br>1 - Movement Nodes
+Add Velocity (Random)<br>
+Turbulence<br>
+Gravity
+<br>2 - Visual Nodes
+Set Color (Over Lifetime)<br>
+Set Alpha (Over Lifetime)<br>
+Set Size (Random)
+<br>3 - Emission Nodes 
+Spawn Rate (Constant)<br>
+Spawn Rate (Variable)<br>
+Burst (Periodic)
+<br>4 - Shape Nodes 
+Set Position Shape (Sphere)<br>
+Set Position Shape (Box)<br>
+Set Position Shape (Circle)
+<br><br>
+<br>Add assigned nodes to the base graph
+<br>Experiment with different values
+<br>Note what each parameter does
+<br>Take screenshots of interesting results
+<br><br><br><br>
+<br>Compare discoveries - What did each person in the group find?
+<br>Test combinations - Try nodes together
+<br>Create variations - Make 2-3 different "looks"
+<br>Prepare explanation - How would you teach these nodes?
+<br><br>
+<br>What does each parameter control?
+<br>What happens at extreme values?
+<br>How do these nodes work together?
+<br>What visual styles can you create?
+<br><br><br><br>
+<br>Show before/after (base graph vs. modified)
+<br>Demonstrate key parameters (manipulation results)
+<br>Explain one major ("wow") discovery
+<br>Share one challenge/confusion
+<br><br><br>Quick write:<br>
+<br>One thing that surprised you
+<br>One node you want to explore more
+<br>One question you still have
+<br><br><br>Submission
+Submission of your groups materials, finding, and reflections should be submitted on BB Learn by END OF CLASS<br>
+This can be simple, in the form of a word doc, pdf, or slides.
+]]></description><link>gmap-395\weeklies\gmap-395-week-6-tps.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Week 6 - TPS.md</guid><pubDate>Wed, 30 Jul 2025 17:03:43 GMT</pubDate></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
  <br><br>Overview 
 Purpose: Develop your quarter-long project concept through thematic exploration, skill goal-setting, and procedural thinking<br>
 Format: Individual presentation (3-4 minutes) + peer feedback<br>
@@ -7287,14 +8027,13 @@ Creative suggestion:
 The "Requirements" for all four modules are required for all projects. You will choose one module to complete the "Additional Requirement" for to complete the final project.
 The "polished game art piece" you will make for the final is the same work you have been doing for the whole quarter. You are not required to make new work, just polish your existing assets.
 <br>DUE DATE
-TBD
+Saturday, September 6, 2025 @ 11:59 PM
 <br>Check out these <a data-tooltip-position="top" aria-label="GMAP 395 - Student Examples" data-href="GMAP 395 - Student Examples" href="gmap-395\gmap-395-student-examples.html" class="internal-link" target="_self" rel="noopener nofollow">Student Examples</a>from previous classes to get a feel for the final output.<br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_NJLPK-nqm7VbyChQ?e=PbvnMW" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_NJLPK-nqm7VbyChQ?e=PbvnMW" target="_blank">gmap395_finalVid.mp4</a><br><br><br><br>Each module for the final includes main requirements and one additional challenge to practice development, critical-thinking, and creativity.<br><br>
 Requirements:
 
-<br>✅ Create a procedural or modular system for props, characters, or environments.
-<br>✅ Integrate at least three lighting sources: one directional light and two auxiliary lights (e.g., point, spot, area lights).
+<br>✅ Create a procedural or modular for prop, character, or environment. If only one part of your asset is procedurally created, that is okay.
+<br>✅ Integrate at least two lighting sources: one directional light and one auxiliary lights (e.g., point, spot, area lights).
 <br>✅ Use modular assets to build a cohesive scene.
-<br>✅ Incorporate a dynamic lighting element, like a day-night cycle or interactive light source.
 
 <br>
 🔧 Additional Requirement:
@@ -7304,38 +8043,37 @@ Requirements:
 <br><br><br>
 Requirements:
 
-<br>✅ Develop at least two custom shaders using Shader Graph or HLSL.
-<br>✅ Include shaders with dynamic properties, like adjustable emission, transparency, or surface effects.
+<br>✅ Develop at least one custom shader using Shader Graph or HLSL.
 <br>✅ Ensure shaders are cohesive with the overall project aesthetic.
 
 <br>
 🔧 Additional Requirement:
 
-<br>Design a shader with user-driven interactions (for both required shaders) activated by user interaction or environmental triggers (e.g., heat distortion near light sources, ripple effects when interacted with).
+<br>Design a shader with user-driven interactions (for both required shaders) activated by user interaction or environmental triggers (e.g., heat distortion near light sources, ripple effects when interacted with). This means control it with code.
 
 <br><br><br>
 Requirements:
 
-<br>✅ Create at least three particle systems (e.g., sparks, smoke, mist).
+<br>✅ Create at least two particle systems (e.g., sparks, smoke, mist).
 <br>✅ Use modular techniques for particle creation (e.g., reusable templates, layered systems).
 <br>✅ Ensure effects are integrated within a cohesive game art scene.
 
 <br>
 🔧 Additional Requirement:
 
-<br>Build a reactive particle system (for 2 of the 3 required systems) that changes based on environmental conditions, player interaction, or time (e.g., intensity, color, or behavior adjusting to a day-night cycle).
+<br>Build a reactive particle system (for 2 of the 3 required systems) that changes based on environmental conditions, player interaction, or time (e.g., intensity, color, or behavior adjusting to a day-night cycle). This means control it with code.
 
 <br><br><br>
 Requirements:
 
-<br>✅ Implement a dynamic camera system using Cinemachine.
+<br>✅ Implement Cinemachine.
 <br>✅ Add at least two post-processing effects (e.g., bloom, color grading, depth of field) to enhance visual quality.
 <br>✅ Use camera animations or transitions to highlight specific parts of the scene.
 
 <br>
 🔧 Additional Requirement:
 
-<br>Develop a camera-based interaction system, such as zoom-in on specific triggers or focus shifts during player interactions and manipulate (1 of the 2 required post-process effects) based on player interaction of environmental triggers.**
+<br>Develop a camera-based interaction system, such as zoom-in on specific triggers or focus shifts during player interactions and manipulate (1 of the 2 required post-process effects) based on player interaction of environmental triggers. This means control it with code.
 
 <br><br><br>What to Submit
 
@@ -7382,7 +8120,7 @@ For each module there are a set of Requirements that must be met for every modul
 <br>Cohesion: Visual and thematic consistency throughout the project.
 <br>Polish: Overall quality and refinement of the interactive experience.
 <br>Presentation: Clarity and professionalism in the playthrough video and postmortem document.
-<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Wed, 16 Jul 2025 13:48:57 GMT</pubDate></item><item><title><![CDATA[Critical Thinking and Creative Problem Solving for Artists, Designers, and Technologists]]></title><description><![CDATA[ 
+<br><br><br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Main Course Page</a>]]></description><link>gmap-395\gmap-395-final-project-details-and-requirements.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Final Project - Details and Requirements.md</guid><pubDate>Wed, 30 Jul 2025 18:08:10 GMT</pubDate></item><item><title><![CDATA[Critical Thinking and Creative Problem Solving for Artists, Designers, and Technologists]]></title><description><![CDATA[ 
  <br><br><br>In creative and technical work, the ability to solve problems systematically often matters more than any specific tool knowledge. Whether you're debugging a shader, designing a character, or optimizing game performance, the same core thinking skills apply.<br>This guide teaches you to approach challenges methodically rather than hoping for inspiration or getting paralyzed by complexity. You'll learn to break down problems, research effectively, and iterate toward solutions.<br>How This Connects: 
 This guide pairs with the <a data-href="GMAP 395 - Guide - Procedural Modeling Fundamentals" href="gmap-395\gmap-395-guide-procedural-modeling-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Guide - Procedural Modeling Fundamentals</a> - the problem-solving framework here applies directly to technical modeling challenges, while working through geometry problems reinforces these thinking patterns.
 <br><br><br><br><br>🎯 Problem/Goal: You're tasked with creating an entire game environment but feel overwhelmed by the scope.<br>Quick Reality Check, Ask yourself: "If I had to demo this in 2 weeks, what's the absolute minimum that needs to work?"<br><br><br><br><br>Breaking It Down Step-by-Step 

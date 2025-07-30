@@ -7,7 +7,7 @@
 > 
 > 1. Implement **particle systems** and/or **visual effects** into their procedural game asset created in **Assignment 1**.
 > 2. Use Unity’s **Particle System (Shuriken)** or **VFX Graph** to generate interactive and dynamic visual effects.
-> 3. Ensure the effects align with the class theme: _Something from the Void_.
+> 3. Ensure the effects align with the class theme: _So What About Tomorrow?_.
 > 4. Integrate basic C# scripting to trigger or control the effects dynamically.
 > 5. Present their work with a **README file** documenting their process and a **recorded video walkthrough**.
 
@@ -29,7 +29,7 @@
 ### Theme: Something from the Void
 
 > [!question] How to Approach the Theme  
-> The theme _Something from the Void_ should guide the design of your effects. Consider:
+> The theme _So What About Tomorrow?_ should guide the design of your effects. Consider:
 > 
 > - **Cosmic and Abstract:** Floating mist, swirling void energy, or ethereal particles.
 > - **Horror and Mystery:** Dark fog, flickering embers, spectral trails.
