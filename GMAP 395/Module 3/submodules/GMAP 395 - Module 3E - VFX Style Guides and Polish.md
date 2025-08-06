@@ -4,6 +4,11 @@
 > **Learning Focus:** Creating consistent, readable VFX that enhance gameplay 
 **Prerequisites:** Understanding of basic VFX creation
 
+> [!summary] Submodule Video Overview
+> <iframe src="https://1drv.ms/v/c/b08de2251f1b33a4/IQS1z1LPbMSESK96x1k9DtwgAUySyGGIoUxkzNC4UwFoliA?width=2560&height=1440" width="800" height="600" frameborder="0"></iframe>
+> 
+>[gmap395_md3e.mkv](https://1drv.ms/v/c/b08de2251f1b33a4/EbXPUs9sxIRIr3rHWT0O3CABFnVIfN8MOnDQlL3PvhZwmw?e=xbhZSP)
+
 ---
 
 ## 🎨 What is a VFX Style Guide?

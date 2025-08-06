@@ -4,6 +4,12 @@
 > **Learning Focus:** Mesh emission, decals, collisions, and shaders 
 >  **Prerequisites:** Module 3C completed
 
+> [!summary] Submodule Video Overview
+> <iframe src="https://1drv.ms/v/c/b08de2251f1b33a4/IQRDwt6klLnCT6Nhyzxg9TnIAY6wLuDhPNmCxvdu7hjFI9M?width=2560&height=1440" width="800" height="600" frameborder="0"></iframe>
+> 
+>[gmap395_md3d.mkv](https://1drv.ms/v/c/b08de2251f1b33a4/EUPC3qSUucJPo2HLPGD1OcgBBu3Apfu0nH0isMzKcHuzmw?e=nPMf49)
+
+
 ---
 
 ## 🎯 Mesh Emission (Particles from 3D Objects)
@@ -235,6 +241,8 @@ Explosion = Base Blast + Fire Particles + Smoke + Debris + Screen Shake
 Magic Spell = Energy Core + Sparkles + Glow + Trail + Impact
 ```
 
+### A great example of modular VFX or "combining meaningful stuff": [LoL VoliBear Dev Log](https://www.leagueoflegends.com/en-us/news/dev/dev-a-storm-is-brewing/)
+![[GMAP 395/Module 3/media/volibear.jpg|640]]
 
 ---
 

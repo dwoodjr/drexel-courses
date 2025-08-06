@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 30 Jul 2025 18:13:21 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 30 Jul 2025 18:12:42 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 06 Aug 2025 16:24:25 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 06 Aug 2025 16:23:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Learning Focus: Understanding procedural workflows and algorithmic content creation <br>
 Builds On: Module 1A (Technical Art fundamentals)
@@ -5969,6 +5969,9 @@ Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-
  <br><br>Module Overview 
 Learning Focus: Mesh emission, decals, collisions, and shaders<br>
 Prerequisites: Module 3C completed
+<br>Submodule Video Overview
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EUPC3qSUucJPo2HLPGD1OcgBBu3Apfu0nH0isMzKcHuzmw?e=nPMf49" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EUPC3qSUucJPo2HLPGD1OcgBBu3Apfu0nH0isMzKcHuzmw?e=nPMf49" target="_blank">gmap395_md3d.mkv</a>
 <br><br><br><br>Instead of particles coming from a simple shape (sphere, cone), they come from any 3D model.<br>Think of it like:<br>
 <br>Rain falling from cloud-shaped mesh
 <br>Fire coming from torch handle mesh
@@ -6082,7 +6085,7 @@ public class ProceduralFire : MonoBehaviour
 }
 <br><br><br><br>Breaking effects into reusable pieces that can be mixed and matched. You are able to create Subgraphs and custom Blocks with reusable nodes or bits of code. This allows for much easier development when there are multiple effects that need to use the same base defaults or operations. Do something once, then reuse it.<br><br>Explosion = Base Blast + Fire Particles + Smoke + Debris + Screen Shake
 Magic Spell = Energy Core + Sparkles + Glow + Trail + Impact
-<br><br><br><br>
+<br><br><img alt="GMAP 395/Module 3/media/volibear.jpg" src="lib\media\volibear.jpg" style="width: 640px; max-width: 100%;"><br><br><br><br>
 <br>Check if mesh has proper vertices/faces
 <br>Verify mesh is imported correctly and has Read/Write enabled
 <br>Try different "Placement Mode" settings (Surface, Volume, Vertex)
@@ -6106,10 +6109,13 @@ Magic Spell = Energy Core + Sparkles + Glow + Trail + Impact
 Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3C - VFX Graph Introduction" data-href="GMAP 395 - Module 3C - VFX Graph Introduction" href="gmap-395\module-3\submodules\gmap-395-module-3c-vfx-graph-introduction.html" class="internal-link" target="_self" rel="noopener nofollow">Module 3C</a><br>
 Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3E - VFX Style Guides and Polish" data-href="GMAP 395 - Module 3E - VFX Style Guides and Polish" href="gmap-395\module-3\submodules\gmap-395-module-3e-vfx-style-guides-and-polish.html" class="internal-link" target="_self" rel="noopener nofollow">Module 3E</a><br>
 Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
-]]></description><link>gmap-395\module-3\submodules\gmap-395-module-3d-advanced-vfx-techniques.html</link><guid isPermaLink="false">GMAP 395/Module 3/submodules/GMAP 395 - Module 3D - Advanced VFX Techniques.md</guid><pubDate>Wed, 30 Jul 2025 01:07:42 GMT</pubDate><enclosure url="lib\media\screenshot-2025-07-29-200313.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\screenshot-2025-07-29-200313.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 3E: VFX Style Guides and Polish]]></title><description><![CDATA[ 
+]]></description><link>gmap-395\module-3\submodules\gmap-395-module-3d-advanced-vfx-techniques.html</link><guid isPermaLink="false">GMAP 395/Module 3/submodules/GMAP 395 - Module 3D - Advanced VFX Techniques.md</guid><pubDate>Wed, 06 Aug 2025 15:34:54 GMT</pubDate><enclosure url="lib\media\screenshot-2025-07-29-200313.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\screenshot-2025-07-29-200313.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 3E: VFX Style Guides and Polish]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Learning Focus: Creating consistent, readable VFX that enhance gameplay<br>
 Prerequisites: Understanding of basic VFX creation
+<br>Submodule Video Overview
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EbXPUs9sxIRIr3rHWT0O3CABFnVIfN8MOnDQlL3PvhZwmw?e=xbhZSP" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EbXPUs9sxIRIr3rHWT0O3CABFnVIfN8MOnDQlL3PvhZwmw?e=xbhZSP" target="_blank">gmap395_md3e.mkv</a>
 <br><br><br><br>A style guide ensures all VFX look like they belong in the same game world and clearly communicate gameplay information.<br><br><br><br>Players need to instantly understand what VFX mean:<br>
 <br>Red particles = Damage/danger
 <br>Green particles = Healing/safe
@@ -6233,7 +6239,7 @@ public class VFXPolish : MonoBehaviour
 <br><br>Pro Tip When in doubt, prioritize gameplay clarity over visual spectacle. Players need to understand what's happening before they can appreciate how pretty it looks!<br><br><br>🧭 Module Navigation 
 Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3D - Advanced VFX Techniques" data-href="GMAP 395 - Module 3D - Advanced VFX Techniques" href="gmap-395\module-3\submodules\gmap-395-module-3d-advanced-vfx-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">Module 3D</a><br>
 Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 3" data-href="GMAP 395 - Module 3" href="gmap-395\module-3\gmap-395-module-3.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
-]]></description><link>gmap-395\module-3\submodules\gmap-395-module-3e-vfx-style-guides-and-polish.html</link><guid isPermaLink="false">GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md</guid><pubDate>Wed, 30 Jul 2025 00:52:52 GMT</pubDate></item><item><title><![CDATA[Enhancing the Eldritch Portal with VFX]]></title><description><![CDATA[ 
+]]></description><link>gmap-395\module-3\submodules\gmap-395-module-3e-vfx-style-guides-and-polish.html</link><guid isPermaLink="false">GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md</guid><pubDate>Wed, 06 Aug 2025 15:35:34 GMT</pubDate></item><item><title><![CDATA[Enhancing the Eldritch Portal with VFX]]></title><description><![CDATA[ 
  <br><br><br>In this tutorial, we will enhance the Eldritch Portal Shader (from Week 4 &amp; 5) by creating a particle-based anticipatory effect in Unity’s VFX Graph. This effect will foreshadow the portal’s opening using an ever-present particle ring that intensifies and converges before triggering a vertical energy beam just before the portal activates.  This first tutorial will focus ion just setting up the particle systems that will be animated later.<br><img alt="portalVFXSplash.png" src="lib\media\portalvfxsplash.png"><br><br>✅ Unity 2022.3 with URP and VFX Graph Installed<br>
 Ensure Visual Effect Graph is installed and updated via Unity Package Manager.<br>
 Go to the Unity Registry tab and search for "Visual Effect Graph"<br>
@@ -6842,7 +6848,8 @@ The theme So What About Tomorrow? should guide the design of your effects. Consi
 <a data-href="GMAP 395 - Module 3D - Advanced VFX Techniques" href="gmap-395\module-3\submodules\gmap-395-module-3d-advanced-vfx-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 3D - Advanced VFX Techniques</a><br>
 <a data-href="GMAP 395 - Module 3E - VFX Style Guides and Polish" href="gmap-395\module-3\submodules\gmap-395-module-3e-vfx-style-guides-and-polish.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 3E - VFX Style Guides and Polish</a> <br><br>N/A<br><br>N/A<br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 6 - Tutorial" data-href="GMAP 395 - WK 6 - Tutorial" href="gmap-395\module-3\tutorials\gmap-395-wk-6-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">Week 6 - Unity Particle System Tutorial</a><br>
 <a data-tooltip-position="top" aria-label="GMAP 395 - WK 7 - Tutorial" data-href="GMAP 395 - WK 7 - Tutorial" href="gmap-395\module-3\tutorials\gmap-395-wk-7-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">Week 7 - VFX Graph Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 3 - Brief" data-href="GMAP 395 - ASN 3 - Brief" href="gmap-395\module-3\gmap-395-asn-3-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 3 - Interactive Particle Effect</a><br>
-<a data-tooltip-position="top" aria-label="GMAP 395 - Week 6 - TPS" data-href="GMAP 395 - Week 6 - TPS" href="gmap-395\weeklies\gmap-395-week-6-tps.html" class="internal-link" target="_self" rel="noopener nofollow">Week 6 Think-Pair-Share</a><br><br><a data-href="GMAP 395 - WK 6 - Slides + Video" href="gmap-395\module-3\legacy\gmap-395-wk-6-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 6 - Slides + Video</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Week 6 - TPS" data-href="GMAP 395 - Week 6 - TPS" href="gmap-395\weeklies\gmap-395-week-6-tps.html" class="internal-link" target="_self" rel="noopener nofollow">Week 6 Think-Pair-Share</a><br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Week 7 - TPS" data-href="GMAP 395 - Week 7 - TPS" href="gmap-395\weeklies\gmap-395-week-7-tps.html" class="internal-link" target="_self" rel="noopener nofollow">Week 7 Think-Pair-Share</a><br><br><a data-href="GMAP 395 - WK 6 - Slides + Video" href="gmap-395\module-3\legacy\gmap-395-wk-6-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 6 - Slides + Video</a><br>
 <a data-href="GMAP 395 - WK 7 - Slides + Video" href="gmap-395\module-3\legacy\gmap-395-wk-7-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 7 - Slides + Video</a><br>
 <a data-href="GMAP 395 - WK 6 - In-Class Lab" href="gmap-395\module-3\legacy\gmap-395-wk-6-in-class-lab.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 6 - In-Class Lab</a><br>
 <a data-href="GMAP 395 - WK 7 - In-Class Lab" href="gmap-395\module-3\legacy\gmap-395-wk-7-in-class-lab.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 7 - In-Class Lab</a><br><br><br>
@@ -6876,7 +6883,7 @@ The theme So What About Tomorrow? should guide the design of your effects. Consi
 <br><a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX Community</a>
 <br><a data-tooltip-position="top" aria-label="https://nexus.leagueoflegends.com/en-us/2017/10/dev-leagues-vfx-style-guide/" rel="noopener nofollow" class="external-link" href="https://nexus.leagueoflegends.com/en-us/2017/10/dev-leagues-vfx-style-guide/" target="_blank">League of Legends VFX Style Guide</a>
 <br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Manual/ParticleSystems.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Manual/ParticleSystems.html" target="_blank">Unity Particle System Reference</a>
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-3\gmap-395-module-3.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - Module 3.md</guid><pubDate>Wed, 30 Jul 2025 16:57:13 GMT</pubDate></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-3\gmap-395-module-3.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - Module 3.md</guid><pubDate>Wed, 06 Aug 2025 14:28:05 GMT</pubDate></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
  ]]></description><link>gmap-395\module-4\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 4/media/media.md</guid><pubDate>Sun, 02 Mar 2025 20:42:02 GMT</pubDate></item><item><title><![CDATA[Assignment 4: Cinemachine and Post-Processing Integration]]></title><description><![CDATA[ 
  <br><br><br>Assignment Overview  
 In this final module assignment, students will:
@@ -7682,7 +7689,187 @@ Set Position Shape (Circle)
 <br><br><br>Submission
 Submission of your groups materials, finding, and reflections should be submitted on BB Learn by END OF CLASS<br>
 This can be simple, in the form of a word doc, pdf, or slides.
-]]></description><link>gmap-395\weeklies\gmap-395-week-6-tps.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Week 6 - TPS.md</guid><pubDate>Wed, 30 Jul 2025 17:03:43 GMT</pubDate></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
+]]></description><link>gmap-395\weeklies\gmap-395-week-6-tps.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Week 6 - TPS.md</guid><pubDate>Wed, 30 Jul 2025 17:03:43 GMT</pubDate></item><item><title><![CDATA[VFX Graph Scripting Activity]]></title><description><![CDATA[ 
+ <br><br>Real-Time Parameter Control with C#<br><br>You'll learn how to control VFX Graph properties using C# scripts! This means making particle effects that respond to time, player input, and other dynamic changes.<br>Activity Format: Individual work → Partner up → Show the class<br>
+Time: 50 minutes<br><br>
+<br>How to connect C# scripts to visual effects
+<br>Different ways to animate particle properties
+<br>How real-time parameter changes affect visual outcomes
+<br>Techniques for creating dynamic, responsive particle systems
+<br><br><br>What you need to set up:<br>
+<br>Create a new Unity project or use existing one
+<br>Add VFX Graph package (Window &gt; Package Manager &gt; search "Visual Effect Graph")
+<br>Create "Simple Heads and Trails" VFX Graph from the sample templates
+<br>Add Blackboard properties to your VFX Graph:
+
+<br>SpawnRate (Float) - Connect to Spawn Rate AND Trigger Event Rate in your graph
+<br>ParticleSize (Float) - Connect to Set Size node
+<br>EmissionColor (Color) - Connect to Set Color node
+<br>VelocityStrength (Float) - Connect to Add Velocity node
+
+
+<br>Place VFX Graph in your scene and add the script to the same GameObject
+<br><br><br>Work Individually<br>Pick a Control Method Card (Below) that tells you which animation technique to use.<br><br>
+<br>Set up your VFX Graph with Simple Sparks and Trails
+<br>Add the required Blackboard properties (SpawnRate, ParticleSize, etc.)
+<br>Connect properties to appropriate nodes in your graph
+<br>Copy the script template for your assigned method and attach to VFX GameObject
+<br>Uncomment ONE property line to see it animate
+<br>Adjust the inspector values to make it look cool
+<br>Try different properties by commenting/uncommenting different lines
+<br>Take screenshots of your best results
+<br><br><br>Find 1-2 other students with your same control method<br><br>
+<br>Share what you discovered - Which properties looked best?
+<br>Try each other's settings - Compare different parameter values
+<br>Experiment with extremes - What happens with really high/low values?
+<br>Solve problems together - Help debug any issues
+<br>Pick your best version - Choose one to show the class
+<br><br>
+<br>Which property made the most dramatic change?
+<br>What parameter values created the coolest effects?
+<br>How does your control method "feel" different from others?
+<br><br><br>Show Your Results to the Class<br>Each pair gets 3 minutes to demonstrate:<br>
+<br>Show your effect running (30-45 seconds of live demo)
+<br>Explain your control method (sine wave, mouse input, etc.)
+<br>Share your favorite parameter combination
+<br>Mention one thing that surprised you
+<br><br><br>Write down:<br>
+<br>Which control method seemed most fun to use?
+<br>What parameter change created the biggest "wow" effect?
+<br>One technique from another group you want to try
+<br>Biggest challenge you figured out
+<br><br><br>After all presentations, spend a few minutes trying techniques from other groups. Can you combine different approaches?<br><br><br>You'll receive ONE of these cards based on your assigned group:<br>Group 1: Sine Wave Animation 
+Your Method: Use mathematical sine waves to create smooth, rhythmic animations<br>
+Focus Properties: SpawnRate, ParticleSize<br>
+Goal: Create pulsing, breathing effects that feel organic and smooth
+<br>Group 2: Mouse Input Control 
+Your Method: Use mouse position and movement to drive particle behavior<br>
+Focus Properties: EmissionColor, VelocityStrength<br>
+Goal: Create interactive effects that respond to user input in real-time
+<br>Group 3: Smooth Transitions (DOTween) 
+Your Method: Use DOTween library to create polished, eased animations<br>
+Focus Properties: SpawnRate, ParticleSize<br>
+Goal: Create professional-feeling transitions with smooth curves and loops
+<br>Group 4: Random Bursts 
+Your Method: Use random values and timers to create unpredictable effects<br>
+Focus Properties: All properties with random variations<br>
+Goal: Create organic, natural-feeling bursts and variations
+<br><br><br>using UnityEngine;
+using UnityEngine.VFX;
+
+public class VFXController : MonoBehaviour
+{
+    private VisualEffect vfx;
+    [SerializeField] private float frequency = 1f;
+    [SerializeField] private float amplitude = 0.5f;
+    [SerializeField] private float baseValue = 50f;
+    
+    void Start()
+    {
+        vfx = GetComponent&lt;VisualEffect&gt;();
+    }
+    
+    void Update()
+    {
+        // Ready-made sine wave method - choose your property!
+        float sineValue = Mathf.Sin(Time.time * frequency);
+        float animatedValue = baseValue + (sineValue * amplitude * baseValue);
+        
+        // TODO: Pick ONE property to animate (uncomment one line):
+        // vfx.SetFloat("SpawnRate", animatedValue);
+        // vfx.SetFloat("ParticleSize", Mathf.Max(0.1f, animatedValue * 0.01f));
+    }
+}
+<br><br>using UnityEngine;
+using UnityEngine.VFX;
+
+public class VFXController : MonoBehaviour
+{
+    private VisualEffect vfx;
+    [SerializeField] private float maxValue = 10f;
+    
+    void Start()
+    {
+        vfx = GetComponent&lt;VisualEffect&gt;();
+    }
+    
+    void Update()
+    {
+        // Ready-made mouse input method - choose your property!
+        Vector3 mousePos = Input.mousePosition;
+        float normalizedX = mousePos.x / Screen.width;
+        float inputValue = normalizedX * maxValue;
+        
+        // TODO: Pick ONE property to control (uncomment one):
+        // vfx.SetFloat("VelocityStrength", inputValue);
+        // Color inputColor = new Color(normalizedX, 1f - normalizedX, 0.5f, 1f);
+        // vfx.SetVector4("EmissionColor", inputColor);
+    }
+}
+<br><br>using UnityEngine;
+using UnityEngine.VFX;
+using DG.Tweening;
+
+public class VFXController : MonoBehaviour
+{
+    private VisualEffect vfx;
+    [SerializeField] private float duration = 3f;
+    [SerializeField] private float minValue = 20f;
+    [SerializeField] private float maxValue = 100f;
+    
+    void Start()
+    {
+        vfx = GetComponent&lt;VisualEffect&gt;();
+        StartTweenAnimation();
+    }
+    
+    void StartTweenAnimation()
+    {
+        // Ready-made DOTween method - choose your property!
+        DOVirtual.Float(minValue, maxValue, duration, (value) =&gt; {
+            // TODO: Pick ONE property to animate (uncomment one):
+            // vfx.SetFloat("SpawnRate", value);
+            // vfx.SetFloat("ParticleSize", value * 0.01f);
+        })
+        .SetLoops(-1, LoopType.Yoyo)
+        .SetEase(Ease.InOutSine);
+    }
+}
+<br><br>using UnityEngine;
+using UnityEngine.VFX;
+
+public class VFXController : MonoBehaviour
+{
+    private VisualEffect vfx;
+    [SerializeField] private float interval = 2f;
+    [SerializeField] private float baseValue = 50f;
+    private float timer;
+    
+    void Start()
+    {
+        vfx = GetComponent&lt;VisualEffect&gt;();
+        timer = interval;
+    }
+    
+    void Update()
+    {
+        timer -= Time.deltaTime;
+        
+        if (timer &lt;= 0f)
+        {
+            // Ready-made random burst method - choose your property!
+            float randomValue = Random.Range(baseValue * 0.5f, baseValue * 2f);
+            
+            // TODO: Pick ONE property to randomize (uncomment one):
+            // vfx.SetFloat("SpawnRate", randomValue);
+            // Color randomColor = new Color(Random.value, Random.value, Random.value, 1f);
+            // vfx.SetVector4("EmissionColor", randomColor);
+            
+            timer = interval;
+        }
+    }
+}
+<br><br>]]></description><link>gmap-395\weeklies\gmap-395-week-7-tps.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md</guid><pubDate>Wed, 06 Aug 2025 16:22:52 GMT</pubDate></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
  <br><br>Overview 
 Purpose: Develop your quarter-long project concept through thematic exploration, skill goal-setting, and procedural thinking<br>
 Format: Individual presentation (3-4 minutes) + peer feedback<br>
@@ -9093,7 +9280,7 @@ It is very important that each student has read and understood all the materials
 
 <br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Wed, 23 Jul 2025 16:14:26 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Wed, 06 Aug 2025 14:31:54 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
  <br><br>About the Course
 GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on concepts and techniques related to technical art for games. 
 Dive into real-time systems and game engine workflows with topics like:

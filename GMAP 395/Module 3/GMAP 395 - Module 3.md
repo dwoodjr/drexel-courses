@@ -32,7 +32,8 @@ N/A
 #### Assignments
 
 [[GMAP 395 - ASN 3 - Brief|Assignment 3 - Interactive Particle Effect]]
-[[GMAP 395 - Week 6 - TPS| Week 6 Think-Pair-Share]]
+[[GMAP 395 - Week 6 - TPS|Week 6 Think-Pair-Share]]
+[[GMAP 395 - Week 7 - TPS|Week 7 Think-Pair-Share]]
 
 #### Legacy Content
 

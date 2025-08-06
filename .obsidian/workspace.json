@@ -8,7 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aeea085dd127f612",
+            "id": "031858239191d5fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/GMAP 395 - Syllabus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - Syllabus"
+            }
+          },
+          {
+            "id": "4113eec02aef1a3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,91 +36,49 @@
             }
           },
           {
-            "id": "61ded58d78e8ff4b",
+            "id": "204d01de043d6e8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 3/submodules/GMAP 395 - Module 3A - VFX Basics and Game Feel.md",
+                "file": "GMAP 395/Module 3/submodules/GMAP 395 - Module 3D - Advanced VFX Techniques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Module 3A - VFX Basics and Game Feel"
+              "title": "GMAP 395 - Module 3D - Advanced VFX Techniques"
             }
           },
           {
-            "id": "efd1f8db5b9f38e4",
+            "id": "d605be9a2f316d91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 3/submodules/GMAP 395 - Module 3B - Unity Particle System Hands-On.md",
+                "file": "GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Module 3B - Unity Particle System Hands-On"
+              "title": "GMAP 395 - Module 3E - VFX Style Guides and Polish"
             }
           },
           {
-            "id": "7789df6e8d8f96bc",
+            "id": "7f77b8951ac49c65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 3/submodules/GMAP 395 - Module 3C - VFX Graph Introduction.md",
+                "file": "GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Module 3C - VFX Graph Introduction"
-            }
-          },
-          {
-            "id": "e36121be30e9cf5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/Grading/SU25/GMAP 395 - SU25 - Crit Grades.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - SU25 - Crit Grades"
-            }
-          },
-          {
-            "id": "0c63cf4fac125165",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/Weeklies/GMAP 395 - Week 6 - TPS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - Week 6 - TPS"
-            }
-          },
-          {
-            "id": "568d018760fc2ae9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - Final Project - Details and Requirements"
+              "title": "GMAP 395 - Week 7 - TPS"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -160,7 +132,7 @@
             }
           },
           {
-            "id": "030542e098ffda22",
+            "id": "341c5cdfc2b3174b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -183,7 +155,7 @@
       {
         "id": "93b3ddf4fd75b166",
         "type": "tabs",
-        "dimension": 59.118236472945895,
+        "dimension": 59.11823647294589,
         "children": [
           {
             "id": "81e14ee526097519",
@@ -308,7 +280,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -337,7 +309,32 @@
   },
   "active": "81e14ee526097519",
   "lastOpenFiles": [
+    "docs/gmap-395/weeklies/gmap-395-week-7-tps.html",
     "Index.md",
+    "GMAP 395/GMAP 395 - Welcome.md",
+    "GMAP 395/GMAP 395 - Syllabus.md",
+    "GMAP 395/GMAP 395 - SU25 - Theme.md",
+    "GMAP 395/GMAP 395 - Student Examples.md",
+    "GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md",
+    "GMAP 395/GMAP 395 - Guide - CT and CPS.md",
+    "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
+    "GMAP 395/Weeklies/Six Thinking Hats Giving Good Game Design Feedback.md",
+    "GMAP 395/Weeklies/GMAP 395 - Weekly - 5.md",
+    "GMAP 395/Weeklies/GMAP 395 - Weekly - 4.md",
+    "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md",
+    "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
+    "GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md",
+    "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
+    "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
+    "GMAP 395/Module 4/GMAP 395 - Module 4.md",
+    "GMAP 395/Module 4/GMAP 395 - Guides - Custom Post-Processing Effects.md",
+    "GMAP 395/Module 4/media/media.md",
+    "GMAP 395/Module 3/GMAP 395 - Module 3.md",
+    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 7 - Tutorial.md",
+    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 6 - Tutorial.md",
+    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md",
+    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3D - Advanced VFX Techniques.md",
+    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3C - VFX Graph Introduction.md",
     "docs/gmap-395/weeklies/gmap-395-week-6-tps.html",
     "docs/lib/media/portalbeamvfx.png",
     "docs/lib/media/portalvfxsplash.png",
@@ -357,31 +354,6 @@
     "docs/gmap-395/module-3/submodules/gmap-395-module-3b-unity-particle-system-hands-on.html",
     "docs/gmap-395/module-3/submodules/gmap-395-module-3d-advanced-vfx-techniques.html",
     "docs/gmap-395/module-3/submodules/gmap-395-module-3a-vfx-basics-and-game-feel.html",
-    "docs/gmap-395/module-3/submodules",
-    "GMAP 395/GMAP 395 - Welcome.md",
-    "GMAP 395/GMAP 395 - Syllabus.md",
-    "GMAP 395/GMAP 395 - SU25 - Theme.md",
-    "GMAP 395/GMAP 395 - Student Examples.md",
-    "GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md",
-    "GMAP 395/GMAP 395 - Guide - CT and CPS.md",
-    "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
-    "GMAP 395/Weeklies/Six Thinking Hats Giving Good Game Design Feedback.md",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 5.md",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 4.md",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
-    "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
-    "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
-    "GMAP 395/Module 4/GMAP 395 - Module 4.md",
-    "GMAP 395/Module 4/GMAP 395 - Guides - Custom Post-Processing Effects.md",
-    "GMAP 395/Module 4/media/media.md",
-    "GMAP 395/Module 3/GMAP 395 - Module 3.md",
-    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 7 - Tutorial.md",
-    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 6 - Tutorial.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3D - Advanced VFX Techniques.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3C - VFX Graph Introduction.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3B - Unity Particle System Hands-On.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3A - VFX Basics and Game Feel.md"
+    "docs/gmap-395/module-3/submodules"
   ]
 }
