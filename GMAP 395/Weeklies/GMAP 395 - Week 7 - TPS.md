@@ -23,7 +23,7 @@ You'll learn how to control VFX Graph properties using C# scripts! This means ma
 
 1. **Create a new Unity project** or use existing one
 2. **Add VFX Graph package** (Window > Package Manager > search "Visual Effect Graph")
-3. **Create "Simple Heads and Trails" VFX Graph** from the sample templates
+3. **Create "Simple Heads and Trails" OR "Simple Swarm Particles System" VFX Graph** from the sample templates
 4. **Add Blackboard properties** to your VFX Graph:
     - `SpawnRate` (Float) - Connect to Spawn Rate AND/OR Trigger Event Rate in your graph
     - `ParticleSize` (Float) - Connect to Set Size node

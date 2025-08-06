@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 06 Aug 2025 18:09:42 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 06 Aug 2025 18:09:05 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 06 Aug 2025 18:49:19 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 06 Aug 2025 18:48:46 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Learning Focus: Understanding procedural workflows and algorithmic content creation <br>
 Builds On: Module 1A (Technical Art fundamentals)
@@ -7699,7 +7699,7 @@ Time: 50 minutes<br><br>
 <br><br><br>What you need to set up:<br>
 <br>Create a new Unity project or use existing one
 <br>Add VFX Graph package (Window &gt; Package Manager &gt; search "Visual Effect Graph")
-<br>Create "Simple Heads and Trails" VFX Graph from the sample templates
+<br>Create "Simple Heads and Trails" OR "Simple Swarm Particles System" VFX Graph from the sample templates
 <br>Add Blackboard properties to your VFX Graph:
 
 <br>SpawnRate (Float) - Connect to Spawn Rate AND/OR Trigger Event Rate in your graph
@@ -7872,7 +7872,7 @@ public class VFXController : MonoBehaviour
         }
     }
 }
-<br><br>]]></description><link>gmap-395\weeklies\gmap-395-week-7-tps.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md</guid><pubDate>Wed, 06 Aug 2025 18:08:56 GMT</pubDate></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
+<br><br>]]></description><link>gmap-395\weeklies\gmap-395-week-7-tps.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md</guid><pubDate>Wed, 06 Aug 2025 18:48:34 GMT</pubDate></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
  <br><br>Overview 
 Purpose: Develop your quarter-long project concept through thematic exploration, skill goal-setting, and procedural thinking<br>
 Format: Individual presentation (3-4 minutes) + peer feedback<br>
