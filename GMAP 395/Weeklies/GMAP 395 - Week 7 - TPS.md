@@ -25,7 +25,7 @@ You'll learn how to control VFX Graph properties using C# scripts! This means ma
 2. **Add VFX Graph package** (Window > Package Manager > search "Visual Effect Graph")
 3. **Create "Simple Heads and Trails" VFX Graph** from the sample templates
 4. **Add Blackboard properties** to your VFX Graph:
-    - `SpawnRate` (Float) - Connect to Spawn Rate AND Trigger Event Rate in your graph
+    - `SpawnRate` (Float) - Connect to Spawn Rate AND/OR Trigger Event Rate in your graph
     - `ParticleSize` (Float) - Connect to Set Size node
     - `EmissionColor` (Color) - Connect to Set Color node
     - `VelocityStrength` (Float) - Connect to Add Velocity node
@@ -35,9 +35,9 @@ You'll learn how to control VFX Graph properties using C# scripts! This means ma
 
 ## 🔍 THINK Phase (15 minutes)
 
-**Work Individually**
+**Work Individually (Together)**: Meaning in your groups each person does the following in this section.
 
-Pick a **Control Method Card** (Below) that tells you which animation technique to use.
+Pick a **Control Method Card** (Below⬇) that tells you which animation technique to use.
 
 ### Your Task:
 
@@ -46,7 +46,7 @@ Pick a **Control Method Card** (Below) that tells you which animation technique 
 3. **Connect properties to appropriate nodes** in your graph
 4. **Copy the script template** for your assigned method and attach to VFX GameObject
 5. **Uncomment ONE property line** to see it animate
-6. **Adjust the inspector values** to make it look cool
+6. **Adjust the inspector values** to make it look "interesting"
 7. **Try different properties** by commenting/uncommenting different lines
 8. **Take screenshots** of your best results
 
@@ -54,7 +54,7 @@ Pick a **Control Method Card** (Below) that tells you which animation technique 
 
 ## 👥 PAIR Phase (20 minutes)
 
-**Find 1-2 other students with your same control method**
+**In your pairs**
 
 ### Work Together To:
 
@@ -74,14 +74,14 @@ Pick a **Control Method Card** (Below) that tells you which animation technique 
 
 ## 🗣️ SHARE Phase (15 minutes)
 
-**Show Your Results to the Class**
+**Show Your Results**
 
-Each pair gets **3 minutes** to demonstrate:
+Each pair, demonstrate:
 
-1. **Show your effect running** (30-45 seconds of live demo)
-2. **Explain your control method** (sine wave, mouse input, etc.)
-3. **Share your favorite parameter combination**
-4. **Mention one thing that surprised you**
+1. **Explain your control method** (sine wave, mouse input, etc.)
+2. **Share your favorite parameter combination**
+3. **Mention one thing that surprised you**
+4. **Show your effect running** (via screenshots in your doc)
 
 ---
 
@@ -89,22 +89,26 @@ Each pair gets **3 minutes** to demonstrate:
 
 Write down:
 
-- Which control method seemed most fun to use?
-- What parameter change created the biggest "wow" effect?
-- One technique from another group you want to try
+- Which control method seemed most fun/interesting to use?
+- What parameter change created the biggest effect?
+- One technique from another control group you want to try
 - Biggest challenge you figured out
 
 ---
 
-## 🔄 Mix & Match (Optional)
+## 🔄 Document and Turn In
 
-After all presentations, spend a few minutes trying techniques from other groups. Can you combine different approaches?
+>[!warning] All group members names must be on the turned in materials to receive credit! 
+
+>[!Summary] Submission
+>Submission of your groups materials, finding, and reflections should be submitted on BB Learn by END OF CLASS
+>This can be simple, in the form of a word doc, pdf, or slides.
 
 ---
 
 ## 🎴 Control Method Cards
 
-You'll receive ONE of these cards based on your assigned group:
+PICK ONE of these cards for your group:
 
 > [!Note] **Group 1: Sine Wave Animation** 
 > **Your Method:** Use mathematical sine waves to create smooth, rhythmic animations 

@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 06 Aug 2025 16:24:25 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 06 Aug 2025 16:23:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 06 Aug 2025 18:09:42 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 06 Aug 2025 18:09:05 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Learning Focus: Understanding procedural workflows and algorithmic content creation <br>
 Builds On: Module 1A (Technical Art fundamentals)
@@ -7702,23 +7702,23 @@ Time: 50 minutes<br><br>
 <br>Create "Simple Heads and Trails" VFX Graph from the sample templates
 <br>Add Blackboard properties to your VFX Graph:
 
-<br>SpawnRate (Float) - Connect to Spawn Rate AND Trigger Event Rate in your graph
+<br>SpawnRate (Float) - Connect to Spawn Rate AND/OR Trigger Event Rate in your graph
 <br>ParticleSize (Float) - Connect to Set Size node
 <br>EmissionColor (Color) - Connect to Set Color node
 <br>VelocityStrength (Float) - Connect to Add Velocity node
 
 
 <br>Place VFX Graph in your scene and add the script to the same GameObject
-<br><br><br>Work Individually<br>Pick a Control Method Card (Below) that tells you which animation technique to use.<br><br>
+<br><br><br>Work Individually (Together): Meaning in your groups each person does the following in this section.<br>Pick a Control Method Card (Below⬇) that tells you which animation technique to use.<br><br>
 <br>Set up your VFX Graph with Simple Sparks and Trails
 <br>Add the required Blackboard properties (SpawnRate, ParticleSize, etc.)
 <br>Connect properties to appropriate nodes in your graph
 <br>Copy the script template for your assigned method and attach to VFX GameObject
 <br>Uncomment ONE property line to see it animate
-<br>Adjust the inspector values to make it look cool
+<br>Adjust the inspector values to make it look "interesting"
 <br>Try different properties by commenting/uncommenting different lines
 <br>Take screenshots of your best results
-<br><br><br>Find 1-2 other students with your same control method<br><br>
+<br><br><br>In your pairs<br><br>
 <br>Share what you discovered - Which properties looked best?
 <br>Try each other's settings - Compare different parameter values
 <br>Experiment with extremes - What happens with really high/low values?
@@ -7728,17 +7728,20 @@ Time: 50 minutes<br><br>
 <br>Which property made the most dramatic change?
 <br>What parameter values created the coolest effects?
 <br>How does your control method "feel" different from others?
-<br><br><br>Show Your Results to the Class<br>Each pair gets 3 minutes to demonstrate:<br>
-<br>Show your effect running (30-45 seconds of live demo)
+<br><br><br>Show Your Results<br>Each pair, demonstrate:<br>
 <br>Explain your control method (sine wave, mouse input, etc.)
 <br>Share your favorite parameter combination
 <br>Mention one thing that surprised you
+<br>Show your effect running (via screenshots in your doc)
 <br><br><br>Write down:<br>
-<br>Which control method seemed most fun to use?
-<br>What parameter change created the biggest "wow" effect?
-<br>One technique from another group you want to try
+<br>Which control method seemed most fun/interesting to use?
+<br>What parameter change created the biggest effect?
+<br>One technique from another control group you want to try
 <br>Biggest challenge you figured out
-<br><br><br>After all presentations, spend a few minutes trying techniques from other groups. Can you combine different approaches?<br><br><br>You'll receive ONE of these cards based on your assigned group:<br>Group 1: Sine Wave Animation 
+<br><br><br>All group members names must be on the turned in materials to receive credit! <br>Submission
+Submission of your groups materials, finding, and reflections should be submitted on BB Learn by END OF CLASS<br>
+This can be simple, in the form of a word doc, pdf, or slides.
+<br><br><br>PICK ONE of these cards for your group:<br>Group 1: Sine Wave Animation 
 Your Method: Use mathematical sine waves to create smooth, rhythmic animations<br>
 Focus Properties: SpawnRate, ParticleSize<br>
 Goal: Create pulsing, breathing effects that feel organic and smooth
@@ -7869,7 +7872,7 @@ public class VFXController : MonoBehaviour
         }
     }
 }
-<br><br>]]></description><link>gmap-395\weeklies\gmap-395-week-7-tps.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md</guid><pubDate>Wed, 06 Aug 2025 16:22:52 GMT</pubDate></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
+<br><br>]]></description><link>gmap-395\weeklies\gmap-395-week-7-tps.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md</guid><pubDate>Wed, 06 Aug 2025 18:08:56 GMT</pubDate></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
  <br><br>Overview 
 Purpose: Develop your quarter-long project concept through thematic exploration, skill goal-setting, and procedural thinking<br>
 Format: Individual presentation (3-4 minutes) + peer feedback<br>

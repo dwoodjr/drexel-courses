@@ -76,9 +76,37 @@
               "icon": "lucide-file",
               "title": "GMAP 395 - Week 7 - TPS"
             }
+          },
+          {
+            "id": "d7790eb869220fe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Weeklies/GMAP 395 - Week 6 - TPS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - Week 6 - TPS"
+            }
+          },
+          {
+            "id": "a19644cf57ab0928",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Module 3/legacy/GMAP 395 - WK 6 - Slides + Video.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - WK 6 - Slides + Video"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -132,7 +160,7 @@
             }
           },
           {
-            "id": "341c5cdfc2b3174b",
+            "id": "10fb56fdbe301d61",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -309,7 +337,8 @@
   },
   "active": "81e14ee526097519",
   "lastOpenFiles": [
-    "docs/gmap-395/weeklies/gmap-395-week-7-tps.html",
+    "GMAP 395/Module 3/legacy/GMAP 395 - WK 7 - Slides + Video.md",
+    "GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md",
     "Index.md",
     "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
@@ -323,7 +352,6 @@
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 4.md",
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md",
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
-    "GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md",
     "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
     "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
     "GMAP 395/Module 4/GMAP 395 - Module 4.md",
@@ -335,6 +363,7 @@
     "GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md",
     "GMAP 395/Module 3/submodules/GMAP 395 - Module 3D - Advanced VFX Techniques.md",
     "GMAP 395/Module 3/submodules/GMAP 395 - Module 3C - VFX Graph Introduction.md",
+    "docs/gmap-395/weeklies/gmap-395-week-7-tps.html",
     "docs/gmap-395/weeklies/gmap-395-week-6-tps.html",
     "docs/lib/media/portalbeamvfx.png",
     "docs/lib/media/portalvfxsplash.png",
@@ -353,7 +382,6 @@
     "docs/gmap-395/module-3/submodules/gmap-395-module-3c-vfx-graph-introduction.html",
     "docs/gmap-395/module-3/submodules/gmap-395-module-3b-unity-particle-system-hands-on.html",
     "docs/gmap-395/module-3/submodules/gmap-395-module-3d-advanced-vfx-techniques.html",
-    "docs/gmap-395/module-3/submodules/gmap-395-module-3a-vfx-basics-and-game-feel.html",
-    "docs/gmap-395/module-3/submodules"
+    "docs/gmap-395/module-3/submodules/gmap-395-module-3a-vfx-basics-and-game-feel.html"
   ]
 }
