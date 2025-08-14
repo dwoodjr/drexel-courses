@@ -7,8 +7,7 @@
 > 
 > 1. Integrate **at least two (2)** post-processing effects into their project using Unity's URP Post-Processing system.
 > 2. Control **one post-processing effect dynamically** through C# scripting (such as adjusting bloom intensity, vignette strength, or depth of field focus).
-> 3. Implement **Cinemachine** to create dynamic camera movements and transitions.
-> 4. Present their work within their ongoing project scene and document the process in a README file.
+> 3. Present their work within their ongoing project scene and document the process in a README file.
 
 ---
 
@@ -21,9 +20,6 @@
 >     - Ensure these effects contribute to the overall atmosphere and mood of your environment.
 > - **Part 2: Scripted Post-Processing Control**
 >     - Write a **C# script** to dynamically adjust at least **one** of your post-processing parameters during runtime (e.g., change vignette intensity when the player approaches the artifact).
-> - **Part 3: Cinemachine Camera System**
->     - Use **Cinemachine** to set up dynamic camera(s).
->     - Essentially, install cinemachine and setup in your project to apply camera position.
 
 ---
 
@@ -34,7 +30,6 @@
 1.**README File** (Markdown or TXT) that explains:
 >     - Which post-processing effects you used and why.
 >     - How your C# script controls a post-processing effect in real-time.
->     - How Cinemachine is used in your scene.
 >     - Any challenges you faced and how you resolved them.
 > 2. **Recorded Video (5–10 Minutes)**:
 >     - Screen-record your scene.
@@ -55,10 +50,6 @@
 
 ## Scripted Control
 - I created a script that increases vignette intensity as the player gets closer to the artifact, creating a sense of pressure and immersion.
-
-## Cinemachine Setup
-- I implemented a free-look camera that orbits around the artifact.
-- Added a triggered dolly camera that activates during a key interaction.
 
 ## Challenges
 - Ensuring smooth transitions between Cinemachine cameras.

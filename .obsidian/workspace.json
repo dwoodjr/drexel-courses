@@ -22,63 +22,49 @@
             }
           },
           {
-            "id": "4113eec02aef1a3c",
+            "id": "8f3bf022152a6cff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 3/GMAP 395 - Module 3.md",
+                "file": "GMAP 395/Module 4/GMAP 395 - Module 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Module 3"
+              "title": "GMAP 395 - Module 4"
             }
           },
           {
-            "id": "204d01de043d6e8b",
+            "id": "72b1d2d7a680d46c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 3/submodules/GMAP 395 - Module 3D - Advanced VFX Techniques.md",
+                "file": "GMAP 395/Module 4/submodules/GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Module 3D - Advanced VFX Techniques"
+              "title": "GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity"
             }
           },
           {
-            "id": "d605be9a2f316d91",
+            "id": "e3e00692d2c63540",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md",
+                "file": "GMAP 395/Module 4/submodules/GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Module 3E - VFX Style Guides and Polish"
-            }
-          },
-          {
-            "id": "7f77b8951ac49c65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - Week 7 - TPS"
+              "title": "GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +118,7 @@
             }
           },
           {
-            "id": "10fb56fdbe301d61",
+            "id": "647d7a8deea1cb9a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -146,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 357.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -155,7 +141,7 @@
       {
         "id": "93b3ddf4fd75b166",
         "type": "tabs",
-        "dimension": 59.11823647294589,
+        "dimension": 40.88235294117647,
         "children": [
           {
             "id": "81e14ee526097519",
@@ -264,7 +250,7 @@
       {
         "id": "654ae1b2ef08042f",
         "type": "tabs",
-        "dimension": 40.88176352705411,
+        "dimension": 59.11764705882353,
         "children": [
           {
             "id": "2b9aa3d6b77b12e1",
@@ -280,7 +266,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,7 +293,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7f77b8951ac49c65",
+  "active": "72b1d2d7a680d46c",
   "lastOpenFiles": [
     "Index.md",
     "GMAP 395/GMAP 395 - Welcome.md",
@@ -323,37 +309,37 @@
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md",
     "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
     "GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md",
-    "GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md",
-    "GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md",
+    "GMAP 395/Weeklies/GMAP 395 - Week 6 - TPS.md",
     "GMAP 395/Module 4/GMAP 395 - Module 4.md",
-    "GMAP 395/Module 4/GMAP 395 - Guides - Custom Post-Processing Effects.md",
-    "GMAP 395/Module 4/media/media.md",
+    "GMAP 395/Module 4/tutorials/GMAP 395 - WK 9 - Tutorial.md",
+    "GMAP 395/Module 4/tutorials/GMAP 395 - Guides - Custom Post-Processing Effects.md",
+    "GMAP 395/Module 4/submodules/GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity.md",
+    "GMAP 395/Module 4/legacy/GMAP 395 - WK 9 - Slides + Video.md",
     "GMAP 395/Module 3/GMAP 395 - Module 3.md",
     "GMAP 395/Module 3/tutorials/GMAP 395 - WK 7 - Tutorial.md",
     "GMAP 395/Module 3/tutorials/GMAP 395 - WK 6 - Tutorial.md",
     "GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md",
     "GMAP 395/Module 3/submodules/GMAP 395 - Module 3D - Advanced VFX Techniques.md",
     "GMAP 395/Module 3/submodules/GMAP 395 - Module 3C - VFX Graph Introduction.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3B - Unity Particle System Hands-On.md",
-    "docs/gmap-395/weeklies/gmap-395-week-7-tps.html",
-    "docs/gmap-395/weeklies/gmap-395-week-6-tps.html",
-    "docs/lib/media/portalbeamvfx.png",
-    "docs/lib/media/portalvfxsplash.png",
-    "docs/gmap-395/module-3/tutorials/gmap-395-wk-6-tutorial.html",
-    "docs/gmap-395/module-3/tutorials/gmap-395-wk-7-tutorial.html",
-    "docs/gmap-395/module-3/tutorials",
-    "docs/lib/media/screenshot-2025-07-29-210716.png",
-    "docs/lib/media/screenshot-2025-07-29-210550.png",
-    "docs/lib/media/screenshot-2025-07-29-200753.png",
-    "docs/lib/media/screenshot-2025-07-29-200313.png",
-    "docs/lib/media/screenshot-2025-07-29-191305.png",
-    "docs/lib/media/screenshot-2025-07-29-190811.png",
-    "docs/lib/media/screenshot-2025-07-29-184430.png",
-    "docs/lib/media/screenshot-2025-07-29-184357.png",
-    "docs/gmap-395/module-3/submodules/gmap-395-module-3e-vfx-style-guides-and-polish.html",
-    "docs/gmap-395/module-3/submodules/gmap-395-module-3c-vfx-graph-introduction.html",
-    "docs/gmap-395/module-3/submodules/gmap-395-module-3b-unity-particle-system-hands-on.html",
-    "docs/gmap-395/module-3/submodules/gmap-395-module-3d-advanced-vfx-techniques.html",
-    "docs/gmap-395/module-3/submodules/gmap-395-module-3a-vfx-basics-and-game-feel.html"
+    "docs/lib/media/tutwk9splash.png",
+    "docs/lib/media/gmap-395-su24-tutorial-film-noir-post-processing-effect.pdf",
+    "docs/lib/media/gmap-395-su24-tutorial-pixelation-full-screen-shader-and-custom-render-pass.pdf",
+    "docs/gmap-395/module-4/tutorials/gmap-395-in-class-lab.html",
+    "docs/gmap-395/module-4/tutorials/gmap-395-wk-9-tutorial.html",
+    "docs/gmap-395/module-4/tutorials/gmap-395-guides-custom-post-processing-effects.html",
+    "docs/gmap-395/module-4/tutorials",
+    "docs/gmap-395/module-4/submodules/gmap-395-module-4c-cinemachine-and-camera-systems-fundamentals.html",
+    "docs/gmap-395/module-4/submodules/gmap-395-module-4b-hands-on-unity-post-processing-implementation.html",
+    "docs/gmap-395/module-4/submodules/gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html",
+    "docs/gmap-395/module-4/submodules/gmap-395-module-4a-post-processing-effects-basics-in-unity.html",
+    "docs/gmap-395/module-4/media/tutwk9splash.png",
+    "docs/gmap-395/module-4/media/home-before.png",
+    "docs/gmap-395/module-4/media/home-after.png",
+    "docs/gmap-395/module-4/media/capsule_616x353.jpg",
+    "docs/gmap-395/module-4/media/421988f6-a827-428b-86d4-9b815f15cdce.jpg",
+    "docs/lib/media/421988f6-a827-428b-86d4-9b815f15cdce.jpg",
+    "docs/lib/media/capsule_616x353.jpg",
+    "docs/lib/media/home-after.png",
+    "docs/lib/media/home-before.png"
   ]
 }

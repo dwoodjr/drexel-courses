@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 06 Aug 2025 18:49:19 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 06 Aug 2025 18:48:46 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 14 Aug 2025 17:50:30 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 14 Aug 2025 17:49:43 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Learning Focus: Understanding procedural workflows and algorithmic content creation <br>
 Builds On: Module 1A (Technical Art fundamentals)
@@ -6883,78 +6883,436 @@ The theme So What About Tomorrow? should guide the design of your effects. Consi
 <br><a data-tooltip-position="top" aria-label="https://realtimevfx.com/" rel="noopener nofollow" class="external-link" href="https://realtimevfx.com/" target="_blank">Real-Time VFX Community</a>
 <br><a data-tooltip-position="top" aria-label="https://nexus.leagueoflegends.com/en-us/2017/10/dev-leagues-vfx-style-guide/" rel="noopener nofollow" class="external-link" href="https://nexus.leagueoflegends.com/en-us/2017/10/dev-leagues-vfx-style-guide/" target="_blank">League of Legends VFX Style Guide</a>
 <br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Manual/ParticleSystems.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Manual/ParticleSystems.html" target="_blank">Unity Particle System Reference</a>
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-3\gmap-395-module-3.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - Module 3.md</guid><pubDate>Wed, 06 Aug 2025 14:28:05 GMT</pubDate></item><item><title><![CDATA[media]]></title><description><![CDATA[ 
- ]]></description><link>gmap-395\module-4\media\media.html</link><guid isPermaLink="false">GMAP 395/Module 4/media/media.md</guid><pubDate>Sun, 02 Mar 2025 20:42:02 GMT</pubDate></item><item><title><![CDATA[Assignment 4: Cinemachine and Post-Processing Integration]]></title><description><![CDATA[ 
- <br><br><br>Assignment Overview  
-In this final module assignment, students will:
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-3\gmap-395-module-3.html</link><guid isPermaLink="false">GMAP 395/Module 3/GMAP 395 - Module 3.md</guid><pubDate>Wed, 06 Aug 2025 14:28:05 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Advanced Game art and Production]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br>
+<br>We've already covered Lighting in depth.
+<br>This presentation focuses on:
 
-<br>Integrate at least two (2) post-processing effects into their project using Unity's URP Post-Processing system.
-<br>Control one post-processing effect dynamically through C# scripting (such as adjusting bloom intensity, vignette strength, or depth of field focus).
-<br>Implement Cinemachine to create dynamic camera movements and transitions.
-<br>Present their work within their ongoing project scene and document the process in a README file.
-
-<br><br><br>Assignment Breakdown
-
-<br>Part 1: Post-Processing Effects
-
-<br>Apply a minimum of two (2) post-processing effects (examples: Bloom, Depth of Field, Color Adjustments, Vignette, Chromatic Aberration).
-<br>Ensure these effects contribute to the overall atmosphere and mood of your environment.
+<br>Post-processing
+<br>Full-screen shader effects
+<br>Camera behaviors and interactions
 
 
-<br>Part 2: Scripted Post-Processing Control
+<br><br><br>
+<br>Enhance atmosphere and mood
+<br>Refine visual storytelling
+<br>Create player focus through lenses, effects, and transitions
+<br>Optimize and stylize your scenes
+<br><br><br>
+<br>Lighting sets mood and clarity
+<br>Guides players and reinforces theme
+<br>Direct interaction with post-processing and camera effects
+<br><br><br>
+<br>Post-processing filters amplify lighting setups
 
-<br>Write a C# script to dynamically adjust at least one of your post-processing parameters during runtime (e.g., change vignette intensity when the player approaches the artifact).
+<br>Bloom enhances emissive
+<br>Color grading adjusts overall tone
+<br>Vignette focuses attention
 
 
-<br>Part 3: Cinemachine Camera System
+<br><br><br>
+<br>Combine dynamic lighting with shaders:
 
-<br>Use Cinemachine to set up dynamic camera(s).
-<br>Essentially, install cinemachine and setup in your project to apply camera position.
+<br>Day/Night Cycles
+<br>Color Shifts
+<br>Fog and Atmospherics
 
 
+<br><br><br><br><br>
+<br>Visual effects applied after rendering
+<br>Runs over the full screen, like photo filters in real-time
+<br>Handles mood, style, and polish
+<br><br><br><br>
+<br>Bloom
+<br>Color Grading
+<br>Vignette
+<br>Depth of Field
+<br>Motion Blur
+<br>Chromatic Aberration
+<br><br><br><br>
+<br>Create a Global Volume
+<br>Assign a Post-Processing Profile
+<br>Add overrides (Bloom, Vignette, etc.)
+<br>Enable post-processing on the camera
+<br><br><br>
+<br>Bloom + Emissives = Glow
+<br>Vignette = Cinematic framing
+<br>Color Adjustments = Visual mood shifts
+<br><img alt="home-before.png" src="lib\media\home-before.png" style="width: 720px; max-width: 100%;"><br>
+<img alt="home-after.png" src="lib\media\home-after.png" style="width: 720px; max-width: 100%;"><br><br><br>
+<br>Subtlety &gt; Overload
+<br>Profile performance costs
+<br>Stack effects logically (Color Grading → Bloom → Vignette)
+<br><br><br>
+<br>Implement correct "using statements"
+<br>Reference the Volume and the Override needed for control
+<br>using UnityEngine.Rendering;  
+using UnityEngine.Rendering.Universal;  
+  
+public class VignetteController : MonoBehaviour  
+{  
+    public Volume postProcessVolume;  
+    private Vignette vignette;
+}
+<br><br><br><br><br>
+<br>Shaders that modify the entire frame
+<br>Applied through a render pass or post-process pipeline
+<br>Example uses:
 
-<br><br><br>What to Submit
-1.README File (Markdown or TXT) that explains:<br>
-- Which post-processing effects you used and why.<br>
-- How your C# script controls a post-processing effect in real-time.<br>
-- How Cinemachine is used in your scene.<br>
-- Any challenges you faced and how you resolved them.<br>
-2. Recorded Video (5–10 Minutes):<br>
-- Screen-record your scene.<br>
-- Walk through the post-processing effects, scripted control, and Cinemachine setup.<br>
-- Reflect on how these elements contribute to the overall polish of your environment.
-<br><br><br># Assignment 4: Cinemachine and Post-Processing Integration
+<br>Pixelation
+<br>Screen distortion
+<br>Color filters
 
-## Post-Processing Effects
-- Bloom: Applied to enhance artifact glow.
-- Depth of Field: Used to focus attention on the artifact when nearby.
-- Vignette: Added subtle dark edges for atmospheric tension.
 
-## Scripted Control
-- I created a script that increases vignette intensity as the player gets closer to the artifact, creating a sense of pressure and immersion.
+<br><br><br>
+<br>Custom artistic control
+<br>Real-time dynamic adjustments
+<br>Performance-efficient stylization
+<br><br><br>
+<br>UV manipulation
+<br>Noise overlays
+<br>Color blending
+<br>Depth-based effects
+<br><br><br>
+<br>Use DOTween or C# to change shader parameters
+<br>Example: Expand portal effect on enemy spawn
+<br>Sync shader animations with player actions
+<br><br><br>
+<br>Swirls, ripples, and patterns
+<br>Masking and blending
+<br>Dynamic reactions to game state
+<br><br><br><br><br>
+<br>Player perspective = player experience
+<br>Cinematic movement builds immersion
+<br>Connects gameplay to visual storytelling
+<br><br><br><br>
+<br>Follow Cameras
+<br>Dolly Tracks
+<br>Target Groups
+<br>Blend Transitions
+<br><img alt="capsule_616x353.jpg" src="lib\media\capsule_616x353.jpg"><br><br><br>
+<br>Shake on impact
+<br>Zoom on focus
+<br>Rotate for drama
+<br>Depth of Field on object proximity
+<br><img alt="421988f6-a827-428b-86d4-9b815f15cdce.jpg" src="lib\media\421988f6-a827-428b-86d4-9b815f15cdce.jpg" style="width: 720px; max-width: 100%;"><br><br><br>
+<br>Match camera behavior with post-process states
+<br>Example:
 
-## Cinemachine Setup
-- I implemented a free-look camera that orbits around the artifact.
-- Added a triggered dolly camera that activates during a key interaction.
+<br>Zoom → Increase Depth of Field
+<br>Rotate → Add Motion Blur
 
-## Challenges
-- Ensuring smooth transitions between Cinemachine cameras.
-- Managing post-processing volume blending across different zones.
-<br><br>Submission Guidelines
 
-<br>Submission Format: ZIP file uploaded to Drexel Learn.
-<br>File Naming: abc123_Lastname_Firstname_A4.zip.
-<br>Late submissions will incur a 10% penalty per day.
+<br><br><br>
+<br>Trigger shaders during camera moves
+<br>Layer transitions and fade-ins
+<br>Match action with visual flow
+<br><br><br><br>Layer multiple cameras together, with cameras that focus on specific layers or objects in a scene.<br><br><br><br><br><br>
+<br>Procedural asset with dynamic shader
+<br>Lighting supports mood
+<br>Post-processing adds polish
+<br>Camera movements guide focus
+<br><br><br>
+<br>How can you combine these systems?
+<br>Where can shaders and post-processing amplify your procedural assets?
+<br>How does the camera’s perspective shape the player’s experience?
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\legacy\gmap-395-wk-9-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 4/legacy/GMAP 395 - WK 9 - Slides + Video.md</guid><pubDate>Mon, 03 Mar 2025 22:55:29 GMT</pubDate><enclosure url="lib\media\home-before.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\home-before.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 4A: Post-Processing Effects Basics in Unity]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Understanding what post-processing effects are and how they enhance player experience and artistic vision<br>
+Tools: Unity URP, Visual understanding<br>
+Builds On: Game feel concepts from <a data-href="GMAP 395 - Module 1A - Game Feel and Tactile Experience" href="gmap-395\module-1\submodules\gmap-395-module-1a-game-feel-and-tactile-experience.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 1A - Game Feel and Tactile Experience</a>
+<br>Submodule Video Overview
 
-<br><br><br>By completing this assignment, you will:
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/ETx3adDQt0NBjzK-Bv4GjnIB_TiLJ5C4CtHUJO5bxJr99Q?e=qiNBed" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/ETx3adDQt0NBjzK-Bv4GjnIB_TiLJ5C4CtHUJO5bxJr99Q?e=qiNBed" target="_blank">gmap395_md4a.mkv</a>
+<br><br><br>Post-processing effects are visual enhancements applied to a camera's rendered image before display - think of them as "magic glasses" that transform how players see your game world!<br><br>Think of post-processing like image filters for games:<br>
+<br>Original photo = your 3D scene rendered normally
+<br>Filter applied = post-processing effect added
+<br>Final result = the stylized image players actually see
+<br>Just like how colored sunglasses change the mood of everything you look at, post-processing effects change the entire visual feeling of your game!<br><img alt="GMAP 395/Module 4/media/home-before.png" src="lib\media\home-before.png"><br>
+<img alt="GMAP 395/Module 4/media/home-after.png" src="lib\media\home-after.png"><br><br><br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/2022.3/Documentation/Manual/PostProcessingOverview.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/2022.3/Documentation/Manual/PostProcessingOverview.html" target="_blank">Unity 2022.3 URP Post-Processing Documentation</a><br><br>What it does: Creates bright light halos around intense sources, mimicking how our eyes perceive overwhelming brightness.<br>
+Real-world comparison: Staring at car headlights at night creates natural bloom in your vision.<br>
+Game applications:<br>
+<br>Magical spells in fantasy games
+<br>Energy weapons in sci-fi
+<br>Warm sunlight streaming through windows
+<br>Glowing collectible items
+<br>Bloom Common Control Parameters
 
-<br>Understand how to implement and customize post-processing effects.
-<br>Gain experience scripting real-time control over visual effects.
-<br>Design and refine camera systems with Cinemachine.
-<br>Polish your procedural game environment with cinematic and atmospheric enhancements.
+<br>Threshold: Only bright pixels above this value will bloom
+<br>Intensity: Controls bloom strength; subtle is usually better
+<br>Scatter: Controls bloom spread; higher values create wider halos
 
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-asn-4-brief.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - ASN 4 - Brief.md</guid><pubDate>Tue, 04 Mar 2025 01:01:23 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Guides - Custom Post-Processing Effects]]></title><description><![CDATA[ 
- <br><br><br><br>]]></description><link>gmap-395\module-4\gmap-395-guides-custom-post-processing-effects.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - Guides - Custom Post-Processing Effects.md</guid><pubDate>Mon, 03 Mar 2025 20:03:45 GMT</pubDate></item><item><title><![CDATA[In-Class Lab: Introduction to Cinemachine in Unity URP]]></title><description><![CDATA[ 
+<br><br>What it does: Darkens screen edges, naturally guiding attention to the center.<br>
+Camera analogy: Looking through binoculars or an old film camera viewfinder.<br>
+Psychological impact:<br>
+<br>Creates intimacy in dialogue scenes
+<br>Builds tension in horror games
+<br>Simulates tunnel vision during intense moments
+<br>Vignette in Action 
+Horror Games: Heavy vignette = feeling trapped and focused<br>
+Adventure Games: Light vignette = natural, comfortable framing<br>
+Action Games: Dynamic vignette that pulses with health/stamina
+<br><br>What it does: Adjusts overall color balance, contrast, and mood - equivalent to a film's color timing or Photoshop's color correction.<br>
+Film industry parallel:<br>
+<br>The orange/teal look in blockbuster movies
+<br>The desaturated palette of apocalyptic films
+<br>Vibrant colors in animated films
+<br>Game examples:<br>
+<br>Warm colors for cozy indoor scenes
+<br>Cool blues for underwater levels
+<br>High contrast for dramatic moments
+<br><br>What it does: Simulates camera lens behavior by blurring objects based on distance.<br>
+Photography equivalent: Portrait mode on smartphones, where the background blurs while the subject stays sharp.<br>
+Game design applications:<br>
+<br>Directing attention during cutscenes
+<br>Creating depth perception in UI elements
+<br>Enhancing cinematic storytelling moments
+<br>
+There are many more post-processing effects available by default in Unity.<br>
+Plus it is possible to creat your own via <a data-tooltip-position="top" aria-label="GMAP 395 - Module 2A - Shader Fundamentals" data-href="GMAP 395 - Module 2A - Shader Fundamentals" href="gmap-395\module-2\submodules\gmap-395-module-2a-shader-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Shaders!</a>
+<br><br><br><br>Post-processing serves as a visual language that communicates mood without words:<br>
+<br>Warm, high-contrast grading = comfort and safety
+<br>Desaturated colors with heavy vignetting = unease and danger
+<br>Bright bloom with vibrant colors = magical and wonderful
+<br>Case Study: Hollow Knight 🦋 Uses subtle bloom and careful color grading to distinguish between peaceful and dangerous areas, guiding players emotionally through the world without explicit instructions.<br><br>Modern post-processing systems support dynamic adaptation - effects can respond to:<br>
+<br>Time of day changes
+<br>Player health status
+<br>Different game environments
+<br>Combat vs exploration states
+<br>Practical example: A single post-processing profile can shift from bright and colorful during day exploration to dark and desaturated during night combat sequences.<br><br><br><br>
+<br>Heavy bloom on magical elements
+<br>Warm color grading for friendly areas
+<br>Cool, desaturated tones for dungeons
+<br><br>
+<br>Neon-heavy color grading for cyberpunk aesthetics
+<br>Sharp contrast and vibrant colors
+<br>Chromatic aberration for tech/glitch effects
+<br><br>
+<br>Heavy vignette to create claustrophobia
+<br>Desaturated colors to remove comfort
+<br>Subtle depth of field to hide details
+<br><br>
+<br>Bright, vibrant colors for energy
+<br>Light bloom on collectibles
+<br>Smooth color transitions between areas
+<br><br><br>AAA Case Study: 
+Cyberpunk 2077  Uses aggressive bloom and neon-heavy color grading to establish its night-city aesthetic.<br>
+The heavy post-processing isn't just decoration - it reinforces the game's themes of artificial enhancement and digital overwhelm.
+<br>Indie Case Study: 
+Ori and the Blind Forest  Demonstrates how thoughtful bloom and color grading can create an enchanted forest atmosphere on a limited budget.<br>
+The post-processing effects do the heavy lifting for environmental storytelling.
+<br>Art Direction Insight: Both games use post-processing as a core part of their visual identity, not as an afterthought. The effects were planned during pre-production and inform level design and asset creation.<br><br><br>Next time you play a game, try to notice:<br>
+<br>What visual effects make bright objects glow?
+<br>How does the screen edge treatment affect your focus?
+<br>Do colors feel warm and inviting or cold and threatening?
+<br>What happens to the visuals when your character takes damage?
+<br>Quick Exercise 
+📝 Pick a game you know well and write down 3 post-processing effects you notice.<br>
+What purpose does each one serve? How do they make you feel while playing?
+<br><br><br><br>Goal: Bridge traditional art skills with technical implementation<br>
+Instructions:<br>
+<br>Create mood boards for 3 imaginary games (horror, adventure, sci-fi)
+<br>Identify which post-processing effects would achieve those feelings
+<br>Explain your choices using the concepts from this module
+<br><br>Remember: 
+Post-processing effects aren't just "pretty filters" - they're communication tools that tell players what's happening and how they should feel in your game world!
+<br><br><br>🧭 Module Navigation 
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation" data-href="GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation" href="gmap-395\module-4\submodules\gmap-395-module-4b-hands-on-unity-post-processing-implementation.html" class="internal-link" target="_self" rel="noopener nofollow">Module 4B</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-4\submodules\gmap-395-module-4a-post-processing-effects-basics-in-unity.html</link><guid isPermaLink="false">GMAP 395/Module 4/submodules/GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity.md</guid><pubDate>Thu, 14 Aug 2025 17:46:48 GMT</pubDate><enclosure url="lib\media\home-before.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\home-before.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 4B: Hands-On Unity Post-processing Implementation]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Practical Unity post-processing setup and scripting control<br>
+Tools: Unity URP, C# scripting, Volume system<br>
+Builds On: Post-processing concepts from <a data-href="GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity" href="gmap-395\module-4\submodules\gmap-395-module-4a-post-processing-effects-basics-in-unity.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity</a>
+<br>Submodule Video Overview
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/Ee0Q6Em8CRtDsU5P4k4ORIQBT6nTeL0RRNEC0TvMSPzGIQ?e=9HpL40" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/Ee0Q6Em8CRtDsU5P4k4ORIQBT6nTeL0RRNEC0TvMSPzGIQ?e=9HpL40" target="_blank">gmap395_md4b.mkv</a>
+<br><br><br><br>Step 1: Verify Your Render Pipeline<br>
+<br>Go to Edit → Project Settings → Graphics
+<br>Make sure Scriptable Render Pipeline Settings shows a URP asset
+<br>If not, create one: Assets → Create → Rendering → URP Asset
+<br>Step 2: Enable Post-Processing on Camera<br>
+<br>Select your Main Camera
+<br>In the Camera component, find Rendering section
+<br>✅ Check "Post Processing"
+<br>Common Mistake! The #1 reason post-processing "doesn't work" is forgetting Step 2. Always verify post-processing is enabled on your camera first!<br><br><br><br><br>
+<br>Right-click in Hierarchy
+<br>Volume → Global Volume
+<br>Name it: "PostProcess_Global"
+<br><br>
+<br>Select your Global Volume
+<br>In the Volume component, click "New" next to Profile
+<br>Save it in your project (good organization!)
+<br><br>
+<br>Click "Add Override"
+<br>Post-processing → Bloom (let's start with something fun!)
+<br>Click "Add Override" again
+<br>Post-processing → Vignette
+<br><br>Let's make a glowing object that actually glows:<br>
+<br>Create a Cube in your scene
+<br>Create a Material for it
+<br>Set the material's Emission to a bright color (like cyan)
+<br>Set Emission intensity to 2 or higher
+<br>Apply the material to your cube
+<br>Now configure Bloom:<br>
+<br>Select your Global Volume
+<br>Enable Bloom by checking the box next to it
+<br>Enable Threshold and set it to 0.9
+<br>Enable Intensity and set it to 1
+<br>Press Play - your cube should now have a beautiful glow!<br><br><br><br>using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+
+// Simple controller that art students can understand and modify
+public class PostProcessingController : MonoBehaviour
+{
+    [Header("Post-Processing Components")]
+    [SerializeField] private Volume postProcessVolume;
+    
+    // These will appear in Inspector for easy tweaking
+    [Header("Effect Intensity Controls")]
+    [Range(0f, 2f)] public float bloomIntensity = 1f;
+    [Range(0f, 1f)] public float vignetteIntensity = 0.3f;
+    [Range(-100f, 100f)] public float colorSaturation = 0f;
+    
+    // Component references - cached for performance
+    private Bloom bloom;
+    private Vignette vignette;
+    private ColorAdjustments colorAdjustments;
+    
+    void Start()
+    {
+        // Get references to post-processing components
+        // TryGet is safer than direct access - won't crash if component missing
+        if (postProcessVolume.profile.TryGet&lt;Bloom&gt;(out bloom))
+        {
+            Debug.Log("Bloom component ready");
+        }
+        
+        if (postProcessVolume.profile.TryGet&lt;Vignette&gt;(out vignette))
+        {
+            Debug.Log("Vignette component ready");  
+        }
+        
+        if (postProcessVolume.profile.TryGet&lt;ColorAdjustments&gt;(out colorAdjustments))
+        {
+            Debug.Log("Color Adjustments component ready");
+        }
+    }
+    
+    void Update()
+    {
+        // Allow real-time adjustment for experimentation
+        if (bloom != null)
+            bloom.intensity.Override(bloomIntensity);
+            
+        if (vignette != null)
+            vignette.intensity.Override(vignetteIntensity);
+            
+        if (colorAdjustments != null)
+            colorAdjustments.saturation.Override(colorSaturation);
+    }
+    
+    // Public methods for game events
+    public void TriggerHealthDamageEffect()
+    {
+        // Flash red screen and increase vignette when player takes damage
+        StartCoroutine(HealthDamageVisualFeedback());
+    }
+    
+    private System.Collections.IEnumerator HealthDamageVisualFeedback()
+    {
+        // Store original values
+        float originalVignetteIntensity = vignetteIntensity;
+        float originalSaturation = colorSaturation;
+        
+        // Apply damage effect
+        vignetteIntensity = 0.8f;
+        colorSaturation = -50f;
+        
+        // Hold effect for short duration
+        yield return new WaitForSeconds(0.2f);
+        
+        // Gradually return to normal
+        float timer = 0f;
+        float duration = 1f;
+        
+        while (timer &lt; duration)
+        {
+            timer += Time.deltaTime;
+            float progress = timer / duration;
+            
+            vignetteIntensity = Mathf.Lerp(0.8f, originalVignetteIntensity, progress);
+            colorSaturation = Mathf.Lerp(-50f, originalSaturation, progress);
+            
+            yield return null;
+        }
+    }
+}
+<br><br>
+<br>Create an empty GameObject and name it "PostProcessingController"
+<br>Add the script to this GameObject
+<br>Drag your Global Volume into the "Post Process Volume" slot
+<br>Press Play and adjust the sliders in the Inspector!
+<br><br><br><br>Bloom Settings Explained
+
+<br>Threshold (0.9 recommended): Only bright pixels above this value will bloom
+<br>Intensity (0.5-1.5 range): Controls bloom strength; subtle is usually better
+<br>Scatter (0.7 default): Controls bloom spread; higher values create wider halos
+<br>Tint: Slight warm tint (pale yellow) feels natural for most scenes
+
+<br>Quick Setup:<br>
+<br>Add Bloom override to your Volume
+<br>Threshold: 0.9
+<br>Intensity: 1.0
+<br>Scatter: 0.7
+<br><br>Vignette Modes
+
+<br>Classic Mode: Simple, performance-friendly darkening
+<br>Masked Mode: Uses textures for creative shapes and effects
+
+<br>Recommended Settings:<br>
+<br>Intensity Range: 0.2-0.4 for subtle atmosphere, 0.5+ for dramatic effect
+<br>Smoothness: Higher values create softer transitions
+<br>Color: Usually black, but try dark blue for night scenes!
+<br><br>Color Grading Controls
+
+<br>Post-exposure: Global brightness adjustment (±0.5 typical range)
+<br>Contrast: Enhances visual pop (±20 typical range)
+<br>Hue Shift: Creative color transformations (use sparingly)
+<br>Saturation: Boost for stylized looks, reduce for realistic feel
+
+<br><br><br><br>Goal: Understand how post-processing affects emotional response<br>Instructions:<br>
+<br>Create a simple scene (a few basic objects)
+<br>Create 3 mood presets:
+
+<br>☀️ Cheerful Morning: Bright, warm, high contrast
+<br>🌅 Dramatic Sunset: Orange tint, medium bloom
+<br>🌙 Eerie Night: Desaturated, heavy vignette
+
+
+<br>Switch between them and notice how the same scene feels completely different!
+<br><br>Goal: Connect game logic to visual systems<br>Instructions:<br>
+<br>Use the PostProcessingController script from above
+<br>Create a simple health system with a slider UI
+<br>Connect health changes to the TriggerHealthDamageEffect() method
+<br>Test taking damage and watch the visual feedback!
+<br><br><br>Problem: "My post-processing isn't working!" Solution: Check these in order:
+
+<br>✅ Is post-processing enabled on your camera?
+<br>✅ Do you have a Global Volume in your scene?
+<br>✅ Does your Volume have a Profile assigned?
+<br>✅ Are your effects enabled (checkboxes checked)?
+
+<br>Performance Tip 
+Post-processing can be expensive!<br>
+For mobile/web builds, use effects sparingly and test on target devices.
+<br>Remember: The key to good post-processing is subtlety! Start with small values and build up gradually. Less is often more!<br><br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity" data-href="GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity" href="gmap-395\module-4\submodules\gmap-395-module-4a-post-processing-effects-basics-in-unity.html" class="internal-link" target="_self" rel="noopener nofollow">Module 4A</a><br>
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" data-href="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" href="gmap-395\module-4\submodules\gmap-395-module-4c-cinemachine-and-camera-systems-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Module 4C</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-4\submodules\gmap-395-module-4b-hands-on-unity-post-processing-implementation.html</link><guid isPermaLink="false">GMAP 395/Module 4/submodules/GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation.md</guid><pubDate>Thu, 14 Aug 2025 17:47:27 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Guides - Custom Post-Processing Effects]]></title><description><![CDATA[ 
+ <br><br><br><br>]]></description><link>gmap-395\module-4\tutorials\gmap-395-guides-custom-post-processing-effects.html</link><guid isPermaLink="false">GMAP 395/Module 4/tutorials/GMAP 395 - Guides - Custom Post-Processing Effects.md</guid><pubDate>Mon, 03 Mar 2025 20:03:45 GMT</pubDate></item><item><title><![CDATA[In-Class Lab: Introduction to Cinemachine in Unity URP]]></title><description><![CDATA[ 
  <br><br><br>This lab aims to guide you through setting up Cinemachine in Unity's Universal Render Pipeline (URP), understanding its core components, and implementing dynamic camera controls<br><br>
 <br>Unity 2022.3 LTS or late 
 <br>Basic familiarity with the Unity interface
@@ -7219,189 +7577,8 @@ Lens Distortion: Simulates lens imperfections for creative effects To add these
 <br>
 Click "Add Override" in the Global Volume - Select the desired effect
 
-]]></description><link>gmap-395\module-4\gmap-395-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - In-Class Lab.md</guid><pubDate>Sun, 02 Mar 2025 21:12:12 GMT</pubDate></item><item><title><![CDATA[Module 4 – Camera Effects and Post-Processing]]></title><description><![CDATA[ 
- <br><br><br>In this module, you'll learn how to enhance your game environments using advanced camera systems and post-processing techniques. These tools allow you to craft cinematic experiences, dynamic gameplay feedback, and a polished visual style that responds to player actions.<br><br><br>
-<br>Full-Screen Effects and Post-Processing:
-
-<br>Bloom, depth of field, color grading, vignette, and more using Unity’s Post-Processing stack.
-<br>Creating mood and atmosphere through visual filtering.
-
-
-<br>Modular Camera Systems:
-
-<br>Cinemachine for dynamic, reusable camera rigs.
-<br>Triggered camera transitions and guided player focus.
-
-
-<br>Camera Effects and Real-Time Feedback:
-
-<br>Screen shake, zooms, and motion blur tied to gameplay events.
-<br>Using camera motion and effects to reinforce player actions.
-
-
-<br><br><br>By the end of this module, you will:<br>
-<br>Implement a modular camera system using Cinemachine.
-<br>Apply post-processing profiles to enhance scene visuals.
-<br>Trigger real-time camera effects based on player interactions.
-<br>Understand the connection between camera design and player experience.
-<br><br><br>
-<br>Ensure your Unity project is using the Universal Render Pipeline (URP).
-<br>Install Cinemachine via the Unity Package Manager.
-<br>Review your previous modules to integrate existing assets and shaders into a cohesive scene.
-<br>If you’ve never used Cinemachine:
-<a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=P_ibDJhFVMU" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=P_ibDJhFVMU" target="_blank">Cinemachine in Action</a>
-<br><br><br>
-<br>Unity 2022.3 or higher (URP setup).
-<br>Cinemachine for camera systems.
-<br>Post-Processing stack (integrated into URP).
-<br><br><br><br>
-<br>Implement post-processing to polish your procedural artifact scene.
-<br>Create a dynamic camera system that responds to player proximity and movement.
-<br>Apply real-time feedback effects such as camera shake or focus shifts.
-<br><br><br>
-<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/Manual/urp/integration-with-post-processing.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/Manual/urp/integration-with-post-processing.html" target="_blank">Unity Post-Processing Documentation</a>
-<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html" target="_blank">Unity Cinemachine Documentation</a>
-<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/project/creative-core-post-processing" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/project/creative-core-post-processing" target="_blank">How to Use Post-Processing in URP</a>
-<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/tutorial/cinemachine-cameras-2018#" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/tutorial/cinemachine-cameras-2018#" target="_blank">How to Use Camera in Unity</a>
-<br><br><br>
-<br>A cinematic zoom when the player approaches your artifact.
-<br>A post-processing profile that shifts the mood of your scene from day to night.
-<br>A camera shake effect when interacting with your procedural object.
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-4\gmap-395-module-4.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - Module 4.md</guid><pubDate>Sun, 02 Mar 2025 17:17:07 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Advanced Game art and Production]]></title><description><![CDATA[ 
- <br><br><br><br><br><br>
-<br>We've already covered Lighting in depth.
-<br>This presentation focuses on:
-
-<br>Post-processing
-<br>Full-screen shader effects
-<br>Camera behaviors and interactions
-
-
-<br><br><br>
-<br>Enhance atmosphere and mood
-<br>Refine visual storytelling
-<br>Create player focus through lenses, effects, and transitions
-<br>Optimize and stylize your scenes
-<br><br><br>
-<br>Lighting sets mood and clarity
-<br>Guides players and reinforces theme
-<br>Direct interaction with post-processing and camera effects
-<br><br><br>
-<br>Post-processing filters amplify lighting setups
-
-<br>Bloom enhances emissive
-<br>Color grading adjusts overall tone
-<br>Vignette focuses attention
-
-
-<br><br><br>
-<br>Combine dynamic lighting with shaders:
-
-<br>Day/Night Cycles
-<br>Color Shifts
-<br>Fog and Atmospherics
-
-
-<br><br><br><br><br>
-<br>Visual effects applied after rendering
-<br>Runs over the full screen, like photo filters in real-time
-<br>Handles mood, style, and polish
-<br><br><br><br>
-<br>Bloom
-<br>Color Grading
-<br>Vignette
-<br>Depth of Field
-<br>Motion Blur
-<br>Chromatic Aberration
-<br><br><br><br>
-<br>Create a Global Volume
-<br>Assign a Post-Processing Profile
-<br>Add overrides (Bloom, Vignette, etc.)
-<br>Enable post-processing on the camera
-<br><br><br>
-<br>Bloom + Emissives = Glow
-<br>Vignette = Cinematic framing
-<br>Color Adjustments = Visual mood shifts
-<br><img alt="home-before.png" src="gmap-395\module-4\media\home-before.png" style="width: 720px; max-width: 100%;"><br>
-<img alt="home-after.png" src="gmap-395\module-4\media\home-after.png" style="width: 720px; max-width: 100%;"><br><br><br>
-<br>Subtlety &gt; Overload
-<br>Profile performance costs
-<br>Stack effects logically (Color Grading → Bloom → Vignette)
-<br><br><br>
-<br>Implement correct "using statements"
-<br>Reference the Volume and the Override needed for control
-<br>using UnityEngine.Rendering;  
-using UnityEngine.Rendering.Universal;  
-  
-public class VignetteController : MonoBehaviour  
-{  
-    public Volume postProcessVolume;  
-    private Vignette vignette;
-}
-<br><br><br><br><br>
-<br>Shaders that modify the entire frame
-<br>Applied through a render pass or post-process pipeline
-<br>Example uses:
-
-<br>Pixelation
-<br>Screen distortion
-<br>Color filters
-
-
-<br><br><br>
-<br>Custom artistic control
-<br>Real-time dynamic adjustments
-<br>Performance-efficient stylization
-<br><br><br>
-<br>UV manipulation
-<br>Noise overlays
-<br>Color blending
-<br>Depth-based effects
-<br><br><br>
-<br>Use DOTween or C# to change shader parameters
-<br>Example: Expand portal effect on enemy spawn
-<br>Sync shader animations with player actions
-<br><br><br>
-<br>Swirls, ripples, and patterns
-<br>Masking and blending
-<br>Dynamic reactions to game state
-<br><br><br><br><br>
-<br>Player perspective = player experience
-<br>Cinematic movement builds immersion
-<br>Connects gameplay to visual storytelling
-<br><br><br><br>
-<br>Follow Cameras
-<br>Dolly Tracks
-<br>Target Groups
-<br>Blend Transitions
-<br><img alt="capsule_616x353.jpg" src="gmap-395\module-4\media\capsule_616x353.jpg"><br><br><br>
-<br>Shake on impact
-<br>Zoom on focus
-<br>Rotate for drama
-<br>Depth of Field on object proximity
-<br><img alt="421988f6-a827-428b-86d4-9b815f15cdce.jpg" src="gmap-395\module-4\media\421988f6-a827-428b-86d4-9b815f15cdce.jpg" style="width: 720px; max-width: 100%;"><br><br><br>
-<br>Match camera behavior with post-process states
-<br>Example:
-
-<br>Zoom → Increase Depth of Field
-<br>Rotate → Add Motion Blur
-
-
-<br><br><br>
-<br>Trigger shaders during camera moves
-<br>Layer transitions and fade-ins
-<br>Match action with visual flow
-<br><br><br><br>Layer multiple cameras together, with cameras that focus on specific layers or objects in a scene.<br><br><br><br><br><br>
-<br>Procedural asset with dynamic shader
-<br>Lighting supports mood
-<br>Post-processing adds polish
-<br>Camera movements guide focus
-<br><br><br>
-<br>How can you combine these systems?
-<br>Where can shaders and post-processing amplify your procedural assets?
-<br>How does the camera’s perspective shape the player’s experience?
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-wk-9-slides-+-video.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - WK 9 - Slides + Video.md</guid><pubDate>Mon, 03 Mar 2025 22:55:29 GMT</pubDate><enclosure url="gmap-395\module-4\media\home-before.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-4\media\home-before.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GMAP 395 - WK 9 Tutorial]]></title><description><![CDATA[ 
- <br><br><br><img alt="tutWk9Splash.png" src="gmap-395\module-4\media\tutwk9splash.png"><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_NKaj-oxfZpUrjR7Q?e=4frRJP" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_NKaj-oxfZpUrjR7Q?e=4frRJP" target="_blank">gmap395_wk9.mp4</a><br><br><br><br>In this tutorial, we will add two key interactive systems to our enemy spawn sequence:<br>
+]]></description><link>gmap-395\module-4\tutorials\gmap-395-in-class-lab.html</link><guid isPermaLink="false">GMAP 395/Module 4/tutorials/GMAP 395 - In-Class Lab.md</guid><pubDate>Sun, 02 Mar 2025 21:12:12 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - WK 9 Tutorial]]></title><description><![CDATA[ 
+ <br><br><br><img alt="tutWk9Splash.png" src="lib\media\tutwk9splash.png"><br><a data-tooltip-position="top" aria-label="https://1drv.ms/v/s!AqQzGx8l4o2wk_NKaj-oxfZpUrjR7Q?e=4frRJP" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/s!AqQzGx8l4o2wk_NKaj-oxfZpUrjR7Q?e=4frRJP" target="_blank">gmap395_wk9.mp4</a><br><br><br><br>In this tutorial, we will add two key interactive systems to our enemy spawn sequence:<br>
 <br>A Post-Processing Vignette Effect that uses DOTween to pulse the screen green, reinforcing the anticipation of enemy arrival.
 <br>A Cinemachine Zoom Control, allowing the player to zoom in with a button press to get a closer look at the action.
 <br>Scripting APIs for this Tutroial
@@ -7626,7 +7803,103 @@ public class CameraZoomController : MonoBehaviour
 <br>The vignette builds subconscious tension—danger is coming!
 <br>The zoom gives the player control to witness the danger up close.
 <br>Together, they turn a simple spawn event into a cinematic-esq, dramatic moment.
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-wk-9-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - WK 9 - Tutorial.md</guid><pubDate>Mon, 03 Mar 2025 21:08:53 GMT</pubDate><enclosure url="gmap-395\module-4\media\tutwk9splash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="gmap-395\module-4\media\tutwk9splash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[VFX Graph Think-Pair-Share Activity]]></title><description><![CDATA[ 
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\tutorials\gmap-395-wk-9-tutorial.html</link><guid isPermaLink="false">GMAP 395/Module 4/tutorials/GMAP 395 - WK 9 - Tutorial.md</guid><pubDate>Mon, 03 Mar 2025 21:08:53 GMT</pubDate><enclosure url="lib\media\tutwk9splash.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\tutwk9splash.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Assignment 4: Cinemachine and Post-Processing Integration]]></title><description><![CDATA[ 
+ <br><br><br>Assignment Overview  
+In this final module assignment, students will:
+
+<br>Integrate at least two (2) post-processing effects into their project using Unity's URP Post-Processing system.
+<br>Control one post-processing effect dynamically through C# scripting (such as adjusting bloom intensity, vignette strength, or depth of field focus).
+<br>Present their work within their ongoing project scene and document the process in a README file.
+
+<br><br><br>Assignment Breakdown
+
+<br>Part 1: Post-Processing Effects
+
+<br>Apply a minimum of two (2) post-processing effects (examples: Bloom, Depth of Field, Color Adjustments, Vignette, Chromatic Aberration).
+<br>Ensure these effects contribute to the overall atmosphere and mood of your environment.
+
+
+<br>Part 2: Scripted Post-Processing Control
+
+<br>Write a C# script to dynamically adjust at least one of your post-processing parameters during runtime (e.g., change vignette intensity when the player approaches the artifact).
+
+
+
+<br><br><br>What to Submit
+1.README File (Markdown or TXT) that explains:<br>
+- Which post-processing effects you used and why.<br>
+- How your C# script controls a post-processing effect in real-time.<br>
+- Any challenges you faced and how you resolved them.<br>
+2. Recorded Video (5–10 Minutes):<br>
+- Screen-record your scene.<br>
+- Walk through the post-processing effects, scripted control, and Cinemachine setup.<br>
+- Reflect on how these elements contribute to the overall polish of your environment.
+<br><br><br># Assignment 4: Cinemachine and Post-Processing Integration
+
+## Post-Processing Effects
+- Bloom: Applied to enhance artifact glow.
+- Depth of Field: Used to focus attention on the artifact when nearby.
+- Vignette: Added subtle dark edges for atmospheric tension.
+
+## Scripted Control
+- I created a script that increases vignette intensity as the player gets closer to the artifact, creating a sense of pressure and immersion.
+
+## Challenges
+- Ensuring smooth transitions between Cinemachine cameras.
+- Managing post-processing volume blending across different zones.
+<br><br>Submission Guidelines
+
+<br>Submission Format: ZIP file uploaded to Drexel Learn.
+<br>File Naming: abc123_Lastname_Firstname_A4.zip.
+<br>Late submissions will incur a 10% penalty per day.
+
+<br><br><br>By completing this assignment, you will:
+
+<br>Understand how to implement and customize post-processing effects.
+<br>Gain experience scripting real-time control over visual effects.
+<br>Design and refine camera systems with Cinemachine.
+<br>Polish your procedural game environment with cinematic and atmospheric enhancements.
+
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Module Page</a>]]></description><link>gmap-395\module-4\gmap-395-asn-4-brief.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - ASN 4 - Brief.md</guid><pubDate>Wed, 13 Aug 2025 20:38:53 GMT</pubDate></item><item><title><![CDATA[Module 4 - Camera Effects and Post-Processing]]></title><description><![CDATA[ 
+ <br><br><br>This module introduces camera effects and post-processing and their role in enhancing game atmosphere and player experience. Students will explore creating dynamic camera systems using Cinemachine and learn how to integrate post-processing effects into gameplay systems for polished, professional results.<br>Module Overview Video 📹 <a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EYyrIOQlb1tEp01vWoEgT9EBS7URklBVzoSzJ4XVpVAPXg?e=aLkAFK" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EYyrIOQlb1tEp01vWoEgT9EBS7URklBVzoSzJ4XVpVAPXg?e=aLkAFK" target="_blank">gmap395_md4Overview.mkv</a><br><br><br><a data-href="GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity" href="gmap-395\module-4\submodules\gmap-395-module-4a-post-processing-effects-basics-in-unity.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity</a><br>
+<a data-href="GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation" href="gmap-395\module-4\submodules\gmap-395-module-4b-hands-on-unity-post-processing-implementation.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation</a><br>
+<a data-href="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" href="gmap-395\module-4\submodules\gmap-395-module-4c-cinemachine-and-camera-systems-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals</a><br>
+<a data-href="GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques</a><br><br>Demos are in submodule videos.<br><br><a data-href="GMAP 395 - Guides - Custom Post-Processing Effects" href="gmap-395\module-4\tutorials\gmap-395-guides-custom-post-processing-effects.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Guides - Custom Post-Processing Effects</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 9 - Tutorial" data-href="GMAP 395 - WK 9 - Tutorial" href="gmap-395\module-4\tutorials\gmap-395-wk-9-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">Week 9 - Post-Processing and Camera Systems Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 4 - Brief" data-href="GMAP 395 - ASN 4 - Brief" href="gmap-395\module-4\gmap-395-asn-4-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 4 - Camera Effects and Post-Processing</a><br>
+GMAP 395 - Week 9 - TPS|Week 9 Think-Pair-Share<br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Week 10 - TPS" data-href="GMAP 395 - Week 10 - TPS" href="GMAP 395 - Week 10 - TPS" class="internal-link" target="_self" rel="noopener nofollow">Week 10 Think-Pair-Share</a><br><br><a data-href="GMAP 395 - WK 9 - Slides + Video" href="gmap-395\module-4\legacy\gmap-395-wk-9-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 9 - Slides + Video</a><br>
+<a data-href="GMAP 395 - In-Class Lab" href="gmap-395\module-4\tutorials\gmap-395-in-class-lab.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - In-Class Lab</a><br><br><br>
+<br>Understanding post-processing effects and how they enhance visual storytelling and atmosphere.
+<br>Creating dynamic camera systems with Unity's Cinemachine package.
+<br>Advanced camera techniques including camera shake, follow systems, and cinematic transitions.
+<br>Developing post-processing profiles for consistent visual language and mood.
+<br>Integrating camera effects into gameplay systems and player feedback loops.
+<br><br><br>By the end of this module, you will:<br>
+<br>Understand how post-processing and camera systems contribute to game feel and player immersion.
+<br>Create basic to advanced post-processing effects using Unity's URP Volume system.
+<br>Implement responsive camera systems that react to player actions and game state.
+<br>Develop consistent visual atmosphere through post-processing profiles.
+<br>Integrate camera effects into complete gameplay systems for professional polish.
+<br><br><br>
+<br>Ensure your Unity project is using the Universal Render Pipeline (URP).
+<br>Install Cinemachine via the Unity Package Manager.
+<br>Review your previous modules to integrate existing assets and effects into a cohesive scene.
+<br>URP Requirement Post-processing in this module requires Universal Render Pipeline (URP) or High Definition Render Pipeline (HDRP). It will NOT work with Built-in Render Pipeline.<br>If you have never used Cinemachine
+
+<br><br><br><br><br>
+<br>Unity 2022.3 LTS: Download from <a rel="noopener nofollow" class="external-link" href="https://unity.com/download" target="_blank">https://unity.com/download</a>
+<br>Cinemachine Package: Install via Package Manager
+<br>Universal Render Pipeline: Required for post-processing functionality
+<br><br>
+<br>Timeline: For cinematic sequences and camera animations
+<br>ProBuilder: For rapid level prototyping and camera testing environments
+<br><br><br><br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/6000.0/Documentation/Manual/urp/integration-with-post-processing.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/6000.0/Documentation/Manual/urp/integration-with-post-processing.html" target="_blank">Unity Post-Processing Documentation</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html" target="_blank">Unity Cinemachine Documentation</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/project/creative-core-post-processing" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/project/creative-core-post-processing" target="_blank">How to Use Post-Processing in URP</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.unity.com/tutorial/cinemachine-cameras-2018#" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/tutorial/cinemachine-cameras-2018#" target="_blank">How to Use Camera in Unity</a>
+<br><a data-tooltip-position="top" aria-label="https://www.whatgamesare.com/2011/10/camera-comes-first-game-design.html" rel="noopener nofollow" class="external-link" href="https://www.whatgamesare.com/2011/10/camera-comes-first-game-design.html" target="_blank">Game Camera Design Principles</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/CinemachineVirtualCamera.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/CinemachineVirtualCamera.html" target="_blank">Cinemachine Virtual Camera Reference</a>
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-4\gmap-395-module-4.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - Module 4.md</guid><pubDate>Thu, 14 Aug 2025 17:46:10 GMT</pubDate></item><item><title><![CDATA[VFX Graph Think-Pair-Share Activity]]></title><description><![CDATA[ 
  <br><br><br>Duration: ~50 minutes<br>
 Format: Exploratory Thinking → Pair Discussion → Class Sharing<br>
 Goal: Understand VFX Graph nodes through hands-on experimentation<br>
@@ -9283,7 +9556,7 @@ It is very important that each student has read and understood all the materials
 
 <br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Wed, 06 Aug 2025 14:31:54 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Wed, 13 Aug 2025 20:35:53 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
  <br><br>About the Course
 GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on concepts and techniques related to technical art for games. 
 Dive into real-time systems and game engine workflows with topics like:
