@@ -55,12 +55,11 @@
     "//GMAP 395/GMAP 395/Module 1/GMAP 395/Module 1/submodules",
     "//GMAP 395/GMAP 395/Module 1/GMAP 395/Module 1/legacy",
     "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/submodules",
-    "//GMAP 395/GMAP 395/Class Demos",
     "//GMAP 395/GMAP 395/Module 2/GMAP 395/Module 2/tutorials",
     "//GMAP 395/GMAP 395/Module 3/GMAP 395/Module 3/submodules",
     "//GMAP 395/GMAP 395/Module 4/GMAP 395/Module 4/submodules",
     "//GMAP 395/GMAP 395/Module 4/GMAP 395/Module 4/tutorials",
-    "//GMAP 395/GMAP 395/Module 4"
+    "//GMAP 395/GMAP 395/Weeklies"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

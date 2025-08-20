@@ -73,16 +73,16 @@
 
 #### Partner Review Questions:
 
-- "I can clearly see that you have _____ working"
-- "I'm not sure about _____ - can you show me where that is?"
-- "For your additional requirement, I think you need to _____"
-- "Your strongest area seems to be _____"
+- "I can clearly see that you have ___ working"
+- "I'm not sure about ___ - can you show me where that is?"
+- "For your additional requirement, I think you need to"___
+- "Your strongest area seems to be"___
 
 ### Partner Assessment:
 
-**My partner's name:** ___________________  
-**Their chosen module:** ___________________  
-**What they still need to work on:**
+**My partner's name:** ___ 
+**Their chosen module:** ___
+**What they still need to work on:** ___
 
 ---
 

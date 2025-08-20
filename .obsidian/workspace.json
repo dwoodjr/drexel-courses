@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "8f3bf022152a6cff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GMAP 395/Weeklies/GMAP 395 - Week 9 - TPS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - Week 9 - TPS"
-            }
-          },
-          {
             "id": "f36fd8c2d4c65388",
             "type": "leaf",
             "state": {
@@ -61,6 +47,34 @@
               },
               "icon": "lucide-file",
               "title": "GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques"
+            }
+          },
+          {
+            "id": "6d3c5c724f533f32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/Weeklies/GMAP 395 - Week 9 - TPS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - Week 9 - TPS"
+            }
+          },
+          {
+            "id": "edfb3c0a825698b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMAP 395 - Final Project - Details and Requirements"
             }
           }
         ],
@@ -118,7 +132,7 @@
             }
           },
           {
-            "id": "46c87f143b169d88",
+            "id": "679564359837bb53",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -132,7 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 488.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -294,10 +308,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b894300e5ebef4de",
+  "active": "81e14ee526097519",
   "lastOpenFiles": [
     "Index.md",
-    "docs/gmap-395/bonus-proc-audio/bonus-proc-audio.html",
     "GMAP 395/GMAP 395 - Welcome.md",
     "GMAP 395/GMAP 395 - Syllabus.md",
     "GMAP 395/GMAP 395 - SU25 - Theme.md",
@@ -323,6 +336,7 @@
     "GMAP 395/Module 3/tutorials/GMAP 395 - WK 7 - Tutorial.md",
     "GMAP 395/Module 3/tutorials/GMAP 395 - WK 6 - Tutorial.md",
     "GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md",
+    "docs/gmap-395/bonus-proc-audio/bonus-proc-audio.html",
     "docs/gmap-395/weeklies/gmap-395-week-9-tps.html",
     "docs/gmap-395/module-4/submodules/gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html",
     "docs/lib/media/marioworldcamera.png",
