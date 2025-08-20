@@ -1,4 +1,8 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 14 Aug 2025 17:50:30 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 14 Aug 2025 17:49:43 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[drexel-teaching]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>drexel-teaching</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 20 Aug 2025 16:18:06 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 20 Aug 2025 16:17:14 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[media]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\bonus-proc-audio\media\media.html</link><guid isPermaLink="false">GMAP 395/Bonus - Proc Audio/media/media.md</guid><pubDate>Fri, 21 Mar 2025 01:14:27 GMT</pubDate></item><item><title><![CDATA[Bonus - Proc Audio]]></title><description><![CDATA[ 
+ ]]></description><link>gmap-395\bonus-proc-audio\bonus-proc-audio.html</link><guid isPermaLink="false">GMAP 395/Bonus - Proc Audio/Bonus - Proc Audio.md</guid><pubDate>Fri, 21 Mar 2025 01:13:01 GMT</pubDate></item><item><title><![CDATA[Legacy Presentations on Procedural Audio for Games - SU24]]></title><description><![CDATA[ 
+ <br><br><br><br>]]></description><link>gmap-395\bonus-proc-audio\legacy-presentations-on-procedural-audio-for-games-su24.html</link><guid isPermaLink="false">GMAP 395/Bonus - Proc Audio/Legacy Presentations on Procedural Audio for Games - SU24.md</guid><pubDate>Fri, 21 Mar 2025 01:16:35 GMT</pubDate></item><item><title><![CDATA[Legacy Tutorials for Game Audio Implementation and Mixing]]></title><description><![CDATA[ 
+ <br><br><br><br>]]></description><link>gmap-395\bonus-proc-audio\legacy-tutorials-for-game-audio-implementation-and-mixing.html</link><guid isPermaLink="false">GMAP 395/Bonus - Proc Audio/Legacy Tutorials for Game Audio Implementation and Mixing.md</guid><pubDate>Fri, 21 Mar 2025 01:19:34 GMT</pubDate></item><item><title><![CDATA[Module 1B: Procedural Thinking Basics]]></title><description><![CDATA[ 
  <br><br>Module Overview 
 Learning Focus: Understanding procedural workflows and algorithmic content creation <br>
 Builds On: Module 1A (Technical Art fundamentals)
@@ -7311,7 +7315,664 @@ For mobile/web builds, use effects sparingly and test on target devices.
 Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity" data-href="GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity" href="gmap-395\module-4\submodules\gmap-395-module-4a-post-processing-effects-basics-in-unity.html" class="internal-link" target="_self" rel="noopener nofollow">Module 4A</a><br>
 Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" data-href="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" href="gmap-395\module-4\submodules\gmap-395-module-4c-cinemachine-and-camera-systems-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Module 4C</a><br>
 Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
-]]></description><link>gmap-395\module-4\submodules\gmap-395-module-4b-hands-on-unity-post-processing-implementation.html</link><guid isPermaLink="false">GMAP 395/Module 4/submodules/GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation.md</guid><pubDate>Thu, 14 Aug 2025 17:47:27 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Guides - Custom Post-Processing Effects]]></title><description><![CDATA[ 
+]]></description><link>gmap-395\module-4\submodules\gmap-395-module-4b-hands-on-unity-post-processing-implementation.html</link><guid isPermaLink="false">GMAP 395/Module 4/submodules/GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation.md</guid><pubDate>Thu, 14 Aug 2025 17:47:27 GMT</pubDate></item><item><title><![CDATA[Module 4C: Cinemachine and Camera Systems Fundamentals]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Understanding camera systems in games and how they contribute to player experience<br>
+Tools: Unity Cinemachine concepts, game design theory<br>
+Builds On: Game feel concepts and visual effects knowledge
+<br>Submodule Video Overview
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EZp2b_s2y2ZDvP42iXKAftsBMaU_SoAldzy0HG_ROpWfjA?e=hrgMXz" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EZp2b_s2y2ZDvP42iXKAftsBMaU_SoAldzy0HG_ROpWfjA?e=hrgMXz" target="_blank">gmap395_md4c.mkv</a>
+<br><br><br>Game cameras serve as the player's perceptual interface with the virtual environment. They're "eyes," essentially. Unlike film cameras that tell a director's story, game cameras must respond intelligently to player actions while maintaining visual clarity and emotional engagement.<br><br>Think of game cameras like having a professional camera operator following you around:<br>
+<br>Bad camera operator: Gets in your way, shows you boring angles, makes you dizzy
+<br>Good camera operator: You don't even notice them - they just make everything look amazing
+<br>Great camera operator: Anticipates what you want to see and enhances the experience
+<br>The best game cameras are invisible - players should focus on gameplay, not camera behavior!<br>Film vs Games Camera Comparison 
+Film Camera: Director controls everything → tells the director's story<br>
+Game Camera: Player controls actions → camera enhances player's story
+<br><br><br><br>Position cameras to highlight:<br>
+<br>Critical gameplay elements
+<br>Upcoming obstacles
+<br>Interaction opportunities
+<br>Beautiful or dramatic moments
+<br><br>Camera should enhance, never fight against:<br>
+<br>Player actions and movement choices
+<br>Where the player wants to look
+<br>The player's natural expectations
+<br><br>Good cameras show the path forward:<br>
+<br>Upcoming challenges
+<br>Strategic overview when needed
+<br>What's coming next in the level
+<br><br>Help players understand:<br>
+<br>Their position in 3D space
+<br>Relationship to important objects
+<br>How to navigate the environment
+<br><br>Different game moments need different camera behaviors:<br>
+<br>🚶 Exploration: Wide views, freedom to look around
+<br>⚔️ Combat: Focus on enemies and threats
+<br>🎬 Cutscenes: Cinematic angles and movements
+<br><br>Avoid problems that break immersion:<br>
+<br>Motion sickness from jerky movement
+<br>Disorientation from sudden changes
+<br>Visual fatigue from constant motion
+<br><br><br><br><img alt="mario64camera.png" src="lib\media\mario64camera.png"><br>Revolutionary Innovation: Established the foundation for 3D camera systems with its dual-mode approach.<br>What it did right:<br>
+<br>Intelligent automatic mode for most situations
+<br>Manual override when players needed control
+<br>Smooth transitions between camera states
+<br>Lasting impact: Most modern 3D platformer references Mario 64's camera solutions.<br>Mario 64's Camera Lessons
+
+<br>Multiple modes for different situations
+<br>Player control when needed
+<br>Smart defaults for most gameplay
+
+<br><br><img alt="Z-targeting_29.png" src="lib\media\z-targeting_29.png"><br>Game-changing Feature: Introduced lock-on targeting that solved 3D combat camera problems.<br>Key insight: Different gameplay contexts need different camera behaviors:<br>
+<br>Combat: Lock-on targeting for precision
+<br>Exploration: Free movement for discovery
+<br>Modern relevance: Lock-on systems are now standard in 3D action games.<br><br><img alt="marioWorldCamera.png" src="lib\media\marioworldcamera.png" style="width: 512px; max-width: 100%;"><br>Technical achievement: Perfected predictive camera movement in 2D.<br>What made it special:<br>
+<br>Camera anticipated player movement direction
+<br>Showed more space ahead of movement
+<br>Smooth scrolling that felt natural
+<br>Modern relevance: These principles still apply to 2D indie games and side-scrolling sections.<br><br><br><br>Think of Cinemachine as hiring a professional camera operator who instinctively knows good cinematography. You provide high-level direction ("follow the player," "frame this action"), and Cinemachine handles the technical execution.<br><br><br>
+<br>Define behaviors and viewpoints without actually rendering
+<br>Think of them as "camera instructions" rather than real cameras
+<br>Can have dozens of them without performance cost
+<br><br>
+<br>Lives on your main camera (the one that actually renders)
+<br>Chooses which virtual camera is active
+<br>Handles smooth blending between cameras
+<br><br>
+<br>Higher priority virtual cameras automatically become active
+<br>Simple number system: 10 beats 5, 15 beats 10
+<br>Easy to control which camera takes over
+<br><br>
+<br>Cameras automatically adjust based on scene composition
+<br>Smart framing that follows cinematography rules
+<br>Responds to targets moving around
+<br><br><br><br>Camera distance, angle, and movement directly influence player emotional state:<br>Close Cameras:<br>
+<br>Create intimacy and tension
+<br>Perfect for horror or character-driven moments
+<br>Make players feel vulnerable
+<br>Wide Cameras:<br>
+<br>Provide strategic overview and sense of scale
+<br>Ideal for exploration and tactical gameplay
+<br>Make players feel powerful and aware
+<br>Dynamic Cameras:<br>
+<br>Create excitement and energy
+<br>Great for action sequences
+<br>Can enhance speed and movement
+<br>Emotional Camera Examples 
+Horror Games: Close, low cameras = feeling trapped and threatened<br>
+Hero Games: High, wide cameras = feeling powerful and heroic<br>
+Racing Games: Low, fast cameras = feeling speed and danger
+<br><br>Camera as Foundation System: Camera decisions made early in development affect every other game system:<br>
+<br>Level Design: Must accommodate camera views and movement
+<br>Character Design: Needs appropriate detail for viewing distances
+<br>UI Placement: Must work across all planned camera angles
+<br>Gameplay Mechanics: Should feel good from camera perspective
+<br><br><br><br><br>
+<br>What it does: Maintains fixed spatial relationship
+<br>Best for: Simple following cameras
+<br>Example: Basic third-person camera that stays behind player
+<br><br>
+<br>What it does: Over-shoulder perspective
+<br>Best for: Action-adventure games
+<br>Example: God of War, The Last of Us style cameras
+<br><br>
+<br>What it does: Keeps target within screen boundaries
+<br>Best for: 2D platformers, side-scrolling games
+<br>Example: Mario-style side-scrolling cameras
+<br><br>
+<br>What it does: Player-controlled rotation around target
+<br>Best for: Exploration games, RPGs
+<br>Example: Dark Souls, Elden Ring camera systems
+<br><br><br>
+<br>What it does: Advanced framing with rule-of-thirds composition
+<br>Best for: Cinematic gameplay moments
+<br>Example: Automatic reframing for dramatic shots
+<br><br>
+<br>What it does: Automatically frames multiple important targets
+<br>Best for: Co-op games, multiple characters
+<br>Example: Keeping both players in frame during co-op
+<br><br>
+<br>What it does: Direct control for first-person perspective
+<br>Best for: First-person games, look-around cameras
+<br>Example: FPS games, vehicle interiors
+<br><br><br><br>Key needs:<br>
+<br>Show upcoming platforms and hazards
+<br>Predictive movement (show where player is going)
+<br>Smooth scrolling that doesn't distract
+<br>Cinemachine solution: Framing Transposer + dead zones<br><br>Key needs:<br>
+<br>Balance character visibility with environmental awareness
+<br>Lock-on targeting for combat
+<br>Quick camera recovery after disruption
+<br>Cinemachine solution: 3rd Person Follow + Composer with targeting<br><br>Key needs:<br>
+<br>Clear view of track ahead
+<br>Maintain speed sensation
+<br>Handle sharp turns smoothly
+<br>Cinemachine solution: Multiple cameras with speed-based switching<br><br>Key needs:<br>
+<br>Use camera limitations as gameplay elements
+<br>Create tension through restricted views
+<br>Sudden reveals and scares
+<br>Cinemachine solution: Confined cameras with dramatic switches<br><br><br>Analysis Exercise (5 minutes)
+Think of a game you've played recently with camera work you enjoy:
+Consider these aspects:
+
+<br>How did the camera make you feel during different moments?
+<br>What did the camera show you vs. hide from you?
+<br>When did you notice the camera vs. when was it invisible?
+
+Write down 2-3 specific examples of how the camera enhanced:
+
+<br>Gameplay clarity
+<br>Emotional impact
+<br>Sense of immersion
+
+<br><br><br>Next time you play a game, try to notice:<br>
+<br>How does camera distance change your feeling of power/vulnerability?
+<br>When does the camera move automatically vs. when do you control it?
+<br>What does the camera choose to show you during important moments?
+<br>How does the camera help or hinder your gameplay?
+<br><br><br><br>Just like in films, camera choices in games communicate meaning:<br>
+<br>Low angles make characters feel powerful
+<br>High angles make them feel vulnerable
+<br>Close shots create intimacy
+<br>Wide shots show relationships and scale
+<br><br>Good camera systems aren't just about smooth movement - they're about:<br>
+<br>Supporting the game's emotional goals
+<br>Enhancing the player's intended experience
+<br>Making gameplay feel intuitive and natural
+<br><br>Understanding cameras comes from analysis and experimentation:<br>
+<br>Play games critically, thinking about camera choices
+<br>Try different Cinemachine setups and see how they feel
+<br>Always ask: "How does this camera choice affect the player?"
+<br><br>Remember: Great game cameras are like great lighting in photography - when done well, you don't easily notice the technique, you just feel the result!<br><br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4B - Hands-On Unity Post-processing Implementation" data-href="GMAP 395 - Module 4B - Hands-On Unity Post-processing Implementation" href="gmap-395\module-4\submodules\gmap-395-module-4b-hands-on-unity-post-processing-implementation.html" class="internal-link" target="_self" rel="noopener nofollow">Module 4B</a><br>
+Next: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques" data-href="GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">Module 4D</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-4\submodules\gmap-395-module-4c-cinemachine-and-camera-systems-fundamentals.html</link><guid isPermaLink="false">GMAP 395/Module 4/submodules/GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals.md</guid><pubDate>Wed, 20 Aug 2025 16:10:19 GMT</pubDate><enclosure url="lib\media\mario64camera.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\mario64camera.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Module 4D: Camera Effects Scripting and Advanced Techniques]]></title><description><![CDATA[ 
+ <br><br>Module Overview 
+Learning Focus: Practical Cinemachine implementation and camera control scripting<br>
+Tools: Unity Cinemachine, C# scripting, Timeline integration<br>
+Builds On: Camera fundamentals from <a data-href="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" href="gmap-395\module-4\submodules\gmap-395-module-4c-cinemachine-and-camera-systems-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals</a>
+<br>Submodule Video Overview
+
+<a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EVOlQgLuTLVEmLnHYOX3XDwBqCqyFyzan7EFCFRYF5PvTA?e=8E5yUk" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EVOlQgLuTLVEmLnHYOX3XDwBqCqyFyzan7EFCFRYF5PvTA?e=8E5yUk" target="_blank">gmap395_md4d.mkv</a>
+<br><br><br><br>Step 1: Install Cinemachine<br>
+<br>Window → Package Manager
+<br>Unity Registry → Search "Cinemachine"
+<br>Click Install
+<br>Step 2: Set Up Your Main Camera<br>
+<br>Select your Main Camera
+<br>Add Component → Cinemachine Brain
+<br>Leave settings as default for now
+<br>Step 3: Create Your First Virtual Camera\<br>
+<br>Right-click in Hierarchy
+<br>Cinemachine → Virtual Camera
+<br>Name it "PlayerFollowCam"
+<br><br>Let's create a basic third-person follow camera:<br>
+<br>Select your Virtual Camera
+<br>Drag your Player into the Follow field
+<br>Drag your Player into the Look At field
+<br>Set Priority to 10
+<br>Press Play - your camera should now follow your player!<br><br><br><br>using UnityEngine;
+using Cinemachine;
+
+// Simple camera switching system
+public class BasicCameraSwitcher : MonoBehaviour
+{
+    [Header("Virtual Camera Setup")]
+    [SerializeField] private CinemachineVirtualCamera[] cameras;
+    
+    [Header("Control Settings")]
+    [SerializeField] private KeyCode switchKey = KeyCode.Tab;
+    [SerializeField] private bool enableDebugMessages = true;
+    
+    private int currentCameraIndex = 0;
+    
+    void Start()
+    {
+        // Initialize camera priorities
+        // Only the first camera should be active initially
+        for (int i = 0; i &lt; cameras.Length; i++)
+        {
+            cameras[i].Priority = (i == 0) ? 10 : 0;
+        }
+        
+        if (enableDebugMessages)
+        {
+            Debug.Log($"Camera system initialized with {cameras.Length} cameras");
+            Debug.Log($"Active camera: {cameras[0].name}");
+        }
+    }
+    
+    void Update()
+    {
+        // Handle camera switching input
+        if (Input.GetKeyDown(switchKey))
+        {
+            SwitchToNextCamera();
+        }
+        
+        // Allow number key switching for quick testing
+        for (int i = 0; i &lt; Mathf.Min(cameras.Length, 9); i++)
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1 + i))
+            {
+                SwitchToCamera(i);
+            }
+        }
+    }
+    
+    void SwitchToNextCamera()
+    {
+        // Cycle to next camera in array
+        int nextIndex = (currentCameraIndex + 1) % cameras.Length;
+        SwitchToCamera(nextIndex);
+    }
+    
+    public void SwitchToCamera(int cameraIndex)
+    {
+        // Validate camera index
+        if (cameraIndex &lt; 0 || cameraIndex &gt;= cameras.Length)
+        {
+            Debug.LogError($"Invalid camera index: {cameraIndex}");
+            return;
+        }
+        
+        // Set priorities: active camera gets 10, all others get 0
+        for (int i = 0; i &lt; cameras.Length; i++)
+        {
+            cameras[i].Priority = (i == cameraIndex) ? 10 : 0;
+        }
+        
+        currentCameraIndex = cameraIndex;
+        
+        if (enableDebugMessages)
+        {
+            Debug.Log($"Switched to camera: {cameras[cameraIndex].name}");
+        }
+    }
+    
+    // Public method for other scripts or UI buttons
+    public void SwitchToCameraByName(string cameraName)
+    {
+        for (int i = 0; i &lt; cameras.Length; i++)
+        {
+            if (cameras[i].name == cameraName)
+            {
+                SwitchToCamera(i);
+                return;
+            }
+        }
+        
+        Debug.LogWarning($"Camera not found: {cameraName}");
+    }
+}
+<br><br>
+<br>Create an empty GameObject and name it "CameraSwitcher"
+<br>Add the script to this GameObject
+<br>Create multiple Virtual Cameras in your scene
+<br>Drag all Virtual Cameras into the "Cameras" array
+<br>Press Play and test with Tab or number keys!
+<br>Pro Tip This script is perfect for testing different camera angles quickly. Use it to experiment with camera positioning!<br><br><br>Camera shake adds impact and juice to your game events. Here's a comprehensive system:<br>using UnityEngine;
+using Cinemachine;
+
+// Comprehensive camera shake system for gameplay events
+
+public class CameraShakeController : MonoBehaviour
+
+{
+
+    [System.Serializable]
+    public class ShakeSettings
+
+    {
+
+        [Header("Shake Parameters")]
+
+        public float intensity = 1f;
+
+        public float duration = 0.5f;
+
+        public float frequency = 1f;
+
+        [Header("Directional Control")]
+
+        [Range(0f, 1f)] public float horizontalShake = 1f;
+
+        [Range(0f, 1f)] public float verticalShake = 1f;
+
+        public ShakeSettings(float intensity, float duration)
+
+        {
+
+            this.intensity = intensity;
+
+            this.duration = duration;
+
+            this.frequency = 1f;
+
+            this.horizontalShake = 1f;
+
+            this.verticalShake = 1f;
+
+        }
+
+    }
+
+    [Header("Camera References")]
+
+    [SerializeField] private CinemachineVirtualCamera virtualCamera;
+
+    [Header("Predefined Shake Types")]
+
+    public ShakeSettings lightShake = new ShakeSettings(0.5f, 0.2f);
+
+    public ShakeSettings mediumShake = new ShakeSettings(1f, 0.5f);
+
+    public ShakeSettings heavyShake = new ShakeSettings(2f, 1f);
+
+    [Header("Debug Testing")]
+
+    [SerializeField] private KeyCode testLightShake = KeyCode.Keypad1;
+
+    [SerializeField] private KeyCode testMediumShake = KeyCode.Keypad2;
+
+    [SerializeField] private KeyCode testHeavyShake = KeyCode.Keypad3;
+
+  
+
+    // Component references
+
+    private CinemachineBasicMultiChannelPerlin noise;
+
+    private float shakeTimer;
+
+    private float originalAmplitude;
+
+    private float originalFrequency;
+
+    void Start()
+
+    {
+
+        // Get noise component for camera shake
+
+        noise = virtualCamera.GetCinemachineComponent&lt;CinemachineBasicMultiChannelPerlin&gt;();
+
+        if (noise == null)
+
+        {
+
+            Debug.LogError("No BasicMultiChannelPerlin component found on virtual camera!");
+
+            Debug.LogError("Add it via: Virtual Camera → Noise → BasicMultiChannelPerlin");
+
+            return;
+
+        }
+
+        // Store original values for restoration
+
+        originalAmplitude = noise.m_AmplitudeGain;
+
+        originalFrequency = noise.m_FrequencyGain;
+
+    }
+
+    void Update()
+
+    {
+
+        // Handle shake timer countdown
+
+        if (shakeTimer &gt; 0)
+
+        {
+
+            shakeTimer -= Time.deltaTime;
+
+            if (shakeTimer &lt;= 0)
+
+            {
+
+                StopShake();
+
+            }
+
+        }
+
+  
+
+        // Debug testing inputs
+
+        if (Input.GetKeyDown(testLightShake))
+
+        {
+
+            TriggerShake(lightShake);
+
+            Debug.Log("Light shake triggered");
+
+        }
+
+        if (Input.GetKeyDown(testMediumShake))
+
+        {
+
+            TriggerShake(mediumShake);
+
+            Debug.Log("Medium shake triggered");
+
+        }
+
+        if (Input.GetKeyDown(testHeavyShake))
+
+        {
+
+            TriggerShake(heavyShake);
+
+            Debug.Log("Heavy shake triggered");
+
+        }
+
+  
+
+    }
+
+  
+
+    /// &lt;summary&gt;
+
+    /// Trigger camera shake with predefined settings
+
+    /// &lt;/summary&gt;
+
+    public void TriggerShake(ShakeSettings settings)
+
+    {
+
+        if (noise == null) return;
+
+        // Apply shake settings
+
+        noise.m_AmplitudeGain = settings.intensity;
+
+        noise.m_FrequencyGain = settings.frequency;
+
+        // Set timer
+
+        shakeTimer = settings.duration;
+
+        Debug.Log($"Camera shake triggered - Intensity: {settings.intensity}, Duration: {settings.duration}s");
+
+    }
+
+    /// &lt;summary&gt;
+
+    /// Quick shake method with just intensity and duration
+
+    /// &lt;/summary&gt;
+
+    public void TriggerShake(float intensity, float duration)
+
+    {
+
+        ShakeSettings quickShake = new ShakeSettings(intensity, duration);
+
+        TriggerShake(quickShake);
+
+    }
+
+    /// &lt;summary&gt;
+
+    /// Stop shake immediately and restore original settings
+
+    /// &lt;/summary&gt;
+
+    public void StopShake()
+
+    {
+
+        if (noise == null) return;
+
+        noise.m_AmplitudeGain = originalAmplitude;
+
+        noise.m_FrequencyGain = originalFrequency;
+
+        shakeTimer = 0;
+
+        Debug.Log("Camera shake stopped");
+
+    }
+
+    /// &lt;summary&gt;
+
+    /// Gradually reduce shake intensity over time for smoother transitions
+
+    /// &lt;/summary&gt;
+
+    public void StartDecayingShake(float initialIntensity, float totalDuration)
+
+    {
+
+        StartCoroutine(DecayingShakeCoroutine(initialIntensity, totalDuration));
+
+    }
+
+    private System.Collections.IEnumerator DecayingShakeCoroutine(float initialIntensity, float duration)
+
+    {
+
+        if (noise == null) yield break;
+
+        float timer = 0f;
+
+        while (timer &lt; duration)
+
+        {
+
+            timer += Time.deltaTime;
+
+            float progress = timer / duration;
+
+            // Exponential decay for natural feeling
+
+            float currentIntensity = initialIntensity * Mathf.Exp(-progress * 3f);
+
+            noise.m_AmplitudeGain = currentIntensity;
+
+            yield return null;
+
+        }
+
+        StopShake();
+
+    }
+
+}
+<br><br>
+<br>Select your Virtual Camera
+<br>Noise → CinemachineBasicMultiChannelPerlin
+<br>Assign a noise profile and set the Amplitude Gain and Frequency Gain lower (0-0.25)
+<br>Create an empty GameObject and add the CameraShakeController script
+<br>Drag your Virtual Camera into the script's "Virtual Camera" field
+<br>Press Play and test with 1, 2, 3 keys!
+<br>When to Use Different Shake Intensities
+
+<br>Light Shake (0.5): Footsteps, small impacts, UI feedback
+<br>Medium Shake (1.0): Weapon firing, landing from heights, explosions nearby
+<br>Heavy Shake (2.0): Boss attacks, huge explosions, dramatic moments
+
+<br><br><br><br>With Unity's Scriptable Render Pipelines (URP/HDRP), you can <a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.2/manual/camera-stacking.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.2/manual/camera-stacking.html" target="_blank">stack multiple cameras</a> to render different parts of your game separately. This powerful technique allows you to:<br>
+<br>UI Camera: Render user interface elements with different post-processing
+<br>Player Camera: Focus on character with specific visual effects
+<br>Environment Camera: Handle world rendering with separate optimization
+<br>Effects Camera: Overlay special effects or HUD elements
+<br>Camera Stacking Use Cases
+
+<br>UI overlays that don't get affected by world post-processing
+<br>Minimap cameras rendering a top-down view simultaneously
+<br>Picture-in-picture effects for security cameras or scopes
+<br>Different render styles per layer (realistic world + stylized UI)
+
+<br><br>Quick Setup:<br>
+<br>Create additional cameras in your scene
+<br>Set Render Type to "Overlay" on secondary cameras
+<br>Add overlay cameras to main camera's Stack list
+<br><br>Unity's <a data-tooltip-position="top" aria-label="https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-updates-in-new-charactercontroller-pa-196526" rel="noopener nofollow" class="external-link" href="https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-updates-in-new-charactercontroller-pa-196526" target="_blank">Starter Assets</a> packages provide excellent Cinemachine implementations that serve as perfect learning references:<br><br>
+<br>Pre-configured mouse look system with Cinemachine
+<br>Smooth camera rotation with customizable sensitivity
+<br>Great foundation for FPS games and first-person exploration
+<br><br>
+<br>Professional 3rd-person camera setup using Cinemachine
+<br>Orbit controls with collision detection and smoothing
+<br>Industry-standard character following and framing
+<br>How to Access Starter Assets
+
+<br>Go to the Unity Asset Store and search for Starter Assets. Add them to your assets (they are free).
+<br>Window → Package Manager
+<br>My Assets → Search "Starter Assets"
+<br>Install First Person or Third Person package
+<br>Study the camera scripts and Cinemachine configurations!
+
+<br>These assets demonstrate real-world camera implementations that you can learn from and adapt for your own projects.<br><br><br>Problem: "My Virtual Camera isn't active!" Solution: Check these in order:
+
+<br>✅ Does Main Camera have Cinemachine Brain component?
+<br>✅ Is Virtual Camera Priority higher than others (try 10)?
+<br>✅ Is Virtual Camera enabled in hierarchy?
+
+<br>Problem: "Camera shake isn't working!" Solution:
+
+<br>✅ Did you add BasicMultiChannelPerlin extension to Virtual Camera?
+<br>✅ Is the amplitude value greater than 0?
+<br>✅ Are you calling the shake function correctly?
+
+<br>Problem: "Camera movement is too jerky!" Solution:
+
+<br>✅ Increase damping values in Transposer settings
+<br>✅ Check if target framerate is consistent
+<br>✅ Reduce prediction strength if using movement prediction
+
+<br><br><br>Performance Guidelines:<br>
+<br>Set inactive virtual cameras to "Never" for Standby Update mode
+<br>Limit simultaneous active virtual cameras (recommend maximum 3-4)
+<br>Use object pooling for frequently created/destroyed cameras
+<br>Consider Timeline for complex sequences instead of runtime switching
+<br><br><br>For Advanced Students:<br>
+<br>Add camera behaviors for specific gameplay scenarios (combat lock-on, stealth mode, puzzle solving)
+<br>Experiment with custom Cinemachine extensions for unique creative effects
+<br>Create dynamic camera systems that respond to music or gameplay metrics
+<br>Integrate with AI systems for intelligent camera positioning
+<br>Portfolio Projects:<br>
+<br>Horror Game: Camera system that builds tension through limitation and reveals
+<br>Racing Game: Speed-responsive camera with multiple viewpoint options
+<br>Platformer: Predictive camera that shows upcoming challenges
+<br>RPG: Context-sensitive camera that adapts to different gameplay modes
+<br><br>Remember: Great camera work is invisible to the player but essential to the experience. Focus on how your cameras make the game feel rather than just how they look!<br><br>🧭 Module Navigation 
+Previous: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" data-href="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" href="gmap-395\module-4\submodules\gmap-395-module-4c-cinemachine-and-camera-systems-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Module 4C</a><br>
+Return to: <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395\module-4\gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a>
+]]></description><link>gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html</link><guid isPermaLink="false">GMAP 395/Module 4/submodules/GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques.md</guid><pubDate>Wed, 20 Aug 2025 16:11:08 GMT</pubDate></item><item><title><![CDATA[GMAP 395 - Guides - Custom Post-Processing Effects]]></title><description><![CDATA[ 
  <br><br><br><br>]]></description><link>gmap-395\module-4\tutorials\gmap-395-guides-custom-post-processing-effects.html</link><guid isPermaLink="false">GMAP 395/Module 4/tutorials/GMAP 395 - Guides - Custom Post-Processing Effects.md</guid><pubDate>Mon, 03 Mar 2025 20:03:45 GMT</pubDate></item><item><title><![CDATA[In-Class Lab: Introduction to Cinemachine in Unity URP]]></title><description><![CDATA[ 
  <br><br><br>This lab aims to guide you through setting up Cinemachine in Unity's Universal Render Pipeline (URP), understanding its core components, and implementing dynamic camera controls<br><br>
 <br>Unity 2022.3 LTS or late 
@@ -7865,8 +8526,8 @@ In this final module assignment, students will:
 <a data-href="GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation" href="gmap-395\module-4\submodules\gmap-395-module-4b-hands-on-unity-post-processing-implementation.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation</a><br>
 <a data-href="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" href="gmap-395\module-4\submodules\gmap-395-module-4c-cinemachine-and-camera-systems-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals</a><br>
 <a data-href="GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques</a><br><br>Demos are in submodule videos.<br><br><a data-href="GMAP 395 - Guides - Custom Post-Processing Effects" href="gmap-395\module-4\tutorials\gmap-395-guides-custom-post-processing-effects.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Guides - Custom Post-Processing Effects</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - WK 9 - Tutorial" data-href="GMAP 395 - WK 9 - Tutorial" href="gmap-395\module-4\tutorials\gmap-395-wk-9-tutorial.html" class="internal-link" target="_self" rel="noopener nofollow">Week 9 - Post-Processing and Camera Systems Tutorial</a><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - ASN 4 - Brief" data-href="GMAP 395 - ASN 4 - Brief" href="gmap-395\module-4\gmap-395-asn-4-brief.html" class="internal-link" target="_self" rel="noopener nofollow">Assignment 4 - Camera Effects and Post-Processing</a><br>
-GMAP 395 - Week 9 - TPS|Week 9 Think-Pair-Share<br>
-<a data-tooltip-position="top" aria-label="GMAP 395 - Week 10 - TPS" data-href="GMAP 395 - Week 10 - TPS" href="GMAP 395 - Week 10 - TPS" class="internal-link" target="_self" rel="noopener nofollow">Week 10 Think-Pair-Share</a><br><br><a data-href="GMAP 395 - WK 9 - Slides + Video" href="gmap-395\module-4\legacy\gmap-395-wk-9-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 9 - Slides + Video</a><br>
+GMAP 395 - Week 8 - TPS|Week 9 Think-Pair-Share<br>
+<a data-tooltip-position="top" aria-label="GMAP 395 - Week 9 - TPS" data-href="GMAP 395 - Week 9 - TPS" href="gmap-395\weeklies\gmap-395-week-9-tps.html" class="internal-link" target="_self" rel="noopener nofollow">Week 9 Think-Pair-Share</a><br><br><a data-href="GMAP 395 - WK 9 - Slides + Video" href="gmap-395\module-4\legacy\gmap-395-wk-9-slides-+-video.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - WK 9 - Slides + Video</a><br>
 <a data-href="GMAP 395 - In-Class Lab" href="gmap-395\module-4\tutorials\gmap-395-in-class-lab.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - In-Class Lab</a><br><br><br>
 <br>Understanding post-processing effects and how they enhance visual storytelling and atmosphere.
 <br>Creating dynamic camera systems with Unity's Cinemachine package.
@@ -7899,7 +8560,7 @@ GMAP 395 - Week 9 - TPS|Week 9 Think-Pair-Share<br>
 <br><a data-tooltip-position="top" aria-label="https://learn.unity.com/tutorial/cinemachine-cameras-2018#" rel="noopener nofollow" class="external-link" href="https://learn.unity.com/tutorial/cinemachine-cameras-2018#" target="_blank">How to Use Camera in Unity</a>
 <br><a data-tooltip-position="top" aria-label="https://www.whatgamesare.com/2011/10/camera-comes-first-game-design.html" rel="noopener nofollow" class="external-link" href="https://www.whatgamesare.com/2011/10/camera-comes-first-game-design.html" target="_blank">Game Camera Design Principles</a>
 <br><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/CinemachineVirtualCamera.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/CinemachineVirtualCamera.html" target="_blank">Cinemachine Virtual Camera Reference</a>
-<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-4\gmap-395-module-4.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - Module 4.md</guid><pubDate>Thu, 14 Aug 2025 17:46:10 GMT</pubDate></item><item><title><![CDATA[VFX Graph Think-Pair-Share Activity]]></title><description><![CDATA[ 
+<br><br><br><a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\module-4\gmap-395-module-4.html</link><guid isPermaLink="false">GMAP 395/Module 4/GMAP 395 - Module 4.md</guid><pubDate>Wed, 20 Aug 2025 16:03:49 GMT</pubDate></item><item><title><![CDATA[VFX Graph Think-Pair-Share Activity]]></title><description><![CDATA[ 
  <br><br><br>Duration: ~50 minutes<br>
 Format: Exploratory Thinking → Pair Discussion → Class Sharing<br>
 Goal: Understand VFX Graph nodes through hands-on experimentation<br>
@@ -8145,7 +8806,67 @@ public class VFXController : MonoBehaviour
         }
     }
 }
-<br><br>]]></description><link>gmap-395\weeklies\gmap-395-week-7-tps.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md</guid><pubDate>Wed, 06 Aug 2025 18:48:34 GMT</pubDate></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
+<br><br>]]></description><link>gmap-395\weeklies\gmap-395-week-7-tps.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md</guid><pubDate>Wed, 06 Aug 2025 18:48:34 GMT</pubDate></item><item><title><![CDATA[🎯 Final Project: Think-Pair-Share Checklist Activity]]></title><description><![CDATA[ 
+ <br><br><br>Purpose: Help each other review final projects and ensure all requirements are met<br>
+Format: Individual reflection → Partner review → Group discussion<br>
+Time: 15-20 minutes total<br><br><br><br>Fill out this checklist for YOUR project:<br><br>Module 1: Procedural Modeling + Lighting<br>
+<br>Created procedural/modular prop, character, OR environment
+<br>Used at least 2 lighting sources (1 directional + 1 auxiliary)
+<br>Built cohesive scene with modular assets
+<br>Module 2: Shaders and Materials<br>
+<br>Developed at least 1 custom shader (Shader Graph or HLSL)
+<br>Shader fits overall project aesthetic
+<br>Module 3: Effects + Particle Systems<br>
+<br>Created at least 2 particle systems
+<br>Used modular techniques for particles
+<br>Effects integrated in cohesive scene
+<br>Module 4: Camera Effects + Post-Processing<br>
+<br>Implemented Cinemachine
+<br>Added at least 2 post-processing effects
+<br>Used camera animations/transitions
+<br><br>My chosen module is: _<br>Module 1 Additional:<br>
+<br>Added advanced procedural element (animated/interactive components)
+<br>Module 2 Additional:<br>
+<br>Created shader with user-driven interactions (controlled by code)
+<br>Module 3 Additional:<br>
+<br>Built reactive particle system (2 of 3 systems change based on conditions/code)
+<br>Module 4 Additional:<br>
+<br>Developed camera-based interaction system (manipulates post-processing via code)
+<br><br><br><br>Find a partner and take turns (4-5 minutes each):<br>
+<br>Show your project (if you can) - quick walkthrough of your scene
+<br>Share your checklist - what you think you have/need
+<br>Get feedback - partner helps verify your checklist
+<br><br>
+<br>"I can clearly see that you have _ working"
+<br>"I'm not sure about _ - can you show me where that is?"
+<br>"For your additional requirement, I think you need to _"
+<br>"Your strongest area seems to be _"
+<br><br>My partner's name: ___<br>
+Their chosen module: ___<br>
+What they still need to work on:<br><br><br><br>Go around the room - each person shares:<br>
+<br>Your chosen module
+<br>ONE thing you still need to complete
+<br>ONE thing you're confident about/is set
+<br><br><br>Based on this activity, my next steps are:<br>
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>Questions I need to ask the instructor:<br><br><br>Remember
+
+<br>All 4 base modules must be completed by everyone
+<br>Only 1 additional requirement (for your chosen module)
+<br>If you're unsure about something, please ask!
+
+<br>Submission
+Submission of your groups materials, finding, and reflections should be submitted on BB Learn by END OF CLASS<br>
+This can be simple, in the form of a word doc, pdf, or slides.
+]]></description><link>gmap-395\weeklies\gmap-395-week-9-tps.html</link><guid isPermaLink="false">GMAP 395/Weeklies/GMAP 395 - Week 9 - TPS.md</guid><pubDate>Wed, 20 Aug 2025 16:13:43 GMT</pubDate></item><item><title><![CDATA[Critique Brief: Project Vision &amp; Preproduction Planning]]></title><description><![CDATA[ 
  <br><br>Overview 
 Purpose: Develop your quarter-long project concept through thematic exploration, skill goal-setting, and procedural thinking<br>
 Format: Individual presentation (3-4 minutes) + peer feedback<br>
@@ -9556,7 +10277,7 @@ It is very important that each student has read and understood all the materials
 
 <br>Plagiarism or cheating will result in a failing grade for the assignment and potential course failure and further academic discipline.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Wed, 13 Aug 2025 20:35:53 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Note: This syllabus reflects our modular learning approach - content may be adjusted based on class needs and pacing, with changes communicated via Drexel Learn and communicated via email announcements.<br> <a data-tooltip-position="top" aria-label="GMAP 395 - Welcome" data-href="GMAP 395 - Welcome" href="gmap-395\gmap-395-welcome.html" class="internal-link" target="_self" rel="noopener nofollow">Return to the Course Main Page</a>]]></description><link>gmap-395\gmap-395-syllabus.html</link><guid isPermaLink="false">GMAP 395/GMAP 395 - Syllabus.md</guid><pubDate>Wed, 20 Aug 2025 16:02:30 GMT</pubDate></item><item><title><![CDATA[Welcome to GMAP 395!]]></title><description><![CDATA[ 
  <br><br>About the Course
 GMAP 395, Advanced Game Art and Production, is an undergraduate-level course focusing on concepts and techniques related to technical art for games. 
 Dive into real-time systems and game engine workflows with topics like:

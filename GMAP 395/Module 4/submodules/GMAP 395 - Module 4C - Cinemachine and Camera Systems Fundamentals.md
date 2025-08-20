@@ -5,13 +5,18 @@
 > **Tools:** Unity Cinemachine concepts, game design theory 
 > **Builds On:** Game feel concepts and visual effects knowledge
 
+> [!summary] Submodule Video Overview
+> <iframe src="https://1drv.ms/v/c/b08de2251f1b33a4/IQSadm_7NstmQ7z-NolygH7bAYxAAmn4oJlOal-bguSwCHc?width=2560&height=1440" width="800" height="600" frameborder="0"></iframe>
+> 
+>[gmap395_md4c.mkv](https://1drv.ms/v/c/b08de2251f1b33a4/EZp2b_s2y2ZDvP42iXKAftsBMaU_SoAldzy0HG_ROpWfjA?e=hrgMXz)
+
 ---
 
 ## 🎥 Why Do Cameras Matter in Games?
 
-**Game cameras** serve as the player's **perceptual interface** with the virtual environment. Unlike film cameras that tell a director's story, game cameras must **respond intelligently** to player actions while maintaining visual clarity and emotional engagement.
+**Game cameras** serve as the player's **perceptual interface** with the virtual environment. They're "eyes," essentially. Unlike film cameras that tell a director's story, game cameras must **respond intelligently** to player actions while maintaining visual clarity and emotional engagement.
 
-### Here's A Real-World Analogy 📹
+### Here's An Analogy 📹
 
 Think of game cameras like having a **professional camera operator** following you around:
 
@@ -21,13 +26,15 @@ Think of game cameras like having a **professional camera operator** following y
 
 **The best game cameras are invisible** - players should focus on gameplay, not camera behavior!
 
-> [!example] Film vs Games Camera Comparison **Film Camera:** Director controls everything → tells the director's story **Game Camera:** Player controls actions → camera enhances player's story
+> [!example] Film vs Games Camera Comparison 
+> **Film Camera:** Director controls everything → tells the director's story 
+> **Game Camera:** Player controls actions → camera enhances player's story
 
 ---
 
 ## 🎯 The Six Fundamental Rules of Game Camera Design
 
-### 1. 👀 Show What's Important
+### 1. Show What's Important
 
 Position cameras to highlight:
 
@@ -36,7 +43,7 @@ Position cameras to highlight:
 - Interaction opportunities
 - Beautiful or dramatic moments
 
-### 2. 🎮 Respect Player Intent
+### 2. Respect Player Intent
 
 Camera should **enhance, never fight against**:
 
@@ -44,7 +51,7 @@ Camera should **enhance, never fight against**:
 - Where the player wants to look
 - The player's natural expectations
 
-### 3. 🔮 Lead with Anticipation
+### 3. Lead with Anticipation
 
 Good cameras **show the path forward**:
 
@@ -52,7 +59,7 @@ Good cameras **show the path forward**:
 - Strategic overview when needed
 - What's coming next in the level
 
-### 4. 🧭 Maintain Spatial Awareness
+### 4. Maintain Spatial Awareness
 
 Help players understand:
 
@@ -60,7 +67,7 @@ Help players understand:
 - Relationship to important objects
 - How to navigate the environment
 
-### 5. 🎭 Adapt to Context
+### 5. Adapt to Context
 
 Different game moments need different camera behaviors:
 
@@ -68,7 +75,7 @@ Different game moments need different camera behaviors:
 - ⚔️ **Combat:** Focus on enemies and threats
 - 🎬 **Cutscenes:** Cinematic angles and movements
 
-### 6. 😌 Ensure Comfort
+### 6. Ensure Comfort
 
 Avoid problems that break immersion:
 
@@ -82,6 +89,9 @@ Avoid problems that break immersion:
 
 ### 🍄 Super Mario 64 (1996) - The Pioneer
 
+
+![[mario64camera.png]]
+
 **Revolutionary Innovation:** Established the foundation for 3D camera systems with its dual-mode approach.
 
 **What it did right:**
@@ -90,7 +100,7 @@ Avoid problems that break immersion:
 - **Manual override** when players needed control
 - **Smooth transitions** between camera states
 
-**Lasting impact:** Every modern 3D platformer references Mario 64's camera solutions.
+**Lasting impact:** Most modern 3D platformer references Mario 64's camera solutions.
 
 > [!example] Mario 64's Camera Lessons
 > 
@@ -99,6 +109,9 @@ Avoid problems that break immersion:
 > - **Smart defaults** for most gameplay
 
 ### 🗡️ The Legend of Zelda: Ocarina of Time (1998) - Z-Targeting Revolution
+
+
+![[Z-targeting_29.png]]
 
 **Game-changing Feature:** Introduced lock-on targeting that solved 3D combat camera problems.
 
@@ -110,6 +123,8 @@ Avoid problems that break immersion:
 **Modern relevance:** Lock-on systems are now standard in 3D action games.
 
 ### 🌟 Super Mario World (1991) - 2D Perfection
+
+![[marioWorldCamera.png|512]]
 
 **Technical achievement:** Perfected predictive camera movement in 2D.
 
@@ -129,29 +144,27 @@ Avoid problems that break immersion:
 
 Think of Cinemachine as hiring a **professional camera operator** who instinctively knows good cinematography. You provide high-level direction ("follow the player," "frame this action"), and Cinemachine handles the technical execution.
 
-**Simple Analogy for Art Students:** Cinemachine works like a photography assistant. You set up multiple camera positions with different settings. The assistant automatically switches between cameras and adjusts framing based on what's happening in the scene.
-
 ### Core Architecture Concepts 🏗️
 
-#### Virtual Cameras 📸
+#### Virtual Cameras
 
 - Define behaviors and viewpoints **without actually rendering**
 - Think of them as "camera instructions" rather than real cameras
 - Can have dozens of them without performance cost
 
-#### Cinemachine Brain 🧠
+#### Cinemachine Brain
 
 - Lives on your **main camera** (the one that actually renders)
 - Chooses which virtual camera is active
 - Handles smooth blending between cameras
 
-#### Priority System 🏆
+#### Priority System
 
 - **Higher priority** virtual cameras automatically become active
 - Simple number system: 10 beats 5, 15 beats 10
 - Easy to control which camera takes over
 
-#### Procedural Intelligence 🤖
+#### Procedural Intelligence
 
 - Cameras automatically adjust based on scene composition
 - Smart framing that follows cinematography rules
@@ -167,23 +180,26 @@ Camera distance, angle, and movement **directly influence player emotional state
 
 **Close Cameras:**
 
-- 😰 Create intimacy and tension
+- Create intimacy and tension
 - Perfect for horror or character-driven moments
 - Make players feel vulnerable
 
 **Wide Cameras:**
 
-- 🌍 Provide strategic overview and sense of scale
+- Provide strategic overview and sense of scale
 - Ideal for exploration and tactical gameplay
 - Make players feel powerful and aware
 
 **Dynamic Cameras:**
 
-- 🎢 Create excitement and energy
+- Create excitement and energy
 - Great for action sequences
 - Can enhance speed and movement
 
-> [!example] Emotional Camera Examples **Horror Games:** Close, low cameras = feeling trapped and threatened **Hero Games:** High, wide cameras = feeling powerful and heroic **Racing Games:** Low, fast cameras = feeling speed and danger
+> [!example] Emotional Camera Examples 
+> **Horror Games:** Close, low cameras = feeling trapped and threatened 
+> **Hero Games:** High, wide cameras = feeling powerful and heroic 
+> **Racing Games:** Low, fast cameras = feeling speed and danger
 
 ### Connection to Broader Game Design Principles 🎯
 
@@ -200,25 +216,25 @@ Camera distance, angle, and movement **directly influence player emotional state
 
 ### Follow Behaviors (Body Settings) 🚶
 
-#### Transposer 📍
+#### Transposer
 
 - **What it does:** Maintains fixed spatial relationship
 - **Best for:** Simple following cameras
 - **Example:** Basic third-person camera that stays behind player
 
-#### 3rd Person Follow 👤
+#### 3rd Person Follow
 
 - **What it does:** Over-shoulder perspective
 - **Best for:** Action-adventure games
 - **Example:** God of War, The Last of Us style cameras
 
-#### Framing Transposer 🖼️
+#### Framing Transposer
 
 - **What it does:** Keeps target within screen boundaries
 - **Best for:** 2D platformers, side-scrolling games
 - **Example:** Mario-style side-scrolling cameras
 
-#### Orbital Transposer 🌍
+#### Orbital Transposer
 
 - **What it does:** Player-controlled rotation around target
 - **Best for:** Exploration games, RPGs
@@ -226,19 +242,19 @@ Camera distance, angle, and movement **directly influence player emotional state
 
 ### Aim Behaviors (Where Camera Looks) 👁️
 
-#### Composer 🎨
+#### Composer
 
 - **What it does:** Advanced framing with rule-of-thirds composition
 - **Best for:** Cinematic gameplay moments
 - **Example:** Automatic reframing for dramatic shots
 
-#### Group Composer 👥
+#### Group Composer
 
 - **What it does:** Automatically frames multiple important targets
 - **Best for:** Co-op games, multiple characters
 - **Example:** Keeping both players in frame during co-op
 
-#### POV (Point of View) 👀
+#### POV (Point of View)
 
 - **What it does:** Direct control for first-person perspective
 - **Best for:** First-person games, look-around cameras
@@ -288,30 +304,14 @@ Camera distance, angle, and movement **directly influence player emotional state
 
 **Cinemachine solution:** Confined cameras with dramatic switches
 
----
-
-## 🔧 Real-World Implementation Examples
-
-### Third-Person Adventure Setup 🏃‍♀️
-
-**Combination:** 3rd Person Follow (body) + Composer (aim) **Result:** Professional character-focused gameplay **Why it works:** Camera maintains appropriate distance while intelligently framing character within environment
-
-### 2D Platformer Configuration 🎮
-
-**Combination:** Framing Transposer (body) + Group Composer (aim)  
-**Result:** Classic platformer feel with forward-looking behavior **Why it works:** Keeps player visible while showing relevant platforms and hazards
-
-### Cinematic Cutscene System 🎬
-
-**Combination:** Tracked Dolly paths + Hard Look At targeting **Result:** Film-quality cinematography **Why it works:** Multiple virtual cameras with different priorities create seamless shot sequences
 
 ---
 
 ## 🧠 Learning Check: Camera Analysis
 
-> [!question] 🤔 **Analysis Exercise (5 minutes)**
+> [!question] **Analysis Exercise (5 minutes)**
 > 
-> Think of a game you've played recently with great camera work:
+> Think of a game you've played recently with camera work you enjoy:
 > 
 > **Consider these aspects:**
 > 
@@ -331,16 +331,14 @@ Camera distance, angle, and movement **directly influence player emotional state
 
 **Next time you play a game, try to notice:**
 
-- 📐 How does camera distance change your feeling of power/vulnerability?
-- 🎬 When does the camera move automatically vs. when do you control it?
-- 👀 What does the camera choose to show you during important moments?
-- 🎮 How does the camera help or hinder your gameplay?
-
-> [!tip] Quick Exercise 📝 Pick 3 different games in different genres. Compare how their cameras handle the same basic task: "following the player character around." What's different and why?
+- How does camera distance change your feeling of power/vulnerability?
+- When does the camera move automatically vs. when do you control it?
+- What does the camera choose to show you during important moments?
+- How does the camera help or hinder your gameplay?
 
 ---
 
-## 💡 Key Takeaways for Art Students
+## 💡 Key Takeaways
 
 ### Cameras Tell Stories 📖
 
@@ -369,7 +367,7 @@ Understanding cameras comes from **analysis and experimentation**:
 
 ---
 
-> [!tip] Remember: Great game cameras are like great lighting in photography - when done well, you don't notice the technique, you just feel the result!
+> [!tip] Remember: Great game cameras are like great lighting in photography - when done well, you don't easily notice the technique, you just feel the result!
 
 ---
 ---

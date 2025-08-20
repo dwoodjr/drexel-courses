@@ -5,28 +5,28 @@
 > **Tools:** Unity Cinemachine, C# scripting, Timeline integration 
 > **Builds On:** Camera fundamentals from [[GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals]]
 
+> [!summary] Submodule Video Overview
+> <iframe src="https://1drv.ms/v/c/b08de2251f1b33a4/IQRTpUIC7ky1RJi5x2Dl91w8Ad0cFH1Qn5x_tAxGiGJZf5M?width=2560&height=1440" width="800" height="600" frameborder="0"></iframe>
+> 
+> [gmap395_md4d.mkv](https://1drv.ms/v/c/b08de2251f1b33a4/EVOlQgLuTLVEmLnHYOX3XDwBqCqyFyzan7EFCFRYF5PvTA?e=8E5yUk)
+
 ---
 
-## 🚀 Practical Cinemachine Implementation for Beginners
+## 🚀 Practical Cinemachine Implementation
 
 ### Essential Setup Process ⚙️
 
 **Step 1: Install Cinemachine**
-
 1. **Window → Package Manager**
 2. **Unity Registry → Search "Cinemachine"**
 3. **Click Install**
 
-> [!tip] Unity 6 Update **Cinemachine 3.1** provides redesigned interface and improved performance specifically optimized for Unity 6!
-
 **Step 2: Set Up Your Main Camera**
-
 1. **Select your Main Camera**
 2. **Add Component → Cinemachine Brain**
 3. **Leave settings as default** for now
 
-**Step 3: Create Your First Virtual Camera**
-
+**Step 3: Create Your First Virtual Camera**\
 1. **Right-click in Hierarchy**
 2. **Cinemachine → Virtual Camera**
 3. **Name it** "PlayerFollowCam"
@@ -44,7 +44,7 @@ Let's create a basic third-person follow camera:
 
 ---
 
-## 💻 Core Camera Control Scripts for Beginners
+## 💻 Core Camera Control Scripts
 
 ### Basic Multi-Camera System
 
@@ -52,7 +52,7 @@ Let's create a basic third-person follow camera:
 using UnityEngine;
 using Cinemachine;
 
-// Simple camera switching system for art students
+// Simple camera switching system
 public class BasicCameraSwitcher : MonoBehaviour
 {
     [Header("Virtual Camera Setup")]
@@ -166,168 +166,289 @@ using UnityEngine;
 using Cinemachine;
 
 // Comprehensive camera shake system for gameplay events
+
 public class CameraShakeController : MonoBehaviour
+
 {
-    [System.Serializable]
-    public class ShakeSettings
-    {
-        [Header("Shake Parameters")]
-        public float intensity = 1f;
-        public float duration = 0.5f;
-        public float frequency = 1f;
-        
-        [Header("Directional Control")]
-        [Range(0f, 1f)] public float horizontalShake = 1f;
-        [Range(0f, 1f)] public float verticalShake = 1f;
-        
-        public ShakeSettings(float intensity, float duration)
-        {
-            this.intensity = intensity;
-            this.duration = duration;
-            this.frequency = 1f;
-            this.horizontalShake = 1f;
-            this.verticalShake = 1f;
-        }
-    }
-    
-    [Header("Camera References")]
-    [SerializeField] private CinemachineVirtualCamera virtualCamera;
-    
-    [Header("Predefined Shake Types")]
-    public ShakeSettings lightShake = new ShakeSettings(0.5f, 0.2f);
-    public ShakeSettings mediumShake = new ShakeSettings(1f, 0.5f);  
-    public ShakeSettings heavyShake = new ShakeSettings(2f, 1f);
-    
-    [Header("Debug Testing")]
-    [SerializeField] private KeyCode testLightShake = KeyCode.Alpha1;
-    [SerializeField] private KeyCode testMediumShake = KeyCode.Alpha2;
-    [SerializeField] private KeyCode testHeavyShake = KeyCode.Alpha3;
-    
-    // Component references
-    private CinemachineBasicMultiChannelPerlin noise;
-    private float shakeTimer;
-    private float originalAmplitude;
-    private float originalFrequency;
-    
-    void Start()
-    {
-        // Get noise component for camera shake
-        noise = virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
-        
-        if (noise == null)
-        {
-            Debug.LogError("No BasicMultiChannelPerlin component found on virtual camera!");
-            Debug.LogError("Add it via: Virtual Camera → Add Extension → BasicMultiChannelPerlin");
-            return;
-        }
-        
-        // Store original values for restoration
-        originalAmplitude = noise.m_AmplitudeGain;
-        originalFrequency = noise.m_FrequencyGain;
-    }
-    
-    void Update()
-    {
-        // Handle shake timer countdown
-        if (shakeTimer > 0)
-        {
-            shakeTimer -= Time.deltaTime;
-            
-            if (shakeTimer <= 0)
-            {
-                StopShake();
-            }
-        }
-        
-        // Debug testing inputs
-        #if UNITY_EDITOR
-        if (Input.GetKeyDown(testLightShake))
-            TriggerShake(lightShake);
-        else if (Input.GetKeyDown(testMediumShake))
-            TriggerShake(mediumShake);
-        else if (Input.GetKeyDown(testHeavyShake))
-            TriggerShake(heavyShake);
-        #endif
-    }
-    
-    /// <summary>
-    /// Trigger camera shake with predefined settings
-    /// </summary>
-    public void TriggerShake(ShakeSettings settings)
-    {
-        if (noise == null) return;
-        
-        // Apply shake settings
-        noise.m_AmplitudeGain = settings.intensity;
-        noise.m_FrequencyGain = settings.frequency;
-        
-        // Set timer
-        shakeTimer = settings.duration;
-        
-        Debug.Log($"Camera shake triggered - Intensity: {settings.intensity}, Duration: {settings.duration}s");
-    }
-    
-    /// <summary>
-    /// Quick shake method with just intensity and duration
-    /// </summary>
-    public void TriggerShake(float intensity, float duration)
-    {
-        ShakeSettings quickShake = new ShakeSettings(intensity, duration);
-        TriggerShake(quickShake);
-    }
-    
-    /// <summary>
-    /// Stop shake immediately and restore original settings
-    /// </summary>
-    public void StopShake()
-    {
-        if (noise == null) return;
-        
-        noise.m_AmplitudeGain = originalAmplitude;
-        noise.m_FrequencyGain = originalFrequency;
-        shakeTimer = 0;
-        
-        Debug.Log("Camera shake stopped");
-    }
-    
-    /// <summary>
-    /// Gradually reduce shake intensity over time for smoother transitions
-    /// </summary>
-    public void StartDecayingShake(float initialIntensity, float totalDuration)
-    {
-        StartCoroutine(DecayingShakeCoroutine(initialIntensity, totalDuration));
-    }
-    
-    private System.Collections.IEnumerator DecayingShakeCoroutine(float initialIntensity, float duration)
-    {
-        if (noise == null) yield break;
-        
-        float timer = 0f;
-        
-        while (timer < duration)
-        {
-            timer += Time.deltaTime;
-            float progress = timer / duration;
-            
-            // Exponential decay for natural feeling
-            float currentIntensity = initialIntensity * Mathf.Exp(-progress * 3f);
-            noise.m_AmplitudeGain = currentIntensity;
-            
-            yield return null;
-        }
-        
-        StopShake();
-    }
+
+    [System.Serializable]
+    public class ShakeSettings
+
+    {
+
+        [Header("Shake Parameters")]
+
+        public float intensity = 1f;
+
+        public float duration = 0.5f;
+
+        public float frequency = 1f;
+
+        [Header("Directional Control")]
+
+        [Range(0f, 1f)] public float horizontalShake = 1f;
+
+        [Range(0f, 1f)] public float verticalShake = 1f;
+
+        public ShakeSettings(float intensity, float duration)
+
+        {
+
+            this.intensity = intensity;
+
+            this.duration = duration;
+
+            this.frequency = 1f;
+
+            this.horizontalShake = 1f;
+
+            this.verticalShake = 1f;
+
+        }
+
+    }
+
+    [Header("Camera References")]
+
+    [SerializeField] private CinemachineVirtualCamera virtualCamera;
+
+    [Header("Predefined Shake Types")]
+
+    public ShakeSettings lightShake = new ShakeSettings(0.5f, 0.2f);
+
+    public ShakeSettings mediumShake = new ShakeSettings(1f, 0.5f);
+
+    public ShakeSettings heavyShake = new ShakeSettings(2f, 1f);
+
+    [Header("Debug Testing")]
+
+    [SerializeField] private KeyCode testLightShake = KeyCode.Keypad1;
+
+    [SerializeField] private KeyCode testMediumShake = KeyCode.Keypad2;
+
+    [SerializeField] private KeyCode testHeavyShake = KeyCode.Keypad3;
+
+  
+
+    // Component references
+
+    private CinemachineBasicMultiChannelPerlin noise;
+
+    private float shakeTimer;
+
+    private float originalAmplitude;
+
+    private float originalFrequency;
+
+    void Start()
+
+    {
+
+        // Get noise component for camera shake
+
+        noise = virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+
+        if (noise == null)
+
+        {
+
+            Debug.LogError("No BasicMultiChannelPerlin component found on virtual camera!");
+
+            Debug.LogError("Add it via: Virtual Camera → Noise → BasicMultiChannelPerlin");
+
+            return;
+
+        }
+
+        // Store original values for restoration
+
+        originalAmplitude = noise.m_AmplitudeGain;
+
+        originalFrequency = noise.m_FrequencyGain;
+
+    }
+
+    void Update()
+
+    {
+
+        // Handle shake timer countdown
+
+        if (shakeTimer > 0)
+
+        {
+
+            shakeTimer -= Time.deltaTime;
+
+            if (shakeTimer <= 0)
+
+            {
+
+                StopShake();
+
+            }
+
+        }
+
+  
+
+        // Debug testing inputs
+
+        if (Input.GetKeyDown(testLightShake))
+
+        {
+
+            TriggerShake(lightShake);
+
+            Debug.Log("Light shake triggered");
+
+        }
+
+        if (Input.GetKeyDown(testMediumShake))
+
+        {
+
+            TriggerShake(mediumShake);
+
+            Debug.Log("Medium shake triggered");
+
+        }
+
+        if (Input.GetKeyDown(testHeavyShake))
+
+        {
+
+            TriggerShake(heavyShake);
+
+            Debug.Log("Heavy shake triggered");
+
+        }
+
+  
+
+    }
+
+  
+
+    /// <summary>
+
+    /// Trigger camera shake with predefined settings
+
+    /// </summary>
+
+    public void TriggerShake(ShakeSettings settings)
+
+    {
+
+        if (noise == null) return;
+
+        // Apply shake settings
+
+        noise.m_AmplitudeGain = settings.intensity;
+
+        noise.m_FrequencyGain = settings.frequency;
+
+        // Set timer
+
+        shakeTimer = settings.duration;
+
+        Debug.Log($"Camera shake triggered - Intensity: {settings.intensity}, Duration: {settings.duration}s");
+
+    }
+
+    /// <summary>
+
+    /// Quick shake method with just intensity and duration
+
+    /// </summary>
+
+    public void TriggerShake(float intensity, float duration)
+
+    {
+
+        ShakeSettings quickShake = new ShakeSettings(intensity, duration);
+
+        TriggerShake(quickShake);
+
+    }
+
+    /// <summary>
+
+    /// Stop shake immediately and restore original settings
+
+    /// </summary>
+
+    public void StopShake()
+
+    {
+
+        if (noise == null) return;
+
+        noise.m_AmplitudeGain = originalAmplitude;
+
+        noise.m_FrequencyGain = originalFrequency;
+
+        shakeTimer = 0;
+
+        Debug.Log("Camera shake stopped");
+
+    }
+
+    /// <summary>
+
+    /// Gradually reduce shake intensity over time for smoother transitions
+
+    /// </summary>
+
+    public void StartDecayingShake(float initialIntensity, float totalDuration)
+
+    {
+
+        StartCoroutine(DecayingShakeCoroutine(initialIntensity, totalDuration));
+
+    }
+
+    private System.Collections.IEnumerator DecayingShakeCoroutine(float initialIntensity, float duration)
+
+    {
+
+        if (noise == null) yield break;
+
+        float timer = 0f;
+
+        while (timer < duration)
+
+        {
+
+            timer += Time.deltaTime;
+
+            float progress = timer / duration;
+
+            // Exponential decay for natural feeling
+
+            float currentIntensity = initialIntensity * Mathf.Exp(-progress * 3f);
+
+            noise.m_AmplitudeGain = currentIntensity;
+
+            yield return null;
+
+        }
+
+        StopShake();
+
+    }
+
 }
 ```
 
 ### Setting Up Camera Shake 🔧
 
 1. **Select your Virtual Camera**
-2. **Add Extension → CinemachineBasicMultiChannelPerlin**
-3. **Create an empty GameObject** and add the CameraShakeController script
-4. **Drag your Virtual Camera** into the script's "Virtual Camera" field
-5. **Press Play** and test with **1, 2, 3 keys**!
+2. **Noise → CinemachineBasicMultiChannelPerlin**
+3. **Assign a noise profile and set the `Amplitude Gain` and `Frequency Gain` lower (0-0.25)**
+4. **Create an empty GameObject** and add the CameraShakeController script
+5. **Drag your Virtual Camera** into the script's "Virtual Camera" field
+6. **Press Play** and test with **1, 2, 3 keys**!
 
 > [!example] When to Use Different Shake Intensities
 > 
@@ -336,287 +457,59 @@ public class CameraShakeController : MonoBehaviour
 > - **Heavy Shake (2.0):** Boss attacks, huge explosions, dramatic moments
 
 ---
+## 💡 Additional Tips and Useful Camera Assets
 
-## 🎯 Smart Follow Camera with Advanced Features
+### Camera Stacking 📚
 
-This script creates a sophisticated follow camera that predicts player movement:
+With Unity's Scriptable Render Pipelines (URP/HDRP), you can **[stack multiple cameras](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.2/manual/camera-stacking.html)** to render different parts of your game separately. This powerful technique allows you to:
 
-```csharp
-using UnityEngine;
-using Cinemachine;
+- **UI Camera:** Render user interface elements with different post-processing
+- **Player Camera:** Focus on character with specific visual effects
+- **Environment Camera:** Handle world rendering with separate optimization
+- **Effects Camera:** Overlay special effects or HUD elements
 
-// Advanced follow camera with customizable smoothing and prediction
-public class SmartFollowCamera : MonoBehaviour
-{
-    [Header("Camera Target")]
-    [SerializeField] private Transform target;
-    [SerializeField] private CinemachineVirtualCamera virtualCamera;
-    
-    [Header("Follow Behavior Settings")]
-    [SerializeField] private Vector3 followOffset = new Vector3(0, 5, -10);
-    [SerializeField] private Vector3 lookOffset = Vector3.up;
-    
-    [Header("Smoothing Control")]
-    [Range(0.1f, 5f)] [SerializeField] private float positionDamping = 1f;
-    [Range(0.1f, 5f)] [SerializeField] private float rotationDamping = 1f;
-    
-    [Header("Prediction Settings")]
-    [SerializeField] private bool enableMovementPrediction = true;
-    [Range(0f, 2f)] [SerializeField] private float predictionStrength = 0.5f;
-    
-    [Header("Boundary Constraints")]
-    [SerializeField] private bool constrainToBounds = false;
-    [SerializeField] private Bounds movementBounds;
-    
-    // Component references
-    private CinemachineTransposer transposer;
-    private CinemachineComposer composer;
-    private Vector3 previousTargetPosition;
-    private Vector3 targetVelocity;
-    
-    void Start()
-    {
-        InitializeCameraComponents();
-        
-        if (target != null)
-        {
-            previousTargetPosition = target.position;
-        }
-    }
-    
-    void InitializeCameraComponents()
-    {
-        // Get Cinemachine components
-        transposer = virtualCamera.GetCinemachineComponent<CinemachineTransposer>();
-        composer = virtualCamera.GetCinemachineComponent<CinemachineComposer>();
-        
-        if (transposer == null)
-        {
-            Debug.LogError("No CinemachineTransposer found on virtual camera!");
-            Debug.LogError("Set Body to 'Transposer' in the virtual camera settings");
-            return;
-        }
-        
-        // Configure initial settings
-        transposer.m_FollowOffset = followOffset;
-        transposer.m_XDamping = positionDamping;
-        transposer.m_YDamping = positionDamping;
-        transposer.m_ZDamping = positionDamping;
-        
-        if (composer != null)
-        {
-            composer.m_TrackedObjectOffset = lookOffset;
-            composer.m_HorizontalDamping = rotationDamping;
-            composer.m_VerticalDamping = rotationDamping;
-        }
-    }
-    
-    void Update()
-    {
-        if (target == null) return;
-        
-        // Calculate target velocity for prediction
-        targetVelocity = (target.position - previousTargetPosition) / Time.deltaTime;
-        previousTargetPosition = target.position;
-        
-        // Update camera settings in real-time
-        UpdateCameraSettings();
-        
-        // Apply movement prediction
-        if (enableMovementPrediction)
-        {
-            ApplyMovementPrediction();
-        }
-        
-        // Handle boundary constraints
-        if (constrainToBounds)
-        {
-            EnforceBoundaryConstraints();
-        }
-    }
-    
-    void UpdateCameraSettings()
-    {
-        if (transposer != null)
-        {
-            transposer.m_FollowOffset = followOffset;
-            transposer.m_XDamping = positionDamping;
-            transposer.m_YDamping = positionDamping;
-            transposer.m_ZDamping = positionDamping;
-        }
-        
-        if (composer != null)
-        {
-            composer.m_TrackedObjectOffset = lookOffset;
-            composer.m_HorizontalDamping = rotationDamping;
-            composer.m_VerticalDamping = rotationDamping;
-        }
-    }
-    
-    void ApplyMovementPrediction()
-    {
-        if (transposer == null) return;
-        
-        // Calculate predicted position
-        Vector3 predictedOffset = targetVelocity * predictionStrength;
-        Vector3 dynamicOffset = followOffset + predictedOffset;
-        
-        // Apply predicted offset
-        transposer.m_FollowOffset = dynamicOffset;
-    }
-    
-    void EnforceBoundaryConstraints()
-    {
-        // Constrain camera position to defined bounds
-        Vector3 cameraPosition = virtualCamera.transform.position;
-        Vector3 constrainedPosition = new Vector3(
-            Mathf.Clamp(cameraPosition.x, movementBounds.min.x, movementBounds.max.x),
-            Mathf.Clamp(cameraPosition.y, movementBounds.min.y, movementBounds.max.y),
-            Mathf.Clamp(cameraPosition.z, movementBounds.min.z, movementBounds.max.z)
-        );
-        
-        // Apply constraint if position changed
-        if (constrainedPosition != cameraPosition)
-        {
-            virtualCamera.transform.position = constrainedPosition;
-        }
-    }
-    
-    // Public methods for runtime control
-    public void SetTarget(Transform newTarget)
-    {
-        target = newTarget;
-        virtualCamera.Follow = newTarget;
-        virtualCamera.LookAt = newTarget;
-        
-        if (newTarget != null)
-        {
-            previousTargetPosition = newTarget.position;
-        }
-    }
-    
-    public void SetFollowOffset(Vector3 offset)
-    {
-        followOffset = offset;
-    }
-    
-    public void SetDamping(float position, float rotation)
-    {
-        positionDamping = position;
-        rotationDamping = rotation;
-    }
-    
-    // Visual debugging in Scene view
-    void OnDrawGizmosSelected()
-    {
-        if (constrainToBounds)
-        {
-            Gizmos.color = Color.yellow;
-            Gizmos.DrawWireCube(movementBounds.center, movementBounds.size);
-        }
-        
-        if (target != null)
-        {
-            Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(target.position + lookOffset, 0.5f);
-        }
-    }
-}
-```
+> [!example] Camera Stacking Use Cases
+> 
+> - **UI overlays** that don't get affected by world post-processing
+> - **Minimap cameras** rendering a top-down view simultaneously
+> - **Picture-in-picture** effects for security cameras or scopes
+> - **Different render styles** per layer (realistic world + stylized UI)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OmCjPctKkjw?si=shwS2aXA7Tb8A_LY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Quick Setup:**
+
+1. Create additional cameras in your scene
+2. Set **Render Type** to "Overlay" on secondary cameras
+3. Add overlay cameras to main camera's **Stack** list
+
+### Unity Starter Assets - Camera Examples 🎮
+
+Unity's **[Starter Assets](https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-updates-in-new-charactercontroller-pa-196526)** packages provide excellent Cinemachine implementations that serve as perfect learning references:
+
+#### First Person Controller
+
+- **Pre-configured mouse look** system with Cinemachine
+- **Smooth camera rotation** with customizable sensitivity
+- **Great foundation** for FPS games and first-person exploration
+
+#### Third Person Controller
+
+- **Professional 3rd-person camera** setup using Cinemachine
+- **Orbit controls** with collision detection and smoothing
+- **Industry-standard** character following and framing
+
+> [!tip] How to Access Starter Assets
+> 
+> 1. **Go to the Unity Asset Store and search for** `Starter Assets`. **Add them to your assets (they are free).**
+> 2. **Window → Package Manager**
+> 3. **My Assets → Search "Starter Assets"**
+> 4. **Install First Person** or **Third Person** package
+> 5. **Study the camera scripts** and Cinemachine configurations!
+
+These assets demonstrate **real-world camera implementations** that you can learn from and adapt for your own projects.
 
 ---
-
-## 🎬 Timeline Integration for Cinematic Sequences
-
-### Creating Your First Timeline Sequence 🎞️
-
-**Step 1: Set Up Timeline**
-
-1. **Create empty GameObject** and name it "CinematicDirector"
-2. **Add Component → Playable Director**
-3. **Window → Sequencing → Timeline**
-4. **Create new Timeline Asset**
-
-**Step 2: Add Cinemachine Track**
-
-1. **In Timeline window, right-click**
-2. **Cinemachine → Cinemachine Track**
-3. **Drag your Main Camera** to the track (the one with Cinemachine Brain)
-
-**Step 3: Create Camera Shots**
-
-1. **Right-click on Cinemachine Track**
-2. **Add Cinemachine Shot Clip**
-3. **Drag a Virtual Camera** into the clip's "Virtual Camera" field
-
-> [!tip] Timeline Pro Tip Create multiple Virtual Cameras positioned around your scene, then use Timeline to cut between them like a movie director!
-
----
-
-## 🏋️ Step-by-Step Advanced Exercise: Complete Camera System
-
-### Project Goal 🎯
-
-Create a third-person adventure camera system with multiple behaviors, smooth transitions, and interactive controls.
-
-### Exercise Breakdown 📝
-
-#### Phase 1: Basic Setup (15 minutes)
-
-1. **Install Cinemachine** via Package Manager
-2. **Create a simple scene** with a player character (use a capsule with movement script)
-3. **Add Cinemachine Brain** to Main Camera
-4. **Create first Virtual Camera** with basic follow
-
-#### Phase 2: Multi-Camera System (20 minutes)
-
-1. **Create 3 different Virtual Cameras:**
-    - **Close-up camera:** For dialogue/interaction
-    - **Wide camera:** For exploration overview
-    - **Action camera:** For combat/dynamic moments
-2. **Add the BasicCameraSwitcher script**
-3. **Test switching** between cameras
-
-#### Phase 3: Camera Shake Integration (15 minutes)
-
-1. **Add BasicMultiChannelPerlin** to your action camera
-2. **Implement CameraShakeController script**
-3. **Connect shake to player actions** (jumping, landing, etc.)
-
-#### Phase 4: Advanced Features (20 minutes)
-
-1. **Implement SmartFollowCamera** on main camera
-2. **Add movement prediction** and boundary constraints
-3. **Test different damping** settings
-
-#### Phase 5: Polish Phase (10 minutes)
-
-1. **Fine-tune all camera settings**
-2. **Add post-processing effects** (connect with previous modules!)
-3. **Create simple Timeline sequence** for intro/outro
-
-### Assessment Criteria ✅
-
-**Technical Implementation (50%):**
-
-- All scripts compile and run without errors
-- Camera switching works smoothly
-- Shake system responds correctly to events
-
-**User Experience (30%):**
-
-- Camera feels responsive and comfortable
-- Transitions are smooth and not jarring
-- Different cameras serve clear purposes
-
-**Creative Application (20%):**
-
-- Thoughtful use of different camera behaviors
-- Good integration with post-processing
-- Evidence of experimentation and polish
-
----
-
 ## 🔧 Troubleshooting Common Cinemachine Issues
 
 > [!warning] Problem: "My Virtual Camera isn't active!" **Solution:** Check these in order:
@@ -640,12 +533,6 @@ Create a third-person adventure camera system with multiple behaviors, smooth tr
 ---
 
 ## 📈 Performance Optimization Tips
-
-> [!tip] Unity 6 Specific Enhancements
-> 
-> - **Redesigned Inspector:** More intuitive workflow for art students
-> - **Improved Blending:** Smoother transitions between virtual cameras
-> - **Enhanced Performance:** Optimized update cycles and memory usage
 
 **Performance Guidelines:**
 
@@ -678,5 +565,6 @@ Create a third-person adventure camera system with multiple behaviors, smooth tr
 
 ---
 
-> [!info] 🧭 Module Navigation **Previous:** [[GMAP 395 - Module 4C - Cinemachine Camera Fundamentals|Module 4C]]  
+> [!info] 🧭 Module Navigation 
+> **Previous:** [[GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals|Module 4C]]  
 > **Return to:** [[GMAP 395 - Module 4|Module Page]]

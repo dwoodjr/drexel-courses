@@ -1,0 +1,501 @@
+<!DOCTYPE html> <html><head>
+		<title>GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques</title>
+		<base href="..\..\../">
+		<meta id="root-path" root-path="..\..\../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="drexel-teaching - GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques">
+		<meta property="og:title" content="GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques">
+		<meta property="og:description" content="drexel-teaching - GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="gmap-395/module-4/submodules/gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="drexel-teaching">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="lib/scripts/pixi.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon mk-folder-lines mk-inline-context-enabled mk-flow-minimal outliner-plugin-dnd background-settings-workplace-theme-light-in-the-note background-settings-workplace-theme-dark-in-the-sky background-image-settings-markdown-page-transparent notebook-liked-markdown-page-grid-notebook-1 panel-page-bg-theme-light-wall panel-page-bg-theme-dark-plant layout-style-options-default bt-default-unordered-list default-ol-list-marker list-no-border bt-connected-indent-hover bt-colorful-connected-indent-hover folder-icons remove-arrow bt-toggle-colorful-folder folder-style-change-options-colorful-border folder-colorful-six table-width-100 tag-default admonition-bg-color-same style-options-for-admonition-plugin style-options-for-buttons-plugin dataview-list-style-pacman memos-banner-gradient thino-frosted-style thino-background-default quiet-outline-optimize code-theme-bt-default whole-code-wrap iconic-clickable-icons iconic-theme-btopaz"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Module 4D: Camera Effects Scripting and Advanced Techniques"><p dir="auto">Module 4D: Camera Effects Scripting and Advanced Techniques</p></h1><div class="el-h1 heading-wrapper"><div class="heading-children"><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout drop-shadow"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">Module Overview </div></div><div class="callout-content">
+<p dir="auto"><strong>Learning Focus:</strong> Practical Cinemachine implementation and camera control scripting<br>
+<strong>Tools:</strong> Unity Cinemachine, C# scripting, Timeline integration<br>
+<strong>Builds On:</strong> Camera fundamentals from <a data-href="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" href="gmap-395/module-4/submodules/gmap-395-module-4c-cinemachine-and-camera-systems-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals</a></p>
+</div></div></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="summary" class="callout drop-shadow"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-clipboard-list"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="M12 11h4"></path><path d="M12 16h4"></path><path d="M8 11h.01"></path><path d="M8 16h.01"></path></svg></div><div class="callout-title-inner">Submodule Video Overview</div></div><div class="callout-content">
+<iframe frameborder="0" height="600" width="800" src="https://1drv.ms/v/c/b08de2251f1b33a4/IQRTpUIC7ky1RJi5x2Dl91w8Ad0cFH1Qn5x_tAxGiGJZf5M?width=2560&amp;height=1440" sandbox="allow-forms allow-presentation allow-same-origin allow-scripts allow-modals" loading="lazy"></iframe>
+<p dir="auto"><a data-tooltip-position="top" aria-label="https://1drv.ms/v/c/b08de2251f1b33a4/EVOlQgLuTLVEmLnHYOX3XDwBqCqyFyzan7EFCFRYF5PvTA?e=8E5yUk" rel="noopener nofollow" class="external-link" href="https://1drv.ms/v/c/b08de2251f1b33a4/EVOlQgLuTLVEmLnHYOX3XDwBqCqyFyzan7EFCFRYF5PvTA?e=8E5yUk" target="_blank">gmap395_md4d.mkv</a></p>
+</div></div></div><div class="el-hr"><hr></div><div class="el-h2 heading-wrapper"><h2 data-heading="🚀 Practical Cinemachine Implementation" dir="auto" class="heading" id="🚀_Practical_Cinemachine_Implementation"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>🚀 Practical Cinemachine Implementation</h2><div class="heading-children"><div class="el-h3 heading-wrapper"><h3 data-heading="Essential Setup Process ⚙️" dir="auto" class="heading" id="Essential_Setup_Process_⚙️"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Essential Setup Process ⚙️</h3><div class="heading-children"><div class="el-p"><p dir="auto"><strong>Step 1: Install Cinemachine</strong></p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><strong>Window → Package Manager</strong></li>
+<li data-line="1" dir="auto"><strong>Unity Registry → Search "Cinemachine"</strong></li>
+<li data-line="2" dir="auto"><strong>Click Install</strong></li>
+</ol></div><div class="el-p"><p dir="auto"><strong>Step 2: Set Up Your Main Camera</strong></p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><strong>Select your Main Camera</strong></li>
+<li data-line="1" dir="auto"><strong>Add Component → Cinemachine Brain</strong></li>
+<li data-line="2" dir="auto"><strong>Leave settings as default</strong> for now</li>
+</ol></div><div class="el-p"><p dir="auto"><strong>Step 3: Create Your First Virtual Camera</strong>\</p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><strong>Right-click in Hierarchy</strong></li>
+<li data-line="1" dir="auto"><strong>Cinemachine → Virtual Camera</strong></li>
+<li data-line="2" dir="auto"><strong>Name it</strong> "PlayerFollowCam"</li>
+</ol></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Your First Virtual Camera Setup 📸" dir="auto" class="heading" id="Your_First_Virtual_Camera_Setup_📸"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Your First Virtual Camera Setup 📸</h3><div class="heading-children"><div class="el-p"><p dir="auto">Let's create a basic third-person follow camera:</p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><strong>Select your Virtual Camera</strong></li>
+<li data-line="1" dir="auto"><strong>Drag your Player</strong> into the <strong>Follow</strong> field</li>
+<li data-line="2" dir="auto"><strong>Drag your Player</strong> into the <strong>Look At</strong> field</li>
+<li data-line="3" dir="auto"><strong>Set Priority</strong> to <strong>10</strong></li>
+</ol></div><div class="el-p"><p dir="auto"><strong>Press Play</strong> - your camera should now follow your player!</p></div><div class="el-hr"><hr></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="💻 Core Camera Control Scripts" dir="auto" class="heading" id="💻_Core_Camera_Control_Scripts"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>💻 Core Camera Control Scripts</h2><div class="heading-children"><div class="el-h3 heading-wrapper"><h3 data-heading="Basic Multi-Camera System" dir="auto" class="heading" id="Basic_Multi-Camera_System"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Basic Multi-Camera System</h3><div class="heading-children"><div class="el-pre"><pre class="language-csharp"><code data-line="0" class="language-csharp is-loaded"><span class="token keyword">using</span> <span class="token namespace">UnityEngine</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token namespace">Cinemachine</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Simple camera switching system</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">BasicCameraSwitcher</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">MonoBehaviour</span></span>
+<span class="token punctuation">{</span>
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">Header</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">"Virtual Camera Setup"</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">SerializeField</span></span><span class="token punctuation">]</span> <span class="token keyword">private</span> <span class="token class-name">CinemachineVirtualCamera<span class="token punctuation">[</span><span class="token punctuation">]</span></span> cameras<span class="token punctuation">;</span>
+    
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">Header</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">"Control Settings"</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">SerializeField</span></span><span class="token punctuation">]</span> <span class="token keyword">private</span> <span class="token class-name">KeyCode</span> switchKey <span class="token operator">=</span> KeyCode<span class="token punctuation">.</span>Tab<span class="token punctuation">;</span>
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">SerializeField</span></span><span class="token punctuation">]</span> <span class="token keyword">private</span> <span class="token class-name"><span class="token keyword">bool</span></span> enableDebugMessages <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">private</span> <span class="token class-name"><span class="token keyword">int</span></span> currentCameraIndex <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    
+    <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// Initialize camera priorities</span>
+        <span class="token comment">// Only the first camera should be active initially</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> cameras<span class="token punctuation">.</span>Length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            cameras<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>Priority <span class="token operator">=</span> <span class="token punctuation">(</span>i <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">?</span> <span class="token number">10</span> <span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>enableDebugMessages<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            Debug<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span><span class="token interpolation-string"><span class="token string">$"Camera system initialized with </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">cameras<span class="token punctuation">.</span>Length</span><span class="token punctuation">}</span></span><span class="token string"> cameras"</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            Debug<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span><span class="token interpolation-string"><span class="token string">$"Active camera: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">cameras<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>name</span><span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Update</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// Handle camera switching input</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Input<span class="token punctuation">.</span><span class="token function">GetKeyDown</span><span class="token punctuation">(</span>switchKey<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token function">SwitchToNextCamera</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        
+        <span class="token comment">// Allow number key switching for quick testing</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> Mathf<span class="token punctuation">.</span><span class="token function">Min</span><span class="token punctuation">(</span>cameras<span class="token punctuation">.</span>Length<span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>Input<span class="token punctuation">.</span><span class="token function">GetKeyDown</span><span class="token punctuation">(</span>KeyCode<span class="token punctuation">.</span>Alpha1 <span class="token operator">+</span> i<span class="token punctuation">)</span><span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token function">SwitchToCamera</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">SwitchToNextCamera</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// Cycle to next camera in array</span>
+        <span class="token class-name"><span class="token keyword">int</span></span> nextIndex <span class="token operator">=</span> <span class="token punctuation">(</span>currentCameraIndex <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">%</span> cameras<span class="token punctuation">.</span>Length<span class="token punctuation">;</span>
+        <span class="token function">SwitchToCamera</span><span class="token punctuation">(</span>nextIndex<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">SwitchToCamera</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> cameraIndex<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">// Validate camera index</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>cameraIndex <span class="token operator">&lt;</span> <span class="token number">0</span> <span class="token operator">||</span> cameraIndex <span class="token operator">&gt;=</span> cameras<span class="token punctuation">.</span>Length<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            Debug<span class="token punctuation">.</span><span class="token function">LogError</span><span class="token punctuation">(</span><span class="token interpolation-string"><span class="token string">$"Invalid camera index: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">cameraIndex</span><span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">return</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        
+        <span class="token comment">// Set priorities: active camera gets 10, all others get 0</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> cameras<span class="token punctuation">.</span>Length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            cameras<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>Priority <span class="token operator">=</span> <span class="token punctuation">(</span>i <span class="token operator">==</span> cameraIndex<span class="token punctuation">)</span> <span class="token punctuation">?</span> <span class="token number">10</span> <span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        
+        currentCameraIndex <span class="token operator">=</span> cameraIndex<span class="token punctuation">;</span>
+        
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>enableDebugMessages<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            Debug<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span><span class="token interpolation-string"><span class="token string">$"Switched to camera: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">cameras<span class="token punctuation">[</span>cameraIndex<span class="token punctuation">]</span><span class="token punctuation">.</span>name</span><span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">// Public method for other scripts or UI buttons</span>
+    <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">SwitchToCameraByName</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> cameraName<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> cameras<span class="token punctuation">.</span>Length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>cameras<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>name <span class="token operator">==</span> cameraName<span class="token punctuation">)</span>
+            <span class="token punctuation">{</span>
+                <span class="token function">SwitchToCamera</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">return</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        
+        Debug<span class="token punctuation">.</span><span class="token function">LogWarning</span><span class="token punctuation">(</span><span class="token interpolation-string"><span class="token string">$"Camera not found: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">cameraName</span><span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="How to Use the Camera Switcher 📝" dir="auto" class="heading" id="How_to_Use_the_Camera_Switcher_📝"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>How to Use the Camera Switcher 📝</h3><div class="heading-children"><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><strong>Create an empty GameObject</strong> and name it "CameraSwitcher"</li>
+<li data-line="1" dir="auto"><strong>Add the script</strong> to this GameObject</li>
+<li data-line="2" dir="auto"><strong>Create multiple Virtual Cameras</strong> in your scene</li>
+<li data-line="3" dir="auto"><strong>Drag all Virtual Cameras</strong> into the "Cameras" array</li>
+<li data-line="4" dir="auto"><strong>Press Play</strong> and test with <strong>Tab</strong> or <strong>number keys</strong>!</li>
+</ol></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="tip" class="callout drop-shadow"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-flame"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg></div><div class="callout-title-inner">Pro Tip This script is perfect for testing different camera angles quickly. Use it to experiment with camera positioning!</div></div></div></div><div class="el-hr"><hr></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="📳 Professional Camera Shake Implementation" dir="auto" class="heading" id="📳_Professional_Camera_Shake_Implementation"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>📳 Professional Camera Shake Implementation</h2><div class="heading-children"><div class="el-p"><p dir="auto">Camera shake adds <strong>impact and juice</strong> to your game events. Here's a comprehensive system:</p></div><div class="el-pre"><pre class="language-csharp"><code data-line="0" class="language-csharp is-loaded"><span class="token keyword">using</span> <span class="token namespace">UnityEngine</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> <span class="token namespace">Cinemachine</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Comprehensive camera shake system for gameplay events</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CameraShakeController</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">MonoBehaviour</span></span>
+
+<span class="token punctuation">{</span>
+
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">System<span class="token punctuation">.</span>Serializable</span></span><span class="token punctuation">]</span>
+    <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">ShakeSettings</span>
+
+    <span class="token punctuation">{</span>
+
+        <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">Header</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">"Shake Parameters"</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+
+        <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">float</span></span> intensity <span class="token operator">=</span> <span class="token number">1f</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">float</span></span> duration <span class="token operator">=</span> <span class="token number">0.5f</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">float</span></span> frequency <span class="token operator">=</span> <span class="token number">1f</span><span class="token punctuation">;</span>
+
+        <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">Header</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">"Directional Control"</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+
+        <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">Range</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token number">0f</span><span class="token punctuation">,</span> <span class="token number">1f</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span> <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">float</span></span> horizontalShake <span class="token operator">=</span> <span class="token number">1f</span><span class="token punctuation">;</span>
+
+        <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">Range</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token number">0f</span><span class="token punctuation">,</span> <span class="token number">1f</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span> <span class="token keyword">public</span> <span class="token class-name"><span class="token keyword">float</span></span> verticalShake <span class="token operator">=</span> <span class="token number">1f</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">public</span> <span class="token function">ShakeSettings</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">float</span></span> intensity<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">float</span></span> duration<span class="token punctuation">)</span>
+
+        <span class="token punctuation">{</span>
+
+            <span class="token keyword">this</span><span class="token punctuation">.</span>intensity <span class="token operator">=</span> intensity<span class="token punctuation">;</span>
+
+            <span class="token keyword">this</span><span class="token punctuation">.</span>duration <span class="token operator">=</span> duration<span class="token punctuation">;</span>
+
+            <span class="token keyword">this</span><span class="token punctuation">.</span>frequency <span class="token operator">=</span> <span class="token number">1f</span><span class="token punctuation">;</span>
+
+            <span class="token keyword">this</span><span class="token punctuation">.</span>horizontalShake <span class="token operator">=</span> <span class="token number">1f</span><span class="token punctuation">;</span>
+
+            <span class="token keyword">this</span><span class="token punctuation">.</span>verticalShake <span class="token operator">=</span> <span class="token number">1f</span><span class="token punctuation">;</span>
+
+        <span class="token punctuation">}</span>
+
+    <span class="token punctuation">}</span>
+
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">Header</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">"Camera References"</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">SerializeField</span></span><span class="token punctuation">]</span> <span class="token keyword">private</span> <span class="token class-name">CinemachineVirtualCamera</span> virtualCamera<span class="token punctuation">;</span>
+
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">Header</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">"Predefined Shake Types"</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+
+    <span class="token keyword">public</span> <span class="token class-name">ShakeSettings</span> lightShake <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">ShakeSettings</span><span class="token punctuation">(</span><span class="token number">0.5f</span><span class="token punctuation">,</span> <span class="token number">0.2f</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token class-name">ShakeSettings</span> mediumShake <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">ShakeSettings</span><span class="token punctuation">(</span><span class="token number">1f</span><span class="token punctuation">,</span> <span class="token number">0.5f</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token class-name">ShakeSettings</span> heavyShake <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">ShakeSettings</span><span class="token punctuation">(</span><span class="token number">2f</span><span class="token punctuation">,</span> <span class="token number">1f</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">Header</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">"Debug Testing"</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
+
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">SerializeField</span></span><span class="token punctuation">]</span> <span class="token keyword">private</span> <span class="token class-name">KeyCode</span> testLightShake <span class="token operator">=</span> KeyCode<span class="token punctuation">.</span>Keypad1<span class="token punctuation">;</span>
+
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">SerializeField</span></span><span class="token punctuation">]</span> <span class="token keyword">private</span> <span class="token class-name">KeyCode</span> testMediumShake <span class="token operator">=</span> KeyCode<span class="token punctuation">.</span>Keypad2<span class="token punctuation">;</span>
+
+    <span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">SerializeField</span></span><span class="token punctuation">]</span> <span class="token keyword">private</span> <span class="token class-name">KeyCode</span> testHeavyShake <span class="token operator">=</span> KeyCode<span class="token punctuation">.</span>Keypad3<span class="token punctuation">;</span>
+
+  
+
+    <span class="token comment">// Component references</span>
+
+    <span class="token keyword">private</span> <span class="token class-name">CinemachineBasicMultiChannelPerlin</span> noise<span class="token punctuation">;</span>
+
+    <span class="token keyword">private</span> <span class="token class-name"><span class="token keyword">float</span></span> shakeTimer<span class="token punctuation">;</span>
+
+    <span class="token keyword">private</span> <span class="token class-name"><span class="token keyword">float</span></span> originalAmplitude<span class="token punctuation">;</span>
+
+    <span class="token keyword">private</span> <span class="token class-name"><span class="token keyword">float</span></span> originalFrequency<span class="token punctuation">;</span>
+
+    <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token punctuation">{</span>
+
+        <span class="token comment">// Get noise component for camera shake</span>
+
+        noise <span class="token operator">=</span> virtualCamera<span class="token punctuation">.</span><span class="token generic-method"><span class="token function">GetCinemachineComponent</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>CinemachineBasicMultiChannelPerlin<span class="token punctuation">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>noise <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span>
+
+        <span class="token punctuation">{</span>
+
+            Debug<span class="token punctuation">.</span><span class="token function">LogError</span><span class="token punctuation">(</span><span class="token string">"No BasicMultiChannelPerlin component found on virtual camera!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            Debug<span class="token punctuation">.</span><span class="token function">LogError</span><span class="token punctuation">(</span><span class="token string">"Add it via: Virtual Camera → Noise → BasicMultiChannelPerlin"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token keyword">return</span><span class="token punctuation">;</span>
+
+        <span class="token punctuation">}</span>
+
+        <span class="token comment">// Store original values for restoration</span>
+
+        originalAmplitude <span class="token operator">=</span> noise<span class="token punctuation">.</span>m_AmplitudeGain<span class="token punctuation">;</span>
+
+        originalFrequency <span class="token operator">=</span> noise<span class="token punctuation">.</span>m_FrequencyGain<span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span>
+
+    <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Update</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token punctuation">{</span>
+
+        <span class="token comment">// Handle shake timer countdown</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>shakeTimer <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span>
+
+        <span class="token punctuation">{</span>
+
+            shakeTimer <span class="token operator">-=</span> Time<span class="token punctuation">.</span>deltaTime<span class="token punctuation">;</span>
+
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>shakeTimer <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span>
+
+            <span class="token punctuation">{</span>
+
+                <span class="token function">StopShake</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token punctuation">}</span>
+
+        <span class="token punctuation">}</span>
+
+  
+
+        <span class="token comment">// Debug testing inputs</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Input<span class="token punctuation">.</span><span class="token function">GetKeyDown</span><span class="token punctuation">(</span>testLightShake<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+        <span class="token punctuation">{</span>
+
+            <span class="token function">TriggerShake</span><span class="token punctuation">(</span>lightShake<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            Debug<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span><span class="token string">"Light shake triggered"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Input<span class="token punctuation">.</span><span class="token function">GetKeyDown</span><span class="token punctuation">(</span>testMediumShake<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+        <span class="token punctuation">{</span>
+
+            <span class="token function">TriggerShake</span><span class="token punctuation">(</span>mediumShake<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            Debug<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span><span class="token string">"Medium shake triggered"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Input<span class="token punctuation">.</span><span class="token function">GetKeyDown</span><span class="token punctuation">(</span>testHeavyShake<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+        <span class="token punctuation">{</span>
+
+            <span class="token function">TriggerShake</span><span class="token punctuation">(</span>heavyShake<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            Debug<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span><span class="token string">"Heavy shake triggered"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token punctuation">}</span>
+
+  
+
+    <span class="token punctuation">}</span>
+
+  
+
+    <span class="token doc-comment comment">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span></span>
+
+    <span class="token doc-comment comment">/// Trigger camera shake with predefined settings</span>
+
+    <span class="token doc-comment comment">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span></span>
+
+    <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">TriggerShake</span><span class="token punctuation">(</span><span class="token class-name">ShakeSettings</span> settings<span class="token punctuation">)</span>
+
+    <span class="token punctuation">{</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>noise <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
+
+        <span class="token comment">// Apply shake settings</span>
+
+        noise<span class="token punctuation">.</span>m_AmplitudeGain <span class="token operator">=</span> settings<span class="token punctuation">.</span>intensity<span class="token punctuation">;</span>
+
+        noise<span class="token punctuation">.</span>m_FrequencyGain <span class="token operator">=</span> settings<span class="token punctuation">.</span>frequency<span class="token punctuation">;</span>
+
+        <span class="token comment">// Set timer</span>
+
+        shakeTimer <span class="token operator">=</span> settings<span class="token punctuation">.</span>duration<span class="token punctuation">;</span>
+
+        Debug<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span><span class="token interpolation-string"><span class="token string">$"Camera shake triggered - Intensity: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">settings<span class="token punctuation">.</span>intensity</span><span class="token punctuation">}</span></span><span class="token string">, Duration: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token expression language-csharp">settings<span class="token punctuation">.</span>duration</span><span class="token punctuation">}</span></span><span class="token string">s"</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span>
+
+    <span class="token doc-comment comment">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span></span>
+
+    <span class="token doc-comment comment">/// Quick shake method with just intensity and duration</span>
+
+    <span class="token doc-comment comment">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span></span>
+
+    <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">TriggerShake</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">float</span></span> intensity<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">float</span></span> duration<span class="token punctuation">)</span>
+
+    <span class="token punctuation">{</span>
+
+        <span class="token class-name">ShakeSettings</span> quickShake <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token constructor-invocation class-name">ShakeSettings</span><span class="token punctuation">(</span>intensity<span class="token punctuation">,</span> duration<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token function">TriggerShake</span><span class="token punctuation">(</span>quickShake<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span>
+
+    <span class="token doc-comment comment">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span></span>
+
+    <span class="token doc-comment comment">/// Stop shake immediately and restore original settings</span>
+
+    <span class="token doc-comment comment">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span></span>
+
+    <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">StopShake</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token punctuation">{</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>noise <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
+
+        noise<span class="token punctuation">.</span>m_AmplitudeGain <span class="token operator">=</span> originalAmplitude<span class="token punctuation">;</span>
+
+        noise<span class="token punctuation">.</span>m_FrequencyGain <span class="token operator">=</span> originalFrequency<span class="token punctuation">;</span>
+
+        shakeTimer <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+        Debug<span class="token punctuation">.</span><span class="token function">Log</span><span class="token punctuation">(</span><span class="token string">"Camera shake stopped"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span>
+
+    <span class="token doc-comment comment">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span><span class="token punctuation">&gt;</span></span></span>
+
+    <span class="token doc-comment comment">/// Gradually reduce shake intensity over time for smoother transitions</span>
+
+    <span class="token doc-comment comment">/// <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">&gt;</span></span></span>
+
+    <span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">StartDecayingShake</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">float</span></span> initialIntensity<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">float</span></span> totalDuration<span class="token punctuation">)</span>
+
+    <span class="token punctuation">{</span>
+
+        <span class="token function">StartCoroutine</span><span class="token punctuation">(</span><span class="token function">DecayingShakeCoroutine</span><span class="token punctuation">(</span>initialIntensity<span class="token punctuation">,</span> totalDuration<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">private</span> <span class="token return-type class-name">System<span class="token punctuation">.</span>Collections<span class="token punctuation">.</span>IEnumerator</span> <span class="token function">DecayingShakeCoroutine</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">float</span></span> initialIntensity<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">float</span></span> duration<span class="token punctuation">)</span>
+
+    <span class="token punctuation">{</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>noise <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token keyword">yield</span> <span class="token keyword">break</span><span class="token punctuation">;</span>
+
+        <span class="token class-name"><span class="token keyword">float</span></span> timer <span class="token operator">=</span> <span class="token number">0f</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">while</span> <span class="token punctuation">(</span>timer <span class="token operator">&lt;</span> duration<span class="token punctuation">)</span>
+
+        <span class="token punctuation">{</span>
+
+            timer <span class="token operator">+=</span> Time<span class="token punctuation">.</span>deltaTime<span class="token punctuation">;</span>
+
+            <span class="token class-name"><span class="token keyword">float</span></span> progress <span class="token operator">=</span> timer <span class="token operator">/</span> duration<span class="token punctuation">;</span>
+
+            <span class="token comment">// Exponential decay for natural feeling</span>
+
+            <span class="token class-name"><span class="token keyword">float</span></span> currentIntensity <span class="token operator">=</span> initialIntensity <span class="token operator">*</span> Mathf<span class="token punctuation">.</span><span class="token function">Exp</span><span class="token punctuation">(</span><span class="token operator">-</span>progress <span class="token operator">*</span> <span class="token number">3f</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            noise<span class="token punctuation">.</span>m_AmplitudeGain <span class="token operator">=</span> currentIntensity<span class="token punctuation">;</span>
+
+            <span class="token keyword">yield</span> <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+
+        <span class="token punctuation">}</span>
+
+        <span class="token function">StopShake</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-h3 heading-wrapper"><h3 data-heading="Setting Up Camera Shake 🔧" dir="auto" class="heading" id="Setting_Up_Camera_Shake_🔧"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Setting Up Camera Shake 🔧</h3><div class="heading-children"><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><strong>Select your Virtual Camera</strong></li>
+<li data-line="1" dir="auto"><strong>Noise → CinemachineBasicMultiChannelPerlin</strong></li>
+<li data-line="2" dir="auto"><strong>Assign a noise profile and set the <code>Amplitude Gain</code> and <code>Frequency Gain</code> lower (0-0.25)</strong></li>
+<li data-line="3" dir="auto"><strong>Create an empty GameObject</strong> and add the CameraShakeController script</li>
+<li data-line="4" dir="auto"><strong>Drag your Virtual Camera</strong> into the script's "Virtual Camera" field</li>
+<li data-line="5" dir="auto"><strong>Press Play</strong> and test with <strong>1, 2, 3 keys</strong>!</li>
+</ol></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="example" class="callout drop-shadow"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></div><div class="callout-title-inner">When to Use Different Shake Intensities</div></div><div class="callout-content">
+<ul>
+<li data-line="2" dir="auto"><strong>Light Shake (0.5):</strong> Footsteps, small impacts, UI feedback</li>
+<li data-line="3" dir="auto"><strong>Medium Shake (1.0):</strong> Weapon firing, landing from heights, explosions nearby</li>
+<li data-line="4" dir="auto"><strong>Heavy Shake (2.0):</strong> Boss attacks, huge explosions, dramatic moments</li>
+</ul>
+</div></div></div><div class="el-hr"><hr></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="💡 Additional Tips and Useful Camera Assets" dir="auto" class="heading" id="💡_Additional_Tips_and_Useful_Camera_Assets"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>💡 Additional Tips and Useful Camera Assets</h2><div class="heading-children"><div class="el-h3 heading-wrapper"><h3 data-heading="Camera Stacking 📚" dir="auto" class="heading" id="Camera_Stacking_📚"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Camera Stacking 📚</h3><div class="heading-children"><div class="el-p"><p dir="auto">With Unity's Scriptable Render Pipelines (URP/HDRP), you can <strong><a data-tooltip-position="top" aria-label="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.2/manual/camera-stacking.html" rel="noopener nofollow" class="external-link" href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.2/manual/camera-stacking.html" target="_blank">stack multiple cameras</a></strong> to render different parts of your game separately. This powerful technique allows you to:</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>UI Camera:</strong> Render user interface elements with different post-processing</li>
+<li data-line="1" dir="auto"><strong>Player Camera:</strong> Focus on character with specific visual effects</li>
+<li data-line="2" dir="auto"><strong>Environment Camera:</strong> Handle world rendering with separate optimization</li>
+<li data-line="3" dir="auto"><strong>Effects Camera:</strong> Overlay special effects or HUD elements</li>
+</ul></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="example" class="callout drop-shadow"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-list"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></div><div class="callout-title-inner">Camera Stacking Use Cases</div></div><div class="callout-content">
+<ul>
+<li data-line="2" dir="auto"><strong>UI overlays</strong> that don't get affected by world post-processing</li>
+<li data-line="3" dir="auto"><strong>Minimap cameras</strong> rendering a top-down view simultaneously</li>
+<li data-line="4" dir="auto"><strong>Picture-in-picture</strong> effects for security cameras or scopes</li>
+<li data-line="5" dir="auto"><strong>Different render styles</strong> per layer (realistic world + stylized UI)</li>
+</ul>
+</div></div></div><div class="el-iframe"><iframe allowfullscreen="" allow="encrypted-media;picture-in-picture" frameborder="0" title="YouTube video player" src="https://www.youtube.com/embed/OmCjPctKkjw?si=shwS2aXA7Tb8A_LY" height="315" width="560" sandbox="allow-forms allow-presentation allow-same-origin allow-scripts allow-modals" loading="lazy"></iframe></div><div class="el-p"><p dir="auto"><strong>Quick Setup:</strong></p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto">Create additional cameras in your scene</li>
+<li data-line="1" dir="auto">Set <strong>Render Type</strong> to "Overlay" on secondary cameras</li>
+<li data-line="2" dir="auto">Add overlay cameras to main camera's <strong>Stack</strong> list</li>
+</ol></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Unity Starter Assets - Camera Examples 🎮" dir="auto" class="heading" id="Unity_Starter_Assets_-_Camera_Examples_🎮"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Unity Starter Assets - Camera Examples 🎮</h3><div class="heading-children"><div class="el-p"><p dir="auto">Unity's <strong><a data-tooltip-position="top" aria-label="https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-updates-in-new-charactercontroller-pa-196526" rel="noopener nofollow" class="external-link" href="https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-updates-in-new-charactercontroller-pa-196526" target="_blank">Starter Assets</a></strong> packages provide excellent Cinemachine implementations that serve as perfect learning references:</p></div><div class="el-h4 heading-wrapper"><h4 data-heading="First Person Controller" dir="auto" class="heading" id="First_Person_Controller"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>First Person Controller</h4><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Pre-configured mouse look</strong> system with Cinemachine</li>
+<li data-line="1" dir="auto"><strong>Smooth camera rotation</strong> with customizable sensitivity</li>
+<li data-line="2" dir="auto"><strong>Great foundation</strong> for FPS games and first-person exploration</li>
+</ul></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Third Person Controller" dir="auto" class="heading" id="Third_Person_Controller"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Third Person Controller</h4><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Professional 3rd-person camera</strong> setup using Cinemachine</li>
+<li data-line="1" dir="auto"><strong>Orbit controls</strong> with collision detection and smoothing</li>
+<li data-line="2" dir="auto"><strong>Industry-standard</strong> character following and framing</li>
+</ul></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="tip" class="callout drop-shadow"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-flame"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg></div><div class="callout-title-inner">How to Access Starter Assets</div></div><div class="callout-content">
+<ol>
+<li data-line="2" dir="auto"><strong>Go to the Unity Asset Store and search for</strong> <code>Starter Assets</code>. <strong>Add them to your assets (they are free).</strong></li>
+<li data-line="3" dir="auto"><strong>Window → Package Manager</strong></li>
+<li data-line="4" dir="auto"><strong>My Assets → Search "Starter Assets"</strong></li>
+<li data-line="5" dir="auto"><strong>Install First Person</strong> or <strong>Third Person</strong> package</li>
+<li data-line="6" dir="auto"><strong>Study the camera scripts</strong> and Cinemachine configurations!</li>
+</ol>
+</div></div></div><div class="el-p"><p dir="auto">These assets demonstrate <strong>real-world camera implementations</strong> that you can learn from and adapt for your own projects.</p></div><div class="el-hr"><hr></div></div></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="🔧 Troubleshooting Common Cinemachine Issues" dir="auto" class="heading" id="🔧_Troubleshooting_Common_Cinemachine_Issues"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>🔧 Troubleshooting Common Cinemachine Issues</h2><div class="heading-children"><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="warning" class="callout drop-shadow"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-alert-triangle"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">Problem: "My Virtual Camera isn't active!" <strong>Solution:</strong> Check these in order:</div></div><div class="callout-content">
+<ol>
+<li data-line="2" dir="auto">✅ Does Main Camera have <strong>Cinemachine Brain</strong> component?</li>
+<li data-line="3" dir="auto">✅ Is Virtual Camera <strong>Priority</strong> higher than others (try 10)?</li>
+<li data-line="4" dir="auto">✅ Is Virtual Camera <strong>enabled</strong> in hierarchy?</li>
+</ol>
+</div></div></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="warning" class="callout drop-shadow"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-alert-triangle"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">Problem: "Camera shake isn't working!" <strong>Solution:</strong></div></div><div class="callout-content">
+<ol start="4">
+<li data-line="2" dir="auto">✅ Did you add <strong>BasicMultiChannelPerlin</strong> extension to Virtual Camera?</li>
+<li data-line="3" dir="auto">✅ Is the <strong>amplitude</strong> value greater than 0?</li>
+<li data-line="4" dir="auto">✅ Are you calling the shake function correctly?</li>
+</ol>
+</div></div></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="warning" class="callout drop-shadow"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-alert-triangle"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg></div><div class="callout-title-inner">Problem: "Camera movement is too jerky!" <strong>Solution:</strong></div></div><div class="callout-content">
+<ol start="7">
+<li data-line="2" dir="auto">✅ Increase <strong>damping</strong> values in Transposer settings</li>
+<li data-line="3" dir="auto">✅ Check if <strong>target framerate</strong> is consistent</li>
+<li data-line="4" dir="auto">✅ Reduce prediction strength if using movement prediction</li>
+</ol>
+</div></div></div><div class="el-hr"><hr></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="📈 Performance Optimization Tips" dir="auto" class="heading" id="📈_Performance_Optimization_Tips"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>📈 Performance Optimization Tips</h2><div class="heading-children"><div class="el-p"><p dir="auto"><strong>Performance Guidelines:</strong></p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Set inactive virtual cameras to <strong>"Never"</strong> for Standby Update mode</li>
+<li data-line="1" dir="auto">Limit simultaneous active virtual cameras (recommend maximum 3-4)</li>
+<li data-line="2" dir="auto">Use object pooling for frequently created/destroyed cameras</li>
+<li data-line="3" dir="auto">Consider Timeline for complex sequences instead of runtime switching</li>
+</ul></div><div class="el-hr"><hr></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="🎓 Extension Opportunities" dir="auto" class="heading" id="🎓_Extension_Opportunities"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>🎓 Extension Opportunities</h2><div class="heading-children"><div class="el-p"><p dir="auto"><strong>For Advanced Students:</strong></p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Add camera behaviors for specific gameplay scenarios (combat lock-on, stealth mode, puzzle solving)</li>
+<li data-line="1" dir="auto">Experiment with custom Cinemachine extensions for unique creative effects</li>
+<li data-line="2" dir="auto">Create dynamic camera systems that respond to music or gameplay metrics</li>
+<li data-line="3" dir="auto">Integrate with AI systems for intelligent camera positioning</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Portfolio Projects:</strong></p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Horror Game:</strong> Camera system that builds tension through limitation and reveals</li>
+<li data-line="1" dir="auto"><strong>Racing Game:</strong> Speed-responsive camera with multiple viewpoint options</li>
+<li data-line="2" dir="auto"><strong>Platformer:</strong> Predictive camera that shows upcoming challenges</li>
+<li data-line="3" dir="auto"><strong>RPG:</strong> Context-sensitive camera that adapts to different gameplay modes</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="tip" class="callout drop-shadow"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-flame"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg></div><div class="callout-title-inner">Remember: Great camera work is invisible to the player but essential to the experience. Focus on how your cameras make the game <strong>feel</strong> rather than just how they look!</div></div></div></div><div class="el-hr"><hr></div><div class="el-div"><div data-callout-metadata="" data-callout-fold="" data-callout="info" class="callout drop-shadow"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-info"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></div><div class="callout-title-inner">🧭 Module Navigation </div></div><div class="callout-content">
+<p dir="auto"><strong>Previous:</strong> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" data-href="GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals" href="gmap-395/module-4/submodules/gmap-395-module-4c-cinemachine-and-camera-systems-fundamentals.html" class="internal-link" target="_self" rel="noopener nofollow">Module 4C</a><br>
+<strong>Return to:</strong> <a data-tooltip-position="top" aria-label="GMAP 395 - Module 4" data-href="GMAP 395 - Module 4" href="gmap-395/module-4/gmap-395-module-4.html" class="internal-link" target="_self" rel="noopener nofollow">Module Page</a></p>
+</div></div></div><div class="mod-footer mod-ui"></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button is-collapsed" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#Module 4D: Camera Effects Scripting and Advanced Techniques"><div class="tree-item-contents heading-link" heading-name="Module 4D: Camera Effects Scripting and Advanced Techniques"><span class="tree-item-title">Module 4D: Camera Effects Scripting and Advanced Techniques</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item mod-collapsible is-collapsed" data-depth="2"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#🚀_Practical_Cinemachine_Implementation"><div class="tree-item-contents heading-link" heading-name="🚀 Practical Cinemachine Implementation"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">🚀 Practical Cinemachine Implementation</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="3"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#Essential_Setup_Process_⚙️"><div class="tree-item-contents heading-link" heading-name="Essential Setup Process ⚙️"><span class="tree-item-title">Essential Setup Process ⚙️</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#Your_First_Virtual_Camera_Setup_📸"><div class="tree-item-contents heading-link" heading-name="Your First Virtual Camera Setup 📸"><span class="tree-item-title">Your First Virtual Camera Setup 📸</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item mod-collapsible is-collapsed" data-depth="2"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#💻_Core_Camera_Control_Scripts"><div class="tree-item-contents heading-link" heading-name="💻 Core Camera Control Scripts"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">💻 Core Camera Control Scripts</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="3"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#Basic_Multi-Camera_System"><div class="tree-item-contents heading-link" heading-name="Basic Multi-Camera System"><span class="tree-item-title">Basic Multi-Camera System</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#How_to_Use_the_Camera_Switcher_📝"><div class="tree-item-contents heading-link" heading-name="How to Use the Camera Switcher 📝"><span class="tree-item-title">How to Use the Camera Switcher 📝</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item mod-collapsible is-collapsed" data-depth="2"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#📳_Professional_Camera_Shake_Implementation"><div class="tree-item-contents heading-link" heading-name="📳 Professional Camera Shake Implementation"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">📳 Professional Camera Shake Implementation</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="3"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#Setting_Up_Camera_Shake_🔧"><div class="tree-item-contents heading-link" heading-name="Setting Up Camera Shake 🔧"><span class="tree-item-title">Setting Up Camera Shake 🔧</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item mod-collapsible is-collapsed" data-depth="2"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#💡_Additional_Tips_and_Useful_Camera_Assets"><div class="tree-item-contents heading-link" heading-name="💡 Additional Tips and Useful Camera Assets"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">💡 Additional Tips and Useful Camera Assets</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="3"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#Camera_Stacking_📚"><div class="tree-item-contents heading-link" heading-name="Camera Stacking 📚"><span class="tree-item-title">Camera Stacking 📚</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible is-collapsed" data-depth="3"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#Unity_Starter_Assets_-_Camera_Examples_🎮"><div class="tree-item-contents heading-link" heading-name="Unity Starter Assets - Camera Examples 🎮"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Unity Starter Assets - Camera Examples 🎮</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="4"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#First_Person_Controller"><div class="tree-item-contents heading-link" heading-name="First Person Controller"><span class="tree-item-title">First Person Controller</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#Third_Person_Controller"><div class="tree-item-contents heading-link" heading-name="Third Person Controller"><span class="tree-item-title">Third Person Controller</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#🔧_Troubleshooting_Common_Cinemachine_Issues"><div class="tree-item-contents heading-link" heading-name="🔧 Troubleshooting Common Cinemachine Issues"><span class="tree-item-title">🔧 Troubleshooting Common Cinemachine Issues</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#📈_Performance_Optimization_Tips"><div class="tree-item-contents heading-link" heading-name="📈 Performance Optimization Tips"><span class="tree-item-title">📈 Performance Optimization Tips</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="gmap-395\module-4\submodules\gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html#🎓_Extension_Opportunities"><div class="tree-item-contents heading-link" heading-name="🎓 Extension Opportunities"><span class="tree-item-title">🎓 Extension Opportunities</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

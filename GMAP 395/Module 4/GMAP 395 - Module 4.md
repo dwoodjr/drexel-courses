@@ -30,8 +30,8 @@ Demos are in submodule videos.
 #### Assignments
 
 [[GMAP 395 - ASN 4 - Brief|Assignment 4 - Camera Effects and Post-Processing]] 
-~~GMAP 395 - Week 9 - TPS|Week 9 Think-Pair-Share~~
-[[GMAP 395 - Week 10 - TPS|Week 10 Think-Pair-Share]]
+~~GMAP 395 - Week 8 - TPS|Week 9 Think-Pair-Share~~
+[[GMAP 395 - Week 9 - TPS|Week 9 Think-Pair-Share]]
 
 #### Legacy Content
 
