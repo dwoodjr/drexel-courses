@@ -63,7 +63,11 @@
     "//DIGM 553/DIGM 553/Documents",
     "//docs/docs/gmap-395/docs/gmap-395/introduction",
     "//DIGM 553/DIGM 553/Threads",
-    "//DIGM 553/DIGM 553/Assignments"
+    "//DIGM 553/DIGM 553/Assignments",
+    "//docs",
+    "//docs/docs/digm-553",
+    "//docs/docs/digm-553/docs/digm-553/assignments",
+    "//docs/docs/digm-553/docs/digm-553/threads"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
