@@ -1,0 +1,16 @@
+<script>
+/* Canvas SPA fix — forces full page reload when navigating to canvas pages.
+   Workaround for webpage-html-export v1.9.2 bug: postLoadInit crashes on
+   canvas pages when loaded via SPA navigation (null setAttribute error).
+   See: https://github.com/KosmosisDire/obsidian-webpage-export/issues */
+document.addEventListener('click', function(e) {
+    var link = e.target.closest('a');
+    if (!link) return;
+    var href = link.getAttribute('href') || '';
+    if (href.indexOf('-canvas.html') !== -1 || href.indexOf('.canvas') !== -1) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        window.location.href = link.href;
+    }
+}, true); /* capture phase — fires before SPA listener */
+</script>
