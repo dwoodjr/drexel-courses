@@ -65,9 +65,7 @@
     "//DIGM 553/DIGM 553/Threads",
     "//DIGM 553/DIGM 553/Assignments",
     "//docs",
-    "//docs/docs/digm-553",
-    "//docs/docs/digm-553/docs/digm-553/assignments",
-    "//docs/docs/digm-553/docs/digm-553/threads"
+    "//docs/docs/digm-553"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

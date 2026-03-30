@@ -69,19 +69,19 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
+                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
                 "viewState": {
                   "x": -300.20299546062284,
-                  "y": 166.95653407580824,
+                  "y": -38.53841136463066,
                   "zoom": -1.143800287037423
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Week 01"
+              "title": "Week 01-Canvas"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -312,11 +312,12 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "b9a040f1a06d88d2",
+  "active": "7c65d564720c1863",
   "lastOpenFiles": [
+    "docs/digm-553/week-01-practice-immanent-critique/week-01-canvas.html",
     "DIGM 553/DIGM 553 - Welcome.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 - Presentation.html",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
     "docs/site-lib/styles/other-plugins.css",
