@@ -14,3 +14,26 @@ document.addEventListener('click', function(e) {
     }
 }, true); /* capture phase — fires before SPA listener */
 </script>
+<style>
+/* Hide desktop-only editing controls on published canvas pages */
+
+/* "Disable read-only" lock button — irrelevant on published site */
+.canvas-control-item[aria-label="Disable read-only"] { display: none !important; }
+
+/* Undo/Redo buttons — only meaningful in the desktop app */
+.canvas-control-item[aria-label="Undo"],
+.canvas-control-item[aria-label="Redo"] { display: none !important; }
+
+/* Canvas node editing toolbar (text formatting bar) — only in edit mode */
+.canvas-node-toolbar,
+.canvas-node-container .formatting-toolbar,
+.canvas-node-container .view-header { display: none !important; }
+
+/* Hide right sidebar action icons that mimic the desktop ribbon */
+.sidebar-topbar .sidebar-collapse-icon { opacity: 0.4; }
+
+/* Prevent canvas nodes from appearing clickable-to-edit on published site */
+.canvas-wrapper.mod-readonly .canvas-node:hover {
+    cursor: default;
+}
+</style>
