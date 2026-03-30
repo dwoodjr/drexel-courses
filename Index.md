@@ -18,22 +18,18 @@ title: 🐲 Drexel Courses List
 🤖 [[GMAP 395 - Welcome|GMAP 395]]: ***Advanced Game Art and Production*** 
 	*Technical art for games: shaders, procedural modeling, lighting systems, and real-time workflows.*
 
-🛠️ GMAP 345: ***Game Development Foundations*** 
+🎲 GMAP 345: ***Game Development Foundations*** 
 
-📜 GMAP 231: ***Scripting for Game Design***  
+🚍 GMAP 231: ***Scripting for Game Design***  
 
 ---
 
 ### 🎥 **DIGM Courses**
-📜 GMAP 131: ***Introduction to Scripting for the Digital Content Creation Pipeline*** 
-	*Scripting fundamentals for automating workflows, optimizing pipelines, and enhancing digital content creation processes.*
+⛩️ DIGM 131: ***Introduction to Scripting for the Digital Content Creation Pipeline*** 
+	*Scripting fundamentals for automating workflows and pipelines, and enhancing digital content creation processes.*
 
----
-
-## 💡 **Why Take These Courses?**
-> 🧠 **Expand Your Skills**: Learn techniques in digital media and game production.  
-> 🎯 **Build Your Portfolio**: Create projects that can stand out in a portfolio.  
-> 🌐 **Collaborate and Innovate**: Work with peers to tackle creative challenges.
+🧰 [[DIGM 553/DIGM 553 - Welcome|DIGM 553]]: ***Experimental Digital Media Lab***
+	 *Graduate studio course in research-creation: epistemic tools, entanglement, enabling constraints, and physical-digital making.*
 
 ---
 > [!tip] Use the links above to jump directly to the course materials, assignments, and other resources for each course.

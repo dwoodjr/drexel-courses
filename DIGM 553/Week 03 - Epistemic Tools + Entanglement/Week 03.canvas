@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Week 03: Epistemic Tools + Entanglement\n\nTools are not neutral. The Epistemic Tool Audit: what does your tool know, and what does it foreclose?",
+      "x": -200,
+      "y": -340,
+      "width": 600,
+      "height": 180,
+      "color": "1"
+    },
+    {
+      "id": "subA",
+      "type": "file",
+      "file": "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03A - Magnusson \u2014 Epistemic Tools.md",
+      "x": -690,
+      "y": -100,
+      "width": 420,
+      "height": 260
+    },
+    {
+      "id": "subB",
+      "type": "file",
+      "file": "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03B - Agre \u2014 Critical Technical Practice.md",
+      "x": -230,
+      "y": -100,
+      "width": 420,
+      "height": 260
+    },
+    {
+      "id": "subC",
+      "type": "file",
+      "file": "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03C - Barad \u2014 Entanglement and Intra-action.md",
+      "x": 230,
+      "y": -100,
+      "width": 420,
+      "height": 260
+    },
+    {
+      "id": "subD",
+      "type": "file",
+      "file": "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03D - Epistemic Tool Audit Workshop.md",
+      "x": 690,
+      "y": -100,
+      "width": 420,
+      "height": 260
+    },
+    {
+      "id": "thread_Epistemic_Tools",
+      "type": "file",
+      "file": "DIGM 553/Threads/Epistemic Tools.md",
+      "x": -510,
+      "y": 220,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "thread_Entanglement",
+      "type": "file",
+      "file": "DIGM 553/Threads/Entanglement.md",
+      "x": -170,
+      "y": 220,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "thread_Research_Creation",
+      "type": "file",
+      "file": "DIGM 553/Threads/Research-Creation.md",
+      "x": 170,
+      "y": 220,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "thread_Physical_Digital_Entanglement",
+      "type": "file",
+      "file": "DIGM 553/Threads/Physical-Digital Entanglement.md",
+      "x": 510,
+      "y": 220,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_title_subA",
+      "fromNode": "title",
+      "toNode": "subA",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_title_subB",
+      "fromNode": "title",
+      "toNode": "subB",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_title_subC",
+      "fromNode": "title",
+      "toNode": "subC",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_title_subD",
+      "fromNode": "title",
+      "toNode": "subD",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_subA_thread_Epistemic_Tools",
+      "fromNode": "subA",
+      "toNode": "thread_Epistemic_Tools",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_subB_thread_Entanglement",
+      "fromNode": "subB",
+      "toNode": "thread_Entanglement",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_subC_thread_Research_Creation",
+      "fromNode": "subC",
+      "toNode": "thread_Research_Creation",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_subD_thread_Physical_Digital_Entanglement",
+      "fromNode": "subD",
+      "toNode": "thread_Physical_Digital_Entanglement",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ]
+}

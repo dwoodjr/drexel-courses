@@ -1,2 +1,11 @@
 # Ignore the data.json file
 data.json
+
+# Instructor-only Notes folders — never committed, never published
+# Catches: Notes/, Notes - FOR INSTRUCTOR ONLY/, Notes - Anything Else/
+**/*Notes*/
+**/*Notes*/**
+
+# Obsidian internal
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

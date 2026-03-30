@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Week 10: Creatively Return to Chaos\n\nFinal studio time. One-on-one check-ins. Let the work find its final form.",
+      "x": -200,
+      "y": -340,
+      "width": 600,
+      "height": 180,
+      "color": "1"
+    },
+    {
+      "id": "subA",
+      "type": "file",
+      "file": "DIGM 553/Week 10 - Creatively Return to Chaos/submodules/DIGM 553 - W10A - Final Studio Time.md",
+      "x": -230,
+      "y": -100,
+      "width": 420,
+      "height": 260
+    },
+    {
+      "id": "subB",
+      "type": "file",
+      "file": "DIGM 553/Week 10 - Creatively Return to Chaos/submodules/DIGM 553 - W10B - Journal Installment 3 \u2014 Process Seed Reflection.md",
+      "x": 230,
+      "y": -100,
+      "width": 420,
+      "height": 260
+    },
+    {
+      "id": "thread_Research_Creation",
+      "type": "file",
+      "file": "DIGM 553/Threads/Research-Creation.md",
+      "x": -340,
+      "y": 220,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "thread_Failure_as_Method",
+      "type": "file",
+      "file": "DIGM 553/Threads/Failure as Method.md",
+      "x": 0,
+      "y": 220,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "thread_Physical_Digital_Entanglement",
+      "type": "file",
+      "file": "DIGM 553/Threads/Physical-Digital Entanglement.md",
+      "x": 340,
+      "y": 220,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_title_subA",
+      "fromNode": "title",
+      "toNode": "subA",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_title_subB",
+      "fromNode": "title",
+      "toNode": "subB",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_subA_thread_Research_Creation",
+      "fromNode": "subA",
+      "toNode": "thread_Research_Creation",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_subB_thread_Failure_as_Method",
+      "fromNode": "subB",
+      "toNode": "thread_Failure_as_Method",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_subB_thread_Physical_Digital_Entanglement",
+      "fromNode": "subB",
+      "toNode": "thread_Physical_Digital_Entanglement",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ]
+}

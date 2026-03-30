@@ -8,77 +8,75 @@
         "type": "tabs",
         "children": [
           {
-            "id": "031858239191d5fb",
+            "id": "97fd76d548650673",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/GMAP 395 - Syllabus.md",
+                "file": "Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Syllabus"
+              "title": "Index"
             }
           },
           {
-            "id": "f36fd8c2d4c65388",
+            "id": "d8e3848e43a2f228",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "GMAP 395/Module 4/submodules/GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals.md",
-                "mode": "source",
-                "source": false
+                "file": "DIGM 553/Documents/DIGM_553_SP_2026-2.pdf"
               },
-              "icon": "lucide-file",
-              "title": "GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals"
+              "icon": "lucide-file-text",
+              "title": "DIGM_553_SP_2026-2"
             }
           },
           {
-            "id": "b894300e5ebef4de",
+            "id": "4801e17345e50728",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Module 4/submodules/GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques.md",
-                "mode": "source",
+                "file": "DIGM 553/DIGM 553 - Welcome.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques"
+              "title": "DIGM 553 - Welcome"
             }
           },
           {
-            "id": "6d3c5c724f533f32",
+            "id": "84facb001c6178ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/Weeklies/GMAP 395 - Week 9 - TPS.md",
+                "file": "DIGM 553/Notes - FOR INSTRUCTOR ONLY/W01 Day One — Run of Show + Opening.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Week 9 - TPS"
+              "title": "W01 Day One — Run of Show + Opening"
             }
           },
           {
-            "id": "edfb3c0a825698b6",
+            "id": "b9a040f1a06d88d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
+                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GMAP 395 - Final Project - Details and Requirements"
+              "title": "Week 01"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,7 +130,7 @@
             }
           },
           {
-            "id": "679564359837bb53",
+            "id": "cc1a9e483d34142b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -146,7 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 488.5
+    "width": 606.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -155,7 +153,7 @@
       {
         "id": "93b3ddf4fd75b166",
         "type": "tabs",
-        "dimension": 40.88235294117647,
+        "dimension": 45.31974050046338,
         "children": [
           {
             "id": "81e14ee526097519",
@@ -258,13 +256,24 @@
               "icon": "clock",
               "title": "Chronology"
             }
+          },
+          {
+            "id": "451566b4a77fcbe8",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "file-digit",
+              "title": "Strange New Worlds"
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       },
       {
         "id": "654ae1b2ef08042f",
         "type": "tabs",
-        "dimension": 59.11764705882353,
+        "dimension": 54.68025949953662,
         "children": [
           {
             "id": "2b9aa3d6b77b12e1",
@@ -280,13 +289,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 508.5
+    "width": 357.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
       "obsidian-importer:Open Importer": false,
-      "media-extended:Open media": false,
       "obsidian-camera:Obsidian Camera": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -294,7 +302,6 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "webpage-html-export:Export Vault to HTML": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
@@ -305,56 +312,68 @@
       "markdown-importer:Open format converter": false,
       "iconic:Open rulebook": false,
       "chronology:Open Chronology": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "media-extended:Open external media": false,
+      "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "81e14ee526097519",
+  "active": "b9a040f1a06d88d2",
   "lastOpenFiles": [
-    "Index.md",
-    "GMAP 395/GMAP 395 - Welcome.md",
-    "GMAP 395/GMAP 395 - Syllabus.md",
-    "GMAP 395/GMAP 395 - SU25 - Theme.md",
-    "GMAP 395/GMAP 395 - Student Examples.md",
-    "GMAP 395/GMAP 395 - Guide - Procedural Modeling Fundamentals.md",
-    "GMAP 395/GMAP 395 - Guide - CT and CPS.md",
-    "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
-    "GMAP 395/Weeklies/Six Thinking Hats Giving Good Game Design Feedback.md",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 5.md",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 4.md",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 2.md",
-    "GMAP 395/Weeklies/GMAP 395 - Weekly - 1.md",
-    "GMAP 395/Weeklies/GMAP 395 - Week 9 - TPS.md",
-    "GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md",
-    "GMAP 395/Weeklies/GMAP 395 - Week 6 - TPS.md",
-    "GMAP 395/Module 4/GMAP 395 - Module 4.md",
-    "GMAP 395/Module 4/tutorials/GMAP 395 - WK 9 - Tutorial.md",
-    "GMAP 395/Module 4/tutorials/GMAP 395 - Guides - Custom Post-Processing Effects.md",
-    "GMAP 395/Module 4/submodules/GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals.md",
-    "GMAP 395/Module 4/submodules/GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity.md",
-    "GMAP 395/Module 4/legacy/GMAP 395 - WK 9 - Slides + Video.md",
-    "GMAP 395/Module 3/GMAP 395 - Module 3.md",
-    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 7 - Tutorial.md",
-    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 6 - Tutorial.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md",
-    "docs/gmap-395/bonus-proc-audio/bonus-proc-audio.html",
-    "docs/gmap-395/weeklies/gmap-395-week-9-tps.html",
-    "docs/gmap-395/module-4/submodules/gmap-395-module-4d-camera-effects-scripting-and-advanced-techniques.html",
+    "docs/site-lib/styles/theme.css",
+    "docs/site-lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "docs/site-lib/styles/supported-plugins.css",
+    "docs/site-lib/styles/obsidian.css",
+    "docs/site-lib/styles/global-variable-styles.css",
+    "docs/site-lib/styles/main-styles.css",
+    "docs/site-lib/scripts/webpage.js",
+    "docs/site-lib/scripts/graph-wasm.wasm",
+    "docs/site-lib/media/favicon.png",
+    "docs/site-lib/scripts/graph-wasm.js",
+    "docs/site-lib/scripts/graph-render-worker.js",
+    "docs/site-lib/media/6155340132a851f6089e.svg",
+    "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
+    "docs/site-lib/fonts/c504db5c06caaf7cdfba.woff2",
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
+    "DIGM 553/DIGM 553 - Welcome.md",
+    "DIGM 553/DIGM 553 - Syllabus.md",
+    "DIGM 553/Assignments/Assignments.md",
+    "DIGM 553/Assignments/ASN 1 — Potluck + Speculative Proposal.md",
+    "DIGM 553/Assignments/ASN 3 — Experimental Media Project.md",
+    "DIGM 553/Assignments/ASN 4 — Structured Dialogue + Participation.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/submodules.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/media/media.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Notes/Notes.md",
+    "DIGM 553/Documents/Documents.md",
+    "DIGM 553/DIGM 553.canvas",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01B - Epistemic Tools Introduction.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Notes/W01 Instructor Framing — Woodland Gloss.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01C - Hardware and Software Inventory.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01A - Research-Creation as Method.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
+    "DIGM 553/Assignments/ASN 2 — Critical Technical Journal.md",
+    "DIGM 553/Assignments/ASN 5 — Final Presentation.md",
+    "DIGM 553/Threads/Research-Creation.md",
+    "DIGM 553/Threads/Epistemic Tools.md",
+    "DIGM 553/Threads/Enabling Constraints.md",
+    "DIGM 553/Threads/Entanglement.md",
+    "DIGM 553/Threads/Failure as Method.md",
+    "DIGM 553/Threads/Physical-Digital Entanglement.md",
+    "DIGM 553/Threads/Making Public.md",
+    "DIGM 553/Week 11 - Proceed/Week 11.canvas",
+    "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
+    "DIGM 553/Week 09 - Render Formative Forces/Week 09.canvas",
+    "DIGM 553/Week 08 - Practice Letting Go/Week 08.canvas",
+    "DIGM 553/Week 07 - Embrace Failure/Week 07.canvas",
+    "DIGM 553/Week 06 - Invent Platforms for Relation/Week 06.canvas",
+    "DIGM 553/Week 05 - Enact Thought/Week 05.canvas",
+    "DIGM 553/Week 04 - Design Enabling Constraints/Week 04.canvas",
     "docs/lib/media/marioworldcamera.png",
     "docs/lib/media/z-targeting_29.png",
     "docs/lib/media/mario64camera.png",
-    "docs/gmap-395/module-4/submodules/gmap-395-module-4c-cinemachine-and-camera-systems-fundamentals.html",
     "docs/gmap-395/module-4/media/z-targeting_29.png",
     "docs/gmap-395/module-4/media/marioworldcamera.png",
     "docs/gmap-395/module-4/media/mario64camera.png",
-    "GMAP 395/Module 4/media/marioWorldCamera.png",
-    "GMAP 395/Module 4/media/Z-targeting_29.png",
-    "GMAP 395/Module 4/media/mario64camera.png",
-    "docs/lib/media/tutwk9splash.png",
-    "docs/lib/media/gmap-395-su24-tutorial-film-noir-post-processing-effect.pdf",
-    "docs/lib/media/gmap-395-su24-tutorial-pixelation-full-screen-shader-and-custom-render-pass.pdf",
-    "docs/gmap-395/module-4/tutorials/gmap-395-in-class-lab.html",
-    "docs/gmap-395/module-4/tutorials/gmap-395-wk-9-tutorial.html",
-    "docs/gmap-395/module-4/tutorials/gmap-395-guides-custom-post-processing-effects.html",
-    "docs/gmap-395/module-4/tutorials"
+    "GMAP 395/Module 4/media/marioWorldCamera.png"
   ]
 }

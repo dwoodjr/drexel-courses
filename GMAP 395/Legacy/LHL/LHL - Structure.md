@@ -1,0 +1,28 @@
+- Learning Foundations
+    - Learning How to Learn
+    - Effective Study Techniques
+    - Time Management
+- Academic Skills
+    - Note-Taking Strategies
+    - Test Preparation and Strategies
+    - Research and Information Literacy
+- Critical Thinking and Problem Solving
+    - Analytical Thinking
+    - Decision-Making Frameworks
+    - Problem-Solving Techniques
+- Creativity and Design
+    - Brainstorming Techniques
+    - Design Thinking
+    - Creative Problem Solving
+- Technical Skills
+    - Programming Basics
+    - Software Tools and Resources
+    - Technical Documentation
+- Professional Development
+    - Communication Skills
+    - Teamwork and Collaboration
+    - Career Planning
+- Wellness and Balance
+    - Stress Management
+    - Maintaining Work-Life Balance
+    - Physical and Mental Health Resources

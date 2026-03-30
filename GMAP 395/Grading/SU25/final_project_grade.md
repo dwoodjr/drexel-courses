@@ -1,0 +1,11 @@
+---
+aliases: []
+---
+
+| Criteria                     | Weight | Excellent | Good   | Satisfactory | Needs Work | Poor | Notes                                                                                                                                                                                                                                     |
+| ---------------------------- | ------ | --------- | ------ | ------------ | ---------- | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Technical Mastery**        | 40 pts | x         |        |              |            |      | Great work incorporating the modules!                                                                                                                                                                                                     |
+| **Creativity & Originality** | 20 pts | x         |        |              |            |      | I love the concept and overall execution of your grid-based tunnel system. I think this could become a good proc gen tool when filled out a bit more, maybe with some additional control parameters.                                      |
+| **Cohesion**                 | 15 pts |           | x (-2) |              |            |      | The procedural assets are working well together, I would like to see more of a "push" in the color scene. The steam asset reminds me much of the game "Sable" and it has a much simpler look/feel that the rest of the tunnel could match |
+| **Polish**                   | 15 pts |           | x (-2) |              |            |      | The overall polish is good, again I think maybe exploring more cohesion with the textures and colors of the assets to really bring them together could help.                                                                              |
+| **Presentation**             | 10 pts | x         |        |              |            |      | Nice!                                                                                                                                                                                                                                     |

@@ -30,7 +30,8 @@ Students may explore any aspect of "tomorrow" that interests them:
 
 ## Suggested Visual Approaches
 
-> [!note] Visual Suggestions (Not Requirements) These are starting points for inspiration - students are encouraged to develop their own visual language that serves their interpretation of the theme.
+> [!note] Visual Suggestions (Not Requirements) 
+> These are starting points for inspiration - students are encouraged to develop their own visual language that serves their interpretation of the theme.
 
 ### Example Aesthetic Direction:
 
@@ -118,44 +119,6 @@ _One possible interpretation focusing on technological archaeology_
 - **Interactive Flow**: How does player interaction reveal different aspects of your temporal concept across all systems?
 - **Technical Harmony**: How do performance considerations influence creative decisions while maintaining thematic integrity?
 - **Portfolio Presentation**: How does your final scene demonstrate both technical competency and personal artistic vision?
-
-
----
-
-## Assessment Integration
-
-### How Theme Connects to Evaluation
-
-- **Technical Skills** (60%): Competency in procedural workflows, regardless of aesthetic
-- **Creative Application** (25%): Thoughtful interpretation of theme through personal lens
-- **Professional Practice** (15%): Documentation, presentation, and critique participation
-
-### Theme in Critique Sessions
-
-- **Process Discussion**: How did temporal concepts influence technical decisions?
-- **Conceptual Development**: What aspects of "tomorrow" are you exploring?
-- **Peer Learning**: How do different interpretations inspire new approaches?
-- **Technical Problem-Solving**: How did theme requirements challenge or support skill development?
-
----
-
-## Future Quarter Adaptations
-
-### Quarterly Theme Options
-
-This open-ended approach can be adapted to different concepts:
-
-- **"What If...?"** - Speculative design and alternative realities
-- **"Where We've Been"** - Historical interpretation and archaeological imagination
-- **"In Between Spaces"** - Liminal areas and transitional concepts
-- **"The Invisible Made Visible"** - Revealing hidden systems and processes
-
-### Maintaining Structure
-
-- **Core framework**: Open question + suggested approaches + student freedom
-- **Technical integration**: Theme serves skill development, not the reverse
-- **Assessment consistency**: Evaluation focuses on competency and growth
-- **Cultural inclusivity**: Themes accommodate diverse perspectives and interpretations
 
 ---
 

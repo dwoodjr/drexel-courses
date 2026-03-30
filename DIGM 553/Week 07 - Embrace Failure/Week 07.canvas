@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Week 07: Embrace Failure\n\nMid-term presentations: not what you made, but what isn't working and what that reveals.",
+      "x": -200,
+      "y": -340,
+      "width": 600,
+      "height": 180,
+      "color": "1"
+    },
+    {
+      "id": "subA",
+      "type": "file",
+      "file": "DIGM 553/Week 07 - Embrace Failure/submodules/DIGM 553 - W07A - Mid-term Presentations \u2014 Failure as Aperture.md",
+      "x": -230,
+      "y": -100,
+      "width": 420,
+      "height": 260
+    },
+    {
+      "id": "subB",
+      "type": "file",
+      "file": "DIGM 553/Week 07 - Embrace Failure/submodules/DIGM 553 - W07B - Journal Installment 2 \u2014 Reflection.md",
+      "x": 230,
+      "y": -100,
+      "width": 420,
+      "height": 260
+    },
+    {
+      "id": "thread_Failure_as_Method",
+      "type": "file",
+      "file": "DIGM 553/Threads/Failure as Method.md",
+      "x": -510,
+      "y": 220,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "thread_Research_Creation",
+      "type": "file",
+      "file": "DIGM 553/Threads/Research-Creation.md",
+      "x": -170,
+      "y": 220,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "thread_Making_Public",
+      "type": "file",
+      "file": "DIGM 553/Threads/Making Public.md",
+      "x": 170,
+      "y": 220,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "thread_Collective_Practice",
+      "type": "file",
+      "file": "DIGM 553/Threads/Collective Practice.md",
+      "x": 510,
+      "y": 220,
+      "width": 300,
+      "height": 180,
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_title_subA",
+      "fromNode": "title",
+      "toNode": "subA",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_title_subB",
+      "fromNode": "title",
+      "toNode": "subB",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_subA_thread_Failure_as_Method",
+      "fromNode": "subA",
+      "toNode": "thread_Failure_as_Method",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_subB_thread_Research_Creation",
+      "fromNode": "subB",
+      "toNode": "thread_Research_Creation",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_subB_thread_Making_Public",
+      "fromNode": "subB",
+      "toNode": "thread_Making_Public",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_subB_thread_Collective_Practice",
+      "fromNode": "subB",
+      "toNode": "thread_Collective_Practice",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ]
+}

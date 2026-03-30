@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"read_manning","type":"file","file":"DIGM 553/Readings/Manning + Massumi — Thought in the Act.md","x":-1160,"y":-480,"width":340,"height":220,"color":"4"},
+		{"id":"thread_Research_Creation","type":"file","file":"DIGM 553/Threads/Research-Creation.md","x":-1140,"y":880,"width":300,"height":180,"color":"5"},
+		{"id":"thread_Epistemic_Tools","type":"file","file":"DIGM 553/Threads/Epistemic Tools.md","x":-60,"y":880,"width":300,"height":180,"color":"5"},
+		{"id":"subA","type":"file","file":"DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01A - Research-Creation as Method.md","x":-920,"y":-80,"width":420,"height":280},
+		{"id":"subB","type":"file","file":"DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01B - Epistemic Tools Introduction.md","x":-270,"y":-80,"width":420,"height":280},
+		{"id":"subC","type":"file","file":"DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01C - Hardware and Software Inventory.md","x":430,"y":-80,"width":420,"height":280},
+		{"id":"asn_hook","type":"text","text":"## → ASN 2: Critical Technical Journal\n\nStarts Week 1.\n\n- Log one recurring hassle in your practice\n- Name one epistemic tool in your kit and describe its amplification-reduction\n- Write a short Woodland Gloss for that tool (High Level / Dissertation Level / Lab Level)","x":90,"y":440,"width":500,"height":260,"color":"3"},
+		{"id":"thread_Physical_Digital","type":"file","file":"DIGM 553/Threads/Physical-Digital Entanglement.md","x":510,"y":880,"width":300,"height":180,"color":"5"},
+		{"id":"thread_Failure","type":"file","file":"DIGM 553/Threads/Failure as Method.md","x":1000,"y":880,"width":300,"height":180,"color":"5"},
+		{"id":"thread_Enabling_Constraints","type":"file","file":"DIGM 553/Threads/Enabling Constraints.md","x":-570,"y":880,"width":300,"height":180,"color":"5"},
+		{"id":"discussion","type":"text","text":"## Discussion Pivots\n\n1. What is your practice *thinking* right now?\n2. What's a recurring hassle (friction) in your workflow?\n3. What does your primary tool amplify? What does it reduce?\n4. Where do you feel the split between doing and thinking?\n5. What would it mean to learn your tools on *their* terms?","x":-700,"y":440,"width":560,"height":260,"color":"2"},
+		{"id":"read_agre","type":"file","file":"DIGM 553/Readings/Agre — Critical Technical Practice.md","x":590,"y":-480,"width":340,"height":220,"color":"4"},
+		{"id":"read_magnusson","type":"file","file":"DIGM 553/Readings/Magnusson — Epistemic Tools.md","x":-230,"y":-480,"width":340,"height":220,"color":"4"},
+		{"id":"opening","type":"text","text":"# Opening Provocation\n\n*\"Every practice is a mode of thought, already in the act. To dance: a thinking in movement. To paint: a thinking through color.\"*\n— Manning & Massumi\n\n**What is your current practice thinking?**","x":-400,"y":-1440,"width":680,"height":200,"color":"6"},
+		{"id":"title","type":"text","text":"# Week 01: Practice Immanent Critique\n\nCourse opening: research-creation as methodology. What does it mean to think *with* tools, not just *through* them? How do we inhabit our complicity and make it turn?","x":-400,"y":-1080,"width":680,"height":200,"color":"1"}
+	],
+	"edges":[
+		{"id":"e_opening_title","fromNode":"opening","fromSide":"bottom","toNode":"title","toSide":"top"},
+		{"id":"e_title_subA","fromNode":"title","fromSide":"bottom","toNode":"subA","toSide":"top"},
+		{"id":"e_title_subB","fromNode":"title","fromSide":"bottom","toNode":"subB","toSide":"top"},
+		{"id":"e_title_subC","fromNode":"title","fromSide":"bottom","toNode":"subC","toSide":"top"},
+		{"id":"e_read_manning_subA","fromNode":"read_manning","fromSide":"bottom","toNode":"subA","toSide":"top"},
+		{"id":"e_read_magnusson_subB","fromNode":"read_magnusson","fromSide":"bottom","toNode":"subB","toSide":"top"},
+		{"id":"e_read_agre_subB","fromNode":"read_agre","fromSide":"bottom","toNode":"subB","toSide":"top"},
+		{"id":"e_read_agre_subC","fromNode":"read_agre","fromSide":"bottom","toNode":"subC","toSide":"right"},
+		{"id":"e_subA_discussion","fromNode":"subA","fromSide":"bottom","toNode":"discussion","toSide":"top"},
+		{"id":"e_subB_discussion","fromNode":"subB","fromSide":"bottom","toNode":"discussion","toSide":"top"},
+		{"id":"e_subB_asn","fromNode":"subB","fromSide":"bottom","toNode":"asn_hook","toSide":"top"},
+		{"id":"e_subC_asn","fromNode":"subC","fromSide":"bottom","toNode":"asn_hook","toSide":"top"},
+		{"id":"e_subA_thread_rc","fromNode":"subA","fromSide":"bottom","toNode":"thread_Research_Creation","toSide":"top"},
+		{"id":"e_subA_thread_ec","fromNode":"subA","fromSide":"bottom","toNode":"thread_Enabling_Constraints","toSide":"top"},
+		{"id":"e_subB_thread_et","fromNode":"subB","fromSide":"bottom","toNode":"thread_Epistemic_Tools","toSide":"top"},
+		{"id":"e_subC_thread_pd","fromNode":"subC","fromSide":"bottom","toNode":"thread_Physical_Digital","toSide":"top"},
+		{"id":"e_subA_thread_fail","fromNode":"subA","fromSide":"bottom","toNode":"thread_Failure","toSide":"top"}
+	]
+}
