@@ -276,21 +276,11 @@
     "exportRoot": "",
     "includePluginCss": [
       "excalidraw-embedded-light",
-      "excalidraw-embedded-dark",
-      "__________cytoscape_stylesheet",
-      "obsidian-advanced-slides",
-      "media-extended",
-      "obsidian-emoji-toolbar",
-      "iconic"
+      "excalidraw-embedded-dark"
     ],
     "includeStyleCssIds": [
       "excalidraw-embedded-light",
-      "excalidraw-embedded-dark",
-      "__________cytoscape_stylesheet",
-      "obsidian-advanced-slides",
-      "media-extended",
-      "obsidian-emoji-toolbar",
-      "iconic"
+      "excalidraw-embedded-dark"
     ],
     "autoDisposeWebpages": true
   },

@@ -71,9 +71,9 @@
               "state": {
                 "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
                 "viewState": {
-                  "x": -300.20299546062284,
-                  "y": -38.53841136463069,
-                  "zoom": -1.143800287037423
+                  "x": -148.75601391283158,
+                  "y": -29.62973540554998,
+                  "zoom": -1.4771336203707564
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -314,12 +314,13 @@
   },
   "active": "7c65d564720c1863",
   "lastOpenFiles": [
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
+    "docs/site-lib/scripts/sedHmH77S",
     "docs/site-lib/html/custom-head-content-content.html",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
     "docs/gmap-395/legacy/su-24/gmap-395-su24-assignment-game-art-conceptualization-.html",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
     "docs/gmap-395/legacy/su-24/gmap-395-su24-in-class-lab-basic-shader-in-unity-shader-graph-.html",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
     "docs/digm-553/week-01-practice-immanent-critique/week-01-canvas.html",
     "DIGM 553/DIGM 553 - Welcome.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
@@ -332,7 +333,6 @@
     "Index.md",
     "DIGM 553/Threads/Threads.md",
     "docs/site-lib/search-index.json",
-    "docs/site-lib/metadata.json",
     "GMAP 395/Introduction/Introduction.md",
     "GMAP 395/Introduction/legacy/GMAP 395 - WK 1 - Video Lecture.md",
     "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Video Lecture.md",
@@ -353,7 +353,6 @@
     "DIGM 553/DIGM 553.canvas",
     "docs/docs/lib/media/z-targeting_29.png",
     "docs/docs/lib/media/volibear.jpg",
-    "docs/docs/lib/media/vfx_styleguide_final_public_hidpjqwx7lqyx0pjj3ss.pdf",
     "docs/docs/lib/media/vfxingamestypes.webp",
     "docs/docs/lib/media/vfxgsplash.png",
     "docs/docs/lib/media/vfxgraph_3-5_complexnetwork.png",
