@@ -72,7 +72,7 @@
                 "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
                 "viewState": {
                   "x": -300.20299546062284,
-                  "y": -38.53841136463066,
+                  "y": -38.53841136463069,
                   "zoom": -1.143800287037423
                 }
               },
@@ -135,7 +135,7 @@
             }
           },
           {
-            "id": "cc1a9e483d34142b",
+            "id": "1544cd037f90749d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -314,16 +314,16 @@
   },
   "active": "7c65d564720c1863",
   "lastOpenFiles": [
-    "docs/digm-553/week-01-practice-immanent-critique/week-01-canvas.html",
-    "DIGM 553/DIGM 553 - Welcome.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 - Presentation.html",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
-    "docs/site-lib/styles/other-plugins.css",
     "docs/gmap-395/legacy/su-24/gmap-395-su24-assignment-game-art-conceptualization-.html",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
     "docs/gmap-395/legacy/su-24/gmap-395-su24-in-class-lab-basic-shader-in-unity-shader-graph-.html",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
+    "docs/digm-553/week-01-practice-immanent-critique/week-01-canvas.html",
+    "DIGM 553/DIGM 553 - Welcome.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 - Presentation.html",
+    "docs/site-lib/styles/other-plugins.css",
     "docs/digm-553/assignments/assignments.html",
     "docs/digm-553/threads/threads.html",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/W01 Day One — Run of Show + Opening.md",
@@ -361,7 +361,6 @@
     "docs/docs/lib/media/tutwk9splash.png",
     "docs/docs/lib/media/sunintensity.png",
     "docs/docs/lib/media/sunlight.png",
-    "docs/docs/lib/media",
     "DIGM 553/Week 11 - Proceed/Week 11.canvas",
     "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
     "DIGM 553/Week 09 - Render Formative Forces/Week 09.canvas",
