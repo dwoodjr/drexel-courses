@@ -15,25 +15,25 @@ document.addEventListener('click', function(e) {
 }, true); /* capture phase — fires before SPA listener */
 </script>
 <style>
-/* Hide desktop-only editing controls on published canvas pages */
+/* ── Published-site overrides: hide desktop-only Obsidian editing UI ── */
 
-/* "Disable read-only" lock button — irrelevant on published site */
-.canvas-control-item[aria-label="Disable read-only"] { display: none !important; }
+/* Editing Toolbar plugin — appears inside canvas-wrapper on canvas pages */
+#editingToolbarModalBar,
+#editingToolbarPopoverBar,
+.editingToolbarDefaultAesthetic { display: none !important; }
 
-/* Undo/Redo buttons — only meaningful in the desktop app */
-.canvas-control-item[aria-label="Undo"],
-.canvas-control-item[aria-label="Redo"] { display: none !important; }
-
-/* Canvas node editing toolbar (text formatting bar) — only in edit mode */
+/* Canvas-node action icons that appear when hovering/selecting nodes */
 .canvas-node-toolbar,
 .canvas-node-container .formatting-toolbar,
 .canvas-node-container .view-header { display: none !important; }
 
-/* Hide right sidebar action icons that mimic the desktop ribbon */
-.sidebar-topbar .sidebar-collapse-icon { opacity: 0.4; }
+/* Right sidebar floating action icons (plugin-sourced) */
+.canvas-wrapper + .clickable-icon,
+.canvas-wrapper ~ .clickable-icon { display: none !important; }
 
-/* Prevent canvas nodes from appearing clickable-to-edit on published site */
-.canvas-wrapper.mod-readonly .canvas-node:hover {
-    cursor: default;
+/* Ensure the canvas-wrapper itself receives pointer events for pan/zoom */
+.canvas-wrapper {
+    pointer-events: auto !important;
+    touch-action: none;
 }
 </style>
