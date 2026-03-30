@@ -28,7 +28,9 @@
       "DIGM 553/DIGM 553 - Syllabus.md",
       "DIGM 553/DIGM 553 - Welcome.md",
       "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
-      "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md"
+      "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
+      "Index.md",
+      "README.md"
     ],
     "useFallbackRenderer": false,
     "addBodyClasses": true,

@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 606.5
+    "width": 455.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -317,8 +317,12 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "b9a040f1a06d88d2",
+  "active": "d8e3848e43a2f228",
   "lastOpenFiles": [
+    "README.md",
+    "docs/readme.html",
+    "Index.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
     "docs/site-lib/styles/theme.css",
     "docs/site-lib/fonts/52ac8f3034507f1d9e53.ttf",
     "docs/site-lib/styles/supported-plugins.css",
@@ -329,10 +333,8 @@
     "docs/site-lib/scripts/graph-wasm.wasm",
     "docs/site-lib/media/favicon.png",
     "docs/site-lib/scripts/graph-wasm.js",
-    "docs/site-lib/scripts/graph-render-worker.js",
     "docs/site-lib/media/6155340132a851f6089e.svg",
     "docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
-    "docs/site-lib/fonts/c504db5c06caaf7cdfba.woff2",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
     "DIGM 553/DIGM 553 - Welcome.md",
@@ -358,8 +360,6 @@
     "DIGM 553/Threads/Enabling Constraints.md",
     "DIGM 553/Threads/Entanglement.md",
     "DIGM 553/Threads/Failure as Method.md",
-    "DIGM 553/Threads/Physical-Digital Entanglement.md",
-    "DIGM 553/Threads/Making Public.md",
     "DIGM 553/Week 11 - Proceed/Week 11.canvas",
     "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
     "DIGM 553/Week 09 - Render Formative Forces/Week 09.canvas",
