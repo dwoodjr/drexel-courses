@@ -34,26 +34,9 @@
               "icon": "lucide-file",
               "title": "Index"
             }
-          },
-          {
-            "id": "4801e17345e50728",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
-                "viewState": {
-                  "x": 70,
-                  "y": 63.97219463753726,
-                  "zoom": -1.4493679352925997
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Week 01-Canvas"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -284,28 +267,10 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "4801e17345e50728",
+  "active": "d8e3848e43a2f228",
   "lastOpenFiles": [
-    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
-    "docs/gmap-395/legacy/su-24/gmap-395-su24-assignment-game-art-conceptualization-.html",
-    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
-    "docs/gmap-395/legacy/su-24/gmap-395-su24-in-class-lab-basic-shader-in-unity-shader-graph-.html",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
-    "DIGM 553/DIGM 553 - Welcome.md",
-    "DIGM 553/DIGM 553.canvas",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
-    "docs/site-lib/scripts/sedHmH77S",
-    "docs/site-lib/html/custom-head-content-content.html",
-    "docs/digm-553/week-01-practice-immanent-critique/week-01-canvas.html",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 - Presentation.html",
-    "docs/site-lib/styles/other-plugins.css",
-    "docs/digm-553/assignments/assignments.html",
-    "docs/digm-553/threads/threads.html",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/W01 Day One — Run of Show + Opening.md",
-    "DIGM 553/Assignments/Assignments.md",
-    "Index.md",
-    "DIGM 553/Threads/Threads.md",
     "docs/site-lib/search-index.json",
+    "docs/site-lib/metadata.json",
     "GMAP 395/Introduction/Introduction.md",
     "GMAP 395/Introduction/legacy/GMAP 395 - WK 1 - Video Lecture.md",
     "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Video Lecture.md",
@@ -323,6 +288,25 @@
     "GMAP 395/Module 3/tutorials/GMAP 395 - WK 6 - Tutorial.md",
     "GMAP 395/Module 3/legacy/GMAP 395 - WK 6 - Slides + Video.md",
     "GMAP 395/Module 3/legacy/GMAP 395 - WK 7 - Slides + Video.md",
+    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 7 - Tutorial.md",
+    "GMAP 395/Module 3/legacy/GMAP 395 - WK 7 - In-Class Lab.md",
+    "GMAP 395/Module 4/media/media.md",
+    "GMAP 395/Module 4/tutorials/GMAP 395 - In-Class Lab.md",
+    "GMAP 395/Module 4/tutorials/GMAP 395 - Guides - Custom Post-Processing Effects.md",
+    "GMAP 395/Module 4/tutorials/GMAP 395 - WK 9 - Tutorial.md",
+    "GMAP 395/Module 4/legacy/GMAP 395 - WK 9 - Slides + Video.md",
+    "GMAP 395/Bonus - Proc Audio/Bonus - Proc Audio.md",
+    "DIGM 553/DIGM 553.canvas",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
+    "docs/gmap-395/legacy/su-24/gmap-395-su24-assignment-game-art-conceptualization-.html",
+    "docs/gmap-395/legacy/su-24/gmap-395-su24-in-class-lab-basic-shader-in-unity-shader-graph-.html",
+    "docs/site-lib/scripts/sedHmH77S",
+    "docs/site-lib/html/custom-head-content-content.html",
+    "docs/digm-553/week-01-practice-immanent-critique/week-01-canvas.html",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 - Presentation.html",
+    "docs/site-lib/styles/other-plugins.css",
+    "docs/digm-553/assignments/assignments.html",
+    "docs/digm-553/threads/threads.html",
     "docs/docs/lib/media/z-targeting_29.png",
     "docs/docs/lib/media/volibear.jpg",
     "docs/docs/lib/media/vfxingamestypes.webp",
