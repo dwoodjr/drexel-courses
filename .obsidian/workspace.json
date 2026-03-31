@@ -59,14 +59,12 @@
             "id": "43b3248de4576786",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-html-view",
               "state": {
-                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
-                "mode": "source",
-                "source": false
+                "file": "docs/Week 01 Presentation.html"
               },
               "icon": "lucide-file",
-              "title": "Week 01 Presentation"
+              "title": "Week 01 Presentation.html"
             }
           },
           {
@@ -80,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -312,8 +310,10 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "ebebd4d09167c47a",
+  "active": "43b3248de4576786",
   "lastOpenFiles": [
+    "docs/Week 01 Presentation.html",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
     "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-yellow.png",
     "docs/Week 01 Presentation/plugin/chalkboard/img/whiteboard.png",
     "docs/Week 01 Presentation/plugin/chalkboard/img/sponge.png",
@@ -324,7 +324,6 @@
     "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-green.png",
     "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-blue.png",
     "docs/Week 01 Presentation/plugin/chalkboard/img/boardmarker-yellow.png",
-    "docs/Week 01 Presentation/plugin/chalkboard/img/boardmarker-blue.png",
     "docs/Week 01 Presentation/plugin/chalkboard/README.md",
     "docs/Week 01 Presentation/plugin/chalkboard/_style.css",
     "docs/Week 01 Presentation/plugin/chalkboard/style.css",
@@ -336,11 +335,9 @@
     "docs/Week 01 Presentation/plugin/chart/plugin.js",
     "docs/Week 01 Presentation/plugin/chart/chart.min.js",
     "docs/Week 01 Presentation/plugin/chart",
-    "docs/Week 01 Presentation/plugin/customcontrols/style.css",
     "docs/Week 01 Presentation/plugin/customcontrols/README.md",
     "docs/Week 01 Presentation/plugin/menu/README.md",
     "docs/Week 01 Presentation/plugin/menu/CONTRIBUTING.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/assessments/Reading Guide — Week 01.md",
     "DIGM 553/DIGM 553 - Welcome.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
