@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -292,14 +292,15 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "af2f787890a1a836",
+  "active": "43b3248de4576786",
   "lastOpenFiles": [
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
+    "DIGM 553/DIGM 553 - Syllabus.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
     "DIGM 553/DIGM 553 - Welcome.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
     "DIGM 553/DIGM 553.canvas",
-    "DIGM 553/DIGM 553 - Syllabus.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md.tmp.5.1774974059794",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
     "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
     "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
     "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff",
@@ -331,7 +332,6 @@
     "docs/digm-553/slides/Week 01 Presentation/plugin/customcontrols/README.md",
     "docs/digm-553/slides/Week 01 Presentation/plugin/menu/README.md",
     "docs/digm-553/slides/Week 01 Presentation/plugin/menu/CONTRIBUTING.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
     "docs/digm-553/week-01-practice-immanent-critique/slides/slides.md",
     "GMAP 395/Module 3/submodules/submodules.md",
     "GMAP 395/Module 3/legacy/legacy.md",
@@ -341,7 +341,6 @@
     "GMAP 395/Module 3/submodules/GMAP 395 - Module 3B - Unity Particle System Hands-On.md",
     "GMAP 395/Module 3/submodules/GMAP 395 - Module 3C - VFX Graph Introduction.md",
     "GMAP 395/Weeklies/GMAP 395 - Week 6 - TPS.md",
-    "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
     "DIGM 553/Week 11 - Proceed/Week 11.canvas",
     "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
     "DIGM 553/Week 09 - Render Formative Forces/Week 09.canvas",
