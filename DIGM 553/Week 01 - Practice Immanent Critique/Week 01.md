@@ -10,6 +10,19 @@ tags: [DIGM553, week01]
 **Canvas**: [[Week 01.canvas]]
 
 ---
+**Week 01 Lecture Recording:**
+
+<div style="padding:56.25% 0 0 0; position:relative;">
+  <iframe src="https://player.vimeo.com/video/1178931356?badge=0&autopause=0&player_id=0&app_id=58479"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+    style="position:absolute; top:0; left:0; width:100%; height:100%;"
+    title="DIGM 553 — Week 01 Lecture">
+  </iframe>
+</div>
+
+
+---
 ## Activities
 - Course introduction: research-creation, epistemic tools, and entanglement. 
 - Introduce the (Im)material Potluck and Critical Technical Journal. 
