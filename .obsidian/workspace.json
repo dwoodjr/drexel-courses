@@ -8,35 +8,79 @@
         "type": "tabs",
         "children": [
           {
-            "id": "97fd76d548650673",
+            "id": "6be2e689a4a4c9d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "DIGM 553/DIGM 553 - Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "DIGM 553 - Welcome"
             }
           },
           {
-            "id": "d8e3848e43a2f228",
+            "id": "edf62a422a52badd",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "DIGM 553/DIGM 553.canvas",
+                "viewState": {
+                  "x": -87.13244829595266,
+                  "y": 511.41248404834164,
+                  "zoom": -2.333333333333333
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "DIGM 553"
+            }
+          },
+          {
+            "id": "38a1f566bf47e647",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
+                "viewState": {
+                  "x": -68.35109453403925,
+                  "y": -794.2149402472164,
+                  "zoom": -1
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Week 01"
+            }
+          },
+          {
+            "id": "43b3248de4576786",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Week 01 Presentation"
+            }
+          },
+          {
+            "id": "ebebd4d09167c47a",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -104,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 397.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -239,7 +283,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 440.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,10 +312,48 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "d8e3848e43a2f228",
+  "active": "ebebd4d09167c47a",
   "lastOpenFiles": [
-    "docs/site-lib/search-index.json",
-    "docs/site-lib/metadata.json",
+    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-yellow.png",
+    "docs/Week 01 Presentation/plugin/chalkboard/img/whiteboard.png",
+    "docs/Week 01 Presentation/plugin/chalkboard/img/sponge.png",
+    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-white.png",
+    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-orange.png",
+    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-red.png",
+    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-purple.png",
+    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-green.png",
+    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-blue.png",
+    "docs/Week 01 Presentation/plugin/chalkboard/img/boardmarker-yellow.png",
+    "docs/Week 01 Presentation/plugin/chalkboard/img/boardmarker-blue.png",
+    "docs/Week 01 Presentation/plugin/chalkboard/README.md",
+    "docs/Week 01 Presentation/plugin/chalkboard/_style.css",
+    "docs/Week 01 Presentation/plugin/chalkboard/style.css",
+    "docs/Week 01 Presentation/plugin/chalkboard/plugin.js",
+    "docs/Week 01 Presentation/plugin/chalkboard/plugin (copy).js",
+    "docs/Week 01 Presentation/plugin/chalkboard/img",
+    "docs/Week 01 Presentation/plugin/chalkboard",
+    "docs/Week 01 Presentation/plugin/chart/README.md",
+    "docs/Week 01 Presentation/plugin/chart/plugin.js",
+    "docs/Week 01 Presentation/plugin/chart/chart.min.js",
+    "docs/Week 01 Presentation/plugin/chart",
+    "docs/Week 01 Presentation/plugin/customcontrols/style.css",
+    "docs/Week 01 Presentation/plugin/customcontrols/README.md",
+    "docs/Week 01 Presentation/plugin/menu/README.md",
+    "docs/Week 01 Presentation/plugin/menu/CONTRIBUTING.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/assessments/Reading Guide — Week 01.md",
+    "DIGM 553/DIGM 553 - Welcome.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
+    "DIGM 553/DIGM 553.canvas",
+    "DIGM 553/DIGM 553 - Syllabus.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01A - Research-Creation as Method.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01B - Epistemic Tools Introduction.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01C - Hardware and Software Inventory.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
+    "DIGM 553/Threads/Physical-Digital Entanglement.md",
+    "DIGM 553/Documents/Documents.md",
+    "Index.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/assessments/(Im)material Potluck — Prep.md",
     "GMAP 395/Introduction/Introduction.md",
     "GMAP 395/Introduction/legacy/GMAP 395 - WK 1 - Video Lecture.md",
     "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Video Lecture.md",
@@ -279,44 +362,6 @@
     "GMAP 395/Module 1/legacy/GMAP 395 - WK 3 - Slides.md",
     "GMAP 395/Module 1/tutorials/GMAP 395 - WK 3 - Tutorial.md",
     "GMAP 395/Module 2/media/media.md",
-    "GMAP 395/Module 2/legacy/GMAP 395 - WK 4 - Slides + Video.md",
-    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - Tutorial.md",
-    "GMAP 395/Module 2/legacy/GMAP 395 - WK 5 - Slides + Video.md",
-    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 5 - Tutorial.md",
-    "GMAP 395/Module 3/media/media.md",
-    "GMAP 395/Module 3/legacy/GMAP 395 - WK 6 - In-Class Lab.md",
-    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 6 - Tutorial.md",
-    "GMAP 395/Module 3/legacy/GMAP 395 - WK 6 - Slides + Video.md",
-    "GMAP 395/Module 3/legacy/GMAP 395 - WK 7 - Slides + Video.md",
-    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 7 - Tutorial.md",
-    "GMAP 395/Module 3/legacy/GMAP 395 - WK 7 - In-Class Lab.md",
-    "GMAP 395/Module 4/media/media.md",
-    "GMAP 395/Module 4/tutorials/GMAP 395 - In-Class Lab.md",
-    "GMAP 395/Module 4/tutorials/GMAP 395 - Guides - Custom Post-Processing Effects.md",
-    "GMAP 395/Module 4/tutorials/GMAP 395 - WK 9 - Tutorial.md",
-    "GMAP 395/Module 4/legacy/GMAP 395 - WK 9 - Slides + Video.md",
-    "GMAP 395/Bonus - Proc Audio/Bonus - Proc Audio.md",
-    "DIGM 553/DIGM 553.canvas",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01-Canvas.canvas",
-    "docs/gmap-395/legacy/su-24/gmap-395-su24-assignment-game-art-conceptualization-.html",
-    "docs/gmap-395/legacy/su-24/gmap-395-su24-in-class-lab-basic-shader-in-unity-shader-graph-.html",
-    "docs/site-lib/scripts/sedHmH77S",
-    "docs/site-lib/html/custom-head-content-content.html",
-    "docs/digm-553/week-01-practice-immanent-critique/week-01-canvas.html",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 - Presentation.html",
-    "docs/site-lib/styles/other-plugins.css",
-    "docs/digm-553/assignments/assignments.html",
-    "docs/digm-553/threads/threads.html",
-    "docs/docs/lib/media/z-targeting_29.png",
-    "docs/docs/lib/media/volibear.jpg",
-    "docs/docs/lib/media/vfxingamestypes.webp",
-    "docs/docs/lib/media/vfxgsplash.png",
-    "docs/docs/lib/media/vfxgraph_3-5_complexnetwork.png",
-    "docs/docs/lib/media/vfxg1.png",
-    "docs/docs/lib/media/unityparticlesystsem.png",
-    "docs/docs/lib/media/tutwk9splash.png",
-    "docs/docs/lib/media/sunintensity.png",
-    "docs/docs/lib/media/sunlight.png",
     "DIGM 553/Week 11 - Proceed/Week 11.canvas",
     "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
     "DIGM 553/Week 09 - Render Formative Forces/Week 09.canvas",

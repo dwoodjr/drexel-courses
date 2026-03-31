@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>DIGM 553 — Week 01: Practice Immanent Critique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/theme/black.min.css"/>
+    <style>
+      :root {
+        --deep: #0d0d0d;
+        --ink: #1a1a1a;
+        --warm: #e8e0d4;
+        --accent: #c97b4b;
+        --muted: #8a7e72;
+        --highlight: #d4b896;
+        --thread: #6b8fa3;
+        --thread-bg: rgba(107, 143, 163, 0.12);
+        --reading: #7a9e7e;
+      }
+
+      .reveal {
+        font-family: 'Georgia', serif;
+        background: var(--deep);
+      }
+
+      .reveal .slides {
+        text-align: left;
+      }
+
+
+      /* ── Typography ─────────────────────────────────────── */
+      .reveal h1 {
+        font-family: 'Georgia', serif;
+        font-size: 2rem;
+        font-weight: normal;
+        letter-spacing: 0.04em;
+        color: var(--warm);
+        line-height: 1.25;
+        margin-bottom: 0.5em;
+      }
+
+      .reveal h2 {
+        font-family: 'Georgia', serif;
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: var(--accent);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        margin-bottom: 1.4em;
+      }
+
+      .reveal h3 {
+        font-size: 1.1rem;
+        font-weight: normal;
+        color: var(--highlight);
+        margin-bottom: 0.5em;
+      }
+
+      .reveal p {
+        font-size: 0.85rem;
+        color: var(--warm);
+        line-height: 1.75;
+        margin-bottom: 0.9em;
+      }
+
+      .reveal blockquote {
+        background: rgba(255, 255, 255, 0.04);
+        border-left: 3px solid var(--accent);
+        padding: 1em 1.4em;
+        margin: 1.2em 0;
+        font-style: italic;
+        color: var(--highlight);
+        font-size: 0.82rem;
+        line-height: 1.7;
+        box-shadow: none;
+        width: 100%;
+      }
+
+      .reveal blockquote cite {
+        display: block;
+        margin-top: 0.6em;
+        font-size: 0.7rem;
+        font-style: normal;
+        color: var(--muted);
+        letter-spacing: 0.03em;
+      }
+
+
+      /* ── Course label / module tag ──────────────────────── */
+      .course-label {
+        font-family: 'Courier New', monospace;
+        font-size: 0.6rem;
+        letter-spacing: 0.14em;
+        color: var(--muted);
+        text-transform: uppercase;
+        margin-bottom: 2.4em;
+      }
+
+      .module-tag {
+        display: inline-block;
+        font-family: 'Courier New', monospace;
+        font-size: 0.58rem;
+        letter-spacing: 0.1em;
+        background: rgba(201, 123, 75, 0.15);
+        color: var(--accent);
+        border: 1px solid rgba(201, 123, 75, 0.3);
+        padding: 0.2em 0.7em;
+        margin-bottom: 1.4em;
+      }
+
+
+      /* ── Term definitions ───────────────────────────────── */
+      .term-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.9em;
+        margin-top: 1em;
+      }
+
+      .term-card {
+        background: rgba(255, 255, 255, 0.035);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        padding: 0.9em 1em;
+      }
+
+      .term-card .term-name {
+        font-family: 'Courier New', monospace;
+        font-size: 0.65rem;
+        color: var(--accent);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-bottom: 0.4em;
+        display: block;
+      }
+
+      .term-card p {
+        font-size: 0.72rem;
+        color: var(--warm);
+        margin: 0;
+        line-height: 1.5;
+      }
+
+
+      /* ── Signal chain ───────────────────────────────────── */
+      .signal-chain {
+        font-family: 'Courier New', monospace;
+        font-size: 0.72rem;
+        color: var(--warm);
+        line-height: 2.2;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        padding: 1.2em 1.6em;
+        margin: 0.8em 0;
+      }
+
+      .signal-chain .arrow {
+        color: var(--muted);
+        display: block;
+        padding-left: 1.6em;
+      }
+
+      .signal-chain .node {
+        color: var(--accent);
+      }
+
+      .signal-chain .note {
+        color: var(--muted);
+        font-size: 0.62rem;
+        padding-left: 3em;
+      }
+
+
+      /* ── Provocation slides ─────────────────────────────── */
+      .provocation {
+        font-size: 1.45rem;
+        line-height: 1.55;
+        color: var(--warm);
+        font-style: italic;
+        text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
+      }
+
+      .provocation-sub {
+        font-size: 0.7rem;
+        color: var(--muted);
+        text-align: center;
+        margin-top: 2em;
+        font-style: normal;
+        font-family: 'Courier New', monospace;
+        letter-spacing: 0.08em;
+      }
+
+
+      /* ── Threads ────────────────────────────────────────── */
+      .thread-pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        margin-top: 1.4em;
+      }
+
+      .thread-pill {
+        font-family: 'Courier New', monospace;
+        font-size: 0.58rem;
+        letter-spacing: 0.08em;
+        background: var(--thread-bg);
+        color: var(--thread);
+        border: 1px solid rgba(107, 143, 163, 0.25);
+        padding: 0.25em 0.8em;
+      }
+
+
+      /* ── Distinctions layout ────────────────────────────── */
+      .distinctions {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.8em;
+        margin-top: 0.8em;
+      }
+
+      .distinction {
+        background: rgba(255, 255, 255, 0.03);
+        border-top: 2px solid var(--accent);
+        padding: 0.9em;
+      }
+
+      .distinction .label {
+        font-family: 'Courier New', monospace;
+        font-size: 0.6rem;
+        color: var(--muted);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 0.5em;
+        display: block;
+      }
+
+      .distinction h4 {
+        font-size: 0.82rem;
+        color: var(--highlight);
+        margin: 0 0 0.5em;
+        font-weight: normal;
+      }
+
+      .distinction p {
+        font-size: 0.68rem;
+        margin: 0;
+        color: var(--warm);
+        opacity: 0.85;
+      }
+
+
+      /* ── Ihde modalities ────────────────────────────────── */
+      .modalities {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.8em;
+        margin-top: 0.8em;
+      }
+
+      .modality {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        padding: 0.9em;
+      }
+
+      .modality .num {
+        font-family: 'Courier New', monospace;
+        font-size: 0.6rem;
+        color: var(--accent);
+        display: block;
+        margin-bottom: 0.3em;
+      }
+
+      .modality h4 {
+        font-size: 0.82rem;
+        color: var(--warm);
+        margin: 0 0 0.5em;
+        font-weight: normal;
+      }
+
+      .modality p {
+        font-size: 0.68rem;
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+
+      /* ── Title slide ────────────────────────────────────── */
+      .title-week {
+        font-family: 'Courier New', monospace;
+        font-size: 0.65rem;
+        letter-spacing: 0.16em;
+        color: var(--muted);
+        text-transform: uppercase;
+        margin-bottom: 1.8em;
+      }
+
+      .title-main {
+        font-size: 2.6rem;
+        line-height: 1.2;
+        color: var(--warm);
+        font-weight: normal;
+        margin-bottom: 0.4em;
+      }
+
+      .title-sub {
+        font-size: 0.82rem;
+        color: var(--muted);
+        font-style: italic;
+      }
+
+      .title-course {
+        font-family: 'Courier New', monospace;
+        font-size: 0.58rem;
+        letter-spacing: 0.12em;
+        color: rgba(255, 255, 255, 0.2);
+        margin-top: 3em;
+      }
+
+
+      /* ── Questions ──────────────────────────────────────── */
+      .questions {
+        list-style: none;
+        padding: 0;
+        margin: 0.6em 0;
+      }
+
+      .questions li {
+        font-size: 0.82rem;
+        color: var(--warm);
+        padding: 0.55em 0 0.55em 1.4em;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        line-height: 1.5;
+        position: relative;
+      }
+
+      .questions li::before {
+        content: '→';
+        position: absolute;
+        left: 0;
+        color: var(--accent);
+        font-family: monospace;
+      }
+
+
+      /* ── Divider line ───────────────────────────────────── */
+      .divider {
+        width: 48px;
+        height: 1px;
+        background: var(--accent);
+        margin: 1.2em 0;
+        opacity: 0.5;
+      }
+
+
+      /* ── Two-column ─────────────────────────────────────── */
+      .two-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.4em;
+        align-items: start;
+      }
+
+
+      /* ── Section header slides ──────────────────────────── */
+      .section-header {
+        text-align: center;
+      }
+
+      .section-header .section-num {
+        font-family: 'Courier New', monospace;
+        font-size: 0.58rem;
+        letter-spacing: 0.18em;
+        color: var(--muted);
+        text-transform: uppercase;
+        margin-bottom: 1.6em;
+      }
+
+      .section-header h1 {
+        font-size: 2.2rem;
+        text-align: center;
+      }
+
+      .section-header .section-epigraph {
+        font-size: 0.75rem;
+        color: var(--muted);
+        font-style: italic;
+        margin-top: 1.4em;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+      /* ── Slide padding ──────────────────────────────────── */
+      .reveal .slides section {
+        padding: 0 2.5em;
+        height: 100%;
+        box-sizing: border-box;
+      }
+
+
+      /* ── Progress & controls ────────────────────────────── */
+      .reveal .progress {
+        background: rgba(255, 255, 255, 0.08);
+        color: var(--accent);
+      }
+
+      .reveal .controls {
+        color: var(--accent);
+      }
+
+
+      /* ── Footnote ───────────────────────────────────────── */
+      .footnote {
+        font-family: 'Courier New', monospace;
+        font-size: 0.55rem;
+        color: var(--muted);
+        letter-spacing: 0.06em;
+        margin-top: 2em;
+        border-top: 1px solid rgba(255, 255, 255, 0.07);
+        padding-top: 0.6em;
+      }
+
+
+      /* ── Amp-reduction table ────────────────────────────── */
+      .amp-reduce {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        margin-top: 0.8em;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .amp-reduce .cell {
+        padding: 0.8em 1em;
+      }
+
+      .amp-reduce .cell-head {
+        font-family: 'Courier New', monospace;
+        font-size: 0.6rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+        background: rgba(201, 123, 75, 0.08);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .amp-reduce .cell-body {
+        font-size: 0.72rem;
+        color: var(--warm);
+        line-height: 1.6;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      }
+
+      .amp-reduce .cell:nth-child(odd) {
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+
+      /* ── Highlight box ──────────────────────────────────── */
+      .highlight-box {
+        background: rgba(201, 123, 75, 0.08);
+        border: 1px solid rgba(201, 123, 75, 0.2);
+        padding: 1em 1.2em;
+        margin: 0.8em 0;
+      }
+
+      .highlight-box p {
+        margin: 0;
+        font-size: 0.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <!-- ───────────────────────────────────────── TITLE ── -->
+        <section data-transition="fade">
+          <div style=" padding-top: 1.5em;">
+            <div class="title-week">Week 01 — Spring 2026</div>
+            <div class="title-main">Practice Immanent<br>Critique</div>
+            <div class="title-sub">Research-creation as methodology. What does it mean to think <em>with</em> tools rather than <em>through</em> them?</div>
+            <div class="title-course">DIGM 553/753 — Experimental Digital Media Lab · Darren Woodland Jr.</div>
+          </div>
+        </section>
+
+        <!-- ───────────────────────────────────── OPENING Q ── -->
+        <section data-transition="fade">
+          <div style="display:flex; align-items:center; justify-content:center; height:80vh;">
+            <div>
+              <p class="provocation">"What is your practice thinking right now?"</p>
+              <div class="provocation-sub">— not what are you making. what is the act of making <em>already</em> thinking?</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ─────────────────────────────────── M&M EPIGRAPH ── -->
+        <section data-transition="fade">
+          <blockquote>
+            "Every practice is a mode of thought, already in the act. To dance: a thinking in movement. To paint: a thinking through color. To perceive in the everyday: a thinking of the world's varied ways of affording itself."
+            <cite>— Manning &amp; Massumi, <em>Thought in the Act</em></cite>
+          </blockquote>
+          <div class="divider"></div>
+          <p>To program — a thinking in what?<br>
+            To route audio signals — a thinking in what?<br>
+            To touch a capacitive sensor — a thinking in what?</p>
+        </section>
+
+        <!-- ──────────────────────────────── SECTION: W01A ── -->
+        <section data-transition="fade">
+          <div class="section-header" style="padding-top: 2em;">
+            <div class="section-num">W01A</div>
+            <h1>Research-Creation<br>as Method</h1>
+            <div class="section-epigraph">"Making would already be thinking-in-action, and conceptualization a practice in its own right."</div>
+          </div>
+        </section>
+
+        <!-- ─────────────────────────── PREBIFURCATION ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01A — The Problem</div>
+          <h1>The Prebifurcation Point</h1>
+          <p>Most institutional models treat research and creative practice as <em>sequential</em> and <em>separate</em>: research produces knowledge, practice illustrates it.</p>
+          <p><strong style="color:var(--highlight)">Research-creation</strong> is an attempt to name the activity that happens before this split. Where making and thinking are not distinct acts but two registers of the same act, happening simultaneously.</p>
+          <div class="highlight-box">
+            <p>Manning &amp; Massumi: activity at the <strong>prebifurcation point</strong> — before research and creation diverge into institutional structures that evaluate them by separate criteria.</p>
+          </div>
+          <div class="thread-pills">
+            <span class="thread-pill">Research-Creation</span>
+            <span class="thread-pill">Enabling Constraints</span>
+          </div>
+        </section>
+
+        <!-- ─────────────────────────── IMMANENT CRITIQUE ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01A — Immanent Critique</div>
+          <h1>Inhabiting Complicity</h1>
+          <blockquote>
+            "An immanent critique engages with new processes more than new products… The strategy of immanent critique is to inhabit one's complicity and make it turn — in the sense in which butter 'turns' to curd."
+            <cite>— Manning &amp; Massumi</cite>
+          </blockquote>
+          <p>We work <em>within</em> the university, with commercial tools, toward grades. That is our complicity. Immanent critique means making that complicity productive. We do not wait until we're free of it to begin practice.</p>
+        </section>
+
+        <!-- ─────────────────────────── THREE DISTINCTIONS ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01A — Three Distinctions</div>
+          <h1>Distinctions to Internalize</h1>
+          <div class="distinctions">
+            <div class="distinction">
+              <span class="label">01</span>
+              <h4>Process, not Product</h4>
+              <p>"An interpenetration of processes rather than a communication of products." The artifact is the <em>record</em> of practice, not the point of it.</p>
+            </div>
+            <div class="distinction">
+              <span class="label">02</span>
+              <h4>Conditioning, not Framing</h4>
+              <p>Framing sets rules. Conditioning brings co-causes into interaction so that something <em>emerges</em> that neither cause alone could produce.</p>
+            </div>
+            <div class="distinction">
+              <span class="label">03</span>
+              <h4>Enabling Constraints</h4>
+              <p>A limitation that, through interaction, generates emergence rather than restriction. Gravity enables the jump.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ───────────────────────── ENABLING CONSTRAINT ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01A — Enabling Constraints</div>
+          <h1>The Productive Limit</h1>
+          <blockquote>
+            "In our experience, unconstrained interaction rarely yields worthwhile effects."
+            <cite>— Manning &amp; Massumi</cite>
+          </blockquote>
+          <p>The MPR121 sensor constrains what counts as input. CircuitPython constrains what you can compute. OSC constrains the format of the data.</p>
+          <p>These are not obstacles. They are <strong style="color:var(--highlight)">the material conditions out of which something emerges</strong>. The question is not how to eliminate constraints but how to turn them from limitative to enabling.</p>
+          <ul class="questions">
+            <li>What in your practice functions as <em>gravity</em> — the resistance you push against?</li>
+            <li>What would your work look like if that constraint were removed?</li>
+          </ul>
+        </section>
+
+        <!-- ────────────────────────────── SECTION: W01B ── -->
+        <section data-transition="fade">
+          <div class="section-header" style="padding-top: 2em;">
+            <div class="section-num">W01B</div>
+            <h1>Epistemic Tools<br>Introduction</h1>
+            <div class="section-epigraph">"Instruments have a life of their own. They do not merely follow theory; often they determine theory, because instruments determine what is possible, and what is possible determines to a large extent what can be thought."</div>
+          </div>
+        </section>
+
+        <!-- ──────────────────────────── TOOLS NOT NEUTRAL ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01B — Core Claim</div>
+          <h1>Tools Are Not Neutral</h1>
+          <p>If making is already a mode of thinking, then the instrument you make <em>with</em> is already shaping the kinds of thought that are possible.</p>
+          <p>Choosing TouchDesigner over Processing, Max/MSP over SuperCollider, a capacitive sensor over a camera — these are not just technical decisions. They are <strong style="color:var(--highlight)">epistemological ones</strong>.</p>
+          <p>The choice of instrument is not neutral. It conditions what questions you can ask, what results you can produce, and — eventually — what you consider beautiful, interesting, or true.</p>
+        </section>
+
+        <!-- ─────────────────────────────── IHDE MODALITIES ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01B — Don Ihde</div>
+          <h1>How Instruments Relate to the World</h1>
+          <div class="modalities">
+            <div class="modality">
+              <span class="num">01</span>
+              <h4>Embodiment Relations</h4>
+              <p>You act <em>through</em> the instrument. It recedes. You experience the world, not the tool. (The practiced musician and the keys.)</p>
+            </div>
+            <div class="modality">
+              <span class="num">02</span>
+              <h4>Hermeneutic Relations</h4>
+              <p>The instrument produces data you must <em>interpret</em>. A spectrograph, a sensor reading, a heat map. The tool mediates by translating.</p>
+            </div>
+            <div class="modality">
+              <span class="num">03</span>
+              <h4>Alterity Relations</h4>
+              <p>The instrument becomes a quasi-other. You engage <em>with</em> it, not through it. Generative systems, interactive installations.</p>
+            </div>
+          </div>
+          <p style="font-size:0.7rem; color:var(--muted); margin-top:0.8em;">These modalities are tendencies, not fixed categories. Any practice oscillates between them.</p>
+        </section>
+
+        <!-- ──────────────────────────── AMP / REDUCTION ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01B — Ihde</div>
+          <h1>Amplification-Reduction</h1>
+          <p style=" margin-bottom:0.6em;">Every instrument amplifies certain features of the world and reduces others. No exception.</p>
+          <div class="amp-reduce">
+            <div class="cell cell-head">Instrument</div>
+            <div class="cell cell-head">Amplifies / Reduces</div>
+            <div class="cell cell-body">Microphone</div>
+            <div class="cell cell-body">Pressure-wave events in a frequency range / everything else</div>
+            <div class="cell cell-body">MIDI controller</div>
+            <div class="cell cell-body">Discrete pitch + velocity events / continuous, gestural sound</div>
+            <div class="cell cell-body">MPR121 sensor</div>
+            <div class="cell cell-body">Conductivity at 12 points / pressure, texture, temperature, gesture</div>
+            <div class="cell cell-body">Your DAW</div>
+            <div class="cell cell-body">Timeline-based regions, channels, automation / ?</div>
+          </div>
+          <p style="font-size:0.7rem; color:var(--muted); margin-top:0.6em;">The danger is not that tools reduce — they must. The danger is <em>forgetting</em> that they do.</p>
+        </section>
+
+        <!-- ──────────────────────────────── BLACK BOXES ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01B — Latour / Bowker &amp; Star</div>
+          <h1>Black Boxes</h1>
+          <blockquote>
+            "The more naturalized the object becomes, the more unquestioning the relationship of the community to it; the more invisible the contingent and historical circumstances of its birth, the more it sinks into the community's routinely forgotten memory."
+            <cite>— Bowker &amp; Star</cite>
+          </blockquote>
+          <p>The tools you're most fluent with are the most dangerous. <strong style="color:var(--highlight)">Fluency produces blindness.</strong></p>
+          <p>The instrument you've used for years is the instrument whose assumptions you've most thoroughly absorbed into your practice without noticing.</p>
+          <ul class="questions">
+            <li>What's the most black-boxed tool in your practice?</li>
+            <li>When did you last open it?</li>
+          </ul>
+        </section>
+
+        <!-- ────────────────────────── COMPUTATIONAL IMP ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01B — Agre</div>
+          <h1>Computational Imperialism</h1>
+          <blockquote>
+            "A computer, then, does not simply have an instrumental use in a given site of practice; the computer is frequently <em>about</em> that site in its very design."
+            <cite>— Philip Agre, <em>Toward a Critical Technical Practice</em></cite>
+          </blockquote>
+          <p>Computers don't just represent activity — they <em>restructure</em> it. A DAW doesn't just record music. It restructures music-making around timelines, discrete regions, channels, automation curves.</p>
+          <p>These are models of music built by engineers with particular assumptions about what music <em>is</em>.</p>
+          <div class="thread-pills">
+            <span class="thread-pill">Epistemic Tools</span>
+            <span class="thread-pill">Entanglement</span>
+          </div>
+        </section>
+
+        <!-- ──────────────────────────── SPLIT IDENTITY ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01B — Agre</div>
+          <h1>The Split Identity</h1>
+          <div class="two-col">
+            <div>
+              <h3>Craft foot</h3>
+              <p>Fluency. Building. The practiced hand that reaches for the tool without thinking. The expertise that closes black boxes so you can work fast.</p>
+            </div>
+            <div>
+              <h3>Critique foot</h3>
+              <p>Questioning. Opening. The reflexive attention that re-examines assumptions the craft foot has naturalized. The voice that asks <em>why this tool, why these defaults</em>.</p>
+            </div>
+          </div>
+          <div class="highlight-box" style="margin-top:0.8em;">
+            <p>The split identity does not resolve. It is the ongoing condition of critical technical practice — not a phase you pass through on the way to having all the answers.</p>
+          </div>
+        </section>
+
+        <!-- ────────────────────────────── SECTION: W01C ── -->
+        <section data-transition="fade">
+          <div class="section-header" style="padding-top: 2em;">
+            <div class="section-num">W01C</div>
+            <h1>Hardware &amp; Software<br>Inventory</h1>
+            <div class="section-epigraph">"The digital system is material in its body, electric in function, and symbolic in control." — Magnusson</div>
+          </div>
+        </section>
+
+        <!-- ──────────────────────────────── SIGNAL CHAIN ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01C — The Signal Chain</div>
+          <h1>An Epistemic Inventory</h1>
+          <p style=" margin-bottom:0.6em;">Each arrow is a transformation — an amplification-reduction pair.</p>
+          <div class="signal-chain">
+            <span class="node">Body / Material World</span>
+            <span class="arrow">↓ &nbsp;<em style="color:var(--muted); font-size:0.9em;">[touch, vibration, conductance, presence]</em></span>
+            <span class="node">MPR121 Sensor</span>
+            <span class="arrow">↓ &nbsp;<em style="color:var(--muted); font-size:0.9em;">[12 threshold events — everything else disappears]</em></span>
+            <span class="node">QT Py RP2040</span>
+            <span class="arrow">↓ &nbsp;<em style="color:var(--muted); font-size:0.9em;">[CircuitPython — sequential, real-time, no threads]</em></span>
+            <span class="node">OSC / UDP</span>
+            <span class="arrow">↓ &nbsp;<em style="color:var(--muted); font-size:0.9em;">[named address + typed args — prioritizes latency over reliability]</em></span>
+            <span class="node">TouchDesigner / Max/MSP</span>
+            <span class="arrow">↓</span>
+            <span class="node">Sound · Image · Data</span>
+          </div>
+        </section>
+
+        <!-- ─────────────────────────────────── OSC NAMES ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01C — Agre: Intermediation</div>
+          <h1>Naming Is a Philosophical Act</h1>
+          <p>When designing your OSC namespace, you have to decide what to <em>call</em> your data:</p>
+          <div class="amp-reduce">
+            <div class="cell cell-head">Option</div>
+            <div class="cell cell-head">Problem</div>
+            <div class="cell cell-body"><code style="font-size:0.75em;">/sensor/capacitive_threshold_event/ch/7</code></div>
+            <div class="cell cell-body">Too technical — reveals the mechanism, hides the body</div>
+            <div class="cell cell-body"><code style="font-size:0.75em;">/presence_of_hand/right/index</code></div>
+            <div class="cell cell-body">Too phenomenological — claims more than the sensor knows</div>
+            <div class="cell cell-body"><code style="font-size:0.75em;">/sensor/touch/7</code></div>
+            <div class="cell cell-body">Intermediation — bridges the technical and the lived</div>
+          </div>
+          <p style="margin-top:0.7em; font-size:0.78rem;">Your first OSC schema is a philosophical document. What you choose to name your data channels reveals what you think the interaction <em>is</em>.</p>
+        </section>
+
+        <!-- ─────────────────────── SCULPTURE EXAMPLE ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01C — Research Example</div>
+          <h1><em>Don't Play in My Hair</em></h1>
+          <p>Capacitive touch electrodes embedded in a sculptural hair object. QT Py reads the MPR121 → OSC → Max/MSP triggers sound and visual response based on which electrodes are touched.</p>
+          <div class="highlight-box">
+            <p>The sensor models touch as <strong>12 threshold events</strong>. The sculpture is <em>about</em> touching Black hair — a gesture that carries enormous social, political, and intimate charge. The sensor cannot feel what that touch means.</p>
+          </div>
+          <p style="font-size:0.8rem;">The gap between what the electrode reads <em>(conductance shift at electrode 7)</em> and what the audience experiences <em>(touching something they were never supposed to touch)</em> is not a technical failure. <strong style="color:var(--highlight)">It's the piece.</strong></p>
+          <div class="thread-pills">
+            <span class="thread-pill">Physical-Digital Entanglement</span>
+            <span class="thread-pill">Epistemic Tools</span>
+          </div>
+        </section>
+
+        <!-- ──────────────────────────── INVENTORY EXERCISE ── -->
+        <section data-transition="slide">
+          <div class="module-tag">W01C — Exercise</div>
+          <h1>Do Your Epistemic Inventory</h1>
+          <p>Pick one tool you already use in your practice. Any tool. Ask:</p>
+          <ul class="questions">
+            <li>What does this tool <strong>amplify</strong>? What becomes easy, visible, measurable?</li>
+            <li>What does this tool <strong>reduce</strong>? What disappears, gets rounded off?</li>
+            <li>What world does it <strong>assume exists</strong>? What implicit model of activity, body, or material does its design encode?</li>
+            <li><strong>Who</strong> designed those assumptions, and for what context?</li>
+          </ul>
+          <p style="font-size:0.72rem; color:var(--muted); margin-top:0.8em;">This exercise is the foundation of ASN 2 — Critical Technical Journal. It begins this week.</p>
+        </section>
+
+        <!-- ────────────────────────────── THREE QUESTIONS ── -->
+        <section data-transition="fade">
+          <div style="display:flex; align-items:center; height:70vh;">
+            <div>
+              <div class="module-tag">W01B — Hold These</div>
+              <h1>Three Questions<br>to Carry</h1>
+              <ul class="questions" style=" margin-top:0.6em;">
+                <li><strong style="color:var(--highlight)">What does your tool amplify?</strong> What becomes easy, visible, measurable?</li>
+                <li><strong style="color:var(--highlight)">What does your tool reduce?</strong> What is systematically missing from what it captures?</li>
+                <li><strong style="color:var(--highlight)">Who designed the reduction?</strong> The defaults in your software were chosen by someone with specific assumptions. What were they?</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ────────────────────────────── KEY TERMS ── -->
+        <section data-transition="slide">
+          <div class="module-tag">Week 01 — Key Terms</div>
+          <h1>Vocabulary</h1>
+          <div class="term-grid">
+            <div class="term-card">
+              <span class="term-name">Research-Creation</span>
+              <p>Activity at the prebifurcation point where making and thinking are co-constitutive, not sequential.</p>
+            </div>
+            <div class="term-card">
+              <span class="term-name">Immanent Critique</span>
+              <p>Inhabiting complicity and making it turn; critique from inside the system, not from outside it.</p>
+            </div>
+            <div class="term-card">
+              <span class="term-name">Enabling Constraint</span>
+              <p>A limitation that, through interaction with other forces, generates emergence rather than just restriction.</p>
+            </div>
+            <div class="term-card">
+              <span class="term-name">Epistemic Tool</span>
+              <p>An instrument that is a knowledge-making artifact; tools determine what is possible and thus what can be thought.</p>
+            </div>
+            <div class="term-card">
+              <span class="term-name">Amplification-Reduction</span>
+              <p>Every tool amplifies certain features and reduces others. No tool is neutral. (Ihde)</p>
+            </div>
+            <div class="term-card">
+              <span class="term-name">Black Box</span>
+              <p>A naturalized object whose internal contingency has become invisible through repeated use. (Latour)</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ─────────────────────────── READINGS ── -->
+        <section data-transition="slide">
+          <div class="module-tag">Week 01 — Readings</div>
+          <h1>For This Week</h1>
+          <div class="term-grid">
+            <div class="term-card" style="border-left:3px solid var(--reading); background:rgba(122,158,126,0.07);">
+              <span class="term-name" style=" color:var(--reading);">Manning &amp; Massumi</span>
+              <p><em>Thought in the Act</em> — Propositions 0–3 (pp. 83–94)</p>
+              <p style=" color:var(--muted); font-size:0.65rem;">Don't try to understand it on first read. Mark what feels like it's writing about your practice.</p>
+            </div>
+            <div class="term-card" style="border-left:3px solid var(--reading); background:rgba(122,158,126,0.07);">
+              <span class="term-name" style=" color:var(--reading);">Philip Agre</span>
+              <p><em>Toward a Critical Technical Practice</em> — pp. 146–155</p>
+              <p style=" color:var(--muted); font-size:0.65rem;">Find the "split identity." Find the "hassle." Find "intermediation."</p>
+            </div>
+            <div class="term-card" style="border-left:3px solid var(--reading); background:rgba(122,158,126,0.07);">
+              <span class="term-name" style=" color:var(--reading);">Thor Magnusson</span>
+              <p><em>Sonic Writing</em> — Ch. 3: Epistemic Tools (selected)</p>
+              <p style=" color:var(--muted); font-size:0.65rem;">Find "ergodynamics." Ask: what does your instrument claim about the world?</p>
+            </div>
+            <div class="term-card" style="background:rgba(255,255,255,0.02); border:1px dashed rgba(255,255,255,0.12);">
+              <span class="term-name" style=" color:var(--muted);">For Week 02</span>
+              <p style=" color:var(--muted);">Bring an object to class. Any object. It is a proposition. Come ready to say what proposition yours is making.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ─────────────────────────── CLOSING ── -->
+        <section data-transition="fade">
+          <div style="display:flex; align-items:center; justify-content:center; height:80vh;">
+            <div>
+              <p class="provocation">"Every tool you pick up is already an argument."</p>
+              <div class="provocation-sub">This semester, we make those arguments conscious, contested, and productive.</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ─────────────────────────── THREADS SLIDE ── -->
+        <section data-transition="fade">
+          <div class="module-tag">Week 01 — Conceptual Threads Active This Week</div>
+          <h1>Connected Threads</h1>
+          <p>These are the cross-cutting concepts that will appear across all 11 weeks. Week 01 activates:</p>
+          <div class="thread-pills" style=" gap:0.8em; margin-top:1.2em;">
+            <span class="thread-pill" style="padding:0.5em 1.2em; font-size:0.68rem;">Research-Creation</span>
+            <span class="thread-pill" style=" padding:0.5em 1.2em; font-size:0.68rem;">Epistemic Tools</span>
+            <span class="thread-pill" style=" padding:0.5em 1.2em; font-size:0.68rem;">Enabling Constraints</span>
+            <span class="thread-pill" style=" padding:0.5em 1.2em; font-size:0.68rem;">Physical-Digital Entanglement</span>
+            <span class="thread-pill" style=" padding:0.5em 1.2em; font-size:0.68rem;">Entanglement</span>
+          </div>
+          <p style="margin-top:1.6em; font-size:0.72rem; color:var(--muted);">The Threads folder in the course site maps how these concepts travel across all weeks — not as topics that appear once and disappear, but as recurring structures that deepen through each encounter.</p>
+          <div class="footnote">DIGM 553 · Spring 2026 · dwoodjr.github.io/drexel-courses/</div>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.min.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        controls: true,
+        progress: true,
+        center: false,
+        transition: 'fade',
+        transitionSpeed: 'slow',
+        backgroundTransition: 'fade',
+        slideNumber: 'c/t',
+        keyboard: true,
+        overview: true,
+        touch: true,
+        hideInactiveCursor: true,
+        hideCursorTime: 2000,
+      });
+    </script>
+  </body>
+</html>

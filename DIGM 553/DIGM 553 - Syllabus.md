@@ -4,6 +4,8 @@ title: "DIGM 553 Syllabus — Spring 2026"
 # DIGM 553 — Experimental Digital Media Lab
 **Spring 2026 | 3.0 credits | Graduate**
 
+[[DIGM 553/Documents/DIGM_553_SP_2026-2.pdf|Link to Course Syllabus PDF]]
+
 ---
 ## Course Description
 In this hands-on lab, students experiment with emerging tools and techniques, applying their creative vision to produce innovative digital media projects. This course encourages risk-taking and exploration, helping students develop unique projects that push the boundaries of digital art and design.

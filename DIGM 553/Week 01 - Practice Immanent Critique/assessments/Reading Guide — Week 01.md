@@ -13,7 +13,7 @@ tags: [DIGM553, week01, reading, assessment]
 ## Primary Reading
 
 ### Manning, E. & Massumi, B. — *Thought in the Act*: ***For Thought in the Act***
-**Propositions 0–3** (pp. 83–94)
+**Propositions 0–3** (pp. 83–97)
 Minnesota University Press, 2014.
 
 **Access:** [[Manning_Massumi_2014_TITA_6.pdf|Manning + Massumi – Though in the Act]]

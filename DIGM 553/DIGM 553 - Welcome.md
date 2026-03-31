@@ -31,7 +31,7 @@ title: "Welcome to DIGM 553"
 
 | Week                                                                           | Theme                                           | Canvas             |
 | ------------------------------------------------------------------------------ | ----------------------------------------------- | ------------------ |
-| [[Week 01 - Practice Immanent Critique/Week 01\|Week 01]]                      | Practice Immanent Critique                      | [[Week 01-Canvas.canvas]] |
+| [[Week 01 - Practice Immanent Critique/Week 01\|Week 01]]                      | Practice Immanent Critique                      | [[Week 01.canvas]] |
 | [[Week 02 - Construct Conditions for Speculative Pragmatism/Week 02\|Week 02]] | Construct Conditions for Speculative Pragmatism | [[Week 02.canvas]] |
 | [[Week 03 - Epistemic Tools + Entanglement/Week 03\|Week 03]]                  | Epistemic Tools + Entanglement                  | [[Week 03.canvas]] |
 | [[Week 04 - Design Enabling Constraints/Week 04\|Week 04]]                     | Design Enabling Constraints                     | [[Week 04.canvas]] |
