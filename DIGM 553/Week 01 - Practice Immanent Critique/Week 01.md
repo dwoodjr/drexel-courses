@@ -8,7 +8,6 @@ tags: [DIGM553, week01]
 > Course opening: research-creation as methodology. **What does it mean to think *with* tools rather than *through* them?**
 
 **Canvas**: [[Week 01.canvas]]
-**Slides**: [[docs/digm-553/slides/Week 01 Presentation/index.html|Slides]]
 
 ---
 ## Activities
@@ -31,7 +30,7 @@ tags: [DIGM553, week01]
 - [[DIGM 553 - W01C - Hardware and Software Inventory|C: Hardware and Software Inventory]]
 
 > [!tip] **Slide Deck**
-> [→ Open Week 01 Presentation](https://dwoodjr.github.io/drexel-courses/digm-553/week-01-presentation.html) — reveal.js deck covering W01A · W01B · W01C
+> [→ Open Week 01 Presentation](https://dwoodjr.github.io/drexel-courses/digm-553/slides/week-01/) — reveal.js deck covering W01A · W01B · W01C
 
 ---
 ## Conceptual Threads

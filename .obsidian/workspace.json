@@ -75,21 +75,9 @@
               "icon": "lucide-file",
               "title": "Slide Preview"
             }
-          },
-          {
-            "id": "d2bcceb27289ec6b",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "docs/digm-553/slides/Week 01 Presentation"
-              },
-              "icon": "lucide-file",
-              "title": "Week 01 Presentation"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -321,34 +309,40 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "c0b895f154f6bae8",
+  "active": "1544cd037f90749d",
   "lastOpenFiles": [
+    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
+    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff",
+    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff",
+    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff",
+    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff",
+    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff",
+    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff",
+    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
+    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff",
+    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff",
+    "docs/digm-553/slides/week-01/plugin/chalkboard/img/whiteboard.png",
+    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-yellow.png",
+    "docs/digm-553/slides/week-01/plugin/chalkboard/img/sponge.png",
+    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-white.png",
+    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-purple.png",
+    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-red.png",
+    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-orange.png",
+    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-green.png",
+    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-blue.png",
+    "docs/digm-553/slides/week-01/plugin/chalkboard/img/boardmarker-green.png",
+    "docs/digm-553/slides/week-01/plugin/menu/README.md",
+    "docs/digm-553/slides/week-01/plugin/menu/CONTRIBUTING.md",
+    "docs/digm-553/slides/week-01/plugin/customcontrols/README.md",
+    "docs/digm-553/slides/week-01/plugin/chart/README.md",
+    "docs/digm-553/slides/week-01/plugin/chalkboard/README.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
-    "docs/digm-553/slides/week-01-presentation-content.html",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/whiteboard.png",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/sponge.png",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-yellow.png",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-white.png",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-purple.png",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-red.png",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-green.png",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-orange.png",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/boardmarker-red.png",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-blue.png",
     "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/README.md",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/plugin.js",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/_style.css",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/style.css",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/plugin (copy).js",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard",
     "docs/digm-553/slides/Week 01 Presentation/plugin/chart/README.md",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chart/plugin.js",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chart/chart.min.js",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chart",
     "docs/digm-553/slides/Week 01 Presentation/plugin/customcontrols/README.md",
     "docs/digm-553/slides/Week 01 Presentation/plugin/menu/README.md",
     "docs/digm-553/slides/Week 01 Presentation/plugin/menu/CONTRIBUTING.md",
@@ -364,12 +358,6 @@
     "GMAP 395/Weeklies/GMAP 395 - Week 6 - TPS.md",
     "GMAP 395/GMAP 395 - Final Project - Details and Requirements.md",
     "GMAP 395/Module 3/GMAP 395 - Module 3.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3D - Advanced VFX Techniques.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3E - VFX Style Guides and Polish.md",
-    "GMAP 395/Weeklies/GMAP 395 - Week 7 - TPS.md",
-    "GMAP 395/Module 4/GMAP 395 - ASN 4 - Brief.md",
-    "GMAP 395/Module 4/submodules/GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity.md",
-    "GMAP 395/Module 4/submodules/GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation.md",
     "DIGM 553/DIGM 553.canvas",
     "DIGM 553/Week 11 - Proceed/Week 11.canvas",
     "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
