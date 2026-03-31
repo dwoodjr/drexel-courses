@@ -39,24 +39,21 @@
             }
           },
           {
-            "id": "38a1f566bf47e647",
+            "id": "43b3248de4576786",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
-                "viewState": {
-                  "x": -68.35109453403925,
-                  "y": -794.2149402472164,
-                  "zoom": -1
-                }
+                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Week 01"
+              "icon": "lucide-file",
+              "title": "Week 01 Presentation"
             }
           },
           {
-            "id": "43b3248de4576786",
+            "id": "e004bacfc96209d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,9 +65,31 @@
               "icon": "lucide-file",
               "title": "Week 01"
             }
+          },
+          {
+            "id": "c0b895f154f6bae8",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          },
+          {
+            "id": "d2bcceb27289ec6b",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "docs/digm-553/slides/Week 01 Presentation"
+              },
+              "icon": "lucide-file",
+              "title": "Week 01 Presentation"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403.5
+    "width": 425.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -302,11 +321,39 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "008c427bb9b31ea3",
+  "active": "c0b895f154f6bae8",
   "lastOpenFiles": [
-    "docs/site-lib/search-index.json",
-    "docs/site-lib/metadata.json",
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
     "docs/digm-553/slides/week-01-presentation-content.html",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/whiteboard.png",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/sponge.png",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-yellow.png",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-white.png",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-purple.png",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-red.png",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-green.png",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-orange.png",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/boardmarker-red.png",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img/chalk-blue.png",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/README.md",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/plugin.js",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/_style.css",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/style.css",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/img",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/plugin (copy).js",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chart/README.md",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chart/plugin.js",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chart/chart.min.js",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/chart",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/customcontrols/README.md",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/menu/README.md",
+    "docs/digm-553/slides/Week 01 Presentation/plugin/menu/CONTRIBUTING.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
+    "docs/digm-553/week-01-practice-immanent-critique/slides/slides.md",
     "GMAP 395/Module 3/submodules/submodules.md",
     "GMAP 395/Module 3/legacy/legacy.md",
     "GMAP 395/Module 3/tutorials/tutorials.md",
@@ -323,35 +370,7 @@
     "GMAP 395/Module 4/GMAP 395 - ASN 4 - Brief.md",
     "GMAP 395/Module 4/submodules/GMAP 395 - Module 4A - Post-Processing Effects Basics in Unity.md",
     "GMAP 395/Module 4/submodules/GMAP 395 - Module 4B - Hands-On Unity Post-Processing Implementation.md",
-    "GMAP 395/GMAP 395 - Syllabus.md",
-    "GMAP 395/Module 4/GMAP 395 - Module 4.md",
-    "GMAP 395/Module 4/submodules/submodules.md",
-    "GMAP 395/Module 4/submodules/GMAP 395 - Module 4C - Cinemachine and Camera Systems Fundamentals.md",
-    "GMAP 395/Module 4/submodules/GMAP 395 - Module 4D - Camera Effects Scripting and Advanced Techniques.md",
-    "GMAP 395/Weeklies/GMAP 395 - Week 9 - TPS.md",
-    "GMAP 395/Introduction/submodules/submodules.md",
-    "GMAP 395/Introduction/legacy/legacy.md",
-    "DIGM 553/Assignments/Assignments.md",
     "DIGM 553/DIGM 553.canvas",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
-    "docs/digm-553/slides/week-01-presentation.html",
-    "docs/digm-553/slides",
-    "DIGM 553/Slides",
-    "docs/digm-553/week-01-practice-immanent-critique/slides",
-    "DIGM 553/Slides/Week-01-Presentation.html",
-    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-yellow.png",
-    "docs/Week 01 Presentation/plugin/chalkboard/img/whiteboard.png",
-    "docs/Week 01 Presentation/plugin/chalkboard/img/sponge.png",
-    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-white.png",
-    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-orange.png",
-    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-red.png",
-    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-purple.png",
-    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-green.png",
-    "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-blue.png",
-    "docs/Week 01 Presentation/plugin/chalkboard/img/boardmarker-yellow.png",
-    "docs/Week 01 Presentation/plugin/chalkboard/_style.css",
-    "docs/Week 01 Presentation/plugin/chalkboard/style.css",
-    "docs/Week 01 Presentation/plugin/chalkboard/plugin.js",
     "DIGM 553/Week 11 - Proceed/Week 11.canvas",
     "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
     "DIGM 553/Week 09 - Render Formative Forces/Week 09.canvas",

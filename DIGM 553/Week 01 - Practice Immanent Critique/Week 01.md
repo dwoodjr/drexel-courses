@@ -7,8 +7,8 @@ tags: [DIGM553, week01]
 
 > Course opening: research-creation as methodology. **What does it mean to think *with* tools rather than *through* them?**
 
-**Canvas**: [[Week 01.canvas|Week 01 Canvas]]
-**Slides**: [[Week-01-Presentation.html|Week 01 Slides]]
+**Canvas**: [[Week 01.canvas]]
+**Slides**: [[docs/digm-553/slides/Week 01 Presentation/index.html|Slides]]
 
 ---
 ## Activities

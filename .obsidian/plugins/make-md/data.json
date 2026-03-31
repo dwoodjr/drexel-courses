@@ -60,10 +60,13 @@
     "//docs/docs/digm-553",
     "//DIGM 553",
     "//docs/docs/Week 01 Presentation",
-    "//docs/docs/digm-553/docs/digm-553/week-01-practice-immanent-critique",
     "//docs",
     "//docs/docs/digm-553/docs/digm-553/week-01-practice-immanent-critique/docs/digm-553/week-01-practice-immanent-critique/slides",
-    "//DIGM 553/DIGM 553/Week 01 - Practice Immanent Critique"
+    "//DIGM 553/DIGM 553/Week 01 - Practice Immanent Critique",
+    "//DIGM 553/DIGM 553/Slides",
+    "//docs/docs/digm-553/docs/digm-553/week-01-practice-immanent-critique/docs/digm-553/week-01-practice-immanent-critique/submodules",
+    "//docs/docs/digm-553/docs/digm-553/slides",
+    "//docs/docs/digm-553/docs/digm-553/slides/docs/digm-553/slides/Week 01 Presentation"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
