@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
+                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 01 Presentation"
+              "title": "Week 01"
             }
           },
           {
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -148,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 403.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -312,15 +312,20 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "1544cd037f90749d",
+  "active": "ebebd4d09167c47a",
   "lastOpenFiles": [
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
+    "DIGM 553/Slides/Slides.md",
+    "DIGM 553/Slides",
     "docs/digm-553/week-01-practice-immanent-critique/week-01-practice-immanent-critique.md",
     "docs/docs.md",
     "docs/digm-553/week-01-practice-immanent-critique/slides/slides.md",
     "docs/digm-553/week-01-practice-immanent-critique/slides",
-    "docs/digm-553/week-01-practice-immanent-critique/slides/Week-01-Presentation.html",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
+    "DIGM 553/Slides/Week-01-Presentation.html",
     "docs/Week 01 Presentation/plugin/chalkboard/img/chalk-yellow.png",
     "docs/Week 01 Presentation/plugin/chalkboard/img/whiteboard.png",
     "docs/Week 01 Presentation/plugin/chalkboard/img/sponge.png",
@@ -340,13 +345,11 @@
     "docs/Week 01 Presentation/plugin/chalkboard",
     "docs/Week 01 Presentation/plugin/chart/README.md",
     "docs/Week 01 Presentation/plugin/chart/plugin.js",
-    "docs/Week 01 Presentation/plugin/chart/chart.min.js",
     "docs/Week 01 Presentation/plugin/customcontrols/README.md",
     "docs/Week 01 Presentation/plugin/menu/README.md",
     "docs/Week 01 Presentation/plugin/menu/CONTRIBUTING.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/assessments/Reading Guide — Week 01.md",
     "DIGM 553/DIGM 553 - Welcome.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
     "DIGM 553/DIGM 553.canvas",
     "DIGM 553/DIGM 553 - Syllabus.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01A - Research-Creation as Method.md",
@@ -359,9 +362,6 @@
     "GMAP 395/Introduction/Introduction.md",
     "GMAP 395/Introduction/legacy/GMAP 395 - WK 1 - Video Lecture.md",
     "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Video Lecture.md",
-    "GMAP 395/Module 1/Media/Media.md",
-    "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Slides.md",
-    "GMAP 395/Module 1/legacy/GMAP 395 - WK 3 - Slides.md",
     "DIGM 553/Week 11 - Proceed/Week 11.canvas",
     "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
     "DIGM 553/Week 09 - Render Formative Forces/Week 09.canvas",
