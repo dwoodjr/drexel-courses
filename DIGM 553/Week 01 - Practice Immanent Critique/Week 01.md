@@ -29,9 +29,6 @@ tags: [DIGM553, week01]
 - [[DIGM 553 - W01B - Epistemic Tools Introduction|B: Epistemic Tools Introduction]]
 - [[DIGM 553 - W01C - Hardware and Software Inventory|C: Hardware and Software Inventory]]
 
-> [!tip] **Slide Deck**
-> [→ Open Week 01 Presentation](https://dwoodjr.github.io/drexel-courses/digm-553/slides/week-01/) — reveal.js deck covering W01A · W01B · W01C
-
 ---
 ## Conceptual Threads
 

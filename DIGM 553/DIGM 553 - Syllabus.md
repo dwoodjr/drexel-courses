@@ -6,6 +6,15 @@ title: "DIGM 553 Syllabus — Spring 2026"
 
 [[DIGM 553/Documents/DIGM_553_SP_2026-2.pdf|Link to Course Syllabus PDF]]
 
+<div style="padding:56.25% 0 0 0; position:relative;">
+  <iframe src="https://player.vimeo.com/video/1178908450?badge=0&autopause=0&player_id=0&app_id=58479"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+    style="position:absolute; top:0; left:0; width:100%; height:100%;"
+    title="DIGM 553 — Course Introduction">
+  </iframe>
+</div>
+
 ---
 ## Course Description
 In this hands-on lab, students experiment with emerging tools and techniques, applying their creative vision to produce innovative digital media projects. This course encourages risk-taking and exploration, helping students develop unique projects that push the boundaries of digital art and design.
