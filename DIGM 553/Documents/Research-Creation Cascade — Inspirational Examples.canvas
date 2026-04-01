@@ -20,11 +20,6 @@
 		{"id":"2277945eb295c328","type":"text","text":"https://mimugloves.com","x":0,"y":3200,"width":240,"height":60,"color":"3"},
 		{"id":"r5_think","type":"text","text":"### Imogen Heap\n*Mi.Mu Gloves*\n\nPerformance should be fully embodied. Why do singers stand static at a mic while all the sonic shaping happens offstage, invisible? The gesture should *be* the instrument.","x":-3300,"y":2720,"width":700,"height":280,"color":"3"},
 		{"id":"r5_data","type":"text","text":"**Hand + finger position, orientation, gesture** → flex sensor readings + accelerometer/gyroscope data\n\nA vocabulary of gesture mapped to a vocabulary of sound. Moving a wrist is composing.","x":-2480,"y":2720,"width":700,"height":280,"color":"3"},
-		{"id":"r4_think","type":"text","text":"### George Lewis\n*Voyager (1987–)*\n\nWhat would it mean for a machine to improvise in a Black musical tradition. Not mimicking it, but *thinking with it*? Can software carry cultural memory and agency?","x":-3300,"y":1960,"width":700,"height":280,"color":"6"},
-		{"id":"r4_data","type":"text","text":"**Live instrumental performance** → MIDI: note, velocity, timing, pitch, density data\n\nThe data is *musical behavior* — not just notes but phrasing, energy, direction, momentum. The machine listens to all of it.","x":-2480,"y":1960,"width":700,"height":280,"color":"6"},
-		{"id":"r4_hw","type":"text","text":"Any MIDI instrument (trombone, saxophone, piano)\n↓\n**Voyager** — custom Lisp-based AI improvisation system (built at STEIM, Amsterdam)\n↓\nVirtual improvising orchestra: responds to the player AND generates independently","x":-1660,"y":1960,"width":700,"height":280,"color":"6"},
-		{"id":"r4_work","type":"link","url":"https://archiv.hkw.de/en/programm/projekte/2020/das_verschwinden_der_musik/programm_verschwinden_der_musik/video_george_lewis_timelike_weave_voyager.php","x":-840,"y":1960,"width":1080,"height":480,"color":"6"},
-		{"id":"15c2ba45508583ad","type":"text","text":"https://archiv.hkw.de/en/programm/projekte/2020/das_verschwinden_der_musik/programm_verschwinden_der_musik/video_george_lewis_timelike_weave_voyager.php","x":-492,"y":2440,"width":732,"height":67,"color":"6"},
 		{"id":"h_hw","type":"text","text":"**HARDWARE → SOFTWARE**\n*What transduces and processes?*","x":-1658,"y":-720,"width":700,"height":80,"color":"1"},
 		{"id":"h_work","type":"text","text":"**THE WORK**\n*What becomes possible?*","x":-838,"y":-720,"width":740,"height":80,"color":"1"},
 		{"id":"h_thinking","type":"text","text":"**PRACTICE THINKING**\n*What is the work obsessed with?*","x":-3298,"y":-720,"width":700,"height":80,"color":"1"},
@@ -56,7 +51,14 @@
 		{"id":"r9_hw","type":"text","text":"GPS receivers (worn by street runners) + handheld computers + walkie-talkies + networked server\n↓\nCustom real-time game engine + live mapping (Mixed Reality Lab, Nottingham)\n↓\nMixed-reality chase: online players as avatars; runners as live GPS dots in the city","x":-1660,"y":6000,"width":700,"height":280,"color":"2"},
 		{"id":"bea8029656ef02f4","x":-310,"y":6480,"width":550,"height":50,"color":"2","type":"text","text":"https://www.blasttheory.co.uk/projects/can-you-see-me-now/"},
 		{"id":"9369edb7d04ccacf","x":-180,"y":7280,"width":420,"height":67,"color":"5","type":"text","text":"https://www.memo.tv/works/learning-to-see/"},
-		{"id":"legend","type":"text","text":"**🟠 Movement / Dance / Interactive**\n**🟣 Afrofuturist / Black Practice**\n**🟡 Sound / Music**\n**🔵 Computer Vision / ML-Visual**\n**🟢 Biometric / Body**\n**🔴 Instructor Practice**","x":-1808,"y":-1280,"width":280,"height":220,"color":"1"}
+		{"id":"legend","type":"text","text":"**🟠 Movement / Dance / Interactive**\n**🟣 Afrofuturist / Black Practice**\n**🟡 Sound / Music**\n**🔵 Computer Vision / ML-Visual**\n**🟢 Biometric / Body**\n**🔴 Instructor Practice**","x":-1808,"y":-1280,"width":280,"height":220,"color":"1"},
+		{"id":"39c0d5d2f9cf4fec","x":-920,"y":1862,"width":886,"height":578,"color":"6","type":"link","url":"https://www.youtube.com/watch?v=ncy4_FHX3Jc"},
+		{"id":"556f58a2a3f8abdd","x":-461,"y":2440,"width":427,"height":80,"color":"6","type":"text","text":"https://www.youtube.com/watch?v=ncy4_FHX3Jc"},
+		{"id":"r4_data","type":"text","text":"**Live instrumental performance** → MIDI: note, velocity, timing, pitch, density data\n\nThe data is *musical behavior* — not just notes but phrasing, energy, direction, momentum. The machine listens to all of it.","x":-2598,"y":1960,"width":700,"height":280,"color":"6"},
+		{"id":"r4_hw","type":"text","text":"Any MIDI instrument (trombone, saxophone, piano)\n↓\n**Voyager** — custom Lisp-based AI improvisation system (built at STEIM, Amsterdam)\n↓\nVirtual improvising orchestra: responds to the player AND generates independently","x":-1778,"y":1960,"width":700,"height":280,"color":"6"},
+		{"id":"r4_think","type":"text","text":"### George Lewis\n*Voyager (1987–)*\n\nWhat would it mean for a machine to improvise in a Black musical tradition. Not mimicking it, but *thinking with it*? Can software carry cultural memory and agency?","x":-3418,"y":1960,"width":700,"height":280,"color":"6"},
+		{"id":"r4_work","type":"link","url":"https://archiv.hkw.de/en/programm/projekte/2020/das_verschwinden_der_musik/programm_verschwinden_der_musik/video_george_lewis_timelike_weave_voyager.php","x":86,"y":2010,"width":458,"height":180,"color":"6"},
+		{"id":"15c2ba45508583ad","type":"text","text":"https://archiv.hkw.de/en/programm/projekte/2020/das_verschwinden_der_musik/programm_verschwinden_der_musik/video_george_lewis_timelike_weave_voyager.php","x":260,"y":2190,"width":284,"height":160,"color":"6"}
 	],
 	"edges":[
 		{"id":"e_r1_12","fromNode":"r1_think","fromSide":"right","toNode":"r1_data","toSide":"left","color":"2"},
@@ -70,7 +72,7 @@
 		{"id":"e_r3_34","fromNode":"r3_hw","fromSide":"right","toNode":"r3_work","toSide":"left","color":"6"},
 		{"id":"e_r4_12","fromNode":"r4_think","fromSide":"right","toNode":"r4_data","toSide":"left","color":"6"},
 		{"id":"e_r4_23","fromNode":"r4_data","fromSide":"right","toNode":"r4_hw","toSide":"left","color":"6"},
-		{"id":"e_r4_34","fromNode":"r4_hw","fromSide":"right","toNode":"r4_work","toSide":"left","color":"6"},
+		{"id":"e_r4_34","fromNode":"r4_hw","fromSide":"right","toNode":"39c0d5d2f9cf4fec","toSide":"left","color":"6"},
 		{"id":"e_r5_12","fromNode":"r5_think","fromSide":"right","toNode":"r5_data","toSide":"left","color":"3"},
 		{"id":"e_r5_23","fromNode":"r5_data","fromSide":"right","toNode":"r5_hw","toSide":"left","color":"3"},
 		{"id":"e_r5_34","fromNode":"r5_hw","fromSide":"right","toNode":"r5_work","toSide":"left","color":"3"},
@@ -114,6 +116,7 @@
 		{"id":"97cdfa6f48449ef7","fromNode":"h_work","fromSide":"right","toNode":"r1_work","toSide":"right"},
 		{"id":"5c87221f66924644","fromNode":"legend","fromSide":"bottom","toNode":"h_data","toSide":"top"},
 		{"id":"654b8b3bed472480","fromNode":"legend","fromSide":"bottom","toNode":"h_hw","toSide":"top"},
-		{"id":"4c0a185837856bba","fromNode":"legend","fromSide":"bottom","toNode":"h_work","toSide":"top"}
+		{"id":"4c0a185837856bba","fromNode":"legend","fromSide":"bottom","toNode":"h_work","toSide":"top"},
+		{"id":"73e2925b99ce5b77","fromNode":"39c0d5d2f9cf4fec","fromSide":"right","toNode":"r4_work","toSide":"left","color":"6"}
 	]
 }
