@@ -1,5 +1,5 @@
 ---
-theme: black
+theme: white
 highlightTheme: zenburn
 transition: slide
 transitionSpeed: default

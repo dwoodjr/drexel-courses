@@ -152,6 +152,14 @@ Here is the exercise this note is preparing you for:
 
 ---
 
+## Thinking Toward Your Own Sensors
+
+The hardware described above is the course's core signal chain — but it is not a prescription for yours. Before choosing sensors or purchasing hardware, work through your own practice first.
+
+See → **[[../../../Documents/Hardware Clarifications — Thinking Toward Sensors|Hardware Clarifications — Thinking Toward Sensors]]** for a framework on how to move from practice thinking to sensor selection, a clarification on Stemma QT vs Qwiic, and the prompt to complete before our next hardware conversation.
+
+---
+
 ## Setup Reference
 
 For CircuitPython + MPR121 + OSC → TouchDesigner:

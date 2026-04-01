@@ -27,16 +27,68 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
+                "file": "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 01"
+              "title": "Hardware Clarifications — Thinking Toward Sensors"
+            }
+          },
+          {
+            "id": "90f7ddaf44249b0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hardware Clarifications — Thinking Toward Sensors"
+            }
+          },
+          {
+            "id": "c0d1596349c4ef5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week 01 Presentation"
+            }
+          },
+          {
+            "id": "700944821b5bfc3b",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          },
+          {
+            "id": "6e05db9bb8c97f66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01C - Hardware and Software Inventory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DIGM 553 - W01C - Hardware and Software Inventory"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -90,7 +142,7 @@
             }
           },
           {
-            "id": "1544cd037f90749d",
+            "id": "ebe5daf04a49c8dc",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -104,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5
+    "width": 513.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -239,8 +291,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,24 +319,30 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "af2f787890a1a836",
+  "active": "6e05db9bb8c97f66",
   "lastOpenFiles": [
-    "DIGM 553/DIGM 553 - Syllabus.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
-    "DIGM 553/DIGM 553 - Welcome.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
+    "docs/digm-553/week-01-practice-immanent-critique/submodules/week-01-slides.pdf",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01C - Hardware and Software Inventory.md",
+    "docs/digm-553/documents/research-creation-cascade-—-inspirational-examples.html",
+    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
+    "docs/digm-553/documents/hardware-clarifications-—-thinking-toward-sensors.html",
+    "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
+    "docs/digm-553/week-01-practice-immanent-critique/submodules/week-01-slides.html",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01B - Epistemic Tools Introduction.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01A - Research-Creation as Method.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/Week-01-Slides.pdf",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/New folder",
+    "DIGM 553/Documents/DIGM_553_SP_2026-2.pdf",
     "DIGM 553/DIGM 553.canvas",
+    "DIGM 553/Documents/Documents.md.tmp.5.1775006640783",
+    "Index.md",
+    "DIGM 553/DIGM 553 - Syllabus.md",
+    "DIGM 553/DIGM 553 - Welcome.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md.tmp.5.1774974059794",
     "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
-    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
-    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff",
-    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff",
-    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff",
-    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff",
-    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff",
-    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff",
-    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
     "docs/digm-553/slides/week-01/plugin/chalkboard/img/whiteboard.png",
     "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-yellow.png",
     "docs/digm-553/slides/week-01/plugin/chalkboard/img/sponge.png",
@@ -312,18 +369,12 @@
     "GMAP 395/Module 3/submodules/submodules.md",
     "GMAP 395/Module 3/legacy/legacy.md",
     "GMAP 395/Module 3/tutorials/tutorials.md",
-    "GMAP 395/Module 3/GMAP 395 - ASN 3 - Brief.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3A - VFX Basics and Game Feel.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3B - Unity Particle System Hands-On.md",
-    "GMAP 395/Module 3/submodules/GMAP 395 - Module 3C - VFX Graph Introduction.md",
-    "GMAP 395/Weeklies/GMAP 395 - Week 6 - TPS.md",
     "DIGM 553/Week 11 - Proceed/Week 11.canvas",
     "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
     "DIGM 553/Week 09 - Render Formative Forces/Week 09.canvas",
     "DIGM 553/Week 08 - Practice Letting Go/Week 08.canvas",
     "DIGM 553/Week 07 - Embrace Failure/Week 07.canvas",
     "DIGM 553/Week 06 - Invent Platforms for Relation/Week 06.canvas",
-    "DIGM 553/Week 05 - Enact Thought/Week 05.canvas",
-    "DIGM 553/Week 04 - Design Enabling Constraints/Week 04.canvas"
+    "DIGM 553/Week 05 - Enact Thought/Week 05.canvas"
   ]
 }

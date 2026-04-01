@@ -6,9 +6,6 @@ tags: [DIGM553, week01]
 # Week 01: Practice Immanent Critique
 
 > Course opening: research-creation as methodology. **What does it mean to think *with* tools rather than *through* them?**
-
-**Canvas**: [[Week 01.canvas]]
-
 ---
 **Week 01 Lecture Recording:**
 
