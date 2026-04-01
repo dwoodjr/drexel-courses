@@ -3,6 +3,16 @@ title: "Hardware Clarifications — Thinking Toward Sensors"
 tags: [DIGM553, hardware, sensors, resources]
 ---
 # Hardware Clarifications — Thinking Toward Sensors
+---
+
+<div style="padding:56.25% 0 0 0; position:relative;">
+  <iframe src="https://player.vimeo.com/video/1179082426?badge=0&autopause=0&player_id=0&app_id=58479"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+    style="position:absolute; top:0; left:0; width:100%; height:100%;"
+    title="DIGM 553 — Week 01 Lecture">
+  </iframe>
+</div>
 
 ---
 
@@ -12,7 +22,7 @@ You may have heard the terms **Stemma QT** and **Qwiic**  and **Grove** in lectu
 
 ![[5056-04.gif]]
 
-**Stemma QT** (Adafruit) and **Qwiic** (SparkFun) are two brand names for the same electrical standard: a 4-pin JST-SH connector running I2C communication at 3.3V. The physical connector is identical. The electrical protocol is (nearly) identical. A Stemma QT cable plugs into a Qwiic board and vice versa, witt little to no modification needed.
+**Stemma QT** (Adafruit) and **Qwiic** (SparkFun) are two brand names for the same electrical standard: a `4-pin JST-SH` connector running I2C communication at 3.3V. The physical connector is identical. The electrical protocol is (nearly) identical. A Stemma QT cable plugs into a Qwiic board and vice versa, witt little to no modification needed.
 
 ---
 

@@ -36,48 +36,24 @@
             }
           },
           {
-            "id": "90f7ddaf44249b0f",
+            "id": "c0d1596349c4ef5c",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
                 "viewState": {
-                  "x": -1520,
-                  "y": 1686.5,
-                  "zoom": -2.8084392475809437
+                  "x": -1285.4809089268467,
+                  "y": 1619.5393713568567,
+                  "zoom": -2.9999999999999996
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Research-Creation Cascade — Inspirational Examples"
             }
-          },
-          {
-            "id": "c0d1596349c4ef5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Week 01 Presentation"
-            }
-          },
-          {
-            "id": "700944821b5bfc3b",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Slide Preview"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +130,7 @@
       {
         "id": "93b3ddf4fd75b166",
         "type": "tabs",
-        "dimension": 45.31974050046338,
+        "dimension": 54.77293790546802,
         "children": [
           {
             "id": "81e14ee526097519",
@@ -264,7 +240,7 @@
       {
         "id": "654ae1b2ef08042f",
         "type": "tabs",
-        "dimension": 54.68025949953662,
+        "dimension": 45.22706209453197,
         "children": [
           {
             "id": "2b9aa3d6b77b12e1",
@@ -280,7 +256,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 402.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -310,6 +286,12 @@
   },
   "active": "c0d1596349c4ef5c",
   "lastOpenFiles": [
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
+    "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
+    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
+    "DIGM 553/Documents/DIGM_553_SP_2026-2.pdf",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
     "docs/digm-553/documents/media/5056-04.gif",
     "docs/digm-553/documents/media/pasted-image-20260331222533.png",
@@ -322,19 +304,13 @@
     "docs/gmap-395/legacy/su-24/gmap-395-su24-assignment-game-art-conceptualization-.html",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
     "docs/gmap-395/legacy/su-24/gmap-395-su24-in-class-lab-basic-shader-in-unity-shader-graph-.html",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01C - Hardware and Software Inventory.md",
-    "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
-    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
-    "DIGM 553/Documents/DIGM_553_SP_2026-2.pdf",
     "DIGM 553/Documents/media/Pasted image 20260331222131.png",
     "DIGM 553/Documents/media/5056-04.gif",
     "DIGM 553/Documents/media/3967-05.gif",
     "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md.tmp.5.1775009918792",
     "DIGM 553/Documents/media/media.md",
     "DIGM 553/Documents/media",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
     "docs/digm-553/week-01-practice-immanent-critique/submodules/week-01-slides.pdf",
     "docs/digm-553/documents/research-creation-cascade-—-inspirational-examples.html",
     "docs/digm-553/documents/hardware-clarifications-—-thinking-toward-sensors.html",
