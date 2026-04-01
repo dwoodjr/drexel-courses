@@ -39,14 +39,17 @@
             "id": "90f7ddaf44249b0f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
-                "mode": "source",
-                "source": false
+                "file": "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
+                "viewState": {
+                  "x": -1520,
+                  "y": 1686.5,
+                  "zoom": -2.8084392475809437
+                }
               },
-              "icon": "lucide-file",
-              "title": "Hardware Clarifications — Thinking Toward Sensors"
+              "icon": "lucide-layout-dashboard",
+              "title": "Research-Creation Cascade — Inspirational Examples"
             }
           },
           {
@@ -72,23 +75,9 @@
               "icon": "lucide-file",
               "title": "Slide Preview"
             }
-          },
-          {
-            "id": "6e05db9bb8c97f66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01C - Hardware and Software Inventory.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DIGM 553 - W01C - Hardware and Software Inventory"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -319,47 +308,48 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "6e05db9bb8c97f66",
+  "active": "c0d1596349c4ef5c",
   "lastOpenFiles": [
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
-    "docs/digm-553/week-01-practice-immanent-critique/submodules/week-01-slides.pdf",
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
+    "docs/digm-553/documents/media/5056-04.gif",
+    "docs/digm-553/documents/media/pasted-image-20260331222533.png",
+    "docs/digm-553/documents/media/pasted-image-20260331222131.png",
+    "docs/digm-553/documents/media/pasted-image-20260331221722.png",
+    "docs/digm-553/documents/media/2472-04.gif",
+    "docs/digm-553/documents/media/3967-05.gif",
+    "docs/digm-553/documents/media/2340-00.gif",
+    "docs/digm-553/documents/media",
+    "docs/gmap-395/legacy/su-24/gmap-395-su24-assignment-game-art-conceptualization-.html",
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
+    "docs/gmap-395/legacy/su-24/gmap-395-su24-in-class-lab-basic-shader-in-unity-shader-graph-.html",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01C - Hardware and Software Inventory.md",
-    "docs/digm-553/documents/research-creation-cascade-—-inspirational-examples.html",
-    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
-    "docs/digm-553/documents/hardware-clarifications-—-thinking-toward-sensors.html",
     "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
+    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
+    "DIGM 553/Documents/DIGM_553_SP_2026-2.pdf",
+    "DIGM 553/Documents/media/Pasted image 20260331222131.png",
+    "DIGM 553/Documents/media/5056-04.gif",
+    "DIGM 553/Documents/media/3967-05.gif",
+    "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md.tmp.5.1775009918792",
+    "DIGM 553/Documents/media/media.md",
+    "DIGM 553/Documents/media",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
+    "docs/digm-553/week-01-practice-immanent-critique/submodules/week-01-slides.pdf",
+    "docs/digm-553/documents/research-creation-cascade-—-inspirational-examples.html",
+    "docs/digm-553/documents/hardware-clarifications-—-thinking-toward-sensors.html",
     "docs/digm-553/week-01-practice-immanent-critique/submodules/week-01-slides.html",
     "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01B - Epistemic Tools Introduction.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01A - Research-Creation as Method.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/Week-01-Slides.pdf",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/New folder",
-    "DIGM 553/Documents/DIGM_553_SP_2026-2.pdf",
     "DIGM 553/DIGM 553.canvas",
-    "DIGM 553/Documents/Documents.md.tmp.5.1775006640783",
     "Index.md",
     "DIGM 553/DIGM 553 - Syllabus.md",
     "DIGM 553/DIGM 553 - Welcome.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md.tmp.5.1774974059794",
-    "docs/digm-553/slides/week-01/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
-    "docs/digm-553/slides/week-01/plugin/chalkboard/img/whiteboard.png",
-    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-yellow.png",
-    "docs/digm-553/slides/week-01/plugin/chalkboard/img/sponge.png",
-    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-white.png",
-    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-purple.png",
-    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-red.png",
-    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-orange.png",
-    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-green.png",
-    "docs/digm-553/slides/week-01/plugin/chalkboard/img/chalk-blue.png",
-    "docs/digm-553/slides/week-01/plugin/chalkboard/img/boardmarker-green.png",
     "docs/digm-553/slides/week-01/plugin/menu/README.md",
     "docs/digm-553/slides/week-01/plugin/menu/CONTRIBUTING.md",
     "docs/digm-553/slides/week-01/plugin/customcontrols/README.md",
     "docs/digm-553/slides/week-01/plugin/chart/README.md",
     "docs/digm-553/slides/week-01/plugin/chalkboard/README.md",
-    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
-    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
     "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/README.md",
     "docs/digm-553/slides/Week 01 Presentation/plugin/chart/README.md",
     "docs/digm-553/slides/Week 01 Presentation/plugin/customcontrols/README.md",
@@ -368,7 +358,6 @@
     "docs/digm-553/week-01-practice-immanent-critique/slides/slides.md",
     "GMAP 395/Module 3/submodules/submodules.md",
     "GMAP 395/Module 3/legacy/legacy.md",
-    "GMAP 395/Module 3/tutorials/tutorials.md",
     "DIGM 553/Week 11 - Proceed/Week 11.canvas",
     "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
     "DIGM 553/Week 09 - Render Formative Forces/Week 09.canvas",

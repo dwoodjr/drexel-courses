@@ -10,11 +10,15 @@ tags: [DIGM553, hardware, sensors, resources]
 
 You may have heard the terms **Stemma QT** and **Qwiic**  and **Grove** in lecture and wondered if they're different systems you need to choose between. They aren’t, really. There are some subtle differences between them, besides name, but they are types of either 3 prong or 4 prong connectors.
 
+![[5056-04.gif]]
+
 **Stemma QT** (Adafruit) and **Qwiic** (SparkFun) are two brand names for the same electrical standard: a 4-pin JST-SH connector running I2C communication at 3.3V. The physical connector is identical. The electrical protocol is (nearly) identical. A Stemma QT cable plugs into a Qwiic board and vice versa, witt little to no modification needed.
 
 ---
 
 ## What Even Is a Sensor?
+
+![[Pasted image 20260331221722.png]]
 
 Here is a working definition for this course:
 
@@ -47,22 +51,27 @@ Notice that *microphone*, *webcam*, and *Kinect* are in that list.  They are sen
 
 An early pain point, as we have discovered together, is in approaching physical computing for the first time by starting with the sensor. *So lets work backwards to the sensors starting with the thinking and curiosity!*
 
-```
-What is my practice thinking about?
-            ↓
-What am I curious about, drawn to, obsessing over?
-            ↓
-What kind of phenomena is my practice interested in engaging?
-(movement, touch, breath, heat, sound, proximity, weight, light, gesture...)
-            ↓
-What DATA would let me work with those phenomena?
-(a stream of angles? threshold crossings? spectral frequencies? pixel deltas?)
-            ↓
-What sensors can give me that data?
-(IMU, capacitive, microphone, camera, Kinect, piezo, FSR...)
-            ↓
-Which of those sensors is available in the Stemma QT / Qwiic ecosystem,
-or is already in your existing toolkit?
+```mermaid
+flowchart TD
+    A["🧠 What is my practice **thinking** about?"]
+    B["What am I curious about, drawn to, obsessing over?"]
+    C["What **phenomena** is my practice interested in engaging?<br/>movement · touch · breath · heat · sound · proximity · light · gesture"]
+    D["What **data** would let me work with those phenomena?<br/>a stream of angles? threshold crossings? spectral frequencies? pixel deltas?"]
+    E["What **sensors** can give me that data?<br/>IMU · capacitive · microphone · camera · Kinect · piezo · FSR"]
+    F["🔌 Which of those sensors exist in the<br/>**Stemma QT / Qwiic ecosystem**<br/>or your existing toolkit?"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+
+    style A fill:#4a4a8a,color:#fff,stroke:#6a6aaa
+    style B fill:#3a3a6a,color:#fff,stroke:#5a5a8a
+    style C fill:#2a5a4a,color:#fff,stroke:#4a7a6a
+    style D fill:#2a4a5a,color:#fff,stroke:#4a6a7a
+    style E fill:#5a3a5a,color:#fff,stroke:#7a5a7a
+    style F fill:#8a4a2a,color:#fff,stroke:#aa6a4a
 ```
 
 Working in this order will help keep your practice in the driver's seat. The sensor becomes an epistemic tool you've *chosen for a reason*.
@@ -74,22 +83,27 @@ Working in this order will help keep your practice in the driver's seat. The sen
 **If your practice is drawn to movement, gesture, dance, or the body in space:**
 → You're probably interested in orientation, acceleration, or spatial position data
 → Consider: IMU/accelerometer/gyroscope (Stemma QT options: LSM6DS3, LSM9DS1, BNO055), depth camera (Kinect, Intel RealSense), MediaPipe pose estimation via webcam
+![[2472-04.gif]]
 
 **If your practice is drawn to touch, contact, material surfaces, textile, or skin:**
 → You're probably interested in discrete contact events, pressure, or capacitance data
 → Consider: MPR121 capacitive touch (Stemma QT), FSR (force-sensitive resistors, any), piezoelectric transducers, velostat/conductive fabric
+![[2340-00.gif]]
 
 **If your practice is drawn to sound, voice, sonic environment, acoustic space:**
 → You're probably interested in amplitude, frequency content, onset events, or spectral shape
 → Consider: electret microphone + breakout, MEMS microphone (Stemma QT: PDM microphone), field recorders into audio analysis software, FFT in Max/MSP or TouchDesigner
+![[Pasted image 20260331222131.png]]
 
 **If your practice is drawn to proximity, presence, or environmental sensing:**
 → You're probably interested in distance, occupancy, or ambient conditions (temperature, light, humidity)
 → Consider: VL53L1X time-of-flight (Stemma QT), APDS-9960 proximity + color (Stemma QT), PIR motion sensor, thermal camera (AMG8833 grid-eye, Stemma QT)
+![[3967-05.gif]]
 
 **If your practice is drawn to biological states (stress, arousal, breath, heartbeat):**
 → You're probably interested in physiological signals as data (GSR, pulse, respiration, heat rate)
 → Consider: GSR sensor + voltage divider, MAX30102 pulse oximeter (Stemma QT), piezo on chest or wrist for breath/heartbeat, stretch sensor
+![[Pasted image 20260331222533.png]]
 
 ***Not an exhaustive list of pathways, but it is a start!***
 
@@ -134,3 +148,4 @@ If cost is a barrier, talk to the instructor before purchasing anything.
 [[Physical-Digital Entanglement]]
 [[Enabling Constraints]]
 [[Epistemic Tools]]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
