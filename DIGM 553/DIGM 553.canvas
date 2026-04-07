@@ -22,7 +22,7 @@
 		{"id":"thread_Physical_Digital_Entanglement","type":"file","file":"DIGM 553/Threads/Physical-Digital Entanglement.md","x":750,"y":1760,"width":360,"height":340,"color":"5"},
 		{"id":"thread_Making_Public","type":"file","file":"DIGM 553/Threads/Making Public.md","x":1250,"y":1760,"width":360,"height":340,"color":"5"},
 		{"id":"thread_Collective_Practice","type":"file","file":"DIGM 553/Threads/Collective Practice.md","x":1750,"y":1760,"width":360,"height":340,"color":"5"},
-		{"id":"e4728be9f823d4cb","x":-2260,"y":320,"width":400,"height":400,"type":"file","file":"DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas"}
+		{"id":"e4728be9f823d4cb","x":-2260,"y":320,"width":400,"height":400,"type":"file","file":"DIGM 553/Week 01 - Practice Immanent Critique/canvas/Week 01 Canvas.canvas"}
 	],
 	"edges":[
 		{"id":"seq_1","fromNode":"week_01","fromSide":"right","toNode":"week_02","toSide":"left"},

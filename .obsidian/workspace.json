@@ -53,15 +53,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02.canvas",
+                "file": "DIGM 553/Week 01 - Practice Immanent Critique/canvas/Week 01 Canvas.canvas",
                 "viewState": {
-                  "x": -1064.1333702387803,
-                  "y": 1552.1774329959574,
-                  "zoom": -1.333333333333333
+                  "x": -287.5,
+                  "y": 1000,
+                  "zoom": -2.5279777699889663
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Week 02"
+              "title": "Week 01 Canvas"
             }
           },
           {
@@ -79,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -147,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 645.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -282,7 +282,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 348.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -310,58 +311,57 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "6b8fc314cfbad6f7",
+  "active": "75dd4ac05a29aad3",
   "lastOpenFiles": [
-    "docs/site-lib/search-index.json",
-    "docs/site-lib/metadata.json",
-    "DIGM 553/Assignments/Assignments.md",
-    "DIGM 553/Assignments/ASN 1 — Potluck + Speculative Proposal.md",
-    "DIGM 553/Assignments/ASN 3 — Experimental Media Project.md",
-    "DIGM 553/Assignments/ASN 4 — Structured Dialogue + Participation.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/submodules.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/submodules.md",
-    "Index.md",
-    "DIGM 553/Assignments/ASN 2 — Critical Technical Journal.md",
-    "DIGM 553/Assignments/ASN 5 — Final Presentation.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/assessments/(Im)material Potluck — Prep.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/assessments/Reading Guide — Week 01.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/canvas/Week 01 Canvas.canvas",
+    "docs/DIGM 553/Week 01 - Practice Immanent Critique/canvas/Week 01 Canvas.html",
+    "docs/DIGM 553/Week 01 - Practice Immanent Critique/canvas",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
+    "docs/DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas/Week 02 Canvas.html",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas/Week 02 Canvas.canvas",
+    "docs/DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas",
     "DIGM 553/DIGM 553 - Welcome.md",
     "DIGM 553/DIGM 553.canvas",
-    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01A - Research-Creation as Method.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01B - Epistemic Tools Introduction.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
-    "DIGM 553/DIGM 553 - Syllabus.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01C - Hardware and Software Inventory.md",
-    "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
-    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/assessments/Reading Guide — Week 02.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 - Practice Immanent Critique.md",
+    "docs/GMAP 395/Module 4/media/421988f6-a827-428b-86d4-9b815f15cdce.jpg",
+    "docs/GMAP 395/Module 4/media/capsule_616x353.jpg",
+    "docs/GMAP 395/Module 4/media/GMAP 395 - SU24 -Tutorial - Film Noir Post-Processing Effect.pdf",
+    "docs/GMAP 395/Module 4/media/GMAP 395 - SU24 -Tutorial - Pixelation Full-Screen Shader and Custom Render Pass.pdf",
+    "docs/GMAP 395/Module 4/media/home-after.png",
+    "docs/GMAP 395/Module 4/media/home-before.png",
+    "docs/GMAP 395/Module 4/media/mario64camera.png",
+    "docs/GMAP 395/Module 4/media/marioWorldCamera.png",
+    "docs/GMAP 395/Module 4/media/tutWk9Splash.png",
+    "docs/GMAP 395/Module 3/media/Block-CollideWithDepthBufferMain.png",
+    "docs/GMAP 395/Module 3/media/lab_vfx2_4Pos.png",
+    "docs/GMAP 395/Module 3/media/lab_vfx2_sampleBez.png",
+    "DIGM 553/Week 01 - Practice Immanent Critique/canvas/canvas.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/canvas",
+    "docs/GMAP 395/Bonus - Proc Audio/media/Guide - Dynamic Mixing and Animation Events.pdf",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas/canvas.md",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02 - Construct Conditions for Speculative Pragmatism.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02A - (Im)material Potluck.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02B - Enabling Constraints Workshop.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02.canvas",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/week-02-construct-conditions-for-speculative-pragmatism.html",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Signal Chain Setup — QT Py ESP32-S3 (Instructor).md",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/img_6597.jpeg",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/img_6605.jpeg",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406141009.jpg",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/idg_20260405_224124_714.jpg",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132830.png",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406133642.png",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406141317.jpg",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406133443.jpg",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406133440.jpg",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132815.jpg",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/submodules/submodules.html",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/assessments/reading-guide-—-week-02.html",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/assessments",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/img_6605.html",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/img_6597.html",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/idg_20260405_224124_714.html",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/idg_20260406_114518_273.html",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132815.html",
-    "DIGM 553/Documents/Signal Chain Setup Guide.md",
+    "docs/GMAP 395/Module 3/media/VFX_Styleguide_final_public_hidpjqwx7lqyx0pjj3ss.pdf",
+    "GMAP 395/Introduction/Introduction.md",
+    "GMAP 395/Introduction/legacy/GMAP 395 - WK 1 - Video Lecture.md",
+    "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Video Lecture.md",
+    "GMAP 395/Module 1/Media/Media.md",
+    "GMAP 395/Module 1/legacy/GMAP 395 - WK 2 - Slides.md",
+    "GMAP 395/Module 1/legacy/GMAP 395 - WK 3 - Slides.md",
+    "GMAP 395/Module 1/tutorials/GMAP 395 - WK 3 - Tutorial.md",
+    "GMAP 395/Module 2/media/media.md",
+    "GMAP 395/Module 2/legacy/GMAP 395 - WK 4 - Slides + Video.md",
+    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 4 - Tutorial.md",
+    "GMAP 395/Module 2/legacy/GMAP 395 - WK 5 - Slides + Video.md",
+    "GMAP 395/Module 2/tutorials/GMAP 395 - WK 5 - Tutorial.md",
+    "GMAP 395/Module 3/media/media.md",
+    "GMAP 395/Module 3/legacy/GMAP 395 - WK 6 - In-Class Lab.md",
+    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 6 - Tutorial.md",
+    "GMAP 395/Module 3/legacy/GMAP 395 - WK 6 - Slides + Video.md",
+    "GMAP 395/Module 3/legacy/GMAP 395 - WK 7 - Slides + Video.md",
+    "GMAP 395/Module 3/tutorials/GMAP 395 - WK 7 - Tutorial.md",
+    "GMAP 395/Module 3/legacy/GMAP 395 - WK 7 - In-Class Lab.md",
+    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
     "DIGM 553/Week 11 - Proceed/Week 11.canvas",
     "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
     "DIGM 553/Week 09 - Render Formative Forces/Week 09.canvas",
