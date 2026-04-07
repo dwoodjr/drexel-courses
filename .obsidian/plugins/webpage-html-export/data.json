@@ -277,7 +277,7 @@
       "alwaysEnabled": false,
       "hideSettingsButton": true
     },
-    "relativeHeaderLinks": false,
+    "relativeHeaderLinks": true,
     "includeJS": true,
     "includeCSS": true,
     "inlineMedia": false,
@@ -288,7 +288,7 @@
     "combineAsSingleFile": false,
     "offlineResources": true,
     "themeName": "obsidian-current-theme",
-    "slugifyPaths": false,
+    "slugifyPaths": true,
     "flattenExportPaths": false,
     "fixLinks": true,
     "faviconPath": "",
@@ -297,7 +297,12 @@
     "exportRoot": "",
     "includePluginCss": [
       "excalidraw-embedded-light",
-      "excalidraw-embedded-dark"
+      "excalidraw-embedded-dark",
+      "obsidian-advanced-slides",
+      "iconic",
+      "dataview",
+      "obsidian-tasks-plugin",
+      "make-md"
     ],
     "includeStyleCssIds": [
       "excalidraw-embedded-light",
