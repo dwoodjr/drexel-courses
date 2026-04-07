@@ -278,7 +278,7 @@
       "alwaysEnabled": false,
       "hideSettingsButton": true
     },
-    "relativeHeaderLinks": true,
+    "relativeHeaderLinks": false,
     "includeJS": true,
     "includeCSS": true,
     "inlineMedia": false,
@@ -289,7 +289,7 @@
     "combineAsSingleFile": false,
     "offlineResources": true,
     "themeName": "obsidian-current-theme",
-    "slugifyPaths": true,
+    "slugifyPaths": false,
     "flattenExportPaths": false,
     "fixLinks": true,
     "faviconPath": "",
