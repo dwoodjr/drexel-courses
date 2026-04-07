@@ -79,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -310,8 +310,15 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "75dd4ac05a29aad3",
+  "active": "6b8fc314cfbad6f7",
   "lastOpenFiles": [
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02 - Construct Conditions for Speculative Pragmatism.md",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/week-02-construct-conditions-for-speculative-pragmatism.html",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02.canvas",
+    "DIGM 553/DIGM 553 - Welcome.md",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02.md",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Signal Chain Setup — QT Py ESP32-S3 (Instructor).md",
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/img_6597.jpeg",
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/img_6605.jpeg",
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406141009.jpg",
@@ -323,7 +330,6 @@
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406133440.jpg",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/submodules.md",
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132815.jpg",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132834.jpg",
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/submodules/submodules.html",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/assessments/reading-guide-—-week-02.html",
@@ -336,17 +342,11 @@
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/idg_20260406_114518_273.html",
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132815.html",
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132830.html",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132834.html",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02B - Enabling Constraints Workshop.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02.canvas",
-    "DIGM 553/DIGM 553 - Welcome.md",
     "DIGM 553/Documents/Signal Chain Setup Guide.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Signal Chain Setup — QT Py ESP32-S3 (Instructor).md",
     "Index.md",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Notes/W02 Instructor Outline.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/assessments/(Im)material Potluck — Prep.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02 - Construct Conditions for Speculative Pragmatism.md",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02B - (Im)material Potluck.md",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02A - Enabling Constraints Workshop.md",
     "DIGM 553/Readings/Magnusson — Epistemic Tools.md",
@@ -354,7 +354,6 @@
     "DIGM 553/Readings/Readings.md",
     "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
     "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
     "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
