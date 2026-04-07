@@ -5,15 +5,17 @@ tags: [DIGM553, thread]
 ---
 # Research-Creation
 
-The methodology holding critical inquiry, technical exploration, and creative production together as co-constitutive practices — not sequential phases, but registers of the same act.
+Making and thinking as the same act — not phases, not sequence, not illustration.
 
 ---
 
-Manning & Massumi locate research-creation at the **prebifurcation point**: the moment before thinking and making diverge into separate institutional structures. At that point, making is already thinking-in-action, and conceptualization is a practice in its own right. The problem research-creation names — and refuses — is the *communication model*: the assumption that you research first, then make something that delivers the results.
+The standard model: you research something, then you make something that shows what you found. Research-creation refuses that split. Manning & Massumi locate it at what they call the **prebifurcation point** — the moment before making and thinking get separated into different institutional categories with different evaluation criteria. At that point, making *is* thinking, and thinking *is* already a practice.
 
-The alternative is **conditioning** over framing. Rather than setting up a question and then answering it, you bring co-causes into interaction and stay open to what emerges. This requires what Manning & Massumi call *techniques of relation* — structural devices for catalyzing interaction between forces that wouldn't otherwise meet. They are not content-specific; they transfer across disciplines and practices.
+The thing this rules out is the communication model — the idea that your creative work is "delivering" research results you already had. If the project knows its outcome before it starts, it's not research-creation. The work has to be genuinely open to something it couldn't have predicted.
 
-For this course, the implication is practical: the Critical Technical Journal is not documentation of a separate making process. The making is not an illustration of the thinking. They interpenetrate — or the work isn't research-creation.
+What that actually requires in practice: **conditioning** rather than **framing**. Framing means you set up a structure and the work fills it in. Conditioning means you bring things into contact — materials, tools, questions, bodies, sensors — and stay open to what emerges from their interaction. Neither you nor any individual element fully determines the outcome.
+
+For this course: the journal is not documentation of a separate making process. The making is not an illustration of the thinking. They interpenetrate, or it's not research-creation.
 
 ---
 
@@ -25,17 +27,17 @@ For this course, the implication is practical: the Critical Technical Journal is
 
 ## Key Questions
 
-- Where in your workflow do making and thinking happen in the *same* moment — not sequentially, but simultaneously? Can you locate that moment and work from it deliberately?
-- What would it mean for your project to be *conditioned* rather than *framed*? What are you holding open, and what are you predetermining?
-- If you had to say what your practice is *thinking right now* — not what you're making, but what the act of making is already processing — what would you say?
-- What institutional structures (program requirements, evaluation criteria, submission formats) separate your thinking from your making? How do you work inside those structures without simply reproducing them?
+- Where in your workflow do making and thinking actually happen at the same time? Can you work from that moment deliberately?
+- Is your project conditioned or framed? What are you holding open, and what are you predetermining?
+- If your practice is already "thinking something" — what is it thinking right now?
+- What in your institution (program, discipline, grading rubric) separates your thinking from your making? How do you work inside that without just reproducing it?
 
 ---
 
 ## Key Readings
 
-- [[../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — the foundational text. Propositions 0–3 define research-creation, enabling constraints, and techniques of relation.
-- [[../Readings/Loveless — Haraway's Dog|Loveless — *Haraway's Dog*]] — on curiosity as a legitimate research methodology; what it means to follow a question rather than test a hypothesis.
+- [[../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — Propositions 0–3.
+- [[../Readings/Loveless — Haraway's Dog|Loveless — *Haraway's Dog*]] — on curiosity as a research method; following a question rather than testing a hypothesis.
 
 ---
 

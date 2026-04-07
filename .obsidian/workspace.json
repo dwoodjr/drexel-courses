@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "34b03481df6d602c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DIGM 553/Documents/DIGM_553_SP_2026-2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DIGM_553_SP_2026-2"
+            }
+          },
+          {
             "id": "6be2e689a4a4c9d7",
             "type": "leaf",
             "state": {
@@ -22,38 +34,52 @@
             }
           },
           {
-            "id": "af2f787890a1a836",
+            "id": "6b8fc314cfbad6f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
+                "file": "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hardware Clarifications — Thinking Toward Sensors"
+              "title": "Week 02"
             }
           },
           {
-            "id": "c0d1596349c4ef5c",
+            "id": "543818ed62c95c2b",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
+                "file": "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02.canvas",
                 "viewState": {
-                  "x": -1486.2200348510225,
-                  "y": 2583.8287112719518,
-                  "zoom": -1.9999999999999993
+                  "x": -1064.1333702387803,
+                  "y": 1552.1774329959574,
+                  "zoom": -1.333333333333333
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Research-Creation Cascade — Inspirational Examples"
+              "title": "Week 02"
+            }
+          },
+          {
+            "id": "75dd4ac05a29aad3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Signal Chain Setup — QT Py ESP32-S3 (Instructor).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Signal Chain Setup — QT Py ESP32-S3 (Instructor)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -107,7 +133,7 @@
             }
           },
           {
-            "id": "ebe5daf04a49c8dc",
+            "id": "4aa8e39bc45e4b2e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -121,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 513.5
+    "width": 324.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -130,7 +156,7 @@
       {
         "id": "93b3ddf4fd75b166",
         "type": "tabs",
-        "dimension": 54.77293790546802,
+        "dimension": 58.85078776645041,
         "children": [
           {
             "id": "81e14ee526097519",
@@ -148,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Signal Chain Setup — QT Py ESP32-S3 (Instructor).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +184,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for Signal Chain Setup — QT Py ESP32-S3 (Instructor)"
             }
           },
           {
@@ -240,7 +266,7 @@
       {
         "id": "654ae1b2ef08042f",
         "type": "tabs",
-        "dimension": 45.22706209453197,
+        "dimension": 41.14921223354959,
         "children": [
           {
             "id": "2b9aa3d6b77b12e1",
@@ -256,7 +282,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 348.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -284,62 +310,63 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "c0d1596349c4ef5c",
+  "active": "75dd4ac05a29aad3",
   "lastOpenFiles": [
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
-    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
-    "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/img_6597.jpeg",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/img_6605.jpeg",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406141009.jpg",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/idg_20260405_224124_714.jpg",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132830.png",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406133642.png",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406141317.jpg",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406133443.jpg",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406133440.jpg",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/submodules.md",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132815.jpg",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132834.jpg",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/submodules/submodules.html",
     "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.canvas",
-    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
-    "DIGM 553/Documents/DIGM_553_SP_2026-2.pdf",
-    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
-    "docs/digm-553/documents/media/5056-04.gif",
-    "docs/digm-553/documents/media/pasted-image-20260331222533.png",
-    "docs/digm-553/documents/media/pasted-image-20260331222131.png",
-    "docs/digm-553/documents/media/pasted-image-20260331221722.png",
-    "docs/digm-553/documents/media/2472-04.gif",
-    "docs/digm-553/documents/media/3967-05.gif",
-    "docs/digm-553/documents/media/2340-00.gif",
-    "docs/digm-553/documents/media",
-    "docs/gmap-395/legacy/su-24/gmap-395-su24-assignment-game-art-conceptualization-.html",
-    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
-    "docs/gmap-395/legacy/su-24/gmap-395-su24-in-class-lab-basic-shader-in-unity-shader-graph-.html",
-    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01C - Hardware and Software Inventory.md",
-    "DIGM 553/Documents/media/Pasted image 20260331222131.png",
-    "DIGM 553/Documents/media/5056-04.gif",
-    "DIGM 553/Documents/media/3967-05.gif",
-    "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md.tmp.5.1775009918792",
-    "DIGM 553/Documents/media/media.md",
-    "DIGM 553/Documents/media",
-    "docs/digm-553/week-01-practice-immanent-critique/submodules/week-01-slides.pdf",
-    "docs/digm-553/documents/research-creation-cascade-—-inspirational-examples.html",
-    "docs/digm-553/documents/hardware-clarifications-—-thinking-toward-sensors.html",
-    "docs/digm-553/week-01-practice-immanent-critique/submodules/week-01-slides.html",
-    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01B - Epistemic Tools Introduction.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01A - Research-Creation as Method.md",
-    "DIGM 553/DIGM 553.canvas",
-    "Index.md",
-    "DIGM 553/DIGM 553 - Syllabus.md",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/assessments/reading-guide-—-week-02.html",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/assessments",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/assessments/Reading Guide — Week 02.md",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02A - (Im)material Potluck.md",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/img_6605.html",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/img_6597.html",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/idg_20260405_224124_714.html",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/idg_20260406_114518_273.html",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132815.html",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132830.html",
+    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260406132834.html",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02B - Enabling Constraints Workshop.md",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02.md",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02.canvas",
     "DIGM 553/DIGM 553 - Welcome.md",
-    "docs/digm-553/slides/week-01/plugin/menu/README.md",
-    "docs/digm-553/slides/week-01/plugin/menu/CONTRIBUTING.md",
-    "docs/digm-553/slides/week-01/plugin/customcontrols/README.md",
-    "docs/digm-553/slides/week-01/plugin/chart/README.md",
-    "docs/digm-553/slides/week-01/plugin/chalkboard/README.md",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chalkboard/README.md",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/chart/README.md",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/customcontrols/README.md",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/menu/README.md",
-    "docs/digm-553/slides/Week 01 Presentation/plugin/menu/CONTRIBUTING.md",
-    "docs/digm-553/week-01-practice-immanent-critique/slides/slides.md",
-    "GMAP 395/Module 3/submodules/submodules.md",
-    "GMAP 395/Module 3/legacy/legacy.md",
+    "DIGM 553/Documents/Signal Chain Setup Guide.md",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Signal Chain Setup — QT Py ESP32-S3 (Instructor).md",
+    "Index.md",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Notes/W02 Instructor Outline.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/assessments/(Im)material Potluck — Prep.md",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/Week 02 - Construct Conditions for Speculative Pragmatism.md",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02B - (Im)material Potluck.md",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02A - Enabling Constraints Workshop.md",
+    "DIGM 553/Readings/Magnusson — Epistemic Tools.md",
+    "Readings/Magnusson_2019_Sonic-Writing_3-Epestimic-Tools.pdf.md",
+    "DIGM 553/Readings/Readings.md",
+    "DIGM 553/Documents/Hardware Clarifications — Thinking Toward Sensors.md",
+    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/Week 01 Presentation.md",
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01C - Hardware and Software Inventory.md",
+    "DIGM 553/Documents/media/media.md",
+    "DIGM 553/Week 01 - Practice Immanent Critique/submodules/DIGM 553 - W01B - Epistemic Tools Introduction.md",
+    "DIGM 553/DIGM 553.canvas",
     "DIGM 553/Week 11 - Proceed/Week 11.canvas",
     "DIGM 553/Week 10 - Creatively Return to Chaos/Week 10.canvas",
     "DIGM 553/Week 09 - Render Formative Forces/Week 09.canvas",
     "DIGM 553/Week 08 - Practice Letting Go/Week 08.canvas",
     "DIGM 553/Week 07 - Embrace Failure/Week 07.canvas",
-    "DIGM 553/Week 06 - Invent Platforms for Relation/Week 06.canvas",
-    "DIGM 553/Week 05 - Enact Thought/Week 05.canvas"
+    "DIGM 553/Week 06 - Invent Platforms for Relation/Week 06.canvas"
   ]
 }

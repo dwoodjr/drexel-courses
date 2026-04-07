@@ -5,15 +5,15 @@ tags: [DIGM553, thread]
 ---
 # Collective Practice
 
-The studio is not a collection of individual practices happening in parallel. It is a site of collective becoming — where techniques of relation between practitioners are themselves a subject of inquiry.
+The studio is not a bunch of individual practices running in parallel. It's a site where practitioners condition each other.
 
 ---
 
-Manning & Massumi describe the seminar or studio event as a kind of experiment: "For an 'event' to be an event, it is necessary that a collective thinking process be enacted that can give rise to new thoughts through the interaction on site." The condition: the potential for what might occur cannot be pre-reduced to "the delivery of already-arrived-at conclusions." This course is structured with that in mind. The critique, the potluck, the studio session — these are not performances of finished thinking. They are techniques of relation in the Manning & Massumi sense: devices for catalyzing interaction between practices at the level of their creative force.
+Manning & Massumi describe the seminar or studio as an experiment: "For an 'event' to be an event, it is necessary that a collective thinking process be enacted that can give rise to new thoughts through the interaction on site." The key condition: what happens can't be predetermined. If the instructor already knows what conclusions are going to be reached and is just delivering them — that's not an event in this sense.
 
-Critique, in this frame, is not judgment. It is **activation** — a practice of attending carefully to someone else's work in order to surface what it is doing that it may not know it's doing. A good critique question doesn't evaluate ("this works / this doesn't"). It opens ("what is this *committed* to? what does it refuse? what would it look like to follow that refusal further?").
+The critique is the most direct version of this. In this course, critique is not judgment. It's **activation** — attending to someone else's work closely enough to surface what it's doing that it might not know it's doing. A good critique question doesn't say "this works / this doesn't." It opens something: *what is this committed to? What does it refuse? What would happen if you followed that refusal further?*
 
-Collective practice also carries an ethic: you are responsible for what you bring to the room. Your presence, your attention, and your honest response to others' work are contributions to a shared intellectual environment. This is not a soft requirement. It is part of the assessment.
+There's an ethic here too. What you bring to the room — your presence, attention, honest response — is a contribution to a shared environment, not optional. This is part of how the work actually gets made.
 
 ---
 
@@ -25,16 +25,16 @@ Collective practice also carries an ethic: you are responsible for what you brin
 
 ## Key Questions
 
-- What is the difference between a critique that evaluates and one that activates? What does an activating question sound like?
-- What do you bring to the room as a practitioner that no one else does? What does the collective gain from your specific presence and perspective?
-- When you encounter someone else's work in critique, what is your first instinct — to assess it, to identify with it, to question it? What would it mean to *attend* to it before doing any of those things?
-- How does your practice change when it's in dialogue with others? What has a peer's question or response revealed to you about your own work?
+- What's the difference between a critique that evaluates and one that activates? What does an activating question actually sound like?
+- What do you bring to the room that no one else does? What does the group gain from your specific presence?
+- When you encounter someone else's work, what's your first instinct — assess it, identify with it, question it? What would it mean to just *attend* to it first?
+- How does your practice change when it's in dialogue? What has a peer's question ever revealed to you about your own work?
 
 ---
 
 ## Key Readings
 
-- [[../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — on the studio event as a site of collective thinking, and techniques of relation as a domain of practice.
+- [[../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — on the studio event and techniques of relation.
 
 ---
 

@@ -5,15 +5,15 @@ tags: [DIGM553, thread]
 ---
 # Physical-Digital Entanglement
 
-The interweaving of physical materials, bodies, and environments with digital systems. Not an interface between two separate domains — an entanglement in which each shapes the other.
+Physical and digital aren't two separate domains with an interface between them. They're entangled — each one shaping the other.
 
 ---
 
-The signal chain at the center of this course — body → sensor → microcontroller → protocol → software → output — is not a pipeline that converts physical reality into digital representation. It is a series of **transformations**, each of which amplifies something and reduces something else. The body that touches the capacitive sensor is not the same as the threshold-crossing event the sensor registers. The OSC message is not the gesture. Something is always gained; something is always lost. What matters is knowing *which* something — and making that choice deliberately.
+The signal chain at the center of this course — body → sensor → microcontroller → protocol → software → output — is not a pipeline that converts physical reality into digital representation. It's a series of **transformations**. At each arrow, something is amplified and something is reduced. The body that touches a capacitive sensor is not the same as the threshold-crossing event the sensor registers. The OSC message is not the gesture. Something is always gained; something is always lost. The question is whether you know which — and whether that choice is deliberate.
 
-Magnusson: the digital system is "material in its body, electric in function, and symbolic in control." All three layers are active at once. The hardware has physical affordances that shape how you hold it, where you put it, what it can touch. The firmware has temporal properties that shape the resolution and latency of the response. The software has representational assumptions that shape what the data means. None of these layers is neutral; together they constitute the instrument.
+Magnusson puts it directly: the digital system is "material in its body, electric in function, and symbolic in control." All three layers are active at once. The hardware has physical affordances that shape where you can put it and what it can touch. The firmware has timing properties that shape resolution and latency. The software has representational assumptions that shape what the data *means*. None of these layers is neutral; together they constitute the instrument.
 
-This thread tracks how physical and digital forces meet, condition each other, and produce something neither could alone — across your hardware choices, your material selections, your installation environments, and your audience's bodies.
+This thread tracks how physical and digital forces meet, condition each other, and produce something neither could alone — across hardware choices, material selections, installation environments, and bodies moving through space.
 
 ---
 
@@ -25,17 +25,17 @@ This thread tracks how physical and digital forces meet, condition each other, a
 
 ## Key Questions
 
-- At each arrow in your signal chain, what is being amplified and what is being reduced? Is that tradeoff intentional — a design decision — or accidental?
-- What does your system *not* know about the body it's sensing? And what creative or critical work can happen in that gap?
-- Where in your practice does the physical environment shape the digital behavior — and vice versa? Can you design the entanglement rather than just inheriting it?
-- What material are you touching with your sensors or microcontrollers? What cultural, social, or political charge does that material carry — and does your system acknowledge it?
+- At each arrow in your signal chain, what's being amplified and what's being reduced? Is that tradeoff intentional?
+- What does your system *not* know about the body it's sensing — and what can happen in that gap?
+- Where does the physical environment shape the digital behavior, and vice versa? Can you design the entanglement rather than just inheriting it?
+- What material are your sensors touching? What cultural or social charge does that material carry — and does your system acknowledge it?
 
 ---
 
 ## Key Readings
 
-- [[../Readings/Magnusson — Epistemic Tools|Magnusson — *Epistemic Tools*]] — on instruments as material-electric-symbolic systems and the phenomenology of digital tool relations.
-- [[../Readings/Camus + Vinck — Unfolding Digital Materiality|Camus + Vinck — *Unfolding Digital Materiality*]] — on the thickness and materiality of digital objects; the matter-network.
+- [[../Readings/Magnusson — Epistemic Tools|Magnusson — *Epistemic Tools*]] — on instruments as material-electric-symbolic systems.
+- [[../Readings/Camus + Vinck — Unfolding Digital Materiality|Camus + Vinck — *Unfolding Digital Materiality*]] — on the thickness and materiality of digital objects.
 
 ---
 

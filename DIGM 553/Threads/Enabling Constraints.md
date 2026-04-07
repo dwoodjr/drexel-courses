@@ -5,15 +5,15 @@ tags: [DIGM553, thread]
 ---
 # Enabling Constraints
 
-A limitation that, through interaction with other forces, generates emergence rather than just restriction. The paradox at the heart of creative practice: the right constraint doesn't close things down — it opens them.
+A constraint that opens things up rather than just closing them down.
 
 ---
 
-Manning & Massumi's example: gravity is an implacable constraint on dance, but it enables the jump. Add horizontal momentum, and "the arc of the jump will be a collaboration between the action of gravity and the energy and angular momentum of the horizontal movement acting as co-causes." Remove gravity and there's no arc — no lift, no landing, no jump as an event. The constraint is generative *because* of its resistance, not despite it.
+Manning & Massumi's example: gravity. You can't dance *without* gravity — remove it and there's no jump, no landing, no arc. Gravity is implacable, but it's also what makes the jump possible. Add horizontal momentum and "the arc of the jump will be a collaboration between the action of gravity and the energy and angular momentum of the horizontal movement acting as co-causes." That's an enabling constraint in action — resistance that generates something rather than just blocking it.
 
-The enabling constraint is how this course thinks about everything from protocol choices to assignment structures. The MPR121 sensor's 12-point reduction is a constraint; it enables a certain kind of sculptural thinking. OSC over UDP dropping packets is a constraint; it forces a real-time compositional response to instability. The 3-hour seminar session is a constraint; it enables a depth of engagement that 50-minute sessions preclude.
+The key distinction is between **limitative** constraints (dead ends) and **enabling** ones (co-causes). A limitative constraint just says stop. An enabling constraint pushes back in a way that makes something happen that wouldn't otherwise. The trick is figuring out which you're dealing with — and sometimes, how to convert one into the other.
 
-The critical move: distinguishing a constraint that merely limits from one that enables. Manning & Massumi: "Conditioning consists in bringing co-causes into interaction, such that the participation yields something different from either acting alone." An enabling constraint is always a co-cause — it only becomes enabling in relation to something else it can push against.
+This shows up everywhere in the course. The MPR121 has 12 channels — that's a constraint, but it's also the specific sculptural logic of the thing. OSC over UDP drops packets — that's a constraint, but it forces real-time compositional decisions you wouldn't otherwise have to make. The 3-hour session is a constraint; it's also what allows the kind of depth you can't get in 50 minutes.
 
 ---
 
@@ -25,16 +25,16 @@ The critical move: distinguishing a constraint that merely limits from one that 
 
 ## Key Questions
 
-- What in your practice functions as *gravity* — the implacable resistance you push against? Is it enabling or merely limitative? What would it take to make it enabling?
-- What's the difference between a rule you've been given and a constraint you've designed? Have you ever designed a constraint for yourself that actually worked?
-- When you hit a wall in a project, is it usually a *limitative* constraint (stop here) or an *enabling* one (find the co-cause)? How do you tell the difference in the moment?
-- What would it mean to design the constraints of your project before you design its content?
+- What's the *gravity* in your practice — the resistance you can't remove? Is it enabling or just limitative? What would it take to convert it?
+- What's the difference between a constraint someone handed you and one you designed yourself?
+- When you hit a wall, is it a dead end or a co-cause waiting to be found?
+- What if you designed your constraints *before* you designed the content?
 
 ---
 
 ## Key Readings
 
-- [[../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — Propositions 0–3; the concept of enabling constraints and conditioning is developed here in full.
+- [[../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — Propositions 0–3.
 
 ---
 
