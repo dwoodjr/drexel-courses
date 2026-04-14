@@ -309,10 +309,6 @@ If you are committed to a Pd-based environment, one workaround is a small Python
 → Tune thresholds in `code.py` after MPR121 init: `mpr.set_thresholds(12, 6)` — lower numbers = more sensitive; raise the first value to reduce false triggers
 → Keep electrode wires short and away from power cables where possible
 
-**DS18B20 reads `None` or `AttributeError`**
-→ The 4.7kΩ pull-up resistor is required — without it the bus won't work
-→ Double-check wire colors match your specific probe (Gikfun probes vary)
-
 ---
 
 ## The Signal Chain, Named
@@ -326,11 +322,12 @@ conductive material
         ↓
   I2C → QT Py RP2040  (Python: detect change, format message)
         ↓
-  USB serial → laptop  (plain text: TOUCH,2,18 / HOLD,2,24 / RELEASE,2,3)
+  USB serial → laptop  (plain text: TOUCH,2,18 / RAW,2,24 / RELEASE,2,3)
         ↓
   Max/MSP or TouchDesigner  (receive, parse, route, map)
         ↓
   audio / visual / other output
 ```
 
-Each arrow is a transformation. Something is amplified; something is reduced. The MPR121 reduces a complex capacitance field to 12 binary on/off states. The serial protocol reduces those to timestamped text strings. Max or TouchDesigner maps those strings to something audible or visible. At no point is the original touch fully preserved — and that's not a                                                                                                                                                                                                                        
+Each arrow is a transformation. Something is amplified; something is reduced. The MPR121 reduces a complex capacitance field to 12 states. The serial protocol reduces those to timestamped text strings. Max or TouchDesigner maps those strings to something audible or visible. At no point is the original touch fully preserved.
+

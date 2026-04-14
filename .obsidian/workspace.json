@@ -188,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -256,8 +256,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5,
-    "collapsed": true
+    "width": 356.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -421,8 +420,10 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "7476492956c80779",
+  "active": "75dd4ac05a29aad3",
   "lastOpenFiles": [
+    "DIGM 553/Documents/Signal Chain Setup Guide.md",
+    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03A - Magnusson — Epistemic Tools.md",
     "DIGM 553/Documents/Tool Audit — Template + Guide.md",
     "DIGM 553/Documents/Speculative Proposal — Template + Guide.md",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03D - Epistemic Tool Audit Workshop.md",
@@ -455,10 +456,8 @@
     "DIGM 553/Documents/media/media.md",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02B - Enabling Constraints Workshop.md",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/Week 03 - Epistemic Tools + Entanglement.md",
-    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03A - Magnusson — Epistemic Tools.md",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas/Week 02 Canvas.canvas",
     "DIGM 553/DIGM 553 - Welcome.md",
-    "DIGM 553/Documents/Signal Chain Setup Guide.md",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/media/Screenshot-e1585243380975-2281196920.png",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/newtest.canvas",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week 03.canvas",
