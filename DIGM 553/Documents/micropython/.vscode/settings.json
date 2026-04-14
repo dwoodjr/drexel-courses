@@ -1,0 +1,17 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none",
+        "reportShadowedImports": "none"
+    },
+    "circuitpythonsync.cpbaseversion": "10",
+    "circuitpythonsync.cpfullversion": "10.1.4",
+    "circuitpythonsync.curlibtag": "20260402",
+    "python.analysis.extraPaths": [
+        "c:\\Users\\darre\\AppData\\Roaming\\Code\\User\\globalStorage\\padgettholdings.circuitpythonsync\\stubs\\circuitpython_stubs-10.1.4\\board_definitions\\adafruit_qtpy_rp2040",
+        "c:\\Users\\darre\\AppData\\Roaming\\Code\\User\\globalStorage\\padgettholdings.circuitpythonsync\\stubs\\circuitpython_stubs-10.1.4"
+    ],
+    "circuitpythonsync.drivepath": "D:",
+    "circuitpythonsync.cpboardname": "adafruit_qtpy_rp2040",
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}

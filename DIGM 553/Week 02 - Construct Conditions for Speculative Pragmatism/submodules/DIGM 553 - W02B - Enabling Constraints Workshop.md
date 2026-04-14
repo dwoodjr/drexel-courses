@@ -46,7 +46,7 @@ Instead, try:
 
 ---
 
-### Round 2 — Convert a Limitative Constraint (20 min)
+### Round 2 — Convert a Limitative Constraint (10 min)
 
 Pick one thing your object *cannot* do. One real limitation.
 
@@ -65,7 +65,7 @@ Write down the pair: `[limitation] + [co-cause] → [what becomes possible]`
 
 ---
 
-### Round 3 — Put It in the Signal Chain (20 min)
+### Round 3 — Put It in the Signal Chain (10 min)
 
 Pick one object from the table. [Conceptually] connect your object to a sensor. (or if you have the stuff, you could actually do it)
 
@@ -80,7 +80,7 @@ Write 2–3 sentences: *what did the object become when it entered the signal ch
 
 ---
 
-### Round 4 — Second Descriptions (10 min)
+### Round 4 — Second Descriptions (10 min) [Optional]
 
 Return to your original object. Describe it again — same no-"material"/no-"art" constraint from Round 1, but now you've been through the workshop.
 

@@ -1,10 +1,10 @@
 ---
 title: "Signal Chain Setup Guide"
-tags: [DIGM553, hardware, circuitpython, osc, setup]
+tags: [DIGM553, hardware, circuitpython, serial, setup]
 ---
 # Signal Chain Setup Guide
 
-> Getting your microcontroller talking to your computer. From unboxing to OSC data flowing into Max, TouchDesigner, or whatever receives it.
+> Getting your microcontroller talking to your computer. From unboxing to touch data flowing into Max, TouchDesigner, or PlugData.
 
 This guide assumes you have hardware in hand. If you're still figuring out *which* sensors match your practice, start with [[Hardware Clarifications — Thinking Toward Sensors|Hardware Clarifications — Thinking Toward Sensors]] first.
 
@@ -22,7 +22,7 @@ Key pins to know:
 - **STEMMA QT port** → directly wired to SDA/SCL — no wiring needed if you use a STEMMA QT cable
 - **3.3V and GND** → available on the pin headers for anything that doesn't use STEMMA QT
 
-> [!note] The RP2040 does **not** have built-in WiFi. For OSC communication we use **USB serial** instead of UDP over WiFi. This means: the board sends data over USB to a Python script running on your laptop, and that script forwards it as OSC to Max/MSP or TouchDesigner. See Part 4 for the full code.
+> [!note] The RP2040 does **not** have built-in WiFi. This board communicates over **USB serial** — it sends plain text data directly to your laptop, where TouchDesigner, Max/MSP, or PlugData reads it. No intermediate script needed.
 
 ---
 
@@ -38,38 +38,13 @@ Key facts:
 
 ---
 
-## Bonus Hardware
-
-### MCP4725 — 12-bit DAC (Digital-to-Analog Converter)
-
-The **MCP4725** converts a digital number (0–4095) into an analog voltage (0–3.3V). Useful for driving a piezo buzzer, analog LED brightness, or sending a control voltage into an analog synth.
-
-- **I2C address:** `0x60` (default; some boards allow `0x61`)
-- **Connects via STEMMA QT** → chains onto the same I2C bus as the MPR121
-- **CircuitPython library:** `adafruit_mcp4725`
-- **Use case in this course:** mapping a touch gesture to an analog voltage — a signal chain that goes *back out* into the physical world
-
----
-
-### Gikfun DS18B20 — Waterproof Temperature Probe
-
-The **DS18B20** is a waterproof 1-Wire temperature sensor on a probe cable — designed to go into liquid. It reads temperature in Celsius.
-
-- **Protocol:** 1-Wire — uses a single data wire (not I2C, not the STEMMA QT bus)
-- **Wiring:** Three wires — red (3.3V), black (GND), yellow or white (data). The data wire **requires a 4.7kΩ pull-up resistor** between data and 3.3V. This is not optional.
-- **Any free GPIO pin** can be the data pin
-- **CircuitPython libraries:** `adafruit_onewire` (bus layer) + `adafruit_ds18x20` (sensor driver) — both required
-- **Use case in this course:** tracking temperature change in a water vessel as materials dissolve — the slight heat from a citric acid reaction is real data that can drive synthesis parameters
-
----
-
 ## Part 1 — Flash CircuitPython onto the QT Py RP2040
 
 CircuitPython is the firmware that lets you write and run Python scripts on the board. You only need to do this once.
 
 ### Step 1 — Download the firmware
 
-Go to: **https://circuitpython.org/board/adafruit_qtpy_rp2040/**
+Go to: https://circuitpython.org/board/adafruit_qtpy_rp2040/
 
 Download the latest stable `.uf2` file (green "DOWNLOAD .UF2 NOW" button).
 
@@ -92,23 +67,24 @@ After rebooting, the board remounts as a new USB drive called **`CIRCUITPY`**. Y
 
 ## Part 2 — Install Libraries
 
-CircuitPython uses a `lib/` folder on the `CIRCUITPY` drive. You copy library files there manually — no package manager, no internet connection required on the board.
+CircuitPython uses a `lib/` folder on the `CIRCUITPY` drive. You copy library files there manually.
 
 ### Get the library bundle
 
 Download the **Adafruit CircuitPython Bundle** from:
-**https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases**
+https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases
 
-Download the bundle matching your CircuitPython version (e.g., `adafruit-circuitpython-bundle-9.x-mpy-YYYYMMDD.zip`). Unzip it — you'll get a large folder of `.mpy` files.
+Download the bundle matching your CircuitPython version (e.g., `adafruit-circuitpython-bundle-10.x-mpy-YYYYMMDD.zip`). Unzip it — you'll get a large folder of `.mpy` files.
 
 ### Libraries to copy into `lib/`
 
 **For MPR121 (required):**
 ```
 adafruit_mpr121.mpy
+adafruit_connection_manager.mpy
 ```
 
-> [!note] The USB serial → OSC bridge (Part 4) runs on your **laptop**, not the board, so there are no additional CircuitPython libraries needed for OSC itself. The board just sends plain text over USB; the laptop script translates it.
+> [!note] The board sends plain text over USB serial. Your receiving software (TouchDesigner, Max/MSP, or PlugData) reads that text directly — no additional libraries or scripts needed on the laptop side.
 
 ---
 
@@ -130,58 +106,62 @@ adafruit_mpr121.mpy
 
 ## Part 4 — The Code
 
-This is a two-part system:
-1. **`code.py`** runs on the board — reads the MPR121 and sends data over USB serial
-2. **`osc_bridge.py`** runs on your laptop — receives the serial data and forwards it as OSC
+The board runs two files: `boot.py` (enables the USB serial data channel) and `code.py` (reads the MPR121 and sends touch data as plain text). Your software on the laptop reads that text directly — no bridge script needed.
 
 ---
 
-### Part A — `code.py` (on the board)
+### `code.py` (on the board)
 
 Save this as `code.py` on the `CIRCUITPY` drive:
 
 ```python
 # DIGM 553 — Signal Chain: MPR121 capacitive touch → USB serial
 # Adafruit QT Py RP2040 + MPR121 12-key capacitive touch sensor
-# Sends touch/release events as plain text over USB for the OSC bridge to forward
+# Sends touch/release events AND raw capacitance over USB for the OSC bridge
 
 import board
 import busio
 import usb_cdc
 import time
-import adafruit_mpr121
+import adafruit_mpr121 # type: ignore
 
 # ── SETUP ─────────────────────────────────────────────────────────────────────
+i2c = busio.I2C(board.SCL1, board.SDA1)
+mpr = adafruit_mpr121.MPR121(i2c)   # Default I2C address 0x5A
 
-i2c = busio.I2C(board.SCL, board.SDA)
-mpr = adafruit_mpr121.MPR121(i2c)   # Default I2C address 0x5A
-
-serial = usb_cdc.data              # USB serial data channel
+serial = usb_cdc.data              # USB serial data channel
 
 # ── MAIN LOOP ─────────────────────────────────────────────────────────────────
-
 last_touched = mpr.touched()
 
 while True:
-    current = mpr.touched()
+    current = mpr.touched()
 
-    for i in range(12):
-        bit = 1 << i
-        was = last_touched & bit
-        now = current & bit
+    for i in range(12):
+        bit = 1 << i
+        was = last_touched & bit
+        now = current & bit
 
-        if not was and now:
-            # Electrode just touched — send: TOUCH,<electrode>\n
-            msg = f"TOUCH,{i}\n"
-            serial.write(msg.encode())
+        # Raw capacitance: baseline minus filtered (higher = more touch pressure)
+        baseline = mpr.baseline_data(i)
+        filtered = mpr.filtered_data(i)
+        raw = baseline - filtered  # 0 at rest, increases with touch
 
-        elif was and not now:
-            # Electrode just released — send: RELEASE,<electrode>\n
-            msg = f"RELEASE,{i}\n"
-            serial.write(msg.encode())
+        if not was and now:
+            msg = f"TOUCH,{i},{raw}\n"
+            serial.write(msg.encode())
 
-    last_touched = current
-    time.sleep(0.01)   # 100Hz polling
+        elif was and not now:
+            msg = f"RELEASE,{i},{raw}\n"
+            serial.write(msg.encode())
+
+        elif now:
+            # Continuous data while held — comment out if too noisy
+            msg = f"RAW,{i},{raw}\n"
+            serial.write(msg.encode())
+
+    last_touched = current
+    time.sleep(0.01)   # 100Hz polling
 ```
 
 You also need to enable the USB serial data channel. Create a file called `boot.py` on `CIRCUITPY` with this content:
@@ -196,113 +176,117 @@ After saving `boot.py`, **unplug and replug the board** for it to take effect.
 
 ---
 
-### Part B — `osc_bridge.py` (on your laptop)
+## Part 5 — Receiving Serial Data
 
-This script runs on your computer. It reads the serial data from the board and sends OSC messages to Max/MSP or TouchDesigner.
+The board appears as **two serial ports** on your computer once `boot.py` is in place — a console port (the REPL) and a data port. You want the **data port**.
 
-**Install dependencies first (run once in terminal):**
-```
-pip install pyserial python-osc
-```
-
-Then save and run this script:
-
-```python
-# osc_bridge.py — Serial → OSC bridge for DIGM 553 signal chain
-# Run this on your laptop while the QT Py RP2040 is connected via USB
-# Forwards MPR121 touch events as OSC messages to a local receiver
-
-import serial
-import serial.tools.list_ports
-from pythonosc import udp_client
-import time
-
-# ── CONFIGURATION ─────────────────────────────────────────────────────────────
-
-RECEIVER_IP   = "127.0.0.1"   # Loopback — receiver is on the same machine
-RECEIVER_PORT = 8000           # Port Max/MSP or TouchDesigner is listening on
-BAUD_RATE     = 115200
-
-# ── FIND THE BOARD ────────────────────────────────────────────────────────────
-
-def find_qtpy_port():
-    """Auto-detect the QT Py serial port."""
-    ports = serial.tools.list_ports.comports()
-    for p in ports:
-        if "CircuitPython" in p.description or "QT Py" in p.description:
-            return p.device
-    # Fallback: list all ports and pick the most likely one
-    if ports:
-        print("Could not auto-detect QT Py. Available ports:")
-        for i, p in enumerate(ports):
-            print(f"  [{i}] {p.device} — {p.description}")
-        idx = int(input("Enter number: "))
-        return ports[idx].device
-    raise RuntimeError("No serial ports found. Is the board plugged in?")
-
-# ── MAIN ──────────────────────────────────────────────────────────────────────
-
-port = find_qtpy_port()
-print(f"Connecting to board on {port}...")
-
-osc = udp_client.SimpleUDPClient(RECEIVER_IP, RECEIVER_PORT)
-
-with serial.Serial(port, BAUD_RATE, timeout=1) as ser:
-    print(f"Connected. Forwarding OSC to {RECEIVER_IP}:{RECEIVER_PORT}")
-    print("Touch the electrodes.\n")
-
-    while True:
-        line = ser.readline().decode("utf-8", errors="ignore").strip()
-        if not line:
-            continue
-
-        parts = line.split(",")
-        if len(parts) == 2:
-            event, electrode = parts[0], parts[1]
-            try:
-                idx = int(electrode)
-                if event == "TOUCH":
-                    osc.send_message(f"/mpr121/{idx}/touch", 1)
-                    print(f"→ OSC  /mpr121/{idx}/touch  1")
-                elif event == "RELEASE":
-                    osc.send_message(f"/mpr121/{idx}/touch", 0)
-                    print(f"→ OSC  /mpr121/{idx}/touch  0")
-            except ValueError:
-                pass
-```
-
-**To run it:**
-```
-python osc_bridge.py
-```
-
-Leave it running in the background while you work in Max or TouchDesigner.
+**Finding the data port:**
+- **Mac:** run `ls /dev/tty.usbmodem*` in Terminal — you'll see two entries; the data port is typically the one with the higher number
+- **Windows:** open Device Manager → Ports (COM & LPT) — two COM ports will appear; try the one you haven't used before
 
 ---
 
-## Part 5 — Receiving OSC
+### In TouchDesigner
+
+#### Step 1 — Serial DAT
+
+1. Press **Tab** and add a **Serial DAT**
+2. In its parameters, set **Port** to your data port (e.g. `/dev/cu.usbmodem...` on Mac, `COM4` on Windows)
+3. Set **Row/Callback Format** to `One Per Line`
+4. Set **Baud Rate** to `115200` (USB CDC ignores this but TD requires a value)
+5. Touch an electrode — you should see rows appearing: `TOUCH,2,18`, `RAW,2,24`, `RELEASE,2,3`
+
+#### Step 2 — Create the state table
+
+Open the **Textport** with **Alt+T** and run this to create a live 12-key state table:
+
+```python
+t = op('/project1').create(tableDAT, 'electrode_state')
+t.appendRow(['electrode', 'state', 'raw'])
+for i in range(12):
+    t.appendRow([i, 0, 0])
+```
+
+> [!note] In the Table DAT parameters, go to the **Fill** tab and set the fill mode to **Set Size and Contents** — this ensures the table populates correctly when the script runs.
+
+This creates a Table DAT named `electrode_state` with a row for each electrode, tracking its on/off state and raw capacitance value.
+
+#### Step 3 — DAT Execute to write the table
+
+1. Press **Tab** and add a **DAT Execute**
+2. Wire your **Serial DAT** into it as the input
+3. In the DAT Execute parameters, turn on **Row Change** and turn off everything else
+4. Paste this into the script:
+
+```python
+def onRowChange(dat, rows):
+    for row in rows:
+        line = dat[row, 0].val.strip()
+        if not line:
+            continue
+        
+        cells = line.split(',')
+        if len(cells) < 3:
+            continue
+        
+        event = cells[0]
+        idx = int(cells[1])
+        raw = int(cells[2])
+        
+        table = op('/project1/electrode_state')
+        if event == 'TOUCH':
+            table[idx + 1, 1] = 1
+            table[idx + 1, 2] = raw
+        elif event == 'RELEASE':
+            table[idx + 1, 1] = 0
+            table[idx + 1, 2] = raw
+        elif event == 'RAW':
+            table[idx + 1, 2] = raw
+```
+
+Touch an electrode and watch `electrode_state` — the state and raw columns update in real time. The `+ 1` offset skips the header row.
+
+#### Step 4 — Into CHOP land
+
+Add a **DAT to CHOP** after `electrode_state`. Each electrode becomes a named channel you can feed directly into audio, visuals, or any other part of your network:
+
+```
+Serial DAT → DAT Execute → (writes to) electrode_state Table DAT
+                                               ↓
+                                        DAT to CHOP
+                                               ↓
+                                        Select CHOP → your network
+```
+
+---
 
 ### In Max/MSP
 
-1. Create a `[udpreceive 8000]` object
-2. Connect it to `[oscparse]`
-3. Route the output with `[route /mpr121/0/touch /mpr121/1/touch]` etc.
+Use the `[serial]` object:
 
-**Minimal patch:**
 ```
-[udpreceive 8000]
-       |
-  [oscparse]
-       |
-  [route /mpr121/0/touch /mpr121/1/touch]
+[serial a 115200]        ← 'a' picks the first available port; change to b, c etc. for the data port
+        |
+  [fromsymbol]
+        |
+   [zl join]
+        |
+  [route TOUCH RAW RELEASE]
 ```
 
-### In TouchDesigner
+The messages arriving are plain text lines like `TOUCH,2,18`. Use `[regexp]` or `[sprintf]` to split on the comma and extract electrode number and raw value.
 
-1. Add an **OSC In DAT** node
-2. Set **Network Port** to `8000`
-3. The DAT table will populate with incoming OSC messages as they arrive
-4. Route values using **DAT Execute** or an **OSC In CHOP**
+> [!tip] In Max, open the **Serial** menu (Extras → Serial) to see which port letter corresponds to your data port.
+
+---
+
+### In PlugData
+
+> [!warning] PlugData does not currently support serial communication reliably for this use case. The `[comport]` external outputs raw bytes as numbers rather than parsed text strings, meaning the `TOUCH`, `RAW`, and `RELEASE` message content never arrives intact — `[route]` has nothing to work with.
+
+**Use Max/MSP or TouchDesigner instead.** Both handle USB serial text correctly out of the box with no additional setup.
+
+If you are committed to a Pd-based environment, one workaround is a small Python script on your laptop that reads serial and forwards data as OSC, received in PlugData via `[oscreceive]`. However this reintroduces bridge script complexity and is better suited to an ESP32/Feather setup with built-in WiFi — ask your instructor if that path makes sense for your project.
 
 ---
 
@@ -316,13 +300,10 @@ Leave it running in the background while you work in Max or TouchDesigner.
 → Check the STEMMA QT cable is fully seated on both ends (they click in slightly)
 → Confirm `adafruit_mpr121.mpy` is in the `lib/` folder on `CIRCUITPY`
 
-**`osc_bridge.py` can't find the board**
-→ Make sure `boot.py` was saved and the board was replugged after
-→ On Mac, the port will look like `/dev/cu.usbmodem...`; on Windows, `COM3` or similar
-
-**OSC not arriving in Max/TD**
-→ Confirm the bridge is running (you should see touch/release printed in the terminal)
-→ Confirm both scripts are using the same port number (default: `8000`)
+**Serial data not arriving in Max/TD/PlugData**
+→ Make sure `boot.py` was saved and the board was replugged after — the data port only appears after `boot.py` runs
+→ Confirm you are connected to the **data port**, not the console/REPL port (there will be two ports; try the other one)
+→ On Mac the port looks like `/dev/cu.usbmodem...`; on Windows `COM3` or similar
 
 **Touch data triggering randomly / too sensitive**
 → Tune thresholds in `code.py` after MPR121 init: `mpr.set_thresholds(12, 6)` — lower numbers = more sensitive; raise the first value to reduce false triggers
@@ -345,21 +326,11 @@ conductive material
         ↓
   I2C → QT Py RP2040  (Python: detect change, format message)
         ↓
-  USB serial → laptop
+  USB serial → laptop  (plain text: TOUCH,2,18 / HOLD,2,24 / RELEASE,2,3)
         ↓
-  osc_bridge.py  (parse serial, build OSC packet, send UDP)
-        ↓
-  Max/MSP or TouchDesigner  (receive, route, map, generate)
+  Max/MSP or TouchDesigner  (receive, parse, route, map)
         ↓
   audio / visual / other output
 ```
 
-Each arrow is a transformation. Something is amplified; something is reduced. The MPR121 reduces a complex capacitance field to 12 binary on/off states. The serial protocol reduces those to timestamped text strings. The OSC packet reduces those to typed numbers on a named address. The Max patch maps those numbers to something audible or visible. At no point is the original touch fully preserved — and that's not a failure. That's the chain.
-
----
-
-## Connected
-
-[[Hardware Clarifications — Thinking Toward Sensors|← Hardware Clarifications — Thinking Toward Sensors]]
-[[../Threads/Physical-Digital Entanglement|Physical-Digital Entanglement thread]]
-[[../Threads/Enabling Constraints|Enabling Constraints thread]]
+Each arrow is a transformation. Something is amplified; something is reduced. The MPR121 reduces a complex capacitance field to 12 binary on/off states. The serial protocol reduces those to timestamped text strings. Max or TouchDesigner maps those strings to something audible or visible. At no point is the original touch fully preserved — and that's not a                                                                                                                                                                                                                        

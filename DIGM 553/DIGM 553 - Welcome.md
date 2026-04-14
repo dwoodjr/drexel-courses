@@ -29,19 +29,19 @@ title: "Welcome to DIGM 553"
 ---
 ## 🗂️ Weekly Sessions
 
-| Week                                                                           | Theme                                           | Canvas             |
-| ------------------------------------------------------------------------------ | ----------------------------------------------- | ------------------ |
+| Week                                                                           | Theme                                           | Canvas                    |
+| ------------------------------------------------------------------------------ | ----------------------------------------------- | ------------------------- |
 | [[Week 01 - Practice Immanent Critique/Week 01\|Week 01]]                      | Practice Immanent Critique                      | [[Week 01 Canvas.canvas]] |
 | [[Week 02 - Construct Conditions for Speculative Pragmatism/Week 02\|Week 02]] | Construct Conditions for Speculative Pragmatism | [[Week 02 Canvas.canvas]] |
-| [[Week 03 - Epistemic Tools + Entanglement/Week 03\|Week 03]]                  | Epistemic Tools + Entanglement                  | [[Week 03.canvas]] |
-| [[Week 04 - Design Enabling Constraints/Week 04\|Week 04]]                     | Design Enabling Constraints                     | [[Week 04.canvas]] |
-| [[Week 05 - Enact Thought/Week 05\|Week 05]]                                   | Enact Thought                                   | [[Week 05.canvas]] |
-| [[Week 06 - Invent Platforms for Relation/Week 06\|Week 06]]                   | Invent Platforms for Relation                   | [[Week 06.canvas]] |
-| [[Week 07 - Embrace Failure/Week 07\|Week 07]]                                 | Embrace Failure                                 | [[Week 07.canvas]] |
-| [[Week 08 - Practice Letting Go/Week 08\|Week 08]]                             | Practice Letting Go                             | [[Week 08.canvas]] |
-| [[Week 09 - Render Formative Forces/Week 09\|Week 09]]                         | Render Formative Forces                         | [[Week 09.canvas]] |
-| [[Week 10 - Creatively Return to Chaos/Week 10\|Week 10]]                      | Creatively Return to Chaos                      | [[Week 10.canvas]] |
-| [[Week 11 - Proceed/Week 11\|Week 11]]                                         | Proceed                                         | [[Week 11.canvas]] |
+| [[Week 03 - Epistemic Tools + Entanglement/Week 03\|Week 03]]                  | Epistemic Tools + Entanglement                  | [[Week03-NEW.canvas]]     |
+| [[Week 04 - Design Enabling Constraints/Week 04\|Week 04]]                     | Design Enabling Constraints                     | [[Week 04.canvas]]        |
+| [[Week 05 - Enact Thought/Week 05\|Week 05]]                                   | Enact Thought                                   | [[Week 05.canvas]]        |
+| [[Week 06 - Invent Platforms for Relation/Week 06\|Week 06]]                   | Invent Platforms for Relation                   | [[Week 06.canvas]]        |
+| [[Week 07 - Embrace Failure/Week 07\|Week 07]]                                 | Embrace Failure                                 | [[Week 07.canvas]]        |
+| [[Week 08 - Practice Letting Go/Week 08\|Week 08]]                             | Practice Letting Go                             | [[Week 08.canvas]]        |
+| [[Week 09 - Render Formative Forces/Week 09\|Week 09]]                         | Render Formative Forces                         | [[Week 09.canvas]]        |
+| [[Week 10 - Creatively Return to Chaos/Week 10\|Week 10]]                      | Creatively Return to Chaos                      | [[Week 10.canvas]]        |
+| [[Week 11 - Proceed/Week 11\|Week 11]]                                         | Proceed                                         | [[Week 11.canvas]]        |
 
 ---
 ## 🧵 Conceptual Threads

@@ -8,6 +8,10 @@ tags: [DIGM553, week03]
 > Tools are not neutral. The Epistemic Tool Audit: what does your tool know, and what does it foreclose?
 
 ---
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1183037079?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="digm553-wk03-lecture"></iframe></div>
+
+---
 ## Activities
 Concept drop: Magnusson's epistemic tools, Agre's split identity, Barad's entanglement. The Epistemic Tool Audit workshop. Hands-on exploration at the edges of your tools.
 
