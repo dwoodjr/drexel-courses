@@ -4,7 +4,7 @@ tags: [DIGM553, hardware, circuitpython, serial, setup]
 ---
 # Signal Chain Setup Guide
 
-> Getting your microcontroller talking to your computer. From unboxing to touch data flowing into Max, TouchDesigner, or PlugData.
+> Getting your microcontroller talking to your computer. From unboxing to touch data flowing into Max, TouchDesigner.
 
 This guide assumes you have hardware in hand. If you're still figuring out *which* sensors match your practice, start with [[Hardware Clarifications — Thinking Toward Sensors|Hardware Clarifications — Thinking Toward Sensors]] first.
 
@@ -164,6 +164,13 @@ while True:
     time.sleep(0.01)   # 100Hz polling
 ```
 
+>[!note] To fix the error messages when pasting the code from here in VS Code:
+>1. Open Find/Replace (`Ctrl+H`).
+>2. Enable regex (`.*`).
+>3. In **Find**, type `\u00A0`.
+>4. **Replace** all with a normal space.
+>5. Save.
+
 You also need to enable the USB serial data channel. Create a file called `boot.py` on `CIRCUITPY` with this content:
 
 ```python
@@ -178,7 +185,7 @@ After saving `boot.py`, **unplug and replug the board** for it to take effect.
 
 ## Part 5 — Receiving Serial Data
 
-The board appears as **two serial ports** on your computer once `boot.py` is in place — a console port (the REPL) and a data port. You want the **data port**.
+The board appears as **two serial ports** on your computer once `boot.py` is in place — a console port (the REPL) and a data port. You want the **data port** (usually the larger number).
 
 **Finding the data port:**
 - **Mac:** run `ls /dev/tty.usbmodem*` in Terminal — you'll see two entries; the data port is typically the one with the higher number
