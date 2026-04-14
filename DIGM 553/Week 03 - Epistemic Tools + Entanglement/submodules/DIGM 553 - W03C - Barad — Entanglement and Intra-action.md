@@ -26,7 +26,6 @@ This is what is meant by ***intra-action*** rather than **interaction**.
 
 **Intra-action** says: the entities emerge *through* the relation. The version of you that exists when you're deep in a patchwork is not the same version of you that existed before. The version of TD that exists in your practice is not the same as TD in the abstract. The practice/relation constitutes both.
 
-
 ---
 
 ## Apparatus
@@ -39,19 +38,19 @@ For this course: your apparatus includes your hardware, your software, your stud
 
 ## Industry Pulse — Entanglement at Scale
 
-[**Bluecadet**](https://www.bluecadet.com) builds for institutions: museums, cultural centers, public spaces. Their work is entangled with architecture, with curators, with conservation concerns, with visitor behavior at scales from one person to thousands. The "tool" is never *just* software; it's a whole apparatus including the wall it's mounted on and the demographic of who walks past it.
+[**Bluecadet**](https://www.bluecadet.com) builds for institutions: museums, cultural centers, public spaces. Their work is entangled with architecture, with curators, with conservation concerns, with visitor behavior at scales from one person to thousands. The "tool" is never *just* software; it's a whole apparatus including the wall it is mounted on and the demographic of who walks past it.
 
 [**Meow Wolf**](https://meowwolf.com) is an interesting case: they're a collective that became a company. Something changed in the apparatus. The entanglements shifted: new stakeholders, new financial structures, new obligations. What did that do to what was possible to make? This is Barad's point made very concrete.
 
-**[BRDG studios](https://brdg.co)** works with clients communities where the entanglement is highly relational, not just technical. The apparatus includes trust. It includes narrative and creative vision. It includes whether people in that room feel the purpose and story by what was built. That's its in the apparatus.
+**[BRDG studios](https://brdg.co)** works with clients communities where the entanglement is highly relational. The apparatus includes trust. It includes narrative and creative vision. It includes whether people in that room feel the purpose and story by what was built. That's its in the apparatus.
 
 ---
 
 ## The Practical Consequence
 
-If you are entangled with your tools — not just using them but mutually constituted by them — then the tool audit isn't an academic exercise. It's a map of the conditions of your own practice. You're not standing outside your tools observing them. You're in it. The audit is a way of trying to see something you're inside of.
+If you are entangled with your tools, mutually constituted by them, then the tool audit is a map of the conditions of your own practice. You're not standing outside your tools observing them. You're in it. The audit is a way of trying to see something you're inside of.
 
-That's hard. It's supposed to be hard.
+That's hard. It is supposed to be hard.
 
 ---
 

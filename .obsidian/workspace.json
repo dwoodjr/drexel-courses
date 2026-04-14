@@ -62,9 +62,9 @@
               "state": {
                 "file": "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week03-NEW.canvas",
                 "viewState": {
-                  "x": -212.75474766523485,
-                  "y": -982.0695654128018,
-                  "zoom": -2.333333333333333
+                  "x": -97.56120420289807,
+                  "y": -2950.771880645692,
+                  "zoom": 1.1102230246251565e-16
                 }
               },
               "pinned": true,
@@ -164,9 +164,9 @@
               "state": {
                 "file": "DIGM 553/Documents/ETA-SpeculativeProposal.canvas",
                 "viewState": {
-                  "x": -86.32677011365718,
-                  "y": -1381.168909105234,
-                  "zoom": -2.0834964928176403
+                  "x": 411.0301409136357,
+                  "y": -875.3232255191049,
+                  "zoom": -1.333333333333333
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -188,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -256,7 +256,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 356.5,
+    "collapsed": true
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -420,8 +421,16 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "9ffd30ffa2a11a37",
+  "active": "7476492956c80779",
   "lastOpenFiles": [
+    "DIGM 553/Documents/Tool Audit — Template + Guide.md",
+    "DIGM 553/Documents/Speculative Proposal — Template + Guide.md",
+    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03D - Epistemic Tool Audit Workshop.md",
+    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03C - Barad — Entanglement and Intra-action.md",
+    "DIGM 553/Documents/ETA-SpeculativeProposal.canvas",
+    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week03-NEW.canvas",
+    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/Week 03.md",
+    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03B - Agre — Critical Technical Practice.md",
     "docs/digm-553/documents/micropython/libarchive/adafruit-circuitpython-bundle-py-20260402-lib.zip",
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260407155317.png",
     "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/pasted-image-20260414084026.png",
@@ -443,22 +452,13 @@
     "docs/digm-553/documents/micropython/libarchive/adafruit-circuitpython-bundle-10.x-mpy-20260402-lib.zip",
     "docs/digm-553/week-03-epistemic-tools-+-entanglement/submodules/submodules.html",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/media/media.md",
-    "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/media.html",
     "DIGM 553/Documents/media/media.md",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02B - Enabling Constraints Workshop.md",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/Week 03 - Epistemic Tools + Entanglement.md",
-    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03D - Epistemic Tool Audit Workshop.md",
-    "DIGM 553/Documents/Speculative Proposal — Template + Guide.md",
-    "DIGM 553/Documents/Tool Audit — Template + Guide.md",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03A - Magnusson — Epistemic Tools.md",
-    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03B - Agre — Critical Technical Practice.md",
-    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/DIGM 553 - W03C - Barad — Entanglement and Intra-action.md",
-    "DIGM 553/Documents/ETA-SpeculativeProposal.canvas",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas/Week 02 Canvas.canvas",
     "DIGM 553/DIGM 553 - Welcome.md",
     "DIGM 553/Documents/Signal Chain Setup Guide.md",
-    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week03-NEW.canvas",
-    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/Week 03.md",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/media/Screenshot-e1585243380975-2281196920.png",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/newtest.canvas",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week 03.canvas",

@@ -90,7 +90,7 @@ Address at least two of the following:
 - What does your primary tool know — what worldview does it embed — and how is that in tension or alignment with what you're trying to make?
 - Whose body, whose context, whose way of knowing is your apparatus built for? Is that yours?
 - Where do you anticipate hitting the tool's wall — the limit of what it can think?
-- How are you entangled with your tools and materials, not just using them? Where is the boundary between you, the tool, and the work genuinely unclear?
+- How are you entangled with your tools and materials? Where is the boundary between you, the tool, and the work genuinely unclear?
 
 ---
 

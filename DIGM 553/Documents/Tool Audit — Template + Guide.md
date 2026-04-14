@@ -11,7 +11,7 @@ Part of [[../Assignments/ASN 2 — Critical Technical Journal|ASN 2: Critical Te
 
 ## What This Is
 
-The Epistemic Tool Audit (ETA) is a structured anatomy of your project's apparatus. You're not reviewing tools — you're asking what they *think*, where *you* are inside them, and where they *break*.
+The Epistemic Tool Audit (ETA) is a structured anatomy of your project's apparatus. You are going to be asking what your tools *think*, where *you* are inside the apparatus, and where the tools *break* (or impasse).
 
 Building on Agre and Magnusson, this exercise rejects the idea of tools as neutral intermediaries. The hardware, software, and protocol that make up your signal chain encode worldviews, prescribe behaviors, and quietly marginalize alternative ways of knowing. This audit is one way in which we can that invisible visible.
 
@@ -60,7 +60,7 @@ If the matrix opens something you want to follow further, these questions can ex
 
 **On marginalization** (Agre): What part of my intent doesn't "fit" into the parameters of this tool? What gets discarded in the service of a clean, functional signal?
 
-**On entanglement** (Barad/Loveless): Where do my habits blend into the gain-knob or the slider? Since I cannot measure  something without changing it; how is my touch *changing* the signal, not just reading it?
+**On entanglement** (Barad/Loveless): Where do my habits blend into the gain-knob or the slider? Since I cannot measure something without changing it; how is my touch *changing* the signal?
 
 **On translation** (Magnusson): What is happening when "sound" becomes "math," when gesture becomes data, when touch becomes a threshold value? What dies in the handshake? IN other words, what gets lost/reduced?
 
