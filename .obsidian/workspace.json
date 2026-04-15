@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "DIGM 553/Documents/Signal Chain Setup Guide.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -106,7 +106,7 @@
             }
           },
           {
-            "id": "8ef4762930839c9e",
+            "id": "42fc036b9b8b3fa6",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -120,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 500.5
+    "width": 500.5,
+    "collapsed": true
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -255,8 +256,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5,
-    "collapsed": true
+    "width": 348.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -287,6 +287,9 @@
   "active": "9b69c8637eee8630",
   "lastOpenFiles": [
     "DIGM 553/Documents/Signal Chain Setup Guide.md",
+    "DIGM 553/Documents/Signal Chain Setup Guide.md.tmp.6483.1776258770036",
+    "DIGM 553/Documents/Signal Chain Setup Guide.md.tmp.6070.1776258253553",
+    "Index.md",
     "DIGM 553/Documents/DIGM_553_SP_2026-2.pdf",
     "DIGM 553/Readings/Agre — Critical Technical Practice.md",
     "DIGM 553/Readings/Agre_1997_Towards-critical-technical-practice.pdf",
@@ -317,8 +320,6 @@
     "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/blxtp8rushnb4kbllooaxz9vo0-3213374487.png",
     "docs/digm-553/documents/micropython/code.py",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/submodules/submodules.md",
-    "docs/digm-553/documents/micropython/boot.py",
-    "docs/digm-553/documents/micropython/stubarchive/circuitpython_stubs-10.1.4.tar.gz",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/media/media.md",
     "DIGM 553/Documents/media/media.md",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02B - Enabling Constraints Workshop.md",
@@ -328,7 +329,6 @@
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/media/Screenshot-e1585243380975-2281196920.png",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/newtest.canvas",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week 03.canvas",
-    "Index.md",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/DIGM-553 Guide_EpistemicToolAudit-ETA_Foundations.md",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/DIGM-553 Guide_Diagnostic Impasses_and_Matter-Network Mapping.md",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/DIGM-553 Guide_Speculative Proposals_and_Generative Trajectories.md",

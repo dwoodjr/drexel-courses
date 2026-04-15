@@ -203,22 +203,7 @@ The board appears as **two serial ports** on your computer once `boot.py` is in 
 4. Set **Baud Rate** to `115200` (USB CDC ignores this but TD requires a value)
 5. Touch an electrode — you should see rows appearing: `TOUCH,2,18`, `RAW,2,24`, `RELEASE,2,3`
 
-#### Step 2 — Create the state table
-
-Open the **Textport** with **Alt+T** and run this to create a live 12-key state table:
-
-```python
-t = op('/project1').create(tableDAT, 'electrode_state')
-t.appendRow(['electrode', 'state', 'raw'])
-for i in range(12):
-    t.appendRow([i, 0, 0])
-```
-
-> [!note] In the Table DAT parameters, go to the **Fill** tab and set the fill mode to **Set Size and Contents** — this ensures the table populates correctly when the script runs.
-
-This creates a Table DAT named `electrode_state` with a row for each electrode, tracking its on/off state and raw capacitance value.
-
-#### Step 3 — DAT Execute to write the table
+#### Step 2 — DAT Execute to write the table
 
 1. Press **Tab** and add a **DAT Execute**
 2. Wire your **Serial DAT** into it as the input
@@ -251,7 +236,31 @@ def onRowChange(dat, rows):
             table[idx + 1, 2] = raw
 ```
 
-Touch an electrode and watch `electrode_state` — the state and raw columns update in real time. The `+ 1` offset skips the header row.
+#### Step 3 — Create the state table
+
+Now create the `electrode_state` Table DAT that the script writes into. Open the **Textport** with **Alt+T** and run each of these three steps separately:
+
+**Step 3a** — create the DAT:
+```python
+t = op('/project1').create(tableDAT, 'electrode_state')
+```
+
+**Step 3b** — clear it and add the 12 electrode rows:
+```python
+t = op('/project1/electrode_state')
+t.clear()
+for i in range(12):
+    t.appendRow([i, 0, 0])
+```
+
+**Step 3c** — insert the header row at position 0:
+```python
+t.insertRow(['electrode', 'state', 'raw'], 0)
+```
+
+> [!note] These must be run as three separate Textport commands — the Textport can't follow a `for` loop with an additional statement in the same block.
+
+You should end up with 13 rows — a header row plus one row per electrode. The `insertRow(..., 0)` adds the headers after the data rows so electrode 0's data never overwrites the column names.
 
 #### Step 4 — Into CHOP land
 
