@@ -18,7 +18,6 @@
 		{"id":"cross_specificity","type":"text","text":"**Both texts agree on specificity.**\nLoveless: the dog cannot be generalized. Camus + Vinck: the digital thing cannot be abstracted from its material conditions. You cannot research, make, or build *in general*.","x":-160,"y":-1920,"width":440,"height":160,"color":"1"},
 		{"id":"cross_script_dog","type":"text","text":"**The script is part of the dog.**\nIf your entry point is a material process, the tools you use to sense and process it are participants in that observation. They have prior understanding. They have scripts. In this way, your dog is already entangled with them.","x":-240,"y":-1620,"width":440,"height":180,"color":"1"},
 		{"id":"title","type":"text","text":"# Week 04 — Design Enabling Constraints\n*What is your dog? Loveless, Haraway, and the specificity of situated knowledge. Proposal workshopping.*","x":-240,"y":-2720,"width":660,"height":160,"color":"1"},
-		{"id":"39a77df71e46f842","type":"text","text":"> [!quote] Languages (discourses) precede us; research methods and disciplines precede us. We enter into them and they work to craft the possible forms of our questions. Thus, when examining our research practices, it is crucial to ask: which stories are animating our choices? Why might this research choice *matter*? Alternate (research) stories create alternate (research) worlds. Conversely, different storytelling strategies (methods and practices) emerge from different worldviews and commitments. ","x":-2400,"y":-2260,"width":576,"height":220},
 		{"id":"0b36321b0c669de3","type":"file","file":"DIGM 553/Week 04 - Design Enabling Constraints/submodules/DIGM 553 - W04A - What Is Your Dog.md","x":-2080,"y":-1400,"width":840,"height":320,"color":"4"},
 		{"id":"subB","type":"file","file":"DIGM 553/Week 04 - Design Enabling Constraints/submodules/DIGM 553 - W04B - Speculative Proposal Workshop.md","x":-240,"y":-360,"width":520,"height":380,"color":"3"},
 		{"id":"proposal_example","type":"file","file":"DIGM 553/Week 04 - Design Enabling Constraints/Documents/Speculative Proposal — Example.md","x":520,"y":-480,"width":520,"height":640,"color":"6"},
@@ -40,7 +39,9 @@
 		{"id":"8b6e79120113783f","x":-2040,"y":-40,"width":250,"height":60,"color":"3","type":"text","text":"Embodying"},
 		{"id":"6de63c9db35b9cbf","x":-2040,"y":220,"width":250,"height":60,"color":"4","type":"text","text":"Transmitting"},
 		{"id":"6f9f24219a6f1b90","x":1480,"y":-20,"width":440,"height":545,"type":"file","file":"DIGM 553/Week 04 - Design Enabling Constraints/Documents/Speculative Proposal — Example.pdf"},
-		{"id":"5d1e0363f07e03e0","x":-1520,"y":-2560,"width":528,"height":80,"type":"text","text":"> [!quote] The crafting of a research question is the crafting of a story that is also the crafting of an ethics."}
+		{"id":"5d1e0363f07e03e0","x":-1520,"y":-2560,"width":528,"height":80,"type":"text","text":"> [!quote] The crafting of a research question is the crafting of a story that is also the crafting of an ethics."},
+		{"id":"906fe8b721347008","x":820,"y":-1700,"width":360,"height":108,"type":"text","text":"Is Music theory a description of what you are doing or is it a prescription for what you should do?"},
+		{"id":"39a77df71e46f842","type":"text","text":"> [!quote] Languages (discourses) precede us; research methods and disciplines precede us. We enter into them and they work to craft the possible forms of our questions. Thus, when examining our research practices, it is crucial to ask: which stories are animating our choices? Why might this research choice *matter*? Alternate (research) stories create alternate (research) worlds. Conversely, different storytelling strategies (methods and practices) emerge from different worldviews and commitments. ","x":-2160,"y":-2320,"width":576,"height":220}
 	],
 	"edges":[
 		{"id":"e_title_lov","fromNode":"title","fromSide":"bottom","toNode":"lov_anchor","toSide":"top","color":"4"},
@@ -103,6 +104,7 @@
 		{"id":"bff3525594d833e5","fromNode":"864dc32325145e8a","fromSide":"right","toNode":"5a1d9e4dddc7a74c","toSide":"left"},
 		{"id":"07c9b347262f5def","fromNode":"8b6e79120113783f","fromSide":"right","toNode":"5a1d9e4dddc7a74c","toSide":"left"},
 		{"id":"4d817e4c9a0e8ffb","fromNode":"6de63c9db35b9cbf","fromSide":"right","toNode":"c59eb388ee46b6a0","toSide":"left"},
-		{"id":"ad6c1b546a95bab9","fromNode":"proposal_example","fromSide":"right","toNode":"6f9f24219a6f1b90","toSide":"left"}
+		{"id":"ad6c1b546a95bab9","fromNode":"proposal_example","fromSide":"right","toNode":"6f9f24219a6f1b90","toSide":"left"},
+		{"id":"6fab83802ecbc7a8","fromNode":"cv_scripts","fromSide":"bottom","toNode":"906fe8b721347008","toSide":"top"}
 	]
 }

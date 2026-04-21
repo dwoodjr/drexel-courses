@@ -14,7 +14,7 @@ See full assignment brief: [[../Assignments/ASN 1 — Potluck + Speculative Prop
 A proposal in this experimental media arts lab is not meant to be seen as a list of promised deliverables. It is more so a **construction of conditions.** You are aiming to act with precision (pragmatism) to catalyze the unknown (speculative). 
 - Manning and Massumi call this *speculative pragmatism*: the work of building a situation that allows something not yet known to happen.
 
-This document is a living artifact. It will be revised (due at Week 10). The gap between the two versions (what changed and why) is itself part of the research/processs.
+This document is a living artifact. It will be revised (due at Week 10). The gap between the two versions (what changed and why) is itself part of the research/processes.
 
 ---
 
