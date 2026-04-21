@@ -36,8 +36,8 @@ For this course: the journal is not documentation of a separate making process. 
 
 ## Key Readings
 
-- [[../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — Propositions 0–3.
-- [[../Readings/Loveless — Haraway's Dog|Loveless — *Haraway's Dog*]] — on curiosity as a research method; following a question rather than testing a hypothesis.
+- [[Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — Propositions 0–3.
+- [[Loveless — Haraway's Dog|Loveless — *Haraway's Dog*]] — on curiosity as a research method; following a question rather than testing a hypothesis.
 
 ---
 

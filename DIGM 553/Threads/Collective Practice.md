@@ -34,7 +34,7 @@ There's an ethic here too. What you bring to the room — your presence, attenti
 
 ## Key Readings
 
-- [[../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — on the studio event and techniques of relation.
+- [[Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — on the studio event and techniques of relation.
 
 ---
 

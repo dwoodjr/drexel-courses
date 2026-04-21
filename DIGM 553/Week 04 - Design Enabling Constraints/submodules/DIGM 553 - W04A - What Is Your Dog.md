@@ -13,5 +13,15 @@ Loveless's reading of Haraway: 'your dog' is your specific, situated, non-genera
 [[../Threads/Research-Creation|Research-Creation]]  [[../Threads/Enabling Constraints|Enabling Constraints]]  [[../Threads/Entanglement|Entanglement]]
 
 ---
+## Reading Frame — Loveless + Camus & Vinck
+
+**Loveless** gives us the "dog" as a figure for situated, non-generalizable knowledge. You cannot research *in general*. You research from somewhere specific — a body, a relation, a material entanglement you are already inside of. Haraway's original move was to say that the dog is not a metaphor for the researcher; it is the actual site of inquiry. The specificity *is* the method.
+
+**Camus & Vinck** (Part 1) extend this into practice: tools and materials are not neutral instruments that you pick up and put down. They have histories, they encode assumptions, they shape what you can notice and what you cannot. Working with a tool is working inside a worldview.
+
+The two readings together ask the same question from different angles: *What have you already committed to, and do you know it?*
+
+That is what the proposal is trying to surface — not a plan, but an honest account of your situated starting point.
+
+---
 ## Notes / Resources
-*(Add lecture notes, links, embedded media, and exercises here.)*

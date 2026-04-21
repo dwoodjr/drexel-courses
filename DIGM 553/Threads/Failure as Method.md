@@ -34,8 +34,8 @@ Manning & Massumi's concept of **immanent critique** is also relevant here: fail
 
 ## Key Readings
 
-- [[../Readings/Agre — Critical Technical Practice|Agre — *Critical Technical Practice*]] — the source of the hassle concept and the method of treating recurring friction as intellectual data.
-- [[../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — immanent critique as the practice of finding pressure points from inside the system.
+- [[Agre — Critical Technical Practice|Agre — *Critical Technical Practice*]] — the source of the hassle concept and the method of treating recurring friction as intellectual data.
+- [[Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — immanent critique as the practice of finding pressure points from inside the system.
 
 ---
 

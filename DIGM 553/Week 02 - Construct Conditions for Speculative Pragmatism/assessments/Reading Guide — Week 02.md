@@ -66,6 +66,6 @@ You need to:
 
 ## Connected
 
-[[../../../Readings/Magnusson — Epistemic Tools|Magnusson reading notes]]
-[[../../../Readings/Agre — Critical Technical Practice|Agre reading notes]]
+[[Magnusson — Epistemic Tools|Magnusson reading notes]]
+[[Agre — Critical Technical Practice|Agre reading notes]]
 [[../Week 02|← Week 02]]||  [[../../Week 03 - Epistemic Tools + Entanglement/Week 03|Week 03 →]]

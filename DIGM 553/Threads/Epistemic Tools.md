@@ -34,8 +34,8 @@ Every tool also performs an **amplification-reduction**: it amplifies certain fe
 
 ## Key Readings
 
-- [[../Readings/Magnusson — Epistemic Tools|Magnusson — *Epistemic Tools*]] — the source text for the concept; covers Ihde's modalities, amplification-reduction, and the techne/episteme distinction.
-- [[../Readings/Agre — Critical Technical Practice|Agre — *Critical Technical Practice*]] — on computational imperialism, the split identity, and the practice of making the invisible assumptions of tools visible.
+- [[Magnusson — Epistemic Tools|Magnusson — *Epistemic Tools*]] — the source text for the concept; covers Ihde's modalities, amplification-reduction, and the techne/episteme distinction.
+- [[Agre — Critical Technical Practice|Agre — *Critical Technical Practice*]] — on computational imperialism, the split identity, and the practice of making the invisible assumptions of tools visible.
 
 ---
 

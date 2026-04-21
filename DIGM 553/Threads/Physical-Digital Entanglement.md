@@ -34,8 +34,8 @@ This thread tracks how physical and digital forces meet, condition each other, a
 
 ## Key Readings
 
-- [[../Readings/Magnusson — Epistemic Tools|Magnusson — *Epistemic Tools*]] — on instruments as material-electric-symbolic systems.
-- [[../Readings/Camus + Vinck — Unfolding Digital Materiality|Camus + Vinck — *Unfolding Digital Materiality*]] — on the thickness and materiality of digital objects.
+- [[Magnusson — Epistemic Tools|Magnusson — *Epistemic Tools*]] — on instruments as material-electric-symbolic systems.
+- [[Camus + Vinck — Unfolding Digital Materiality|Camus + Vinck — *Unfolding Digital Materiality*]] — on the thickness and materiality of digital objects.
 
 ---
 

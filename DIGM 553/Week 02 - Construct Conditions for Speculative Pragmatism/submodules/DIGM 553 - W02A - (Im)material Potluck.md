@@ -161,5 +161,5 @@ The potluck feeds directly into the workshop — [[DIGM 553 - W02B - Enabling Co
 
 ## Connected Readings
 
-[[../../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — techniques of relation; the studio event as collective thinking
-[[../../Readings/Magnusson — Epistemic Tools|Magnusson — *Epistemic Tools*]] — amplification-reduction; tools as epistemic artifacts
+[[Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — techniques of relation; the studio event as collective thinking
+[[Magnusson — Epistemic Tools|Magnusson — *Epistemic Tools*]] — amplification-reduction; tools as epistemic artifacts

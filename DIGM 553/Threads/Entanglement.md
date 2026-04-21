@@ -34,8 +34,8 @@ Camus & Vinck extend this into digital materiality: the digital is not immateria
 
 ## Key Readings
 
-- [[../Readings/Camus + Vinck — Unfolding Digital Materiality|Camus + Vinck — *Unfolding Digital Materiality*]] — on the thickness of digital objects; the materiality of inscription and infrastructure.
-- [[../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — the concept of co-causality and conditioning is entanglement in practice.
+- [[Camus + Vinck — Unfolding Digital Materiality|Camus + Vinck — *Unfolding Digital Materiality*]] — on the thickness of digital objects; the materiality of inscription and infrastructure.
+- [[Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — the concept of co-causality and conditioning is entanglement in practice.
 
 ---
 

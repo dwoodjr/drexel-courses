@@ -2,10 +2,10 @@
   "alwaysUpdateLinks": true,
   "readableLineLength": false,
   "pdfExportSettings": {
-    "pageSize": "Letter",
+    "pageSize": "A4",
     "landscape": false,
-    "margin": "2",
-    "downscalePercent": 75
+    "margin": "0",
+    "downscalePercent": 84
   },
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "./"

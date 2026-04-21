@@ -34,7 +34,7 @@ For experimental media practice, making public also means confronting the questi
 
 ## Key Readings
 
-- [[../Readings/Loveless — Haraway's Dog|Loveless — *Haraway's Dog*]] — on the obligation to render research public, curiosity as method, and the boundary object.
+- [[Loveless — Haraway's Dog|Loveless — *Haraway's Dog*]] — on the obligation to render research public, curiosity as method, and the boundary object.
 
 ---
 

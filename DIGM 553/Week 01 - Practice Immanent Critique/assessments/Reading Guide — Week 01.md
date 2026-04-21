@@ -63,6 +63,6 @@ The discussions are only as good as what each person brings to it. Your confusio
 
 ## Connected
 
-[[../../Readings/Manning + Massumi — Thought in the Act|Manning & Massumi reading notes]] (to be revealed after Week 02 disscusion)
+[[Manning + Massumi — Thought in the Act|Manning & Massumi reading notes]] (to be revealed after Week 02 disscusion)
 [[(Im)material Potluck — Prep|(Im)material Potluck — Prep]] 
 [[../Week 01|← Week 01]]

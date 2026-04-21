@@ -138,5 +138,5 @@ Dyson uses the constraint of a fixed geometric vocabulary — arcs, rectangles, 
 
 ## Connected Readings
 
-[[../../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — Propositions 0–3
-[[../../Readings/Magnusson — Epistemic Tools|Magnusson — *Epistemic Tools*]] — on tools as amplification-reduction systems
+[[Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — Propositions 0–3
+[[Magnusson — Epistemic Tools|Magnusson — *Epistemic Tools*]] — on tools as amplification-reduction systems

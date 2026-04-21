@@ -34,7 +34,7 @@ This shows up everywhere in the course. The MPR121 has 12 channels — that's a 
 
 ## Key Readings
 
-- [[../Readings/Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — Propositions 0–3.
+- [[Manning + Massumi — Thought in the Act|Manning + Massumi — *Thought in the Act*]] — Propositions 0–3.
 
 ---
 
