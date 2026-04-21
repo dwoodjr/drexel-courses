@@ -131,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -363,11 +363,14 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "ea7aa5ab74d77c00",
+  "active": "029d056e72f9cd27",
   "lastOpenFiles": [
+    "DIGM 553/Week 04 - Design Enabling Constraints/submodules/submodules.md",
+    "docs/digm-553/week-04-design-enabling-constraints/submodules/submodules.html",
+    "DIGM 553/Week 04 - Design Enabling Constraints/Documents/Speculative Proposal — Example.md",
+    "DIGM 553/Week 04 - Design Enabling Constraints/Documents/Speculative Proposal — Example.pdf",
     "DIGM 553/Week 04 - Design Enabling Constraints/Week 04 - Design Enabling Constraints.md",
     "docs/digm-553/week-04-design-enabling-constraints/week-04-design-enabling-constraints.html",
-    "DIGM 553/Week 04 - Design Enabling Constraints/Documents/Speculative Proposal — Example.md",
     "DIGM 553/Documents/Speculative Proposal — Template + Guide.md",
     "docs/digm-553/week-04-design-enabling-constraints/documents/desktop.ini",
     "docs/digm-553/week-04-design-enabling-constraints/canvas/desktop.ini",
@@ -386,11 +389,9 @@
     "DIGM 553/Week 04 - Design Enabling Constraints/canvas/Week 04.canvas",
     "docs/digm-553/week-04-design-enabling-constraints/canvas/week-04.html",
     "docs/digm-553/week-04-design-enabling-constraints/canvas",
-    "docs/digm-553/week-04-design-enabling-constraints/submodules/digm-553-w04b-speculative-proposal-workshop.html",
     "DIGM 553/Week 04 - Design Enabling Constraints/submodules/DIGM 553 - W04B - Speculative Proposal Workshop.md",
-    "docs/digm-553/week-04-design-enabling-constraints/submodules",
     "DIGM 553/Documents/Tool Audit — Template + Guide.md",
-    "mpr121_lattice_diagram.png",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/mpr121_lattice_diagram.png",
     "Index.md",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/reading-guides/Camus + Vinck — Unfolding Digital Materiality.md",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/reading-guides/Loveless — Haraway's Dog.md",
