@@ -38,114 +38,118 @@
             }
           },
           {
-            "id": "75ef3c03b52bbdf4",
+            "id": "ebcf268e0b9171dd",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIGM 553/Week 04 - Design Enabling Constraints/Week 04.md",
+                "file": "DIGM 553/Week 05 - Enact Thought/Week 05.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Week 04"
+              "title": "Week 05"
             }
           },
           {
-            "id": "2165961bdfaf62c2",
+            "id": "95d0902ac23492b6",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DIGM 553/Week 04 - Design Enabling Constraints/canvas/Week 04.canvas",
+                "file": "DIGM 553/Week 05 - Enact Thought/canvas/Week 05.canvas",
                 "viewState": {
-                  "x": 646.7066660040966,
-                  "y": -187.04507564433516,
-                  "zoom": -0.3333333333333332
+                  "x": 92.02761541275584,
+                  "y": -1764.4410543473239,
+                  "zoom": -1.333333333333333
                 }
               },
               "pinned": true,
               "icon": "lucide-layout-dashboard",
-              "title": "Week 04"
+              "title": "Week 05"
             }
           },
           {
-            "id": "5238620d08f27d71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIGM 553/Week 04 - Design Enabling Constraints/submodules/DIGM 553 - W04B - Speculative Proposal Workshop.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DIGM 553 - W04B - Speculative Proposal Workshop"
-            }
-          },
-          {
-            "id": "acb3b51d6e67ee49",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIGM 553/Documents/Speculative Proposal — Template + Guide.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Speculative Proposal — Template + Guide"
-            }
-          },
-          {
-            "id": "edb1ab4c577d4a7a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DIGM 553/Documents/Speculative Proposal — Template + Guide.pdf"
-              },
-              "pinned": true,
-              "icon": "lucide-file-text",
-              "title": "Speculative Proposal — Template + Guide"
-            }
-          },
-          {
-            "id": "ea7aa5ab74d77c00",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIGM 553/Week 04 - Design Enabling Constraints/Documents/Speculative Proposal — Example.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Speculative Proposal — Example"
-            }
-          },
-          {
-            "id": "52a4e1202c99f4e5",
+            "id": "3132cbc3c8138acb",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DIGM 553/Week 04 - Design Enabling Constraints/Documents/Speculative Proposal — Example.pdf"
+                "file": "DIGM 553/Readings/Camus_Vick_2019_digitalSTS_3_Unfolding-Digital-Materiality.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Speculative Proposal — Example"
+              "title": "Camus_Vick_2019_digitalSTS_3_Unfolding-Digital-Materiality"
+            }
+          },
+          {
+            "id": "c3738000ccb7a05f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIGM 553/Documents/Learning to Play and On Not Knowing Yet.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Learning to Play and On Not Knowing Yet"
+            }
+          },
+          {
+            "id": "e7b3bb3c9ce76327",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIGM 553/Documents/Reading Sensors, Reading Docs.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Reading Sensors, Reading Docs"
+            }
+          },
+          {
+            "id": "38bfdcb346088aa5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIGM 553/Documents/Python + Sensor Data — A Primer for TD.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Python + Sensor Data — A Primer for TD"
+            }
+          },
+          {
+            "id": "9374bbf30570edc5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DIGM 553/Week 05 - Enact Thought/assessments/Journal Entry 2 — First Impasse Report.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Journal Entry 2 — First Impasse Report"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -199,7 +203,7 @@
             }
           },
           {
-            "id": "f3d58e6be6275007",
+            "id": "2425d1b274174073",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -213,8 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 500.5,
-    "collapsed": true
+    "width": 504.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -349,8 +352,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5,
-    "collapsed": true
+    "width": 348.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -378,47 +380,94 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "5238620d08f27d71",
+  "floating": {
+    "id": "28a2f84477a14f25",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8e3679702eae6f25",
+        "type": "window",
+        "children": [
+          {
+            "id": "9704d192c77a6da4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6280651d72fbc7ed",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "DIGM 553/Notes - FOR INSTRUCTOR ONLY/reading-guides/Camus + Vinck — Unfolding Digital Materiality.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Camus + Vinck — Unfolding Digital Materiality"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2576,
+        "y": 374,
+        "width": 1888,
+        "height": 1000,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "38bfdcb346088aa5",
   "lastOpenFiles": [
-    "DIGM 553/Threads/Threads.md",
-    "docs/digm-553/threads/threads.html",
-    "DIGM 553/Threads/Making Public.md",
-    "docs/digm-553/threads/making-public.html",
-    "DIGM 553/Threads/Epistemic Tools.md",
-    "docs/digm-553/threads/epistemic-tools.html",
-    "DIGM 553/Threads/Physical-Digital Entanglement.md",
-    "docs/digm-553/threads/physical-digital-entanglement.html",
-    "DIGM 553/Threads/Collective Practice.md",
-    "docs/digm-553/threads/collective-practice.html",
-    "DIGM 553/Threads/Enabling Constraints.md",
-    "docs/digm-553/threads/enabling-constraints.html",
-    "DIGM 553/Threads/Entanglement.md",
-    "docs/digm-553/threads/entanglement.html",
-    "DIGM 553/Threads/Failure as Method.md",
-    "docs/digm-553/threads/failure-as-method.html",
-    "DIGM 553/Threads/Research-Creation.md",
-    "docs/digm-553/threads/research-creation.html",
-    "DIGM 553/Week 04 - Design Enabling Constraints/canvas/Week 04.canvas",
+    "DIGM 553/Week 05 - Enact Thought/submodules/submodules.md",
+    "docs/digm-553/week-05-enact-thought/submodules/submodules.html",
+    "DIGM 553/Week 05 - Enact Thought/media/media.md",
+    "docs/digm-553/week-05-enact-thought/media/media.html",
+    "docs/digm-553/week-05-enact-thought/media",
     "DIGM 553/Week 04 - Design Enabling Constraints/Documents/Speculative Proposal — Example.md",
-    "DIGM 553/Documents/Speculative Proposal — Template + Guide.md",
-    "DIGM 553/Week 04 - Design Enabling Constraints/Week 04.md",
-    "DIGM 553/Week 04 - Design Enabling Constraints/Documents/Speculative Proposal — Example.pdf",
-    "DIGM 553/Week 04 - Design Enabling Constraints/submodules/DIGM 553 - W04B - Speculative Proposal Workshop.md",
-    "DIGM 553/Week 04 - Design Enabling Constraints/submodules/submodules.md",
-    "DIGM 553/Week 04 - Design Enabling Constraints/Week 04 - Design Enabling Constraints.md",
-    "DIGM 553/Documents/Signal Chain Setup Guide.md",
-    "DIGM 553/Week 04 - Design Enabling Constraints/submodules/DIGM 553 - W04A - What Is Your Dog.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas/Week 02 Canvas.canvas",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/assessments/Reading Guide — Week 02.md",
-    "DIGM 553/Week 01 - Practice Immanent Critique/canvas/Week 01 Canvas.canvas",
-    "DIGM 553/Week 01 - Practice Immanent Critique/assessments/Reading Guide — Week 01.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02A - (Im)material Potluck.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/submodules/DIGM 553 - W02B - Enabling Constraints Workshop.md",
-    "DIGM 553/Documents/Tool Audit — Template + Guide.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/mpr121_lattice_diagram.png",
-    "Index.md",
+    "DIGM 553/Week 04 - Design Enabling Constraints/canvas/Week 04.canvas",
+    "docs/digm-553/documents/micropython/micropython.html",
+    "DIGM 553/Documents/micropython/micropython.md",
+    "DIGM 553/Week 05 - Enact Thought/Week 05.md",
+    "docs/digm-553/week-05-enact-thought/week-05.html",
+    "docs/digm-553/week-05-enact-thought/canvas/week-05.html",
+    "DIGM 553/Week 05 - Enact Thought/canvas/Week 05.canvas",
+    "docs/digm-553/week-05-enact-thought/canvas",
+    "docs/digm-553/week-05-enact-thought/submodules/digm-553-w05a-matter-networks-and-becoming-digital.html",
+    "DIGM 553/Week 05 - Enact Thought/submodules/DIGM 553 - W05A - Matter-Networks and Becoming Digital.md",
+    "DIGM 553/Week 05 - Enact Thought/submodules/DIGM 553 - W05B - First Impasse.md",
+    "docs/digm-553/week-05-enact-thought/submodules/digm-553-w05b-first-impasse.html",
+    "docs/digm-553/week-05-enact-thought/submodules",
+    "DIGM 553/Week 05 - Enact Thought/assessments/Journal Entry 2 — First Impasse Report.md",
+    "DIGM 553/Documents/Python + Sensor Data — A Primer for TD.md",
+    "DIGM 553/Documents/Learning to Play and On Not Knowing Yet.md",
+    "DIGM 553/Documents/Reading Sensors, Reading Docs.md",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/reading-guides/Camus + Vinck — Unfolding Digital Materiality.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/reading-guides/Loveless — Haraway's Dog.md",
+    "canvas/Week 05.md",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/DIGM-553 Guide_Diagnostic Impasses_and_Matter-Network Mapping.md",
+    "DIGM 553/Week 05 - Enact Thought/Week 05 - Enact Thought.md",
+    "DIGM 553/Week 05 - Enact Thought/canvas/canvas.md",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/Student Ideas - wk04.md",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/Warm-Up — The Paper Exercise.md",
+    "DIGM 553/Documents/micropython/Python + Sensor Data — A Primer for TD.md",
+    "DIGM 553/Documents/micropython/TCS Color Sensor — TD Table Setup.md",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/Pasted image 20260426161827.png",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/SP26.md",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/media.md",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/Pasted image 20260426161706.png",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/Pasted image 20260426161605.png",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/Pasted image 20260426161325.png",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Notes - FOR INSTRUCTOR ONLY.md",
+    "DIGM 553/Documents/Signal Chain Setup Guide.md",
+    "Index.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Feedback - Ghada Alraesi - Journals 1-2.md",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas/Week 02 Canvas.canvas",
+    "DIGM 553/Week 01 - Practice Immanent Critique/canvas/Week 01 Canvas.canvas",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/mpr121_lattice_diagram.png",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week03-NEW.canvas",
     "DIGM 553/Documents/ETA-SpeculativeProposal.canvas",
     "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260407155317.png",
@@ -426,14 +475,9 @@
     "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/screenshot-e1585243380975-2281196920.png",
     "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/pythagoras-conceived-the-universe-as-an-immense-monochord-with-its-single-string.png",
     "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/pasted-image-20260414084208.png",
-    "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/pasted-image-20260414083828.png",
-    "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/pasted-image-20260414082903.png",
-    "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/pasted-image-20260414083657.png",
-    "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/blxtp8rushnb4kbllooaxz9vo0-3213374487.png",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/newtest.canvas",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week 03.canvas",
     "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
-    "DIGM 553/DIGM 553.canvas",
-    "DIGM 553/Week 11 - Proceed/Week 11.canvas"
+    "DIGM 553/DIGM 553.canvas"
   ]
 }
