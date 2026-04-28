@@ -62,8 +62,8 @@
               "state": {
                 "file": "DIGM 553/Week 05 - Enact Thought/canvas/Week 05.canvas",
                 "viewState": {
-                  "x": 92.02761541275584,
-                  "y": -1764.4410543473239,
+                  "x": 280.6121058757359,
+                  "y": -1853.2442870480534,
                   "zoom": -1.333333333333333
                 }
               },
@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -217,7 +217,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 504.5
+    "width": 504.5,
+    "collapsed": true
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -352,7 +353,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 348.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -407,8 +409,25 @@
                   "icon": "lucide-file",
                   "title": "Camus + Vinck — Unfolding Digital Materiality"
                 }
+              },
+              {
+                "id": "8e5850ebde4ef985",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Warm-Up — The Paper Exercise.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Warm-Up — The Paper Exercise"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -421,8 +440,21 @@
       }
     ]
   },
-  "active": "38bfdcb346088aa5",
+  "active": "3132cbc3c8138acb",
   "lastOpenFiles": [
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
+    "docs/gmap-395/legacy/su-24/gmap-395-su24-assignment-game-art-conceptualization-.html",
+    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
+    "docs/gmap-395/legacy/su-24/gmap-395-su24-in-class-lab-basic-shader-in-unity-shader-graph-.html",
+    "DIGM 553/Documents/Python + Sensor Data — A Primer for TD.md",
+    "DIGM 553/Week 05 - Enact Thought/Week 05.md",
+    "DIGM 553/Week 05 - Enact Thought/canvas/Week 05.canvas",
+    "DIGM 553/Readings/Camus_Vick_2019_digitalSTS_3_Unfolding-Digital-Materiality.pdf",
+    "DIGM 553/Documents/Learning to Play and On Not Knowing Yet.md",
+    "DIGM 553/Week 05 - Enact Thought/assessments/Journal Entry 2 — First Impasse Report.md",
+    "DIGM 553/Documents/Reading Sensors, Reading Docs.md",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Warm-Up — The Paper Exercise.md",
+    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/reading-guides/Camus + Vinck — Unfolding Digital Materiality.md",
     "DIGM 553/Week 05 - Enact Thought/submodules/submodules.md",
     "docs/digm-553/week-05-enact-thought/submodules/submodules.html",
     "DIGM 553/Week 05 - Enact Thought/media/media.md",
@@ -432,27 +464,16 @@
     "DIGM 553/Week 04 - Design Enabling Constraints/canvas/Week 04.canvas",
     "docs/digm-553/documents/micropython/micropython.html",
     "DIGM 553/Documents/micropython/micropython.md",
-    "DIGM 553/Week 05 - Enact Thought/Week 05.md",
     "docs/digm-553/week-05-enact-thought/week-05.html",
     "docs/digm-553/week-05-enact-thought/canvas/week-05.html",
-    "DIGM 553/Week 05 - Enact Thought/canvas/Week 05.canvas",
     "docs/digm-553/week-05-enact-thought/canvas",
-    "docs/digm-553/week-05-enact-thought/submodules/digm-553-w05a-matter-networks-and-becoming-digital.html",
     "DIGM 553/Week 05 - Enact Thought/submodules/DIGM 553 - W05A - Matter-Networks and Becoming Digital.md",
     "DIGM 553/Week 05 - Enact Thought/submodules/DIGM 553 - W05B - First Impasse.md",
-    "docs/digm-553/week-05-enact-thought/submodules/digm-553-w05b-first-impasse.html",
-    "docs/digm-553/week-05-enact-thought/submodules",
-    "DIGM 553/Week 05 - Enact Thought/assessments/Journal Entry 2 — First Impasse Report.md",
-    "DIGM 553/Documents/Python + Sensor Data — A Primer for TD.md",
-    "DIGM 553/Documents/Learning to Play and On Not Knowing Yet.md",
-    "DIGM 553/Documents/Reading Sensors, Reading Docs.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/reading-guides/Camus + Vinck — Unfolding Digital Materiality.md",
     "canvas/Week 05.md",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/DIGM-553 Guide_Diagnostic Impasses_and_Matter-Network Mapping.md",
     "DIGM 553/Week 05 - Enact Thought/Week 05 - Enact Thought.md",
     "DIGM 553/Week 05 - Enact Thought/canvas/canvas.md",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/Student Ideas - wk04.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/Warm-Up — The Paper Exercise.md",
     "DIGM 553/Documents/micropython/Python + Sensor Data — A Primer for TD.md",
     "DIGM 553/Documents/micropython/TCS Color Sensor — TD Table Setup.md",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/Pasted image 20260426161827.png",
@@ -463,8 +484,6 @@
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/Pasted image 20260426161325.png",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Notes - FOR INSTRUCTOR ONLY.md",
     "DIGM 553/Documents/Signal Chain Setup Guide.md",
-    "Index.md",
-    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Feedback - Ghada Alraesi - Journals 1-2.md",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas/Week 02 Canvas.canvas",
     "DIGM 553/Week 01 - Practice Immanent Critique/canvas/Week 01 Canvas.canvas",
     "DIGM 553/Notes - FOR INSTRUCTOR ONLY/mpr121_lattice_diagram.png",

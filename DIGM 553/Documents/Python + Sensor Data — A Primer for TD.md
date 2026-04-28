@@ -155,7 +155,7 @@ grid = [
 ]
 
 # Access a single pixel: row 2, column 5
-pixel = grid[2][5]
+pixel = grid[1][5]
 
 # Loop over every pixel:
 for row in grid:
@@ -393,6 +393,8 @@ while True:
 
     # Send as a single OSC message with multiple arguments
     client.send_message("/sensor/tcs", [r, g, b, c])
+    # Send individual red channel
+    client.send_message("/sensor/tcs/r", [r])
 
     time.sleep(0.05)
 ```

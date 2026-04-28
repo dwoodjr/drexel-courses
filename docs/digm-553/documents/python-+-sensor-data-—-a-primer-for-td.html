@@ -90,7 +90,7 @@ grid <span class="token operator">=</span> <span class="token punctuation">[</sp
 <span class="token punctuation">]</span>
 
 <span class="token comment"># Access a single pixel: row 2, column 5</span>
-pixel <span class="token operator">=</span> grid<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span>
+pixel <span class="token operator">=</span> grid<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span>
 
 <span class="token comment"># Loop over every pixel:</span>
 <span class="token keyword">for</span> row <span class="token keyword">in</span> grid<span class="token punctuation">:</span>
@@ -221,6 +221,8 @@ client <span class="token operator">=</span> udp_client<span class="token punctu
 
     <span class="token comment"># Send as a single OSC message with multiple arguments</span>
     client<span class="token punctuation">.</span>send_message<span class="token punctuation">(</span><span class="token string">"/sensor/tcs"</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>r<span class="token punctuation">,</span> g<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token comment"># Send individual red channel</span>
+    client<span class="token punctuation">.</span>send_message<span class="token punctuation">(</span><span class="token string">"/sensor/tcs/r"</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>r<span class="token punctuation">]</span><span class="token punctuation">)</span>
 
     time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">0.05</span><span class="token punctuation">)</span>
 </code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-p"><p dir="auto"><strong>Sending AMG8833 thermal grid:</strong></p></div><div class="el-pre"><pre class="language-python"><code data-line="0" class="language-python is-loaded"><span class="token keyword">from</span> pythonosc <span class="token keyword">import</span> udp_client
