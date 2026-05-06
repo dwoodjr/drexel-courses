@@ -38,118 +38,19 @@
             }
           },
           {
-            "id": "ebcf268e0b9171dd",
+            "id": "9e257d32303a1dc9",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "DIGM 553/Week 05 - Enact Thought/Week 05.md",
-                "mode": "source",
-                "source": false
+                "path": "DIGM 553/Week 06 - Invent Platforms for Relation"
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "Week 05"
-            }
-          },
-          {
-            "id": "95d0902ac23492b6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "DIGM 553/Week 05 - Enact Thought/canvas/Week 05.canvas",
-                "viewState": {
-                  "x": 280.6121058757359,
-                  "y": -1853.2442870480534,
-                  "zoom": -1.333333333333333
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-layout-dashboard",
-              "title": "Week 05"
-            }
-          },
-          {
-            "id": "3132cbc3c8138acb",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DIGM 553/Readings/Camus_Vick_2019_digitalSTS_3_Unfolding-Digital-Materiality.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Camus_Vick_2019_digitalSTS_3_Unfolding-Digital-Materiality"
-            }
-          },
-          {
-            "id": "c3738000ccb7a05f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIGM 553/Documents/Learning to Play and On Not Knowing Yet.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Learning to Play and On Not Knowing Yet"
-            }
-          },
-          {
-            "id": "e7b3bb3c9ce76327",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIGM 553/Documents/Reading Sensors, Reading Docs.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Reading Sensors, Reading Docs"
-            }
-          },
-          {
-            "id": "38bfdcb346088aa5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIGM 553/Documents/Python + Sensor Data — A Primer for TD.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Python + Sensor Data — A Primer for TD"
-            }
-          },
-          {
-            "id": "9374bbf30570edc5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DIGM 553/Week 05 - Enact Thought/assessments/Journal Entry 2 — First Impasse Report.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Journal Entry 2 — First Impasse Report"
+              "title": "Week 06 - Invent Platforms for Relation"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Demo - 1",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -203,7 +104,7 @@
             }
           },
           {
-            "id": "2425d1b274174073",
+            "id": "c88deab282ab3715",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -217,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 504.5,
-    "collapsed": true
+    "width": 391.5
   },
   "right": {
     "id": "718677e73ba3287e",
@@ -382,121 +282,63 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "floating": {
-    "id": "28a2f84477a14f25",
-    "type": "floating",
-    "children": [
-      {
-        "id": "8e3679702eae6f25",
-        "type": "window",
-        "children": [
-          {
-            "id": "9704d192c77a6da4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "6280651d72fbc7ed",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "DIGM 553/Notes - FOR INSTRUCTOR ONLY/reading-guides/Camus + Vinck — Unfolding Digital Materiality.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Camus + Vinck — Unfolding Digital Materiality"
-                }
-              },
-              {
-                "id": "8e5850ebde4ef985",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Warm-Up — The Paper Exercise.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Warm-Up — The Paper Exercise"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 2576,
-        "y": 374,
-        "width": 1888,
-        "height": 1000,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "3132cbc3c8138acb",
+  "active": "9e257d32303a1dc9",
   "lastOpenFiles": [
-    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - Assignment - Game Art Conceptualization .md",
-    "docs/gmap-395/legacy/su-24/gmap-395-su24-assignment-game-art-conceptualization-.html",
-    "GMAP 395/Legacy/SU - 24/GMAP 395 - SU24 - In-Class Lab - Basic Shader in Unity Shader Graph .md",
-    "docs/gmap-395/legacy/su-24/gmap-395-su24-in-class-lab-basic-shader-in-unity-shader-graph-.html",
-    "DIGM 553/Documents/Python + Sensor Data — A Primer for TD.md",
-    "DIGM 553/Week 05 - Enact Thought/Week 05.md",
-    "DIGM 553/Week 05 - Enact Thought/canvas/Week 05.canvas",
-    "DIGM 553/Readings/Camus_Vick_2019_digitalSTS_3_Unfolding-Digital-Materiality.pdf",
-    "DIGM 553/Documents/Learning to Play and On Not Knowing Yet.md",
-    "DIGM 553/Week 05 - Enact Thought/assessments/Journal Entry 2 — First Impasse Report.md",
-    "DIGM 553/Documents/Reading Sensors, Reading Docs.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Warm-Up — The Paper Exercise.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/reading-guides/Camus + Vinck — Unfolding Digital Materiality.md",
-    "DIGM 553/Week 05 - Enact Thought/submodules/submodules.md",
-    "docs/digm-553/week-05-enact-thought/submodules/submodules.html",
-    "DIGM 553/Week 05 - Enact Thought/media/media.md",
-    "docs/digm-553/week-05-enact-thought/media/media.html",
-    "docs/digm-553/week-05-enact-thought/media",
+    "docs/digm-553/week-06-invent-platforms-for-relation/submodules/desktop.ini",
+    "docs/digm-553/week-06-invent-platforms-for-relation/assessments/journal-entry-2_first-impasse-report_doc.pdf",
+    "docs/digm-553/documents/micropython/osc_bridge.py",
+    "docs/digm-553/documents/media/screenshot-2026-05-06-160856.png",
+    "docs/digm-553/documents/media/screenshot-2026-05-06-160822.png",
+    "docs/digm-553/documents/media/screenshot-2026-05-06-160617.png",
+    "DIGM 553/Week 06 - Invent Platforms for Relation/Week 06 - Invent Platforms for Relation.md",
+    "docs/digm-553/documents/media/screenshot-2026-05-06-160606.png",
+    "docs/digm-553/documents/media/screenshot-2026-05-06-160557.png",
+    "docs/digm-553/week-06-invent-platforms-for-relation/week-06.html",
+    "DIGM 553/Week 06 - Invent Platforms for Relation/Week 06.md",
     "DIGM 553/Week 04 - Design Enabling Constraints/Documents/Speculative Proposal — Example.md",
-    "DIGM 553/Week 04 - Design Enabling Constraints/canvas/Week 04.canvas",
-    "docs/digm-553/documents/micropython/micropython.html",
-    "DIGM 553/Documents/micropython/micropython.md",
-    "docs/digm-553/week-05-enact-thought/week-05.html",
-    "docs/digm-553/week-05-enact-thought/canvas/week-05.html",
-    "docs/digm-553/week-05-enact-thought/canvas",
-    "DIGM 553/Week 05 - Enact Thought/submodules/DIGM 553 - W05A - Matter-Networks and Becoming Digital.md",
-    "DIGM 553/Week 05 - Enact Thought/submodules/DIGM 553 - W05B - First Impasse.md",
-    "canvas/Week 05.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/DIGM-553 Guide_Diagnostic Impasses_and_Matter-Network Mapping.md",
-    "DIGM 553/Week 05 - Enact Thought/Week 05 - Enact Thought.md",
-    "DIGM 553/Week 05 - Enact Thought/canvas/canvas.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/Student Ideas - wk04.md",
-    "DIGM 553/Documents/micropython/Python + Sensor Data — A Primer for TD.md",
-    "DIGM 553/Documents/micropython/TCS Color Sensor — TD Table Setup.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/Pasted image 20260426161827.png",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/SP26.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/media.md",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/Pasted image 20260426161706.png",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/Pasted image 20260426161605.png",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/SP26/media/Pasted image 20260426161325.png",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/Notes - FOR INSTRUCTOR ONLY.md",
+    "docs/digm-553/week-06-invent-platforms-for-relation/submodules/submodules.html",
+    "DIGM 553/Week 06 - Invent Platforms for Relation/submodules/submodules.md",
+    "DIGM 553/Week 06 - Invent Platforms for Relation/assessments/Journal Entry 2 — First Impasse Report.md",
+    "docs/digm-553/week-06-invent-platforms-for-relation/assessments/journal-entry-2-—-first-impasse-report.html",
+    "docs/digm-553/week-06-invent-platforms-for-relation/assessments/journal-entry-2_first-impasse-report_doc.html",
+    "docs/digm-553/week-06-invent-platforms-for-relation/assessments",
+    "docs/digm-553/week-06-invent-platforms-for-relation/submodules/digm-553-w06a-collective-critique-session-1.html",
+    "DIGM 553/Week 06 - Invent Platforms for Relation/submodules/DIGM 553 - W06A - Collective Critique Session 1.md",
+    "DIGM 553/Week 06 - Invent Platforms for Relation/canvas/Week 06.canvas",
+    "docs/digm-553/week-06-invent-platforms-for-relation/canvas/week-06.html",
+    "docs/digm-553/week-06-invent-platforms-for-relation/canvas",
+    "DIGM 553/Week 06 - Invent Platforms for Relation/submodules/DIGM 553 - W06B - Studio Time — Responding to Critique.md",
+    "DIGM 553/Documents/Sensor Data into Unity via OSC.md",
+    "DIGM 553/Week 06 - Invent Platforms for Relation/canvas/canvas.md",
+    "DIGM 553/Documents/media/Screenshot 2026-05-06 160557.png",
+    "DIGM 553/Documents/Documents.md",
+    "DIGM 553/Documents/media/Screenshot 2026-05-06 160606.png",
+    "DIGM 553/Documents/media/Screenshot 2026-05-06 160617.png",
+    "DIGM 553/Documents/media/Screenshot 2026-05-06 160856.png",
+    "DIGM 553/Documents/media/Screenshot 2026-05-06 160822.png",
+    "DIGM 553/DIGM 553 - Welcome.md",
+    "DIGM 553/Week 05 - Enact Thought/assessments/Journal Entry 2 — First Impasse Report.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Ghada A/Feedback - Ghada Alraesi - Speculative Proposal.md",
     "DIGM 553/Documents/Signal Chain Setup Guide.md",
-    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas/Week 02 Canvas.canvas",
     "DIGM 553/Week 01 - Practice Immanent Critique/canvas/Week 01 Canvas.canvas",
-    "DIGM 553/Notes - FOR INSTRUCTOR ONLY/mpr121_lattice_diagram.png",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Eloise W/Feedback - Eloise W - Journal 1 + Speculative Proposal.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Eloise W/Eloise W.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/SP26.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Nyasia S/Nyasia S.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Nyasia S/Feedback - Nyasia Singleton - Journal 1 + Speculative Proposal.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Sha L/Feedback - Long Sha - Journal 1 + Speculative Proposal.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Sarah M/Feedback - Sarah Moore - Journal 1 + Speculative Proposal.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Sarah M/Sarah M.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Micah L-F/Feedback - Micah Lockman-Fine - Journal 1 + Speculative Proposal.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Micah L-F/Micah L-F.md",
+    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Nathanael K/Nathanael K.md",
+    "DIGM 553/Week 05 - Enact Thought/canvas/Week 05.canvas",
+    "DIGM 553/Week 04 - Design Enabling Constraints/canvas/Week 04.canvas",
+    "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas/Week 02 Canvas.canvas",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week03-NEW.canvas",
     "DIGM 553/Documents/ETA-SpeculativeProposal.canvas",
-    "docs/digm-553/week-02-construct-conditions-for-speculative-pragmatism/media/pasted-image-20260407155317.png",
-    "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/pasted-image-20260414084026.png",
-    "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/screenshot-e1585243380975-2281196920.png",
-    "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/pythagoras-conceived-the-universe-as-an-immense-monochord-with-its-single-string.png",
-    "docs/digm-553/week-03-epistemic-tools-+-entanglement/media/pasted-image-20260414084208.png",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/newtest.canvas",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week 03.canvas",
-    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
-    "DIGM 553/DIGM 553.canvas"
+    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas"
   ]
 }

@@ -5,6 +5,8 @@ data.json
 # Catches: Notes/, Notes - FOR INSTRUCTOR ONLY/, Notes - Anything Else/
 **/*Notes*/
 **/*Notes*/**
+**/DIGM 553/Notes - FOR INSTRUCTOR ONLY/
+**/DIGM 553/Grading - FOR INSTRUCTOR ONLY/
 
 # Obsidian internal
 .obsidian/workspace.json

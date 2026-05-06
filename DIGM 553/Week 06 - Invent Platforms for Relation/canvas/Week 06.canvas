@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"subA","type":"file","file":"DIGM 553/Week 06 - Invent Platforms for Relation/submodules/DIGM 553 - W06A - Collective Critique Session 1.md","x":-760,"y":-180,"width":760,"height":480},
+		{"id":"subB","type":"file","file":"DIGM 553/Week 06 - Invent Platforms for Relation/submodules/DIGM 553 - W06B - Studio Time — Responding to Critique.md","x":320,"y":-160,"width":700,"height":500},
+		{"id":"thread_Making_Public","type":"file","file":"DIGM 553/Threads/Making Public.md","x":320,"y":460,"width":300,"height":380,"color":"5"},
+		{"id":"thread_Failure_as_Method","type":"file","file":"DIGM 553/Threads/Failure as Method.md","x":740,"y":460,"width":300,"height":380,"color":"5"},
+		{"id":"thread_Collective_Practice","type":"file","file":"DIGM 553/Threads/Collective Practice.md","x":-540,"y":440,"width":300,"height":340,"color":"5"},
+		{"id":"title","type":"text","text":"# Week 06: Invent Platforms for Relation\n\nCollective critique as relational practice. Critique activates potential — it does not adjudicate quality.","x":-120,"y":-640,"width":600,"height":180,"color":"1"}
+	],
+	"edges":[
+		{"id":"e_title_subA","fromNode":"title","fromSide":"bottom","toNode":"subA","toSide":"top"},
+		{"id":"e_title_subB","fromNode":"title","fromSide":"bottom","toNode":"subB","toSide":"top"},
+		{"id":"e_subA_thread_Collective_Practice","fromNode":"subA","fromSide":"bottom","toNode":"thread_Collective_Practice","toSide":"top"},
+		{"id":"e_subB_thread_Making_Public","fromNode":"subB","fromSide":"bottom","toNode":"thread_Making_Public","toSide":"top"},
+		{"id":"e_subB_thread_Failure_as_Method","fromNode":"subB","fromSide":"bottom","toNode":"thread_Failure_as_Method","toSide":"top"}
+	]
+}

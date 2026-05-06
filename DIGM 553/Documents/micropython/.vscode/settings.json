@@ -13,5 +13,6 @@
     ],
     "circuitpythonsync.drivepath": "D:",
     "circuitpythonsync.cpboardname": "adafruit_qtpy_rp2040",
-    "python-envs.defaultEnvManager": "ms-python.python:system"
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python.terminal.activateEnvironment": false
 }
