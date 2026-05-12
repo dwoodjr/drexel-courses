@@ -54,6 +54,18 @@ What is the conversation doing? What does the discussion need? Blue hat thinking
 
 ---
 
+Videos on The Six Thinking Hats Method:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/la19ZNyvfLA?si=pMR9ah_Tqj4yDeFH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W3aWduLGM5I?si=X8YvSBJv1ZpVIbh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/maWEAnSegcc?si=RfRzd2aahL4ycs2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## How the hats work in the room
 
 You will not be told which hat is in use at any given moment.

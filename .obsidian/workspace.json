@@ -38,15 +38,17 @@
             }
           },
           {
-            "id": "9e257d32303a1dc9",
+            "id": "b4650d4ef1e13222",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "DIGM 553/Week 06 - Invent Platforms for Relation"
+                "file": "DIGM 553/Week 06 - Invent Platforms for Relation/submodules/DIGM 553 - W06A - Collective Critique Session 1.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 06 - Invent Platforms for Relation"
+              "title": "DIGM 553 - W06A - Collective Critique Session 1"
             }
           }
         ],
@@ -104,7 +106,7 @@
             }
           },
           {
-            "id": "c88deab282ab3715",
+            "id": "faec00dfceeb6be5",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -253,8 +255,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5,
-    "collapsed": true
+    "width": 348.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -282,8 +283,17 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "9e257d32303a1dc9",
+  "active": "b4650d4ef1e13222",
   "lastOpenFiles": [
+    "DIGM 553/Week 06 - Invent Platforms for Relation/submodules/DIGM 553 - W06A - Collective Critique Session 1.md",
+    "DIGM 553/Week 07 - Embrace Failure/submodules/DIGM 553 - W07A - Mid-term Presentations — Failure as Aperture.md",
+    "DIGM 553/Week 07 - Embrace Failure/submodules/DIGM 553 - W07B - Journal Installment 2 — Reflection.md",
+    "DIGM 553/Week 04 - Design Enabling Constraints/Documents/Speculative Proposal — Example.pdf",
+    "DIGM 553/Week 04 - Design Enabling Constraints/Week 04 - Design Enabling Constraints.md",
+    "DIGM 553/Documents/ETA-SpeculativeProposal.canvas",
+    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas",
+    "Index.md",
+    "DIGM 553/Documents/Sensor Data into Unity via OSC.md",
     "docs/digm-553/week-06-invent-platforms-for-relation/submodules/desktop.ini",
     "docs/digm-553/week-06-invent-platforms-for-relation/assessments/journal-entry-2_first-impasse-report_doc.pdf",
     "docs/digm-553/documents/micropython/osc_bridge.py",
@@ -303,12 +313,8 @@
     "docs/digm-553/week-06-invent-platforms-for-relation/assessments/journal-entry-2_first-impasse-report_doc.html",
     "docs/digm-553/week-06-invent-platforms-for-relation/assessments",
     "docs/digm-553/week-06-invent-platforms-for-relation/submodules/digm-553-w06a-collective-critique-session-1.html",
-    "DIGM 553/Week 06 - Invent Platforms for Relation/submodules/DIGM 553 - W06A - Collective Critique Session 1.md",
     "DIGM 553/Week 06 - Invent Platforms for Relation/canvas/Week 06.canvas",
-    "docs/digm-553/week-06-invent-platforms-for-relation/canvas/week-06.html",
-    "docs/digm-553/week-06-invent-platforms-for-relation/canvas",
     "DIGM 553/Week 06 - Invent Platforms for Relation/submodules/DIGM 553 - W06B - Studio Time — Responding to Critique.md",
-    "DIGM 553/Documents/Sensor Data into Unity via OSC.md",
     "DIGM 553/Week 06 - Invent Platforms for Relation/canvas/canvas.md",
     "DIGM 553/Documents/media/Screenshot 2026-05-06 160557.png",
     "DIGM 553/Documents/Documents.md",
@@ -329,16 +335,11 @@
     "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Sha L/Feedback - Long Sha - Journal 1 + Speculative Proposal.md",
     "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Sarah M/Feedback - Sarah Moore - Journal 1 + Speculative Proposal.md",
     "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Sarah M/Sarah M.md",
-    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Micah L-F/Feedback - Micah Lockman-Fine - Journal 1 + Speculative Proposal.md",
-    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Micah L-F/Micah L-F.md",
-    "DIGM 553/Grading - FOR INSTRUCTOR ONLY/SP26/Nathanael K/Nathanael K.md",
     "DIGM 553/Week 05 - Enact Thought/canvas/Week 05.canvas",
     "DIGM 553/Week 04 - Design Enabling Constraints/canvas/Week 04.canvas",
     "DIGM 553/Week 02 - Construct Conditions for Speculative Pragmatism/canvas/Week 02 Canvas.canvas",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week03-NEW.canvas",
-    "DIGM 553/Documents/ETA-SpeculativeProposal.canvas",
     "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/newtest.canvas",
-    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week 03.canvas",
-    "DIGM 553/Documents/Research-Creation Cascade — Inspirational Examples.canvas"
+    "DIGM 553/Week 03 - Epistemic Tools + Entanglement/canvas/Week 03.canvas"
   ]
 }
